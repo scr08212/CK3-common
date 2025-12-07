@@ -6,9 +6,7 @@
 크루세이더 킹즈3 파일들
 
 common - 수치 데이터
-gui - gui
 events - 이벤트
-localization - 번역
 
 #### WIKI
 크루세이더 킹즈3 위키 
