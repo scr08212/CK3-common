@@ -1,2 +1,18 @@
-# CK3-common
-모드개발 저장용
+# CK3
+
+크루세이더 킹즈 모드 개발에 참고할것들
+
+#### Files
+크루세이더 킹즈3 파일들
+
+common - 수치 데이터
+gui - gui
+events - 이벤트
+localization - 번역
+
+#### WIKI
+크루세이더 킹즈3 위키 
+
+
+#### PDF
+PDF 형식 중세 유럽 관련 문헌 모음
