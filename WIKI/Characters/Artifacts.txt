@@ -1,0 +1,2445 @@
+{{Version|1.18}}
+[[File:Inventory.png|thumb|350px|Inventory artifacts]]
+Artifacts are objects unique in the world that give various bonuses to the character using them and are always inherited by the primary heir. Artifacts are divided into two categories: inventory artifacts and court artifacts.
+* '''Inventory artifacts''' are worn by a character via their inventory. Each character can wear up to 9 artifacts: a crown, a journal, a weapon, an armor, a regalia and 4 trinkets.
+* '''Court artifacts''' are displayed in a character's royal court and thus require the Royal Court DLC. Each court can display up to 15 artifacts: 3 large wall ornaments, 3 small wall ornaments, 2 pieces of furniture, 2 book items, 4 pedestal items, and a throne.
+
+Artifacts may be given as gifts to other characters. This will grant {{green|+20}} {{iconify|Opinion}} if the receiving character can use the artifact and {{green|+5}} {{iconify|Opinion}} if it cannot.
+
+Inventory artifacts that are not worn as well as court artifacts can be damaged or lost if the realm capital is besieged. If an artifact is lost during a siege its previous owner will gain a claim on it. All house heads will have a claim on the Dynasty Banner of their dynasty. Having a claim allows a character to demand the return of their artifact although accepting requires sufficiently superior military strength. More importantly, artifact claims allow the claimant to use the Artifact Claim War casus belli or challenge the artifact owner to a duel for the artifact.
+
+{{expansion|cor}}
+Rulers with the [[File:Uncrowned.png|24px]] Uncrowned law cannot use [[File:Artifact regalia.png|24px]] Regalia artifacts if their religion is Hinduism, Buddhism, Jainism, Hausa, Finno-Ugric or Slavic and cannot use [[File:Artifact crown.png|24px]] Crown artifacts if their religion is any other. But owning such an artifact is necessary to increase [[File:Activity coronation.png|24px]] Coronation activity options.
+
+== Rarity ==
+All artifacts have a Rarity, which determines the artifact's Durability, cost to repair and how much {{iconify|Gold}} is obtained if the artifact is manually destroyed.
+
+All artifacts have a Durability, which represents the integrity of the artifact. When it reaches zero, the artifact is destroyed. If a non-historical artifact is inherited by someone who is not a close family member, it will also lose Durability. All artifacts have a quality rating that determines their Durability. All artifacts will lose 1 Durability each year except for artifacts displayed in the royal court. Durability loss can be reduced by employing an [[File:Antiquarian court position.png|24px]] Antiquarian, which also enables artifacts to be reforged. Reforging an artifact costs {{iconify|Gold}}, but will replenish its Durability. When reforging an artifact, its owner will always have the option to turn it into a Pedestal Item artifact, if it's not one already. Doing so will also change an artifact's effects. As adventurers cannot employ an [[File:Antiquarian court position.png|24px]] Antiquarian, they cannot reforge an artifact, but can still repair one.
+
+The cost of repairing an artifact is influenced by the remaining durability. Base repair cost also depends on an internal not visible ingame value calculation, some famed artifacts will count as illustrious for repairs for example. Base repair costs in the table below are a guideline.
+
+AI rulers will never go to war over a Common artifact.
+{| class="mildtable" style="text-align: center;
+! rowspan=2 | Quality
+! rowspan=2 | Durability (years)
+! colspan=5 | {{icon|gold}} Repair cost per remaining durability
+! rowspan=2 | {{iconify|Gold}} if destroyed
+! rowspan=2 | {{icon|prestige}}{{icon|piety}} Artifact claim cost
+! rowspan=2 | Can be destroyed
+|-
+! 80-100%
+! 50-79%
+! 20-49%
+! 5-19%
+! 0-4%
+|-
+| <span style="color:brown;">'''Common'''</span>
+| 60
+| 6
+| 13
+| 26
+| 39
+| 65
+| 40
+| 500
+| {{icon|yes}}
+|-
+| {{green|Masterwork}}
+| 75
+| 12
+| 25
+| 50
+| 75
+| 125
+| 80
+| 1000
+| {{icon|yes}}
+|-
+| <span style="color:blue;">'''Famed'''</span>
+| 100
+| 25
+| 50
+| 100
+| 150
+| 250
+| 150
+| 1500
+| Requires Aniconism tenet
+|-
+| <span style="color:purple;">'''Illustrious'''</span>
+| 150
+| 62
+| 125
+| 250
+| 375
+| 625
+| 250
+| 2000
+| Requires Aniconism tenet
+|}
+
+== Creating artifacts ==
+For rulers the main way of obtaining artifacts is via the ''Commission Artifact'' decision, which allows them to choose what type of artifact they want created and costs 100 {{iconify|Gold}}. While an artifact is created various events can take place, allowing the ruler to pay further to produce a higher quality artifact. Pedestal Item artifacts cannot be created this way.
+
+For adventurers the main way of obtaining artifacts is by visiting City holdings and buying them with {{iconify|Gold}}. A Golden Coat of the Swan armor can be obtained via the Knight of the Swan decision.
+
+The Commission Epic decision will create a Book artifact if the character has a royal court and a Journal artifact if the character does not have a royal court.
+
+If a character wins a game of chess there is a 5% chance to gain a trinket artifact called Lucky Go Board if the character is in Eastern Asia and Lucky Chess Board if the character is somewhere else. The chance is increased to 25% if the game was played for a county. When offered, the artifact can also be destroyed to lose 10 {{iconify|Stress}} or improved for a moderate amount of {{iconify|Gold}}.
+
+If the {{iconify|All Under Heaven}} DLC is installed, tributaries of China can obtain a Fine Seal of Investiture regalia by paying tribute while they have sufficient Imperial Grace.
+
+If a character has a Royal Court artifacts can be obtained the following ways:
+* All characters will have a House Banner large wall ornament. If they lose all {{iconify|Kingdom}} and {{iconify|Empire}} titles the character who took the last title will get the artifact but if they're not part of the same house only the Court Grandeur bonus will be given.
+* Successful [[File:Activity hunt.png|24px]] Hunt activities will grant a small wall ornament.
+* When a pet dies there will be the option to pay 10-20 {{iconify|Gold}} to gain a small wall ornament.
+* Book artifacts can be obtained via the University Visit activity.
+* If a character wins a battle against a Noble opponent there is a chance to gain a Warbanner large wall ornament. Alternatively the artifact can be destroyed to gain 75 {{iconify|Prestige}}.
+* If a character has the {{iconify|Arbitrary}}, {{iconify|Deceitful}}, {{iconify|Callous}}, {{iconify|Sadistic}} or {{iconify|Vengeful}} trait executing a prisoner has a 25% chance to be offered a Skull pedestal item. If the prisoner was a Nemesis the option will always be given. If the ruler does not have an [[File:Executioner court position.png|24px]] Executioner it will lose {{red|-30}} {{iconify|Opinion}} with the Personal Physician or Antiquarian.
+* If the {{iconify|All Under Heaven}} DLC is installed, all independent rulers with {{iconify|Celestial}}, {{iconify|Ritsuryō}}, {{iconify|Meritocratic}} and {{iconify|Meritocratic Khanate}} government will have an Imperial Seal pedestal item.
+* If the {{iconify|Friends and Foes}} DLC is installed, when a nemesis dies characters with the {{iconify|Callous}}, {{iconify|Sadistic}} or {{iconify|Vengeful}} trait can gain a Skull Goblet pedestal item. The option will not be available if the nemesis' faith has the Sky Burials funerary tradition.
+
+=== Inspirations ===
+{{expansion|roc|rtp}}
+Landless characters occasionally gain an Inspiration, allowing them to work on creating an artifact. Characters older than 13 can sponsor the inspirations with {{iconify|Gold}}, with the cost depending  on how skilled the inspired character is. Once an inspired character is financed they will start working on the artifact. The artifact's effects will depend on the inspired character's traits. The artifact quality is decided by an average of the relevant skills plus modifiers from some cultures, buildings or events. There are two ways for characters to gain inspirations:
+* Inspired characters can randomly appear in royal courts. The greater a court's Grandeur the higher the chance that an inspired character will appear.
+* Followers of adventurers who have the Inspiration is Everywhere lifestyle perk can randomly gain inspirations.
+
+There are multiple types of Inspiration, which determine what type of artifact will be created. If an inspiration can create more than one type of artifact there's a small chance the sponsor will be allowed to choose what sort of artifact they want created.
+
+{| class="mildtable plainlist"
+! Inspiration
+! Artifact type
+! Skill
+! Average of skills
+|-
+| Adventure
+| {{icon|yes}} Sponsor's choice
+| 
+* {{iconify|Diplomacy}}
+* {{iconify|Learning}}
+* {{iconify|Prowess}}
+|
+* ({{green|1.5*}}{{icon|Diplomacy}} + {{green|1.5*}}{{icon|Learning}} + {{green|3*}}{{icon|Prowess}}){{green| / 4 }}
+|-
+| Alchemy
+| {{icon|unknown}} Pedestal Item
+| {{iconify|Learning}}
+| {{icon|Learning}}
+|-
+| Armor
+| 
+* [[File:Artifact armor.png|24px]] Armor
+* {{icon|unknown}} Large Wall Ornament
+* {{icon|unknown}} Small Wall Ornament
+| 
+* {{iconify|Martial}}
+* {{iconify|Prowess}}
+| 
+* ({{icon|Martial}} + {{green|2*}}{{icon|Prowess}}){{green| / 2}}
+|-
+| Artisan
+| 
+* {{icon|unknown}} Furniture
+* {{icon|unknown}} Pedestal Item
+* {{icon|unknown}} Throne
+* [[File:Artifact trinket.png|24px]] Trinket
+| {{iconify|Stewardship}}
+| {{icon|Stewardship}}
+|-
+| Book
+| 
+* [[File:Doctrine pluralism righteous.png|24px]] Book
+* [[File:Artifact journal.png|24px]] Journal
+| {{iconify|Learning}}
+| {{icon|Learning}}
+|-
+| Metalsmith
+| 
+* [[File:Artifact crown.png|24px]] Crown
+* [[File:Artifact regalia.png|24px]] Regalia
+* [[File:Artifact trinket.png|24px]] Trinket
+* {{icon|unknown}} Pedestal Item
+| 
+* {{iconify|Diplomacy}}
+* {{iconify|Stewardship}}
+* {{iconify|Prowess}}
+|
+* ({{icon|Diplomacy}} + {{green|2*}}{{icon|Stewardship}} + {{green|2*}}{{icon|Prowess}}){{green| / 4 }}
+|-
+| Weapon
+| [[File:Artifact weapon.png|24px]] Weapon
+| 
+* {{iconify|Martial}}
+* {{iconify|Prowess}}
+|
+* ({{icon|Martial}} + {{green|2*}}{{icon|Prowess}}){{green| / 2}}
+|-
+| Weave
+| {{icon|unknown}} Large Wall Ornament
+| {{iconify|Diplomacy}}
+|
+* {{icon|Diplomacy}}
+|}
+Completing an Adventure inspiration will grant the sponsored character the {{icon|adventurer}} Veteran Adventurer trait.
+
+=== Travels journal ===
+{{expansion|rtp}}
+Adventurers can take the ''The Travels of [adventurer name]'' decision to create a Journal artifact with the same name. Based on the number of points of interest visited, the artifact will give the following:
+{| class="mildtable plainlist" style="text-align: center;"
+! Points of Interest visited !! [[File:Focus invalid.png|24px]] Lifestyle Experience !! Rarity
+|-
+| '''26-35''' || {{green|+10%}} || <span style="color:brown;">'''Common'''</span>
+|-
+| '''36-47''' || {{green|+20%}} || {{green|Masterwork}}
+|-
+| '''48-59''' || {{green|+30%}} || <span style="color:blue;">'''Famed'''</span>
+|-
+| '''60+''' || {{green|+40%}} || <span style="color:purple;">'''Illustrious'''</span>
+|}
+
+=== Icons ===
+{{expansion|rtp}}
+Icons are artifacts that can be created via the ''Commission Icon'' decision. There are three artifact options to choose from when taking the decision:
+
+All characters can choose to create a Trinket artifact. For landed rulers the artifact will have {{green|Masterwork}} rarity and provide {{green|+0.3}} or {{green|+0.4}} monthly {{iconify|Piety}}. For landless rulers there is a small chance the artifact will have <span style="color:brown;">'''Common'''</span> rarity and provide {{green|+0.1}} or {{green|+0.2}} monthly {{iconify|Piety}}.
+
+Rulers with a royal court an choose to create a Large Wall Ornament or Small Wall Ornament artifact. The artifact will have two of the following bonuses:
+* {{icon|piety}} Monthly piety
+* {{icon|gold}} Temple holding and building construction cost reduction
+* {{icon|gold}} Zealot vassal tax contribution
+* {{icon|opinion}} Zealot vassal opinion
+* {{icon|opinion}} Clergy opinion
+
+== Historical artifacts ==
+Historical artifacts have mostly fixed effects. If they are lost or the required title does not exist in the chosen start date they may be discovered randomly through Adventure inspirations. If a character obtains an artifact it lacks the requirements to use only the Court Grandeur bonus will be given. Artifacts that need a certain religion can be used if the faith has the syncretism tenet for the required religion.
+{| class="mildtable plainlist sortable"
+! Artifact
+! Type
+! Effects
+! Effects requirements
+! Source title
+! width=25% | Description
+! DLC
+|-
+| '''Mantle of the Prophet'''
+| Regalia
+| 
+* {{icon|renown}} {{green|+5%}} Monthly Renown
+* {{icon|piety islam}} {{green|+25%}} Monthly Piety
+* {{icon|prestige}} {{green|+0.25}} Monthly Prestige
+* {{icon|gold}} {{green|+10%}} Same Faith Domain Taxes
+| {{icon|piety islam}} Islam religion
+| {{icon|duchy}} Sunni Caliphate
+| ''Inherited for centuries from one Caliph to the next, this is the mantle of the Prophet. It is traditionally worn by the Caliph during all festive holidays, giving him an air of overpowering tranquility and dignity.''
+| 
+|-
+| '''Papal Tiara'''
+| Crown
+| 
+* {{icon|piety}} {{green|+0.4}} Monthly Piety if Theocratic
+* {{icon|learning lifestyle}} {{green|+10%}} Monthly Learning Lifestyle Experience if Theocratic
+* {{icon|prestige}} {{green|+1}} Monthly Prestige if not Theocratic
+| {{icon|yes}} None
+| {{icon|kingdom}} Papacy
+| ''This is the jeweled mitre with a golden crown which symbolizes the Papal Office. But wouldn't it look most resplendent atop your head?''
+| 
+|-
+| '''Achaemenid Drinking Vessel'''
+| Pedestal Item
+| 
+* {{icon|health}} {{green|Small Boost}} Disease Resistance Health
+* {{icon|prestige}} {{green|+0.2}} Monthly Prestige
+* {{icon|stress gain}} {{green|-8%}} Stress Gain
+* {{icon|grandeur}} {{green|+3}} Court Grandeur
+| {{icon|yes}} None
+| {{icon|kingdom}} Kingdom of Saffarid
+| ''This ornate cup terminates in the shape of a goat. It has been made in forgotten times, but it's beauty has not faded.''
+| {{iconify|Royal Court}}
+|-
+| '''Curtana'''
+| Pedestal Item
+| 
+* {{icon|renown}} {{green|+5%}} Monthly Renown
+* {{icon|prestige}} {{green|+0.5}} Monthly Prestige
+* {{icon|knight}} {{green|+10%}} Knights Effectiveness
+* {{icon|scheme success chance}} {{green|+50%}} Seduce Scheme Power
+* {{icon|grandeur}} {{green|+3}} Court Grandeur
+| {{icon|yes}} None
+| {{icon|kingdom}} Kingdom of England
+| ''This is claimed to be Curtana, the sword of Mercy. The legendary sword was once wielded by Tristan against Morholt. This would also be why the tip of the sword is missing, a piece lost to the thick skull of the Irish giant.''
+| {{iconify|Royal Court}}
+|-
+| '''Derafsh Kaviani'''
+| Large Wall Ornament
+| 
+* {{icon|renown}} {{green|+0.04}} Monthly Renown
+* {{icon|prestige}} {{green|+0.25}} Monthly Prestige
+* {{icon|opinion}} {{green|+5}} Persian Opinion
+* {{icon|opinion}} {{green|+5}} Popular Opinion
+* {{icon|advantage}} {{green|+4}} Advantage in Counties with the same Cultural Heritage
+* {{icon|grandeur}} {{green|+3}} Court Grandeur
+| {{icon|heritage}} Iranian heritage
+| {{icon|kingdom}} Kingdom of Makran
+| ''This is the legendary Derafsh Kaviani — the royal standard of the fallen Sassanid Empire. A symbol of identity and pride for the heirs of the Empire of Persia.''
+| {{iconify|Royal Court}}
+|-
+| '''Exotic Dagger'''
+| Pedestal Item
+| 
+* {{icon|diplomacy}} {{green|+1}} Diplomacy
+* {{icon|prestige}} {{green|+0.25}} Monthly Prestige
+* {{icon|innovation}} {{green|+10%}} Cultural Fascination Progress
+* {{icon|grandeur}} {{green|+6}} Court Grandeur
+| {{icon|yes}} None
+| {{icon|kingdom}} Kingdom of Silla
+| ''This exquisitely crafted dagger, hilted and sheathed in intricate gold inlaid with precious stones, is a prized possession of the Silla court, and is said to have come from lands far to the west.''
+| {{iconify|Royal Court}}
+|-
+| '''Head of St. Edmund'''
+| Pedestal Item
+| 
+* {{icon|piety}} {{green|+0.3}} Monthly Piety
+* {{icon|grandeur}} {{green|+1}} Court Grandeur
+* {{icon|unknown}} One other random effect
+| {{icon|piety}} Christianity religion
+| {{icon|kingdom}} Kingdom of England
+| ''Edmund demanded he would become a Saint from the moment of his birth. Legends tell he was a King of East Anglia who volunteered as a sacrifice to the Vikings rather than let his people be slaughtered by them.''
+| {{iconify|Royal Court}}
+|-
+| '''Skull Cap of Charlemagne'''
+| Pedestal Item
+|
+* {{icon|gold}} {{green|-5.00%}} Men-at-Arms Maintenance
+* {{icon|knight}} {{green|+10%}} Knight Effectiveness
+* {{icon|opinion}} {{green|+10}} Powerful Vassal Opinion
+* {{icon|grandeur}} {{green|+4}} Court Grandeur
+| {{icon|yes}} None
+| {{icon|kingdom}} Kingdom of France
+| ''The very pate of Charlemagne is held within this box. Perhaps his wisdom shall descend upon the owner.''
+| {{iconify|Royal Court}}
+|-
+| '''Spear of the Prophet'''
+| Pedestal Item
+| 
+* {{icon|knight}} {{green|+20%}} Knight Effectiveness
+* {{icon|piety islam}} {{green|+3%}} Monthly Piety per Knight
+* {{icon|levies}} {{green|+50%}} Same Faith Levy Reinforcement Rate
+* {{icon|opinion}} {{green|+5}} Same Faith Clan Ruler Opinion
+* {{icon|grandeur}} {{green|+6}} Court Grandeur
+| {{icon|piety islam}} Islam religion
+| {{icon|duchy}} Sunni Caliphate
+| ''Reportedly, the Spear of Muhammad, brought as a gift by the ruler of Abyssinia to al-Zubayr bin al-Awwam.''
+| {{iconify|Royal Court}}
+|-
+| '''Stone of Scone'''
+| Throne
+| 
+* {{icon|renown}} {{green|+0.04}} Monthly Renown
+* {{icon|prestige}} {{green|+0.25}} Monthly Prestige
+* {{icon|gold}} {{green|-5%}} Spearmen Maintenance
+* {{icon|opinion}} {{green|+5}} Gaelic Opinion
+* {{icon|opinion}} {{green|+5}} Scots Opinion
+* {{icon|grandeur}} {{green|+3}} Court Grandeur
+* {{icon|unknown}} One other random effect
+| {{icon|yes}} None
+| {{icon|kingdom}} Kingdom of Scotland
+| ''A simple seat of red sandstone on which all monarchs of Alba have been crowned since King Kenneth I.''
+| {{iconify|Royal Court}}
+|-
+| '''Sword of God'''
+| Pedestal Item
+| 
+* {{icon|renown}} {{green|+0.1}} Monthly Renown
+* {{icon|dread}} {{green|+15}} Natural Dread
+* {{icon|prestige}} {{green|+0.02}} Monthly Prestige per Dread
+* {{icon|grandeur}} {{green|+4}} Court Grandeur
+| {{icon|yes}} None
+| {{icon|kingdom}} Kingdom of Hungary
+| ''The legendary sword of the Hun chief Attila, the Scourge of God. Also known as the Sword of Mars.''
+| {{iconify|Royal Court}}
+|-
+| '''Chalice of Dona Urraca'''
+| Trinket
+| 
+* {{icon|piety}} {{green|+0.2}} Monthly Piety
+* {{icon|gold}} {{green|-10%}} Temple Holding and Buildings Construction Cost
+* {{icon|opinion}} {{green|+10}} Clergy Opinion
+* {{icon|grandeur}} {{green|+1}} Court Grandeur
+| {{icon|piety}} Christianity religion
+| {{icon|county}} County of Zamora
+| ''A ritual chalice carved from deepest onyx and encrusted with jewels and gold latticework. Commissioned by Infanta Urraca to honor the Church.''
+| {{iconify|Fate of Iberia}}
+|-
+| '''Incense Burner Sculpture'''
+| Furniture
+| 
+* {{icon|health}} {{green|Small Boost}} Disease Resistance Health
+* {{icon|stress gain}} {{green|-8%}} Stress Gain
+* {{icon|opinion}} {{green|+8}} Attraction Opinion
+* {{icon|grandeur}} {{green|+3}} Court Grandeur
+* {{icon|unknown}} Four other random effects
+| {{icon|yes}} None
+| {{icon|kingdom}} Kingdom of Tahirid
+| ''This incense burner of feline shape spouts fragrant fumes from the many holes on its body. The head with gem-set eyes has a hinge so as that one might place burning incense inside.''
+| {{iconify|Legacy of Persia}}
+|-
+| '''Oxus Bracelet'''
+| Pedestal Item
+| 
+* {{icon|prestige}} {{green|+0.28}} Monthly Prestige
+* {{icon|grandeur}} {{green|+4}} Court Grandeur
+* {{icon|unknown}} One other random effect
+| {{icon|yes}} None
+| {{icon|kingdom}} Kingdom of Samanid
+| ''This bracelet of wonderful craftmanship is said to hail from the land of Transoxiana. Though its inlay of enamel and semi-precious stones is long lost, the gold retain its luster. Bracelets like this were gifts of honor at the courts of the King of Kings in antiquity, so perhaps it was once worn by a great lord in Babylon.''
+| {{iconify|Legacy of Persia}}
+|-
+| '''Sassanian Sword'''
+| Regalia
+| 
+* {{icon|prestige}} {{green|+0.8}} Monthly Prestige
+* {{icon|knight}} {{green|+2}} Number of Knights
+* {{icon|unknown}} Four other random effects
+| {{icon|yes}} None
+| {{icon|county}} County of Mazandaran
+| ''Said to be a remnant of the old Sassanian era, this sword is embellished with several gemstones and features intricate patterns, making it a magnificent sight to behold. Though nowadays it is too fragile to be taken into battle, perhaps this sword was once held by a hero now lost to time?''
+| {{iconify|Legacy of Persia}}
+|-
+| '''Banke no Hōken'''
+| Pedestal Item
+| 
+* {{icon|renown}} {{green|+8%}} Monthly Renown
+* {{icon|martial}} {{green|+1}} Martial per Level of Devotion
+* {{icon|toughness}} {{green|+20%}} Archer Cavalry Toughness
+* {{icon|grandeur}} {{green|+6}} Court Grandeur
+| {{icon|yes}} None
+| {{icon|kingdom}} Chrysanthemum Throne
+| ''This sword was wielded by the famed general Sakanoue Tamuramaro, and is said to protect the imperial court. It was presented to the palace by Saga Ten'nō upon Tamuramaro's death.''
+| {{iconify|All Under Heaven}}
+|-
+| '''Shichishitō'''
+| Pedestal Item
+| 
+* {{icon|diplomacy}} {{green|+1}} Diplomacy
+* {{icon|prestige}} {{green|+0.25}} Monthly Prestige
+* {{icon|scheme potential}} {{green|+5%}} Personal Scheme Potential
+* {{icon|grandeur}} {{green|+8}} Court Grandeur
+| {{icon|yes}} None
+| {{icon|kingdom}} Chrysanthemum Throne
+| ''The 'Seven-branched Sword', an iron blade with seven flame-like forks, is said to have been a gift of friendship to the Ten'nō, sent across the sea by the king of Baekje long ago.''
+| {{iconify|All Under Heaven}}
+|}
+
+=== Byzantine artifacts ===
+The following historical artifacts will start owned by the Byzantine emperor.
+{| class="mildtable plainlist sortable"
+! Artifact
+! Type
+! Effects
+! Effects requirements
+! Year
+! width=30% | Description
+! DLC
+|-
+| '''Monomachus Crown'''
+| Crown
+| 
+* {{icon|prestige}} {{green|+0.25}} Monthly Prestige
+* {{icon|martial}} {{green|+1}} Martial per Stress Level
+* {{icon|intrigue}} {{green|+1}} Intrigue per Stress Level
+| {{icon|yes}} None
+| 
+* 1066
+* 1178
+| ''This is a crown comprised of golden paneled portraits depicting Constantine IX Monomachus, his wife Zoe, sister Theodora, and some allegorical dancing figures.''
+| 
+|-
+| '''Crown of Justinian'''
+| Pedestal Item
+| 
+* {{icon|renown}} {{green|+5%}} Monthly Renown
+* {{icon|domain}} {{green|+1}} Domain Limit
+* {{icon|vassal}} {{green|+10}} Vassal Limit
+* {{icon|grandeur}} {{green|+4}} Court Grandeur
+| {{icon|yes}} None
+| Any
+| ''This is the ancient crown of Emperor Justinian: golden and inlaid with precious stones, it still holds all the authority and learning of the glorious ruler.''
+| {{iconify|Royal Court}}
+|-
+| '''Crown of Nikephoros II Phokas'''
+| Pedestal Item
+| 
+* {{icon|martial lifestyle}} {{green|+10%}} Monthly Martial Lifestyle Experience
+* {{icon|gold}} {{green|-10%}} Heavy Cavalry Maintenance
+* {{icon|grandeur}} {{green|+4}} Court Grandeur
+| {{icon|yes}} None
+| 
+* 1066
+* 1178
+| ''This is the crown of one of the finest tacticians the Imperial line has ever seen. Failure in wars west of the Empire, but conqueror toward the east.''
+| {{iconify|Royal Court}}
+|-
+| '''Image of Edessa'''
+| Pedestal Item
+| 
+* {{icon|piety}} {{green|+1}} Monthly Piety
+* {{icon|gold}} {{green|-20%}} Temple Holding and Buildings Construction Cost
+* {{icon|opinion}} {{green|+5}} Clergy Opinion
+* {{icon|grandeur}} {{green|+3}} Court Grandeur
+| {{icon|piety}} Christianity religion
+| Any
+| ''This is the Mandylion, a cloth bearing a miraculous image of the face of Jesus, Christianity's first icon. Its origin is connected to king Abgar of Edessa.''
+| {{iconify|Royal Court}}
+|-
+| '''Pentapyrgion'''
+| Furniture
+| 
+* {{icon|renown}} {{green|+0.04}} Monthly Renown
+* {{icon|prestige}} {{green|+0.25}} Monthly Prestige
+* {{icon|levies}} {{green|+4%}} Powerful Vassal Councilor Levy Contribution
+* {{icon|opinion}} {{green|+5}} Powerful Vassal Opinion
+* {{icon|grandeur}} {{green|+3}} Court Grandeur
+| {{icon|yes}} None
+| Any
+| ''This elegant cupboard was built by Emperor Theophilos to display vases, crowns and other valuables in the Chrysotriklinos, the reception hall of the Great Palace of Constantinople.''
+| {{iconify|Royal Court}}
+|-
+| '''Hydraulic Organ'''
+| Furniture
+| 
+* {{icon|learning}} {{green|+1}} Learning per Level of Influence
+* {{icon|learning lifestyle}} {{green|+5%}} Monthly Learning Lifestyle Experience
+* {{icon|opinion}} {{green|+10}} Courtier Opinion
+* {{icon|opinion}} {{green|+10}} Courtly Vassal Opinion
+* {{icon|grandeur}} {{green|+5}} Court Grandeur
+| {{icon|governor efficiency}} Administrative government
+| Any
+| ''An impressive water-driven pipe organ which proudly hums the melodies of Greek past.''
+| {{iconify|Roads to Power}}
+|-
+| '''Statue of a Roman Woman'''
+| Furniture
+| 
+* {{icon|influence}} {{green|+5%}} Monthly Influence
+* {{icon|prestige}} {{green|+0.5}} Monthly Prestige
+* {{icon|scheme success chance}} {{green|+10%}} Personal Scheme Success Chance
+* {{icon|opinion}} {{green|+5}} Attraction Opinion
+| {{icon|governor efficiency}} Administrative government
+| Any
+| ''An ancient, slightly damaged, but still lovely statue of a Roman woman.''
+| {{iconify|Roads to Power}}
+|-
+| '''Statue of Constantine'''
+| Furniture
+| 
+* {{icon|influence}} {{green|+5%}} Monthly Influence
+* {{icon|toughness}} {{green|+10%}} Heavy Infantry Toughness
+* {{icon|gold}} {{green|-10%}} Heavy Infantry Maintenance
+* {{icon|opinion}} {{green|+5}} Christian Opinion
+* {{icon|opinion}} {{green|+5}} Same Culture Opinion
+| {{icon|governor efficiency}} Administrative government
+| Any
+| ''An ancient, slightly damaged, but still imposing statue of Constantine the Great, founder of Constantinople and model to all Roman emperors.''
+| {{iconify|Roads to Power}}
+|-
+| '''Statue of the Four Tetrarchs'''
+| Small Wall Ornament
+| 
+* {{icon|diplomacy}} {{green|+1}} Diplomacy per Level of Influence
+* {{icon|renown}} {{green|+0.5}} Monthly Renown
+* {{icon|influence}} {{green|+0.3}} Monthly Influence
+* {{icon|influence}} {{green|+5%}} Influence Level Impact
+| 
+* {{icon|empire}} Byzantine Empire
+* {{icon|heritage}} Eastern Roman heritage
+| Any
+| ''An imposing statue of porphyry depicting two members of the first Tetrarchy instituted by Diocletian.''
+| {{iconify|Roads to Power}}
+|-
+| '''Byzantine Throne of Solomon'''
+| Throne
+| 
+* {{icon|renown}} {{green|+0.04}} Monthly Renown
+* {{icon|prestige}} {{green|+0.5}} Monthly Prestige
+* {{icon|opinion}} {{green|+5}} Different Culture Opinion
+* {{icon|grandeur}} {{green|+4}} Court Grandeur
+| 
+* {{icon|empire}} Byzantine Empire
+* {{icon|heritage}} Eastern Roman heritage
+| 
+* 1066
+* 1178
+| ''An elegant throne from which the Byzantine rulers administer justice with wisdom equal to the Biblical King. Its most distinguished feature is the hidden mechanism that allows it to be risen as high as the ceiling and then lowered again.''
+| {{iconify|Roads to Power}}
+|-
+| '''Tree Automata'''
+| Pedestal Item
+| 
+* {{icon|diplomacy}} {{green|+1}} Diplomacy per Level of Fame
+* {{icon|prestige}} {{green|+0.5}} Monthly Prestige
+* {{icon|opinion}} {{green|+10}} Different Culture Opinion
+* {{icon|grandeur}} {{green|+8}} Court Grandeur
+| 
+* {{icon|empire}} Byzantine Empire
+* {{icon|heritage}} Eastern Roman heritage
+| 
+* 1066
+* 1178
+| ''A finely-sculpted, gilded tree with life-like birds sitting on its branches. Only the Greeks know the secrets of its hidden hydraulic pump, which makes the birds move and sing pleasandly.''
+| {{iconify|Roads to Power}}
+|}
+
+=== Holy Roman artifacts ===
+The following historical artifacts will start owned by the Holy Roman kaiser. In 867 they must be found through adventure inspirations in Europe instead.
+{| class="mildtable plainlist"
+! Artifact
+! Type
+! Effects
+! width=50% | Description
+! DLC
+|-
+| '''Reichskrone'''
+| Crown
+| 
+* {{icon|renown}} {{green|+5%}} Monthly Renown
+* {{icon|vassal}} {{green|+25}} Vassal Limit
+* {{icon|opinion}} {{green|+10}} Courtier and Guest Opinion
+* {{icon|prestige}} {{green|+2%}} Monthly Prestige per Powerful Vassal of the Council
+| ''This is the Emblem of the office of Holy Roman Emperor. Guaranteed to catch the attention of every passing Duke.''
+| 
+|-
+| '''Kinderkrone'''
+| Pedestal Item
+| 
+* {{icon|renown}} {{green|+0.06}} Monthly Renown
+* {{icon|prestige}} {{green|+0.2}} Monthly Prestige
+* {{icon|grandeur}} {{green|+10}} Child Opinion
+| ''Some say this was a crown crafted for Otto III's coronation in Essen, others that it was intended to crown a statue of the Virgin. Either way it is very small, but you might be able to squeeze it onto your head if you try.''
+| {{iconify|Royal Court}}
+|-
+| '''Iron Crown of Lombardy'''
+| Pedestal Item
+| 
+* {{icon|renown}} {{green|+5%}} Monthly Renown
+* {{icon|prestige}} {{green|+4%}} Monthly Prestige
+* {{icon|vassal}} {{green|+10}} Vassal Limit
+* {{icon|development}} {{green|+0.02}} Monthly Development Growth in Realm Capital
+* {{icon|opinion}} {{green|+5}} Italian Opinion
+* {{icon|opinion}} {{green|+5}} Lombard Opinion
+* {{icon|grandeur}} {{green|+6}} Court Grandeur
+| ''The Iron Crown of Lombardy — so called because the iron circlet on its inner side is said to have been beaten out of a nail of Jesus' cross.''
+| {{iconify|Royal Court}}
+|-
+| '''Throne of Charlemagne'''
+| Throne
+| 
+* {{icon|renown}} {{green|+0.04}} Monthly Renown
+* {{icon|prestige}} {{green|+0.5}} Monthly Prestige
+* {{icon|grandeur}} {{green|+4}} Court Grandeur
+* {{icon|unknown}} Two other random effects
+| ''A simple yet imposing throne which is free of ornamentation. Constructed from solid marble, the slabs are rumored to be taken from the Church of the Holy Sepulchre in Jerusalem.''
+| {{iconify|Royal Court}}
+|}
+
+=== Shia artifacts ===
+The following historical artifacts will start owned by the Shia caliph. In 867 they must be found through adventure inspirations in the Middle East or Islamic counties instead.
+{| class="mildtable plainlist"
+! Artifact
+! Type
+! Effects
+! Religion
+! width=50% | Description
+! DLC
+|-
+| '''al-Taj al-Sharif'''
+| Crown
+| 
+* {{icon|prestige}} {{green|+1}} Monthly Prestige
+* {{icon|opinion}} {{green|+10}} Zealot Vassal Opinion
+* {{icon|development}} {{green|+20%}} Development Growth in Floodplains Terrain
+| {{icon|yes}} Any
+| ''The 'Honorable Crown' or 'Wrapping of Veneration' is the traditional processional crown of the Fatimid caliphs. It is adorned by the enormous jewel 'al-Yatima'.''
+| 
+|-
+| '''Qadib al-Mulk'''
+| Regalia
+| 
+* {{icon|prestige}} {{green|+0.2}} Monthly Prestige
+* {{icon|learning}} {{green|+1}} Learning per Level of Devotion
+* {{icon|gold}} {{green|+20%}} Holding Taxes in Floodplains Terrain
+| {{icon|yes}} Any
+| ''The processional rod of the Fatimid Caliphate, covered in gold and set with pearls and jewels.''
+| 
+|-
+| '''al-Dawat'''
+| Pedestal Item
+| 
+* {{icon|renown}} {{green|+0.15}} Monthly Renown
+* {{icon|piety}} {{green|+0.2}} Monthly Piety
+* {{icon|grandeur}} {{green|+3}} Court Grandeur
+| {{icon|yes}} Any
+| ''This is an inkwell made from gold and coral. For a long time it has played a special role in the ceremonies of the Caliphate.''
+| {{iconify|Royal Court}}
+|-
+| '''al-Hafir'''
+| Pedestal Item
+| 
+* {{icon|prestige}} {{green|+0.5}} Monthly Prestige
+* {{icon|grandeur}} {{green|+5}} Court Grandeur
+| {{icon|yes}} Any
+| ''This red ruby, known as al-Hafir or 'the Hoof' is of a quality rarely seen in this world. It is sown unto a piece of silk with emerald rods forming a circle around it. Traditionally it has adorned the face of the Caliph's horse.''
+| {{iconify|Royal Court}}
+|-
+| '''al-Sayf al Khass'''
+| Pedestal Item
+| 
+* {{icon|renown}} {{green|+0.1}} Monthly Renown
+* {{icon|piety}} {{green|+1%}} Monthly Piety per Knight
+* {{icon|advantage}} {{green|+3}} Floodplains Advantage
+* {{icon|grandeur}} {{green|+3}} Court Grandeur
+| {{icon|yes}} Any
+| ''This jeweled sword is said to have been made from a thunderbolt. It is kept in a gold inscribed cover, which it has rarely left due to its ceremonial significance in the caliphate.''
+| {{iconify|Royal Court}}
+|-
+| '''Banner of Thankfulness'''
+| Large Wall Ornament
+| 
+* {{icon|piety islam}} {{green|+1}} Monthly Piety
+* {{icon|piety islam}} {{green|-25%}} Holy Order Hire Cost
+* {{icon|gold}} {{green|-10%}} Men-at-Arms Maintenance Cost
+* {{icon|advantage}} {{green|+5}} Advantages against co-religionists
+* {{icon|damage}} {{green|+10%}} Heavy Infantry Damage
+* {{icon|damage}} {{green|+10%}} Light Cavalry Damage
+* {{icon|grandeur}} {{green|+6}} Court Grandeur
+| {{icon|piety islam}} Islam
+| ''This white silk banner is inscribed with golden letters and wrapped around a golden lance. Traditionally this banner and its one sibling have been carried in Caliphal processions.''
+| {{iconify|Royal Court}}
+|}
+
+=== Pagan Kingdom artifacts ===
+{{expansion|roc}}
+The following historical artifacts will start owned by the Pagan king. In 867 they must be found through adventure inspirations in India instead.
+{| class="mildtable plainlist"
+! Artifact
+! Type
+! Effects
+! Religion
+! Year
+! width=50% | Description
+|-
+| '''Piece of Kassapa's Robe'''
+| Pedestal Item
+| 
+* {{icon|piety eastern}} {{green|+0.3}} Monthly Piety
+* {{icon|piety eastern}} {{green|+10%}} Monthly Piety
+* {{icon|gold}} {{green|-20%}} Temple Holding and Buildings Construction Cost
+* {{icon|grandeur}} {{green|+2}} Court Grandeur
+| {{icon|piety eastern}} Buddhism
+| Any
+| ''Kassapa, the third Buddha of the present Kalpa, wore this robe for much of his day-to-day life. A curiously coarse piece of fabric, it holds a special place of reverence as one of the only known items of a Buddha's clothing that survives.''
+|-
+| '''Staff of Kakusandha'''
+| Pedestal Item
+| 
+* {{icon|piety eastern}} {{green|+0.3}} Monthly Piety
+* {{icon|development}} {{green|+10%}} Development Growth
+* {{icon|opinion}} {{green|+5}} Clergy Opinion
+* {{icon|grandeur}} {{green|+2}} Court Grandeur
+| {{icon|piety eastern}} Buddhism
+| Any
+| ''Kakusandha, the first Buddha of the present Kalpa, owned this staff both to ward off dangerous animals and scare away smaller ones, that they might not be trodden on by wandering monks.''
+|-
+| '''Water Filter of Koṇāgamana'''
+| Pedestal Item
+| 
+* {{icon|piety eastern}} {{green|+0.3}} Monthly Piety
+* {{icon|gold}} {{green|+5%}} Vassal Tax Contribution
+* {{icon|grandeur}} {{green|+2}} Court Grandeur
+| {{icon|piety eastern}} Buddhism
+| Any
+| ''Koṇāgamana, the second Buddha of the present Kalpa, carried this water filter with him on his journeys. This simple piece of cloth served a dual purpose, as both a means of providing potable water and also to ensure any insects were safely and compassionately filtered out.''
+|-
+| '''Abhidhamma Pitaka'''
+| Book
+| 
+* {{icon|renown}} {{green|+5%}} Monthly Renown
+* {{icon|piety}} {{green|+0.5}} Monthly Piety
+* {{icon|opinion}} {{green|+4}} Direct Vassal Opinion
+* {{icon|grandeur}} {{green|+3}} Court Grandeur
+| {{icon|yes}} Any
+| 1066
+| ''A detailed work of scholarship analyzing the Buddha's teachings. Part of the Pali Canon.''
+|-
+| '''Sutta Pitaka'''
+| Book
+| 
+* {{icon|renown}} {{green|+5%}} Monthly Renown
+* {{icon|piety}} {{green|+0.5}} Monthly Piety
+* {{icon|learning lifestyle}} {{green|+15%}} Monthly Learning Lifestyle Experience
+* {{icon|grandeur}} {{green|+3}} Court Grandeur
+| {{icon|yes}} Any
+| 1066
+| ''A Theravada Buddhist text based on the first Buddhist council held after Buddha's death. Includes many poems and sermons attributed to Buddha and his disciples. Part of the Pali Canon.''
+|-
+| '''Vinaya Pitaka'''
+| Book
+| 
+* {{icon|scheme}} {{green|+1}} Max Sway Schemes
+* {{icon|renown}} {{green|+5%}} Monthly Renown
+* {{icon|piety}} {{green|+0.5}} Monthly Piety
+* {{icon|grandeur}} {{green|+3}} Court Grandeur
+| {{icon|yes}} Any
+| 1066
+| ''A Buddhist scripture from the three works of the Pali Canon. This text is instructional in monastic conduct conventions for monks and nuns.''
+|}
+
+=== Hegemony of China artifacts ===
+{{expansion|auh}}
+The following historical artifacts will start owned by the Hegemon of China. The Heirloom Seal artifact can be found in later start dates through adventure inspirations in China.
+{| class="mildtable plainlist"
+! Artifact
+! Type
+! Effects
+! Religion
+! Year
+! width=50% | Description
+|-
+| '''Essentials for the Military Classics'''
+| Book
+| 
+* {{icon|knight}} {{green|+5%}} Knight Effectiveness
+* {{icon|toughness}} {{green|+5%}} Heavy Infantry Toughness
+* {{icon|martial lifestyle}} {{green|+15%}} Monthly Martial Lifestyle Experience
+* {{icon|grandeur}} {{green|+4}} Court Grandeur
+| {{icon|yes}} Any
+| Any
+| ''The "Wujing Zongyao" or 'Complete Essentials for the Military Classics' is a compilation of military knowledge with illustrations. Written by a team under Zeng Gongliang at the request of Emperor Renzong it covers a wide range of military technology and is meant to be a summary of the military classics for wider dissemination. Among the topics of the book are siege machines, naval warfare and formulas for how to make explosives.''
+|-
+| '''Imperial Armillary Sphere'''
+| Furniture
+| 
+* {{icon|learning}} {{green|+2}} Learning
+* {{icon|legitimacy}} {{green|+8%}} Legitimacy Gain
+* {{icon|innovation}} {{green|+10%}} Cultural Fascination Progress
+* {{icon|learning lifestyle}} {{green|+10%}} Monthly Learning Lifestyle Experience
+* {{icon|grandeur}} {{green|+3}} Court Grandeur
+| {{icon|yes}} Any
+| Any
+| ''This celestial globe was put together by expert Chinese craftsmen and scholars and is used for calculations related to astronomical phenomena. As a tool to examine the celestial calendar the armillary sphere is also a symbol of the divine right of the Son of Heaven.''
+|-
+| '''Eight-fold Chest'''
+| Pedestal Item
+| 
+* {{icon|piety eastern}} {{green|+0.3}} Monthly Piety
+* {{icon|gold}} {{green|+15%}} Same Faith Domain Taxes
+* {{icon|opinion}} {{green|+5}} Buddhist Opinion
+* {{icon|grandeur}} {{green|+6}} Court Grandeur
+| {{icon|piety eastern}} Buddhism
+| Any
+| ''This is a set of eight small chests, each inside the other, with the relic of Buddha's Fingerbone placed in the central chest. The relic has been in use in welcoming ceremonies under successive Tang Emperors before these chests were made at the order of Emperor Yizong. Each chest is intricatly made in sandalwood, silver, gold and jade. The last chest is a four door pagoda in pure gold, housing the finger itself. The top of the pagoda is a lotus flower holding a golden pearl.''
+|-
+| '''Heirloom Seal'''
+| Pedestal Item
+| 
+* {{icon|prestige}} {{green|+0.15}} Prestige per Legitimacy Level
+* {{icon|piety}} {{green|+0.15}} Piety per Legitimacy Level
+* {{icon|opinion}} {{green|+5}} Han Opinion
+* {{icon|grandeur}} {{green|+6}} Court Grandeur
+* {{icon|treasury}} {{green|+5%}} Treasury from Vassals
+* {{icon|influence}} {{green|+0.3}} Monthly Influence
+| {{icon|yes}} Any
+| 867
+| ''This ancient seal in Jade was created by Qin Shi Huang over a millennia ago after the unification of the warring states of China. The seal is said to have been carved out of the Heshibi, one of the most sacred imperial treasures that ever existed. The inscription reads: "Having received the Mandate of Heaven, may the emperor lead a long and prosperous life.".''
+|}
+
+=== Bells of Santiago ===
+{{expansion|foi}}
+The Bells of Santiago are a trinket historical artifact that can only be used by characters Involved or Interloper in the Iberian Struggle. They have a unique mechanic where if a character who is Christian or Muslim or whose faith has the Christian Syncretism or Islamic Syncretism tenet obtains the artifact but its religion cannot use it the artifact will be melted it into their own version of the artifact. If the artifact has been changed at least 4 times its description will start to keep track of the number of times it has been melted. The artifact is considered a holy relic and will give characters from the opposite religion a casus belli to recover them.
+{| class="mildtable plainlist"
+! Name
+! Effects
+! Religion
+! Owner
+! width=20% | Description (never melted)
+! width=20% | Description (previously melted)
+|-
+| '''Bells of Santiago'''
+| 
+* {{icon|piety}} {{green|+0.1}} Monthly Piety per Powerful Vassal of the Council
+* {{icon|renown}} {{green|+0.5}} Monthly Renown
+* {{icon|opinion}} {{green|+10}} Same Faith Opinion
+* {{icon|opinion}} {{green|+10}} Christian Opinion
+* {{icon|opinion}} {{red|-10}} Muslim Opinion
+* {{icon|grandeur}} {{green|+3}} Court Grandeur
+| {{icon|piety}} Christianity
+| 
+* {{icon|county}} Count Hermenexildo Gutierrez of Santiago in 867
+* {{icon|county}} Prince-Bishop Bruno of Toledo in 1178
+| ''The illustrious Bells of Santiago de Compostela are a strong, simple, and above all loud reminder of the immutable spiritual authority of St. James.''
+| ''Recovered from the hands of the infidel, melted down, and returned to something like their original form, the illustrious Bells of Santiago de Compostela ring out to comfort all Christendom.''
+|-
+| '''Former Bells of Santiago'''
+| 
+* {{icon|piety islam}} {{green|+0.1}} Monthly Piety per Powerful Vassal of the Council
+* {{icon|health}} {{green|Medium Boost}} Disease Resistance Health
+* {{icon|opinion}} {{green|+10}} Muslim Opinion
+* {{icon|opinion}} {{red|-10}} Christian Opinion
+* {{icon|grandeur}} {{green|+3}} Court Grandeur
+| {{icon|piety islam}} Islam
+| {{icon|duchy}} Emir Yahya ibn-al-Zafir of Tulaytulah in 1066
+| ''Al-Mansur forged these jugs from the molten slag of the Bells of Santiago. Though now used to ritually cleanse their owner's hands, their mere existence confirms the primacy of Islam over Christianity.''
+| ''Melted down again, the former Bells of Santiago are some of the most hotly-contested water jugs in existence. Their present form trumpets the primacy of Islam in Iberia.''
+|}
+
+=== The Double-Moon Tome ===
+{{expansion|rtp}}
+The Double-Moon Tome is a journal historical artifact that starts in possession of Wallada bint al-Mustakfi in 1066. It starts with the following effects:
+* {{icon|diplomacy lifestyle}} {{green|+5%}} Monthly Diplomacy Lifestyle Experience
+* {{icon|learning lifestyle}} {{green|+5%}} Monthly Learning Lifestyle Experience
+* {{icon|scheme phase length}} {{green|-5}} Days Romance Phase Length
+* {{icon|scheme phase length}} {{green|-5}} Days Seduce Phase Length
+* {{icon|opinion}} {{green|+2}} Attraction Opinion
+
+The artifact can be upgraded by taking the Write Muwashshsh Poem decision and choosing Keep Poem. Each time this is done the artifact will receive one of the following modifiers and its description will be updated.
+* {{icon|diplomacy}} {{green|+1}} Diplomacy per Level of Fame
+* {{icon|diplomacy}} {{green|+1}} Diplomacy
+* {{icon|stewardship}} {{green|+1}} Stewardship
+* {{icon|prowess}} {{green|+2}} Prowess
+* {{icon|prestige}} {{green|+0.03}} Monthly Prestige
+* {{icon|knight}} {{green|+5%}} Knight Effectiveness
+* {{icon|gold}} {{green|-2%}} Mercenary Hire Cost
+* {{icon|scheme phase length}} {{green|-8}} Days Learn Language Phase Length
+* {{icon|opinion}} {{green|+4}} General Opinion
+* {{icon|opinion}} {{green|+3}} Clergy Opinion
+* {{icon|opinion}} {{green|+2}} Dynasty Opinion
+* {{icon|opinion}} {{green|+2}} Independent Ruler Opinion
+* {{icon|health}} {{green|Small}} Health Boost
+
+=== Adventure artifacts ===
+{{expansion|roc}}
+Adventure artifacts can only be obtained through Adventure inspirations. Most of them can only be found a limited number of times. If {{iconify|Legacy of Persia}} is also installed artifacts restricted to Persia can be found very rarely as part of travel events as well.
+{| class="mildtable plainlist sortable"
+! Artifact
+! Type
+! Effects
+! Region
+! Limit
+! width=35% | Description
+|-
+| '''Chinese Calligraphy'''
+| Pedestal Item
+| 
+* {{icon|renown}} {{green|+0.04}} Monthly Renown
+* {{icon|grandeur}} {{green|+2}} Court Grandeur
+* {{icon|unknown}} Two other random effects
+| 
+* Burma
+* India
+* Tibet
+| 15
+| ''This delicate piece of paper is covered in strange, yet beautiful and very exact, symbols. It is said to have come from the lands of China in the far east.''
+|-
+| '''Ibeji'''
+| Pedestal Item
+| 
+* {{icon|grandeur}} {{green|+1}} Court Grandeur
+* {{icon|unknown}} Two other random effects
+| Western Africa
+| 15
+| ''This is a small wooden sculpture depicting a deceased twin, believed to bring wealth and fortune if cared for by its family. It is adorned with elaborate, and quite high, hairdo.''
+|-
+| '''Ikenga'''
+| Pedestal Item
+| 
+* {{icon|piety}} {{green|+0.3}} Monthly Piety from Buildings
+* {{icon|development}} {{green|+10%}} Development Growth
+* {{icon|gold}} {{green|+10%}} Holding Taxes in Jungle
+* {{icon|gold}} {{green|-10%}} Building Construction Cost Jungle
+* {{icon|grandeur}} {{green|+1}} Court Grandeur
+| Western Africa
+| 15
+| ''This small horned statue is claimed to grant its owner success and victory.''
+|-
+| '''Ruyi'''
+| Pedestal Item
+| 
+* {{icon|gold}} {{green|+3%}} Domain Taxes
+* {{icon|gold}} {{green|-15%}} City Holding and Buildings Construction Cost
+* {{icon|grandeur}} {{green|+2}} Court Grandeur
+| 
+* Burma
+* India
+* Tibet
+| 15
+| ''This is a small jade scepter, covered in chinese symbols and adornments.''
+|-
+| '''Dhammapada'''
+| Book
+| 
+* {{icon|renown}} {{green|+5%}} Monthly Renown
+* {{icon|piety}} {{green|+0.5}} Monthly Piety
+* {{icon|stress gain}} {{green|-15%}} Stress Gain
+* {{icon|grandeur}} {{green|+3}} Court Grandeur
+| 
+* Afghanistan
+* India
+* Tibet
+| 10
+| ''This is a collection of sayings of the Buddha, bound in a fine palm leaf manuscript.''
+|-
+| '''Jeweled Danda'''
+| Regalia
+| 
+* {{icon|renown}} {{green|+5%}} Monthly Renown
+* {{icon|opinion}} {{green|-20%}} Tyranny Gain
+* {{icon|unknown}} Three other random effects
+| 
+* Afghanistan
+* India
+* Tibet
+| 10
+| ''This is an adorned jeweled scepter from India, the ultimate sign of royal authority and the ability of a monarch to exact punishment on their subjects.''
+|-
+| '''Makarakindala'''
+| Pedestal Item
+| 
+* {{icon|piety}} {{green|+0.3}} Monthly Piety
+* {{icon|grandeur}} {{green|+1}} Court Grandeur
+* {{icon|unknown}} One other random effect
+| 
+* Afghanistan
+* India
+* Tibet
+| 10
+| ''These are earrings like those worn by the gods, some even claim this particular pair once belonged to divine beings.''
+|-
+| '''Excalibur'''
+| Pedestal Item
+|
+* {{icon|renown}} {{green|+0.03}} Monthly Renown
+* {{icon|prestige}} {{green|+0.10}} Monthly Prestige
+* {{icon|knight}} {{green|+2%}} Knight Effectiveness
+* {{icon|grandeur}} {{green|+1}} Court Grandeur
+| Britannia
+| 6
+| ''There is nary a ruler in Britain who doesn't claim to have the true Excalibur. Wars are paid for by selling Excaliburs, and you must hope your guests don't catch another displaying the sword.''
+|-
+| '''Bronze Head'''
+| Pedestal Item
+| 
+* {{icon|renown}} {{green|+0.1}} Monthly Renown
+* {{icon|prestige}} {{green|+0.7}} Monthly Prestige
+* {{icon|development}} {{green|+5%}} Development Growth
+* {{icon|gold}} {{green|+5%}} Powerful Vassal Councilor Tax Contribution
+* {{icon|grandeur}} {{green|+4}} Court Grandeur
+| Western Africa
+| 5
+| ''This naturalistic bronze head captures the features of a long dead ruler in great detail, appearing more like a sculpture than something cast in metal. The head is adorned with a crown to show the status of the depicted monarch.''
+|-
+| '''Sword of Gujian'''
+| Pedestal Item
+| 
+* {{icon|opinion}} {{green|+5}} Han Opinion
+* {{icon|grandeur}} {{green|+4}} Court Grandeur
+* {{icon|unknown}} Four other random effects
+| Eastern Asia
+| 4
+| ''This ancient sword is said to have once belonged to the King of Yue, Goujian. While old fashioned in its design the sword shows excellent craftsmanship. Gilded text in bird-worm seal script is visible near the hilt.''
+|-
+| '''Crystal Carving'''
+| Pedestal Item
+| 
+* {{icon|renown}} {{green|+0.1}} Monthly Renown
+* {{icon|prestige}} {{green|+0.7}} Monthly Prestige
+* {{icon|gold}} {{green|+2%}} Domain Taxes
+* {{icon|scheme success chance}} {{green|+5%}} Hostile Scheme Success Chance
+* {{icon|grandeur}} {{green|+4}} Court Grandeur
+| 
+* Middle East
+* Persia
+| 3
+| ''This rectangular piece of clear rock crystal is almost perfectly transparent, and most of its surface is covered in intricate carvings. It is an object of great beauty, if unclear utility.''
+|-
+| '''Navaratna'''
+| Trinket
+| 
+* {{icon|renown}} {{green|+0.05}} Monthly Renown
+* {{icon|prestige}} {{green|+0.5}} Monthly Prestige
+* {{icon|gold}} {{green|-10%}} Temple Holding and Buildings Construction Cost
+* {{icon|development}} {{green|+0.02}} Monthly Development in Realm Capital
+* {{icon|grandeur}} {{green|+3}} Court Grandeur
+| India
+| 3
+| ''A chain of nine gems, with a great ruby in the middle, symbolizing the nine celestial gods in Hinduism.''
+|-
+| '''al-Jabal'''
+| Pedestal Item
+| 
+* {{icon|renown}} {{green|+4%}} Monthly Renown
+* {{icon|prestige}} {{green|+1}} Monthly Prestige
+* {{icon|opinion}} {{green|+5}} Attraction Opinion
+* {{icon|grandeur}} {{green|+5}} Court Grandeur
+| 
+* Middle East
+* Persia
+| 1
+| ''This is a ring adorned with a great ruby known as al-Jabal, or 'the Mountain'. The stone is of unparalleled size and it is said the ring itself has been worn by the Sassanian emperors of Persia.''
+|-
+| '''al-Yatima'''
+| Pedestal Item
+| 
+* {{icon|renown}} {{green|+4%}} Monthly Renown
+* {{icon|prestige}} {{green|+1}} Monthly Prestige
+* {{icon|opinion}} {{green|+5}} Attraction Opinion
+* {{icon|grandeur}} {{green|+5}} Court Grandeur
+| 
+* Middle East
+* Persia
+| 1
+| ''Known as al-Yatima ('the Orphan'), this enormous pearl is said to be unlike any other in this world. An orphan among the families of gems and pearls.''
+|-
+| '''Alexander's Armor'''
+| Pedestal Item
+| 
+* {{icon|opinion}} {{green|+10}} Powerful Vassal Opinion
+* {{icon|levies}} {{green|+20%}} Powerful Vassal Councilor Levy Contribution
+* {{icon|levies}} {{green|+1}} Max Size of Light Cavalry Regiments
+* {{icon|pursuit}} {{green|+20%}} Light Cavalry Pursuit
+* {{icon|gold}} {{green|-25%}} Light Cavalry Maintenance
+* {{icon|grandeur}} {{green|+6}} Court Grandeur
+| 
+* Asia Minor
+* India
+* Rajasthan
+* Middle East
+* Persia
+| 1
+| ''This ancient set of laminated linen armor is said to have once belonged to Alexander the Great. While no longer fit for wear, the armor itself carries the legacy of the great conqueror, known from the Mediterranean to the edges of India.''
+|-
+| '''Angelica's Ring'''
+| Pedestal Item
+| 
+* {{icon|renown}} {{green|+5%}} Monthly Renown
+* {{icon|prestige}} {{green|+0.5}} Monthly Prestige
+* {{icon|scheme success chance}} {{green|-5%}} Enemy Hostile Scheme Success Chance
+* {{icon|opinion}} {{green|+10}} Attraction Opinion
+* {{icon|grandeur}} {{green|+3}} Court Grandeur
+| 
+* Southern Europe
+* Western Europe
+| 1
+| ''A ring said to be the very one worn by Angelica, known from the stories of Roland and Charlemagne. Its powers must have worn off, since it does not seem to bestow invisibility anymore, but it is still a magnificent symbol of this long gone princess.''
+|-
+| '''Aram'''
+| Pedestal Item
+| 
+* {{icon|renown}} {{green|+5%}} Monthly Renown
+* {{icon|prestige}} {{green|+0.5}} Monthly Prestige
+* {{icon|advantage}} {{green|+4}} Steppe Advantage
+* {{icon|damage}} {{green|+20%}} Archer Cavalry Damage
+* {{icon|toughness}} {{green|+20%}} Archer Cavalry Toughness
+* {{icon|grandeur}} {{green|+3}} Court Grandeur
+| Steppe
+| 1
+| ''This ancient, darkened spear has seen generations come and go. It is so old that many believe it to be the fabled spear Aram, known from the stories of Jangar.''
+|-
+| '''Ascalon'''
+| Pedestal Item
+| 
+* {{icon|renown}} {{green|+0.05}} Monthly Renown
+* {{icon|piety}} {{green|+0.5}} Monthly Piety
+* {{icon|martial}} {{green|+1}} Martial per Level of Devotion
+* {{icon|advantage}} {{green|+4}} Faith Hostility Advantage
+* {{icon|opinion}} {{green|+4}} Same Faith Opinion
+* {{icon|grandeur}} {{green|+3}} Court Grandeur
+| 
+* Asia Minor
+* Middle East
+* Persia
+| 1
+| ''This broken old spear is said to be a piece of the spear with which St. George killed the dragon of Beirut.''
+|-
+| '''Babr-e Bayan'''
+| Furniture
+| 
+* {{icon|renown}} {{green|+5%}} Monthly Renown
+* {{icon|gold}} {{green|-5%}} Army Gold Maintenance
+* {{icon|gold}} {{green|+20%}} Holding Taxes in Desert Mountain Terrain
+* {{icon|gold}} {{green|+20%}} Holding Taxes in Drylands Terrain
+* {{icon|grandeur}} {{green|+6}} Court Grandeur
+| Persia
+| 1
+| ''This is the legendary Babr-e Bayan, the armor worn by the Persian hero Rostam.''
+|-
+| '''Colada'''
+| Pedestal Item
+| 
+* {{icon|renown}} {{green|+5%}} Monthly Renown
+* {{icon|prestige}} {{green|+0.5}} Monthly Prestige
+* {{icon|pursuit}} {{green|+10%}} Light Cavalry Pursuit
+* {{icon|screen}} {{green|+10%}} Light Cavalry Screen
+* {{icon|grandeur}} {{green|+3}} Court Grandeur
+| 
+* Southern Europe
+* Western Europe
+| 1
+| ''Rumored to be one of the swords of El Cid, this blade is an inspiration to anyone who aspires to his knightly virtues.''
+|-
+| '''Cup of Jamshid'''
+| Pedestal Item
+|
+* {{icon|grandeur}} {{green|+5}} Court Grandeur
+* {{icon|health boost}} {{green|+1 Disease Resistance Health Boost}}
+* {{icon|scheme success chance}} {{green|-10%}} Enemy Hostile Scheme Success Chance
+| 
+* Persia
+* Middle East
+| 1
+| ''This is the legendary Cup of Jamshid: long-possessed by the ancient rulers of Persia, it is used for divination and contains an elixir of immortality.''
+|-
+| '''Dagger of Rostam'''
+| Pedestal Item
+| 
+* {{icon|renown}} {{green|+0.05}} Monthly Renown
+* {{icon|prestige}} {{green|+0.4}} Monthly Prestige
+* {{icon|scheme success chance}} {{green|-5%}} Enemy Hostile Scheme Success Chance
+* {{icon|screen}} {{green|+5%}} Army Screen
+* {{icon|toughness}} {{green|+5%}} Heavy Infantry Toughness
+* {{icon|grandeur}} {{green|+2}} Court Grandeur
+| 
+* Asia Minor
+* Middle East
+* Persia
+| 1
+| ''This intricate dagger is claimed to be the one that Rostam used to kill the white Daeva.''
+|-
+| '''David's Harp'''
+| Pedestal Item
+| 
+* {{icon|scheme}} {{green|+1}} Max Romance Schemes
+* {{icon|scheme success chance}} {{green|+50%}} Romance Scheme Power
+* {{icon|prestige}} {{green|+4%}} Monthly Prestige
+* {{icon|knight}} {{green|+2}} Number of Knights
+* {{icon|knight}} {{green|+20%}} Knight Effectiveness
+* {{icon|opinion}} {{green|+20}} Attraction Opinion
+* {{icon|piety}} {{green|+3%}} Monthly Piety per Knight
+* {{icon|grandeur}} {{green|+6}} Court Grandeur
+| Jerusalem
+| 1
+| ''This is a wooden, ancient harp. It is rumored to be King David's harp, and to have mystical healing properties.''
+|-
+| '''Dragvandil'''
+| Pedestal Item
+| 
+* {{icon|renown}} {{green|+5%}} Monthly Renown
+* {{icon|prestige}} {{green|+0.5}} Monthly Prestige
+* {{icon|scheme success chance}} {{green|+5%}} Personal Scheme Success Chance
+* {{icon|scheme success chance}} {{green|+50%}} Romance Scheme Power
+* {{icon|grandeur}} {{green|+3}} Court Grandeur
+| Northern Europe
+| 1
+| ''A sword said to once belong to Egill Skallagrimsson, farmer, poet and warrior, known from Egill's Saga.''
+|-
+| '''Durendal'''
+| Pedestal Item
+| 
+* {{icon|renown}} {{green|+5%}} Monthly Renown
+* {{icon|prestige}} {{green|+0.5}} Monthly Prestige
+* {{icon|knight}} {{green|+10%}} Knight Effectiveness
+* {{icon|advantage}} {{green|+3}} Defender Advantage
+* {{icon|opinion}} {{green|+10}} Attraction Opinion
+* {{icon|grandeur}} {{green|+3}} Court Grandeur
+| 
+* Southern Europe
+* Western Europe
+| 1
+| ''This short and heavy sword is claimed to be the legendary Durendal, hidden by Roland as his dying act, in an attempt to deny it to the enemies of the crown.''
+|-
+| '''Gilt-Bronze Incense Burner'''
+| Pedestal Item
+| 
+* {{icon|renown}} {{green|+4%}} Monthly Renown
+* {{icon|prestige}} {{green|+1}} Monthly Prestige
+* {{icon|grandeur}} {{green|+5}} Court Grandeur
+| Korea
+| 1
+| ''This incense burner shows immense craftsmanship despite by all accounts being a very old Baekje dynasty object. The lid is adorned with a phoenix shaped knob and is encircled by 74 mountains casted in layers and the a rich cast of figures and scenery.''
+|-
+| '''Great Diamond'''
+| Pedestal Item
+| 
+* {{icon|renown}} {{green|+4%}} Monthly Renown
+* {{icon|prestige}} {{green|+1}} Monthly Prestige
+* {{icon|opinion}} {{green|+5}} Attraction Opinion
+* {{icon|grandeur}} {{green|+5}} Court Grandeur
+| 
+* Afghanistan
+* India
+* Tibet
+| 1
+| ''This enormous gem is said to have once adorned a temple statue, before being stolen away by a greedy intruder.''
+|-
+| '''Joyeuse'''
+| Pedestal Item
+| 
+* {{icon|renown}} {{green|+5%}} Monthly Renown
+* {{icon|prestige}} {{green|+1}} Monthly Prestige
+* {{icon|knight}} {{green|+3}} Number of Knights
+* {{icon|toughness}} {{green|+5%}} Heavy Cavalry Toughness
+* {{icon|grandeur}} {{green|+6}} Court Grandeur
+| 
+* Southern Europe
+* Western Europe
+| 1
+| ''The Sword of Charlemagne, forged to contain the Lance of Longinus. Joyeuse is a symbol both of knightly valor and the royal legacy of Charlemagne's empire.''
+|-
+| '''Kave's Apron'''
+| Large Wall Ornament
+| 
+* {{icon|renown}} {{green|+5%}} Monthly Renown
+* {{icon|prestige}} {{green|+0.5}} Monthly Prestige
+* {{icon|gold}} {{green|-5%}} Army Gold Maintenance
+* {{icon|opinion}} {{green|+5}} Popular Opinion
+* {{icon|grandeur}} {{green|+3}} Court Grandeur
+| 
+* Asia Minor
+* Middle East
+* Persia
+| 1
+| ''This tattered flag is said to be the legendary banner that the Persian Blacksmith Kave made from his apron, to rally his people against their evil overlord.''
+|-
+| '''Kladenets'''
+| Pedestal Item
+| 
+* {{icon|renown}} {{green|+5%}} Monthly Renown
+* {{icon|prestige}} {{green|+0.5}} Monthly Prestige
+* {{icon|damage}} {{green|+10%}} Heavy Infantry Damage
+* {{icon|toughness}} {{green|+10%}} Heavy Infantry Toughness
+* {{icon|grandeur}} {{green|+3}} Court Grandeur
+| Eastern Europe
+| 1
+| ''While it has seen better days this old steel sword is said to be the mythical Kladenets, a sword that can swing itself. In its current condition it is hardly easy to wield at all, but its mere presence commands respect from those who believe in its supernatural origin.''
+|-
+| '''Legbiter'''
+| Pedestal Item
+| 
+* {{icon|renown}} {{green|+5%}} Monthly Renown
+* {{icon|prestige}} {{green|+0.5}} Monthly Prestige
+* {{icon|gold}} {{green|-15%}} Embarkation Cost
+* {{icon|unknown}} {{green|+15%}} Naval Speed
+* {{icon|grandeur}} {{green|+3}} Court Grandeur
+| Northern Europe
+| 1
+| ''An extremely sharp sword with a hilt of ivory. The weapon is said to have belonged to the great king Magnus Olafsson of Norway.''
+|-
+| '''Mmaagha Kamalu'''
+| Pedestal Item
+| 
+* {{icon|renown}} {{green|+2%}} Monthly Renown
+* {{icon|piety}} {{green|+0.5}} Monthly Piety
+* {{icon|martial}} {{green|+1}} Martial per Level of Devotion
+* {{icon|grandeur}} {{green|+4}} Court Grandeur
+| Western Africa
+| 1
+| ''This is a very old ornate ceremonial sword. It is claimed to have once belonged to Kamalu, the Igbo god of war.''
+|-
+| '''Mountain of Light'''
+| Pedestal Item
+| 
+* {{icon|renown}} {{green|+5%}} Monthly Renown
+* {{icon|prestige}} {{green|+1}} Monthly Prestige
+* {{icon|opinion}} {{green|+5}} General Opinion
+* {{icon|opinion}} {{green|+10}} Attraction Opinion
+* {{icon|grandeur}} {{green|+6}} Court Grandeur
+| 
+* Afghanistan
+* India
+* Tibet
+| 1
+| ''This is a diamond of unparalleled size and clarity. It is said to have been excavated in the mines of south-eastern India but its true origin is likely unknown.''
+|-
+| '''Nagelring'''
+| Pedestal Item
+| 
+* {{icon|renown}} {{green|+5%}} Monthly Renown
+* {{icon|prestige}} {{green|+0.5}} Monthly Prestige
+* {{icon|knight}} {{green|+1}} Number of Knights
+* {{icon|grandeur}} {{green|+3}} Court Grandeur
+| Germania
+| 1
+| ''According to tradition this aged sword is connected to the mythical and quite popular Dietrich von Bern. This connection has elevated the item to an otherwise unwarranted fame.''
+|-
+| '''Olifant'''
+| Pedestal Item
+| 
+* {{icon|renown}} {{green|+5%}} Monthly Renown
+* {{icon|prestige}} {{green|+0.5}} Monthly Prestige
+* {{icon|opinion}} {{green|+8}} Courtier and Guest Opinion
+* {{icon|unknown}} {{green|+5%}} Movement Speed
+* {{icon|grandeur}} {{green|+6}} Court Grandeur
+| 
+* Southern Europe
+* Western Europe
+| 1
+| ''A great ivory horn, covered in intricate carvings. Some claim it is the very horn used by Roland to summon help before dying at the battle of Roncevaux.''
+|-
+| '''Peacock Throne'''
+| Throne
+| 
+* {{icon|renown}} {{green|+5%}} Monthly Renown
+* {{icon|diplomacy}} {{green|+1}} Diplomacy per Level of Fame
+* {{icon|learning}} {{green|+1}} Learning per Level of Fame
+* {{icon|development}} {{green|+0.05}} Monthly Development in Realm Capital
+* {{icon|grandeur}} {{green|+6}} Court Grandeur
+| 
+* Burma
+* India
+* Persia
+| 1
+| ''This lavish throne has aimed to recreate the royal seat of Jamsheed. It is said that artisans from all over the world came together to assemble gold, silver and hundreds of precious stones into the throne that now stand before you.''
+|-
+| '''Quern-Biter'''
+| Pedestal Item
+| 
+* {{icon|renown}} {{green|+5%}} Monthly Renown
+* {{icon|prestige}} {{green|+0.5}} Monthly Prestige
+* {{icon|advantage}} {{green|+4}} Coastal Advantage
+* {{icon|grandeur}} {{green|+3}} Court Grandeur
+| Northern Europe
+| 1
+| ''This sword was once weilded by king Haakon of Norway himself, and at that time it was said to be so sharp it could cut through quernstones.''
+|-
+| '''Shamshir-e Zomorrodnegar'''
+| Pedestal Item
+| 
+* {{icon|renown}} {{green|+0.05}} Monthly Renown
+* {{icon|prestige}} {{green|+0.5}} Monthly Prestige
+* {{icon|piety}} {{green|+20%}} Monthly Piety from Buildings
+* {{icon|piety}} {{green|+0.03}} Monthly Piety per Knight
+* {{icon|opinion}} {{green|-15%}} Tyranny Gain
+* {{icon|development}} {{green|+20%}} Development Growth in Drylands Terrain
+* {{icon|grandeur}} {{green|+3}} Court Grandeur
+| 
+* Asia Minor
+* Middle East
+* Persia
+| 1
+| ''This emerald-studded sword is said to be the mythical blade of Solomon, used to kill the demon Fulad-zereh.''
+|-
+| '''Szczerbiec'''
+| Pedestal Item
+| 
+* {{icon|renown}} {{green|+5%}} Monthly Renown
+* {{icon|prestige}} {{green|+0.5}} Monthly Prestige
+* {{icon|damage}} {{green|+10%}} Light Cavalry Damage
+* {{icon|toughness}} {{green|+10%}} Light Cavalry Toughness
+* {{icon|grandeur}} {{green|+3}} Court Grandeur
+| Eastern Europe
+| 1
+| ''Said to have been given to king Boleslaw the Brave by an angel, this sword is claimed to be the one used to strike the golden gate of Kyiv. It carries immense symbolic significance.''
+|-
+| '''Tizona'''
+| Pedestal Item
+| 
+* {{icon|renown}} {{green|+5%}} Monthly Renown
+* {{icon|prestige}} {{green|+0.5}} Monthly Prestige
+* {{icon|gold}} {{green|-5%}} Men-at-Arms Maintenance
+* {{icon|toughness}} {{green|+10%}} Light Cavalry Toughness
+* {{icon|grandeur}} {{green|+3}} Court Grandeur
+| 
+* Asia Minor
+* Middle East
+| 1
+| ''This is a three-foot long sword bearing the inscription "Tizona". Rumored to have been won off of its former owner by the famous warlord El Cid, the sword's mere presence invokes feelings of martial awe.''
+|-
+| '''Turquoise Throne'''
+| Throne
+|
+* {{icon|diplomacy}} {{green|+1}} Diplomacy per Level of Fame
+* {{icon|stewardship}} {{green|+1}} Stewardship per Level of Fame
+* {{icon|renown}} {{green|+5%}} Monthly Renown
+* {{icon|development}} {{green|+0.05}} Monthly Development in Realm Capital
+* {{icon|grandeur}} {{green|+6}} Court Grandeur
+| 
+* Burma
+* India
+* Persia
+| 1
+| ''This bejeweled royal throne has been made in the image of the legendary throne of the Persian kings from the Shahnama. Its ebony frame is adorned by an uncountable amount of turquoises as well as plates of pure gold enameled with a turquoise hue. Its breathtaking beauty could only be obtained by the foremost artisans in their fields.''
+|}
+
+==== Holy relics ====
+Holy relics are adventure artifacts restricted to a certain religion. They can also be found outside their historical region in counties belonging to that religion. If a character has a holy relic from a different religion then all characters of that religion will gain a casus belli to recover the relics. Buying a claim of a holy relic costs {{iconify|Piety}} instead of {{iconify|Prestige}}.
+{| class="mildtable plainlist sortable"
+! Artifact
+! Type
+! Effects
+! Religion
+! Region
+! Limit
+! width=25% | Description
+|-
+| '''Ark of the Covenant'''
+| Furniture
+| 
+* {{icon|renown}} {{green|+5%}} Monthly Renown
+* {{icon|gold}} {{green|+15%}} Same Faith Domain Taxes
+* {{icon|piety}} {{green|+2}} Monthly Piety
+* {{icon|opinion}} {{green|+10}} Clergy Opinion
+* {{icon|grandeur}} {{green|+6}} Court Grandeur
+* {{icon|advantage}} {{green|+5}} Advantage in Counties with the same Cultural Heritage
+| 
+* {{icon|piety}} Christianity
+* {{icon|piety islam}} Islam
+* {{icon|piety judaism}} Judaism
+| 
+* Middle East
+* Northern Africa
+* Eastern Africa
+| 1
+| ''A large stone chest said to be the original Ark of the Covenant, containing the stone tablets given to Moses by God.''
+|-
+| '''Throne of Solomon'''
+| Throne
+| 
+* {{icon|renown}} {{green|+0.04}} Monthly Renown
+* {{icon|prestige}} {{green|+0.25}} Monthly Prestige
+* {{icon|grandeur}} {{green|+3}} Court Grandeur
+* {{icon|unknown}} Three other random effects
+| 
+* {{icon|piety}} Christianity
+* {{icon|piety islam}} Islam
+* {{icon|piety judaism}} Judaism
+| Jerusalem
+| 1
+| ''An ostentatious throne rumored to have once belonged to the legendary King Solomon. Constructed from ivory and gilded with gold, the throne is also set with many precious gemstones, and metal sculptures of various animals adorn the steps leading up to it.''
+|-
+| '''Cintamani Stone'''
+| Pedestal Item
+| 
+* {{icon|piety eastern}} {{green|+0.5}} Monthly Piety
+* {{icon|gold}} {{green|+4%}} Same Faith Domain Taxes
+* {{icon|grandeur}} {{green|+3}} Court Grandeur
+| 
+* {{icon|piety eastern}} Buddhism
+* {{icon|piety eastern}} Hinduism
+| 
+* Burma
+* Himalaya
+* India
+* Tibet
+| 3
+| ''This is a stone that is said to have once fallen from the sky. Some claim it once belonged to Vishnu or the Naga King, and that it also brings prosperity to its owner.''
+|-
+| '''Fine Cross'''
+| Pedestal Item
+| 
+* {{icon|piety}} {{green|+0.3}} Monthly Piety
+* {{icon|grandeur}} {{green|+2}} Court Grandeur
+* {{icon|unknown}} One other random effect
+| {{icon|piety}} Christianity
+| 
+* Europe
+* Jerusalem
+| 0
+| ''A masterfully crafted cross, made of gold and encrusted with precious stones.''
+|-
+| '''Fine Crucifix'''
+| Pedestal Item
+| 
+* {{icon|piety}} {{green|+0.3}} Monthly Piety
+* {{icon|grandeur}} {{green|+2}} Court Grandeur
+* {{icon|unknown}} One other random effect
+| {{icon|piety}} Christianity
+| 
+* Europe
+* Jerusalem
+| 0
+| ''A wooden crucifix of exquisite workmanship - the doleful expression on Christ's face can push even the most stalwart sinners to repentance.''
+|-
+| '''Fragment of the True Cross'''
+| Pedestal Item
+| 
+* {{icon|piety}} {{green|+0.3}} Monthly Piety
+* {{icon|grandeur}} {{green|+2}} Court Grandeur
+* {{icon|unknown}} One other random effect
+| {{icon|piety}} Christianity
+| 
+* Europe
+* Jerusalem
+| 0
+| ''An elegant reliquary containing a holy relic: a wooden fragment of the True Cross, on which Jesus was crucified.''
+|-
+| '''Holy Nail'''
+| Pedestal Item
+| 
+* {{icon|piety}} {{green|+0.3}} Monthly Piety
+* {{icon|grandeur}} {{green|+2}} Court Grandeur
+* {{icon|unknown}} One other random effect
+| {{icon|piety}} Christianity
+| 
+* Europe
+* Jerusalem
+| 0
+| ''An elegant reliquary containing a holy relic: a nail from Jesus' cross.''
+|-
+| '''Holy Thorn'''
+| Pedestal Item
+| 
+* {{icon|piety}} {{green|+0.3}} Monthly Piety
+* {{icon|grandeur}} {{green|+2}} Court Grandeur
+* {{icon|unknown}} One other random effect
+| {{icon|piety}} Christianity
+| 
+* Europe
+* Jerusalem
+| 0
+| ''An elegant reliquary containing a holy relic: thorn from Jesus' cross.''
+|-
+| '''Arm of St. George'''
+| Pedestal Item
+|
+* {{icon|piety}} {{green|+0.8}} Monthly Piety
+* {{icon|piety}} {{green|+0.10}} Monthly Piety per Knight
+* {{icon|Opinion}} {{green|+6}} Same Faith Opinion
+* {{icon|grandeur}} {{green|+4}} Court Grandeur
+| {{icon|piety}} Christianity
+| 
+* Europe
+* Jerusalem
+| 5
+| ''An elegant reliquary containing a holy relic: arm of St. George.''
+|-
+| '''Skull of St. John the Evangelist'''
+| Pedestal Item
+| 
+* {{icon|piety}} {{green|+0.3}} Monthly Piety
+* {{icon|grandeur}} {{green|+2}} Court Grandeur
+* {{icon|unknown}} One other random effect
+| {{icon|piety}} Christianity
+| 
+* Europe
+* Jerusalem
+| 5
+| ''An elegant reliquary containing a holy relic: skull of St. John the Evangelist.''
+|-
+| '''Visigothic Votive Crown'''
+| Regalia
+| 
+* {{icon|piety}} {{green|+15%}} Monthly Piety
+* {{icon|prestige}} {{red|-10%}} Monthly Prestige
+* {{icon|diplomacy}} {{green|+1}} Diplomacy per Level of Devotion
+| {{icon|piety}} Christianity
+| Iberia
+| 5
+| ''Designed to be hung over or around church altars, and occasionally on statues, to offer a votive crown to God is to express submission before an authority higher than any mere royal.''
+|-
+| '''Crown of Thorns'''
+| Pedestal Item
+| 
+* {{icon|piety}} {{green|+0.8}} Monthly Piety
+* {{icon|grandeur}} {{green|+4}} Court Grandeur
+* {{icon|unknown}} Two other random effects
+| {{icon|piety}} Christianity
+| 
+* Europe
+* Jerusalem
+| 1
+| ''An elegant reliquary containing a holy relic: the entirely preserved Crown of Thorns of Jesus, worn during the Passion.''
+| 
+|-
+| '''Girdle of Mary'''
+| Pedestal Item
+| 
+* {{icon|piety}} {{green|+0.8}} Monthly Piety
+* {{icon|grandeur}} {{green|+4}} Court Grandeur
+* {{icon|unknown}} Two other random effects
+| {{icon|piety}} Christianity
+| 
+* Europe
+* Jerusalem
+| 1
+| ''An elegant reliquary containing a holy relic: girdle of Mary.''
+|-
+| '''Loincloth of Jesus'''
+| Pedestal Item
+| 
+* {{icon|piety}} {{green|+0.8}} Monthly Piety
+* {{icon|grandeur}} {{green|+4}} Court Grandeur
+* {{icon|unknown}} Two other random effects
+| {{icon|piety}} Christianity
+| 
+* Europe
+* Jerusalem
+| 1
+| ''An elegant reliquary containing a holy relic: loincloth of Jesus.''
+|-
+| '''Sandals of Jesus'''
+| Pedestal Item
+| 
+* {{icon|piety}} {{green|+0.8}} Monthly Piety
+* {{icon|grandeur}} {{green|+4}} Court Grandeur
+* {{icon|unknown}} Two other random effects
+| {{icon|piety}} Christianity
+| 
+* Europe
+* Jerusalem
+| 1
+| ''An elegant reliquary containing a holy relic: the authentic sandals of Jesus Christ.''
+|-
+| '''Spear of Destiny'''
+| Pedestal Item
+| 
+* {{icon|piety}} {{green|+0.8}} Monthly Piety
+* {{icon|grandeur}} {{green|+4}} Court Grandeur
+* {{icon|unknown}} Two other random effects
+| {{icon|piety}} Christianity
+| 
+* Europe
+* Jerusalem
+| 1
+| ''An elegant reliquary containing a holy relic: this is the head of an ancient spear, said to have been used by a Roman soldier to pierce Jesus' side on the cross.''
+|-
+| '''Veil of Veronica'''
+| Pedestal Item
+| 
+* {{icon|piety}} {{green|+0.8}} Monthly Piety
+* {{icon|grandeur}} {{green|+4}} Court Grandeur
+* {{icon|unknown}} Two other random effects
+| {{icon|piety}} Christianity
+| 
+* Europe
+* Jerusalem
+| 1
+| ''An elegant reliquary containing a holy relic: the authentic Veil of Veronica: a piece of cloth on which Jesus' face was miraculously impressed during the Passion. It is said to heal the ill through the Grace of God.''
+|-
+| '''Hair of Muhammad'''
+| Pedestal Item
+| 
+* {{icon|piety islam}} {{green|+0.3}} Monthly Piety
+* {{icon|grandeur}} {{green|+2}} Court Grandeur
+* {{icon|unknown}} One other random effect
+| {{icon|piety islam}} Islam
+| 
+* Middle East
+* North Africa
+| 0
+| ''An elegant reliquary containing a holy relic: hair of Muhammad.''
+|-
+| '''Tooth of Muhammad'''
+| Pedestal Item
+| 
+* {{icon|piety islam}} {{green|+0.3}} Monthly Piety
+* {{icon|grandeur}} {{green|+2}} Court Grandeur
+* {{icon|unknown}} One other random effect
+| {{icon|piety islam}} Islam
+| 
+* Middle East
+* North Africa
+| 0
+| ''An elegant reliquary containing a holy relic: tooth of Muhammad.''
+|-
+| '''Sword of Muhammad'''
+| Pedestal Item
+| 
+* {{icon|renown}} {{green|+2%}} Monthly Renown
+* {{icon|piety islam}} {{green|+0.2}} Monthly Piety
+* {{icon|grandeur}} {{green|+4}} Court Grandeur
+* {{icon|unknown}} Two other random effects
+| {{icon|piety islam}} Islam
+| 
+* Asia Minor
+* Middle East
+| 9
+| ''One of the authentic nine swords of the Prophet Muhammad.''
+|-
+| '''Cloak of Muhammad'''
+| Pedestal Item
+| 
+* {{icon|piety islam}} {{green|+0.8}} Monthly Piety
+* {{icon|grandeur}} {{green|+4}} Court Grandeur
+* {{icon|unknown}} Two other random effects
+| {{icon|piety islam}} Islam
+| 
+* Middle East
+* North Africa
+| 1
+| ''An elegant reliquary containing a holy relic: cloak of Muhammad.''
+|-
+| '''Hand of Yahya'''
+| Pedestal Item
+| 
+* {{icon|piety islam}} {{green|+0.8}} Monthly Piety
+* {{icon|grandeur}} {{green|+4}} Court Grandeur
+* {{icon|unknown}} Two other random effects
+| {{icon|piety islam}} Islam
+| 
+* Middle East
+* North Africa
+| 1
+| ''An elegant reliquary containing a holy relic: hand of Yahya.''
+|-
+| '''Holy Banner of Muhammad'''
+| Large Wall Ornament
+| 
+* {{icon|piety islam}} {{green|+0.8}} Monthly Piety
+* {{icon|grandeur}} {{green|+4}} Court Grandeur
+* {{icon|unknown}} Two other random effects
+| {{icon|piety islam}} Islam
+| 
+* Middle East
+* North Africa
+| 1
+| ''This is said to be the Holy Banner of Muhammad, a relic from the days of the prophet and a symbol of the entire Muslim faith.''
+|-
+| '''Keys to the Kaaba'''
+| Pedestal Item
+| 
+* {{icon|piety islam}} {{green|+0.8}} Monthly Piety
+* {{icon|grandeur}} {{green|+4}} Court Grandeur
+* {{icon|unknown}} Two other random effects
+| {{icon|piety islam}} Islam
+| 
+* Middle East
+* North Africa
+| 1
+| ''An elegant reliquary containing a holy relic: keys to the Kaaba.''
+|-
+| '''Seal of Muhammad'''
+| Pedestal Item
+| 
+* {{icon|piety islam}} {{green|+0.8}} Monthly Piety
+* {{icon|grandeur}} {{green|+4}} Court Grandeur
+* {{icon|unknown}} Two other random effects
+| {{icon|piety islam}} Islam
+| 
+* Middle East
+* North Africa
+| 1
+| ''An elegant reliquary containing a holy relic: seal of Muhammad.''
+|-
+| '''Menorah of Jerusalem'''
+| Pedestal Item
+| 
+* {{icon|piety judaism}} {{green|+0.3}} Monthly Piety
+* {{icon|grandeur}} {{green|+2}} Court Grandeur
+* {{icon|unknown}} One other random effect
+| {{icon|piety judaism}} Judaism
+| 
+* Europe
+* Middle East
+| 0
+| ''The — probably — original Menorah of the Temple of Jerusalem.''
+|-
+| '''A Branch of the Bo Tree'''
+| Pedestal Item
+| 
+* {{icon|piety eastern}} {{green|+0.3}} Monthly Piety
+* {{icon|grandeur}} {{green|+2}} Court Grandeur
+* {{icon|unknown}} One other random effect
+| {{icon|piety eastern}} Buddhism
+| 
+* Burma
+* Himalaya
+* India
+* Tibet
+| 0
+| ''An elegant reliquary containing a holy relic: a branch from the Bo Tree, under which the Buddha sat when he attained Enlightenment.''
+|-
+| '''Bone of the Buddha'''
+| Pedestal Item
+| 
+* {{icon|piety eastern}} {{green|+0.3}} Monthly Piety
+* {{icon|grandeur}} {{green|+2}} Court Grandeur
+* {{icon|unknown}} One other random effect
+| {{icon|piety eastern}} Buddhism
+| 
+* Burma
+* Himalaya
+* India
+* Tibet
+| 0
+| ''An elegant reliquary containing a holy relic: bone of the Buddha.''
+|-
+| '''Hair of the Buddha'''
+| Pedestal Item
+| 
+* {{icon|piety eastern}} {{green|+0.3}} Monthly Piety
+* {{icon|grandeur}} {{green|+2}} Court Grandeur
+* {{icon|unknown}} One other random effect
+| {{icon|piety eastern}} Buddhism
+| 
+* Burma
+* Himalaya
+* India
+* Tibet
+| 0
+| ''An elegant reliquary containing a holy relic: a strand of Buddha's hair.''
+|-
+| '''Sarira'''
+| Pedestal Item
+| 
+* {{icon|piety eastern}} {{green|+0.3}} Monthly Piety
+* {{icon|grandeur}} {{green|+2}} Court Grandeur
+* {{icon|unknown}} One other random effect
+| {{icon|piety eastern}} Buddhism
+| 
+* Burma
+* Himalaya
+* India
+* Tibet
+| 0
+| ''An elegant reliquary containing a holy relic: various sarira of ancient masters.''
+|-
+| '''Tooth of the Buddha'''
+| Pedestal Item
+| 
+* {{icon|piety eastern}} {{green|+0.3}} Monthly Piety
+* {{icon|grandeur}} {{green|+2}} Court Grandeur
+* {{icon|unknown}} One other random effect
+| {{icon|piety eastern}} Buddhism
+| 
+* Burma
+* Himalaya
+* India
+* Tibet
+| 0
+| ''An elegant reliquary containing a holy relic: tooth of the Buddha.''
+|-
+| '''Alms-bowl of the Buddha'''
+| Pedestal Item
+| 
+* {{icon|piety eastern}} {{green|+0.8}} Monthly Piety
+* {{icon|grandeur}} {{green|+4}} Court Grandeur
+* {{icon|unknown}} Two other random effects
+| {{icon|piety eastern}} Buddhism
+| 
+* Burma
+* Himalaya
+* India
+* Tibet
+| 1
+| ''An elegant reliquary containing a holy relic: alms-bowl of the Buddha.''
+|-
+| '''Robes of the Buddha'''
+| Pedestal Item
+| 
+* {{icon|piety eastern}} {{green|+0.8}} Monthly Piety
+* {{icon|grandeur}} {{green|+4}} Court Grandeur
+* {{icon|unknown}} Two other random effects
+| {{icon|piety eastern}} Buddhism
+| 
+* Burma
+* Himalaya
+* India
+* Tibet
+| 1
+| ''An elegant reliquary containing a holy relic: robes of the Buddha.''
+|-
+| '''Tongue of Kumarajiva'''
+| Pedestal Item
+| 
+* {{icon|piety eastern}} {{green|+0.8}} Monthly Piety
+* {{icon|grandeur}} {{green|+4}} Court Grandeur
+* {{icon|unknown}} Two other random effects
+| {{icon|piety eastern}} Buddhism
+| 
+* Burma
+* Himalaya
+* India
+* Tibet
+| 1
+| ''An elegant reliquary containing a holy relic: intact tongue of the translator Kumarajiva.''
+|-
+| '''Branch of one of the Wish-Granting Kalpavrikshas'''
+| Pedestal Item
+| 
+* {{icon|piety eastern}} {{green|+0.3}} Monthly Piety
+* {{icon|grandeur}} {{green|+2}} Court Grandeur
+* {{icon|unknown}} One other random effect
+| {{icon|piety eastern}} Hinduism
+| 
+* Himalaya
+* India
+| 0
+| ''A common-looking branch of great religious value: it is voiced to come from nothing less than one of the Wish-Granting Kalpavrikshas.''
+|-
+| '''Shankha Conch'''
+| Pedestal Item
+| 
+* {{icon|piety eastern}} {{green|+0.5}} Monthly Piety
+* {{icon|fertility}} {{green|+20%}} Fertility
+* {{icon|development}} {{green|+20%}} Development Growth in Jungle Terrain
+* {{icon|grandeur}} {{green|+4}} Court Grandeur
+| {{icon|piety eastern}} Hinduism
+| 
+* Himalaya
+* India
+| 12
+| ''The emblem of the God Vishnu, this ancient Shankha Conch is used as a trumpet in religious ceremonies and is said to be a symbol of prosperity and virtue.''
+|-
+| '''Ancient Aruval'''
+| Pedestal Item
+| 
+* {{icon|renown}} {{green|+0.1}} Monthly Renown
+* {{icon|piety eastern}} {{green|+0.5}} Monthly Piety
+* {{icon|piety eastern}} {{green|+0.01}} Monthly Piety per Knight
+* {{icon|knight}} {{green|+1}} Number of Knights
+* {{icon|knight}} {{green|+15%}} Knight Effectiveness
+* {{icon|advantage}} {{green|+4}} Jungle Advantage
+* {{icon|levies}} {{green|+10%}} Levy Size in Jungle
+* {{icon|grandeur}} {{green|+3}} Court Grandeur
+| {{icon|piety eastern}} Hinduism
+| 
+* Himalaya
+* India
+| 8
+| ''This long Aruval is said to be so old that it is possible Karuppu Sami himself wielded it once.''
+|-
+| '''Ceremonial Khanda'''
+| Pedestal Item
+| 
+* {{icon|renown}} {{green|+0.05}} Monthly Renown
+* {{icon|piety eastern}} {{green|+0.02}} Monthly Piety per Knight
+* {{icon|scheme success chance}} {{green|-5%}} Enemy Personal Scheme Success Chance
+* {{icon|grandeur}} {{green|+2}} Court Grandeur
+| {{icon|piety eastern}} Hinduism
+| 
+* Himalaya
+* India
+| 8
+| ''This Khanda was made for ceremony rather than combat, and it has for generations acted as a reminder of the need to cut away the veil of ignorance.''
+|-
+| '''Siddhachakra'''
+| Pedestal Item
+| 
+* {{icon|piety eastern}} {{green|+0.3}} Monthly Piety
+* {{icon|grandeur}} {{green|+2}} Court Grandeur
+* {{icon|unknown}} One other random effect
+| {{icon|piety eastern}} Jainism
+| 
+* Burma
+* Himalaya
+* India
+* Tibet
+| 0
+| ''This is a mystical diagram used for worship by Jains. At its center a blossomed lotus is surrounded by deities on petals, symbology connected with the legend of King Shripala and his wife Mayanasundari.''
+|-
+| '''Afarganyu'''
+| Pedestal Item
+| 
+* {{icon|piety zoroastrian}} {{green|+0.3}} Monthly Piety
+* {{icon|grandeur}} {{green|+2}} Court Grandeur
+* {{icon|unknown}} One other random effect
+| {{icon|piety eastern}} Zoroastrianism
+| Persia
+| 0
+| ''This large vessel is where the holy fire, central to many of the ceremonies of the Zoroastrian faith, is lit. An old inscription speaks of the person who originally donated it to the priesthood.''
+|-
+| '''Branch of the Divine Haoma Tree'''
+| Pedestal Item
+| 
+* {{icon|piety zoroastrian}} {{green|+0.3}} Monthly Piety
+* {{icon|grandeur}} {{green|+2}} Court Grandeur
+* {{icon|unknown}} One other random effect
+| {{icon|piety eastern}} Zoroastrianism
+| Persia
+| 0
+| ''A common-looking branch of great religious value: it is voiced to come from nothing less than the Divine Haoma Tree.''
+|-
+| '''Branch of the Sacred Cypress of Kashmar'''
+| Pedestal Item
+| 
+* {{icon|piety zoroastrian}} {{green|+0.3}} Monthly Piety
+* {{icon|grandeur}} {{green|+2}} Court Grandeur
+* {{icon|unknown}} One other random effect
+| {{icon|piety eastern}} Zoroastrianism
+| Persia
+| 0
+| ''A common-looking branch of great religious value: it is voiced to come from nothing less than the Sacred Cypress of Kashmar.''
+|-
+| '''Branch of the Sacred Oak of Thor'''
+| Pedestal Item
+| 
+* {{icon|piety pagan}} {{green|+0.3}} Monthly Piety
+* {{icon|grandeur}} {{green|+2}} Court Grandeur
+* {{icon|unknown}} One other random effect
+| {{icon|piety pagan}} Norse
+| Northern Europe
+| 0
+| ''A common-looking branch of great religious value: it is voiced to come from nothing less than the Sacred Oak of Thor.''
+|-
+| '''Branch of the Sacred Tree at the Temple of Uppsala'''
+| Pedestal Item
+| 
+* {{icon|piety pagan}} {{green|+0.3}} Monthly Piety
+* {{icon|grandeur}} {{green|+2}} Court Grandeur
+* {{icon|unknown}} One other random effect
+| {{icon|piety pagan}} Norse
+| Northern Europe
+| 0
+| ''A common-looking branch of great religious value: it is voiced to come from nothing less than the Sacred Tree at the Temple of Uppsala.''
+|-
+| '''Sledovik'''
+| Pedestal Item
+| 
+* {{icon|piety pagan}} {{green|+0.3}} Monthly Piety
+* {{icon|grandeur}} {{green|+2}} Court Grandeur
+* {{icon|unknown}} One other random effect
+| {{icon|piety pagan}} Finno-Ugric
+| Northern Europe
+| 0
+| ''This big boulder is covered in foot traces that intrude into the rock itself. For many years it has acted as an altar, and the footprints are believed to be left by local holy men.''
+|-
+| '''Ancient Kantele'''
+| Pedestal Item
+| 
+* {{icon|piety pagan}} {{green|+0.2}} Monthly Piety
+* {{icon|fertility}} {{green|+20%}} Fertility
+* {{icon|gold}} {{green|-20%}} Embarkation Cost
+* {{icon|scheme success chance}} {{green|+10%}} Personal Scheme Success Chance
+* {{icon|development}} {{green|+20%}} Development Growth
+* {{icon|grandeur}} {{green|+3}} Court Grandeur
+| {{icon|piety pagan}} Finno-Ugric
+| Northern Europe
+| 3
+| ''This wooden string instrument has been passed down through many generations. Rumors claim it may even date to the days of Väinämöinen himself.''
+|-
+| '''Branch of Somb, the First Tree on Earth'''
+| Pedestal Item
+| 
+* {{icon|piety pagan}} {{green|+0.3}} Monthly Piety
+* {{icon|grandeur}} {{green|+2}} Court Grandeur
+* {{icon|unknown}} One other random effect
+| {{icon|piety pagan}} Senegambian
+| Western Africa
+| 0
+| ''A common-looking branch of great religious value: it is voiced to come from nothing less than Somb, the First Tree on Earth.''
+|-
+| '''Branch of the Tree of Life standing on the rock Alatyr'''
+| Pedestal Item
+| 
+* {{icon|piety pagan}} {{green|+0.3}} Monthly Piety
+* {{icon|grandeur}} {{green|+2}} Court Grandeur
+* {{icon|unknown}} One other random effect
+| {{icon|piety pagan}} Slavic
+| 
+* Eastern Europe
+* Southern Europe
+| 0
+| ''A common-looking branch of great religious value: it is voiced to come from nothing less than the Tree of Life standing on the rock Alatyr.''
+|}
+
+=== Coronation artifacts ===
+{{expansion|cor}}
+Every starting independent {{iconify|King}} and {{iconify|Emperor}} with the exception of the Byzantine and Holy Roman emperors will start with an artifact. If the character is an {{iconify|Emperor}} or their realm size is at least 60 the artifact will have <span style="color:blue;">'''Famed'''</span> quality. Otherwise it will have {{green|Masterwork}} quality. The artifact will have the following effects:
+* {{icon|legitimacy}} {{green|+8%}} Legitimacy Gain
+* {{icon|prestige}} {{green|+0.02}} Monthly Prestige
+* {{icon|unknown}} One random effect
+If the character's religion is Hinduism, Buddhism, Jainism, Hausa, Finno-Ugric or Slavic the artifact will be a [[File:Artifact regalia.png|24px]] Regalia. Otherwise it will be a [[File:Artifact crown.png|24px]] Crown.
+
+== Dynasty banners ==
+{{expansion|roc}}
+Dynasty banners are large wall ornament artifacts that are given to the first Dynasty Head of each dynasty who obtains a Royal Court. If the ruler loses all it's {{iconify|Kingdom}} or higher titles the character who took the last title will get the artifact but if they're not part of the same dynasty only the Court Grandeur bonus will be given. The rarity and effects of dynasty banners increase with the dynasty's Level of Splendor.
+{| class="mildtable" style="text-align: center;
+! Rarity
+! {{icon|renown}} Monthly Renown
+! {{icon|prestige}} Monthly Prestige
+! {{icon|grandeur}} Court Grandeur
+! Level of Splendor
+|-
+| <span style="color:brown;">'''Common'''</span> || 0.02 - 0.04 || 0.04 - 0.08 || 0-1 || Base origins - Noteworthy
+|-
+| {{green|Masterwork}} || 0.06 - 0.08 || 0.12 - 0.16 || 2 || Reputable - Significant
+|-
+| <span style="color:blue;">'''Famed'''</span> || 0.10 - 0.12 || 0.20 - 0.24 || 3 || Famous - Fabled
+|-
+| <span style="color:purple;">'''Illustrious'''</span> || 0.14 - 0.16 || 0.28 - 0.32 || 4 || Legendary
+|}
+
+== Mummification artifacts ==
+{{expansion|roc}}
+If a Faith has the Mummification funerary tradition, Furniture artifacts can be created after a {{iconify|Funeral}} activity. When the activity concludes there are three options: take the whole mummy to the court, which creates a Mummy artifact, take only the heart, which creates a Heart artifact, or leave the mummy in the tomb to gain additional {{iconify|Piety}}. All artifacts require the faith to have the doctrine and give {{green|+0.2}} monthly {{iconify|Prestige}} otherwise.
+
+The rarity of the artifact is determined by the history of the deceased. The rarity is increased by various factors like: the number of Virtuous Traits, Highest Title held, was the deceased the Head of Faith, Pilgrim trait (if the Faith allowed Pilgrimages), did they participate in a Tourney, every Lifestyle Trait, and if they had a max level education Trait. It is reduced by Sinful traits. And lastly the Saint and Living Legend traits increase the final score by 50%.<!-- for more info on these calculations see 00_artifact_values.txt-->
+
+{| class="mildtable plainlist"
+! Rarity !! Mummy effects !! Heart effects
+|-
+| <span style="color:brown;">'''Common'''</span>
+| 
+* {{icon|piety}} {{green|+0.2}} Monthly Piety
+* {{icon|grandeur}} {{green|+1}} Court Grandeur
+| 
+* {{icon|piety}} {{green|+0.1}} Monthly Piety
+* {{icon|prestige}} {{green|+0.1%}} Prestige Gain per Dread
+|-
+| {{green|Masterwork}}
+| 
+* {{icon|piety}} {{green|+0.4-0.8}} Monthly Piety
+* {{icon|grandeur}} {{green|+2-4}} Court Grandeur
+* {{icon|opinion}} {{green|+5}} Zealot Vassal Opinion (33% chance)
+| 
+* {{icon|piety}} {{green|+0.2-0.6}} Monthly Piety
+* {{icon|prestige}} {{green|+0.1%}} Prestige Gain per Dread
+* {{icon|grandeur}} {{green|+4}} Court Grandeur (33% chance)
+* {{icon|opinion}} {{green|+5}} Zealot Vassal Opinion (33% chance)
+|-
+| <span style="color:blue;">'''Famed'''</span>
+| 
+* {{icon|piety}} {{green|+1}} Monthly Piety
+* {{icon|grandeur}} {{green|+5}} Court Grandeur
+* {{icon|opinion}} {{green|+10}} Zealot Vassal Opinion
+| 
+* {{icon|piety}} {{green|+0.75}} Monthly Piety
+* {{icon|prestige}} {{green|+0.2%}} Prestige Gain per Dread
+* {{icon|opinion}} {{green|+10}} Zealot Vassal Opinion
+|-
+| <span style="color:purple;">'''Illustrious'''</span>
+| 
+* {{icon|piety}} {{green|+2}} Monthly Piety
+* {{icon|grandeur}} {{green|+10}} Court Grandeur
+* {{icon|opinion}} {{green|+15}} Zealot Vassal Opinion
+* {{icon|legitimacy}} {{green|+5%}} Legitimacy Gain
+* {{icon|learning}} {{green|+1}} Learning per Level of Devotion
+| 
+* {{icon|piety}} {{green|+1}} Monthly Piety
+* {{icon|prestige}} {{green|+0.2%}} Prestige Gain per Dread
+* {{icon|opinion}} {{green|+15}} Zealot Vassal Opinion
+* {{icon|legitimacy}} {{green|+2%}} Legitimacy Gain
+|}
+
+== Travel itineraries ==
+{{expansion|wnb}}
+Characters who have the Charts & Itineraries lifestyle perk can take the ''Create Travel Itinerary'' decision to create a journal artifact. When the decision is taken the character will have to choose what point of interest to write about. There will be up to 4 options depending on whether their type of point of interest has been visited. The bonuses provided scale with the amount of experience the {{iconify|Traveler}} trait has.
+* Choosing to write about points of interest within the domain will bring the option to focus on resources or defense.
+** Focusing on resources will give Monthly Development in terrain matching one of the baronies with the point of interest.
+** Focusing on defense will give either Controlled Territory Defender Advantage or Men-at-Arms Maintenance Reduction.
+* Choosing to write about a point of interest that is a vassal capital will bring the option to focus on control, aid or secrets.
+** Focusing on control will give Dread Gain.
+** Focusing on aid will give either Powerful Vassal Councilor Tax Contribution or Prestige per Powerful Vassal on Council.
+** Focusing on secrets will give either Initial Hostile Scheme Success Chance or Scheme Secrecy.
+* Choosing to write about a point of interest that contains a special building will bring the option to focus on the travel or the destination.
+** Focusing on the travel will give Travel Speed and Travel Safety.
+** Focusing on the destination will give Monthly Experience to the lifestyle that received experience when the barony was visited. If the point of interest was a holy site it will instead give Monthly Piety. If the point of interest was a natural feature it will instead give Hunter Trait Experience Gain.
+* Choosing to write about a point of interest that is a neighbor capital will bring the option to focus on the realm or the people. Characters with the {{iconify|Eccentric}} trait can also choose to write about a mythical creature.
+** Focusing on realm will give Monthly Prestige if the character does not have a royal court and Court Grandeur if the character has a royal court.
+** Focusing on people will give either Independent Ruler Opinion or Diplomacy.
+** Focusing on a mythical creature will give either Renown or Dynasty Opinion.
+
+5 days later you will have to choose which aspect of the journey to write about.
+* You will always have the option to write about the terrain of the point of interest. The artifact will have the following bonus:
+** 65% chance to give {{green|+5}} {{iconify|Advantage}} in that terrain
+** 35% chance to give {{green|+8}} {{iconify|Advantage}} in that terrain
+* If the point of interest county had below 50 {{iconify|Control}} or was at war you will have the option to write about the danger. The artifact will have the following bonus:
+** 25% chance to give {{green|+3}} {{icon|advantage}} Defender Advantage in controlled territory 
+** 25% chance to give {{green|+2%}} {{icon|death}} Enemy Fatal Casualties
+** 50% chance to give {{green|+5}} {{iconify|Travel Speed}}
+* If the point of interest was in the region was Northern Europe, Steppe or Tibet you will have the option to write about the winters. The artifact will add {{green|+10%}} {{icon|army speed}} Movement Speed and {{green|+2}} {{iconify|Advantage}} in baronies affected by winter.
+* If the point of interest was in the region of Africa, Burma, India or Middle East you will have the option to write about the heat. The artifact will add {{green|-23}} {{iconify|Danger}} in Desert Mountains, Desert, Drylands and Jungle terrain.
+* If the point of interest was in the region of Burma or India you will have the option to write about the rains. The artifact will add {{green|-23}} {{iconify|Danger}} in Desert Mountains, Jungle and Wetlands terrain.
+
+== Paizas ==
+{{expansion|kos}}
+Paizas are trinket artifacts that are unlocked by the Establish Paiza System decision. The Gurkhan will receive a Paiza and can give additional ones to subjects who have {{iconify|Nomadic}} government at the cost of 25 {{iconify|Gold}} and 350 {{iconify|Prestige}}. Rulers who do not have a Paiza and have {{iconify|Nomadic}} government can also ask the Gurkhan to give them one. Rulers who receive a Paiza will receive 20 Legitimacy if {{iconify|Count}}, 100 Legitimacy if {{iconify|Duke}}, 200 Legitimacy if {{iconify|King}} and 300 Legitimacy if {{iconify|Emperor}}.
+
+A Paiza will include the name of the Gurkhan who issued it. While they remain the Gurkhan, the Paiza will give {{green|+5}} {{iconify|Advantage}} and {{green|-50}} {{iconify|Danger}} in counties with {{iconify|Steppe}} terrain. Characters other than the Gurkhan will gain access to the Abuse Gurkhan's Authority decision and can use the Leverage Khan Authority interaction on all characters with {{iconify|Nomadic}} government. Paizas can be taken by other rulers but only characters who have {{iconify|Nomadic}} government can use the decision and interaction.
+
+If the character who issued a Paiza is no longer the Gurkhan, all Paizas lose all effects and will instead only give {{green|+0.05}} {{iconify|Prestige}} per month. The new Gurkhan must take the Establish Paiza System decision before they can grant new Paizas.
+
+== Talismans ==
+{{expansion|auh}}
+Talismans are trinket artifacts that are obtained by {{iconify|Mandala}} rulers each time they start a great project to upgrade their realm capital to the final level. The artifact has <span style="color:brown;">'''Common'''</span> quality and gives {{green|+2}} Monthly Piety. If the Bejeweled Reliefs contribution is paid for, when the great project is finished the quality of the artifact obtained from it will be increased to <span style="color:blue;">'''Famed'''</span> and it will gain an additional bonus based on the owner's Mandala Aspect.
+{| class="mildtable plainlist"
+! Mandala aspect
+! Contribution effects
+|-
+| [[File:Aspect of creation small.png|24px]] Creation
+| 
+* {{icon|fertility}} {{green|+15%}} Fertility
+* {{icon|health}} {{green|Small Boost}} to Health
+|-
+| [[File:Aspect of serenity small.png|24px]] Serenity
+| 
+* {{icon|vassal}} {{green|+2}} Vassal Limit
+* {{icon|time}} {{green|-12%}} Short Reign Duration
+|-
+| [[File:Aspect of destruction small.png|24px]] Destruction
+| 
+* {{icon|dread}} {{green|+6}} Natural Dread
+* {{icon|advantage}} {{green|+5}} Controlled Territory Defender Advantage
+* {{icon|pursuit}} {{green|+15%}} Pursuit Efficiency
+|-
+| [[File:Aspect of trickery small.png|24px]] Trickery
+| 
+* {{icon|scheme phase length}} {{green|+8}} Days Enemy Hostile Scheme Phase Length
+* {{icon|health}} {{green|Small Boost}} to Disease Resistance
+|}
+
+== Cranial trophies ==
+{{expansion|auh}}
+Cranial trophies are trinket artifacts that are obtained by characters whose faith has the tenet with the same name when they kill other rulers in battle, duel or beheading execution. The quality and stats of the artifacts depends on the primary title of the executed character.
+{| class="mildtable" style="text-align: center;
+! Victim title rank
+! Rarity
+! {{icon|piety}} Monthly Piety
+! {{icon|prestige}} Monthly Prestige
+! {{icon|dread}} Monthly Dread
+! {{icon|dread}} Natural Dread
+|-
+| Unlanded || <span style="color:brown;">'''Common'''</span> || 0.3 || 0.15 || 0.1 || 0
+|-
+| {{iconify|Baron}} || {{green|Masterwork}} || 0.6 || 0.3 || 0.15 || 5
+|-
+| {{iconify|Count}} || {{green|Masterwork}} || 0.9 || 0.45 || 0.2 || 5
+|-
+| {{iconify|Duke}} || <span style="color:blue;">'''Famed'''</span> || 1.2 || 0.6 || 0.3 || 10
+|-
+| {{iconify|King}} || <span style="color:blue;">'''Famed'''</span> || 1.5 || 0.75 || 0.35 || 10
+|-
+| {{iconify|Emperor}} || <span style="color:purple;">'''Illustrious'''</span> || 1.8 || 0.9 || 0.4 || 20
+|-
+| {{icon|hegemony}} Hegemon || <span style="color:purple;">'''Illustrious'''</span> || 2 || 1 || 0.5 || 20
+|}
+
+== Improving artifacts ==
+Each year there is a chance for artifacts to gain additional effects if certain requirements are met. Historical artifacts cannot gain such effects. Some improvements have multiple levels, but it will only advance one level each time, even if the requirement for higher levels are met. If an artifact has an effect of one type, it can not gain other types in this table.
+{| class="mildtable plainlist"
+! Effects
+! Artifact type
+! Requirements
+|-
+| 
+* {{icon|prowess}} {{green|+1}} Prowess
+* {{icon|advantage}} {{green|+2}} Faith Hostility Advantage
+* {{icon|advantage}} {{green|+2}} Controlled Territory Defender Advantage
+| {{icon|yes}} Any
+| Level of devotion is at least Devoted Servant
+|-
+| 
+* {{icon|dread}} {{green|+30%}} Dread Gain
+* {{icon|scheme success chance}} {{red|-5}}  Hostile Scheme Resistance
+| {{icon|yes}} Any
+| Artifact has either been stolen 5 times or its last 3 owners were murdered
+|-
+| 
+* {{icon|opinion}} {{green|-30%}} Short Reign Duration
+* {{icon|opinion}} {{green|+3}} Vassal Opinion
+| [[File:Artifact crown.png|24px]] Crown
+| Current owner and the last 3 owners were emperors
+|-
+| {{icon|prowess}} {{green|+1}} Prowess
+| [[File:Artifact armor.png|24px]] Armor
+| Artifact has been equipped during at least 15 victorious battles
+|-
+| 
+* {{icon|prowess}} {{green|+3}} Prowess
+* {{icon|opinion}} {{green|+3}} Vassal Opinion
+| [[File:Artifact armor.png|24px]] Armor
+| Artifact has been equipped during at least 30 victorious battles
+|-
+| 
+* {{icon|prowess}} {{green|+6}} Prowess
+* {{icon|opinion}} {{green|+7}} Vassal Opinion
+| [[File:Artifact armor.png|24px]] Armor
+| Artifact has been equipped during at least 50 victorious battles
+|-
+| 
+* {{icon|prowess}} {{green|+10}} Prowess
+* {{icon|opinion}} {{green|+12}} Vassal Opinion
+* {{icon|scheme success chance}} {{green|+5}}  Hostile Scheme Resistance
+| [[File:Artifact armor.png|24px]] Armor
+| Artifact has been equipped during at least 100 victorious battles
+|-
+|{{icon|prestige}} {{green|+0.1}} Monthly Prestige
+| [[File:Artifact weapon.png|24px]] Weapon
+| Artifact has been equipped during at least 15 victorious battles
+|-
+|{{icon|prestige}} {{green|+0.4}} Monthly Prestige
+| [[File:Artifact weapon.png|24px]] Weapon
+| Artifact has been equipped during at least 30 victorious battles
+|-
+| 
+* {{icon|prestige}} {{green|+0.7}} Monthly Prestige
+* {{icon|opinion}} {{green|+3}} Vassal Opinion
+| [[File:Artifact weapon.png|24px]] Weapon
+| Artifact has been equipped during at least 50 victorious battles
+|-
+| 
+* {{icon|prestige}} {{green|+1.1}} Monthly Prestige
+* {{icon|opinion}} {{green|+8}} Vassal Opinion
+* {{icon|renown}} {{green|+5%}} Monthly Renown
+| [[File:Artifact weapon.png|24px]] Weapon
+| Artifact has been equipped during at least 100 victorious battles
+|-
+|{{icon|prestige}} {{green|+0.1}} Monthly Prestige
+| [[File:Artifact weapon.png|24px]] Weapon
+| Artifact has been equipped during at least 5 victorious duels
+|-
+|{{icon|prestige}} {{green|+0.3}} Monthly Prestige
+| [[File:Artifact weapon.png|24px]] Weapon
+| Artifact has been equipped during at least 10 victorious duels
+|-
+| 
+* {{icon|prestige}} {{green|+0.6}} Monthly Prestige
+* {{icon|prowess}} {{green|+1}} Prowess
+| [[File:Artifact weapon.png|24px]] Weapon
+| Artifact has been equipped during at least 20 victorious duels
+|-
+|
+* {{icon|prestige}} {{green|+1}} Monthly Prestige
+* {{icon|prowess}} {{green|+3}} Prowess
+* {{icon|opinion}} {{green|+3}} Vassal Opinion
+| [[File:Artifact weapon.png|24px]] Weapon
+| Artifact has been equipped during at least 30 victorious duels
+|-
+| 
+* {{icon|unknown}} {{green|Weapon gains all the faith artifact's effects}}
+* {{icon|unknown}} Rarity becomes Illustrious
+| [[File:Artifact weapon.png|24px]] Weapon
+| Any faith-restricted artifact
+|}
+
+=== Courtier improves artifact ===
+Each year there is a chance a courtier or knight will offer to improve one of your artifacts. Only weapon or armor that is not cursed and not improved by this event can gain this bonus.
+Accepting the offer will give the courtier a hook or gold, The bonus gain is base on the skill of the helper
+{| class="mildtable plainlist"
+! Skill
+! Effect
+|-
+| {{iconify|Reaver}} 
+| {{icon|time}} {{green|+10%}} Raid Speed
+|-
+| {{iconify|Open Terrain Expert}}
+| {{icon|toughness}} {{green|+4%}} Heavy Cavalry Toughness
+|-
+|
+* {{iconify|Forest Fighter}}
+* {{iconify|Jungle Stalker}}
+* {{iconify|Desert Warrior}}
+* {{iconify|Winter Soldier}}
+* {{iconify|Berserker}}
+| {{icon|toughness}} {{green|+4%}} Heavy Infantry Toughness
+|-
+|
+* {{iconify|Rough Terrain Expert}}
+* {{iconify|Blademaster}}
+| {{icon|knight}} {{green|+3%}} Knight Effectiveness
+|-
+|
+* {{icon|prowess}} >= 20
+* {{iconify|Skilled Tactician}}
+* {{iconify|Brilliant Strategist}}
+* {{iconify|Varangian}}
+| {{icon|prowess}} {{green|+4}} Prowess
+|-
+| already have same bonus
+| {{icon|toughness}} {{green|+6%}} Heavy Infantry Toughness
+|}
+
+== References ==
+<references/>
+
+{{Mechanics navbox}}
+[[Category:Character]]

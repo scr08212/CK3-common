@@ -1,0 +1,437 @@
+{{version|1.18}}
+[[File:Fatimid regency.png|thumb|330px|Power sharing where the diarch has full powers]]
+Power sharing occurs when a significant amount of power is delegated to a second character, called the diarch, who helps their liege run their realm but may also use the power for their own gain. Being in a regency prevents the titles owner from changing their succession law.
+
+== Mandates ==
+During the power sharing, the diarch will be tasked with a mandate to pursue while the liege is unavailable. There are three possible mandates and their effects:
+{| class="mildtable plainlist"
+! Mandate
+! Possible benefits
+! Aptitude
+! width=50% | Description
+|-
+| [[File:Fill coffers.png|50px]] Fill Coffers
+| 
+* {{icon|gold}} Extra gold
+* {{icon|development}} Free domain development
+* {{icon|vassal}} Feudal contracts adjusted in the liege's favor
+| 
+* +1 per {{iconify|Stewardship}}
+* +0.5 per {{iconify|Intrigue}}
+* +0.5 per {{iconify|Learning}}
+| ''The Diarch is instructed to increase revenues for their Liege, at any cost.''
+|-
+| [[File:Swell armies.png|50px]] Swell Armies
+| 
+* {{icon|unknown}} Positive men-at-arms modifiers
+* {{icon|unknown}} Positive levy modifiers
+* {{icon|knight}} Skilled knight courtiers
+| 
+* +1 per {{iconify|Martial}}
+* +0.5 per {{iconify|Prowess}}
+* +0.5 per {{iconify|Diplomacy}}
+| ''Current or future campaigns call for fresh bodies to fight, and the Liege has decreed that their Diarch shall find them.''
+|-
+| [[File:Promote authority.png|50px]] Promote Authority
+| 
+* {{icon|yes}} Characters leave factions
+* {{icon|unknown}} Increased crown authority
+* {{icon|opinion}} Increased council opinion
+| 
+* +1 per {{iconify|Diplomacy}}
+* +0.5 per {{iconify|Martial}}
+* +0.5 per {{iconify|Learning}}
+| ''The Liege calls on their Diarch to help build and focus the power of the throne.''
+|}
+
+The diarch will receive events related to these mandates and be given the option to grant the benefit to their liege, split rewards, pocket it for themselves, or just ignore their duties entirely. Their aptitude will influence how good they are at doing their job.
+
+== Loyalty ==
+Each diarch has a loyalty rating, which determines how likely they are to abuse their powers.
+* [[File:Loyalty selfless.png|24px]] Selfless diarchs will not use borrowed powers and always give the mandate benefits to the liege. If the liege tries to end the power sharing they will always agree.
+* [[File:Loyalty situational.png|24px]] Situational diarchs will sometimes use borrowed powers and always split the mandate benefits with the liege or ignore their duties. If the liege tries to end the power sharing but the Scales of Power are not at level 1 it will require paying the diarch with something.
+* [[File:Loyalty self-interested.png|24px]] Self-Interested diarchs will try to use borrowed powers and always pocket the mandate benefits themselves. If the liege tries to end the power sharing but the Scales of Power favor them they will always refuse.
+
+Loyalty is increased by positive {{iconify|Opinion}}, {{iconify|Dread}}, and the diarch's Compassion and Honor. It will always be [[File:Loyalty selfless.png|24px]] Selfless if the ruler has a Loyalty or Loyalty to Predecessor {{iconify|strong hook}} on the diarch.
+
+== Scales of Power ​==
+The Scales of Power go from 0 to 100 and represents the balance of the power shared between liege and diarch. The longer the power sharing lasts the more it increases towards the diarch, giving them more power in the realm. Barring other factors, Scales of Power tend to drift to 50. Both liege and diarch may try to swing the Scales of Power in their favor every 2 years via the following options:
+{| class="mildtable" style="text-align: center;
+! rowspan=2 | Option
+! colspan=3 | Cost
+|-
+! {{iconify|Count}}
+! {{iconify|Duke}}
+! {{iconify|King}} and above
+|-
+| align=left | '''Leverage Influence''' || {{icon|no}} || {{icon|no}} || {{icon|influence}} 100
+|-
+| align=left | '''Leverage Prestige''' || {{icon|prestige}} 75 || {{icon|prestige}} 150 || {{icon|prestige}} 350
+|-
+| align=left | '''Leverage Piety''' || {{icon|piety}} 50 || {{icon|piety}} 100 || {{icon|piety}} 250
+|-
+| align=left | '''Leverage Gold''' || {{icon|gold}} 100 || {{icon|gold}} 300 || {{icon|gold}} 750
+|-
+| align=left | '''Ask for intercession from your Head of Faith''' || {{icon|piety}} 50<br>{{icon|gold}} 100 || {{icon|piety}} 100<br>{{icon|gold}} 300 || {{icon|piety}} 250<br>{{icon|gold}} 750
+|-
+| align=left | '''Use a Hook''' || {{icon|weak hook}} || {{icon|weak hook}} || {{icon|weak hook}}
+|}
+Asking for intercession from the Head of Faith is only available if both characters have the same head of faith and the character requesting it has at least 60 {{iconify|Opinion}} with the head of faith while the opponent does not have 40 {{iconify|Opinion}} or a {{iconify|strong hook}} on them.
+
+If the Scales of Power favor the diarch then the liege will have to pay {{iconify|Prestige}} for mundane actions. Mundane actions are revoking a title, retracting a vassal, imprisoning a character, and executing characters (unless the liege's faith has the Human Sacrifice or Gruesome Festivals tenet).
+
+== Regency ==
+Regency occurs for a ruler who is imprisoned or away on an activity taking place outside their realm. If the Scales of Power are at level 1 or the diarch has {{green|Selfless}} loyalty the Regency will end automatically when the ruler returns. Otherwise it requires using {{iconify|Prestige}}, {{iconify|Piety}}, {{iconify|Gold}} or offering a {{iconify|Weak Hook}} to the diarch. During Regency the liege has {{green|+10%}} {{iconify|Stress Loss}} and the regent has {{red|+15%}} {{iconify|Stress Gain}}.
+
+Regency has its own succession based on {{iconify|Opinion}} and character stats. The player heir, spouse, guardian, family members and landless characters take precedence, especially should these factors stack. The regent can be designated manually by the liege every 10 years but it will reduce {{iconify|Opinion}} with any character higher in the succession hierarchy as well as all [[File:Vassal stance courtly.png|24px]] Courtly vassals.
+
+Regency has 4 levels. Each level grants the diarch unique interactions called borrowed powers. Borrowed powers can be vetoed by the liege by spending {{iconify|Prestige}}, and using Borrowed powers may cause Strife - an {{iconify|Opinion}} penalty with all of the liege's vassals. Initially Scales of Power has the following levels:
+{| class="mildtable"
+! Level
+! Scales
+! Borrowed power
+! Borrowed power effects
+|-
+| '''1'''
+| 0-33
+| Siphon Treasury
+| {{iconify|Stewardship}} challenge targeting the liege. The difficulty scales with the amount chosen.
+* On success gain {{iconify|Gold}} and the Embezzler secret. One of the liege's counties will lose {{icon|gold}} Holding Taxes, {{iconify|Control}} or {{iconify|Development}} scaling with the amount chosen and the diarch's {{iconify|Stewardship}}.
+* On failure gain {{red|15-50}} Strife and lose {{red|30-75}} {{iconify|Opinion}} with the liege depending on the amount chosen. Failure is also a crime.
+|-
+| '''2'''
+| 34-66
+| Regent Imprison
+| Targets the liege's vassals and courtiers. The liege can veto the interaction at the cost of 150 {{iconify|Prestige}}.
+* On success imprison the targeted character and gain {{green|15}} Dread and {{red|15}} Strife.
+* On failure gain Tyranny if the target is a courtier and starts a war with the Remove Regent casus belli if the target is a vassal.
+|-
+| '''3'''
+| 67-99
+| Legal Meddling
+| Targets the liege's vassals. Can choose to pay 150 {{iconify|Prestige}} (success), 50 {{iconify|Prestige}} (50% chance of success) or do a {{iconify|Learning}} challenge.
+* On success gain an {{iconify|Unpressed Claim}} on the vassal's primary title and {{red|10}} Strife.
+* On failure gain {{iconify|Stress}}.
+|-
+| '''4'''
+| 100
+| Modify Vassal Contract<br>Entrench Regency
+| Targets the liege. Lowers one obligation or adds a right to the vassal contract at the cost of {{red|40}} {{iconify|Opinion}} with the liege.<br>Power sharing becomes Entrenched Regency. This costs 150 {{iconify|Prestige}}.
+|}
+
+== Entrenched Regency and Co-Monarchy ==
+Entrenched Regents and Co-Monarchs have similar powers at the steps on the scale. However, there are some key differences.
+* '''Co-Monarchy''' is started when a {{iconify|Feudal}}, {{iconify|Sōryō}}, {{iconify|Tribal}} or {{iconify|Wanua}} {{iconify|King}} or {{iconify|Emperor}} chooses to appoint a family member as co-monarch, in which case the diarch is also automatically appointed as designated heir. It can only be ended by imprisoning and executing the co-monarch.
+* '''Entrenched Regency''' is automatic for an underage ruler or when a ruler gains the {{iconify|Incapable}} trait and a level 4 Regency can also be turned into an Entrenched Regency. If a ruler comes of age the new balance for the Scales of Power is at 0 and the ruler can attempt to end the Entrenched Regency.
+{| class="mildtable"
+! Level
+! Scales
+! Effects
+! Liege mundane action cost
+! Can end Entrenched Regency
+|-
+| '''1'''
+| 0-19
+| 
+* Diarch can use the Siphon Treasury borrowed power on the liege
+* Diarch can use the Subsidize Liege Authority borrowed power on the liege
+| 0
+| {{iconify|Yes}}
+|-
+| '''2'''
+| 20-39
+| 
+* Diarch gets a free extra change to their Vassal Contract
+* Diarch can use the Shift Privileges borrowed power on the liege's vassals
+| 0
+| Requires diarch acceptance
+|-
+| '''3'''
+| 40-59
+| 
+* Diarch can use the Legal Meddling borrowed power on the liege's vassals
+* Diarch can use the Diarch Revoke Title borrowed power on the liege's vassals if they have a claim on one of its titles and realm has enough Crown Authority
+| 75+
+| Requires diarch acceptance
+|-
+| '''4'''
+| 60-79
+| 
+* Diarch can use the Diarch Imprison borrowed power on the liege's vassals and courtiers
+* Diarch can use the Diarch Retract Vassal borrowed power on the liege's vassals if realm has enough Crown Authority
+| 150+
+| Requires diarch acceptance
+|-
+| '''5'''
+| 80-94
+| 
+* Diarch can use the Elevate Self to Co-Emperor borrowed power if Duumvirate conditions are met
+| 250+
+| {{iconify|No}}
+|-
+| '''6'''
+| 95-100
+| 
+* Diarch can use the Attempt to Overthrow Liege decision
+* Diarch can use the Invite Conspirators to Coup borrowed power on powerful vassals
+| 350+
+| {{iconify|No}}
+|}
+
+== Vizierate ==
+Vizierate occurs when a clan ruler appoints a vizier. The diarch gains access to the Siphon Treasury borrowed power while the liege gains access to the Mulct Vizier interaction with the diarch, gaining gold and swinging Scales of Power towards the diarch. If the diarch is also a {{iconify|Tax Collector}} then it gains 50% of the current Scales of Power as Tax Collector Aptitude
+
+Unless at level 1, ending the power sharing will give a negative {{icon|gold}} Monthly Income modifier that depends on the current Scales of Power. Alternatively the power sharing can be ended without penalties by giving the diarch a landed title.
+
+Under Vizierate the Scales of Power go up to level 7. As levels increase, {{iconify|Tax Collector}}s gain an aptitude bonus depending on the diarch's own aptitude.
+{| class="mildtable" style="text-align: center;"
+! Level
+! Scales
+! Tax collector bonus
+! End power sharing penalty
+! Liege mundane action cost
+! Attempt to Overthrow Liege decision
+|-
+| '''1'''
+| 0-19
+| 
+| {{green|0%}}
+| 0
+| {{icon|no}}
+|-
+| '''2'''
+| 20-39
+| {{green|+10%}}
+| {{red|16%-24%}} unless granting a {{iconify|County}}
+| 0
+| {{icon|no}}
+|-
+| '''3'''
+| 40-59
+| {{green|+20%}}
+| {{red|32%-40%}} unless granting a {{iconify|County}}
+| 0
+| {{icon|no}}
+|-
+| '''4'''
+| 60-69
+| {{green|+40%}}
+| {{red|48%}} unless granting a {{iconify|Duchy}}
+| 75+
+| {{icon|no}}
+|-
+| '''5'''
+| 70-79
+| {{green|+40%}}
+| {{red|56%}} unless granting a {{iconify|Duchy}}
+| 150+
+| {{icon|no}}
+|-
+| '''6'''
+| 80-89
+| {{green|+60%}}
+| {{red|64%}} unless granting a {{iconify|Duchy}}
+| 250+
+| {{icon|no}}
+|-
+| '''7'''
+| 90+
+| {{green|+60%}}
+| {{red|72%-80%}} unless granting a {{iconify|Duchy}}
+| 350+
+| {{icon|yes}}
+|}
+
+== Duumvirate ==
+{{expansion|rtp}}
+Duumvirate is a form of power sharing only available to {{iconify|Emperor}}s whose culture has the Roman Ceremonies tradition, and only family members can be appointed as diarchs. The liege gets a percentage {{iconify|Influence}} bonus while the diarch gets a flat monthly bonus, which both increase every 5 years of power sharing, including those with a Nominal Duumvirate. Children of the diarch can also gain the {{iconify|Born in the Purple}} trait if the other requirements are met.
+
+Under a Duumvirate the diarch always becomes the Designated Heir and if they execute their liege or defeat them in war they take all the liege's titles. If a Designated Heir previously existed they will lose {{red|50}} {{iconify|Opinion}}.
+
+{| class="mildtable"
+! Level
+! Scales
+! Effects
+! Administrative bonus
+! Liege mundane action cost
+|-
+| '''1'''
+| 0-20
+| 
+* Diarch can use the Siphon Treasury borrowed power on the liege
+* Diarch can use the Co-Emperor Imprison borrowed power on the liege's vassals
+* Diarch can use the Shift Privileges borrowed power on the liege's vassals
+| {{green|+50%}}
+| 0
+|-
+| '''2'''
+| 21-40
+| 
+* Diarch can use the Co-Emperor Revoke Title borrowed power on the liege's vassals
+* Diarch can use the Co-Emperor Retract Vassal borrowed power on the liege's vassals
+* Diarch can use the Adjust Bureaucracy borrowed power on the liege
+| {{green|+75%}}
+| 0
+|-
+| '''3'''
+| 41-60
+| 
+* Diarch can use the Demand Private Despotate borrowed power on the liege
+* Diarch and liege can use the Scapegoat interaction on each other if one has higher Diplomacy or Intrigue
+| {{green|+100%}}
+| 75+
+|-
+| '''4'''
+| 61-80
+| 
+* Diarch can use the Request Imperial Expedition borrowed power on the liege
+| {{green|+150%}}
+| 150+
+|-
+| '''5'''
+| 81-100
+| 
+* Diarch can use the Attempt to Overthrow Liege decision
+* Diarch can use the Invite Conspirators to Coup borrowed power on powerful vassals
+| {{green|+150%}}
+| 250+
+|}
+
+=== Nominal Duumvirate ===
+Children can be given a Nominal Duumvirate instead. Upon becoming adult the power sharing will be turned into a regular Duumvirate, the diarch receives additional skill points depending on the Scales of Power swing and the Scales of Power swing is reduced by half. Both characters get the same {{iconify|Influence}} bonus as from a regular Duumvirate. The liege can swing the Scales of Power both ways and swinging them towards the diarch is free and gives {{green|+20}} {{iconify|Opinion}} with them.
+{| class="mildtable plainlist"
+! Level
+! Scales
+! Adulthood skill points
+! Administrative bonus
+|-
+| '''1'''
+| 0-20
+| 
+| 
+|-
+| '''2'''
+| 21-40
+| 
+* {{green|+2}} in the education skill
+* {{green|+1}} in two other skills
+| {{green|+50%}}
+|-
+| '''3'''
+| 41-60
+| 
+* {{green|+3}} in the education skill
+* {{green|+2}} in two other skills
+| {{green|+75%}}
+|-
+| '''4'''
+| 61-80
+| 
+* {{green|+4}} in the education skill
+* {{green|+3}} in two other skills
+| {{green|+100%}}
+|-
+| '''5'''
+| 81-100
+| 
+* {{green|+5}} in the education skill
+* {{green|+4}} in two other skills
+| {{green|+150%}}
+|}
+
+In 1066 the Byzantine Empire starts with a Duumvirate while in 1178 it starts with a Nominal Duumvirate.
+
+== Grand Secretariat ==
+{{expansion|rtp}}
+Grand Secretariat is a form of power sharing started automatically in {{iconify|Hegemony}} of China as long as the realm has {{iconify|Celestial}} government. The regent will be a councilor decided by the Grand Secretariat Control law. Grand Secretariats use a different set of mandates:
+{| class="mildtable plainlist"
+! Mandate
+! Possible benefits
+! Apptitude
+! Description
+|-
+| [[File:Placate movements.png|50px]] Placate Movements
+| 
+* [[File:Dynastic cycle group pro.png|24px]] Characters join the Pro-Dynasty movement
+* {{icon|factions}} Characters leave factions
+* {{icon|scheme success chance}} Slander scheme is more effective against other movements
+* {{icon|unknown}} Increased acceptance to join movement
+| 
+* +1 per {{iconify|Diplomacy}}
+* +0.3 per {{iconify|Stewardship}}
+* +0.3 per {{iconify|Intrigue}}
+* +0.3 per {{iconify|Learning}}
+| ''Secretary Director is set to appease the Movement Power.''
+|-
+| [[File:Promote might.png|50px]] Cultivate Body
+| 
+* {{icon|unknown}} Positive men-at-arms modifiers
+* {{icon|unknown}} Positive levy modifiers
+* {{icon|knight}} Skilled knight courtiers
+| 
+* +1 per {{iconify|Martial}}
+* +0.5 per {{iconify|Prowess}}
+* +0.5 per {{iconify|Diplomacy}}
+| ''Son of Heaven calls on their Secretary Director to help cultivate Prowess in the Realm.''
+|-
+| [[File:Promote merit.png|50px]] Cultivate Body
+| 
+* [[File:Activity imperial examination.png|24px]] Capital Examination Merit rewards are increased
+* {{icon|scheme success chance}} Mentorship scheme is more effective
+* {{icon|merit}} Characters gain Merit
+* {{icon|confucian education}} Characters gain the Confucian Education trait or experience for it
+| 
+* +2 per Merit Rank
+* +1 per Disciple
+* +0.25 per {{iconify|Confucian Education}} trait level
+| ''Son of Heaven calls of their Secretary Director to help cultivate Merit in the Realm.''
+|}
+
+Under Grand Secretariat the Scales of Power go up to level 6.
+{| class="mildtable"
+! Level
+! Scales
+! Effects
+! Liege mundane action cost
+|-
+| '''1'''
+| 0-19
+| 
+* Diarch gains {{green|+1}} Disciple Limit and {{green|+100}} Movement Power
+* Diarch can use the Subsidize Liege Authority borrowed power on the liege
+| 0
+|-
+| '''2'''
+| 20-39
+| 
+* Diarch can use the Grand Secretariat Imprison borrowed power on the liege's vassals and courtiers
+| 0
+|-
+| '''3'''
+| 40-59
+| 
+* Diarch gets a free extra change to their Vassal Contract
+| 75+
+|-
+| '''4'''
+| 60-79
+| 
+* Diarch can use the Change Mandate borrowed power on the liege's vassals
+| 150+
+|-
+| '''5'''
+| 80-89
+| 
+* Diarch and liege can use the Scapegoat interaction on each other if one has higher Diplomacy or Intrigue
+| 250+
+|-
+| '''6'''
+| 90+
+| 
+* Diarch can use the Attempt to Overthrow Liege decision
+* Diarch can use the Invite Conspirators to Coup borrowed power on powerful vassals
+| 350+
+|}
+
+{{Mechanics navbox}}
+[[Category:Realm]]

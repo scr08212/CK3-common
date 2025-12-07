@@ -1,0 +1,340 @@
+{{Version|1.18}}
+[[File:Activity travel.png|thumb|330px|Planning a pilgrimage travel]]
+Travel is used for characters on the road who must leave their home for a time. The system is used by any activity that does not take place in the same barony as the character, as well as vassals who make the decision to petition or pay homage to their liege. [[Adventurer]]s also travel is also used while undertaking [[Adventurer#Contracts|contracts]] or moving their camp.
+
+In most cases, a character will travel with an Entourage made up of characters relevant to the circumstances. Characters who have {{icon|court physician}} Personal Physician or {{iconify|Bodyguard}} court positions will always join and additional characters can be added via certain travel options. Schemes progress is paused if either character is traveling, unless both characters are part of the same Entourage. If a ruler's travel destination lies outside their realm, a [[Regency|regent]] will assume power until the ruler returns.
+
+== Mechanics ==
+Traveling has two important factors to keep track of:
+* {{icon|travel speed}} Speed determines how fast the caravan will move compared to armies. At 100% the caravan will move at the same speed as armies.
+* {{iconify|Safety}} reduces the chance of {{icon|travel danger}} Danger events.
+
+Once a destination is selected a travel route will be created going through the shortest number of baronies. Detours can be manually added in order to avoid dangerous baronies or visit specific points of interest. While traveling, various events may occur. Each barony has a chance of triggering a {{icon|travel danger}} Danger event, which is determined by the terrain of each barony, the level of constructed holdings, the [[County#Control|Control level]] of its county, and the {{iconify|Opinion}} of each county and its title holder. Some cultural [[traditions]] can reduce the danger from traveling through certain types of terrain. If a Barony is infected by a [[plague]] it will also have a Plague Danger, representing the chance of catching a plague if traveling through that barony.
+
+== Points of interest ==
+When a travel is planned the map will display all points of interest, which are baronies that contain something noteworthy. Visiting a point of interest will give additional bonuses, which stacks if the barony meets multiple point of interest criteria. The following baronies are points of interest:
+* Capitals of a {{iconify|Kingdom}} will give experience to the lifestyle matching its court type. If it does not have a royal court it will give [[File:Diplomacy lifestyle.png|24px]] Diplomacy lifestyle experience.
+* Capitals of an {{iconify|Empire}} will give triple experience to the lifestyle matching its court type. If it does not have a royal court it will give [[File:Diplomacy lifestyle.png|24px]] Diplomacy lifestyle experience.
+* Capitals of a ruler with an Illustrious or Mythical legend will give [[File:Diplomacy lifestyle.png|24px]] Diplomacy lifestyle experience.
+* Holy sites will give 100 {{iconify|Piety}}. If the character has the {{iconify|Wise Man}}/Woman trait it will also gain experience for it.
+* Baghdad, Constantinople and Rome if they are outside the realm will give experience for the {{iconify|Traveler}} trait and offer the option to delay the travel for 14 days for the chance to gain various bonuses.
+* Alexandria and Halicarnassos will give 150 {{iconify|Prestige}}.
+* Unique buildings such as mining sites, modified natural features, and so on grant experience for the appropriate lifestyle.
+
+=== Battles sites ===
+Battle sites are points of interest that will give [[File:Martial lifestyle.png|24px]] Martial lifestyle experience and has a 20% chance to give a commander trait if the character does not have two or more. The following historical battle sites exist, provided the game is started after their historical year:
+{| class="mildtable plainlist"
+! Point of Interest
+! Barony
+! Year
+! Commander trait
+|-
+| '''Battle of Yarmuk'''
+| Zurra
+| 636
+| {{iconify|Reckless}}
+|-
+| '''Battle of Aror'''
+| Aror
+| 711
+| {{iconify|Flexible Leader}}
+|-
+| '''Battle of Tours'''
+| Châtellerault
+| 732
+| {{iconify|Unyielding Defender}}
+|-
+| '''Battle of Talas'''
+| Talas
+| 751
+| {{iconify|Desert Warrior}}
+|-
+| '''Battle of Lechfeld'''
+| Augsburg
+| 955
+| {{iconify|Open Terrain Expert}}
+|-
+| '''Battle of Svolder'''
+| Arkona
+| 999
+| {{iconify|Holy Warrior}}
+|-
+| '''Battle of Dandanaqan'''
+| Dandanaqan
+| 1040
+| {{iconify|Desert Warrior}}
+|-
+| '''Battle of Civitate'''
+| Larino
+| 1053
+| {{iconify|Open Terrain Expert}}
+|-
+| '''Battle of Hastings'''
+| Hastings
+| 1066
+| {{iconify|Aggressive Attacker}}
+|-
+| '''Battle of Stamford Bridge'''
+| York
+| 1066
+| {{iconify|Organizer}}
+|-
+| '''Battle of Manzikert'''
+| Malazgirt
+| 1071
+| {{iconify|Flexible Leader}}
+|}
+
+New battle sites will appear following battles that meet at least 3 of the following criteria:
+* One of the war leaders was a human player
+* One of the war leaders, their heir or their consort/concubine was killed
+* One of the war leaders, their heir or their consort/concubine was captured
+* Neither side has twice or more troops than the other
+* 65% of one of the armies became Fatal Casualties
+* Enough troops became Fatal Casualties in battle depending on current year
+** 3500 between years 867-1000
+** 7000 between years 1001-1100
+** 10500 between years 1101-1200
+** 14000 between years 1201-1300
+** 17500 between years 1301-1400
+** 21000 after year 1401
+* Enough troops were present in battle depending on current year
+** 10500 between years 867-1000
+** 21000 between years 1001-1100
+** 31500 between years 1101-1200
+** 42000 between years 1201-1300
+** 52500 between years 1301-1400
+** 63000 after year 1401
+* Both war leaders were human players in multiplayer
+
+== Travel options ==
+Each character who travels may select up to two travel options to improve traveling:
+{| class="mildtable plainlist"
+! Travel option
+! Effects
+! Requirements
+|-
+| {{iconbox|Hire Cultural Ambassador|You hire someone to serve as a Cultural Ambassador on your journey to disseminate information about your culture to all the baronies you travel through.|image=Cultural ambassador option.png|w=35em}}
+| 
+* {{icon|diplomacy}} A character with high Diplomacy joins the Entourage
+* {{icon|unknown}} Gain [[Culture#Cultural_acceptance|Cultural acceptance]] while traveling through foreign lands
+| {{icon|gold}} Base cost 5 Gold
+|-
+| {{iconbox|Hire Experienced Captains|You will send word for experienced captains to join your entourage, significantly reducing the danger of traveling across sea and ocean.|image=Experienced captains option.png|w=35em}}
+| 
+* {{icon|danger}} {{green|-45}} Danger in Sea and Coastal Sea areas
+* {{icon|forder}} A character with the Forder trait joins the Entourage
+| {{icon|gold}} Base cost 5 Gold
+|-
+| {{iconbox|Hire Mercenary Guards|You will hire hardened mercenaries to join your entourage as guards, increasing overall safety and speed.|image=Hire experienced mercenaries option.png|w=35em}}
+| 
+* {{icon|travel speed}} {{green|+10}} Travel Speed
+* {{icon|safety}} {{green|+20}} Travel Safety
+* {{icon|duchy}} The title owner of a Mercenary Company will join the Entourage
+| 
+* {{icon|gold}} Base cost 10 Gold
+* [[File:Mercenary.png|24px]] Unhired Mercenary Company within diplomatic range
+|-
+| {{iconbox|Make Haste|The world is a dark and dangerous place; best to hasten the journey as much as possible.|image=Anxious option.png|w=35em}}
+| 
+* {{icon|travel speed}} {{green|+20}} Travel Speed
+* {{icon|safety}} {{red|-10}} Travel Safety
+| {{icon|yes}} Craven, Impatient or Reckless trait
+|-
+| {{iconbox|Circumspect|Never let them know your next move.|image=Circumspect option.png|w=35em}}
+| 
+* {{icon|scheme success chance}} {{green|+50%}} Hostile Scheme Resistance
+* {{icon|scheme success chance}} {{green|-50%}} Enemy Hostile Scheme Success Chance
+* {{icon|travel speed}} {{red|-10}} Travel Speed
+| {{icon|yes}} Arbitrary, Fickle or Paranoid trait
+|-
+| {{iconbox|Bring Medical Equipment|You will bring a healthy supply of medical equipment along on your journey to reduce Danger from Plagues.|image=Court physician option.png|w=35em}}
+| {{icon|danger}} {{green|-52}} Plague Danger
+| {{icon|court physician}} Personal Physician
+|-
+| {{iconbox|Appeasement|Sometimes one must don a benevolent facade, concealing tyranny with regal charm, soothing vassals and subjects.|image=Appeasement option.png|w=35em}}
+| 
+* {{icon|opinion}} {{green|-0.8}} Monthly Tyranny
+* {{icon|dread}} {{red|-0.4}} Monthly Dread
+| [[File:Node wandering.png|24px]] Local Hero​ perk
+|-
+| {{iconbox|Mellow Journey|In your travels, you will set aside time to warmly explore small towns and villages, connecting with the locals.|image=Leisurely option.png|w=35em}}
+| 
+* {{icon|stress}} {{green|-50%}} Stress Gain
+* {{icon|travel speed}} {{red|-20}} Travel Speed
+| [[File:Node wandering.png|24px]] Local Hero​ perk
+|-
+| {{iconbox|Private Army|A mixed group of lesser knights and local mercenaries, to ensure a quick and safe yet affordable journey.|image=Hire allied mercenaries option.png|w=35em}}
+| 
+* {{icon|safety}} {{green|+5}} Travel Safety
+* {{icon|travel speed}} {{green|+5}} Travel Speed
+| [[File:Node wandering.png|24px]] Mercenary Contacts perk
+|-
+| {{iconbox|Tutoring Trip|Bringing your heir when traveling the realm will teach them about the life of a ruler.|image=Tutor child option.png|w=35em}}
+| 
+* {{icon|yes}} Heir joins the Entourage
+* {{icon|unknown}} {{green|75%}} Chance child increases a skill by 1
+* {{icon|unknown}} {{green|25%}} Chance child increases a skill by 2
+* {{icon|opinion}} {{green|+5}} Child Opinion
+* {{icon|travel speed}} {{red|-5}} Travel Speed
+| 
+* [[File:Node wandering.png|24px]] Know Your Land, Know Your People perk
+* {{icon|yes}} Child heir
+|}
+'''{{icon|gold}} Gold cost''' of travel options are increased per highest rank of the ruler, doubled for a {{iconify|Duchy}} (including adventurers), tripled for a {{iconify|Kingdom}}, quadrupled for an {{iconify|Empire}} and quintupled for a {{iconify|Hegemony}}. Having the [[File:Node wandering.png|24px]] Well-Prepared Perk reduces the cost by {{green|25%}}. Costs listed are for {{iconify|County}} level titles.
+
+=== Ruler travel options ===
+The following travel options are only available for rulers:
+{| class="mildtable plainlist"
+! Travel option
+! Effects
+! Requirements
+|-
+| {{iconbox|Hire Desert Warrior|You will send word for experts in desert terrain to join your entourage, significantly reducing the danger of traveling through dry and arid lands.|image=Hire desert warrior option.png|w=35em}}
+| 
+* {{icon|danger}} {{green|-32}} Danger in Desert and Steppe terrain
+* {{icon|danger}} {{green|-22}} Danger in Drylands terrain
+* {{icon|desert warrior}} A character with the Desert Warrior trait joins the Entourage
+| {{icon|gold}} Base cost 2 Gold
+|-
+| {{iconbox|Hire Forder|You will send word for experts in wetlands terrain to join your entourage, significantly reducing the danger of traveling through wetlands and floodplains.|image=Hire forder option.png|w=35em}}
+| 
+* {{icon|danger}} {{green|-42}} Danger in Wetlands terrain
+* {{icon|danger}} {{green|-22}} Danger in Floodplains terrain
+* {{icon|forder}} A character with the Forder trait joins the Entourage
+| {{icon|gold}} Base cost 2 Gold
+|-
+| {{iconbox|Hire Forest Guide|You will send word for experts in forested terrain to join your entourage, significantly reducing the danger of traveling through forests.|image=Hire rough terrain expert option.png|w=35em}}
+| 
+* {{icon|danger}} {{green|-37}} Danger in Taiga terrain
+* {{icon|danger}} {{green|-31}} Danger in Forest terrain
+* {{icon|forest fighter}} A character with the Forest Fighter trait joins the Entourage
+| {{icon|gold}} Base cost 2 Gold
+|-
+| {{iconbox|Hire Jungle Stalker|You will send word for experts in jungle terrain to join your entourage, significantly reducing the danger of traveling across jungle terrain.|image=Hire jungle expert option.png|w=35em}}
+| 
+* {{icon|danger}} {{green|-42}} Danger in Jungle terrain
+* {{icon|jungle stalker}} A character with the Jungle Stalker trait joins the Entourage
+| {{icon|gold}} Base cost 2 Gold
+|-
+| {{iconbox|Hire Mountaineer|You will send word for experts in mountainous terrain to join your entourage, significantly reducing the danger of traveling across high peaks.|image=Hire mountaineer option.png|w=35em}}
+| 
+* {{icon|danger}} {{green|-42}} Danger in Mountains and Desert Mountains terrain
+* {{icon|danger}} {{green|-41}} Danger in Hills terrain
+* {{icon|rough terrain expert}} A character with the Rough Terrain Expert trait joins the Entourage
+| {{icon|gold}} Base cost 2 Gold
+|-
+| {{iconbox|Superior Armaments|Your superior blacksmiths outfit your entourage with the finest equipment and preparations for the journey.|image=Superior armaments option.png|w=35em}}
+| 
+* {{icon|safety}} {{green|+10}} Travel Safety
+* [[File:Artifact quality.png|24px]] {{green|-20%}} Artifact Decay Reduction
+| [[File:Building blacksmiths.png|24px]] Crown Smithies duchy building in Domain
+|-
+| {{iconbox|Superior Mounts|Your experienced stable-hands outfit your entourage with the finest mounts in all the realm.|image=Fancy mounts option.png|w=35em}}
+| {{icon|travel speed}} {{green|+20}} Travel Speed
+| [[File:Building stables.png|24px]] Stables or Camelry level 4 or higher building in Domain
+|-
+| {{iconbox|Train Knights|You bring along your weakest knights to train and learn from the challenges to be faced on the open road.|image=Military recruits option.png|w=35em}}
+| 
+* {{icon|safety}} {{green|+10}} Travel Safety
+* {{icon|knight}} The 3 Knights with lowest Prowess will join the Entourage
+| [[File:Building military academy.png|24px]] Military Academies duchy building in Domain
+|-
+| {{iconbox|Magnificent Horses|You outfit your entire entourage with the most magnificent horses money can buy. From your very own stable no less!|image=Estate mounts option.png|w=35em}}
+| 
+* {{icon|travel speed}} {{green|+10}} Travel Speed
+* {{icon|prestige}} {{green|+1}} Monthly Prestige
+* {{icon|opinion}} {{green|+10}} Travel Companion Opinion
+| [[File:Domicile building stable.png|24px]] Stables level 2 or higher building in Estate
+|}
+'''{{icon|gold}} Gold cost''' of travel options are increased per highest rank of the ruler, doubled for a {{iconify|Duchy}}, tripled for a {{iconify|Kingdom}}, quadrupled for an {{iconify|Empire}}. Having the [[File:Node wandering.png|24px]] Well-Prepared Perk reduces the cost by {{green|25%}}. Costs listed are for {{iconify|County}} level titles.
+
+=== Adventurer travel options ===
+{{expansion|rtp}}
+The following travel options are only available to adventurers:
+{| class="mildtable plainlist"
+! Travel option
+! Effects
+! Requirements
+|-
+| {{iconbox|Purchase Arid Explorer's Pack|You will purchase veils to keep the sand out of your faces, and sturdy camels to assist in your journey.|image=Purchase desert gear option.png|w=35em}}
+| 
+* {{icon|danger}} {{green|-23}} Danger in Desert Mountains terrain  
+* {{icon|danger}} {{green|-18}} Danger in Desert and Steppe terrain  
+* {{icon|danger}} {{green|-13}} Danger in Drylands terrain  
+| 
+* {{icon|gold}} 4 Gold with Well-Prepared perk  
+* {{icon|gold}} 3 Gold without Well-Prepared perk  
+|-
+| {{iconbox|Purchase Pathfinder Gear|Traversing mountains and swamps are a challenge - for the unprepared! You will purchase climbing hooks, extra ropes, and all manner of gear necessary to traverse the most treacherous path.|image=Purchase rough terrain gear option.png|w=35em}}
+| 
+* {{icon|danger}} {{green|-23}} Danger in Mountains and Wetlands terrain  
+* {{icon|danger}} {{green|-13}} Danger in Floodplains and Hills terrain  
+| 
+* {{icon|gold}} 4 Gold with Well-Prepared perk  
+* {{icon|gold}} 3 Gold without Well-Prepared perk  
+|-
+| {{iconbox|Purchase Wilderness Kit|The forest knows no master - but you will tame it with long knives, saws, axes, and a lot of extra wheel grease.|image=Purchase forest gear option.png|w=35em}}
+| 
+* {{icon|danger}} {{green|-23}} Danger in Jungle terrain  
+* {{icon|danger}} {{green|-19}} Danger in Taiga terrain  
+* {{icon|danger}} {{green|-13}} Danger in Forest terrain  
+| 
+* {{icon|gold}} 4 Gold with Well-Prepared perk  
+* {{icon|gold}} 3 Gold without Well-Prepared perk  
+|-
+| {{iconbox|Forward Scouts|You will send scouts ahead so they can report back on which routes are the least dangerous.|image=Adventurers forward scouts option.png|w=35em}}
+| 
+* {{icon|safety}} {{green|+20}} Travel Safety  
+* {{icon|travel speed}} {{red|-5}} Travel Speed  
+| [[File:Domicile building camp perimiter.png|24px]] Camp Perimeter building in Camp  
+|-
+| {{iconbox|Scout for Talent|There are many world-weary figures to encounter along your travels - some of them will surely be in search of employ!|image=Adventurers scout for talent option.png|w=35em}}
+| 
+* {{icon|unknown}} Can get events to recruit Wanderers  
+* {{icon|travel speed}} {{red|-5}} Travel Speed  
+| {{icon|no}}[[File:Node stewardship.png|24px]] Talent Scout perk  
+|-
+| {{iconbox|Gather Inspiration|There's plenty of inspiration to find on the road - beautiful scenery, impressive landmarks, and remarkable people to meet. It truly stirs the mind's fount!|image=Adventurers gather inspiration option.png|w=35em}}
+| 
+* {{iconify|Stewardship}}/6 chance to gain Inspiration for a follower per barony  
+* {{icon|travel speed}} {{green|+5}} Travel Speed  
+* {{icon|safety}} {{red|-5}} Travel Safety  
+| [[File:Node stewardship.png|24px]] Inspirational Journeys perk  
+|-
+| {{iconbox|High-stakes Bartering|There is always a deal to be made. If people know you, they trust you, and are willing to haggle. Unfortunately, it also means that bandits know exactly who to target...|image=Adventurers make local deals option.png|w=35em}}
+| 
+* {{icon|gold}} When passing through a holding get 25% of its Loot  
+* {{icon|safety}} {{red|-20}} Travel Safety  
+| [[File:Node stewardship.png|24px]] High-stakes Bartering perk  
+|-
+| {{iconbox|Search for Secrets|Rumors are a map to a treasure trove of secrets - but it takes a cunning mind to follow them, X marks the spot!|image=Adventurers search for secrets option.png|w=35em}}
+| 
+* {{iconify|Intrigue}} equal chance to discover a secret of someone in the barony  
+* {{icon|travel speed}} {{green|+10}} Travel Speed  
+* {{icon|safety}} {{red|-10}} Travel Safety  
+| [[File:Node intrigue.png|24px]] Digging for Dirt perk  
+|-
+| {{iconbox|Proselytize to Locals|In the far reaches of the world they have yet to hear of the true faith. It is our solemn duty to remedy this.|image=Adventurers proselytize zealously option.png|w=35em}}
+| 
+* {{iconify|Learning}} equal chance to convert adults and gain Piety  
+* {{icon|travel speed}} {{green|+5}} Travel Speed  
+* {{icon|safety}} {{red|-5}} Travel Safety  
+| [[File:Node learning.png|24px]] Proselytize Zealously perk  
+|-
+| {{iconbox|Encourage Relationships|True long-lasting bonds can not be forced, they emerge from shared hardships. The road may be a cruel mistress, but for each challenge overcome a new relationship is potentially forged.|image=Adventurers encourage relationships option.png|w=35em}}
+| 
+* {{icon|unknown}} Followers improve relations with each other or wanderers  
+* {{icon|unknown}} Will only cause adultery if both followers' faith allows it  
+* {{icon|travel speed}} {{green|+5}} Travel Speed  
+* {{icon|safety}} {{red|-5}} Travel Safety  
+| 
+* [[File:Node stewardship.png|24px]] That Which Binds Us perk  
+* {{icon|yes}} At least 3 followers  
+* {{icon|yes}} At least 1 adult follower  
+|}
+
+== References ==
+<references/>
+{{Mechanics navbox}}
+[[Category:Character]]

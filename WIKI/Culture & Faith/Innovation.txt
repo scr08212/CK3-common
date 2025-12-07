@@ -1,0 +1,963 @@
+{{Version|1.18}}
+[[File:Greek innovations.png|thumb|300px|Starting innovations for the Greek culture]]
+'''Innovations''' represent technological, legal and ideological advances that a [[Culture]] can make. Once an innovation is unlocked, it can be used by any County and Character of the culture which unlocked it. Innovations are grouped into 4 categories: Military and Civic, Cultural, and Regional. The {{iconify|All Under Heaven}} DLC adds a fifth category - Silk Road.
+* Military and Civic innovations have a small chance to progress towards being unlocked each month based on multiple factors, the most important being average Development in Counties of the Culture. The second most important factor is the number of neighbor Counties that belong to another Culture which already unlocked an innovation (Exposure). The advancement chance is 5% + Fascination % + 40% if the innovation is the current exposure.
+** The Culture Head of each culture can choose one innovation at a time to be that culture's Fascination.  The Fascination bonus is 20% as a base, plus 1% per the Culture Head's skill that matches the innovation's.  With the Scientific perk, these numbers go up to 27% base and 1.35% per the Culture Head skill.
+** Each culture will also have Exposure to one innovation at a time, picked from among innovations discovered by cultures adjacent and/or sharing religion with the culture.  The innovation with Exposure is determined automatically, and cannot be controlled by any character. The Exposure bonus is 40%.
+* Regional innovations are unlocked when the Culture has a sufficient presence in a certain Region, and remain unlocked even if said territory is lost.
+* Cultural innovations are always active, but require a certain culture or tradition.
+* Silk Road innovations are initially available only to Han culture. After Han culture researches them, cultures with Chinese heritage, the Sinophilic tradition or a ruler who controls a hub in a Silk Road situation region with the innovation can research these innovations as well. Other rulers must unlock them by taking the Visit a Silk Road Market decision and passing the skill challenge.
+
+Amount of advancement gained = 0.3 + (average cultural province Development * 0.02) + 0.2 if ahead in era.
+
+Random Innovations by decisions like [[Unite the Slavs]] are decided by the in-game date.
+
+== Eras ==
+Each Culture will be within one of 4 Eras which determine which innovations the Culture can unlock. Once at least 8 innovations from an Era are unlocked and the required minimum year is reached, the Culture will slowly progress to the next Era based on the average {{iconify|Development}} in the Culture's counties. If the minimum year is not yet reached innovations from the next era can still be selected by Culture Heads as Fascination but the progress will be much slower.
+
+Rulers with {{iconify|Tribal}}, {{iconify|Nomadic}} or {{iconify|Wanua}} government cannot use innovations later than Tribal Era ones and if a Culture Head has such a government its culture cannot progress to another Era.
+{| class="mildtable" style="text-align: center;
+! Era
+! Minimum year
+! Event gold cost
+! Activity cost
+! Court amenity cost
+! Mercenary cost
+! Traditions
+! {{icon|tnt}} Tournament contests
+! {{icon|cor}} Oathbreaking penalties
+|-
+| align=left | {{iconbox|Tribal|The Tribal Era of a Culture predates the emergence of codified laws and an institutionalized government. Rulers with Tribal Government and Nomadic Government can only make use of Tribal Era innovations.|image=Culture era tribal.png|w=35em}}
+| 476
+| 
+| 
+| 
+| 
+| 
+| 
+|| 
+|-
+| align=left | {{iconbox|Early Medieval|The Early Medieval Era sees the emergence of professional administrators and a number of important innovations, allowing a Culture to exit the Dark Ages.|image=Culture era early medieval.png|w=35em}}
+| 900
+| {{red|+25%}}
+| {{red|+25%}}
+| {{red|+25%}}
+| 
+| {{green|+1}}
+| {{green|+1}}
+| {{red|+20%}}
+|-
+| align=left | {{iconbox|High Medieval|The High Medieval Era is a time of great technological and administrative progress, seeing towns grow into cities and the rise of the burgher class even as the aristocracy reigns supreme.|image=Culture era high medieval.png|w=35em}}
+| 1050
+| {{red|+75%}}
+| {{red|+50%}}
+| {{red|+50%}}
+| {{red|+15%}}
+| {{green|+2}}
+| {{green|+2}}
+| {{red|+60%}}
+|-
+| align=left | {{iconbox|Late Medieval|The Late Medieval Era marks the zenith of the feudal world. Bureaucrats, artisans, merchants and money lenders are starting to encroach on the power of the old privileged classes, except for the monarchs themselves.|image=Culture era late medieval.png|w=35em}}
+| 1200
+| {{red|+325%}}
+| {{red|+75%}}
+| {{red|+75%}}
+| {{red|+30%}}
+| {{green|+3}}
+| {{green|+3}}
+| {{red|+200%}}
+|}
+
+== Tribal innovations ==
+<!-- Transclusion(s) used within this page. -->
+<includeonly>
+<!-- Use this for shared table styles. -->
+<section begin=InnovationTableStyle />class="mildtable plainlist" style="margin-right: 30px;"<section end=InnovationTableStyle />
+</includeonly>
+
+Unlocking 9 Civic or Military Tribal Innovations is required for the [[Adopt Feudal Ways]] and [[Adopt Clan Ways]] decisions.
+
+=== Military innovations ===
+{| {{#lst:Innovation|InnovationTableStyle}}
+! Innovation
+! Skill
+! Effect
+|- id="Bannus"
+| {{iconbox|Bannus|Based on the authority to command men in battle, the bann gives our rulers the power to compel free men to fight for them, forming a legal basis for the mustering of large armies.|image=Innovation raised banner.png|w=35em}}
+| {{iconify|Martial}}
+|
+* {{icon|law}} Unlocks the March Vassal Contract
+* {{icon|law}} Unlocks the Castellan Vassal Contract
+* {{icon|Herd}} {{green|+0.5%}} Herd Conversion into Horde Riders
+* {{icon|levies}} {{green|+15%}} Levy Reinforcement Rate
+* {{icon|Accolade}} {{green|+1}} Accolades Available
+|- id="Barracks"
+| {{iconbox|Barracks|By constructing dedicated buildings for us to quarter our soldiers in we can make sure that we have sufficient space to accommodate our growing armies.|image=Innovation levy building.png|w=35em}}
+| {{iconify|Martial}}
+|
+* {{icon|yes}} Unlocks all Tribal Era Military Buildings
+* {{icon|Herd}} {{green|+5%}} Herd Capacity
+|- id="Earthworks"
+| {{iconbox|Earthworks|Simple yet effective, building our castles on raised earthen mounds is the best way to ensure we quite literally have the high ground over our enemies.|image=Innovation fortifications.png|w=35em}}
+| {{iconify|Stewardship}}
+| 
+* {{icon|yes}} Unlocks all Tribal Era Fortification Buildings
+* {{icon|kos}} Increased bonus effects from raid intents
+|- id="Mustering Grounds"
+| {{iconbox|Mustering Grounds|Simply having people willing to fight for us is not enough to win wars. Setting aside space for people to both train and muster for battle will allow us to support groups of more experienced fighters who can lead us to victory.|image=Innovation leadership 02.png|w=35em}}
+| {{iconify|Martial}}
+|
+* {{icon|levies}} {{green|+2}} Size of Men-at-Arms Regiments
+* {{icon|levies}} {{green|+1}} Max number of Men-at-Arms Regiments
+|- id="Onager"
+| {{iconbox|Onager|While slow to load and fire, torsion-powered catapults like these allow us to assail enemy fortifications while staying out of their archers' range.|image=Innovation siege weapons.png|w=35em}}
+| {{iconify|Learning}}
+| 
+* [[File:Unit onager.png|24px]] Can recruit Onager Men-at-Arms if heritage is not Chinese, Korean or Japonic
+* [[File:Unit ballista.png|24px]] Can recruit Siege Crossbows Men-at-Arms if heritage is Chinese, Korean or Japonic
+|- id="Quilted Armor"
+| {{iconbox|Quilted Armor|Formed of a dozen or more layers of linen stitched together, these jackets can stop even heavy arrows and are an affordable way for us to armor an entire regiment for battle.|image=Innovation quilted armor.png|w=35em}}
+| {{iconify|Martial}}
+|
+* [[File:Unit heavy infantry.png|24px]] Can recruit Armored Footmen Men-at-Arms
+* {{icon|tnt}} Knights of this culture become eligible for Vanguard accolades
+* {{icon|Toughness}} {{green|+2%}} Horde Rider Toughness
+|}
+
+=== Civic innovations ===
+Civic innovations from the Tribal era have different effects depending on the character's government.
+{| {{#lst:Innovation|InnovationTableStyle}}
+! Innovation
+! Skill
+! Settled government effect
+! {{icon|nomadic}}{{icon|herder}} Nomad government effect
+|- id="Casus Belli"
+| {{iconbox|Casus Belli|Might makes right has been the law of the land for generations, but if we have a justification for our wars then we can avoid provoking the ire of our neighbors and the retaliation that often comes with it.|image=Innovation administration 01.png|w=35em}}
+| {{iconify|Diplomacy}}
+|
+* [[File:De jure cb.png|24px]] Can use the Seize De Jure County [[Casus belli]]
+* [[File:De jure cb.png|24px]] Can use the Seize De Jure Duchy [[Casus belli]]
+|
+* [[File:De jure cb.png|24px]] Can use the Seize De Jure County [[Casus belli]]
+* [[File:De jure cb.png|24px]] Can use the Seize De Jure Duchy [[Casus belli]]
+|- id="City Planning"
+| {{iconbox|City Planning|By designing our cities before we start constructing them, we can create new holdings in strategic locations which are both more functional and aesthetically pleasing than the older ones which haphazardly arose over time.|image=Innovation civil construction 02.png|w=35em}}
+| {{iconify|Stewardship}}
+|
+* [[File:Holding city.png|24px]] Unlocks Village Center
+* [[File:Holding church.png|24px]] Unlocks Shrine, Chapel, Megalith
+* [[File:Building market villages.png|24px]] Unlocks Trading Outposts
+* {{icon|herd}} {{green|+5%}} Herd Capacity
+| {{icon|herd}} {{green|+5%}} Herd Capacity
+|- id="Crop Rotation"
+| {{iconbox|Crop Rotation|By transitioning from the traditional two-field farming model to three-field crop rotation, we can grow more crops each year without depleting the soil on our farms.|image=Innovation farm.png|w=35em}}
+| {{iconify|Stewardship}}
+| {{icon|yes}} Unlocks all Tribal Era Economic Buildings
+{{icon|county fertility}} {{green|+5%}} County Fertility Growth
+| {{icon|county fertility}} {{green|+5%}} County Fertility Growth
+|- id="Currency"
+| {{iconbox|Currency|Bartering is slow and inefficient; adopting an officially-recognized currency like cowrie shells or metal nuggets will bolster trade and increase the spread of ideas within our realm.|image=Innovation currency.png|w=35em}}
+| {{iconify|Stewardship}}
+| {{icon|gold}} {{green|+5%}} Monthly Income from Herd
+{{icon|development}} {{green|+10.0%}} Development Growth
+| {{icon|gold}} {{green|+5%}} Gold from Herd
+|- id="Gavelkind"
+| {{iconbox|Gavelkind|Stability and prosperity go hand-in-hand. Instead of having vassals jockey for power when the old monarch passes away, we can define a predetermined, equitable system of inheritance which will eliminate much of the instability which traditionally occurs on succession.|image=Innovation administration 03.png|w=35em}}
+| {{iconify|Diplomacy}}
+|
+* {{icon|law}} Can enact the Confederate Partition Law
+* {{icon|domain}} {{green|+1}} Domain Limit
+| {{icon|domain}} {{green|+1}} Domain Limit
+|- id="Ledger"
+| {{iconbox|Ledger|As our lands grow, we need a better way to keep track of what we own. Maintaining a ledger of our possessions will ensure that we always know what resources we have at our disposal.|image=Innovation administration 02.png|w=35em}}
+| {{iconify|Stewardship}}
+| {{icon|gold}} {{green|+5%}} Monthly Income from Herd
+{{icon|unknown}} {{green|+1}} Additional Building Slots
+| {{icon|gold}} {{green|+5%}} Gold from Herd
+|- id="Plenary Assemblies"
+| {{iconbox|Plenary Assemblies|In order to effectively govern, we must bring all free men of the realm together to discuss and resolve legislative matters. Attendance is mandatory, and those who do not come will be fined and forfeit their ability to influence any decision made.|image=Innovation plenary assemblies.png|w=35em}}
+| {{iconify|Diplomacy}}
+|
+* [[File:Holding tribal.png|24px]]Unlocks Fortified Tribal Hold
+* [[File:Crown authority 1.png|24px]] Can enact Limited Crown Authority Law
+* {{icon|herd}} {{green|+2%}} Vassal Herd Contribution
+| {{icon|herd}} {{green|+2%}} Vassal Herd Contribution
+|- id="Public Works"
+| {{iconbox|Public Works|Funding the construction of public works like roads, schools, and aqueducts will allow our settlements to grow to larger sizes, ensuring the prosperity of our people for generations to come.|image=Innovation civil construction 01.png|w=35em}}
+| {{iconify|Stewardship}}
+| {{icon|development}} Counties reach the maximum Existing Development penalty at 20 Development
+{{icon|county fertility}} {{green|+5%}} County Fertility Growth
+| {{icon|county fertility}} {{green|+5%}} County Fertility Growth
+|}
+
+=== Regional innovations ===
+{| {{#lst:Innovation|InnovationTableStyle}}
+! Innovation
+! Skill
+! Regions
+! Effect
+! DLC
+|- id="Bamboo Bow"
+| {{iconbox|Bamboo Bow|One of the oldest traditional weapons for Indian footmen is the bamboo bow, which is both cheap to make and easy to carry and maintain. Since the bow is also a favorite weapon of many hunters there is no shortage of experienced archers in Indian armies.|image=Innovation special maa 02.png|w=35em}}
+| {{iconify|Martial}}
+| India
+| [[File:Unit bowmen.png|24px]] Can recruit Paiks Men-At-Arms
+|
+|- id="Caballeros"
+| {{iconbox|Caballeros|Andalusian stallions are better at traveling and fighting in rough terrain than other breeds of horses. We can train specialized cavalry regiments which take advantage of this.|image=Innovation special maa 01.png|w=35em}}
+| {{iconify|Martial}}
+| Iberia
+| [[File:Unit light cavalry.png|24px]] Can recruit Caballeros Men-At-Arms
+|
+|- id="Elephantry"
+| {{iconbox|Elephantry|Elephants are difficult to raise in captivity, so each mahout must capture their own wild elephants and train them. This means there is a delicate art to properly using these great creatures in battle, but it is an art we are dedicated to mastering.|image=Innovation elephant.png|w=35em}}
+| {{iconify|Stewardship}}
+|
+* India
+* South-East Asia
+| 
+* [[File:Building elephant pens.png|24px]] Unlocks Elephant Pens
+* {{icon|elephant cavalry}} Can recruit War Elephants Men-at-Arms
+* {{icon|tnt}} Knights of this culture become eligible for Elephant Rider accolades
+|
+|- id="Longships"
+| {{iconbox|Longships|Our longships are formidable seafaring vessels which can travel almost anywhere and even brave rough weather, giving us exceptional mobility on the seas.|image=Innovation longboats.png|w=35em}}
+| {{iconify|Martial}}
+| Northern Europe
+|
+* {{icon|yes}} Unlocks the ability to sail in Major Rivers
+* {{icon|yes}} Unlocks the ability to Raid over seas if Raiding is allowed
+* [[File:Adventure raid intent.png|24px]] Unlocks the Adventure raid intent
+* {{icon|gold}} {{green|-75%}} Embarkation Cost
+* {{icon|army speed}} {{green|+25%}} Naval Speed
+|
+|- id="Sahel Horsemen"
+| {{iconbox|Sahel Horsemen|The Sahel is a dry and arid plain, where vast distances are often covered with horses. The Sahel Riders are mounted warriors who use light quilted armor and javelins to devastate their enemies. They are quick and can easily brave deserts and drylands.|image=Innovation special maa 01.png|w=35em}}
+| {{iconify|Martial}}
+| Sahel
+| [[File:Unit light cavalry.png|24px]] Can recruit Sahel Horsemen Men-At-Arms
+|
+|- id="War Camels"
+| {{iconbox|War Camels|Camels are naturally suited for living in desert terrain, but they aren't inherently creatures of battle. Our breeders and trainers can change this, giving us access to adaptive cavalry which will let us master the sands.|image=Innovation camel.png|w=35em}}
+| {{iconify|Stewardship}}
+|
+* Middle East
+* North Africa
+* Persia
+| 
+* [[File:Building camel farms.png|24px]] Unlocks Camel Breeders
+* {{icon|camel cavalry}} Can recruit Camel Riders Men-at-Arms
+* {{icon|tnt}} Knights of this culture become eligible for Camelier accolades
+|
+|- id="West African Canoes"
+| {{iconbox|West African Canoes|The great canoes of West Africa are excellent for navigating rivers and allows us to quickly ferry troops to where we need them.|image=Innovation majesty 01.png|w=35em}}
+| {{iconify|Martial}}
+| West Africa
+|
+* {{icon|yes}} Unlocks the ability to Raid over seas if Raiding is allowed
+* {{icon|yes}} Unlocks the ability to sail in Major Rivers
+* {{icon|gold}} {{green|-25%}} Embarkation Cost
+* {{icon|Raid}} {{green|+10%}} Raid Speed
+|
+|- id="Wootz Steel"
+| {{iconbox|Wootz Steel|Also known as Hinduwani or Seric steel, this carbon-rich metal is excellent for making weapons. Wootz steel is widely traded and is deemed the finest steel in the world. Throughout most of history, it has drawn the attention of Arab, Egyptian, Chinese, and even Roman traders.|image=Innovation weapons and armor 01.png|w=35em}}
+| {{iconify|Learning}}
+| Deccan India
+|
+* [[File:Building wind furnaces.png|24px]] Can construct Wind Furnaces buildings
+* {{icon|prowess}} {{green|+1}} Prowess
+|
+|- id="All-Things"
+| {{iconbox|All-Things|Among out people, there is a strong tradition of public gatherings of all free, empowered adults, where anyone may raise their grievances with the ruler. Of course, for those who stand tall in the eyes of the smallfolk, there can be power in swaying the mob...|image=Innovation raised banner.png|w=35em}}
+| {{iconify|Diplomacy}}
+| Northern Europe
+|
+* {{icon|yes}} Can pay Prestige to ignore authority law cooldown
+* Belligerent Vassal more common
+* {{icon|Tribal}} {{green|+5}} Tribal Vassal Opinion
+| {{iconify|Northern Lords}}
+|}
+
+=== Cultural innovations ===
+{| {{#lst:Innovation|InnovationTableStyle}} style="margin-right: 30px;"
+! Innovation
+! Skill
+! Cultures
+! Effect
+! DLC
+|- id="Pole Vault"
+| {{iconbox|Pole Vault|The pole vault, is a simple invention which requires much training and practice to master. A skilled vaulter will be able to propel themselves forward over great gaps and tall rocks, as well as over some fortifications.|image=Innovation weapons and armor 01.png|w=35em}}
+| {{iconify|Martial}}
+| Guanche
+| {{icon|skirmishers}} Can recruit Vaulter Infantry Men-At-Arms
+|
+|- id="Table of Princes"
+| {{iconbox|Table of Princes|The Table of Princes is the royal seat of Bohemian rulers, with the one sitting at the table being recognized as the rightful ruler. Under the code of house seniority, titles were given to the eldest living member of the ruling dynasty.|image=Innovation nobility 01.png|w=35em}}
+| {{iconify|Diplomacy}}
+| 
+* Czech
+* Slovien
+| 
+* {{icon|law}} Can enact the House Seniority Law and at any Crown Authority
+* (West Slavic heritage is required to bypass Crown Authority restriction for hybrid cultures)
+|
+|- id="Repeating Crossbow"
+| {{iconbox|Repeating Crossbow|Combining steel-tensioned limbs with mechanical draw systems, these advanced bows extended both range and killing power. The innovation heralded the shift from volume-based defense to precision-focused field deployment, empowering professional armies with tools worthy of empire.|image=Innovation special maa 02.png|w=35em}}
+| {{iconify|Learning}}
+| Han
+| [[File:Unit crossbowmen.png|24px]] Can recruit Shenbigong Men-At-Arms
+| 
+|- id="Varangian Adventurers"
+| {{iconbox|Varangian Adventurers|What do we owe these lands we live in? Nothing! The realm's heart is its people, and do we not deserve the best soil, the greatest treasures, the finest palaces? Having them is as simple as taking them!|image=Innovation hird.png|w=35em}}
+| {{iconify|Martial}}
+| 
+* Norse
+* Danish
+* Norwegian
+* Swedish
+* Norman
+* Estonian
+| [[File:Scandinavian adventure concquest cb.png|24px]] Can use Varangian Adventure Casus Belli during Tribal Era
+| {{iconify|Northern Lords}}
+|- id="Sericulture"
+| {{iconbox|Sericulture|The art of silk production is a complex but very rewarding process, the knowledge of which is jealously guarded by those who profit from their mastery of this industry.|image=Innovation sericulture.png|w=35em}}
+| {{iconify|Stewardship}}
+| 
+* Greek
+* Bai
+* Han
+* Yi
+|
+* [[File:Domicile magnanery.png|24px]] Unlocks the Mulberry Copse domicile building
+* {{icon|prestige}} {{green|+0.10}} Monthly Prestige per Legitimacy Level
+* {{icon|roc}} {{green|-50%}} Court Fashion Cost
+| {{iconify|All Under Heaven}}
+|}
+
+=== Silk Road innovations ===
+{{expansion|auh}}
+{| {{#lst:Innovation|InnovationTableStyle}} style="margin-right: 30px;"
+! Innovation
+! Skill
+! Effect
+|- id="Block Printing"
+| {{iconbox|Block Printing|Using a series of carved wooden blocks, it becomes possible to assemble an array of stamps that can be used several times over to reproduce the same words and images on any suitable material. This vastly simplifies the process of book production, reducing costs and making the written word that much more accessible to everyone.|image=Innovation block printing.png|w=35em}}
+| {{iconify|Learning}}
+| 
+* [[File:Building library.png|24px]] Scriptorium buildings provide additional bonuses
+* {{icon|development}} {{green|+10%}} Development Growth
+* {{icon|gold}} {{green|-50%}} Book Artifact Inspiration Cost
+* {{icon|gold}} {{green|-50%}} University Visit Study Materials Cost
+* {{icon|lod}} {{green|+15%}} Legend Spread Chance
+|- id="Champa Rice"
+| {{iconbox|Champa Rice|Rice requires an abundance of time and water — except for the rice from Champa. This variety grows faster, survives droughts better, and gives a more bountiful yield than practically any other sort of rice known. In some cases, it can even be harvested twice in one year. Properly managed, this rice can boost farms and fuel a population boom.|image=Innovation farm.png|w=35em}}
+| {{iconify|Stewardship}}
+| 
+* {{icon|development}} {{green|+15%}} Development Growth in Wetlands terrain
+* {{icon|gold}} {{green|-10%}} Building Construction Cost in Wetlands terrain
+* {{icon|levies}} {{green|+10%}} Levy Size in Wetlands terrain
+* [[File:Building rice.png|24px]] Paddy Fields buildings can be constructed in Wetlands terrain
+* [[File:Building rice.png|24px]] Paddy Fields buildings provide additional bonuses
+|- id="Coking"
+| {{iconbox|Coking|Charcoal is a vital part of smithing, but it needs ample forests nearby in order to reduce wood down into this essential fuel. Coal, heated in something similar to a charcoal kiln, can be reduced down into coke. Coke is just as useful as charcoal in smithing and other industrial fires, without needing to clearcut an entire forest.|image=Innovation weapons and armor 01.png|w=35em}}
+| {{iconify|Stewardship}}
+| 
+* {{icon|gold}} {{green|-15%}} Men-at-Arms Recruitment Cost
+* {{icon|gold}} {{green|-15%}} Building Construction Cost in Forest terrain
+* {{icon|gold}} {{green|-15%}} Building Construction Cost in Taiga terrain
+* {{icon|development}} {{green|+15%}} Development Growth in Forest terrain
+* {{icon|development}} {{green|+15%}} Development Growth in Taiga terrain
+* [[File:Building smiths.png|24px]] Blacksmiths buildings provide additional bonuses
+* [[File:Building blacksmiths.png|24px]] Crown Smithies buildings provide additional bonuses
+|- id="Composite Crossbows"
+| {{iconbox|Composite Crossbows|As with self bows, the strength of a bow's limb determines the potential power of its draw. By reinforcing the span with horn or even steel, the draw-weight and thus range and power of a crossbow can be made magnitudes higher than any wooden counterpart, as well as making it more hard-wearing and longer-lived.|image=Innovation advanced bowmaking.png|w=35em}}
+| {{iconify|Learning}}
+| 
+* {{icon|damage}} {{green|+5}} Crossbowmen Damage
+* {{icon|screen}} {{green|+5}} Crossbowmen Screen
+* {{icon|siege progress}} {{green|+0.1}} Crossbowmen Daily Siege Progress
+* {{icon|damage}} {{green|+5}} Shenbigong Damage
+* {{icon|screen}} {{green|+5}} Shenbigong Screen
+* {{icon|siege progress}} {{green|+0.1}} Shenbigong Daily Siege Progress
+|- id="Cupellation"
+| {{iconbox|Cupellation|Specialized high-temperature furnaces can melt precious metals out of mining samples, extracting them from smelted ores and producing a refined sample that can be further examined by assayers. Cupellating ore from a lead mine is the best way to determine the silver content of that mine, and cupellating gold can determine its purity for potential coinage.|image=Innovation cupellation.png|w=35em}}
+| {{iconify|Stewardship}}
+| 
+* {{icon|gold}} {{green|+15%}} Holding Taxes in Hills terrain
+* {{icon|gold}} {{green|+15%}} Holding Taxes in Mountains terrain
+* {{icon|gold}} {{green|+15%}} Holding Taxes in Desert Mountains terrain
+* {{icon|gold}} {{green|+15%}} Holding Taxes in baronies with a Mine special building
+|- id="Dragon Kilns"
+| {{iconbox|Dragon Kilns|The best porcelain can only be produced at highly-specialized kilns, located near valuable mining deposits. These kilns are built on steep slopes that help create a vortex of heat to fire the hardest ceramics possible. Although challenging to build, the products they make are some of the most fashionable (and the most lucrative) pottery known to any court.|image=Innovation dragon kiln.png|w=35em}}
+| {{iconify|Learning}}
+| [[File:Building dragon kiln.png|24px]] Unlocks Dragon Kilns duchy buildings
+|- id="Lacquered Armor"
+| {{iconbox|Lacquered Armor|Meticulous application of certain resins to armors strengthens them considerably, and helps weatherproof heavier iron plates. While this process has been known for some time, its use has been largely limited to boxes, bottles, and other wares. Lacquered armor represents a new way to protect both soldiers and their equipment.|image=Innovation weapons and armor 02.png|w=35em}}
+| {{iconify|Stewardship}}
+| 
+* {{icon|gold}} {{green|-5%}} Heavy Cavalry Maintenance
+* {{icon|gold}} {{green|-5%}} Heavy Infantry Maintenance
+* {{icon|toughness}} {{green|+2}} Heavy Cavalry Toughness
+* {{icon|toughness}} {{green|+2}} Heavy Infantry Toughness
+* {{icon|toughness}} {{green|+2}} Skirmishers Toughness
+* [[File:Artifact armor.png|24px]] Armor artifacts have higher quality
+|- id="Pharmacopoeia"
+| {{iconbox|Pharmacopoeia|All good doctors need to know how to produce the right medicines at the right time, using the right ingredients prepared the right way in the right amounts. While this knowledge is often passed down from master to apprentice on an individual basis, writing down how to make specific medicines can help immensely in standardizing and propagating the preparation of different treatments.|image=Innovation pharmacopoeia.png|w=35em}}
+| {{iconify|Learning}}
+| 
+* {{icon|health}} {{green|+3}} Years Life Expectance
+* {{icon|plague resistance}} {{green|+5}} Plague Resistance
+* {{icon|unknown}} {{green|+20%}} Personal Physician Treatment Effectiveness
+|- id="Waterworks"
+| {{iconbox|Waterworks|Water is the life giver, but has many uses besides quenching thirst or irrigating fields. Artfully harnessed, the sky-fallen resource may power machines many times stronger than any livestock, facilitate travel and trade along man-made canals, or simply keep keep bustling streets sanitary and livable.|image=Innovation waterworks.png|w=35em}}
+| {{iconify|Stewardship}}
+| 
+* {{icon|plague resistance}} {{green|+5}} Plague Resistance
+* [[File:Building waterworks.png|24px]] Unlocks Water Management buildings
+|}
+
+==Early Medieval innovations==
+===Military innovations===
+{| {{#lst:Innovation|InnovationTableStyle}} style="margin-right: 30px;"
+! Innovation
+! Skill
+! Effect
+|- id="Arched Saddle"
+| {{iconbox|Arched Saddle|Light cavalry are a force to be reckoned with, but they do not truly exploit the potential of the warhorse. Arched saddles allow us to field heavily armored warriors with couched lances, which lets them take full advantage of their momentum as they charge into enemy lines.|image=Innovation knight.png|w=35em}}
+| {{iconify|Martial}}
+|
+* [[File:Unit heavy cavalry.png|24px]] Can recruit Armored Horsemen Men-at-Arms
+* {{icon|tnt}} Knights of this culture become eligible for Lancer accolades
+* {{icon|tnt}} Unlocks the Joust Contest for Grand Tournaments when combined with Horseshoes
+|- id="Battlements"
+| {{iconbox|Battlements|Beyond fortifying just the keep itself, building a durable outer wall which can be safely manned by our archers will give our castles an extra layer of protection against attackers.|image=Innovation fortifications.png|w=35em}}
+| {{iconify|Stewardship}}
+| 
+* {{icon|yes}} Unlocks all Early Medieval Era Fortification Buildings
+* {{icon|law}} Unlocks the Fortification Rights Feudal Contract
+* {{icon|gold}} {{green|-5.00%}} Men-at-Arms Maintenance
+|- id="Household Soldiers"
+| {{iconbox|Household Soldiers|As our noble families grow in power, they need soldiers to enforce their will. Establishing an order of dedicated household soldiers will ensure that we have troops which are better trained and equipped than a standard levy.|image=Innovation maa 01.png|w=35em}}
+| {{iconify|Martial}}
+| 
+* {{icon|levies}} {{green|+3}} Size of Men-at-Arms Regiments
+* {{icon|levies}} {{green|+1}} Max number of Men-at-Arms Regiments
+|- id="Horseshoes"
+| {{iconbox|Horseshoes|A horse with a split hoof will quickly go lame and be unable to work or be ridden into battle. By shoeing our horses with bronze or iron plates, we can keep their hooves healthy and protected from damage.|image=Innovation horseshoes.png|w=35em}}
+| {{iconify|Martial}}
+| 
+* {{icon|army speed}} {{green|+10%}} Movement Speed
+* {{icon|tnt}} Unlocks the Joust Contest for Grand Tournaments when combined with Arched Saddle
+|- id="Mangonels"
+| {{iconbox|Mangonels|A significant improvement to our existing catapult designs, traction-powered mangonels are much faster to load and fire than torsion-powered machines.|image=Innovation siege weapons.png|w=35em}}
+| {{iconify|Learning}}
+| 
+* [[File:Unit mangonel.png|24px]] Can recruit Mangonels Men-at-Arms if heritage is not Chinese, Korean or Japonic
+* [[File:Unit cloud ladder.png|24px]] Can recruit Cloud Ladders Men-at-Arms if heritage is Chinese, Korean or Japonic
+* {{icon|tnt}} Knights of this culture become eligible for Besieger accolades
+|- id="Stone Forts"
+| {{iconbox|Stone Forts|Scattered across the countryside, burhs are important fortified settlements we can use both to muster troops and to serve as administrative centers.|image=Innovation civil construction 02.png|w=35em}}
+| {{iconify|Stewardship}}
+| 
+* {{icon|yes}} Unlocks all Early Medieval Era Military Buildings
+* {{icon|levies}} {{green|+5%}} Levy Size
+|}
+
+===Civic innovations===
+{| {{#lst:Innovation|InnovationTableStyle}} style="margin-right: 30px;"
+! Innovation
+! Skill
+! Effect
+|- id="Armillary Sphere"
+| {{iconbox|Armillary Sphere|Comprised of a spherical framework of moving rings, these devices allow us to chart and predict the movement of the heavens. While a fascinating astrological device in its own right, this knowledge will also help aid our captains when navigating waters far from land.|image=Innovation misc inventions.png|w=35em}}
+| {{iconify|Learning}}
+| {{icon|army speed}} {{green|+25%}} Naval Speed
+|- id="Chronicle Writing"
+| {{iconbox|Chronicle Writing|No more will the stories of our family's exploits be passed down just through oral tradition. We will keep a record of all that we accomplish, both to inspire future generations as well as to prove our claims over lands we should rightfully hold.|image=Innovation administration 03.png|w=35em}}
+| {{iconify|Learning}}
+| 
+* {{icon|yes}} Can press several Claims in a single war
+* {{icon|prestige}} {{green|-10%}} Casus Belli Prestige Cost
+* {{iconify|Zealot vassal}}s are more common
+|- id="Coinage"
+| {{iconbox|Coinage|Unregulated currencies are difficult to control and lack stability. Minted coins, measured to specific weights and stamped with a royal seal, give new confidence to commercial transactions.|image=Innovation coinage.png|w=35em}}
+| {{iconify|Stewardship}}
+| 
+* {{icon|law}} Unlocks the Coinage Rights Vassal Contract
+* {{icon|development}} {{green|+10%}} Development Growth
+|- id="Communal Government"
+| {{iconbox|Communal Government|Larger towns regularly face a series of increasingly complex problems. Delegating some authority to local councils will let them resolve these issues without needing to get the king involved.|image=Innovation nobility 03.png|w=35em}}
+| {{iconify|Stewardship}}
+| {{icon|development}} Counties reach the maximum Existing Development penalty at 35 Development
+|- id="Hereditary Rule"
+| {{iconbox|Hereditary Rule|Evenly dividing the realm amongst all eligible heirs fractures the unity of our people. Instead of tearing our realm asunder on every succession we can ensure we have a stable and prosperous heartland by establishing a system of hereditary rule.|image=Innovation majesty 02.png|w=35em}}
+| {{iconify|Diplomacy}}
+| {{icon|law}} Can enact the Partition Law
+|- id="Magistrates"
+| {{iconbox|Magistrates|A king cannot be everywhere at once. By appointing bailiffs to enforce the king's law throughout the realm, we can govern a larger area more effectively than we could otherwise.|image=Innovation leadership 01.png|w=35em}}
+| {{iconify|Stewardship}}
+|
+* {{iconify|Glory Hound vassal}}s are more common
+* {{icon|unknown}} {{green|+1}} Additional Building Slots
+* {{icon|tax collector}} {{green|+1}} Tax Jurisdictions
+|- id="Manorialism"
+| {{iconbox|Manorialism|With land ownership consolidated under our elite, many men and women find themselves unable to work. We will establish a manor system where free men can work our fields in exchange for rent, while those who cannot pay may enter our service as bound serfs instead.|image=Innovation fortifications.png|w=35em}}
+| {{iconify|Stewardship}}
+|
+* {{icon|yes}} Unlocks all Early Medieval Era Economic Buildings
+* {{iconify|Parochial vassal}}s are more common
+* {{icon|time}} {{green|-10%}} Building Construction Time
+|- id="Royal Prerogative"
+| {{iconbox|Royal Prerogative|As our royalty has a greater burden placed upon them by their responsibility to govern the realm, so too shall they be bestowed with privileges reserved exclusively for them.|image=Innovation majesty 01.png|w=35em}}
+| {{iconify|Diplomacy}}
+| 
+* [[File:Crown authority 2.png|24px]] Can enact High Crown Authority Law
+* [[File:Crown authority 3.png|24px]] Can enact Absolute Crown Authority Law
+* {{iconify|Courtly vassal}}s are more common
+|}
+
+===Regional innovations===
+{| {{#lst:Innovation|InnovationTableStyle}} style="margin-right: 30px;"
+! Innovation
+! Skill
+! Region
+! Effect
+|- id="Ghilman"
+| {{iconbox|Ghilman|Slave-soldiers taken as prisoners of war, ghilman are dedicated fighters who are both more loyal to us and cheaper to pay than common mercenaries.|image=Innovation maa 02.png|w=35em}}
+| {{iconify|Martial}}
+| Arabia
+| {{icon|gold}} {{green|-15.00%}} Men-at-Arms Maintenance
+|- id="Spiritual Expansionism"
+| {{iconbox|Spiritual Expansionism|Distracted by infighting, we have tolerated the presence of infidels in Hispania for too long. The time has come for us to rally our forces to drive them from this land once and for all!|image=Innovation leadership 02.png|w=35em}}
+| {{iconify|Martial}}
+| Iberia
+|
+* {{icon|piety}} {{green|-10%}} Casus Belli Piety Cost
+* {{iconify|Zealot vassal}}s are more common
+* [[File:Icon piety christian 01.png|24px]] {{green|+10%}} Monthly Piety
+|- id="Stammesherzogtum"
+| {{iconbox|Stammesherzogtum|Despite coming from different tribes, we recognize the importance of unity and cooperation. Independence is overvalued when stability is what leads to safety and prosperity.|image=Innovation majesty 03.png|w=35em}}
+| {{iconify|Diplomacy}}
+| Western Germany
+|
+* {{icon|unknown}} {{green|-25}} Vassal Independence Faction Acceptance if same heritage
+* [[File:Vassal stance courtly.png|24px]] {{green|+5}} Courtly Vassal Opinion
+|}
+
+====Mural Sextant====
+{{expansion|lop}}
+Mural Sextant is a special innovation that can only be obtained from a Court Scholar research project, with a 1% chance each time. It gives the following bonuses:
+* {{icon|development}} {{green|+0.2}} Monthly Development Growth in Realm Capital
+* {{icon|learning lifestyle}} {{green|+5%}} Monthly Learning Lifestyle Experience
+
+=== Silk Road innovations ===
+{{expansion|auh}}
+{| {{#lst:Innovation|InnovationTableStyle}} style="margin-right: 30px;"
+! Innovation
+! Skill
+! Effect
+|- id="Bulkheads"
+| {{iconbox|Bulkheads|The surest way to prevent a ship from sinking is to not breach its hull in the first place. But if that were to happen, the ship might still be saved if the hull was separated into compartments with watertight walls between them. Even if the ship was damaged, a bulkhead could prevent water from sinking the ship entirely, saving men, supplies, and the ship itself in the process.|image=Innovation bulkheads.png|w=35em}}
+| {{iconify|Stewardship}}
+| 
+* {{icon|danger}} {{green|-45}} Sea Danger
+* {{icon|danger}} {{green|-45}} Coastal Sea Danger
+|- id="Compass"
+| {{iconbox|Compass|With a piece of simple lodestone, it becomes possible to always know what direction a person is traveling in. With time and further development, it may eventually become possible to navigate without ever having to stop and ask someone for directions.|image=Innovation compass.png|w=35em}}
+| {{iconify|Learning}}
+| 
+* {{icon|travel speed}} {{green|+5}} Travel Speed
+* {{icon|travel safety}} {{green|+5}} Travel Safety
+* {{icon|army speed}} {{green|+5%}} Army Movement Speed
+* {{icon|gold}} {{green|-50%}} Adventure Inspiration Cost
+|- id="Double-Entry Bookkeeping"
+| {{iconbox|Double-Entry Bookkeeping|Records must keep up with the growing complexity of finances and the economy. Recording all payments in and all payments out as separate records helps maintain reliable balance sheets and ensure that entries aren't accidentally — or "accidentally" — overlooked when reviewing accounts.|image=Innovation double entry bookkeeping.png|w=35em}}
+| {{iconify|Stewardship}}
+| 
+* {{icon|gold}} {{green|+5%}} Domain Taxes
+* {{icon|gold}} {{green|+10%}} Gold from the Collect Taxes councilor task
+|- id="Fire Medicine"
+| {{iconbox|Fire Medicine|Plumbing the mysteries of life can sometimes uncover things that create only death. Fire medicine, a potent combination of sulfur, saltpeter, and some burnable material, creates a deadly flame that burns fiercely, almost explosively.|image=Innovation gunpowder.png|w=35em}}
+| {{iconify|Learning}}
+| 
+* [[File:Building powder magazine.png|24px]] Unlocks Gunpowder Manufacturer buildings
+* [[File:Unit fire lance.png|24px]] Can recruit Fire Lancers Men-at-Arms
+* [[File:Fire dragon engineer court position.png|24px]] Unlocks the Fire Dragon Engineer court position if Celestial
+|- id="Grenades"
+| {{iconbox|Grenades|Despite all the advancements in warfare, one ancient tool remains invaluable: the arm. Small vessels filled with a flammable or explosive substance can be easily made and thrown by anyone with a decent pitching technique. Grenades distributed to soldiers before a battle can give them a secondary way to attack and shock the enemy.|image=Innovation grenades.png|w=35em}}
+| {{iconify|Learning}}
+| 
+* {{icon|advantage}} {{green|+5}} Defender Holding Advantage
+* {{icon|damage}} {{green|+6}} Skirmishers and Handgunners Damage
+* {{icon|toughness}} {{green|+2}} Skirmishers and Handgunners Toughness
+* {{icon|screen}} {{green|+5}} Skirmishers and Handgunners Screen
+|}
+
+==High Medieval innovations==
+===Military innovations===
+{| {{#lst:Innovation|InnovationTableStyle}} style="margin-right: 30px;"
+! Innovation
+! Skill
+! Effect
+|- id="Advanced Bowmaking"
+| {{iconbox|Advanced Bowmaking|While archers have traditionally made and maintained their own bows, craftsmen have begun making new types of bows which are stronger and more complex than before. By embracing these new designs we can turn these master bowyers into an invaluable military asset.|image=Innovation advanced bowmaking.png|w=35em}}
+| {{iconify|Learning}}
+| 
+* [[File:Building workshops.png|24px]] Unlocks Shooting Ranges
+* [[File:Unit crossbowmen.png|24px]] Can recruit Crossbowmen Men-at-Arms
+* {{icon|tnt}} Knights of this culture become eligible for Crossbow Captain accolades
+|- id="Castle Baileys"
+| {{iconbox|Castle Baileys|While the keep serves as the heart of a castle, it is far from the only important building. Constructing buildings like the stables and armory in a protected bailey will ensure we can properly garrison and equip our levies no matter the circumstances.|image=Innovation levy building.png|w=35em}}
+| {{iconify|Martial}}
+| 
+* {{icon|yes}} Unlocks all High Medieval Era Military Buildings
+* {{icon|levies}} {{green|+15%}} Levy Reinforcement Rate
+|- id="Hoardings"
+| {{iconbox|Hoardings|Placed on the top of our battlements, these wooden constructions extend out above the base of our castle walls. They allow our defenders to fire arrows, drop stones, or pour boiling oil on attackers while remaining completely protected from enemy archers.|image=Innovation fortifications.png|w=35em}}
+| {{iconify|Stewardship}}
+| {{icon|yes}} Unlocks all High Medieval Era Fortification Buildings
+|- id="Knighthood"
+| {{iconbox|Knighthood|By bestowing knighthoods upon our best fighters and paying them with land holdings instead of mere coin, we can give them the honor they deserve as well as secure their loyalty to us.|image=Innovation knighthood.png|w=35em}}
+| {{iconify|Martial}}
+|
+* {{icon|prowess}} Martial education provides Prowess education traits
+* {{iconify|Glory Hound vassal}}s are more common
+* {{icon|knight}} {{green|+20%}} Knight Effectiveness
+* [[File:Vassal stance glory hound.png|24px]] {{green|+5}} Glory Hound Vassal Opinion
+* {{icon|tnt}} {{green|+1}} Accolades Available
+* {{icon|tnt}} {{green|+10%}} Accolade Glory Gain
+|- id="Men-at-Arms"
+| {{iconbox|Men-at-Arms|Those skilled in the horse and the lance will always be in demand, but are not always available. Keeping groups of men-at-arms on retainer will ensure that we do not lack experienced fighters when war inevitably breaks out.|image=Innovation maa 02.png|w=35em}}
+| {{iconify|Martial}}
+|
+* {{icon|levies}} {{green|+4}} Size of Men-at-Arms Regiments
+* {{icon|levies}} {{green|+1}} Max number of Men-at-Arms Regiments
+* {{icon|levies}} {{green|+1}} Size of Title Men-at-Arms Regiments
+|- id="Trebuchet"
+| {{iconbox|Trebuchet|An engineering marvel, the counterweight trebuchet can hurl heavy projectiles at distances further than any siege engine that came before it.|image=Innovation siege weapons.png|w=35em}}
+| {{iconify|Learning}}
+| 
+* [[File:Unit trebuchet.png|24px]] Can recruit Trebuchets as Men-at-Arms if heritage is not Chinese, Korean or Japonic
+* [[File:Unit siege tower.png|24px]] Can recruit Siege Towers as Men-at-Arms if heritage is Chinese, Korean or Japonic
+|}
+
+===Civic innovations===
+{| {{#lst:Innovation|InnovationTableStyle}} style="margin-right: 30px;"
+! Innovation
+! Skill
+! Effect
+|- id="Banking"
+| {{iconbox|Banking|Particularly large or expensive trades often require an unwieldy amount of heavy coinage. Depositing that wealth in secure treasuries and transferring ownership without moving the physical coins will allow large quantities of goods to be traded more easily.|image=Innovation majesty 02.png|w=35em}}
+| {{iconify|Stewardship}}
+| {{icon|development}} {{green|+10%}} Development Growth
+|- id="Divine Right"
+| {{iconbox|Divine Right|It is time that we recognize that it is divine will that has placed our rulers on their thrones, and to oppose them is to oppose divinity itself.|image=Innovation majesty 03.png|w=35em}}
+| {{iconify|Diplomacy}}
+|
+* [[File:De jure cb.png|24px]] Can use the Seize All De Jure Lands casus belli
+* [[File:Default cb.png|24px]] Can press multiple Claims of another Character in a single war
+* {{icon|law}} Unlocks the Palatinate Feudal Contract
+* {{iconify|Zealot vassal}}s are more common
+* [[File:Icon piety christian 01.png|24px]] {{green|+10%}} Monthly Piety
+* {{icon|opinion}} {{green|-10%}} Short Reign Duration
+* {{icon|gold}} {{green|-20%}} Title Creation Cost
+|- id="Guilds"
+| {{iconbox|Guilds|As our lands expand it becomes increasingly inefficient to directly manage all trade going on within our domain. By granting guild charters to organizations of merchants and craftsmen we can give them more autonomy over their businesses while still ensuring we profit from their ventures.|image=Innovation nobility 01.png|w=35em}}
+| {{iconify|Stewardship}}
+|
+* [[File:Building caravanserai.png|24px]] Unlocks Small Caravanserai
+* {{icon|yes}} Unlocks all High Medieval Era Economic Buildings
+* {{icon|unknown}} {{green|+1}} Additional Building Slots
+|- id="Heraldry"
+| {{iconbox|Heraldry|Establishing hereditary designs to identify our noble families will cause their members to see themselves as part of a greater whole, encouraging them to improve their dynasty's reputation instead of merely being obsessed with personal status.|image=Innovation heraldry.png|w=35em}}
+| {{iconify|Diplomacy}}
+| 
+* {{icon|law}} Can enact the High Partition Law
+* {{icon|law}} Can enact the House Seniority Law
+* {{iconify|Courtly vassal}}s are more common
+|- id="Land Grants"
+| {{iconbox|Land Grants|Land is the most valuable reward we can bestow upon our subjects, but there is only so much that we directly own. However, if we were to grant them permission to start farming that unworked land over there... who would object? Even if conflict does result, we will clearly be in the right when we defend our subjects!|image=Innovation administration 03.png|w=35em}}
+| {{iconify|Stewardship}}
+| 
+* [[File:Task fabricate claim.png|24px]] {{green|+50%}} Fabricate Claim on County Councilor Task Speed
+* {{icon|prestige}} {{green|-10%}} Casus Belli Prestige Cost
+* {{iconify|Parochial vassal}}s are more common
+|- id="Scutage"
+| {{iconbox|Scutage|Military service has always been expected of our subjects, but there are some who are unable or unwilling to provide it. By offering a way for them to meet their obligations with coin instead of steel, we can ensure that we get our dues from everyone.|image=Innovation leadership 02.png|w=35em}}
+| {{iconify|Stewardship}}
+| 
+* {{icon|law}} Unlocks the Scutage Feudal Contract
+* {{icon|gold}} {{green|+5%}} Republican Vassal Tax Contribution
+|- id="Urbanization"
+| {{iconbox|Urbanization|The great cities of Rome, Byzantium, and Delhi have long stood out as relics of a great, unmatchable legacy. As our infrastructure and population grow, we finally have the means to develop new settlements which rival these ancient urban centers.|image=Innovation civil construction 02.png|w=35em}}
+| {{iconify|Stewardship}}
+| {{icon|development}} Counties reach the maximum Existing Development penalty at 55 Development
+|- id="Windmills"
+| {{iconbox|Windmills|The invention of the vertical windmill allows us to harness the power of the wind much more efficiently than before, vastly reducing the labor necessary to grind grains and process raw materials.|image=Innovation windmills.png|w=35em}}
+| {{iconify|Stewardship}}
+| 
+* [[File:Building windmills.png|24px]] Unlocks Simple Windmills
+* [[File:Building watermills.png|24px]] Unlocks Undershot Waterwheels
+* {{icon|unknown}} {{green|+1}} Additional Building Slots
+|}
+
+===Regional innovations===
+{| {{#lst:Innovation|InnovationTableStyle}} style="margin-right: 30px;"
+! Innovation
+! Skill
+! Region
+! Effect
+|- id="Hobbies"
+| {{iconbox|Hobbies|Riders on our Celtic hobby horses are both fast and agile — perfect for scouting and raiding in rough terrain where enemy knights are loathe to go.|image=Innovation special maa 02.png|w=35em}}
+| {{iconify|Martial}}
+| British Isles
+| [[File:Unit light cavalry.png|24px]] Can recruit Hobelars Men-At-Arms
+|- id="Muladi"
+| {{iconbox|Muladi|Wars, raids, and persecution all over the world have driven many people from their homes. By welcoming these displaced souls to our lands regardless of their background we can develop a rich and prosperous society.|image=Innovation nobility 02.png|w=35em}}
+| {{iconify|Diplomacy}}
+| Northern Africa
+|
+* {{icon|opinion}} {{green|+10}} Different Culture Opinion
+* {{icon|development}} {{green|+10%}} Development Growth
+|- id="Ostsiedlung"
+| {{iconbox|Ostsiedlung|The lands to our east are sparsely inhabited, but rich in natural resources. Establishing an initiative to expand and establish homesteads there will lead to the growth and prosperity of our people.|image=Innovation misc inventions.png|w=35em}}
+| {{iconify|Stewardship}}
+| Eastern Germany
+| 
+* [[File:Task_promote_culture.png|24px]] {{green|+15%}} Promote Culture Councilor Task Speed
+* {{icon|development}} {{green|+15%}} Monthly Development Growth
+|- id="Peerage"
+| {{iconbox|Peerage|By rightfully recognizing the most illustrious amongst the noble vassals of our realm we will foster a sentiment of greater loyalty towards the crown.|image=Innovation nobility 03.png|w=35em}}
+| {{iconify|Diplomacy}}
+| Francia
+|
+* {{icon|opinion}} {{red|-10}} Fellow Vassal Opinion
+* {{icon|gold}} {{green|+10%}} Vassal Tax Contribution
+* [[File:Vassal stance courtly.png|24px]] {{green|+5}} Courtly Vassal Opinion
+* {{icon|decision}} Must be unlocked through the [[Inspire Opus Francigenum]] decision
+|- id="Seigneurialism"
+| {{iconbox|Seigneurialism|By delegating more responsibilities to local nobles, we can both make them happy as well as freeing up more of our attention to focus on our own domain.|image=Innovation administration 01.png|w=35em}}
+| {{iconify|Stewardship}}
+| Francia
+| {{icon|gold}} {{green|+5%}} Domain Taxes
+|}
+
+====Fritzware====
+{{expansion|lop}}
+Fritzware is a special innovation that can only be obtained from a Court Scholar research project, with a 1% chance each time. It gives the following bonuses:
+* {{icon|gold}} {{green|+5%}} Domain Taxes
+* {{icon|opinion}} {{green|+20%}} Send Gift Opinion Gain
+
+===Cultural innovations===
+{| {{#lst:Innovation|InnovationTableStyle}} style="margin-right: 30px;"
+! Innovation
+! Skill
+! Cultures
+! Effect
+|- id="Desert Tactics"
+| {{iconbox|Desert Tactics|The Levant is an unfamiliar place with poor terrain for cavalry charges. We should adapt to these lands and field cavalry which is better suited to fight in our new home.|image=Innovation special maa 02.png|w=35em}}
+| {{iconify|Martial}}
+| Outremer
+| [[File:Unit light cavalry.png|24px]] Can recruit Chasseurs Men-At-Arms
+|- id="Pike Columns"
+| {{iconbox|Pike Columns|Pikemen have always been strong defenders, but they have historically lacked in mobility and offense. Devising new formations to address this deficiency will improve our chances of victory in battle.|image=Innovation maa 01.png|w=35em}}
+| {{iconify|Martial}}
+| Republican Legacy tradition
+| [[File:Unit pikemen.png|24px]] Can recruit Picchieri Men-At-Arms
+|- id="Sanitation"
+| {{iconbox|Sanitation|Cleanliness is paramount, and investment in the civic engineering required to provide all with the ability to maintain appropriate levels of hygiene is extremely important to our people.|image=Innovation welfare 02.png|w=35em}}
+| {{iconify|Stewardship}}
+| 
+* Arabic
+* Aramaic
+* Byzantine
+| {{icon|plague resistance}} {{green|+10}} Plague Resistance
+|- id="Sarawit"
+| {{iconbox|Sarawit|The highlands where our ancestors settled requires a particular approach to agriculture. The building of terraced fields taught us to develop new military tactics, which are employed by our Serawit soldiers.|image=Innovation maa 02.png|w=35em}}
+| {{iconify|Martial}}
+| Amharic Highlanders tradition
+| [[File:Unit heavy infantry.png|24px]] Can recruit Sarawit Men-At-Arms
+|}
+
+==Late Medieval innovations==
+===Military innovations===
+{| {{#lst:Innovation|InnovationTableStyle}} style="margin-right: 30px;"
+! Innovation
+! Skill
+! Effect
+|- id="Gunpowder"
+| {{iconbox|Gunpowder|The development of gunpowder-based weaponry has allowed us to surpass the limitations of levers and pulleys. Our new siege weapons can tear down enemy walls with a force and efficiency that our ancestors could scarcely dream of.|image=Innovation bombards.png|w=35em}}
+| {{iconify|Learning}}
+| 
+* [[File:Building powder magazine.png|24px]] Unlocks Gunpowder Manufacturer buildings
+* {{icon|handgunner}} Can recruit Handgunners Men-at-Arms
+* [[File:Unit bombard.png|24px]] Can recruit Bombards Men-at-Arms if heritage is not Chinese, Korean or Japonic
+* [[File:Unit cannon.png|24px]] Can recruit Fire Dragon Engines Men-at-Arms if heritage is Chinese, Korean or Japonic
+|- id="Machicolations"
+| {{iconbox|Machicolations|A notable improvement on our earlier hoardings, stone machicolations serve the same purpose while being significantly more durable and offering more protection for our defenders.|image=Innovation fortifications.png|w=35em}}
+| {{iconify|Stewardship}}
+| {{icon|yes}} Unlocks all Late Medieval Era Fortification Buildings
+|- id="Plate Armor"
+| {{iconbox|Plate Armor|The ultimate form of personal protection, a well-crafted suit of plate armor has articulated joints which give it a superior range of motion to earlier armors, while being all but impenetrable to enemy weapons.|image=Innovation plate armor.png|w=35em}}
+| {{iconify|Martial}}
+| 
+* {{icon|toughness}} {{green|+10}} Heavy Infantry Toughness
+* {{icon|toughness}} {{green|+20}} Heavy Cavalry Toughness
+|- id="Royal Armory"
+| {{iconbox|Royal Armory|As the size of our armies increases, we must guarantee that each and every soldier will be properly armed and armored. The establishment of a royal armory to produce and house all of our armies' equipment will go a long way towards meeting this need.|image=Innovation levy building.png|w=35em}}
+| {{iconify|Martial}}
+| 
+* {{icon|yes}} Unlocks all Late Medieval Era Military Buildings
+* {{icon|levies}} {{green|+15%}} Levy Reinforcement Rate
+|- id="Sappers"
+| {{iconbox|Sappers|It does not matter how strong a our enemy's walls are if the earth beneath them can be dug through. Employing sappers to undermine enemy fortifications is an effective way to breach even the toughest defenses.|image=Innovation sappers.png|w=35em}}
+| {{iconify|Martial}}
+| {{icon|time}} {{green|-10%}} Siege Phase Time
+|- id="Standing Armies"
+| {{iconbox|Standing Armies|Military levies provide us with large numbers of soldiers, yet no matter how well we try to train and equip them they will always be inferior to professional soldiers. Establishing a large standing army will ensure the interests of our realm are enforced by the best fighters around.|image=Innovation leadership 02.png|w=35em}}
+| {{iconify|Martial}}
+|
+* {{icon|levies}} {{green|+5}} Size of Men-at-Arms Regiments
+* {{icon|levies}} {{green|+1}} Max number of Men-at-Arms Regiments
+* {{icon|levies}} {{green|+1}} Size of Title Men-at-Arms Regiments
+|}
+
+===Civic innovations===
+{| {{#lst:Innovation|InnovationTableStyle}} style="margin-right: 30px;"
+! Innovation
+! Skill
+! Effect
+|- id="Court Officials"
+| {{iconbox|Court Officials|Our realm has expanded to the point where even minor nobles cannot administer everything effectively. Appointing court officials and bureaucrats to handle the more mundane court tasks will ensure that the wheels of government continue turning smoothly.|image=Innovation nobility 02.png|w=35em}}
+| {{iconify|Stewardship}}
+|
+* {{iconify|Courtly vassal}}s are more common
+* {{icon|domain}} {{green|+1}} Domain Limit
+* {{icon|tax collector}} {{green|+1}} Tax Jurisdictions
+|- id="Cranes"
+| {{iconbox|Cranes|A forgotten marvel of engineering, the Romans used tread-wheel cranes to great effect when building their empire, and so too shall we.|image=Innovation civil construction 01.png|w=35em}}
+| {{iconify|Stewardship}}
+| 
+* {{icon|yes}} Unlocks all Late Medieval Era Economic Buildings
+* {{icon|time}} {{green|-15%}} Building Construction Time
+|- id="Exotic Regalia"
+| {{iconbox|Exotic Regalia|Anyone may claim a title, but in order to be a true monarch they must inspire awe and majesty in their subjects. Our new ermine cloaks are a form of regal dress which is sure to accomplish just that.|image=Innovation majesty 03.png|w=35em}}
+| {{iconify|Stewardship}}
+| {{icon|vassal}} {{green|+20}} Vassal Limit
+|- id="Noblesse Oblige"
+| {{iconbox|Noblesse Oblige|Nobility is more than just privileges and rights; it also comes with a duty to the realm, an obligation to act in ways that are proper and just. Clearly establishing what is expected from our elite will give us an ideal to aspire to and bring us together as we work to achieve it.|image=Innovation nobility 03.png|w=35em}}
+| {{iconify|Diplomacy}}
+|
+* {{icon|opinion}} {{green|+5}} Fellow Vassal Opinion
+* [[File:Vassal stance courtly.png|24px]] {{green|+5}} Courtly Vassal Opinion
+* [[File:Vassal stance parochial.png|24px]] {{green|+5}} Parochial Vassal Opinion
+* {{icon|tnt}} {{green|+10%}} Accolade Glory Gain
+|- id="Primogeniture"
+| {{iconbox|Primogeniture|One kingdom, one heir. While the younger children of our monarch may feel forsaken by being denied an inheritance, this is the best way to ensure we keep a stable realm which does not get torn apart by succession crises.|image=Innovation majesty 01.png|w=35em}}
+| {{iconify|Diplomacy}}
+| 
+* {{icon|law}} Can enact the Primogeniture Law
+* {{icon|law}} Can enact the Ultimogeniture Law
+* {{iconify|Zealot vassal}}s are more common
+|- id="Promissory Notes"
+| {{iconbox|Promissory Notes|An evolution of earlier banking systems, paper promissory notes allow our citizens to quickly and safely trade goods and services across large distances without being weighed down by heavy specie.|image=Innovation administration 01.png|w=35em}}
+| {{iconify|Stewardship}}
+| {{icon|development}} {{green|+10%}} Development Growth
+|- id="Renaissance Thought"
+| {{iconbox|Renaissance Thought|Developments in science, philosophy, and logic have turned our cities into wondrous centers of education and innovation. The massive technological and cultural leaps we are now making has put hitherto undreamed potential within our grasp.|image=Innovation misc inventions.png|w=35em}}
+| {{iconify|Stewardship}}
+| 
+* {{icon|development}} Counties reach the maximum Existing Development penalty at 90 Development
+* {{iconify|Parochial vassal}}s are more common
+|- id="Rightful Ownership"
+| {{iconbox|Rightful Ownership|It is our divine right to possess our de jure lands, and it is time the world recognizes this fact. No longer will we be held back by obsolete protocols and decorum.|image=Innovation leadership 01.png|w=35em}}
+| {{iconify|Diplomacy}}
+|
+* {{icon|prestige}} {{green|-10%}} Casus Belli Prestige Cost
+* {{iconify|Glory Hound vassal}}s are more common
+* {{icon|gold}} {{green|-20%}} Title Creation Cost
+|}
+
+===Regional innovations===
+{| {{#lst:Innovation|InnovationTableStyle}} style="margin-right: 30px;"
+! Innovation
+! Skill
+! Region
+! Effect
+|- id="Condottieri"
+| {{iconbox|Condottieri|Being both wealthy and centrally located, Italy has become a major center for mercenary companies to travel to when not on active campaign. Since they are already here, we should be able to negotiate a better rates for them than they would normally charge.|image=Innovation maa 01.png|w=35em}}
+| {{iconify|Intrigue}}
+| Italia
+| 
+* {{icon|gold}} {{green|-25%}} Same Culture Mercenary Hire Cost
+* {{icon|levies}} {{green|+100%}} Number of Mercenary Companies
+|- id="Deccan Unity"
+| {{iconbox|Deccan Unity|The influx of new beliefs and religions into our society has made it clear that our past focus on regionalism has been a mistake. We should band together with others of our faith and ensure a strong and enduring state that can stand up to external pressures.|image=Innovation nobility 04.png|w=35em}}
+| {{iconify|Diplomacy}}
+| Deccan India
+| {{icon|opinion}} {{green|+5}} Same Faith Opinion
+|- id="Wierdijks"
+| {{iconbox|Wierdijks|Building strong and reliable dikes is an essential task if we wish to live and prosper within the low countries. New techniques of reinforcing earthen dikes with seaweed mats will increase their strength and durability.|image=Innovation civil construction 02.png|w=35em}}
+| {{iconify|Stewardship}}
+| Netherlands
+|
+*{{icon|levies}} {{green|+1%}} Levy Size
+*{{icon|development}} {{green|+10%}} Development Growth
+*{{icon|time}} {{green|-10%}} City Buildings Construction Time
+*{{icon|time}} {{green|-10%}} City Holdings Construction Time
+|}
+
+===Cultural innovations===
+The Legionnaires innovation is also unlocked for all cultures whose culture head owns the Roman Empire title.
+{| {{#lst:Innovation|InnovationTableStyle}} style="margin-right: 30px;"
+! Innovation
+! Skill
+! Cultures
+! Effect
+! DLC
+|- id="Adaptive Militia"
+| {{iconbox|Adaptive Militia|Weapons like the goedendag are cheap and easy to produce, yet surprisingly effective against cavalry charges. Their existence allows us to adapt our militias to have much better odds when fighting armored knights.|image=Innovation special maa 02.png|w=35em}}
+| {{iconify|Martial}}
+| Polders tradition
+| [[File:Unit skirmishers.png|24px]] Can recruit Goedendag Militia Men-At-Arms
+| 
+|- id="Legionnaires"
+| {{iconbox|Legionnaires|Just as we have restored the Roman empire, so too shall restore the structure of the old Roman legion and its feared elite troops!|image=Innovation special maa 02.png|w=35em}}
+| {{iconify|Martial}}
+| Roman
+| [[File:Unit heavy infantry.png|24px]] Can recruit Palatini Men-At-Arms
+| 
+|- id="Rectilinear Schiltron"
+| {{iconbox|Rectilinear Schiltron|The traditional pike circle is a powerful defensive formation, but it is limited in offense and mobility. While requiring great discipline to employ, our rectilinear schiltron is a superior formation which is capable of both powerful offensive and defensive tactics.|image=Innovation special maa 01.png|w=35em}}
+| {{iconify|Martial}}
+| Strong Kinship tradition
+| [[File:Unit pikemen.png|24px]] Can recruit Schiltron Men-At-Arms
+| 
+|- id="Valets"
+| {{iconbox|Valets|Establishing a valet system of dedicated servants for our noble horsemen will enable us to field knights who are both better armed and armored.|image=Innovation special maa 01.png|w=35em}}
+| {{iconify|Martial}}
+| Chanson de Geste tradition
+| [[File:Unit heavy cavalry.png|24px]] Can recruit Gendarmes Men-At-Arms
+| 
+|- id="Zweihanders"
+| {{iconbox|Zweihanders|These massive two-handed swords are as adept at cutting down charging knights as they are at breaking enemy pike formations, making them a formidable addition to our own pike regiments.|image=Innovation special maa 01.png|w=35em}}
+| {{iconify|Martial}}
+| Central Germanic heritage
+| [[File:Unit pikemen.png|24px]] Can recruit Landsknechts Men-At-Arms
+| 
+|- id="Rocket Carts"
+| {{iconbox|Rocket Carts|Using explosive formulas cruder than anything needed by expensive bombards, massive volleys of fire arrows can be fired from a single device. Since these fire arrows still only have the impact of... an arrow, they are far better-suited for shooting from walls than at them.|image=Innovation rocket cart.png|w=35em}}
+| {{iconify|Learning}}
+| 
+* Buyeo heritage
+* Chinese heritage
+* Samhanic heritage
+|
+* [[File:Unit hwacha.png|24px]] Can recruit Rocket Carts Men-At-Arms
+* {{icon|advantage}} {{green|+5}} Holding Defender Advantage
+| {{iconify|All Under Heaven}}
+|}
+
+==References==
+<references />
+{{Mechanics navbox}}

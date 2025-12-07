@@ -1,0 +1,1766 @@
+{{Version|1.18}}
+[[File:Schemes example.png|thumb|330px|Two schemes against well-chosen targets]]
+Any character can be targeted with a '''scheme''' in accordance with the plans of the schemer. Each character can run one scheme of each type at the same time. Ongoing schemes can be canceled at any point. Various events can take place during a scheme.
+
+Some traits, characteristic or statuses of the schemer and target can influence various values in a scheme. A hideous character, for example, would take significant penalty in seducing others. Higher-ranked characters are harder to be targeted by lower-ranked ones. 
+
+== Scheme mechanics ==
+Each scheme has 2 values to keep track of:
+* {{icon|scheme success chance}} Success Chance determines how likely it is for the scheme to succeed when it is executed and grows over time.
+* {{icon|scheme phase length}} Phase Length determines how fast the scheme progresses. On Personal schemes it determines when the scheme completes and on Hostile and Political schemes it determines how long does it take to gain Advantage.
+
+Hostile and Political schemes have 4 additional values.
+* {{icon|scheme potential}} Potential determines the maximum Success Chance. The schemer's skills can give up to 30% Potential, with the rest coming from agents. Potential cannot exceed 95% except for contract schemes.
+* {{icon|scheme secrecy}} Secrecy determines how likely it is for a scheme to remain undetected by the target. The chance for the scheme to be discovered upon execution is equal to the missing Secrecy and the chance for the scheme to gain a Breach each month is equal to a tenth of the missing Secrecy. Secrecy has no effects during Grace. Grace is normally six months, but raises to ten months with the [[File:Node intrigue.png|24px]] Court of Shadows perk.
+* [[File:Scheme breach.png|24px]] Breaches is how many times the scheme has been breached and reduces Success Chance. If it reaches 5 the scheme automatically fails.
+* [[File:Scheme opportunity.png|24px]] Advantage are used to execute the scheme or offered as enticements to agents. Once at least 5 Advantage has been obtained, the scheme can be executed. Alternatively it may be executed using 10, 15 or 20 Advantage to further increased its Success Chance. A scheme starts with 1 Advantage for every 5 points of {{iconify|Intrigue}} the schemer has over 15.
+
+== Hostile schemes ==
+Hostile schemes use agents and secrecy. If secrecy fails the targeted character will gain an imprisonment reason on the schemer. Hostile schemes cannot target the schemer's own children unless the schemer has the {{iconify|Sadistic}} trait.
+{| class="mildtable"
+! Scheme
+! Skill used
+! Max secrecy
+! Success effect
+! Requirements
+|-
+| [[File:Icon scheme hostile.png|40px]] Murder
+| {{iconify|Intrigue}}
+| 95%
+| Target is killed
+| None
+|-
+| [[File:Icon scheme abduct.png|40px]] Abduct
+| {{iconify|Intrigue}}
+| 85%
+| Target is imprisoned
+| [[File:Node intrigue.png|24px]] Kidnapper perk
+|-
+| [[File:Icon scheme fabricate hook.png|40px]] Fabricate Hook
+| {{iconify|Intrigue}}
+| 95%
+| Gain a Hook on the target
+| [[File:Node intrigue.png|24px]] Truth is Relative perk or {{iconify|Vengeful}} trait against a Rival
+|-
+| [[File:Icon scheme claim throne.png|40px]] Claim Throne
+| {{iconify|Learning}}
+| 95%
+| Gain Pressed Claim on the Liege's Primary Title
+| [[File:Node stewardship.png|24px]] Meritocracy perk<br>{{icon|yes}} Landed
+|-
+| [[File:Icon scheme steal back artifact.png|40px]] Steal Artifact
+| {{iconify|Intrigue}}
+| 95%
+| Gain the targeted artifact
+| {{icon|pressed claim}} Artifact claim
+|-
+| [[File:Icon scheme claim throne.png|40px]] Overthrow Regent
+| {{iconify|Intrigue}}
+| 85%
+| Become the new regent
+| {{icon|diarch}} Target is the regent of the same liege
+|-
+| [[File:Icon scheme seizure.png|40px]] Seize Realm
+| {{iconify|Intrigue}}
+| 95%
+| Take the target's titles
+| {{icon|rtp}} Adventurer<br>{{iconify|Illustrious}} level of fame<br>{{icon|duchy}} Target is a duke or above
+|-
+| [[File:Icon scheme steal herd.png|40px]] Steal Herd
+| {{iconify|Intrigue}}
+| 95%
+| Take Herd from the target
+| {{icon|kos}} Nomadic government<br>{{icon|herd}} Target has Herd<br>{{icon|no}} At war with the target
+|-
+| [[File:Icon imperial treasury.png|40px]] Siphon Treasury
+| {{iconify|Intrigue}}
+| 95%
+| Converts Treasury into Gold
+| {{iconify|Treasury}}
+|}
+Being at war with someone grants {{red|-50}} Success Chance to Murder schemes and {{red|-200}} Success Chance to Abduction schemes.
+
+== Personal schemes ==
+Personal schemes do not use secrecy or agents. A failure prevents the scheme from being used again on the same character and may cause additional penalties.
+{| class="mildtable"
+! width=1% | Scheme
+! Skill
+! Success effect
+! Failure effect
+! Requirements
+|-
+| '''Sway'''
+| {{icon|diplomacy}}
+| 
+* 95% chance to gain {{green|+25}} {{iconify|Opinion}} with the target
+* 5% chance to gain {{green|+30}} {{iconify|Opinion}} with the target
+| 
+* 2% chance to lose {{red|-10}} {{iconify|Opinion}} with the target
+* 2% chance to lose {{red|-10}} {{iconify|Opinion}} with the target who gains {{green|+1}} {{iconify|Intrigue}} and {{green|+8}} {{icon|scheme success chance}} Hostile Scheme Resistance for 5 years
+| 
+|-
+| '''Learn Language'''
+| {{icon|learning}}
+| 
+* Schemer learns the target's language
+| 
+* Can choose to only lose half progress at the cost of 35 {{iconify|Stress}}
+* If schemer has the {{iconify|Diplomat}} trait it can choose to gain {{green|+25}} {{iconify|Opinion}} with the target
+| 
+* Target's language is not learned
+|-
+| '''Seduce'''
+| {{icon|intrigue}}
+| 
+* Gain {{green|+20}} {{iconify|Opinion}} with the target
+* If characters have opposite gender high chance of pregnancy
+* If both characters have compatible sexuality target becomes a Lover
+* Either character may gain a secret depending on faith doctrines
+| 
+* 40% chance to lose {{red|-10}} {{iconify|Opinion}} with the target
+* 20% chance to gain the {{iconify|Adulterer}}, {{iconify|Fornicator}}, {{iconify|Incestuous}} or {{iconify|Sodomite}} trait if applicable
+* 20% chance to lose {{red|-10}} {{iconify|Opinion}} with the target and the {{iconify|Adulterer}}, {{iconify|Fornicator}}, {{iconify|Incestuous}} or {{iconify|Sodomite}} trait if applicable
+| 
+* Target's sexuality is compatible
+|-
+| '''Romance'''
+| {{icon|diplomacy}}
+| 
+* Target becomes a Soulmate
+| 
+* If the target does not have a Lover lose {{red|-10}} {{iconify|Opinion}} with the target
+* If the target has a Lover can attempt to kill either with 50% discovery chance
+| 
+* Both characters' sexuality is compatible
+|-
+| '''Befriend'''
+| {{icon|diplomacy}}
+| 
+* If the target is a {{iconify|Friend}} becomes {{iconify|Best Friend}}
+* If the target is a {{iconify|Rival}} ends the rivalry
+* If the target is a Faction Leader it disbands the Faction
+* If the target is a member of a Faction it leaves the Faction
+| 
+* Lose {{red|-20}} {{iconify|Opinion}} with the target
+* If the target is a {{iconify|Rival}} lose {{red|-15}} {{iconify|Opinion}} with every courtier
+* If the target is a Faction Leader gain {{red|+20}} Faction Discontent
+* If the target is a Spouse it exposes a random secret unless the schemer pays 100 {{iconify|Gold}} or has a Hook
+* If the target is a Theocracy Vassal their realm capital loses {{red|-10}} {{iconify|Control}}
+* If the target is the Direct Liege lose {{red|-150}} {{iconify|Prestige}}
+| 
+* Befriend perk
+|-
+| '''Elope'''
+| {{icon|intrigue}}
+| 
+* Target joins the schemer court and marries them
+* If either character is married it divorces their spouse
+| 
+* 50% chance the Lovers secret becomes exposed
+| 
+* Target is Lover or Soulmate
+* Target is unlanded
+* Target is in a different court
+|-
+| '''Convert to Witchcraft'''
+| {{icon|learning}}
+| 
+* If target's faith has the Accepted witchcraft doctrine it gains the {{iconify|Witch}} trait
+* If target's faith has the Shunned or Crime witchcraft doctrine it gains the [[File:Secret religious.png|24px]] Is a Witch secret
+* If either character has the Witch secret the other character discovers it
+| 
+* If schemer has the Witch secret and both characters are vassals of the same liege the liege discovers the secret
+| 
+* Witch trait or secret
+|}
+
+== Political schemes ==
+{{expansion|rtp|auh}}
+Political schemes are only available between characters with {{icon|governor efficiency}} Administrative or {{iconify|Celestial}} government. They have no failure effects beyond giving {{iconify|Stress}}. The only exception is Raid Estate. If a vassal is discovered performing the scheme the liege will consider them a criminal unless the character obtained a remit. If the liege is discovered performing the scheme they will become rivals with the target.
+{| class="mildtable"
+! Scheme
+! Skill
+! Agents
+! Secrecy
+! Success effect
+! Requirements
+|-
+| '''Challenge Status'''
+| {{iconify|Learning}}
+| {{icon|yes}}
+| {{icon|yes}}
+| 
+* Take {{iconify|Influence}} equal to Scheme Success Chance
+* Target loses 5% Powerful Family Rating
+| 
+|-
+| '''Promote'''
+| {{iconify|Diplomacy}}
+| {{icon|yes}}
+| {{icon|no}}
+| 
+* Target gains the Promoted modifier for 10 years, giving the following effects:
+** {{green|+20}} Appointment Succession Score
+** {{green|+30}} Acclamation Succession Score
+* Improves relations between characters' houses by {{green|+10%}}
+| 
+|-
+| '''Slander'''
+| {{iconify|Diplomacy}}
+| {{icon|yes}}
+| {{icon|yes}}
+| 
+* Target gains the Slandered modifier for 10 years, giving the following effects:
+** {{red|-25}} Appointment Succession Score
+** {{red|-50}} Acclamation Succession Score
+** {{red|-5%}} {{iconify|Governor Efficiency}}
+* Reduces relations between characters' houses by {{red|-10%}}
+* Target has a 20% chance to gain a negative Nickname
+| {{icon|no}} Target is the liege
+|-
+| '''Raid Estate'''
+| {{iconify|Intrigue}}
+| {{icon|yes}}
+| {{icon|yes}}
+| 
+* Gain {{iconify|Gold}}
+* Members of the target's House may be killed, maimed or improsoned
+* A building on in the target's Estate is destroyed
+* Target's House gains the Estate Raided modifier for 5 years, giving the following effects:
+** {{red|-25%}} Domain Taxes
+** {{red|+25}} Domicile Building Construction Time
+* Considered a crime towards the target
+| {{icon|yes}} House Head<br>{{icon|yes}} Target is a House Head<br>{{icon|governor efficiency}} Administrative government or 800 Movement Power
+|-
+| '''Border Dispute'''
+| {{iconify|Diplomacy}}
+| {{icon|yes}}
+| {{icon|no}}
+| 
+* Take the target's selected {{iconify|County}}
+| {{icon|yes}} Target is a neighbor<br>{{icon|no}} Target is the liege<br>{{icon|no}}[[File:Imperial bureaucracy 0.png|24px]] Fixed Border Policy law
+|-
+| '''Subsume Governorship'''
+| {{iconify|Diplomacy}}
+| {{icon|yes}}
+| {{icon|no}}
+| 
+* Take the target's selected {{iconify|Duchy}}
+| {{icon|yes}} Head of a Powerful or Dominant family<br>{{icon|yes}} Target is a neighbor<br>{{icon|no}} Target is not the liege<br>{{icon|no}}[[File:Imperial bureaucracy 0.png|24px]] Fixed Border Policy law
+|-
+| '''Ingratiate Family'''
+| {{iconify|Diplomacy}}
+| {{icon|no}}
+| {{icon|no}}
+| 
+* Gain {{green|+60}} {{iconify|Influence}}
+* House gains {{green|+5%}} {{iconify|Influence}} for 10 years
+* Gain {{green|+30}} {{iconify|Opinion}} with the target
+* Chance to grow closer to forming a friendship with the target
+| [[File:Domicile building living quarters.png|24px]] Fine Living Quarters estate upgrade
+|-
+| '''Mentor in Governance'''
+| {{iconify|Stewardship}}
+| {{icon|yes}}
+| {{icon|no}}
+| 
+* Gain {{green|+60}} {{iconify|Influence}}
+* Gain {{green|+15}} {{iconify|Opinion}} with the target
+* If target doesn't have the {{iconify|Governor}} trait it gains it
+* If target has the {{iconify|Governor}} trait it gains experience for it
+| [[File:Domicile building reference corpus.png|24px]] Private Study estate upgrade<br>{{icon|no}}{{iconify|Rival}}
+|-
+| '''Promote Movement Power'''
+| {{iconify|Diplomacy}}
+| {{icon|yes}}
+| {{icon|no}}
+| 
+* Targeted movement gains {{green|+100}} {{icon|movement power}} Personal Movement Power per Merit Rank
+| {{icon|yes}} Involved in the Dynastic Cycle situation
+|-
+| '''Slander Movement Power'''
+| {{iconify|Diplomacy}}
+| {{icon|yes}}
+| {{icon|no}}
+| 
+* Targeted movement loses {{red|-100}} {{icon|movement power}} Personal Movement Power per Merit Rank
+| {{icon|yes}} Involved in the Dynastic Cycle situation<br>{{icon|no}} Target is in the same Political Movement
+|-
+| '''Mentorship'''
+| {{iconify|Intrigue}}
+| {{icon|no}}
+| {{icon|yes}}
+| 
+* Become the target's Disciple
+* Can choose to gain {{green|+10}} {{iconify|Merit}} per Merit Rank difference
+* Can choose to gain {{iconify|Confucian Education}} trait if target has it
+* Can choose to gain {{iconify|Confucian Education}} trait experience if both characters have it
+* Can choose to gain commander trait if target has it
+* Can choose to gain commander trait experience if both characters have it
+| {{iconify|Celestial}} government
+|-
+| '''Damage Legitimacy'''
+| {{iconify|Intrigue}}
+| {{icon|no}}
+| {{icon|yes}}
+| 
+* Targe loses 50 {{iconify|Legitimacy}}
+| {{icon|governor efficiency}} Administrative government<br>{{icon|yes}} Target is the liege
+|-
+| '''Foster Legitimacy'''
+| {{iconify|Intrigue}}
+| {{icon|no}}
+| {{icon|no}}
+| 
+* Targe gains 100 {{iconify|Legitimacy}}
+* If Scheme Success Chance is 75-89 there's a 50% chance to gain a {{iconify|Weak Hook}} on the target
+* If Scheme Success Chance is 90-100 there's a 50% chance to gain a {{iconify|Strong Hook}} on the target
+| {{icon|governor efficiency}} Administrative government<br>{{icon|yes}} Target is the liege
+|-
+| '''Depose'''
+| {{iconify|Intrigue}}
+| {{icon|yes}}
+| {{icon|yes}}
+| 
+* Replace the top liege
+* Choose the fate of the top liege
+| {{icon|governor efficiency}} Administrative government<br>{{icon|yes}} Head of a Powerful or Dominant family<br>{{icon|emperor}} Target is emperor<br>{{icon|no}} Negative physical traits if culture has the Palace Politics tradition
+|}
+
+== Agents ==
+Most hostile and political schemes can have up to 5 agents - adult characters who contribute to the scheme. Only the target's courtiers, guests and direct vassals can be invited as agents and only if they are not improsoned or part of another scheme. Agents come in many types, which determines what scheme stat they will increase and which skills and traits will increase their contribution. The contribution of each agent is capped at {{green|+50}}. A scheming character is protected from discovery while the scheme progresses but its agents are not.
+
+Once a scheme has started, characters can be invited into the agent slots. Acceptance depends on the agent's {{iconify|Opinion}} of the schemer and the schemer's skills and decreases with the title rank of the scheme's target of if the target is in another realm. For hostile schemes the AI personality of the agent also has a large impact:
+* Boldness does not influence directly, but it does make the agent less likely to be intimidated or terrified by the target, therefore increasing the chance.
+* Compassion decreases the chance of accepting signifiantly (-4 per 10 Compassion), particularly if the target is a child. Increases slightly if extremely low compassion (+10 at -100) (i.e Sadistic or Callous).
+* Honor decreases the chance of accepting significantly if they have positive {{iconify|Opinion}} of the target. Low Honor increases the chance significantly if they have negative {{iconify|Opinion}} of the target.
+* Greed increases the chance of accepting if they are in the succession line for one of the target's titles, decreases significantly if nothing to gain.
+* Vengefulness increases the chance of accepting if the target slighted them before.
+* Zeal increases the chance of accepting with faith hostility towards the target's faith.
+* Energy doesn't have any effect when positive, but decreases base reluctance if below 0.
+
+When inviting a character to become an agent they can be offered enticements. Offering an enticement increases their acceptance and prevents them from voluntarily leaving the scheme for 5 years. Enticements can be 3 or 5 [[File:Scheme opportunity.png|24px]] Advantage, 100 or 200 {{iconify|Gold}}, 300 {{iconify|Prestige}}, offering a Hook, using a Hook, or granting a county that's de jure theirs. Characters who are terrified of the scheme target will never become agents except through the use of a {{iconify|Strong Hook}}.
+
+Each agent can also contribute to their agent type scheme stat regardless of their exact agent type based on their closeness to the scheme target. Having the target's Spymaster as an agent adds as much success chance as the Spymaster has {{iconify|Intrigue}}.
+{| class="mildtable" style="float: left; margin-right: 30px;"
+! Closeness
+! Success chance
+|-
+| Spouse
+| {{green|+30}}
+|-
+| Guardian
+| {{green|+30}}
+|-
+| Concubine
+| {{green|+20}}
+|-
+| Close Family
+| {{green|+10}}
+|-
+| Extended Family
+| {{green|+5}}
+|}
+{| class="mildtable" style="float: left; margin-right: 30px;"
+! Closeness (realm)
+! Success chance
+|-
+| {{icon|diarch}} Diarch
+| {{green|+30}}
+|-
+| [[File:Council.png|24px]] Councilor
+| {{green|+10}}
+|-
+| [[File:Powerful vassal.png|24px]] Powerful Vassal
+| {{green|+5}}
+|-
+| {{icon|vassal}} Vassal
+| {{green|+2}}
+|}
+{| class="mildtable" style="float: left; margin-right: 30px;"
+! Closeness (court position)
+! Success chance
+|-
+| {{icon|court physician}} Personal Physician
+| {{green|+20}}
+|-
+| [[File:Cupbearer court position.png|24px]] Cup-Bearer
+| {{green|+20}}
+|-
+| [[File:Food taster court position.png|24px]] Food Taster
+| {{green|+20}}
+|-
+| {{iconify|Bodyguard}}
+| {{green|+20}}
+|-
+| [[File:Chief eunuch court position.png|24px]] Chief Eunuch
+| {{green|+20}}
+|-
+| [[File:Lady in waiting court position.png|24px]] Lady-in-waiting
+| {{green|+5}}
+|}
+{| class="mildtable" style="float: left; margin-right: 30px;"
+! Closeness (relation)
+! Success chance
+|-
+| {{iconify|Best Friend}}
+| {{green|+30}}
+|-
+| {{iconify|Friend}}
+| {{green|+20}}
+|-
+| [[File:Lover.png|24px]] Lover
+| {{green|+20}}
+|-
+| [[File:Nemesis.png|24px]] Nemesis
+| {{green|+10}}
+|-
+| {{iconify|Rival}}
+| {{green|+5}}
+|}
+{{clear}}
+Depending on the relation between agents, random positive or negative events may take place.
+
+=== Swaying Agents ===
+Some potential agents can be swayed to join your scheme.
+{| class="mildtable" style="float: left; margin-right: 30px;"
+! Closeness
+! Success chance
+! Notes
+|-
+| Leverage Scheme Advantages (x3)
+| {{green|+10}}
+| 
+|-
+| Leverage Scheme Advantages (x5)
+| {{green|+30}}
+| 
+|-
+| Bribe
+| {{green|+10}}
+| Scales based on agent rank; -50% with [[File:Guile legacy track.png|24px]] Guile Legacy 
+|-
+| Hefty Bribe
+| {{green|+20}}
+| Scales based on agent rank; -50% with [[File:Guile legacy track.png|24px]] Guile Legacy 
+|-
+| Offer a Hook on Yourself
+| {{green|+20}}
+| Gain ~20 stress
+|-
+|Use your Hook on Them
+|{{green|+100}}
+| 
+|-
+|Offer Prestige
+|{{green|+20}}
+| 
+|-
+|Offer Influence
+|{{green|+20}}
+| Administrative government only
+|-
+|Grant Council Seat
+| ?
+| Agent must be a landed vassal
+|-
+| Grant County they Claim
+| ?
+| You must directly own the claimed county
+|-
+|Offer Piety
+|{{green|+20}}
+| Agent must have high zealousness
+|}
+
+{{clear}}
+
+=== Scheme potential agents ===
+The following agents increase {{icon|scheme success chance}} Scheme Potential. The Eunuch agent type is only available for agents with the {{iconify|Eunuch}} or {{iconify|Beardless Eunuch}} trait and requires either the schemer or the target's culture to have the Court Eunuchs, Byzantine Traditions or Palace Politics tradition. The Devotee agent type can only be added by events from having a positive Camp Temperament.
+{| class="mildtable plainlist"
+! Agent type
+! Skills (max 25 each)
+! Trait bonuses
+! Trait penalties
+! width=30% | Description
+|-
+| '''Alchemist'''
+| {{green|+0.75}} per {{iconify|Learning}}
+| 
+* {{green|+9}} {{iconify|Ambitious}}
+* {{green|+9}} {{iconify|Novice Physician}}
+* {{green|+6}} {{iconify|Herbalist}}
+* {{green|+6}} {{iconify|Wise Man}}/Woman
+* {{green|+3}} {{iconify|Calm}}
+* {{green|+3}} {{iconify|Eccentric}}
+* {{green|+3}} {{iconify|Shrewd}}
+| 
+* {{red|−9}} {{iconify|Blind}}
+* {{red|−6}} {{iconify|Craven}}
+* {{red|−6}} {{iconify|Impatient}}
+* {{red|−3}} {{iconify|Content}}
+* {{red|−3}} {{iconify|Cynical}}
+| ''This world is but a slew of strange substances! A vortex of unknowable forces! With understanding, Creation itself may come under one's command...''
+|-
+| '''Ambusher'''
+| 
+* {{green|+0.75}} per {{iconify|Intrigue}}
+* {{green|+0.25}} per {{iconify|Martial}}
+| 
+* {{green|+9}} {{iconify|Hunter}}
+* {{green|+9}} {{iconify|Schemer}}
+* {{green|+9}} {{iconify|Traveler}}
+* {{green|+6}} {{iconify|Callous}}
+* {{green|+6}} {{iconify|Deceitful}}
+* {{green|+3}} {{iconify|Cynical}}
+* {{green|+3}} {{iconify|Patient}}
+* {{green|+3}} {{iconify|Sadistic}}
+| 
+* {{red|−9}} {{iconify|Just}}
+* {{red|−9}} {{iconify|Loyal}}
+* {{red|−6}} {{iconify|Compassionate}}
+* {{red|−6}} {{iconify|Forgiving}}
+* {{red|−6}} {{iconify|Honest}}
+* {{red|−3}} {{iconify|Fickle}}
+* {{red|−3}} {{iconify|Impatient}}
+| ''Hit first, hit hard, hit unexpectedly, and if all goes well, you won't need to hit twice.''
+|-
+| '''Assassin'''
+| 
+* {{green|+0.75}} per {{iconify|Prowess}}
+* {{green|+0.25}} per {{iconify|Intrigue}}
+| 
+* {{green|+9}} {{iconify|Vengeful}} against {{iconify|Rival}}s
+* {{green|+9}} {{iconify|Callous}}
+* {{green|+9}} {{iconify|Patient}}
+* {{green|+9}} {{iconify|Sadistic}}
+* {{green|+6}} {{iconify|Brave}}
+* {{green|+6}} {{iconify|Deceitful}}
+* {{green|+3}} {{iconify|Arbitrary}}
+| 
+* {{red|−9}} {{iconify|Forgiving}} against {{iconify|Rival}}s
+* {{red|−9}} {{iconify|Compassionate}}
+* {{red|−9}} {{iconify|Impatient}}
+* {{red|−6}} {{iconify|Craven}}
+* {{red|−6}} {{iconify|Honest}}
+* {{red|−3}} {{iconify|Just}}
+| ''Knife, poison, or peasant's pitchfork — as long as they're not breathing by daybreak, it's all the same to me.''
+|-
+| '''Bailiff'''
+| 
+* {{green|+0.75}} per {{iconify|Learning}}
+* {{green|+0.25}} per {{iconify|Diplomacy}}
+| 
+* {{green|+9}} {{iconify|Administrator}}
+* {{green|+9}} {{iconify|Overseer}}
+* {{green|+6}} {{iconify|Just}}
+* {{green|+6}} {{iconify|Vengeful}}
+* {{green|+3}} {{iconify|Honest}}
+* {{green|+3}} {{iconify|Stubborn}}
+| 
+* {{red|−9}} {{iconify|Content}}
+* {{red|−9}} {{iconify|Shy}}
+* {{red|−6}} {{iconify|Compassionate}}
+* {{red|−6}} {{iconify|Fickle}}
+* {{red|−3}} {{iconify|Forgiving}}
+* {{red|−3}} {{iconify|Trusting}}
+| ''Ours is not to evaluate what's right — simply to enforce what's written.''
+|-
+| '''Bodyguard'''
+| 
+* {{green|+0.75}} per {{iconify|Prowess}}
+* {{green|+0.25}} per {{iconify|Martial}}
+| 
+* {{green|+9}} {{iconify|Herculean}}/Amazonian
+* {{green|+9}} {{iconify|Strong}}
+* {{green|+6}} {{iconify|Shieldmaiden}}/Shieldswain
+* {{green|+6}} {{iconify|Berserker}}
+* {{green|+6}} {{iconify|Robust}}
+* {{green|+3}} {{iconify|Hale}}
+* {{green|+3}} {{iconify|Humble}}
+* {{green|+3}} {{iconify|Vengeful}}
+* {{green|+3}} {{iconify|Wrathful}}
+| 
+* {{red|−9}} {{iconify|Feeble}}
+* {{red|−9}} {{iconify|Weak}}
+* {{red|−9}} {{iconify|Craven}}
+* {{red|−6}} {{iconify|Frail}}
+* {{red|−3}} {{iconify|Delicate}}
+* {{red|−3}} {{iconify|Forgiving}}
+* {{red|−3}} {{iconify|Temperate}}
+| ''A good sword in arm's reach is much more effective if there's already an arm holding it.''
+|-
+| '''Bookkeeper'''
+| 
+* {{green|+0.75}} per {{iconify|Learning}}
+* {{green|+0.25}} per {{iconify|Stewardship}}
+| 
+* {{green|+9}} {{iconify|Scholar}}
+* {{green|+9}} {{iconify|Theologian}}
+* {{green|+6}} {{iconify|Eccentric}}
+* {{green|+6}} {{iconify|Humble}}
+* {{green|+3}} {{iconify|Diligent}}
+* {{green|+3}} {{iconify|Patient}}
+* {{green|+3}} {{iconify|Shy}}
+| 
+* {{red|−9}} {{iconify|Arbitrary}}
+* {{red|−9}} {{iconify|Lazy}}
+* {{red|−6}} {{iconify|Impatient}}
+* {{red|−3}} {{iconify|Arrogant}}
+* {{red|−3}} {{iconify|Deceitful}}
+| ''Oh, the sums? Yes, they match. Of course, of course...''
+|-
+| '''Cleric'''
+| 
+* {{green|+0.75}} per {{iconify|Diplomacy}}
+* {{green|+0.25}} per {{iconify|Learning}}
+| 
+* {{green|+9}} {{iconify|Zealous}}
+* {{green|+6}} {{iconify|Diligent}}
+* {{green|+6}} {{iconify|Humble}}
+* {{green|+3}} {{iconify|Honest}}
+| 
+* {{red|−9}} {{iconify|Cynical}}
+* {{red|−6}} {{iconify|Arrogant}}
+* {{red|−6}} {{iconify|Lazy}}
+* {{red|−3}} {{iconify|Deceitful}}
+| ''Faith demands fire like the land thirsts for rain. They can exist apart, but the one is poorer for it.''
+|-
+| '''Comrade-in-Arms'''
+| 
+* {{green|+0.5}} per {{iconify|Diplomacy}}
+* {{green|+0.5}} per {{iconify|Intrigue}}
+| 
+* {{green|+9}} {{iconify|Gregarious}}
+* {{green|+9}} {{iconify|Lustful}}
+* {{green|+6}} {{iconify|Brave}}
+* {{green|+6}} {{iconify|Compassionate}}
+* {{green|+6}} {{iconify|Deceitful}}
+* {{green|+3}} {{iconify|Trusting}}
+| 
+* {{red|−9}} {{iconify|Chaste}}
+* {{red|−9}} {{iconify|Shy}}
+* {{red|−6}} {{iconify|Callous}}
+* {{red|−6}} {{iconify|Craven}}
+* {{red|−6}} {{iconify|Honest}}
+* {{red|−6}} {{iconify|Sadistic}}
+* {{red|−3}} {{iconify|Paranoid}}
+| ''After a few minutes, I'll "remember" dropping my locket and wander off, leaving the two of you to... talk in private.''
+|-
+| '''Diplomat'''
+| 
+* {{green|+0.75}} per {{iconify|Diplomacy}}
+* {{green|+0.25}} per {{iconify|Intrigue}}
+| 
+* {{green|+9}} {{iconify|Calm}}
+* {{green|+9}} {{iconify|Deceitful}}
+* {{green|+9}} {{iconify|Gregarious}}
+* {{green|+6}} {{iconify|Arbitrary}}
+* {{green|+6}} {{iconify|Arrogant}}
+* {{green|+6}} {{iconify|Patient}}
+* {{green|+3}} {{iconify|Ambitious}}
+| 
+* {{red|−9}} {{iconify|Honest}}
+* {{red|−9}} {{iconify|Shy}}
+* {{red|−9}} {{iconify|Wrathful}}
+* {{red|−6}} {{iconify|Humble}}
+* {{red|−6}} {{iconify|Impatient}}
+* {{red|−6}} {{iconify|Just}}
+* {{red|−3}} {{iconify|Content}}
+| ''Some situations call for a delicate touch, and there's nothing subtler than words whispered in private.''
+|-
+| '''Draughtsman'''
+| 
+* {{green|+0.75}} per {{iconify|Learning}}
+* {{green|+0.25}} per {{iconify|Stewardship}}
+| 
+* {{green|+9}} {{iconify|Architect}}
+* {{green|+6}} {{iconify|Administrator}}
+* {{green|+6}} {{iconify|Journaller}}
+* {{green|+3}} {{iconify|Ambitious}}
+* {{green|+3}} {{iconify|Diligent}}
+* {{green|+3}} {{iconify|Scholar}}
+| 
+* {{red|−9}} {{iconify|Content}}
+* {{red|−9}} {{iconify|Lazy}}
+* {{red|−6}} {{iconify|Fickle}}
+* {{red|−6}} {{iconify|Impatient}}
+* {{red|−3}} {{iconify|Forgiving}}
+* {{red|−3}} {{iconify|Generous}}
+| ''An architect of machines, an engineer extraordinaire that can make any of your ideas a reality... at least, on paper.''
+|-
+| '''Lookout'''
+| 
+* {{green|+0.75}} per {{iconify|Intrigue}}
+* {{green|+0.25}} per {{iconify|Martial}}
+| 
+* {{green|+9}} {{iconify|Diligent}}
+* {{green|+9}} {{iconify|Paranoid}}
+* {{green|+9}} {{iconify|Patient}}
+* {{green|+3}} {{iconify|Brave}}
+| 
+* {{red|−9}} {{iconify|Impatient}}
+* {{red|−9}} {{iconify|Lazy}}
+* {{red|−6}} {{iconify|Trusting}}
+* {{red|−3}} {{iconify|Craven}}
+| ''A set of hands to do the dirty work is no good without a pair of eyes to watch them.''
+|-
+| '''Muscle'''
+| {{green|+1}} per {{iconify|Prowess}}
+| 
+* {{green|+9}} {{iconify|Herculean}}/Amazonian
+* {{green|+9}} {{iconify|Athletic}}
+* {{green|+9}} {{iconify|Giant}}
+* {{green|+9}} {{iconify|Strong}}
+* {{green|+6}} {{iconify|Shieldmaiden}}/Shieldswain
+* {{green|+6}} {{iconify|Berserker}}
+* {{green|+6}} {{iconify|Robust}}
+* {{green|+6}} {{iconify|Varangian}}
+* {{green|+3}} {{iconify|Brave}}
+* {{green|+3}} {{iconify|Hale}}
+| 
+* {{red|−9}} {{iconify|Feeble}}
+* {{red|−9}} {{iconify|Weak}}
+* {{red|−6}} {{iconify|Compassionate}}
+* {{red|−6}} {{iconify|Craven}}
+* {{red|−6}} {{iconify|Frail}}
+* {{red|−3}} {{iconify|Delicate}}
+* {{red|−3}} {{iconify|Forgiving}}
+* {{red|−3}} {{iconify|Just}}
+| ''Sometimes you just need more brawls than brains.''
+|-
+| '''Musician'''
+| 
+* {{green|+0.75}} per {{iconify|Diplomacy}}
+* {{green|+0.25}} per {{iconify|Learning}}
+| 
+* {{green|+9}} {{iconify|Eccentric}}
+* {{green|+9}} {{iconify|Stubborn}}
+* {{green|+6}} {{iconify|Content}}
+* {{green|+6}} {{iconify|Diligent}}
+* {{green|+6}} {{iconify|Lazy}}
+* {{green|+3}} {{iconify|Gregarious}}
+* {{green|+3}} {{iconify|Patient}}
+* {{green|+3}} {{iconify|Shy}}
+| 
+* {{red|−9}} {{iconify|Fickle}}
+* {{red|−6}} {{iconify|Ambitious}}
+* {{red|−6}} {{iconify|Impatient}}
+| ''Is it really life if it's bereft of music? I don't think so, but then, I'm never lacking for music.''
+|-
+| '''Outcast'''
+| 
+* {{green|+0.75}} per {{iconify|Intrigue}}
+* {{green|+0.25}} per {{iconify|Diplomacy}}
+| 
+* {{green|+9}} {{iconify|Humble}}
+* {{green|+9}} {{iconify|Shy}}
+* {{green|+6}} {{iconify|Craven}}
+* {{green|+6}} {{iconify|Patient}}
+* {{green|+6}} {{iconify|Schemer}}
+* {{green|+3}} {{iconify|Deceitful}}
+* {{green|+3}} {{iconify|Eccentric}}
+* {{green|+3}} {{iconify|Paranoid}}
+* {{green|+3}} {{iconify|Shrewd}}
+| 
+* {{red|−9}} {{iconify|Ambitious}}
+* {{red|−9}} {{iconify|Gregarious}}
+* {{red|−6}} {{iconify|Fickle}}
+* {{red|−6}} {{iconify|Honest}}
+* {{red|−3}} {{iconify|Trusting}}
+| ''An outcast can be a great insider; after all, who questions why a wretch languishes in the shadows, or how a beggar chooses which window to wait under?''
+|-
+| '''Outrider'''
+| 
+* {{green|+0.75}} per {{iconify|Martial}}
+* {{green|+0.25}} per {{iconify|Diplomacy}}
+| 
+* {{green|+9}} {{iconify|Hunter}}
+* {{green|+9}} {{iconify|Traveler}}
+* {{green|+6}} {{iconify|Forder}}
+* {{green|+3}} {{iconify|Diligent}}
+* {{green|+3}} {{iconify|Patient}}
+| 
+* {{red|−9}} {{iconify|Blind}}
+* {{red|−6}} {{iconify|Craven}}
+* {{red|−6}} {{iconify|Fickle}}
+* {{red|−3}} {{iconify|Impatient}}
+* {{red|−3}} {{iconify|Stubborn}}
+| ''Mobility is key to many things — a man in the right place at the right time can move mountains, and a good horse moves the man.''
+|-
+| '''Physic'''
+| {{green|+0.75}} per {{iconify|Learning}}
+| 
+* {{green|+9}} {{iconify|Novice Physician}}
+* {{green|+9}} {{iconify|Whole of Body}}
+* {{green|+6}} {{iconify|Herbalist}}
+* {{green|+6}} {{iconify|Wise Man}}/Woman
+* {{green|+3}} {{iconify|Calm}}
+* {{green|+3}} {{iconify|Patient}}
+* {{green|+3}} {{iconify|Shrewd}}
+| 
+* {{red|−9}} {{iconify|Blind}}
+* {{red|−9}} {{iconify|Drunkard}}
+* {{red|−6}} {{iconify|Impatient}}
+* {{red|−6}} {{iconify|Wrathful}}
+* {{red|−3}} {{iconify|Deceitful}}
+* {{red|−3}} {{iconify|Sadistic}}
+| ''Expertise in human anatomy is a given, but it takes a strong stomach to apply such practically.''
+|-
+| '''Poet'''
+| 
+* {{green|+0.5}} per {{iconify|Diplomacy}}
+* {{green|+0.25}} per {{iconify|Intrigue}}
+* {{green|+0.25}} per {{iconify|Learning}}
+| 
+* {{green|+9}} {{iconify|Brave}}
+* {{green|+9}} {{iconify|Gregarious}}
+* {{green|+6}} {{iconify|Arrogant}}
+* {{green|+6}} {{iconify|Content}}
+* {{green|+6}} {{iconify|Lazy}}
+* {{green|+3}} {{iconify|Compassionate}}
+* {{green|+3}} {{iconify|Sadistic}}
+| 
+* {{red|−9}} {{iconify|Craven}}
+* {{red|−9}} {{iconify|Shy}}
+* {{red|−6}} {{iconify|Ambitious}}
+* {{red|−6}} {{iconify|Diligent}}
+* {{red|−6}} {{iconify|Humble}}
+* {{red|−3}} {{iconify|Callous}}
+| ''Any petty lord with an education can master words, but it takes true, unmitigated talent to master verse.''
+|-
+| '''Poisoner'''
+| 
+* {{green|+0.75}} per {{iconify|Prowess}}
+* {{green|+0.25}} per {{iconify|Intrigue}}
+| 
+* {{green|+9}} {{iconify|Vengeful}} against {{iconify|Rival}}s
+* {{green|+9}} {{iconify|Callous}}
+* {{green|+9}} {{iconify|Lazy}}
+* {{green|+9}} {{iconify|Patient}}
+* {{green|+9}} {{iconify|Sadistic}}
+* {{green|+6}} {{iconify|Deceitful}}
+* {{green|+6}} {{iconify|Diligent}}
+* {{green|+6}} {{iconify|Herbalist}}
+* {{green|+6}} {{iconify|Novice Physician}}
+* {{green|+3}} {{iconify|Arbitrary}}
+* {{green|+3}} {{iconify|Witch}}
+| 
+* {{red|−9}} {{iconify|Forgiving}} against {{iconify|Rival}}s
+* {{red|−9}} {{iconify|Compassionate}}
+* {{red|−9}} {{iconify|Impatient}}
+* {{red|−6}} {{iconify|Craven}}
+* {{red|−6}} {{iconify|Honest}}
+* {{red|−3}} {{iconify|Just}}
+| ''Even the strongest man is a mere quaff of the right combination of herbs from an early grave.''
+|-
+| '''Scout'''
+| 
+* {{green|+0.75}} per {{iconify|Intrigue}}
+* {{green|+0.25}} per {{iconify|Martial}}
+| 
+* {{green|+9}} {{iconify|Hunter}}
+* {{green|+9}} {{iconify|Traveler}}
+* {{green|+6}} {{iconify|Forder}}
+* {{green|+3}} {{iconify|Diligent}}
+* {{green|+3}} {{iconify|Patient}}
+| 
+* {{red|−9}} {{iconify|Blind}}
+* {{red|−6}} {{iconify|Craven}}
+* {{red|−6}} {{iconify|Fickle}}
+* {{red|−3}} {{iconify|Impatient}}
+* {{red|−3}} {{iconify|Stubborn}}
+| ''If you don't know what's ahead of you, you can hardly react to it in time.''
+|-
+| '''Scribe'''
+| 
+* {{green|+0.75}} per {{iconify|Learning}}
+* {{green|+0.25}} per {{iconify|Stewardship}}
+| 
+* {{green|+9}} {{iconify|Humble}}
+* {{green|+6}} {{iconify|Diligent}}
+* {{green|+6}} {{iconify|Patient}}
+* {{green|+6}} {{iconify|Shy}}
+* {{green|+3}} {{iconify|Calm}}
+* {{green|+3}} {{iconify|Content}}
+| 
+* {{red|−9}} {{iconify|Arrogant}}
+* {{red|−6}} {{iconify|Gregarious}}
+* {{red|−6}} {{iconify|Impatient}}
+* {{red|−6}} {{iconify|Lazy}}
+* {{red|−3}} {{iconify|Ambitious}}
+* {{red|−3}} {{iconify|Wrathful}}
+| ''I've always said that the best servants are confident in their letters but humble about their instructions.''
+|-
+| '''Shill'''
+| 
+* {{green|+0.75}} per {{iconify|Intrigue}}
+* {{green|+0.25}} per {{iconify|Diplomacy}}
+| 
+* {{green|+9}} {{iconify|Deceitful}}
+* {{green|+9}} {{iconify|Gregarious}}
+* {{green|+6}} {{iconify|Arbitrary}}
+* {{green|+3}} {{iconify|Brave}}
+| 
+* {{red|−9}} {{iconify|Honest}}
+* {{red|−9}} {{iconify|Shy}}
+* {{red|−6}} {{iconify|Just}}
+* {{red|−3}} {{iconify|Craven}}
+| ''A friendly voice from a perfect stranger can go a long way in a crowd — and really, who's to say who knows who?''
+|-
+| '''Smith'''
+| 
+* {{green|+0.75}} per {{iconify|Stewardship}}
+* {{green|+0.25}} per {{iconify|Prowess}}
+| 
+* {{green|+9}} {{iconify|Architect}}
+* {{green|+6}} {{iconify|Ambitious}}
+* {{green|+3}} {{iconify|Calm}}
+* {{green|+3}} {{iconify|Diligent}}
+* {{green|+3}} {{iconify|Strong}}
+| 
+* {{red|−9}} {{iconify|Lazy}}
+* {{red|−9}} {{iconify|Weak}}
+* {{red|−6}} {{iconify|Impatient}}
+* {{red|−6}} {{iconify|Temperate}}
+* {{red|−3}} {{iconify|Content}}
+* {{red|−3}} {{iconify|Fickle}}
+| ''Not all art is painted — some is wrought.''
+|-
+| '''Theologian'''
+| 
+* {{green|+0.75}} per {{iconify|Learning}}
+* {{green|+0.25}} per {{iconify|Diplomacy}}
+| 
+* {{green|+9}} {{iconify|Just}}
+* {{green|+9}} {{iconify|Stubborn}}
+* {{green|+9}} {{iconify|Zealous}}
+* {{green|+6}} {{iconify|Calm}}
+* {{green|+6}} {{iconify|Diligent}}
+* {{green|+6}} {{iconify|Wrathful}}
+* {{green|+3}} {{iconify|Eccentric}}
+| 
+* {{red|−9}} {{iconify|Arbitrary}}
+* {{red|−9}} {{iconify|Cynical}}
+* {{red|−9}} {{iconify|Fickle}}
+* {{red|−6}} {{iconify|Lazy}}
+| ''There's more to religion than mere passion: rhetoric, resolve, and innovative thinking are the heart and breath of scholarship.''
+|-
+| '''Thief'''
+| 
+* {{green|+0.75}} per {{iconify|Intrigue}}
+* {{green|+0.25}} per {{iconify|Prowess}}
+| 
+* {{green|+9}} {{iconify|Arbitrary}}
+* {{green|+9}} {{iconify|Patient}}
+* {{green|+6}} {{iconify|Deceitful}}
+* {{green|+6}} {{iconify|Paranoid}}
+* {{green|+3}} {{iconify|Ambitious}}
+* {{green|+3}} {{iconify|Arrogant}}
+| 
+* {{red|−9}} {{iconify|Impatient}}
+* {{red|−9}} {{iconify|Just}}
+* {{red|−6}} {{iconify|Honest}}
+* {{red|−6}} {{iconify|Trusting}}
+* {{red|−3}} {{iconify|Content}}
+* {{red|−3}} {{iconify|Humble}}
+| ''Violence is, they say, the mark of an amateur.''
+|-
+| '''Thug'''
+| 
+* {{green|+0.75}} per {{iconify|Prowess}}
+* {{green|+0.25}} per {{iconify|Intrigue}}
+| 
+* {{green|+9}} {{iconify|Impatient}}
+* {{green|+9}} {{iconify|Wrathful}}
+* {{green|+6}} {{iconify|Callous}}
+* {{green|+6}} {{iconify|Sadistic}}
+* {{green|+3}} {{iconify|Arrogant}}
+* {{green|+3}} {{iconify|Gregarious}}
+| 
+* {{red|−9}} {{iconify|Calm}}
+* {{red|−9}} {{iconify|Patient}}
+* {{red|−6}} {{iconify|Compassionate}}
+* {{red|−3}} {{iconify|Craven}}
+* {{red|−3}} {{iconify|Humble}}
+* {{red|−3}} {{iconify|Shy}}
+| ''Cosh 'em in the skull and get the barrel ready; this'll definitely be fast but it doesn't have to be loud.''
+|-
+| '''Tumbler'''
+| 
+* {{green|+0.75}} per {{iconify|Prowess}}
+* {{green|+0.25}} per {{iconify|Diplomacy}}
+| 
+* {{green|+9}} {{iconify|Brave}}
+* {{green|+6}} {{iconify|Calm}}
+* {{green|+3}} {{iconify|Temperate}}
+| 
+* {{red|−9}} {{iconify|Craven}}
+* {{red|−6}} {{iconify|Wrathful}}
+* {{red|−3}} {{iconify|Gluttonous}}
+| ''Dancing, prancing, contorting, and cavorting! Window or wall, I fall like a cat and spring like a sparrow.''
+|-
+| '''Tutor'''
+| 
+* {{green|+0.75}} per {{iconify|Learning}}
+* {{green|+0.25}} per {{iconify|Stewardship}}
+| 
+* {{green|+9}} {{iconify|Diligent}}
+* {{green|+9}} {{iconify|Patient}}
+* {{green|+6}} {{iconify|Compassionate}}
+* {{green|+6}} {{iconify|Humble}}
+* {{green|+3}} {{iconify|Calm}}
+* {{green|+3}} {{iconify|Eccentric}}
+* {{green|+3}} {{iconify|Gregarious}}
+| 
+* {{red|−9}} {{iconify|Impatient}}
+* {{red|−9}} {{iconify|Sadistic}}
+* {{red|−6}} {{iconify|Arrogant}}
+* {{red|−6}} {{iconify|Callous}}
+* {{red|−6}} {{iconify|Lazy}}
+* {{red|−3}} {{iconify|Wrathful}}
+| ''A good teacher adapts as much to their student as to their subject.''
+|-
+| '''Wolf Hunter'''
+| 
+* {{green|+0.75}} per {{iconify|Prowess}}
+* {{green|+0.25}} per {{iconify|Martial}}
+| 
+* {{green|+9}} {{iconify|Brave}}
+* {{green|+9}} {{iconify|Eccentric}}
+* {{green|+9}} {{iconify|Stubborn}}
+* {{green|+6}} {{iconify|Compassionate}}
+* {{green|+3}} {{iconify|Diligent}}
+| 
+* {{red|−9}} {{iconify|Craven}}
+* {{red|−6}} {{iconify|Callous}}
+* {{red|−6}} {{iconify|Sadistic}}
+* {{red|−3}} {{iconify|Lazy}}
+| ''Romance without danger is passionless, and what better signifier of danger than the pelt of a wolf?''
+|-
+| '''Wraggler'''
+| 
+* {{green|+0.75}} per {{iconify|Diplomacy}}
+* {{green|+0.25}} per {{iconify|Intrigue}}
+| 
+* {{green|+9}} {{iconify|Diplomat}}
+* {{green|+9}} {{iconify|Gregarious}}
+* {{green|+6}} {{iconify|Ambitious}}
+* {{green|+6}} {{iconify|Arrogant}}
+* {{green|+3}} {{iconify|Eccentric}}
+| 
+* {{red|−9}} {{iconify|Content}}
+* {{red|−9}} {{iconify|Forgiving}}
+* {{red|−9}} {{iconify|Shy}}
+* {{red|−6}} {{iconify|Humble}}
+* {{red|−6}} {{iconify|Trusting}}
+* {{red|−3}} {{iconify|Temperate}}
+| ''There's an art to calming and intimidating an animal, breaking it to your will — preferably before it breaks your body instead.''
+|-
+| '''Eunuch'''
+| 
+* {{green|+0.75}} per {{iconify|Intrigue}}
+* {{green|+0.25}} per {{iconify|Learning}}
+| 
+* {{green|+9}} {{iconify|Disloyal}} and scheme is Depose
+* {{green|+9}} {{iconify|Callous}}
+* {{green|+9}} {{iconify|Deceitful}}
+* {{green|+9}} {{iconify|Patient}}
+* {{green|+6}} {{iconify|Diligent}}
+* {{green|+6}} {{iconify|Herbalist}}
+* {{green|+6}} {{iconify|Novice Physician}}
+* {{green|+3}} {{iconify|Arbitrary}}
+| 
+* {{red|−9}} {{iconify|Loyal}} and scheme is Depose
+* {{red|−9}} {{iconify|Compassionate}}
+* {{red|−9}} {{iconify|Honest}}
+* {{red|−9}} {{iconify|Impatient}}
+* {{red|−9}} {{iconify|Lazy}}
+* {{red|−6}} {{iconify|Craven}}
+* {{red|−3}} {{iconify|Just}}
+| ''Silent as the moon's passage, he moves through the marbled halls, a keeper of secrets in a land where words are currency. In the shadow of emperors, he whispers, shaping the fate of the empire with nothing but the softest murmur.''
+|-
+| '''Devotee'''
+| 
+* {{green|+0.75}} per {{iconify|Intrigue}}
+* {{green|+0.25}} per {{iconify|Diplomacy}}
+| 
+* {{green|+9}} {{iconify|Eccentric}}
+* {{green|+9}} {{iconify|Gregarious}}
+* {{green|+6}} {{iconify|Drunkard}}
+* {{green|+3}} {{iconify|Arrogant}}
+| 
+* {{red|−9}} {{iconify|Shy}}
+* {{red|−6}} {{iconify|Callous}}
+* {{red|−3}} {{iconify|Cynical}}
+| ''Have you heard of my leader, my brave and just liege? My benevolent overlord? Wherever they go, I shall follow.''
+|}
+
+==== Administrative agents ====
+{{expansion|rtp}}
+The following agent types are only available for agents with Administrative government.
+{| class="mildtable plainlist"
+! Agent type
+! Skills (max 25 each)
+! Trait bonuses
+! Trait penalties
+! Requirements
+! width=30% | Description
+|-
+| '''Sycophant'''
+| 
+* {{green|+0.75}} per {{iconify|Diplomacy}}
+* {{green|+0.25}} per {{iconify|Intrigue}}
+| 
+* {{green|+9}} {{iconify|Deceitful}}
+* {{green|+9}} {{iconify|Stubborn}}
+* {{green|+6}} {{iconify|Greedy}}
+* {{green|+3}} {{iconify|Arbitrary}}
+* {{green|+3}} {{iconify|Arrogant}}
+* {{green|+3}} {{iconify|Diligent}}
+| 
+* {{red|−9}} {{iconify|Honest}}
+* {{red|−9}} {{iconify|Humble}}
+* {{red|−6}} {{iconify|Patient}}
+* {{red|−3}} {{iconify|Just}}
+| 
+| ''A compliment never goes amiss with the powerful. Carefully crafted pleasantries and tactical fawning, even more so.''
+|-
+| '''Intermediary'''
+| 
+* {{green|+0.75}} per {{iconify|Diplomacy}}
+* {{green|+0.25}} per {{iconify|Intrigue}}
+| 
+* {{green|+9}} {{iconify|Calm}}
+* {{green|+9}} {{iconify|Deceitful}}
+* {{green|+9}} {{iconify|Gregarious}}
+* {{green|+6}} {{iconify|Ambitious}}
+* {{green|+6}} {{iconify|Arbitrary}}
+* {{green|+6}} {{iconify|Arrogant}}
+* {{green|+6}} {{iconify|Patient}}
+| 
+* {{red|−9}} {{iconify|Honest}}
+* {{red|−9}} {{iconify|Shy}}
+* {{red|−9}} {{iconify|Wrathful}}
+* {{red|−6}} {{iconify|Humble}}
+* {{red|−6}} {{iconify|Impatient}}
+* {{red|−6}} {{iconify|Just}}
+* {{red|−3}} {{iconify|Content}}
+| Governor or house head
+| ''Some situations call for a delicate touch, and there's nothing subtler than words whispered in private.''
+|-
+| '''Proponent'''
+| 
+* {{green|+0.75}} per {{iconify|Diplomacy}}
+* {{green|+0.25}} per {{iconify|Intrigue}}
+| 
+* {{green|+9}} {{iconify|Calm}}
+* {{green|+9}} {{iconify|Deceitful}}
+* {{green|+9}} {{iconify|Gregarious}}
+* {{green|+6}} {{iconify|Ambitious}}
+* {{green|+6}} {{iconify|Arbitrary}}
+* {{green|+6}} {{iconify|Arrogant}}
+* {{green|+6}} {{iconify|Patient}}
+| 
+* {{red|−9}} {{iconify|Honest}}
+* {{red|−9}} {{iconify|Shy}}
+* {{red|−9}} {{iconify|Wrathful}}
+* {{red|−6}} {{iconify|Humble}}
+* {{red|−6}} {{iconify|Impatient}}
+* {{red|−6}} {{iconify|Just}}
+* {{red|−3}} {{iconify|Content}}
+| Governor or house head
+| ''Someone to loudly and proudly tout your accomplishments — whether they're real or not — does wonders for the reputation.''
+|}
+
+=== Phase length agents ===
+The following agents reduce {{iconify|Scheme Phase Length}}. The Bureaucrat agent type is only available for agents with a title rank of {{iconify|Duke}} or higher.
+{| class="mildtable plainlist"
+! Agent type
+! Skills (max 25 each)
+! Trait bonuses
+! Trait penalties
+! width=30% | Description
+|-
+| '''Cleric'''
+| 
+* {{green|+0.75}} per {{iconify|Diplomacy}}
+* {{green|+0.25}} per {{iconify|Learning}}
+| 
+* {{green|+9}} {{iconify|Zealous}}
+* {{green|+6}} {{iconify|Diligent}}
+* {{green|+6}} {{iconify|Humble}}
+* {{green|+3}} {{iconify|Honest}}
+| 
+* {{red|−9}} {{iconify|Cynical}}
+* {{red|−6}} {{iconify|Arrogant}}
+* {{red|−6}} {{iconify|Lazy}}
+* {{red|−3}} {{iconify|Deceitful}}
+| ''Faith demands fire like the land thirsts for rain. They can exist apart, but the one is poorer for it.''
+|-
+| '''Drillmaster'''
+| {{green|+0.75}} per {{iconify|Martial}}
+| 
+* {{green|+9}} {{iconify|Diligent}}
+* {{green|+9}} {{iconify|Patient}}
+* {{green|+6}} {{iconify|Athletic}}
+* {{green|+6}} {{iconify|Shrewd}}
+* {{green|+6}} {{iconify|Stubborn}}
+* {{green|+3}} {{iconify|Ambitious}}
+* {{green|+3}} {{iconify|Organizer}}
+| 
+* {{red|−9}} {{iconify|Content}}
+* {{red|−9}} {{iconify|Lazy}}
+* {{red|−6}} {{iconify|Impatient}}
+* {{red|−3}} {{iconify|Fickle}}
+* {{red|−3}} {{iconify|Wrathful}}
+| ''Remember: we drill at our best so we can fight at our worst.''
+|-
+| '''Footpad'''
+| 
+* {{green|+0.5}} per {{iconify|Intrigue}}
+* {{green|+0.5}} per {{iconify|Prowess}}
+| 
+* {{green|+9}} {{iconify|Deceitful}}
+* {{green|+9}} {{iconify|Patient}}
+* {{green|+6}} {{iconify|Calm}}
+* {{green|+3}} {{iconify|Shy}}
+| 
+* {{red|−9}} {{iconify|Honest}}
+* {{red|−9}} {{iconify|Impatient}}
+* {{red|−6}} {{iconify|Wrathful}}
+| ''A purse, a throat, a groin — there's a lot of things you can take a knife to in a back alley, if you pick your moment right.''
+|-
+| '''Gabbler'''
+| 
+* {{green|+0.5}} per {{iconify|Diplomacy}}
+* {{green|+0.5}} per {{iconify|Intrigue}}
+| 
+* {{green|+9}} {{iconify|Eccentric}}
+* {{green|+9}} {{iconify|Fickle}}
+* {{green|+9}} {{iconify|Gregarious}}
+* {{green|+6}} {{iconify|Arrogant}}
+* {{green|+6}} {{iconify|Lazy}}
+* {{green|+3}} {{iconify|Brave}}
+| 
+* {{red|−9}} {{iconify|Shy}}
+* {{red|−9}} {{iconify|Stubborn}}
+* {{red|−6}} {{iconify|Diligent}}
+* {{red|−6}} {{iconify|Humble}}
+* {{red|−3}} {{iconify|Craven}}
+| ''There's an art to speaking for an hour without saying a thing.''
+|-
+| '''Herald'''
+| 
+* {{green|+0.75}} per {{iconify|Diplomacy}}
+* {{green|+0.25}} per {{iconify|Stewardship}}
+| 
+* {{green|+9}} {{iconify|Arrogant}}
+* {{green|+9}} {{iconify|Gregarious}}
+* {{green|+6}} {{iconify|Diligent}}
+* {{green|+3}} {{iconify|Trusting}}
+* {{green|+3}} {{iconify|Patient}}
+| 
+* {{red|−9}} {{iconify|Humble}}
+* {{red|−9}} {{iconify|Shy}}
+* {{red|−6}} {{iconify|Lazy}}
+* {{red|−3}} {{iconify|Paranoid}}
+| ''A good herald is loud, emphatic, and bold to a fault.''
+|-
+| '''Infiltrator'''
+| 
+* {{green|+0.5}} per {{iconify|Intrigue}}
+* {{green|+0.5}} per {{iconify|Diplomacy}}
+| 
+* {{green|+9}} {{iconify|Deceitful}}
+* {{green|+9}} {{iconify|Gregarious}}
+* {{green|+6}} {{iconify|Diligent}}
+* {{green|+3}} {{iconify|Patient}}
+| 
+* {{red|−9}} {{iconify|Honest}}
+* {{red|−9}} {{iconify|Shy}}
+* {{red|−6}} {{iconify|Lazy}}
+* {{red|−3}} {{iconify|Impatient}}
+| ''A latch left unlocked, a guard too hungover to patrol, a hand-drawn map dropped outside the walls, courtesy of a friend within.''
+|-
+| '''Justiciar'''
+| 
+* {{green|+0.75}} per {{iconify|Learning}}
+* {{green|+0.25}} per {{iconify|Diplomacy}}
+| 
+* {{green|+9}} {{iconify|Diligent}}
+* {{green|+9}} {{iconify|Honest}}
+* {{green|+9}} {{iconify|Just}}
+* {{green|+6}} {{iconify|Patient}}
+* {{green|+3}} {{iconify|Paranoid}}
+| 
+* {{red|−9}} {{iconify|Arbitrary}}
+* {{red|−9}} {{iconify|Deceitful}}
+* {{red|−9}} {{iconify|Diligent}}
+* {{red|−6}} {{iconify|Impatient}}
+* {{red|−3}} {{iconify|Trusting}}
+| ''A knowledge of the law and a reputation for enforcing it fairly is an admirable, if dry, trait.''
+|-
+| '''Lookout'''
+| 
+* {{green|+0.75}} per {{iconify|Intrigue}}
+* {{green|+0.25}} per {{iconify|Martial}}
+| 
+* {{green|+9}} {{iconify|Diligent}}
+* {{green|+9}} {{iconify|Paranoid}}
+* {{green|+9}} {{iconify|Patient}}
+* {{green|+3}} {{iconify|Brave}}
+| 
+* {{red|−9}} {{iconify|Impatient}}
+* {{red|−9}} {{iconify|Lazy}}
+* {{red|−6}} {{iconify|Trusting}}
+* {{red|−3}} {{iconify|Craven}}
+| ''A set of hands to do the dirty work is no good without a pair of eyes to watch them.''
+|-
+| '''Planner'''
+| 
+* {{green|+0.75}} per {{iconify|Learning}}
+* {{green|+0.25}} per {{iconify|Stewardship}}
+| 
+* {{green|+9}} {{iconify|Architect}}
+* {{green|+9}} {{iconify|Paranoid}}
+* {{green|+6}} {{iconify|Administrator}}
+* {{green|+6}} {{iconify|Diligent}}
+* {{green|+3}} {{iconify|Gregarious}}
+* {{green|+3}} {{iconify|Journaller}}
+* {{green|+3}} {{iconify|Scholar}}
+| 
+* {{red|−9}} {{iconify|Content}}
+* {{red|−9}} {{iconify|Lazy}}
+* {{red|−9}} {{iconify|Profligate}}
+* {{red|−6}} {{iconify|Fickle}}
+* {{red|−6}} {{iconify|Impatient}}
+* {{red|−3}} {{iconify|Forgiving}}
+* {{red|−3}} {{iconify|Generous}}
+| ''Ability to carefully craft a plan is one thing, but the difference between a good planner and an expert is simple: when things go awry, the expert can improvise.''
+|-
+| '''Socialite'''
+| 
+* {{green|+0.5}} per {{iconify|Diplomacy}}
+* {{green|+0.25}} per {{iconify|Intrigue}}
+* {{green|+0.25}} per {{iconify|Learning}}
+| 
+* {{green|+9}} {{iconify|Ambitious}}
+* {{green|+9}} {{iconify|Gregarious}}
+* {{green|+6}} {{iconify|Arrogant}}
+* {{green|+6}} {{iconify|Compassionate}}
+* {{green|+6}} {{iconify|Lazy}}
+* {{green|+6}} {{iconify|Sadistic}}
+* {{green|+3}} {{iconify|Fickle}}
+| 
+* {{red|−9}} {{iconify|Content}}
+* {{red|−9}} {{iconify|Shy}}
+* {{red|−6}} {{iconify|Callous}}
+* {{red|−6}} {{iconify|Humble}}
+* {{red|−3}} {{iconify|Diligent}}
+| ''A toast, my lords and ladies, to a good friend of mine I'd like you all to think of as highly as I do!''
+|-
+| '''Supplier'''
+| 
+* {{green|+0.75}} per {{iconify|Stewardship}}
+* {{green|+0.25}} per {{iconify|Diplomacy}}
+| 
+* {{green|+9}} {{iconify|Avaricious}}
+* {{green|+9}} {{iconify|Overseer}}
+* {{green|+6}} {{iconify|Logistician}}
+* {{green|+6}} {{iconify|Organizer}}
+* {{green|+6}} {{iconify|Schemer}}
+* {{green|+3}} {{iconify|Deceitful}}
+* {{green|+3}} {{iconify|Generous}}
+* {{green|+3}} {{iconify|Gregarious}}
+* {{green|+3}} {{iconify|Shrewd}}
+| 
+* {{red|−9}} {{iconify|Profligate}}
+* {{red|−9}} {{iconify|Shy}}
+* {{red|−9}} {{iconify|Stubborn}}
+* {{red|−6}} {{iconify|Fickle}}
+* {{red|−6}} {{iconify|Impatient}}
+* {{red|−3}} {{iconify|Forgiving}}
+* {{red|−3}} {{iconify|Greedy}}
+| ''Connections, timing, and cunning are needed to excel at merchantry. Logistics combines all three.''
+|-
+| '''Theologian'''
+| 
+* {{green|+0.75}} per {{iconify|Learning}}
+* {{green|+0.25}} per {{iconify|Diplomacy}}
+| 
+* {{green|+9}} {{iconify|Just}}
+* {{green|+9}} {{iconify|Stubborn}}
+* {{green|+9}} {{iconify|Zealous}}
+* {{green|+6}} {{iconify|Calm}}
+* {{green|+6}} {{iconify|Diligent}}
+* {{green|+6}} {{iconify|Wrathful}}
+* {{green|+3}} {{iconify|Eccentric}}
+| 
+* {{red|−9}} {{iconify|Arbitrary}}
+* {{red|−9}} {{iconify|Cynical}}
+* {{red|−9}} {{iconify|Fickle}}
+* {{red|−6}} {{iconify|Lazy}}
+| ''There's more to religion than mere passion: rhetoric, resolve, and innovative thinking are the heart and breath of scholarship.''
+|-
+| '''Tracker'''
+| 
+* {{green|+0.75}} per {{iconify|Martial}}
+* {{green|+0.25}} per {{iconify|Intrigue}}
+| 
+* {{green|+9}} {{iconify|Hunter}}
+* {{green|+9}} {{iconify|Traveler}}
+* {{green|+3}} {{iconify|Diligent}}
+* {{green|+3}} {{iconify|Patient}}
+| 
+* {{red|−9}} {{iconify|Blind}}
+* {{red|−9}} {{iconify|Impatient}}
+* {{red|−9}} {{iconify|Lazy}}
+* {{red|−6}} {{iconify|Arbitrary}}
+* {{red|−6}} {{iconify|Arrogant}}
+* {{red|−3}} {{iconify|Fickle}}
+| ''Mud's still damp where the fool trod in it; come on, we can't be more than an hour behind!''
+|-
+| '''Wraggler'''
+| 
+* {{green|+0.75}} per {{iconify|Diplomacy}}
+* {{green|+0.25}} per {{iconify|Intrigue}}
+| 
+* {{green|+9}} {{iconify|Diplomat}}
+* {{green|+9}} {{iconify|Gregarious}}
+* {{green|+6}} {{iconify|Ambitious}}
+* {{green|+6}} {{iconify|Arrogant}}
+* {{green|+3}} {{iconify|Eccentric}}
+| 
+* {{red|−9}} {{iconify|Content}}
+* {{red|−9}} {{iconify|Forgiving}}
+* {{red|−9}} {{iconify|Shy}}
+* {{red|−6}} {{iconify|Humble}}
+* {{red|−6}} {{iconify|Trusting}}
+* {{red|−3}} {{iconify|Temperate}}
+| ''There's an art to calming and intimidating an animal, breaking it to your will — preferably before it breaks your body instead.''
+|-
+| '''Bureaucrat'''
+| 
+* {{green|+0.75}} per {{iconify|Learning}}
+* {{green|+0.25}} per {{iconify|Stewardship}}
+| 
+* {{green|+9}} {{iconify|Architect}}
+* {{green|+9}} {{iconify|Paranoid}}
+* {{green|+6}} {{iconify|Administrator}}
+* {{green|+6}} {{iconify|Diligent}}
+* {{green|+3}} {{iconify|Gregarious}}
+* {{green|+3}} {{iconify|Journaller}}
+* {{green|+3}} {{iconify|Scholar}}
+| 
+* {{red|−9}} {{iconify|Content}}
+* {{red|−9}} {{iconify|Lazy}}
+* {{red|−9}} {{iconify|Profligate}}
+* {{red|−6}} {{iconify|Fickle}}
+* {{red|−6}} {{iconify|Impatient}}
+* {{red|−3}} {{iconify|Forgiving}}
+* {{red|−3}} {{iconify|Generous}}
+| ''Knowledge of proper process and correct filing gives unbridled opportunities for constructive dishonesty.''
+|}
+
+=== Secrecy agents ===
+The following agents increase {{iconify|Scheme Secrecy}}.
+{| class="mildtable plainlist"
+! Agent type
+! Skills (max 25 each)
+! Trait bonuses
+! Trait penalties
+! Requirements
+! width=25% | Description
+|-
+| '''Decoy'''
+| 
+* {{green|+0.75}} per {{iconify|Intrigue}}
+* {{green|+0.25}} per {{iconify|Diplomacy}}
+| 
+* {{green|+9}} {{iconify|Eccentric}}
+* {{green|+9}} {{iconify|Gregarious}}
+* {{green|+6}} {{iconify|Brave}}
+* {{green|+6}} {{iconify|Diligent}}
+* {{green|+6}} {{iconify|Paranoid}}
+| 
+* {{red|−9}} {{iconify|Lazy}}
+* {{red|−6}} {{iconify|Content}}
+* {{red|−6}} {{iconify|Trusting}}
+* {{red|−3}} {{iconify|Craven}}
+| 
+| ''A spilled goblet, a well-timed joke, a brash challenge to a duel. All eyes are drawn elsewhere, none suspecting the true play unfolding in the shadows.''
+|-
+| '''Justiciar'''
+| 
+* {{green|+0.75}} per {{iconify|Learning}}
+* {{green|+0.25}} per {{iconify|Diplomacy}}
+| 
+* {{green|+9}} {{iconify|Diligent}}
+* {{green|+9}} {{iconify|Honest}}
+* {{green|+9}} {{iconify|Just}}
+* {{green|+6}} {{iconify|Patient}}
+* {{green|+3}} {{iconify|Paranoid}}
+| 
+* {{red|−9}} {{iconify|Arbitrary}}
+* {{red|−9}} {{iconify|Deceitful}}
+* {{red|−9}} {{iconify|Diligent}}
+* {{red|−6}} {{iconify|Impatient}}
+* {{red|−3}} {{iconify|Trusting}}
+| 
+| ''A knowledge of the law and a reputation for enforcing it fairly is an admirable, if dry, trait.''
+|-
+| '''Lookout'''
+| 
+* {{green|+0.75}} per {{iconify|Intrigue}}
+* {{green|+0.25}} per {{iconify|Martial}}
+| 
+* {{green|+9}} {{iconify|Diligent}}
+* {{green|+9}} {{iconify|Paranoid}}
+* {{green|+9}} {{iconify|Patient}}
+* {{green|+3}} {{iconify|Brave}}
+| 
+* {{red|−9}} {{iconify|Impatient}}
+* {{red|−9}} {{iconify|Lazy}}
+* {{red|−6}} {{iconify|Trusting}}
+* {{red|−3}} {{iconify|Craven}}
+| 
+| ''A set of hands to do the dirty work is no good without a pair of eyes to watch them.''
+|-
+| '''Courtesan'''
+| 
+* {{green|+0.75}} per {{iconify|Diplomacy}}
+* {{green|+0.25}} per {{iconify|Intrigue}}
+| 
+* {{green|+9}} {{iconify|Herculean}}/Amazonian
+* {{green|+9}} {{iconify|Beautiful}}
+* {{green|+9}} {{iconify|Deceitful}}
+* {{green|+9}} {{iconify|Lustful}}
+* {{green|+6}} {{iconify|Handsome}}/Pretty
+* {{green|+6}} {{iconify|Ambitious}}
+* {{green|+6}} {{iconify|Gregarious}}
+* {{green|+6}} {{iconify|Robust}}
+* {{green|+3}} {{iconify|Comely}}
+* {{green|+3}} {{iconify|Compassionate}}
+* {{green|+3}} {{iconify|Hale}}
+* {{green|+3}} {{iconify|Patient}}
+| 
+* {{red|−9}} {{iconify|Chaste}}
+* {{red|−9}} {{iconify|Feeble}}
+* {{red|−9}} {{iconify|Hideous}}
+* {{red|−9}} {{iconify|Honest}}
+* {{red|−6}} {{iconify|Callous}}
+* {{red|−6}} {{iconify|Frail}}
+* {{red|−6}} {{iconify|Ugly}}
+* {{red|−3}} {{iconify|Delicate}}
+* {{red|−3}} {{iconify|Homely}}
+* {{red|−3}} {{iconify|Shy}}
+| Sexual orientation matches the target's gender
+| ''You'd think that the Great and the Good would have learnt by now to be careful who they spill secrets to. They haven't.''
+|-
+| '''Amanuensis'''
+| 
+* {{green|+0.75}} per {{iconify|Learning}}
+* {{green|+0.25}} per {{iconify|Stewardship}}
+| 
+* {{green|+9}} {{iconify|Architect}}
+* {{green|+9}} {{iconify|Paranoid}}
+* {{green|+6}} {{iconify|Administrator}}
+* {{green|+6}} {{iconify|Diligent}}
+* {{green|+3}} {{iconify|Gregarious}}
+* {{green|+3}} {{iconify|Journaller}}
+* {{green|+3}} {{iconify|Scholar}}
+| 
+* {{red|−9}} {{iconify|Content}}
+* {{red|−9}} {{iconify|Lazy}}
+* {{red|−9}} {{iconify|Profligate}}
+* {{red|−6}} {{iconify|Fickle}}
+* {{red|−6}} {{iconify|Impatient}}
+* {{red|−3}} {{iconify|Forgiving}}
+* {{red|−3}} {{iconify|Generous}}
+| Courtier
+| ''A secretary is always there, always ignored, always scratching away in the corner on something or other...''
+|-
+| '''Alibi'''
+| 
+* {{green|+0.75}} per {{iconify|Diplomacy}}
+* {{green|+0.25}} per {{iconify|Learning}}
+| 
+* {{green|+9}} {{iconify|Honest}}
+* {{green|+9}} {{iconify|Just}}
+* {{green|+9}} {{iconify|Loyal}}
+* {{green|+6}} {{iconify|Confider}}
+* {{green|+6}} {{iconify|Gregarious}}
+* {{green|+6}} {{iconify|Humble}}
+* {{green|+3}} {{iconify|Content}}
+| 
+* {{red|−9}} {{iconify|Arbitrary}}
+* {{red|−9}} {{iconify|Deceitful}}
+* {{red|−9}} {{iconify|Disloyal}}
+* {{red|−6}} {{iconify|Arrogant}}
+* {{red|−6}} {{iconify|Contrite}}
+* {{red|−6}} {{iconify|Shy}}
+* {{red|−3}} {{iconify|Ambitious}}
+| Ruler, councilor or part of the target's family
+| ''Preposterous! They were with me all evening, I can swear to that. You know my word is good.''
+|-
+| '''Eunuch'''
+| 
+* {{green|+0.75}} per {{iconify|Intrigue}}
+* {{green|+0.25}} per {{iconify|Learning}}
+| 
+* {{green|+9}} {{iconify|Disloyal}} and scheme is Depose
+* {{green|+9}} {{iconify|Callous}}
+* {{green|+9}} {{iconify|Deceitful}}
+* {{green|+9}} {{iconify|Patient}}
+* {{green|+6}} {{iconify|Diligent}}
+* {{green|+6}} {{iconify|Herbalist}}
+* {{green|+6}} {{iconify|Novice Physician}}
+* {{green|+3}} {{iconify|Arbitrary}}
+| 
+* {{red|−9}} {{iconify|Loyal}} and scheme is Depose
+* {{red|−9}} {{iconify|Compassionate}}
+* {{red|−9}} {{iconify|Honest}}
+* {{red|−9}} {{iconify|Impatient}}
+* {{red|−9}} {{iconify|Lazy}}
+* {{red|−6}} {{iconify|Craven}}
+* {{red|−3}} {{iconify|Just}}
+| 
+* {{iconify|Eunuch}} or {{iconify|Beardless Eunuch}} trait
+* Schemer or targer's culture has the Court Eunuchs, Byzantine Traditions or Palace Politics tradition
+| ''Silent as the moon's passage, he moves through the marbled halls, a keeper of secrets in a land where words are currency. In the shadow of emperors, he whispers, shaping the fate of the empire with nothing but the softest murmur.''
+|}
+
+== Countermeasure focus ==
+Each character can choose a Countermeasure Focus, which will give them a bonus against certain schemes but cause various penalties. They come in three tiers. Tier 2 countermeasure focuses are unlocked by the {{iconify|Paranoid}} trait or the Palace Politics tradition. Tier 3 countermeasures are unlocked by certain traditions, tenets or traits.
+
+Most countermeasures affect all members of the court, with the exception of "Withdraw from View" which only affects the ruler using the countermeasure.
+{| class="mildtable plainlist"
+! Countermeasure Focus
+! Tier 1 effects
+! Tier 2 effects
+! Tier 3 effects
+! Tier 3 requirements
+|-
+| [[File:Bounties for whispers.png|50px]] Bounties for Whispers
+|
+* {{icon|scheme secrecy}} {{green|-15%}} Enemy Scheme Secrecy
+* {{icon|gold}} {{red|-10%}} Monthly Gold
+* {{icon|prestige}} {{red|-20%}} Monthly Prestige
+|
+* {{icon|scheme secrecy}} {{green|-15%}} Enemy Scheme Secrecy
+* {{icon|gold}} {{red|-7%}} Monthly Gold
+* {{icon|prestige}} {{red|-15%}} Monthly Prestige
+|
+* {{icon|scheme secrecy}} {{green|-35%}} Enemy Scheme Secrecy
+* {{icon|gold}} {{red|-2%}} Monthly Gold
+* {{icon|prestige}} {{red|-5%}} Monthly Prestige
+| Astute Diplomats tradition or Sacred Lies tenet
+|-
+| [[File:Arbitrary arrests.png|50px]] Arbitrary Arrests
+|
+* {{icon|scheme secrecy}} {{green|-25%}} Enemy Scheme Secrecy
+* {{icon|opinion}} {{red|+30%}} Tyranny Gain
+* {{icon|opinion}} {{red|-30}} Courtier and Guest Opinion
+* {{icon|opinion}} {{red|-40}} Popular Opinion
+|
+* {{icon|scheme secrecy}} {{green|-25%}} Enemy Scheme Secrecy
+* {{icon|opinion}} {{red|+20%}} Tyranny Gain
+* {{icon|opinion}} {{red|-20}} Courtier and Guest Opinion
+* {{icon|opinion}} {{red|-30}} Popular Opinion
+|
+* {{icon|scheme secrecy}} {{green|-35%}} Enemy Scheme Secrecy
+* {{icon|opinion}} {{red|+10%}} Tyranny Gain
+* {{icon|opinion}} {{red|-20}} Courtier and Guest Opinion
+* {{icon|opinion}} {{red|-30}} Popular Opinion
+| Life is just a Joke tradition
+|-
+| [[File:Strengthen sentries.png|50px]] Strengthen Sentries
+|
+* {{icon|scheme success chance}} {{green|-100%}} Enemy Personal Scheme Success Chance
+* {{icon|scheme success chance}} {{red|+15%}} Enemy Hostile Scheme Success Chance
+* {{icon|opinion}} {{red|-10}} Courtier and Guest Opinion
+* {{icon|opinion}} {{red|-30}} Courtly Vassal Opinion
+|
+* {{icon|scheme success chance}} {{green|-100%}} Enemy Personal Scheme Success Chance
+* {{icon|scheme success chance}} {{red|+15%}} Enemy Hostile Scheme Success Chance
+* {{icon|opinion}} {{red|-30}} Courtly Vassal Opinion
+|
+* {{icon|scheme success chance}} {{green|-100%}} Enemy Personal Scheme Success Chance
+* {{icon|scheme success chance}} {{red|+15%}} Enemy Hostile Scheme Success Chance
+* {{icon|opinion}} {{red|-20}} Courtly Vassal Opinion
+| Isolationist tradition
+|-
+| [[File:Redouble guards.png|50px]] Redouble Guards
+|
+* {{icon|scheme success chance}} {{green|-100%}} Enemy Hostile Scheme Success Chance
+* {{icon|scheme success chance}} {{red|+15%}} Enemy Personal Scheme Success Chance
+* {{icon|opinion}} {{red|-10}} Courtier and Guest Opinion
+* {{icon|opinion}} {{red|-30}} Glory Hound Vassal Opinion
+* {{icon|stress gain}} {{red|+20%}} Stress Gain
+|
+* {{icon|scheme success chance}} {{green|-100%}} Enemy Hostile Scheme Success Chance
+* {{icon|scheme success chance}} {{red|+15%}} Enemy Personal Scheme Success Chance
+* {{icon|opinion}} {{red|-20}} Glory Hound Vassal Opinion
+* {{icon|stress gain}} {{red|+15%}} Stress Gain
+|
+* {{icon|scheme success chance}} {{green|-100%}} Enemy Hostile Scheme Success Chance
+* {{icon|scheme success chance}} {{red|+15%}} Enemy Personal Scheme Success Chance
+* {{icon|opinion}} {{red|-20}} Glory Hound Vassal Opinion
+* {{icon|stress gain}} {{red|+10%}} Stress Gain
+| Isolationist tradition
+|-
+| [[File:Withdraw from view.png|50px]] Withdraw from View
+|
+* {{icon|scheme success chance}} {{green|-100%}} Enemy Hostile Scheme Success Chance
+* {{icon|scheme success chance}} {{green|-100%}} Enemy Personal Scheme Success Chance
+* {{icon|scheme success chance}} {{red|+25%}} Claim Throne success chance
+* {{icon|scheme success chance}} {{red|+25%}} Fabricate Hook success chance
+* {{icon|opinion}} {{red|-30}} General Opinion
+* {{icon|stress gain}} {{red|+30%}} Stress Gain
+|
+* {{icon|scheme success chance}} {{green|-100%}} Enemy Hostile Scheme Success Chance
+* {{icon|scheme success chance}} {{green|-100%}} Enemy Personal Scheme Success Chance
+* {{icon|scheme success chance}} {{red|+25%}} Claim Throne success chance
+* {{icon|scheme success chance}} {{red|+25%}} Fabricate Hook success chance
+* {{icon|opinion}} {{red|-30}} General Opinion
+* {{icon|stress gain}} {{red|+20%}} Stress Gain
+|
+* {{icon|scheme success chance}} {{green|-125%}} Enemy Hostile Scheme Success Chance
+* {{icon|scheme success chance}} {{green|-125%}} Enemy Personal Scheme Success Chance
+* {{icon|scheme success chance}} {{red|+25%}} Claim Throne success chance
+* {{icon|scheme success chance}} {{red|+25%}} Fabricate Hook success chance
+* {{icon|opinion}} {{red|-20}} General Opinion
+* {{icon|stress gain}} {{red|+10%}} Stress Gain
+| Pastoral Isolation tenet, {{iconify|Reclusive}} trait or {{iconify|Shy}} trait
+|}
+
+=== Bribe Officials ===
+{{expansion|rtp|auh}}
+Rulers with {{icon|governor efficiency}} Administrative, {{iconify|Celestial}}, {{iconify|Meritocratic}} or {{iconify|Ritsuryō}} government have access to an additional countermeasure focus called Bribe Officials.
+* The tier 2 countermeasure is unlocked by having the Palace Politics tradition or the Servant's Quarters estate building at level 4
+* The tier 3 countermeasure is unlocked by having the Palace Politics tradition and the Servant's Quarters estate building at level 4
+{| class="mildtable plainlist"
+! Tier 1 effects
+! Tier 2 effects
+! Tier 3 effects
+|-
+|
+* {{icon|scheme success chance}} {{green|-50%}} Enemy Political Scheme Success Chance
+* {{icon|gold}} {{red|-8%}} Monthly Income
+* {{icon|influence}} {{red|-8%}} Monthly Influence
+|
+* {{icon|scheme success chance}} {{green|-100%}} Enemy Political Scheme Success Chance
+* {{icon|gold}} {{red|-6%}} Monthly Income
+* {{icon|influence}} {{red|-6%}} Monthly Influence
+|
+* {{icon|scheme success chance}} {{green|-150%}} Enemy Political Scheme Success Chance
+* {{icon|gold}} {{red|-4%}} Monthly Income
+* {{icon|influence}} {{red|-4%}} Monthly Influence
+|}
+
+== References ==
+<references/>
+
+{{Mechanics navbox}}
+[[Category:Character]]

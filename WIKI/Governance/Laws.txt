@@ -1,0 +1,1075 @@
+{{Version|1.18}}
+[[File:Laws screen.png|thumb|220px|Realm laws]]
+Laws are royal decrees that have a vital effect on the development of the realm. Decreasing the level of a law is free and can be done at any point but increasing the level of a law costs {{iconify|Prestige}}.
+
+== Authority law ==
+Each realm has an authority law, which determines how much control its ruler has over the realm. Each level grants increasing powers to the ruler but also affects the {{iconify|Opinion}} of vassals. Increasing the authority level costs 10 {{iconify|Prestige}} per Realm Size, capped at 90 Realm Size and 900 {{iconify|Prestige}}, and is reduced by 11 for every point of {{iconify|Learning}}.
+
+=== Crown authority ===
+The Crown Authority law is available to {{iconify|Feudal}} and {{iconify|Clan}} governments. The law level can be increased every 20 years after researching the required innovation and has a starting cost of 100 {{iconify|Prestige}}.
+{| class="mildtable plainlist"
+! Effects
+! [[File:Crown authority 0.png|24px]] Autonomous Vassals
+! [[File:Crown authority 1.png|24px]] Limited Crown Authority
+! [[File:Crown authority 2.png|24px]] High Crown Authority
+! [[File:Crown authority 3.png|24px]] Absolute Crown Authority
+|-
+! Liege powers
+| None
+| 
+* {{icon|yes}} Titles can be revoked
+* {{icon|yes}} Vassals can be retracted
+* [[File:Make tributary cb.png|24px]] Can have tributaries
+| 
+* {{icon|yes}} Vassal titles cannot be inherited by characters outside the realm
+* {{icon|law}} Enables changing gender law
+* {{icon|crime}} Refusing title revocation is a crime
+* {{icon|crime}} Refusing vassal retraction is a crime
+* {{icon|crime}} Refusing imprisonment is a crime
+* {{icon|gold}} {{green|+10%}} Vassal Taxes
+* {{icon|levies}} {{green|+10%}} Vassal Levy Contribution
+| 
+* {{icon|yes}} Can designate the heir
+* {{icon|yes}} Can give vassal directives
+* {{icon|gold}} {{green|+25%}} Vassal Taxes
+* {{icon|levies}} {{green|+25%}} Vassal Levy Contribution
+|-
+! Succession laws
+| 
+* {{icon|feudal}} Confederate Partition
+* {{icon|clan}} House Succession
+| 
+* {{icon|feudal}} Partition
+* {{icon|feudal}} High Partition
+| 
+* {{icon|feudal}}{{icon|clan}} Primogeniture
+* {{icon|feudal}}{{icon|clan}} Ultimogeniture
+* {{icon|feudal}}{{icon|clan}} House Seniority
+| 
+|-
+! Vassal wars
+| {{icon|yes}} Allowed
+| {{icon|yes}} Allowed
+| {{icon|weak hook}} Requires hook on liege against fellow vassals
+| {{icon|weak hook}} Requires hook on liege
+|-
+! Vassal opinion
+|
+* {{icon|courtly vassal}} {{green|+5}} Courtly Vassal
+* {{icon|glory hound vassal}} {{green|+10}} Glory Hound Vassal
+* {{icon|parochial vassal}} {{green|+10}} Parochial Vassal
+* {{icon|minor landholder vassal}} {{green|+20}} Minor Landholder Vassal
+* {{icon|belligerent vassal}} {{red|-10}} Belligerent Vassal
+|
+* {{icon|glory hound vassal}} {{red|-5}} Glory Hound Vassal
+* {{icon|parochial vassal}} {{red|-5}} Parochial Vassal
+* {{icon|minority vassal}} {{red|-10}} Minority Vassal
+* {{icon|minor landholder vassal}} {{red|-10}} Minor Landholder Vassal
+* {{icon|belligerent vassal}} {{red|-5}} Belligerent Vassal
+|
+* {{icon|courtly vassal}} {{red|-5}} Courtly Vassal
+* {{icon|glory hound vassal}} {{red|-15}} Glory Hound Vassal
+* {{icon|parochial vassal}} {{red|-15}} Parochial Vassal
+* {{icon|zealot vassal}} {{red|-10}} Zealot Vassal
+* {{icon|minority vassal}} {{red|-20}} Minority Vassal
+* {{icon|minor landholder vassal}} {{red|-20}} Minor Landholder Vassal
+* {{icon|belligerent vassal}} {{green|+5}} Belligerent Vassal
+|
+* {{icon|courtly vassal}} {{red|-15}} Courtly Vassal
+* {{icon|glory hound vassal}} {{red|-40}} Glory Hound Vassal
+* {{icon|parochial vassal}} {{red|-40}} Parochial Vassal
+* {{icon|zealot vassal}} {{red|-30}} Zealot Vassal
+* {{icon|minority vassal}} {{red|-50}} Minority Vassal
+* {{icon|minor landholder vassal}} {{red|-40}} Minor Landholder Vassal
+* {{icon|belligerent vassal}} {{green|+20}} Belligerent Vassal
+|-
+! Required innovation
+| None
+| {{icon|planned assemblies}} Plenary Assemblies
+| {{iconify|Royal Prerogative}}
+| {{iconify|Royal Prerogative}}
+|}
+
+=== Tribal authority ===
+The Tribal Authority law is available to {{iconify|Tribal}} and {{iconify|Wanua}} governments. The law level can be increased every 10 years does not need innovations to do it. The law has a starting cost of 200 {{iconify|Prestige}}.
+{| class="mildtable plainlist"
+! Effects
+! [[File:Tribal authority 0.png|24px]] Disparate Tribes
+! [[File:Tribal authority 1.png|24px]] Limited Tribal Authority
+! [[File:Tribal authority 2.png|24px]] High Tribal Authority
+! [[File:Tribal authority 3.png|24px]] Absolute Tribal Authority
+|-
+! Liege powers
+| None
+| 
+* {{icon|crime}} Characters can be imprisoned
+* {{icon|decision}} Unlocks the Adopt Feudal Ways through Liege decision
+* {{icon|decision}} Unlocks the Adopt Clan Ways through Liege decision
+* [[File:Make tributary cb.png|24px]] Can have tributaries
+| 
+* {{icon|yes}} Titles can be revoked
+* {{icon|yes}} Vassals can be retracted
+| 
+* {{icon|decision}} Unlocks the Adopt Feudal Ways decision
+* {{icon|decision}} Unlocks the Adopt Clan Ways decision
+|-
+! Vassal opinion
+|
+* {{icon|courtly vassal}} {{green|+5}} Courtly Vassal
+* {{icon|glory hound vassal}} {{green|+10}} Glory Hound Vassal
+* {{icon|parochial vassal}} {{green|+10}} Parochial Vassal
+* {{icon|belligerent vassal}} {{red|-15}} Belligerent Vassal
+|
+* {{icon|glory hound vassal}} {{red|-5}} Glory Hound Vassal
+* {{icon|parochial vassal}} {{red|-5}} Parochial Vassal
+* {{icon|minority vassal}} {{red|-10}} Minority Vassal
+* {{icon|belligerent vassal}} {{red|-10}} Belligerent Vassal
+|
+* {{icon|courtly vassal}} {{red|-5}} Courtly Vassal
+* {{icon|glory hound vassal}} {{red|-15}} Glory Hound Vassal
+* {{icon|parochial vassal}} {{red|-15}} Parochial Vassal
+* {{icon|zealot vassal}} {{red|-10}} Zealot Vassal
+* {{icon|minority vassal}} {{red|-20}} Minority Vassal
+* {{icon|belligerent vassal}} {{green|+5}} Belligerent Vassal
+|
+* {{icon|courtly vassal}} {{red|-15}} Courtly Vassal
+* {{icon|glory hound vassal}} {{red|-40}} Glory Hound Vassal
+* {{icon|parochial vassal}} {{red|-40}} Parochial Vassal
+* {{icon|zealot vassal}} {{red|-30}} Zealot Vassal
+* {{icon|minority vassal}} {{red|-50}} Minority Vassal
+* {{icon|belligerent vassal}} {{green|+25}} Belligerent Vassal
+|}
+
+=== Celestial authority ===
+{{expansion|auh}}
+The Celestial Authority law is available to {{iconify|Celestial}}, {{iconify|Meritocratic}} and {{iconify|Meritocratic Khanate}} governments. The law level can be increased after researching the required innovation and has a starting cost of 100 {{iconify|Prestige}}. If both a liege and a vassal have the same government the vassal will use the same law level as the liege.
+{| class="mildtable plainlist"
+! Effects
+! [[File:Celestial bureaucracy 0.png|24px]] Autonomous Provinces
+! [[File:Celestial bureaucracy 1.png|24px]] Limited Civil Service
+! [[File:Celestial bureaucracy 2.png|24px]] Centralized Ministries
+! [[File:Celestial bureaucracy 3.png|24px]] Divine Mandate
+|-
+! Liege powers
+| 
+* {{icon|yes}} Vassal titles cannot be inherited by Characters outside the Realm
+* {{icon|gold}} {{green|+5%}} Republican Vassal Tax Contribution
+* {{icon|gold}} {{green|+5%}} Celestial Vassal Tax Contribution
+| 
+* {{icon|yes}} Titles can be revoked
+* {{icon|yes}} Vassals can be retracted
+* {{icon|gold}} {{green|+10%}} Republican Vassal Tax Contribution
+* {{icon|gold}} {{green|+10%}} Celestial Vassal Tax Contribution
+| 
+* {{icon|law}} Enables changing gender law
+* {{icon|crime}} Refusing title revocation is a crime
+* {{icon|crime}} Refusing vassal retraction is a crime
+* {{icon|crime}} Refusing imprisonment is a crime
+* {{icon|gold}} {{green|+20%}} Republican Vassal Tax Contribution
+* {{icon|gold}} {{green|+20%}} Celestial Vassal Tax Contribution
+* {{icon|gold}} {{green|-50%}} Demand Administrative Governance Cost
+| 
+* {{icon|yes}} Can designate the heir
+* {{icon|gold}} {{green|+30%}} Republican Vassal Tax Contribution
+* {{icon|gold}} {{green|+30%}} Celestial Vassal Tax Contribution
+* {{icon|gold}} {{green|-50%}} Demand Administrative Governance Cost
+|-
+! Succession laws
+| 
+* Primogeniture (independent)
+* Celestial Appointment Succession (civil governor)
+* Celestial Commander Succession (military governor)
+| 
+| Ultimogeniture
+| 
+|-
+! Non-administrative vassal wars
+| {{icon|yes}} Allowed
+| {{icon|weak hook}} Requires hook on liege against other vassals
+| {{icon|weak hook}} Requires hook on liege
+| {{icon|no}} Not allowed
+|-
+! Vassal opinion
+|
+* {{icon|courtly vassal}} {{green|+5}} Courtly Vassal
+* {{icon|glory hound vassal}} {{green|+10}} Glory Hound Vassal
+* {{icon|parochial vassal}} {{green|+10}} Parochial Vassal
+* {{icon|minor landholder vassal}} {{green|+20}} Minor Landholder Vassal
+* {{icon|belligerent vassal}} {{red|-10}} Belligerent Vassal
+|
+* {{icon|glory hound vassal}} {{red|-5}} Glory Hound Vassal
+* {{icon|parochial vassal}} {{red|-5}} Parochial Vassal
+* {{icon|minority vassal}} {{red|-10}} Minority Vassal
+* {{icon|minor landholder vassal}} {{red|-10}} Minor Landholder Vassal
+* {{icon|belligerent vassal}} {{red|-5}} Belligerent Vassal
+|
+* {{icon|courtly vassal}} {{red|-5}} Courtly Vassal
+* {{icon|glory hound vassal}} {{red|-15}} Glory Hound Vassal
+* {{icon|parochial vassal}} {{red|-15}} Parochial Vassal
+* {{icon|zealot vassal}} {{red|-10}} Zealot Vassal
+* {{icon|minority vassal}} {{red|-20}} Minority Vassal
+* {{icon|minor landholder vassal}} {{red|-20}} Minor Landholder Vassal
+* {{icon|belligerent vassal}} {{green|+5}} Belligerent Vassal
+|
+* {{icon|courtly vassal}} {{red|-15}} Courtly Vassal
+* {{icon|glory hound vassal}} {{red|-40}} Glory Hound Vassal
+* {{icon|parochial vassal}} {{red|-40}} Parochial Vassal
+* {{icon|zealot vassal}} {{red|-30}} Zealot Vassal
+* {{icon|minority vassal}} {{red|-50}} Minority Vassal
+* {{icon|minor landholder vassal}} {{red|-40}} Minor Landholder Vassal
+* {{icon|belligerent vassal}} {{green|+20}} Belligerent Vassal
+|-
+! Required innovation
+| None
+| {{icon|planned assemblies}} Plenary Assemblies
+| {{iconify|Royal Prerogative}}
+| {{iconify|Royal Prerogative}}
+|-
+! Change cooldown (years)
+| 
+| 10
+| 20
+| 20
+|}
+
+=== Japanese authority ===
+{{expansion|auh}}
+The Japanese Authority law is available to {{iconify|Ritsuryō}} and {{iconify|Sōryō}} governments. The law level can be increased after researching the required innovation and has a starting cost of 100 {{iconify|Prestige}}. If both a liege and a vassal have the same government the vassal will use the same law level as the liege.
+{| class="mildtable plainlist"
+! Effects
+! [[File:Celestial bureaucracy 0.png|24px]] Autonomous Governors
+! [[File:Celestial bureaucracy 1.png|24px]] Limited Oversight
+! [[File:Celestial bureaucracy 2.png|24px]] Powerful Ministries
+! [[File:Celestial bureaucracy 3.png|24px]] Centralized Governance
+|-
+! Liege powers
+| {{icon|yes}} Vassal titles cannot be inherited by Characters outside the Realm
+| 
+* {{icon|yes}} Titles can be revoked
+* {{icon|yes}} Vassals can be retracted
+* {{icon|gold}} {{green|+5%}} Ritsuryō Vassal Tax Contribution
+| 
+* {{icon|law}} Enables changing gender law
+* {{icon|crime}} Refusing title revocation is a crime
+* {{icon|crime}} Refusing vassal retraction is a crime
+* {{icon|crime}} Refusing imprisonment is a crime
+* {{icon|gold}} {{green|+10%}} Ritsuryō Vassal Tax Contribution
+* {{icon|gold}} {{green|+5%}} Republic Vassal Tax Contribution
+| 
+* {{icon|gold}} {{green|+20%}} Ritsuryō Vassal Tax Contribution
+* {{icon|gold}} {{green|+10%}} Republic Vassal Tax Contribution
+|-
+! Succession Laws
+| 
+* {{icon|ritsuryō}}{{icon|sōryō}} Partition
+* {{icon|sōryō}} Confederate Partition
+* {{icon|ritsuryō}} Japanese Regency Succession (independent)
+* {{icon|ritsuryō}} Ritsuryō Appointment Succession (vassal)
+| 
+| 
+* {{icon|ritsuryō}}{{icon|sōryō}} Primogeniture
+* {{icon|ritsuryō}} Ultimogeniture
+| 
+|-
+! Non-administrative vassal wars
+| {{icon|yes}} Allowed
+| {{icon|weak hook}} Requires hook on liege against other vassals
+| {{icon|weak hook}} Requires hook on liege
+| {{icon|no}} Not allowed
+|-
+! Vassal opinion
+|
+* {{icon|courtly vassal}} {{green|+5}} Courtly Vassal
+* {{icon|glory hound vassal}} {{green|+10}} Glory Hound Vassal
+* {{icon|parochial vassal}} {{green|+10}} Parochial Vassal
+* {{icon|minor landholder vassal}} {{green|+20}} Minor Landholder Vassal
+* {{icon|belligerent vassal}} {{red|-10}} Belligerent Vassal
+|
+* {{icon|glory hound vassal}} {{red|-5}} Glory Hound Vassal
+* {{icon|parochial vassal}} {{red|-5}} Parochial Vassal
+* {{icon|minority vassal}} {{red|-10}} Minority Vassal
+* {{icon|minor landholder vassal}} {{red|-10}} Minor Landholder Vassal
+* {{icon|belligerent vassal}} {{red|-5}} Belligerent Vassal
+|
+* {{icon|courtly vassal}} {{red|-5}} Courtly Vassal
+* {{icon|glory hound vassal}} {{red|-15}} Glory Hound Vassal
+* {{icon|parochial vassal}} {{red|-15}} Parochial Vassal
+* {{icon|zealot vassal}} {{red|-10}} Zealot Vassal
+* {{icon|minority vassal}} {{red|-20}} Minority Vassal
+* {{icon|minor landholder vassal}} {{red|-20}} Minor Landholder Vassal
+* {{icon|belligerent vassal}} {{green|+5}} Belligerent Vassal
+|
+* {{icon|courtly vassal}} {{red|-15}} Courtly Vassal
+* {{icon|glory hound vassal}} {{red|-40}} Glory Hound Vassal
+* {{icon|parochial vassal}} {{red|-40}} Parochial Vassal
+* {{icon|zealot vassal}} {{red|-30}} Zealot Vassal
+* {{icon|minority vassal}} {{red|-50}} Minority Vassal
+* {{icon|minor landholder vassal}} {{red|-40}} Minor Landholder Vassal
+* {{icon|belligerent vassal}} {{green|+20}} Belligerent Vassal
+|-
+! Change cooldown (years)
+| 
+| 10
+| 20
+| 20
+|}
+
+=== Decree ===
+{{expansion|auh}}
+The Decree law is available to {{iconify|Mandala}} governments and can be changed at the cost of 500 {{iconify|Prestige}} if the ruler's Mandala Aspect allows it. Every decree allows titles to be revoked and vassals to be retracted and refusing these is considered a crime. Every decree also allows the heir to be designated.
+{| class="mildtable plainlist"
+! Law
+! Effects
+! Aspects
+|-
+| '''No Decree'''<br>[[File:Mandala decree none.png|100px]]
+| No effects
+| {{icon|yes}} All
+|-
+| '''Prosperity Decree'''<br>[[File:Mandala decree prosperity.png|100px]]
+| 
+* {{icon|piety}} Can spend Piety in the Reassert Tributary interaction
+* {{icon|yes}} Tributaries are less likely to stop paying tribute
+* {{icon|yes}} Subjects are more likely to use the Builder economical archetype
+* {{icon|opinion}} {{green|+15}} Tributary Opinion
+* {{icon|unknown}} {{green|+15}} Exact Tribute Acceptance
+* {{icon|piety}} {{green|+100}} Devotion per title rank from won defensive wars
+* {{icon|piety}} {{red|-100}} Devotion per title rank from lost wars
+* {{icon|levies}} {{red|-25%}} Levy Size
+* {{icon|gold}} {{red|+25%}} Men-at-Arms Maintenance
+| 
+* [[File:Aspect of trickery small.png|24px]] Trickery
+* [[File:Aspect of creation small.png|24px]] Creation
+* [[File:Aspect of serenity small.png|24px]] Serenity
+|-
+| '''Expansion Decree'''<br>[[File:Mandala decree expansion.png|100px]]
+| 
+* {{icon|yes}} Call to War interaction can be used on tributaries
+* {{icon|yes}} Subjects are more likely to use the Warlike economical archetype
+* {{icon|levies}} {{green|+25%}} Vassal Levy Contribution
+* {{icon|opinion}} {{green|+25}} Tributary Opinion
+* {{icon|piety}} {{green|+1000}} Piety when finishing a siege on a level 4 Temple Citadel holding owned by a Mandala ruler
+* {{icon|piety}} {{green|+500}} Piety when finishing a siege on a level 3 Temple Citadel holding owned by a Mandala ruler
+* {{icon|piety}} {{green|+250}} Piety when finishing a siege on a level 2 Temple Citadel holding owned by a Mandala ruler
+* {{icon|piety}} {{green|+100}} Piety when finishing a siege on a level 1 Temple Citadel holding owned by a Mandala ruler
+* {{icon|piety}} {{green|+100}} Devotion per title rank from won offensive wars
+* {{icon|piety}} {{red|-100}} Devotion per title rank from lost wars
+* {{icon|opinion}} {{red|-25}} Independent Ruler Opinion
+| 
+* [[File:Aspect of trickery small.png|24px]] Trickery
+* [[File:Aspect of creation small.png|24px]] Creation
+* [[File:Aspect of destruction small.png|24px]] Destruction
+|-
+| '''Reverence Decree'''<br>[[File:Mandala decree reverence.png|100px]]
+| 
+* {{icon|yes}} Invite to Become Mandala interaction can be used on tributaries
+* {{icon|yes}} Subjects are more likely to fund Capital Temple Complex great projects
+* {{icon|gold}} {{green|-25%}} Pilgrimage Activity Cost
+* {{icon|unknown}} {{green|+25}} Demand Conversion Acceptance
+* {{icon|unknown}} {{green|+25}} Invite to Become Mandala Acceptance
+* {{icon|piety}} {{green|+50%}} Piety when a Convert Faith in County councilor tasks is finished on a subject's county
+| 
+* [[File:Aspect of trickery small.png|24px]] Trickery
+* [[File:Aspect of destruction small.png|24px]] Destruction
+* [[File:Aspect of serenity small.png|24px]] Serenity
+|}
+
+=== Administrative authority ===
+{{expansion|rtp}}
+The Administrative Authority law is available to {{icon|governor efficiency}} Administrative governments. The law level can be increased after researching the required innovation and has a starting cost of 100 {{iconify|Prestige}}. If both a liege and a vassal have the same government the vassal will use the same law level as the liege.
+{| class="mildtable plainlist"
+! Effects
+! [[File:Imperial bureaucracy 0.png|24px]] Decentralized Realm
+! [[File:Imperial bureaucracy 1.png|24px]] Limited Administration
+! [[File:Imperial bureaucracy 2.png|24px]] Centralized Bureaucracy
+! [[File:Imperial bureaucracy 3.png|24px]] Absolute Autocracy
+|-
+! Liege powers
+| {{icon|yes}} Vassal titles cannot be inherited by Characters outside the Realm
+|
+* {{icon|yes}} Titles can be revoked
+* {{icon|yes}} Vassals can be retracted
+* [[File:Make tributary cb.png|24px]] Can have tributaries
+* {{icon|vassal}} {{green|+100}} Vassal Limit
+* {{icon|gold}} {{green|+5%}} Administrative Vassal Taxes
+|
+* {{icon|law}} Independent rulers can change succession law
+* {{icon|crime}} Refusing Title revocation is a crime
+* {{icon|crime}} Refusing Vassal retraction is a crime
+* {{icon|vassal}} {{green|+200}} Vassal Limit
+* {{icon|gold}} {{green|+10%}} Administrative Vassal Tax Contribution
+* {{icon|gold}} {{green|+5%}} Republican Vassal Tax Contribution
+* {{icon|gold}} {{green|-50%}} Demand Administrative Governance Cost
+* {{icon|influence}} {{green|-25%}} Cost to take control of Armies
+|
+* {{icon|vassal}} {{green|+400}} Vassal Limit
+* {{icon|gold}} {{green|+20%}} Administrative Vassal Tax Contribution
+* {{icon|gold}} {{green|+10%}} Republican Vassal Tax Contribution
+* {{icon|influence}} {{green|-50%}} Cost to take control of Armies
+|-
+! Succession laws
+| 
+* Acclamation Succession (independent)
+* Appointment Succession (vassal)
+| 
+| 
+* Primogeniture
+* Ultimogeniture
+| 
+|-
+! Non-administrative vassal wars
+| {{icon|yes}} Allowed
+| {{icon|weak hook}} Requires hook on liege against other vassals
+| {{icon|weak hook}} Requires hook on liege
+| {{icon|no}} Not allowed
+|-
+! Vassal opinion
+|
+* {{icon|courtly vassal}} {{green|+5}} Courtly Vassal
+* {{icon|glory hound vassal}} {{green|+10}} Glory Hound Vassal
+* {{icon|parochial vassal}} {{green|+10}} Parochial Vassal
+* {{icon|minor landholder vassal}} {{green|+20}} Minor Landholder Vassal
+* {{icon|belligerent vassal}} {{red|-10}} Belligerent Vassal
+|
+* {{icon|glory hound vassal}} {{red|-5}} Glory Hound Vassal
+* {{icon|parochial vassal}} {{red|-5}} Parochial Vassal
+* {{icon|minority vassal}} {{red|-10}} Minority Vassal
+* {{icon|minor landholder vassal}} {{red|-10}} Minor Landholder Vassal
+* {{icon|belligerent vassal}} {{red|-5}} Belligerent Vassal
+|
+* {{icon|courtly vassal}} {{red|-5}} Courtly Vassal
+* {{icon|glory hound vassal}} {{red|-15}} Glory Hound Vassal
+* {{icon|parochial vassal}} {{red|-15}} Parochial Vassal
+* {{icon|zealot vassal}} {{red|-10}} Zealot Vassal
+* {{icon|minority vassal}} {{red|-20}} Minority Vassal
+* {{icon|minor landholder vassal}} {{red|-20}} Minor Landholder Vassal
+* {{icon|belligerent vassal}} {{green|+5}} Belligerent Vassal
+|
+* {{icon|courtly vassal}} {{red|-15}} Courtly Vassal
+* {{icon|glory hound vassal}} {{red|-40}} Glory Hound Vassal
+* {{icon|parochial vassal}} {{red|-40}} Parochial Vassal
+* {{icon|zealot vassal}} {{red|-30}} Zealot Vassal
+* {{icon|minority vassal}} {{red|-50}} Minority Vassal
+* {{icon|minor landholder vassal}} {{red|-40}} Minor Landholder Vassal
+* {{icon|belligerent vassal}} {{green|+20}} Belligerent Vassal
+|-
+! Required innovation
+| None
+| {{icon|planned assemblies}} Plenary Assemblies
+| {{iconify|Royal Prerogative}}
+| {{iconify|Royal Prerogative}}
+|-
+! Change cooldown (years)
+| 
+| 10
+| 20
+| 20
+|}
+
+=== Dominance ===
+{{expansion|kos}}
+The Dominance law is available to {{iconify|Nomadic}} governments and can only be increased after gaining sufficient {{iconify|Herd}}. The amount required scales with the culture era and the primary title rank. It has a starting cost of 300 {{iconify|Prestige}} and can be increased every 5 years. At the start of the game nomads will have the law set to equal their title rank, capped at [[File:Nomad authority 3.png|24px]] High.
+
+The [[File:Nomad authority 5.png|24px]] Unrestricted law level is only available to a [[File:Icon gurkhan.png|24px]] Gurkhan unless The Great Steppe has been disabled in game rules.
+{| class="mildtable plainlist"
+! width=1% | Effects
+! [[File:Nomad authority 1.png|24px]] Weak
+! [[File:Nomad authority 2.png|24px]] Limited
+! [[File:Nomad authority 3.png|24px]] High
+! [[File:Nomad authority 4.png|24px]] Absolute
+! [[File:Nomad authority 5.png|24px]] Unrestricted
+|-
+! Liege powers
+|
+* {{icon|domain}} {{green|+1}} Minimum Domain Limit
+* {{icon|domain}} {{green|+2}} Maximum Domain Limit
+* {{icon|vassal}} {{green|+1}} Vassal Limit
+* {{icon|yes}} Titles can be revoked
+* [[File:Domicile yurt main.png|24px]] Can upgrade the Main Yurt to level 2
+|
+* {{icon|domain}} {{green|+2}} Minimum Domain Limit
+* {{icon|domain}} {{green|+3}} Maximum Domain Limit
+* {{icon|vassal}} {{green|+2}} Minimum Vassal Limit
+* {{icon|vassal}} {{green|+3}} Maximum Vassal Limit
+* [[File:Migrate.png|24px]] {{green|+25%}} Max Migration Distance
+* {{icon|crime}} Characters can be imprisoned
+* {{icon|decision}} Unlocks the Forsake Nomadism decision
+* [[File:Domicile yurt main.png|24px]] Can upgrade the Main Yurt to level 3
+* [[File:Unit nomad lancers.png|24px]] Can recruit Nomad Lancers as men-at-arms
+|
+* {{icon|domain}} {{green|+4}} Minimum Domain Limit
+* {{icon|domain}} {{green|+6}} Maximum Domain Limit
+* {{icon|vassal}} {{green|+10}} Minimum Vassal Limit
+* {{icon|vassal}} {{green|+15}} Maximum Vassal Limit
+* [[File:Migrate.png|24px]] {{green|+75%}} Max Migration Distance
+* {{icon|yes}} Vassals can be retracted
+* {{icon|decision}} Unlocks the Move into Conquered Lands decision
+* {{icon|decision}} Unlocks the Settle the Steppe (Tribal) decision
+* [[File:Duchy conquest cb.png|24px]] Unlocks the Nomadic Duchy Quarrel casus belli
+* [[File:Migration cb.png|24px]] Unlocks the Overrun Kingdom casus belli
+* [[File:Domicile yurt main.png|24px]] Can upgrade the Main Yurt to level 5
+|
+* {{icon|domain}} {{green|+6}} Minimum Domain Limit
+* {{icon|domain}} {{green|+6}} Maximum Domain Limit
+* {{icon|vassal}} {{green|+15}} Minimum Vassal Limit
+* {{icon|vassal}} {{green|+30}} Maximum Vassal Limit
+* [[File:Migrate.png|24px]] {{green|+175%}} Max Migration Distance
+* {{icon|decision}} Unlocks the Establish Paiza System decision
+* {{icon|decision}} Unlocks the Settle the Steppe (Feudal) decision
+* {{icon|decision}} Unlocks the Settle the Steppe (Clan) decision
+* [[File:Domicile yurt main.png|24px]] Can upgrade the Main Yurt to level 6
+|
+* {{icon|domain}} {{green|+6}} Minimum Domain Limit
+* {{icon|domain}} {{green|+6}} Maximum Domain Limit
+* {{icon|vassal}} {{green|+1000}} Vassal Limit
+* [[File:Migrate.png|24px]] {{green|+375%}} Max Migration Distance
+* {{icon|decision}} Unlocks the Become the Greatest of all Khans decision
+|-
+! Max migration and dominate target
+| {{iconify|County}}
+| {{iconify|Duchy}}
+| {{iconify|Kingdom}}
+| {{iconify|Empire}}
+| {{iconify|Empire}}
+|-
+! Vassal opinion
+|
+* {{icon|glory hound vassal}} {{red|-20}} Glory Hound Vassal
+* {{icon|belligerent vassal}} {{red|-25}} Belligerent Vassal
+|
+* {{icon|glory hound vassal}} {{red|-10}} Glory Hound Vassal
+* {{icon|belligerent vassal}} {{red|-15}} Belligerent Vassal
+| {{icon|belligerent vassal}} {{red|-5}} Belligerent Vassal
+|
+* {{icon|glory hound vassal}} {{green|+10}} Glory Hound Vassal
+* {{icon|belligerent vassal}} {{green|+15}} Belligerent Vassal
+|
+* {{icon|glory hound vassal}} {{green|+25}} Glory Hound Vassal
+* {{icon|belligerent vassal}} {{green|+40}} Belligerent Vassal
+|-
+! Marriage acceptange
+| {{red|-40}}
+| {{red|-20}}
+| '''0'''
+| {{green|+10}}
+| {{green|+20}}
+|}
+
+== Succession law ==
+There are three types of law affecting [[succession]] to a title: gender, realm and title. Changing gender or succession laws costs 500 {{iconify|Prestige}} if government is {{iconify|Feudal}}, {{icon|governor efficiency}} Administrative, or {{iconify|Celestial}}, and 2000 {{iconify|Prestige}} if government is {{iconify|Clan}}. It also requires all powerful vassals to either have a positive {{iconify|opinion}} of the liege, be [[Court#Prisoners|imprisoned]], or be [[Attributes#Dread|terrified]].
+
+=== Gender law ===
+The gender law determines which gender can inherit titles and claims and who can have more than one partner if its faith doctrines allow. The {{iconify|Visigothic Codes}} innovation gives access to Equal succession regardless of faith. Changing gender law requires High Crown Authority for feudal and clan realms, and only Limited Tribal Authority for tribal realms.
+{| class="mildtable"
+! Law
+! Inheritance
+! Concubinage and polygamy
+! Required views on gender doctrine
+|-
+| '''Male only'''
+| Men only
+| Men only
+| [[File:Doctrine gender male dominated.png|24px]] Male Dominated
+|-
+| '''Male preference'''
+| Men take precedence
+| Men only
+| [[File:Doctrine gender male dominated.png|24px]] Male Dominated<br>[[File:Doctrine gender equal.png|24px]] Equal
+|-
+| '''Equal'''
+| Both genders
+| Both genders
+| [[File:Doctrine gender equal.png|24px]] Equal
+|-
+| '''Female preference'''
+| Women take precedence
+| Women only
+| [[File:Doctrine gender equal.png|24px]] Equal<br>[[File:Doctrine gender female dominated.png|24px]] Female Dominated
+|-
+| '''Female only'''
+| Women only
+| Women only
+| [[File:Doctrine gender female dominated.png|24px]] Female Dominated
+|}
+
+=== Realm succession ===
+The realm succession law determines which and how many heirs will inherit the character's titles upon death. All children will gain claims on titles they did not inherit regardless of the realm succession law. Succession law cannot be changed during a regency.
+
+==== Multiple heirs ====
+The following multiple heir successions are available to {{iconify|Feudal}} and {{iconify|Sōryō}} governments.
+{| class="mildtable"
+! Law
+! Required innovation
+! Opinion
+! width=65% | Effect
+|-
+| '''Confederate Partition'''
+| {{iconify|Gavelkind}}
+| {{green|+5}} House<br>{{green|+5}} Parochial vassal<br>{{green|+10}} Glory Hound vassal<br>{{green|+10}} Eligible child
+| Upon succession, all titles held by the late ruler will be divided amongst their eligible children, with the player heir always being given the primary title, realm capital and any direct de jure titles associated with it.<br><br>Younger children will be given titles starting with those of the same rank as the primary title, if none are available they will be given lower-ranking titles. Children can not be preemptively granted titles they do not stand to inherit.<br><br>New titles may be created for younger realm heirs.
+|-
+| '''Partition'''
+| {{iconify|Hereditary Rule}}
+| {{green|+5}} Eligible child<br>{{green|+5}} Parochial vassal<br>{{green|+10}} Glory Hound vassal<br>{{green|+10}} Player heir
+| Upon succession, all titles held by the late ruler will be divided amongst their eligible children, with the player heir always being given the primary title, realm capital and any direct de jure titles associated with it.<br><br>Younger children will be given titles starting with those of the same rank as the primary title, if none are available they will be given lower-ranking titles. Children can not be preemptively granted titles they do not stand to inherit.
+|-
+| '''High Partition'''
+| {{iconify|Heraldry}} '''OR'''<br>{{iconify|Visigothic Codes}}
+| {{green|+15}} Player heir<br>{{green|+5}} Glory Hound vassal
+| Upon succession, all titles held by the late ruler will be divided amongst their eligible children, with the player heir always being given the primary title, realm capital and any direct de jure titles associated with it.<br><br>Younger children will be given titles starting with those of the same rank as the primary title, if none are available they will be given lower-ranking titles. Children can not be preemptively granted titles they do not stand to inherit.<br><br>The player heir will always inherit at least half of the late ruler's titles.
+|}
+
+{{iconify|Clan}} governments have their multiple heirs succession law decided by each ruler's House Unity level.
+{| class="mildtable"
+! Law
+! Opinion
+! width=65% | Effect
+|-
+| '''Antagonistic Succession'''
+| {{green|+10}} Player heir<br>{{green|+5}} Eligible child<br>{{green|+15}} Glory Hound vassal<br>{{green|+10}} Zealot vassal<br>{{red|−5}} House
+| Upon succession, all titles held by the late ruler will be divided amongst their eligible children, with the player heir always being given the primary title, realm capital and any direct de jure titles associated with it.<br><br>Younger children will be given titles starting with those of the same rank as the primary title, if none are available they will be given lower-ranking titles. Children can not be preemptively granted titles they do not stand to inherit.<br><br>Vassals from your house gain a claim on your primary title.
+|-
+| '''Competitive Succession'''
+| {{green|+10}} Player heir<br>{{green|+5}} Eligible child<br>{{green|+10}} Glory Hound vassal<br>{{green|+5}} Zealot vassal
+| Upon succession, all titles held by the late ruler will be divided amongst their eligible children, with the player heir always being given the primary title, realm capital and any direct de jure titles associated with it.<br><br>Younger children will be given titles starting with those of the same rank as the primary title, if none are available they will be given lower-ranking titles. Children can not be preemptively granted titles they do not stand to inherit.<br><br>Vassals from your house gain a claim on your primary title.
+|-
+| '''Impassive Succession'''
+| {{green|+15}} Player heir<br>{{green|+5}} Glory Hound vassal<br>{{green|+5}} Parochial vassal
+| Upon succession, all titles held by the late ruler will be divided amongst their eligible children, with the player heir always being given the primary title, realm capital and any direct de jure titles associated with it.<br><br>Younger children will be given titles starting with those of the same rank as the primary title, if none are available they will be given lower-ranking titles. Children can not be preemptively granted titles they do not stand to inherit.<br><br>The player heir will always inherit at least a quarter of the late ruler's titles.
+|-
+| '''Friendly Succession'''
+| {{green|+25}} Player heir<br>{{green|+10}} Parochial vassal<br>{{green|+5}} Courtly vassal
+| Upon succession, all titles held by the late ruler will be divided amongst their eligible children, with the player heir always being given the primary title, realm capital and any direct de jure titles associated with it.<br><br>Younger children will be given titles starting with those of the same rank as the primary title, if none are available they will be given lower-ranking titles. Children can not be preemptively granted titles they do not stand to inherit.<br><br>The player heir will always inherit at least half of the late ruler's titles.
+|-
+| '''Harmonious Succession'''
+| {{green|+40}} Player heir<br>{{green|+15}} Parochial vassal<br>{{green|+10}} Courtly vassal
+| Upon succession, all titles held by the late ruler will be divided amongst their eligible children, with the player heir always being given the primary title, realm capital and any direct de jure titles associated with it.<br><br>Younger children will be given titles starting with those of the same rank as the primary title, if none are available they will be given lower-ranking titles. Children can not be preemptively granted titles they do not stand to inherit.<br><br>The player heir will always inherit at least three quarters of the late ruler's titles.
+|}
+
+==== Single heir ====
+Single heir successions are available to most governments at the third authority level but rulers with {{icon|governor efficiency}} Administrative, {{iconify|Celestial}}, {{iconify|Meritocratic}}, {{iconify|Meritocratic Khanate}} or {{iconify|Ritsuryō}} governments must be independent. {{iconify|Clan}} governments must pay an additional 1500 {{icon|piety islam}} Piety while {{icon|governor efficiency}} Administrative, {{iconify|Celestial}}, {{iconify|Meritocratic}}, {{iconify|Meritocratic Khanate}} and {{iconify|Ritsuryō}} governments require the [[File:Icon influence 04.png|24px]] Authoritative level of influence to change the realm succession to single heir.
+{| class="mildtable plainlist"
+! Law
+! Governments
+! Required innovation
+! Opinion
+! width=50% | Effect
+|-
+| [[Succession#Primogeniture|'''Primogeniture''']]
+| 
+* {{iconify|Feudal}}
+* {{iconify|Clan}}
+* {{icon|governor efficiency}} Administrative
+* {{iconify|Celestial}}
+* {{iconify|Meritocratic}}
+* {{iconify|Meritocratic Khanate}}
+* {{iconify|Ritsuryō}}
+| {{iconify|Primogeniture}}
+| 
+* {{green|+20}} Player heir
+* {{red|−5}} Eligible child
+* {{red|−5}} Parochial vassal
+* {{red|−10}} Glory Hound vassal
+| Upon succession, all of the late ruler's titles will be given to the player heir, which is their oldest eligible child. Younger children will receive nothing.
+|-
+| [[Succession#Ultimogeniture|'''Ultimogeniture''']]
+| 
+* {{iconify|Feudal}}
+* {{iconify|Clan}}
+* {{icon|governor efficiency}} Administrative
+* {{iconify|Celestial}}
+* {{iconify|Meritocratic}}
+* {{iconify|Meritocratic Khanate}}
+* {{iconify|Ritsuryō}}
+| {{iconify|Primogeniture}}
+| 
+* {{green|+20}} Player heir
+* {{red|−5}} Eligible child
+* {{red|−5}} Parochial vassal
+* {{red|−10}} Glory Hound vassal
+| Upon succession, all of the late ruler's titles will be given to the player heir, which is their youngest eligible child. Older children will receive nothing.
+|-
+| [[Succession#House_seniority|'''House Seniority''']]
+| 
+* {{iconify|Feudal}}
+* {{iconify|Clan}}
+| {{iconify|Heraldry}} or {{iconify|Table of Princes}}
+| 
+* {{green|+5}} House
+* {{red|−10}} Glory Hound vassal
+* {{red|−15}} Eligible child
+| Upon succession, all of the late ruler's titles will be given to the oldest eligible member of their house. Children will not be given anything, unless one of them happens to be the oldest house member.
+|}
+
+{{expansion|rtp}}
+Adventurers use the '''Camp Succession''' law, which gives everything to the first valid follower among the following:
+# Oldest child without any title
+# Closest relative without any title
+# The follower with the highest {{iconify|Prowess}}
+
+{{expansion|auh}}
+Rulers with {{iconify|Mandala}} government can only use the '''Mandala Succession''' law, which gives all titles to the oldest child allowed by the Gender Law but they will also have to pass three challenges: one from the predecessor's Mandala Aspect and two from randomly-selected aspects. The difficulty of the challenge depends on the rank of the inherited primary title. The challenge from the predecessor's Mandala Aspect can automatically be passed if the aspect was upgraded to its final level and one challenge can be automatically passed if the dynasty completed the [[File:Southeast asia legacy track.png|24px]] Divine Aspirations legacy. If the heir is imprisoned they automatically lose.
+* [[File:Aspect of creation small.png|24px]] Aspect of Creation requires a {{iconify|Stewardship}} challenge
+* [[File:Aspect of serenity small.png|24px]] Aspect of Serenity requires a {{iconify|Diplomacy}} challenge
+* [[File:Aspect of destruction small.png|24px]] Aspect of Destruction requires a {{iconify|Martial}} challenge
+* [[File:Aspect of trickery small.png|24px]] Aspect of Trickery requires an {{iconify|Intrigue}} challenge
+If the heir passes the challenge it will gain a point in the skill they used.
+* If the heir passes all three challenges they will not suffer any penalty
+* If the heir passes two challenges they will lose 1 Level of Devotion and 100 {{iconify|Legitimacy}}
+* If the heir passes one challenge they will lose 2 Levels of Devotion and 200 {{iconify|Legitimacy}}
+* If the heir fails all challenges they will lose 3 Levels of Devotion and 500 {{iconify|Legitimacy}} and gain 40 {{iconify|Stress}}, all vassals either become independent or join another liege, and every {{iconify|Kingdom}} and above title is destroyed
+
+==== Candidate succession ====
+{{expansion|rtp|auh}}
+Certain governments use a candidate-based succession. Every character eligible for succession has a succession score based on its skills. All noble characters in the realm can spend {{iconify|Influence}} to increase or decrease anyone's score and {{iconify|Opinion}} but there is a limit to how much they can affect the score based on the family rating. They can also ask other rulers to support the same candidate. Upon the death of the governor the family member with the highest succession score will inherit all titles and may reward the character who supported them the most if they're part of another House.
+{| class="mildtable"
+! Government
+! Law
+! Required position
+! Effect
+|-
+| rowspan=2 | Administrative<br>[[File:Administrative government.png]]
+| Appointment Succession
+| Vassal
+| A type of Appointment Succession Law. Under Appointment Succession, the Title and its associated Holdings will be inherited by the Candidate with the highest Candidate Score.<br><br>Any Adult in the Realm may strive to attain a Governorship through various means from Scheming to spending Influence.
+|-
+| Acclaimation Succession
+| Top liege
+| A type of Appointment Succession Law. Under Acclamation Succession, the Title and its associated Holdings will be inherited by the Candidate with the highest Candidate Score.<br><br>The pool of candidates includes the House Heads of the Realm’s Noble Families, Governors, and their family members.
+|-
+| rowspan=2 | Ritsuryō<br>[[File:Japan administrative government.png]]
+| Ritsuryō Appointment Succession
+| Vassal
+| A type of Appointment Succession Law. Under Ritsuryō Appointment Succession, the Title and its associated Holdings will be inherited by the Candidate with the highest Candidate Score.<br><br>Any Adult in the Realm may strive to attain a Governorship through various means from Scheming to spending Influence.
+|-
+| Japanese Regency Succession
+| Top liege
+| A type of Appointment Succession Law. Under Acclamation Succession, the Title and its associated Holdings will be inherited by the Candidate with the highest Candidate Score.<br><br>The pool of candidates includes the House Heads of the Realm’s Noble Families, Governors, and their family members.<br><br>If the Japanese Emperor is chosen as the next Ruling Regent, they will be given the choice of either abdicating as Ten'nō or attempting to re-establish direct rule!
+|}
+
+==== Merit succession ====
+{{expansion|auh}}
+Vassals with {{iconify|Celestial}}, {{iconify|Meritocratic}} or {{iconify|Meritocratic Khanate}} government use a candidate-based succession depending on their administration type. Every character in the realm who has the same Career Path is eligible for succession and the titles will go with the character who has the highest Merit Rank and succession score.
+* Characters who have [[File:Icon game concept celestial standard administration.png|24px]] Standard, [[File:Icon game concept celestial industrial administration.png|24px]] Industrial or [[File:Icon game concept celestial metropolitan administration.png|24px]] Metropolitan administration type use the '''Appointment Succession'''. Succession score is based on overall skill.
+* Characters who have [[File:Icon game concept celestial military administration.png|24px]] Military or [[File:Icon game concept celestial protectorate administration.png|24px]] Protectorate administration type use the '''Commander Succession'''. Succession score is based on {{iconify|Martial}} skill and commander traits.
+
+==== Kurultai ====
+{{expansion|kos}}
+Rulers with {{iconify|Nomadic}} government use the Kurultai law, where there are no requirements besides the cost for designating a heir but what happens upon succession depends on the {{iconify|Obedience}} of the Kurultai. If all Kurultai are Obedient and the region season is not Havsarsan Zud then the realm will have a Stable Succession, where the primary heir inherits everything. The Mongol Empire will always have Stable Succession. If not all Kurultai are Obedient or the region season is Havsarsan Zud then the realm will have a Chaotic Succession, where every sibling and disobedient Kurultai favored by the gender law will gain {{iconify|Pressed Claim}}s on all of the heir's titles, all obedient Kurultai will gain {{red|-25}} {{iconify|Opinion}}, and one of the following events will happen depending on the number of disobedient Kurultai:
+{| class="mildtable"
+! Kurultai
+! Possible events (cannot pick characters who are a {{iconify|Friend}}, {{iconify|Best Friend}}, {{icon|obedience}} Obedient, younger than 12, or not favored by the gender law)
+|-
+! {{icon|obedience}}{{icon|obedience}}{{icon|obedience}}[[File:Disobedient.png|24px]]
+| 
+* 10% of the {{iconify|Herd}} is given to a {{iconify|Nomadic}} neighbor
+* A tributary becomes independent and gains {{red|-100}} {{iconify|Opinion}}
+* A sibling takes over a tributary's realm, becomes independent and gains {{red|-35}} {{iconify|Opinion}}
+* A sibling who is not a {{iconify|Rival}} becomes one
+* A men-at-arms regiment is given to a neighbor
+* Every domain county loses 5-50 {{iconify|Control}}
+* Lose a level of fame
+* 3 courtiers join a neighbor's court
+|-
+! {{icon|obedience}}{{icon|obedience}}[[File:Disobedient.png|24px]][[File:Disobedient.png|24px]]
+| 
+* 20% of the {{iconify|Herd}} is given to a {{iconify|Nomadic}} neighbor
+* 3 tributaries become independent and gain {{red|-100}} {{iconify|Opinion}}
+* 20% of the titles, {{iconify|Gold}} and {{iconify|Herd}} will be inherited by a {{iconify|Count}} or {{iconify|Duke}} sibling who is not {{iconify|Content}} or {{iconify|Generous}}
+* Lose 500 {{icon|legitimacy nomad}} Legitimacy
+* All {{iconify|Gold}} is divided evenly between up to 5 siblings
+|-
+! {{icon|obedience}}[[File:Disobedient.png|24px]][[File:Disobedient.png|24px]][[File:Disobedient.png|24px]]
+| 
+* 40% of the {{iconify|Herd}} is given to a {{iconify|Nomadic}} neighbor
+* All tributaries become independent and gain {{red|-100}} {{iconify|Opinion}}
+* 50% of the titles, {{iconify|Gold}} and {{iconify|Herd}} will be inherited by a {{iconify|Count}} or {{iconify|Duke}} sibling who is not {{iconify|Content}} or {{iconify|Generous}}
+|-
+! [[File:Disobedient.png|24px]][[File:Disobedient.png|24px]][[File:Disobedient.png|24px]][[File:Disobedient.png|24px]]
+| 
+* Every vassal becomes independent and all {{iconify|Kingdom}} and {{iconify|Empire}} titles are destroyed.
+|}
+
+=== Title succession ===
+Rulers who have {{iconify|Feudal}}, {{iconify|Clan}} or {{iconify|Tribal}} government and are at peace can apply a Title Succession law on duchy, kingdom or empire rank titles at the cost of 1500 {{iconify|Prestige}} each. Under Title Succession law all elector characters will vote on who will become the heir and vassals and owe allegiance to the title rather than their liege personally. Kings and emperors can also apply a Title Succession law to all top-rank titles via the Adopt Special Succession Type decision. Removing a Title Succession law costs {{iconify|Prestige}} scaling with title rank.
+{| class="mildtable"
+! width=1% | Law
+! width=1% | Vassal Allegiance Opinion
+! Candidates
+! width=15% | Elector requirements
+! Notes
+! width=15% | Requirements
+|-
+| '''Feudal Elective'''
+| align=center | {{green|+10}}
+| 
+* Legitimate close family member of the current ruler, who is not in line to inherit a Theocracy or Republic. Children of a candidate cannot be nominated.
+* Claimant to the title, who is not in line to inherit a Theocracy or Republic.
+* Valid feudal elector to the title.
+| 
+* Title owner
+* De jure vassal of the title
+* Direct vassal of the title
+* One or two ranks below the title
+| 
+| {{icon|yes}} Feudal government<br>{{icon|no}} The Witenagemont tradition<br>{{icon|no}} Ting-Meet tradition<br>{{icon|no}} Jirga tradition
+|-
+| '''Confederation Elective'''
+| align=center | {{green|+10}}
+| 
+* Legitimate close family member of the current ruler, who is not in line to inherit a Theocracy or Republic.
+* Valid feudal elector to the title.
+| 
+* Title owner
+* De jure vassal of the title
+* Direct vassal of the title
+* One or two ranks below the title
+| 
+* Voting power in this succession law is influenced by the elector's level of fame, level of devotion and number of count-tier vassals
+| {{iconify|King}} or Emperor
+|-
+| '''Scandinavian Elective'''
+| align=center | {{green|+5}}
+| 
+* Legitimate extended family member of the current ruler, who is not in line to inherit a Theocracy or Republic. Children of a candidate cannot be nominated.
+* Claimant to the title, who is not in line to inherit a Theocracy or Republic.
+| 
+* Title owner
+* Direct vassal of the title
+* Not baron
+| 
+* Voting power in this succession law is influenced by the elector's total domain development and capital popular opinion
+| {{icon|yes}} Ting-Meet tradition
+|-
+| '''Saxon Elective'''
+| align=center | {{green|+5}}
+| 
+* Legitimate close family member of the current ruler, who is not in line to inherit a Theocracy or Republic.
+* Claimant to the title, who is not in line to inherit a Theocracy or Republic. Children of a candidate cannot be nominated.
+* Powerful de jure vassal of the title.
+| 
+* Title owner
+* De jure vassal of the title
+* Direct vassal of the title
+* Adult
+* Not incapable
+| 
+| {{icon|yes}} The Witenagemont tradition<br>{{icon|yes}} Title rank is kingdom or empire
+|-
+| '''Tribal Elective'''
+| align=center | {{green|+5}}
+| 
+* Legitimate extended family member of the current ruler, who is not in line to inherit a Theocracy or Republic. Children of a candidate cannot be nominated.
+* Claimant to the title, who is not in line to inherit a Theocracy or Republic.
+* Direct vassal of the title.
+| 
+* Title owner
+* House head
+* Adult with level of devotion 2+
+| 
+* Voting power in this succession law is influenced by the elector's total domain development and capital popular opinion
+| {{icon|yes}} Jirga tradition<br>{{icon|yes}} Title rank is kingdom or empire
+|-
+| '''Tanistry Elective'''
+| align=center | {{green|+5}}
+| 
+* Legitimate dynasty member of the current ruler, who is not in line to inherit a Theocracy or Republic. Children of a candidate cannot be nominated.
+| 
+* Title owner
+* Direct vassal of the title
+* One or two ranks below the title
+| 
+* Vassals will tend to favor older, distant relatives over close family
+| {{icon|heritage}} Brythonic or Goidelic heritage
+|-
+| '''Princely Elective'''
+| align=center | {{green|+5}}
+| 
+* Legitimate close family member of the current ruler, who is not in line to inherit a Theocracy or Republic. Children of a candidate cannot be nominated.
+* Claimant to the title, who is not in line to inherit a Theocracy or Republic.
+* Valid feudal elector to the title.
+| 
+* Title owner
+* Duke of Angria
+* Duke of Bohemia
+* Duke of East Franconia
+* Duke of Luticia
+* Count of Cologne
+* Count of Mainz
+* Count of Trier
+| 
+* If an elector title is held by a character of different faith or destroyed a random de jure vassal will take its place
+* Removing the law costs {{red|10000}} {{iconify|Prestige}}
+* {{icon|vassal}} {{green|+20}} Vassal Limit
+* {{icon|opinion}} {{red|-15}} Minority Vassal Opinion
+| {{icon|empire}} Holy Roman Empire title<br>{{icon|yes}} Feudal or Clan government
+|}
+
+== Borders Wars Policy ==
+The Border Wars Policy law dictates if the liege will join its vassals' defensive wars against foreign rulers. They law is set automatically and cannot be changed.
+* If the title rank is {{iconify|Hegemony}}, realm size is 160 or higher, the country is in a civil war, or House Unity is [[File:House unity antagonistic.png|24px]] Antagonistic, the law will be set to '''Conditional Join'''. The liege will not automatically join its vassals' defensive wars but if the war lasts 3 years they can use the Protect Vassal interaction to do so.
+* If the title rank is not {{iconify|Hegemony}}, realm size is is less than 160, the country is not in a civil war and House Unity is not [[File:House unity antagonistic.png|24px]] Antagonistic, the law will be set to '''Guaranteed Protection'''. The liege will automatically join its vassals' defensive wars.
+
+== Administrative laws ==
+{{expansion|rtp}}
+Administrative governments have access to the following laws. Changing them costs 200 {{iconify|Prestige}}, increased by 1 per Realm Size and reduced by 1 per {{iconify|Learning}}.
+
+'''Provincial War Declaration''' law dictates which governors can wage external wars and requires the Imperial Bureaucracy law to be at the same level or higher.
+* At level 1 governors can declare external wars
+* At level 2 only [[File:Icon game concept frontier administration.png|24px]] Frontier and [[File:Icon game concept naval administration.png|24px]] Naval governors can declare external wars
+* At level 3 only [[File:Icon game concept frontier administration.png|24px]] Frontier and [[File:Icon game concept naval administration.png|24px]] Naval governors can declare external wars and require permission from the emperor
+* At level 4 governors cannot declare external wars
+
+'''Provincial Border Policy''' law dictates which governors can use the Boundary Dispute and Subsume Governorship political schemes and requires the Imperial Bureaucracy law to be one level or more above.
+* At level 1 governors can use the schemes
+* At level 2 governors can use the schemes if they belong to a Powerful Family or Dominant Family and reduces the {{iconify|Opinion}} of administrative vassals by {{red|-5}}
+* At level 3 governors cannot use the schemes and reduces the {{iconify|Opinion}} of administrative vassals by {{red|-10}}
+
+== Celestial laws ==
+{{expansion|auh}}
+Independent rulers with {{iconify|Celestial}} government have access to the following laws. Changing them costs 200 {{iconify|Prestige}}, increased by 1 per Realm Size and reduced by 1 per {{iconify|Learning}}.
+
+'''Retirement Age''' law dictates the retirement age of governors. Can be set to 50, 60, 70, 80 or 90. Governors who are above retirement age have their candidate score reduced and unlock the Retire from Heading the House decision and their liege can use the the Retire Governor interaction on them.
+
+'''Army Command Structure''' law decides how are men-at-arms owned by military governors.
+{| class="mildtable plainlist" style="text-align: center;"
+! Law
+! Men-at-arms for military governors
+! Title men-at-arms
+! Cost to call upon provincial armies
+! Celestial vassal effects
+! Requirements
+|-
+| '''Autonomous Command'''
+| {{green|+2}}
+| 
+| '''Regular'''
+| {{icon|gold}} {{red|-5%}} Tax Base Contribution
+| 
+|-
+| '''Regional Command'''
+| {{red|-2}}
+| {{green|+1}}
+| {{green|-25%}}
+| {{icon|opinion}} {{red|-5}} Opinion
+| Can afford the law cost
+|-
+| '''Imperial Command'''
+| {{icon|no}}
+| 
+| {{green|-50%}}
+| {{icon|opinion}} {{red|-10}} Opinion
+| Can afford the law cost
+|-
+| '''Grand Expansionist Command'''
+| {{icon|no}}
+| {{green|+2}}
+| {{green|-75%}}
+| {{icon|opinion}} {{red|-15}} Opinion
+| [[File:Dynastic cycle phase expansion.png|24px]] Expansion dynastic cycle phase
+|}
+
+=== Hegemony of China laws ===
+The Hegemony of China unlocks two additional laws as long as its government remains {{iconify|Celestial}}.
+
+'''General Secretariat Control''' law dictates which councilor will be the Grand Secretariat diarch. Can be set to Grand Chancellor, Grand Marshal or Imperial Censor. The law cannot be changed if the dynastic cycle is Advancement or Tension. Changing the law does not have any cost but can only be done while the Dynastic Cycle situation is in the [[File:Dynastic cycle phase advancement.png|24px]] Advancement phase.
+
+'''Candidate Score Focus''' law dictates whether the level of fame and level of splendor affect the candidate scores. Changing the law costs 1000 {{iconify|Influence}} and scaled {{iconify|Treasury}}. The law initially starts set to Merit and changing it to Family requires the [[File:Dynastic cycle group anti.png|24px]] Conservative Movement to be the Favored Movement and have 5 Ministries and 3 Powerful Family house heads.
+
+== Imperial Policy ==
+{{expansion|auh}}
+Independent rulers with {{iconify|Ritsuryō}} government have access to the Imperial Policy law, which affects both themselves and their vassals. Changing the law 500 {{iconify|Prestige}}. Vassals can change the law by forming an [[File:Imperial policy faction.png|24px]] Imperial Policy faction and getting the liege to accept its ultimatum or win the civil war.
+{| class="mildtable plainlist"
+! Law
+! Effects
+! Vassal Opinion
+|-
+| '''Disarmament'''
+| 
+* {{icon|development}} {{green|+15%}} Development Growth
+* {{icon|gold}} {{red|+25%}} Men-at-Arms Maintenance
+* {{icon|unknown}} {{red|+50%}} Internal Casus Belli Cost
+* [[File:Holding castle.png|24px]] Can construct and upgrade castle holdings
+| {{red|-15}} Sōryō government
+|-
+| '''Enforced Isolation'''
+| 
+* {{icon|plague resistance}} Reduced plague spread chance
+* {{icon|plague resistance}} {{green|+15}} Plague Resistance
+* {{icon|court physician}} {{green|+25%}} Personal Physician Aptitude for treatments
+* {{icon|development}} {{red|-15%}} Development Growth
+* {{icon|unknown}} {{red|-15%}} Diplomatic Range
+| 
+|-
+| '''Imperial Pacification'''
+| 
+* {{icon|gold}} {{green|-15%}} Men-at-Arms Recruitment Cost
+* {{icon|gold}} {{green|-15%}} Mercenary Hire Cost
+* {{icon|gold}} {{green|-25%}} Armory and Stable Domicile Building Cost
+* {{icon|danger}} {{red|+20}} Danger
+* [[File:Default cb.png|24px]] Unlocks the Imperial County Pacification casus belli
+* {{icon|yes}} Allows declaring external wars
+| {{red|-35}} Ritsuryō government
+|-
+| '''Manor Reform'''
+| 
+* {{icon|time}} {{green|-15%}} Building Construction Time
+* {{icon|gold}} {{green|-15%}} Building Construction Cost
+* {{icon|time}} {{red|+25%}} Domicile Building Construction Time
+* {{icon|gold}} {{red|+25%}} Domicile Building Construction Cost
+* {{icon|influence}} {{red|-25%}} Domicile Influence
+| {{red|-15}} Ritsuryō government
+|-
+| '''Banditry Crackdown'''
+| 
+* {{icon|control}} {{green|+0.2}} Monthly Control
+* {{icon|control}} {{green|+5%}} Control Growth
+* {{icon|gold}} {{green|-10%}} City Building Construction Cost
+* {{icon|danger}} {{green|-10}} Danger
+* {{icon|development}} {{red|-15%}} Development Growth
+| {{green|+15}} Minor Landholder vassal stance
+|-
+| '''Defense Mobilization'''
+| 
+* '''Can only be passed during a Defensive war or when not owning every country de jure part of Empire of Japan'''
+* {{icon|fort level}} {{green|+1}} Fort Level
+* {{icon|raid}} {{green|+15%}} Hostile Raid Time
+* {{icon|gold}} {{green|-25%}} Armory and Stable Domicile Building Cost
+* {{icon|gold}} {{green|-15%}} Men-at-Arms Maintenance
+* {{icon|advantage}} {{green|+5}} Advantage in counties with the same cultural heritage
+* [[File:Default cb.png|24px]] Unlocks the Imperial Reconquest of Japan casus belli
+| 
+|}
+
+== Coronation ==
+{{expansion|cor}}
+As long as the Coronation Laws game rule has not been set to No Coronation Laws, every {{iconify|King}} and above that does not have {{iconify|Ritsuryō}} or {{iconify|Sōryō}} government will have the Coronation law. Unlike other laws, it cannot be changed manually and is instead increased automatically upon completing a [[File:Activity coronation.png|24px]] Coronation activity. Every new ruler will start with the law set to the lowest level and depending on game rules increasing the title rank to {{iconify|Empire}} or {{iconify|Hegemony}} may decrease it as well.
+{| class="mildtable plainlist"
+! !! [[File:Uncrowned.png|24px]] Uncrowned !! [[File:Crowned king.png|24px]] Crowned Sovereign !! [[File:Crowned emperor.png|24px]] Anointed Sovereign
+|-
+! Effects
+| 
+* {{icon|legitimacy}} {{red|-2.5}} Monthly Legitimacy
+* {{icon|legitimacy}} {{red|-25%}} Legitimacy Gain
+* {{icon|opinion}} {{red|-10}} Vassal Opinion
+* {{icon|no}} Character and spouse cannot use Crown/Regalia artifacts
+| 
+* {{icon|opinion}} {{green|+5}} Courtly Vassal Opinion
+* {{icon|opinion}} {{green|+5}} Minor Landholder Vassal Opinion
+* {{icon|artifact}} Character and spouse can use Crown/Regalia artifacts
+| 
+* {{icon|opinion}} {{green|+10}} Courtly Vassal Opinion
+* {{icon|opinion}} {{green|+10}} Minor Landholder Vassal Opinion
+* {{icon|opinion}} {{green|+10}} Zealot Vassal Opinion
+* {{icon|artifact}} Character and spouse can use Crown/Regalia artifacts
+|-
+! Source
+| New ruler
+| [[File:Coronation type normal icon.png|24px]] Coronation activity variant
+| [[File:Coronation type anointment icon.png|24px]] Anointment activity variant
+|}
+
+== References ==
+<references/>
+{{Mechanics navbox}}
+[[Category:Realm]]

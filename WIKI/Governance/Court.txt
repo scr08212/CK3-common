@@ -1,0 +1,2696 @@
+{{Version|1.18}}
+[[File:Court positions.png|thumb|330px|Court positions]]
+Each landed character has a court, which consists of the unlanded characters of a realm. A court may contain family members, knights, lovers, courtiers, hostages and guests.
+
+== Courtiers ==
+Courtiers are unlanded characters living at a ruler's court. They can be appointed as councilors, commanders, knights or vassals. If a courtier does not have a court position or [[minor title decision|minor title]] they have a 2% chance to leave each month. The chance is decreased by {{green|−0.1%}} for each 10 points of {{icon|opinion}} opinion above 0 and increased by {{red|+0.1%}} for each 10 points of {{iconify|opinion}} below 0. In addition the chance to leave can be modified by the following:
+{| class="mildtable"
+! Condition
+! Chance to leave
+|-
+
+| Child
+| {{green|−3%}}
+|-
+| Any claim
+| {{green|−1%}}
+|-
+| {{iconify|Pregnant}}
+| {{green|−1%}}
+|-
+| Married to the liege
+| {{green|−0.5%}}
+|-
+| {{icon|health}} Low health
+| {{green|−0.3%}}
+|-
+| Liege or another courtier is a friend
+| {{green|−0.2%}}
+|-
+| Liege or another courtier is a lover
+| {{green|−0.2%}}
+|-
+| Liege or another courtier is a close family member
+| {{green|−0.2%}}
+|-
+| {{iconify|Bastard}}
+| {{red|+0.3%}}
+|-
+| {{iconify|Rival}}
+| {{red|+0.5%}}
+|}
+
+=== Hostages ===
+Hostages are landless children that are a Close Family member of another ruler who sends them to another ruler's court as an assurance of peace or submission. Hostages can be offered, demanded or exchanged both to prevent a war or to help end it. A character having a hostage will be called its Warden and will gain the following rewards:
+* {{icon|prestige}} {{green|+0.1}} to {{green|+1}} Monthly Prestige depending on difference in title rank
+* {{icon|piety}} {{green|+0.1}} to {{green|+1}} Monthly Piety depending on difference in title rank if the hostage's faith is considered Hostile or Evil
+* {{icon|renown}} {{green|+0.25}} to {{green|+0.5}} Monthly Renown depending on the Level of Splendor of the hostage's dynasty if they are part of a different dynasty
+* When the hostage reaches the age of 16 there is a chance to gain a [[File:Hook-perpetual.png|frameless|24x24px]] Perpetual Hook on them
+* If the hostage's liege declares war it will bring the option to kill the hostage and gain 10 {{iconify|Dread}} or spare it and gain 10 {{iconify|Opinion}} with the hostage
+
+If a ruler declares war upon a Warden who has someone from their family as hostage it will lose a level of fame, 250 {{iconify|Prestige}} and 25 {{iconify|Opinion}} with all family members and suffer the following penalties for 5 years:
+* {{icon|opinion}} {{red|-25}} Opinion
+* {{icon|time}} {{red|-50%}} Siege Phase Time
+* {{icon|damage}} {{red|-15%}} Army Damage
+* {{icon|toughness}} {{red|-15%}} Army Toughness
+
+== Guests ==
+Guests are unlanded characters that stay at a ruler's court for three years and then have a monthly chance to leave. During this time they will interact with other members of the court and may take part in random [[event]]s. They can be convinced to stay permanently in the realm by being given a seat on the council, a court position or a landed or minor [[title]], or by using the [[seduction scheme]]. Guests can also be directly recruited by paying a variable amount of {{iconify|Gold}} — the base amount is 10 gold, and increases if the guest has claims, useful traits or high skills. Guests are more likely to visit a court if they have a definite reason, such as the ruler being strong enough to press their claims, or the ruler or one of its adult children being unmarried. The fewer courtiers a character has the more guests it will receive.
+
+Unlanded characters can be asked to visit a court with the "Invite to Court" interaction. The base reluctance is {{red|-50}} and, in the base game, typically cannot be overcome without a {{icon|weak hook}} hook. With the Royal Court DLC, sufficiently high Lodging Standards make it possible to overcome the base reluctance.
+
+If a guest with claims is about to leave, the liege will be given the option to convince the guest to stay for one year.
+
+== Court positions ==
+Court positions are specialized roles that can be granted to courtiers and direct vassals and grant increasingly powerful benefits but for rulers cost a monthly salary. Characters who are imprisoned cannot be given court positions with the exception of Executioner. A ruler must pay {{red|200}} {{iconify|Prestige}} to fire someone with a court position while an adventurer must pay {{red|25}} {{iconify|Prestige}}. If a character's court position is revoked the character will gain a decaying {{red|−30}} {{iconify|Opinion}} with the liege, which is removed if the character is given another court position. Court positions can be automated to either suggest the best candidate or automatically assign it.
+
+Common and ruler court positions can perform 1-3 additional tasks, which grant it additional bonuses but also increase the salary by +0.06 per primary title rank.
+
+Each court position has a salary in {{iconify|Gold}} and possibly {{iconify|Prestige}}, which is affected by the following:
+* {{green|−75%}} if government is {{iconify|Tribal}} or {{iconify|Wanua}}
+* {{green|−20%}} if culture has the Esteemed Hospitality tradition
+* {{red|+10%}} if realm size is 30-59
+* {{red|+20%}} if realm size is 60-89
+* {{red|+40%}} if realm size is 90-199
+* {{red|+60%}} if realm size is 120+
+* {{red|+25%}} if culture is is the Early Medieval era
+* {{red|+50%}} if culture is is the High Medieval era
+* {{red|+75%}} if culture is is the Late Medieval era
+* {{red|+25%}} if {{iconify|Emperor}}
+{{expansion|rtp|auh}}
+If the ruler's government uses the {{iconify|Treasury}} resource the salary will be paid with it instead of {{iconify|Gold}}.
+{{expansion|auh}}
+The owner of the {{icon|kingdom}} Chrysanthemum Throne title cannot be given court positions unless they become landed.
+
+=== Aptitude ===
+The bonuses of a court position depend on the courtier or vassal's aptitude. Aptitude goes through 5 levels, each level requiring 20 points of aptitude:
+{| class="mildtable"
+! Aptitude level !! Minimum points
+|-
+| Terrible || 0
+|-
+| Poor || 20
+|-
+| Average || 40
+|-
+| Good || 60
+|-
+| Excellent || 80
+|}
+
+{{green|+20}} Aptitude for Family members of the same culture (Culture has the Family Business tradition).
+
+{{red|−20}} Aptitude for Vassals.
+
+{{red|−75}} Aptitude for {{iconify|Infirm}} characters ({{red|−50}} for the [[File:Caravan master court position.png|24px]] Caravan Master, none for the [[File:Court gardener court position.png|24px]] Court Gardener).
+
+=== Common positions ===
+The following court positions are available to all characters and always join the character's entourage. Rulers must pay a salary but adventurers do not.
+{| class="mildtable plainlist"
+! Position
+! Effects on liege
+! Effects on position holder
+! Positions
+! Requirements
+! Aptitude
+! DLC
+|-
+| {{iconbox|Personal Physician|The Personal Physician is responsible for the health and well-being of the Court they are in. They will treat disease and suture wounds to the best of their abilities.|image=Court physician court position.png|w=20em}}
+|
+* {{icon|health}} Performs Medical Treatments
+* {{icon|health}} {{green|-50%}} Wound Recovery Time
+* {{icon|Health boost}} {{green|+0.1}} to {{green|+0.25}} Court Health
+* {{icon|plague resistance}} {{green|+1}} to {{green|+10}} Plague Resistance
+* [[File:Physician treat epidemic.png|24px]] Control Plagues
+** {{icon|plague resistance}} {{green|+2}} to {{green|+15}} Plague Resistance
+** {{iconify|Gold}}/Treasury Salary
+* [[File:Physician guard family.png|24px]] Advanced Research
+** [[File:Focus invalid.png|24px]] {{green|+2%}} to {{green|+10%}} Monthly Lifestyle Experience
+** {{iconify|Gold}}/Treasury Salary
+* [[File:Physician improve self.png|24px]] Improve Skills
+** {{icon|novice physician}} {{green|+2%}} Monthly chance to gain Novice Physician experience
+** {{icon|learning}} {{green|+1%}} Monthly chance to gain {{green|+1}} Learning
+** {{iconify|Prestige}} Salary
+|{{icon|Health boost}} {{green|+0.25}} Health
+* {{icon|opinion}} {{green|+5}} Opinion of Liege
+* {{icon|alert}} {{yellow|Powerful agent}}
+| 1
+| {{icon|no}}{{iconify|Vassal}}
+|
+* {{green|+1.75}} per {{iconify|Learning}} (Max {{green|+50}})
+* {{green|+26}} {{iconify|Erudite Oracle}}
+* {{green|+16}} {{iconify|Mastermind Philosopher}}
+* {{green|+12}} {{iconify|Astute Intellectual}}
+* {{green|+8}} {{iconify|Insightful Thinker}}
+* {{green|+4}} {{iconify|Conscientious Scribe}}
+* {{green|+45}} {{iconify|Renowned Physician}}
+* {{green|+30}} {{iconify|Physician}}
+* {{green|+15}} {{iconify|Novice Physician}}
+* {{green|+15}} {{iconify|Herbalist}}
+* {{green|+15}} {{iconify|Miracle Worker}}
+* {{green|+10}} {{iconify|Mystic}}
+* {{green|+5}} {{iconify|Wise Man}}/Woman
+* {{red|−10}} {{iconify|Severely Injured}}
+* {{red|−15}} {{iconify|Brutally Mauled}}
+* {{red|−15}} {{iconify|Maimed}}
+* {{red|−50}} {{iconify|Blind}}
+| 
+|-
+| {{iconbox|Caravan Master|The Caravan Master assists you when traveling and takes charge of all itineraries. They aim to ensure you arrive at your destination safely and on-time.|image=Caravan master court position.png|w=20em}}
+|
+* [[File:Wandering lifestyle.png|24px]] {{green|+2%}} to {{green|+25%}} Monthly Wandering Lifestyle Experience
+* {{icon|safety}} Increases Travel Safety
+* {{icon|travel speed}} Increases Travel Speed
+* [[File:Caravan master prepare travels.png|24px]] Stock Up for Travels
+** {{icon|safety}} {{green|+3}} to {{green|+20}} Travel Safety
+** {{icon|travel speed}} {{green|+3}} to {{green|+20}} Travel Speed
+** {{iconify|Gold}}/Treasury Salary
+* [[File:Caravan master prepare armies.png|24px]] Prepare Armies
+** {{icon|army speed}} {{green|+2%}} to {{green|+10%}} Army Movement Speed
+** {{icon|supply}} {{green|+4%}} to {{green|+20%}} Supply Limit
+** {{iconify|Gold}}/Treasury Salary
+* [[File:Caravan master improve self.png|24px]] Improve Skills
+** {{icon|martial}} {{green|+0.5%}} Monthly chance to gain {{green|+1}} Martial
+** {{icon|stewardship}} {{green|+0.5%}} Monthly chance to gain {{green|+1}} Stewardship
+** {{icon|traveler}} {{green|+2%}} Monthly chance to gain Traveler experience
+** {{iconify|Prestige}} Salary
+|
+* {{icon|diplomacy}} {{green|+1}} Diplomacy
+* {{icon|Health boost}} {{green|+0.25}} Health
+* {{icon|opinion}} {{green|+5}} Opinion of Liege
+* {{icon|no}} Cannot have another position
+| 1
+|
+* {{icon|no}}{{iconify|Vassal}}
+* {{icon|no}}{{iconify|Spouse}}
+* {{icon|no}}{{iconify|Diarch}}
+* {{icon|no}}[[File:Council.png|24px]] Councilor
+* {{icon|no}}{{iconify|Tax Collector}}
+|
+* {{green|+1.3}} per {{iconify|Stewardship}} (Max {{green|+50}})
+* {{green|+1}} per {{iconify|Learning}} (Max {{green|+50}})
+* {{green|+1.8}} per {{iconify|Travel Speed}} above 10
+* {{green|+1.8}} per {{iconify|Safety}} above 10
+* {{green|+5}} per Known Language (Max {{green|+50}})
+* {{green|+40}} {{iconify|Traveler}} with 75+ experience
+* {{green|+30}} {{iconify|Traveler}} with 50+ experience
+* {{green|+20}} {{iconify|Traveler}}
+* {{green|+10}} {{iconify|Adventurer}}
+* {{green|+10}} {{iconify|Herbalist}}
+* {{green|+10}} {{iconify|Desert Warrior}}
+* {{green|+10}} {{iconify|Flexible Leader}}
+* {{green|+10}} {{iconify|Forest Fighter}}
+* {{green|+10}} {{iconify|Jungle Stalker}}
+* {{green|+10}} {{iconify|Open Terrain Expert}}
+* {{green|+10}} {{iconify|Rough Terrain Expert}}
+* {{green|+10}} {{iconify|Winter Soldier}}
+* {{green|+5}} {{iconify|Administrator}}
+* {{green|+5}} {{iconify|Brave}}
+* {{green|+5}} {{iconify|Diligent}}
+* {{green|+5}} {{iconify|Herbalist}}
+* {{green|+5}} {{iconify|Hunter}}
+* {{green|+5}} {{iconify|Novice Physician}}
+* {{green|+5}} {{iconify|Scholar}}
+* {{red|−5}} {{iconify|Eager Reveler}}
+* {{red|−10}} {{iconify|Lazy}}
+* {{red|−20}} {{iconify|Craven}}
+* {{red|−30}} {{iconify|Club-footed}}
+* {{red|−30}} {{iconify|Maimed}}
+* {{red|−50}} {{iconify|Blind}}
+* {{red|always 0}} if {{iconify|Incapable}}
+| 
+|-
+| {{iconbox|Bodyguard|A Bodyguard is the final line of defense against any and all attackers. Where their charge goes they follow, and they will not hesitate to put themselves in the way of any danger that might be lurking out there.|image=Bodyguard court position.png|w=20em}}
+|
+* {{icon|scheme potential}} {{green|−1%}} to {{green|−10%}} Enemy Hostile Scheme Potential
+* {{icon|unknown}} {{green|50%}} Chance to prevent an Assassination Murder scheme
+* {{icon|unknown}} Reduces risk to die or be captured in Battle
+* {{icon|yes}} Always joins travel entourages
+* [[File:Executioner terrify court.png|24px]] Terrify Court
+** {{icon|dread}} {{green|+1}} to {{green|+10}} Natural Dread
+** {{icon|opinion}} {{red|−1}} to {{red|−10}} Courtier and Guest Opinion
+** {{iconify|Prestige}} Salary
+** Only available to rulers
+|
+* {{icon|intrigue}} {{green|+1}} Intrigue
+* {{icon|dread}} {{green|+10}} Natural Dread
+* {{icon|scheme potential}} {{green|−10%}} Enemy Hostile Scheme Potential
+* {{icon|opinion}} {{green|+5}} Opinion of Liege
+* {{icon|no}} Cannot have another position
+* {{icon|alert}} {{yellow|Powerful agent}}
+| 2
+|
+* {{icon|yes}} Gender can be combatant
+* {{icon|no}}{{iconify|Vassal}}
+* {{icon|no}}{{iconify|Spouse}}
+* {{icon|no}}[[File:Council.png|24px]] Councilor
+* {{icon|no}}{{iconify|Tax Collector}}
+* {{icon|no}}{{iconify|Blind}}
+* {{icon|no}}{{iconify|Infirm}}
+|
+* {{green|+4}} per {{iconify|Prowess}} (Max {{green|+50}})
+* {{green|+40}} [[File:Soulmate.png|24px]] Soulmate
+* {{green|+30}} {{iconify|Best Friend}}
+* {{green|+20}} {{iconify|Brave}}
+* {{green|+20}} {{iconify|Shieldmaiden}}
+* {{green|+15}} {{iconify|Friend}}
+* {{green|+15}} {{icon|node diplomacy}} Praetorian Guard perk
+* {{green|+10}} {{iconify|Paranoid}}
+* {{green|+5}} {{iconify|Aspiring Blademaster}}
+* {{green|+5}} {{iconify|Gallant}}
+* {{red|−10}} Palace Politics tradition
+* {{red|−15}} {{iconify|Craven}}
+| {{icon|roc}}
+|-
+| {{iconbox|Cultural Emissary|The purpose of the Cultural Emissary is to promote understanding between different cultures by way of celebration and reverence.|image=Cultural emissary court position.png|w=20em}}
+|
+* {{icon|opinion}} {{green|+2}} to {{green|+20}} Different Culture Opinion
+* {{icon|opinion}} {{green|+2}} to {{green|+20}} Different Faith Opinion
+* {{icon|opinion}} {{green|-5%}} to {{green|-25%}} Different Faith Popular Opinion
+* [[File:Chronicler espouse legend.png|24px]] Commend Legend Abroad
+** {{icon|unknown}} {{green|+25%}} to {{green|+85%}} Chance a ruler promotes the character's legends
+** {{iconify|Gold}}/Treasury Salary
+** {{icon|lod}} Requires promoting a legend
+* [[File:Cupbearer court position task flatter dignitaries.png|24px]] Flatter Dignitaries
+** {{icon|scheme potential}} {{green|+1%}} to {{green|+20%}} Personal Scheme Potential
+** {{icon|scheme phase length}} {{green|−5}} to {{green|−75}} Days Romance Phase Length
+** {{icon|scheme phase length}} {{green|−5}} to {{green|−75}} Days Seduce Phase Length
+** {{icon|scheme phase length}} {{green|−5}} to {{green|−75}} Days Sway Phase Length
+** {{iconify|Prestige}} Salary
+|
+* {{icon|opinion}} {{green|+10}} Different Culture Opinion
+* {{icon|opinion}} {{green|+10}} Different Faith Opinion
+* {{icon|opinion}} {{green|-20%}} Different Faith Popular Opinion
+* {{icon|opinion}} {{green|+5}} Opinion of Liege
+| 1
+|
+* [[File:Culture legacy track.png|24px]] Customs Dynasty Legacy (Level 4)
+* {{icon|diplomacy}} 8+ Diplomacy
+|
+* {{green|+2.5}} per {{iconify|Diplomacy}} (Max {{green|+50}})
+* {{green|+10}} per Known Language (Max {{green|+100}})
+* {{green|+30}} {{iconify|Diplomat}}
+* {{green|+15}} {{iconify|Gregarious}}
+* {{green|+15}} {{iconify|Just}}
+* {{red|−10}} {{iconify|Severely Injured}}
+* {{red|−15}} {{iconify|Brutally Mauled}}
+* {{red|−15}} {{iconify|Maimed}}
+| {{icon|roc}}
+|-
+| {{iconbox|Guru|A guru serves as both counselor and sage, advising rulers on earthly concerns and sacred truths.|image=Court guru court position.png|w=20em}}
+|
+* {{icon|piety}} {{green|+2%}} to {{green|+20%}} Monthly Piety
+* {{icon|stress loss}} {{green|+2%}} to {{green|+10%}} Stress Loss
+* {{icon|piety}} {{red|200}} Piety cost to revoke the position
+* [[File:Guru teach learning.png|24px]] Enlighten the Mind
+** {{icon|learning lifestyle}} {{green|+2}} to {{green|+15}} Monthly Learning Lifestyle Experience
+** {{icon|learning}} {{green|+1}} Learning
+** {{icon|stress gain}} {{red|+20%}} Stress Gain
+** {{iconify|Prestige}} Salary
+* [[File:Guru teach diplomacy.png|24px]] Refine the Tongue
+** {{icon|diplomacy lifestyle}} {{green|+2}} to {{green|+15}} Monthly Diplomacy Lifestyle Experience
+** {{icon|diplomacy}} {{green|+1}} Diplomacy
+** {{icon|stress gain}} {{red|+20%}} Stress Gain
+** {{iconify|Prestige}} Salary
+* [[File:Guru teach intrigue.png|24px]] Sharpen the Senses
+** {{icon|intrigue lifestyle}} {{green|+2}} to {{green|+15}} Monthly Intrigue Lifestyle Experience
+** {{icon|intrigue}} {{green|+1}} Intrigue
+** {{icon|stress gain}} {{red|+20%}} Stress Gain
+** {{iconify|Prestige}} Salary
+| 
+* {{icon|opinion}} {{green|+20}} General Opinion
+* {{icon|opinion}} {{green|+5}} Opinion of Liege
+| 1
+| 
+* {{icon|piety eastern}} Buddhist or Hindu
+* {{iconify|Wise Man}}/Woman
+* {{icon|no}}{{iconify|Spouse}}
+* {{icon|no}}[[File:Council.png|24px]] Councilor
+* {{icon|no}}{{iconify|Tax Collector}}
+| 
+* {{green|+2}} per {{iconify|Learning}} (max 50)
+* {{green|+1}} per {{iconify|Diplomacy}} (max 50)
+* {{green|+1}} per {{iconify|Intrigue}} (max 50)
+* {{green|+20}} if any skill is above 20
+* {{green|+40}} {{iconify|Genius}}
+* {{green|+20}} {{iconify|Intelligent}}
+* {{green|+20}} {{iconify|Theologian}}
+* {{green|+10}} {{iconify|Quick}}
+* {{green|+10}} {{iconify|Shrewd}}
+* {{green|+15}} {{iconify|Calm}}
+* {{green|+15}} {{iconify|Patient}}
+* {{green|+15}} {{iconify|Scholar}}
+| {{icon|auh}}
+|}
+
+=== Ruler positions ===
+Ruler court positions are available only to rulers.
+{| class="mildtable plainlist"
+! Position
+! Effects on liege
+! Effects on position holder
+! Requirements
+! Aptitude
+! DLC
+|-
+| '''Antiquarian'''<br>[[File:Antiquarian court position.png]]
+|
+* [[File:Artifact quality.png|24px]] {{green|−7%}} to {{green|−35%}} Artifact Decay Reduction
+* {{icon|yes}} Enables to Reforge or Repair Artifacts
+* {{icon|decision}} Enables the Commission Artifact Decision
+* {{icon|unknown}} '''0''' to {{green|−80%}} Chance to lose artifacts in raids and sieges
+* [[File:Antiquarian court position task improve artifacts.png|24px]] Improve Artifacts
+** {{icon|unknown}} {{green|+3%}} to {{green|+35%}} Yearly chance to improve an equipped artifact
+** {{iconify|Gold}}/Treasury Salary
+* [[File:Antiquarian court position task exibit artifacts.png|24px]] Exibit Illustrious Artifacts
+** {{icon|stewardship}} {{green|+2}} Stewardship
+** {{icon|grandeur}} {{green|+2}} to {{green|+10}} Court Grandeur Bonus
+** {{icon|legend}} {{green|+5%}} to {{green|+50%}} Legend Spread Chance
+** [[File:Vassal stance courtly.png|24px]] {{green|+2}} to {{green|+10}} Courtly Vassal Opinion
+** {{iconify|Prestige}} Salary
+** {{icon|roc}} Requires a displayed Illustrious court artifact
+* [[File:Antiquarian court position task scout for artifacts.png|24px]] Search for Rare Artifacts
+** {{icon|inspiration}} {{green|+3%}} to {{green|+35%}} Yearly chance to give a courtier an Adventure inspiration
+** {{iconify|Prestige}} Salary
+** {{icon|roc}} Requires a royal court
+|
+* {{icon|stewardship}} {{green|+2}} Stewardship
+* [[File:Artifact quality.png|24px]] {{green|-20%}} Artifact Decay Reduction
+* {{icon|opinion}} {{green|+5}} Opinion of Liege
+* {{icon|no}} Cannot have another position
+|
+* {{icon|no}}{{iconify|Vassal}} or 12+ Learning
+* {{icon|no}}{{iconify|Spouse}}
+* {{icon|no}}[[File:Council.png|24px]] Councilor
+* {{icon|no}}{{iconify|Tax Collector}}
+|
+* {{green|+2.5}} per {{iconify|Learning}} (Max {{green|+60}})
+* {{green|+30}} Has completed an Inspiration
+* {{green|+15}} {{iconify|Administrator}}
+* {{green|+15}} {{iconify|Diligent}}
+* {{green|+15}} {{iconify|Overseer}}
+* {{green|+15}} {{iconify|Shy}}
+* {{red|−10}} {{iconify|Severely Injured}}
+* {{red|−15}} {{iconify|Brutally Mauled}}
+* {{red|−15}} {{iconify|Maimed}}
+* {{red|−20}} {{iconify|Vassal}}
+| 
+|-
+| '''Master of the Hunt'''<br>[[File:Master of the hunt court position.png]]
+|
+* {{icon|hunter}} {{green|+2%}} to {{green|+20%}} Hunter Experience Gain
+* {{icon|unknown}} Increases Hunt Success Chance
+* {{icon|unknown}} Enables special Hunt activity events
+* [[File:Master of hunt court position task regular game.png|24px]] Track Regular Game
+** {{icon|unknown}} {{green|+10%}} to {{green|+100%}} Yearly chance of sighting regular game
+** {{iconify|Gold}}/Treasury Salary
+* [[File:Master of hunt court position task dangerous game.png|24px]] Track Dangerous Game
+** {{icon|unknown}} {{green|+10%}} to {{green|+100%}} Yearly chance of sighting dangerous game
+** {{iconify|Gold}}/Treasury Salary
+* [[File:Master of hunt court position task legendary game.png|24px]] Track Legendary Game
+** {{icon|unknown}} {{green|+1%}} to {{green|+17%}} Yearly chance of sighting legendary game
+** {{iconify|Gold}}/Treasury Salary
+** {{icon|hunter}} Requires the Hunter trait
+|
+* {{icon|martial lifestyle}} {{green|+10%}} Monthly Martial Lifestyle Experience
+* {{icon|hunter}} {{green|+25%}} Hunter Experience Gain
+* {{icon|unknown}} Increases Hunt Success Chance
+* {{icon|opinion}} {{green|+10}} Opinion of Liege
+|
+* {{icon|yes}} Gender can be combatant
+* {{icon|no}}{{iconify|Blind}}
+* {{icon|no}}{{iconify|Infirm}}
+|
+* {{green|+25}} by default
+* {{green|+2}} per {{iconify|Prowess}} (Max {{green|+50}})
+* {{green|+1.5}} per {{iconify|Learning}} (Max {{green|+50}})
+* {{green|+40}} {{iconify|Master Hunter}}
+* {{green|+30}} {{iconify|Hunter}}
+* {{green|+20}} {{iconify|Novice Hunter}}
+* {{green|+5}} {{iconify|Brave}}
+* {{red|−10}} {{iconify|Craven}}
+* {{red|−15}} {{iconify|Severely Injured}}
+* {{red|−25}} {{iconify|Brutally Mauled}}
+* {{red|−25}} {{iconify|Maimed}}
+* {{red|−50}} {{iconify|Blind}}
+| 
+|-
+| '''Seneschal'''<br>[[File:Seneschal court position.png]]
+|
+* {{icon|opinion}} {{green|+1}} to {{green|+10}} Courtier and Guest Opinion
+* {{icon|control}} {{green|+0.1}} to {{green|+0.3}} Monthly Control in Capital
+* {{icon|legitimacy}} {{green|+0.1}} to {{green|+0.7}} Monthly Legitimacy
+* [[File:Seneschal improve court.png|24px]] Organize Court
+** [[File:Court.png|24px]] {{green|+2}} to {{green|+10}} Aptitude of Other Court Positions
+** {{iconify|Prestige}} Salary
+* [[File:Seneschal improve domain.png|24px]] Manage Domain
+** {{icon|control}} {{green|+0.02}} to {{green|+0.2}} Monthly Control
+** {{iconify|Gold}}/Treasury Salary
+* [[File:Seneschal handling estate.png|24px]] Handle Estate
+** {{icon|influence}} {{green|+0.1}} to {{green|+1}} Monthly Influence
+** {{icon|time}} {{green|−5%}} to {{green|−20%}} Domicile Building Construction Time
+** {{iconify|Gold}}/Treasury Salary
+** {{iconify|Prestige}} Salary
+** {{icon|rtp}} Requires an estate
+|
+* {{icon|stewardship lifestyle}} {{green|+20%}} Monthly Stewardship Lifestyle Experience
+* {{icon|opinion}} {{green|+5}} General Opinion
+* {{icon|opinion}} {{green|+5}} Opinion of Liege
+* {{icon|no}} Cannot have another position
+|
+* {{icon|no}}{{iconify|Nomadic}}
+* {{icon|no}}{{iconify|Vassal}} or 12+ Stewardship
+* {{icon|no}}{{iconify|Spouse}}
+* {{icon|no}}[[File:Council.png|24px]] Councilor
+* {{icon|no}}{{iconify|Tax Collector}}
+|
+* {{green|+25}} by default
+* {{green|+2.5}} per {{iconify|Stewardship}} (Max {{green|+50}})
+* {{green|+20}} {{iconify|Administrator}}
+* {{green|+20}} {{iconify|Organizer}}
+* {{green|+20}} {{iconify|Overseer}}
+* {{red|−10}} {{iconify|Severely Injured}}
+* {{red|−15}} {{iconify|Brutally Mauled}}
+* {{red|−15}} {{iconify|Maimed}}
+* {{red|−20}} {{iconify|Vassal}}
+| 
+|- id="Court Gardener"
+| '''Court Gardener'''<br>[[File:Court gardener court position.png]]
+|
+* {{icon|opinion}} {{green|+10}} Courtier and Guest Opinion
+* {{icon|development}} {{green|+0.05}} to {{green|+0.5}} Monthly Development in Realm Capital
+* [[File:Royal architect public works.png|24px]] Public Works
+** {{icon|development}} {{green|+0.01}} to {{green|+0.15}} Monthly Development in Realm Capital
+** {{iconify|Gold}}/Treasury Salary
+|
+* {{icon|stress}} {{green|−25%}} Stress Gain
+* {{icon|development}} {{green|+0.02}} Monthly Development in Realm Capital
+* {{icon|stewardship lifestyle}} {{green|+10%}} Monthly Stewardship Lifestyle Experience
+* {{icon|opinion}} {{green|+5}} Opinion of Liege
+* {{icon|no}} Cannot have another position
+|
+* {{icon|yes}} Culture has a tradition that unlocks Court Gardener
+* {{icon|no}}{{iconify|Vassal}} or 12+ Stewardship
+* {{icon|no}}[[File:Council.png|24px]] Councilor
+* {{icon|no}}{{iconify|Tax Collector}}
+|
+* {{green|+2.5}} per {{iconify|Stewardship}} (Max {{green|+60}})
+* {{green|+20}} [[File:Trait gardener.png|24px]] Gardener
+* {{green|+10}} {{iconify|Herbalist}}
+* {{green|+10}} {{iconify|Patient}}
+* {{green|+5}} {{iconify|Architect}}
+| 
+|- id="Master Assassin"
+| '''Master Assassin'''<br>[[File:Master assassin court position.png]]
+|
+* {{icon|scheme phase length}} {{green|−3}} to {{green|−15}} Days Hostile Scheme Phase Length
+* {{icon|scheme success chance}} {{green|−2.0%}} to {{green|−10.0%}} Enemy Hostile Scheme Success Chance
+* [[File:Food taster court position task brew poisons.png|24px]] Brew Poisons
+** {{icon|scheme secrecy}} {{green|+1%}} to {{green|+20%}} Scheme Secrecy
+** {{icon|scheme potential}} {{green|+1%}} to {{green|+20%}} Hostile Scheme Potential
+** {{iconify|Gold}}/Treasury Salary
+|
+* {{icon|scheme}} {{green|+1}} Max Hostile Schemes
+* {{icon|scheme success chance}} {{green|+10.0%}} Initial Hostile Scheme Success Chance
+* {{icon|intrigue lifestyle}} {{green|+20%}} Monthly Intrigue Lifestyle Experience
+* {{icon|opinion}} {{green|+5}} Opinion of Liege
+* {{icon|no}} Cannot have another position
+|
+* {{icon|yes}} Gender can be combatant
+* {{icon|yes}} Faith has the Sacred Murder tenet
+* {{icon|no}} Faith has the Pacifism tenet
+* {{icon|no}} Faith has the Dharmic Pacifism tenet
+* {{icon|no}} Dynasty has any ruler
+* {{icon|no}}{{iconify|Spouse}}
+* {{icon|no}}[[File:Council.png|24px]] Councilor
+* {{icon|no}}{{iconify|Tax Collector}}
+|
+* {{green|+2}} per {{iconify|Prowess}} (Max {{green|+50}})
+* {{green|+1.5}} per {{iconify|Intrigue}} (Max {{green|+50}})
+* {{green|+25}} {{iconify|Brave}}
+* {{green|+25}} {{iconify|Zealous}}
+* {{green|+25}} {{iconify|Order Member}}
+* {{green|+25}} {{iconify|Crusader}}
+* {{green|+25}} {{iconify|Mujahid}}
+* {{green|+25}} {{iconify|Warrior of the Faith}}
+* {{green|+20}} {{iconify|Murderer}}
+* {{green|+15}} {{iconify|Legendary Blademaster}}
+* {{green|+10}} {{iconify|Blademaster}}
+* {{green|+5}} {{iconify|Aspiring Blademaster}}
+* {{green|+10}} {{iconify|Deceitful}}
+* {{green|+10}} [[File:Khvarenah legacy track.png|24px]] Brilliance dynasty legacy
+* {{red|−15}} {{iconify|Severely Injured}}
+* {{red|−20}} {{iconify|Honest}}
+* {{red|−20}} {{iconify|Just}}
+* {{red|−25}} {{iconify|Brutally Mauled}}
+* {{red|−25}} {{iconify|Maimed}}
+* {{red|−50}} {{iconify|Compassionate}}
+* {{red|−50}} {{iconify|Blind}}
+| 
+|-
+| '''Court Brewmaster'''<br>[[File:Court brewmaster court position.png]]
+|
+* {{icon|opinion}} {{green|+1}} to {{green|+10}} Popular Opinion
+* {{icon|gold}} {{green|−5%}} to {{green|−25%}} Feast Cost
+* {{icon|feast}} {{green|+5%}} to {{green|+25%}} Feast Rewards
+* [[File:Court brewmaster popular opinion.png|24px]] Empty the Cellars
+** {{icon|opinion}} {{green|+2}} to {{green|+20}} Popular Opinion
+** {{iconify|Gold}}/Treasury Salary
+* [[File:Court brewmaster court opinion.png|24px]] Share with the Court
+** {{icon|opinion}} {{green|+1}} to {{green|+10}} Courtier and Guest Opinion
+** {{iconify|Gold}}/Treasury Salary
+* [[File:Court brewmaster experimental brew.png|24px]] Experimental Brew
+** [[File:Modifier drink mixed.png|24px]] Gives the [[Modifiers#Experimental_Brew|Experiemntal Brew]] modifier
+** {{icon|prestige}} {{red|50}} Prestige Cost
+|
+* {{icon|learning}} {{green|+1}} Learning
+* {{icon|prestige}} {{green|+0.25}} Monthly Prestige
+* {{icon|opinion}} {{green|+5}} General Opinion
+* {{icon|opinion}} {{green|+5}} Opinion of Liege
+* {{icon|no}} Cannot have another position
+| 
+* [[File:Building breweries.png|24px]] Breweries building in domain
+* {{icon|no}}[[File:Council.png|24px]] Councilor
+* {{icon|no}}{{iconify|Tax Collector}}
+|
+* {{green|+2.5}} per {{iconify|Learning}} (Max {{green|+50}})
+* {{green|+15}} {{iconify|Eager Reveler}}
+* {{green|+15}} {{iconify|Diligent}}
+* {{green|+15}} {{iconify|Humble}}
+* {{green|+15}} {{iconify|Patient}}
+* {{red|−10}} {{iconify|Impatient}}
+* {{red|−10}} {{iconify|Lazy}}
+| 
+|- id="Garden Hermit"
+| '''Garden Hermit'''<br>[[File:Garden hermit court position.png]]
+|
+* {{icon|wise man}} {{green|+2%}} to {{green|+20%}} Wise Man Experience Gain
+* {{icon|prestige}} '''0''' to {{green|+0.2}} Monthly Prestige
+* {{icon|learning lifestyle}} '''0''' to {{green|+10%}} Monthly Learning Lifestyle Experience
+* [[File:Cupbearer court position task flatter dignitaries.png|24px]] Flatter Dignitaries
+** {{icon|scheme potential}} {{green|+1%}} to {{green|+20%}} Personal Scheme Potential
+** {{icon|scheme phase length}} {{green|−5}} to {{green|-75}} Days Romance Phase Length
+** {{icon|scheme phase length}} {{green|−5}} to {{green|-75}} Days Seduce Phase Length
+** {{icon|scheme phase length}} {{green|−5}} to {{green|-75}} Days Sway Phase Length
+** {{iconify|Prestige}} Salary
+|
+* {{icon|wise man}} {{green|+25%}} Wise Man Experience Gain
+* {{icon|learning lifestyle}} {{green|+10%}} Monthly Learning Lifestyle Experience
+* {{icon|opinion}} {{green|+5}} General Opinion
+* {{icon|opinion}} {{green|+5}} Opinion of Liege
+* {{icon|no}} Cannot hold another position
+|
+* {{icon|unknown}} Encountered a Court Hermit during travel
+* {{iconify|Wise Man}}/Woman with 50+ experience
+* {{icon|no}}{{iconify|Spouse}}
+* {{icon|no}}[[File:Council.png|24px]] Councilor
+* {{icon|no}}{{iconify|Tax Collector}}
+|
+* {{green|+2.5}} per {{iconify|Learning}} (Max {{green|+50}})
+* {{green|+20}} {{iconify|Miracle Worker}}
+* {{green|+10}} {{iconify|Mystic}}
+* {{green|+5}} {{iconify|Wise Man}}/Woman
+* {{green|+10}} {{iconify|Gardener}}
+* {{green|+10}} {{iconify|Herbalist}}
+* {{red|−10}} {{iconify|Severely Injured}}
+* {{red|−15}} {{iconify|Brutally Mauled}}
+* {{red|−15}} {{iconify|Maimed}}
+| 
+|-
+| '''Personal Champion'''<br>[[File:Personal champion court position.png]]
+|
+* {{icon|prestige}} {{green|+0.02}} to {{green|+0.3}} Monthly Prestige
+* {{icon|dread}} {{green|−2%}} to {{green|−30%}} Dread Decay
+* {{icon|yes}} Can take Ruler's place in trial-by-combat Duels
+* {{icon|prestige}} Earns prestige in Grand Tournaments
+* [[File:Champion compete task.png|24px]] Compete in Name
+** {{icon|prestige}} {{green|+0.03}} to {{green|+0.2}} Monthly Prestige
+** {{iconify|Gold}}/Treasury Salary
+* [[File:Champion exercise ruler.png|24px]] Exercise with Ruler
+** {{icon|prowess}} {{green|+1%}} Monthly chance to gain Prowess
+** {{icon|stress gain}} {{red|+25%}} Stress Gain
+** {{iconify|Prestige}} Salary
+* [[File:Champion improve self.png|24px]] Improve Skills
+** {{icon|unknown}} Monthly chance to gain Hastiluder experience or Prowess
+** {{iconify|Prestige}} Salary
+** {{icon|tnt}} Requires the Tours and Tournaments DLC
+|
+* {{icon|prestige}} {{green|+0.25}} Monthly Prestige
+* {{icon|blademaster}} {{green|+25%}} Aspiring Blademaster Experience Gain
+* {{icon|hastiluder}} {{green|+25%}} Hastiluder Experience Gain
+* {{icon|opinion}} {{green|+10}} Attraction Opinion
+* {{icon|opinion}} {{green|+5}} Opinion of Liege
+| 
+* {{icon|yes}} Gender can be combatant
+* {{icon|no}}{{iconify|Nomadic}}
+* {{icon|no}}{{iconify|Vassal}}
+* {{icon|no}}{{iconify|Blind}}
+* {{icon|no}}{{iconify|Infirm}}
+|
+* {{green|+4}} per {{iconify|Prowess}} (Max {{green|+50}})
+* {{green|+30}} {{iconify|Legendary Blademaster}}
+* {{green|+20}} {{iconify|Brave}}
+* {{green|+20}} {{iconify|Shieldmaiden}}
+* {{green|+15}} {{iconify|Blademaster}}
+* {{green|+5}} {{iconify|Aspiring Blademaster}}
+* {{red|−10}} {{iconify|Craven}}
+* {{red|−25}} {{iconify|Severely Injured}}
+* {{red|−50}} {{iconify|Brutally Mauled}}
+* {{red|−50}} {{iconify|Blind}}
+* {{red|−50}} {{iconify|Maimed}}
+| {{icon|roc}}
+| 
+|- id="Tutor"
+| '''Tutor'''<br>[[File:Court tutor court position.png]]
+|
+* {{icon|scheme phase length}} {{green|−4}} to {{green|−20}} Days Learn Language Scheme Phase Length
+* {{icon|yes}} Acts as a Guardian for children without one
+* {{icon|yes}} Improves Education Outcomes
+* {{icon|yes}} Enables the Have Child Study Language interaction
+* [[File:Physician attend poor.png|24px]] Advance Research
+** [[File:Focus invalid.png|24px]] {{green|+2%}} to {{green|+10%}} Monthly Lifestyle Experience
+** {{iconify|Gold}}/Treasury Salary
+* [[File:Court tutor improve others.png|24px]] Teach Court
+** {{icon|unknown}} {{green|+1%}} Monthly chance to improve skills
+** {{icon|unknown}} {{green|+1%}} Monthly chance to improve heir's skills
+** {{icon|unknown}} {{green|+1%}} Monthly chance to improve a courtier's skills
+** {{iconify|Prestige}} Salary
+* [[File:Court tutor teach kids.png|24px]] Educate Children
+** {{icon|unknown}} {{green|+1}} to {{green|+2}} Child skill per year after age of 6
+** {{iconify|Prestige}} Salary
+|
+* {{icon|diplomacy}} {{green|+1}} Diplomacy
+* {{icon|stewardship}} {{green|+1}} Stewardship
+* {{icon|learning lifestyle}} {{green|+10%}} Monthly Learning Lifestyle Experience
+* {{icon|opinion}} {{red|−10}} Child Opinion
+* {{icon|opinion}} {{green|+5}} Opinion of Liege
+* {{icon|no}} Cannot have another position
+|
+* {{icon|no}}{{iconify|Vassal}} or 12+ Learning
+* {{icon|no}}[[File:Council.png|24px]] Councilor
+* {{icon|no}}{{iconify|Spouse}}
+* {{icon|no}}{{iconify|Tax Collector}}
+* [[File:Domicile family yurt.png|24px]] Family Yurt level 3 if {{iconify|Nomadic}}
+|
+* {{green|+25}} by default
+* {{green|+2.5}} per {{iconify|Learning}} (Max {{green|+50}})
+* {{green|+40}} {{iconify|Genius}}
+* {{green|+20}} {{iconify|Intelligent}}
+* {{green|+10}} {{iconify|Quick}}
+* {{green|+15}}{{iconify|Scholar}}
+* {{green|+20}} if 15 points in every skill
+* {{green|+10}} {{iconify|Shrewd}}
+* {{green|+15}} {{iconify|Patient}}
+* {{red|−10}} {{iconify|Reclusive}}
+* {{red|−10}} {{iconify|Shy}}
+* {{red|−10}} {{iconify|Severely Injured}}
+* {{red|−15}} {{iconify|Brutally Mauled}}
+* {{red|−15}} {{iconify|Maimed}}
+* {{red|−20}} {{iconify|Vassal}}
+| {{icon|roc}}
+|-
+| '''Wet Nurse'''<br>[[File:Wet nurse court position.png]]
+|
+* {{icon|unknown}} {{green|+10}} Influence Ward's Personality Acceptance
+* {{icon|health boost}} Reduced chance for Children to contract Illnesses
+* {{icon|unknown}} {{green|15%}} Chance for a child development event each year
+* [[File:Wet nurse instill virtue.png|24px]] Instill Virtue
+** {{icon|unknown}} {{green|+1%}} Monthly chance for a child to gain a Virtue trait
+** {{iconify|Prestige}} Salary
+* [[File:Wet nurse promote relationships.png|24px]] Promote Friendship
+** {{icon|opinion}} {{green|+5}} Child Opinion
+** {{icon|rival}} {{green|+0.85%}} Monthly chance to remove Bully-Victim relations in children
+** {{icon|opinion}} {{green|+0.15%}} Monthly chance two children gain 15 Opinion with each other
+** {{iconify|Prestige}} Salary
+* [[File:Wet nurse promote competition.png|24px]] Encourage Competition
+** {{icon|intrigue}} {{green|+0.5%}} Monthly chance a child gains 1 Intrigue
+** {{icon|prowess}} {{green|+0.5%}} Monthly chance a child gains 1 Prowess
+** {{icon|rival}} {{red|+0.5%}} Monthly chance two children gain Bully-Victim relation
+** {{iconify|Prestige}} Salary
+|
+* {{icon|diplomacy}} {{green|+1}} Diplomacy
+* {{icon|opinion}} {{green|+15}} Child Opinion
+* {{icon|opinion}} {{green|+5}} Opinion of Liege
+* {{icon|no}} Cannot have another position
+|
+* {{icon|female dominated}} Female
+* {{icon|no}} 46+ years old
+* {{icon|no}} Close Family
+* {{icon|no}} Dynasty has any ruler
+* {{icon|no}}{{iconify|Devoted}}
+* {{icon|no}}[[File:Council.png|24px]] Councilor
+* [[File:Domicile family yurt.png|24px]] Family Yurt level 2 if {{iconify|Nomadic}}
+|
+* {{green|+25}} by default
+* {{green|+45}} or more [[File:Health positive.png|24px]] Excellent Health
+* {{green|+35}} to {{green|+45}} [[File:Health positive.png|24px]] Good Health
+* {{green|+6}} to {{green|+10}} [[File:Health positive.png|24px]] Fine Health
+* {{green|+20}} {{iconify|Amazonian}}
+* {{green|+15}} {{iconify|Robust}}
+* {{green|+10}} {{iconify|Hale}}
+* {{green|+15}} {{iconify|Strong}}
+* {{green|+15}} Has a Child
+* {{green|+10}} {{iconify|Loyal}}
+* {{red|−1}} to {{red|−30}} [[File:Health.png|24px]] Poor/Worse Health
+* {{red|−15}} {{iconify|Severely Injured}}
+* {{red|−25}} {{iconify|Brutally Mauled}}
+* {{red|−25}} {{iconify|Maimed}}
+* {{red|−50}} {{iconify|Blind}}
+| {{icon|wrd}}
+|- id="Court Chronicler"
+| '''Court Chronicler'''<br>[[File:Court chronicler court position.png]]
+|
+* {{icon|renown}} {{green|+0.01}} to {{green|+0.1}} Monthly Renown
+* {{icon|legitimacy}} {{green|−5%}} to {{green|−25%}} Legitimacy Loss
+* [[File:Chronicler generate seeds.png|24px]] Search for Legends
+** {{icon|legend}} {{green|+1%}} to {{green|+18%}} Yearly chance to gain a Legend Seed
+** {{iconify|Gold}}/Treasury Salary
+* [[File:Chronicler promote legend realm.png|24px]] Extol Domestic Legend
+** {{icon|legend}} {{green|+5%}} to {{green|+60%}} Legend Spread Chance
+** {{iconify|Gold}}/Treasury Salary
+** {{icon|lod}} Requires promoting a legend
+* [[File:Chronicler espouse legend.png|24px]] Commend Legend Abroad
+** {{icon|unknown}} {{green|+25%}} to {{green|+85%}} Chance a ruler promotes the character's legends
+** {{iconify|Gold}}/Treasury Salary
+** {{icon|lod}} Requires promoting a legend
+|
+* {{icon|prestige}} {{green|+0.25}} Monthly Prestige
+* {{icon|diplomacy lifestyle}} {{green|+10%}} Monthly Diplomacy Lifestyle Experience
+* {{icon|opinion}} {{green|+5}} General Opinion
+* {{icon|opinion}} {{green|+5}} Opinion of Liege
+| {{icon|no}}{{iconify|Vassal}} or 12+ Diplomacy
+|
+* {{green|+2.5}} per {{iconify|Diplomacy}} (Max {{green|+50}})
+* {{green|+1}} per {{iconify|Learning}} (Max {{green|+50}})
+* {{green|+30}} {{iconify|Diplomat}}
+* {{green|+15}} {{iconify|Gregarious}}
+* {{green|+15}} {{iconify|Poet}}
+* {{red|−10}} {{iconify|Severely Injured}}
+* {{red|−15}} {{iconify|Brutally Mauled}}
+* {{red|−15}} {{iconify|Maimed}}
+| {{icon|lod}}
+|- id="Bookmaker"
+| '''Bookmaker'''<br>[[File:Bookmaker court position.png]]
+|
+* {{icon|influence}} {{green|+1%}} to {{green|+5%}} Monthly Influence
+* {{icon|gold}} {{green|−10}} Gold cost to host Chariot Race
+* {{icon|gold}} Gives gold based on Chariot Race bets
+* [[File:Bookmaker cook the books.png|24px]] Cook the Books
+** {{icon|unknown}} Chariot race positive events
+** {{icon|legitimacy}} {{red|50}} Legitimacy Cost
+* [[File:Bookmaker distribute bribes.png|24px]] Distribute Bribes
+** {{icon|influence}} {{green|+0.5}} to {{green|+1.5}} Monthly Influence
+** {{iconify|Gold}}/Treasury Salary
+|
+* {{icon|gold}} {{green|+0.2}} Monthly Tax
+* {{icon|stewardship lifestyle}} {{green|+10%}} Monthly Stewardship Lifestyle Experience
+* {{icon|opinion}} {{green|+5}} Opinion of Liege
+* {{icon|no}} Cannot have another position
+|
+* {{icon|yes}} Culture has Roman Ceremonies tradition
+* {{icon|stewardship}} 8+ Stewardship
+* {{icon|no}}{{iconify|Spouse}}
+* {{icon|no}}[[File:Council.png|24px]] Councilor
+* {{icon|no}}{{iconify|Tax Collector}}
+|
+* {{green|+2.5}} per {{iconify|Stewardship}} (Max {{green|+50}})
+* {{green|+25}} {{iconify|Golden Sovereign}}
+* {{green|+20}} {{iconify|Midas Touched}}
+* {{green|+15}} {{iconify|Fortune Builder}}
+* {{green|+10}} {{iconify|Thrifty Clerk}}
+* {{green|+5}} {{iconify|Indulgent Wastrel}}
+| {{icon|rtp}}
+|- id="Champion Charioteer"
+| '''Champion Charioteer'''<br>[[File:Charioteer court position.png]]
+| 
+* [[File:Trait charioteer blue.png|24px]] Gains the Charioteer trait
+* {{icon|influence}} Gives influence if places 1st-3rd in Chariot Race
+* {{icon|influence}} {{green|+4%}} to {{green|+20%}} Monthly Influence
+| 
+* {{icon|prestige}} {{green|+0.25}} Monthly Prestige
+* [[File:Trait charioteer blue.png|24px]] {{green|+25%}} Charioteer Experience Gain
+* {{icon|opinion}} {{green|+10}} Attraction Opinion
+* {{icon|opinion}} {{green|+5}} Opinion of liege
+* {{icon|no}} Cannot have another position
+| 
+* {{icon|yes}} Culture has Roman Ceremonies tradition
+* {{icon|yes}} Gender can be combatant
+* {{icon|no}}[[File:Council.png|24px]] Councilor
+* {{icon|no}}{{iconify|Spouse}}
+* {{icon|no}}{{iconify|Tax Collector}}
+|
+* {{green|+2.5}} per {{iconify|Prowess}} (Max {{green|+50}})
+* {{green|+25}} {{iconify|Exalted Warlord}}
+* {{green|+20}} {{iconify|Brilliant Strategist}}
+* {{green|+15}} {{iconify|Skilled Tactician}}
+* {{green|+10}} {{iconify|Tough Soldier}}
+* {{green|+5}} {{iconify|Misguided Warrior}}
+| {{icon|rtp}}
+|- id="Khlon Glan"
+| '''Khlon Glan'''<br>[[File:Khlon glan court position.png]]
+| 
+* {{icon|control}} {{green|+0.1}} to {{green|+0.3}} Monthly Control
+* {{icon|travel safety}} {{green|+2}} to {{green|+10}} Travel Safety
+* {{icon|time}} {{green|−5%}} to {{green|−25%}} Great Project Construction Time
+* [[File:Caravan master prepare armies.png|24px]] Prepare Armies
+** {{icon|army speed}} {{green|+2%}} to {{green|+10%}} Army Movement Speed
+** {{icon|supply}} {{green|+4%}} to {{green|+20%}} Supply Limit
+** {{iconify|Gold}} Salary
+* [[File:Khlon glan assist provisioning.png|24px]] Develop Capital
+** {{icon|fort level}} {{green|+1}} to {{green|+3}} Fort Level
+** {{icon|garrison}} {{green|+1%}} to {{green|+10%}} Garrison Size
+** {{icon|development}} {{green|+0.05}} to {{green|+0.5}} Monthly Development in Realm Capital
+** {{iconify|Gold}} Salary
+* [[File:Seneschal improve court.png|24px]] Organize Court
+** [[File:Court.png|24px]] {{green|+2}} to {{green|+10}} Aptitude of Other Court Positions
+** {{iconify|Prestige}} Salary
+| 
+* {{icon|stewardship lifestyle}} {{green|+20%}} Monthly Stewardship Lifestyle Experience
+* {{icon|opinion}} {{green|+5}} General Opinion
+* {{icon|opinion}} {{green|+5}} Opinion of Liege
+| 
+* {{iconify|Mandala}} government
+* {{icon|martial}} 10+ Martial
+* {{icon|stewardship}} 10+ Stewardship
+* {{icon|no}}{{iconify|Spouse}}
+* {{icon|no}}[[File:Council.png|24px]] Councilor
+|
+* {{green|+2}} per {{iconify|Martial}} (max 50)
+* {{green|+2}} per {{iconify|Stewardship}} (max 50)
+* {{green|+20}} {{iconify|Administrator}}
+* {{green|+20}} {{iconify|Organizer}}
+* {{green|+20}} {{iconify|Overseer}}
+| {{icon|auh}}
+|}
+
+==== Duke positions ====
+Duke court positions are available to {{iconify|Duke}}s and above.
+{| class="mildtable plainlist"
+! Position
+! Effects on liege
+! Effects on position holder
+! Positions
+! Requirements
+! Aptitude
+! DLC
+|-
+| '''Court Jester'''<br>[[File:Court jester court position.png]]
+|
+* {{icon|stress}} {{green|−1%}} to {{green|−8%}} Stress Gain
+* {{icon|decision}} Unlocks the Be Entertained by the Court Jester decision
+* [[File:Court jester court position task entertain court.png|24px]] Entertain Courtiers
+** {{icon|stress loss}} {{green|+5%}} to {{green|+100%}} Yearly chance to reduce 1-2 courtiers' Stress
+** {{iconify|Prestige}} Salary
+* [[File:Court jester court position task abuse the jester.png|24px]] Abuse the Jester
+** {{icon|dread}} {{green|+10}} Natural Dread
+** {{icon|opinion}} {{red|−25}} Jester Opinion
+** {{iconify|Prestige}} Salary
+* [[File:Court jester court position task fuel the rumour mill.png|24px]] Fuel the Humor Mill
+** {{icon|scheme secrecy}} {{green|−1%}} to {{green|−10%}} Enemy Scheme Secrecy
+** {{icon|scheme success chance}} {{green|−0.1%}} to {{green|−1%}} Enemy Hostile and Political Scheme Growth
+** {{iconify|Prestige}} Salary
+** {{icon|intrigue}} Requires 10+ Intrigue
+| 
+* {{icon|scheme phase length}} {{green|−3}} Days Hostile Scheme Phase Length
+* {{icon|opinion}} {{green|+5}} Opinion of liege
+* {{icon|prestige}} {{red|−0.5}} Monthly Prestige
+* {{icon|scheme success chance}} {{red|−10%}} Initial Hostile Scheme Success Chance
+* {{icon|no}} Cannot have another position
+| 1
+| 
+* {{icon|no}}{{iconify|Nomadic}}
+* {{icon|no}}{{iconify|Celestial}}
+* {{icon|no}}[[File:Council.png|24px]] Councilor
+* {{icon|no}}{{iconify|Tax Collector}}
+|
+* {{green|+2.5}} per {{iconify|Diplomacy}} (max 50)
+* {{green|+20}} {{iconify|Gregarious}}
+* {{green|+20}} {{iconify|Shrewd}}
+* {{green|+20}} {{iconify|Stubborn}}
+* {{green|+10}} {{iconify|Athletic}}
+* {{green|+10}} {{iconify|Poet}}
+* {{red|−15}} {{iconify|Severely Injured}}
+* {{red|−25}} {{iconify|Brutally Mauled}}
+* {{red|−25}} {{iconify|Maimed}}
+* {{red|−50}} {{iconify|Blind}}
+| 
+|-
+| '''Master of the Horse'''<br>[[File:Master of the horse court position.png]]
+|
+* {{icon|knight}} {{green|+1%}} to {{green|+8%}} Knight Effectiveness
+* {{icon|travel speed}} {{green|+1%}} to {{green|+8%}} Travel Speed
+* {{icon|knight}} '''0''' to {{green|+3}} Number of Knights
+* [[File:Master of horse oversee breeding.png|24px]] Oversee Breeding
+** {{icon|pursuit}} {{green|+2%}} to {{green|+15%}} Army Pursuit
+** {{iconify|Gold}}/Treasury Salary
+* [[File:Master of horse mightiest warhorse.png|24px]] Warhorse Grooming
+** {{icon|advantage}} '''0''' to {{green|+3}} Advantage to commanded army
+** {{iconify|Gold}}/Treasury Salary
+| 
+* {{icon|prestige}} {{green|+0.5}} Monthly Prestige
+* {{icon|knight}} {{green|+15%}} Knight Effectiveness
+* {{icon|martial lifestyle}} {{green|+15%}} Monthly Martial Lifestyle Experience
+* {{icon|opinion}} {{green|+10}} Opinion of liege
+| 1
+| {{icon|no}}{{iconify|Nomadic}}
+|
+* {{green|+25}} by default
+* {{green|+2.5}} per {{iconify|Martial}} (max 50)
+* {{green|+2}} per {{iconify|Prowess}} (max 50)
+* {{green|+10}} {{iconify|Overseer}}
+* {{red|−15}} {{iconify|Severely Injured}}
+* {{red|−25}} {{iconify|Brutally Mauled}}
+* {{red|−25}} {{iconify|Maimed}}
+* {{red|−50}} {{iconify|Blind}}
+| 
+|- id="Chief Eunuch"
+| '''Chief Eunuch'''<br>[[File:Chief eunuch court position.png]]
+| 
+* {{icon|scheme phase length}} {{green|−1}} to {{green|−7}} Days Hostile Scheme Phase Length
+* {{icon|scheme phase length}} {{green|+1}} to {{green|+16}} Days Enemy Hostile Scheme Phase Length
+* {{icon|grandeur}} '''0''' to {{green|+2}} Court Grandeur Bonus
+* [[File:Food taster court position task ear to the ground.png|24px]] Keep an Ear to the Ground
+** {{icon|scheme discovery chance}} {{green|+1%}} to {{green|+10%}} Scheme Discovery Chance
+** {{icon|intrigue lifestyle}} {{green|+10%}} Monthly Intrigue Lifestyle Experience
+** {{iconify|Prestige}} Salary
+* [[File:Court jester court position task fuel the rumour mill.png|24px]] Fuel the Humor Mill
+** {{icon|scheme secrecy}} {{green|−1%}} to {{green|−10%}} Enemy Scheme Secrecy
+** {{icon|scheme success chance}} {{green|−0.1%}} to {{green|−1%}} Enemy Hostile and Political Scheme Growth
+** {{iconify|Prestige}} Salary
+** {{icon|intrigue}} Requires 10+ Intrigue
+| 
+* {{icon|prestige}} {{green|+0.25}} Monthly Prestige
+* {{icon|scheme potential}} {{green|−10%}} Enemy Hostile Scheme Potential
+* {{icon|intrigue lifestyle}} {{green|+20%}} Monthly Intrigue Lifestyle Experience
+* {{icon|opinion}} {{green|+5}} Opinion of liege
+* {{icon|unknown}} Increased loyalty as regent
+* {{icon|alert}} {{yellow|Powerful agent}}
+| 1
+| 
+* {{icon|yes}} Culture has Court Eunuchs from traditions
+* {{iconify|Eunuch}} or Beardless Eunuch
+* {{icon|no}}{{iconify|Count}}
+* {{icon|no}}{{iconify|Vassal}}
+| 
+* {{green|+2.5}} per {{iconify|Diplomacy}} (max 50)
+* {{green|+2.5}} per {{iconify|Intrigue}} (max 50)
+* {{red|−50}} {{iconify|Blind}}
+| 
+|-
+| '''Lady-in-waiting'''<br>[[File:Lady in waiting court position.png]]
+| 
+* {{icon|stress loss}} {{green|+10%}} to {{green|+20%}} Stress loss
+* {{icon|scheme phase length}} {{green|−1}} to {{green|−10}} Enemy Hostile Scheme Phase Length
+* [[File:Food taster court position task ear to the ground.png|24px]] Keep an Ear to the Ground
+** {{icon|scheme discovery chance}} {{green|+1%}} to {{green|+10%}} Scheme Discovery Chance
+** {{icon|intrigue lifestyle}} {{green|+10%}} Monthly Intrigue Lifestyle Experience
+** {{iconify|Prestige}} Salary
+| 
+* {{icon|diplomacy lifestyle}} {{green|+10%}} Monthly Diplomacy Lifestyle Experience
+* {{icon|scheme potential}} {{green|−10%}} Enemy Hostile Scheme Potential
+* {{icon|opinion}} {{green|+25}} Opinion of liege
+* {{icon|no}} Cannot have another position
+* {{icon|alert}} {{yellow|Powerful agent}}
+| 2
+| 
+* {{icon|female dominated}} Both characters are female
+* {{icon|no}}{{iconify|Nomadic}}
+* {{icon|no}}[[File:Council.png|24px]] Councilor
+* {{icon|no}}{{iconify|Vassal}}
+* {{icon|no}}{{iconify|Tax Collector}}
+| 
+* {{green|+25}} by default
+* {{green|+2.5}} per {{iconify|Diplomacy}} (max 50)
+* {{green|+40}} {{iconify|Gregarious}}
+* {{green|+10}} {{iconify|Honest}}
+* {{green|+10}} [[File:Khvarenah legacy track.png|24px]] Brilliance dynasty legacy
+* {{red|−10}} {{iconify|Severely Injured}}
+* {{red|−15}} {{iconify|Brutally Mauled}}
+* {{red|−15}} {{iconify|Maimed}}
+| {{icon|roc}}
+|- id="Court Brahmin"
+| '''Court Brahmin'''<br>[[File:Court brahmin court position.png]]
+| 
+* {{icon|piety}} {{green|+0.1}} to {{green|+0.7}} Monthly Piety
+* [[File:Mandala legitimacy 4.png|24px]] {{green|+0.1}} to {{green|+0.7}} Monthly Legitimacy
+* [[File:Court brahmin court position task increase tribute.png|24px]] Increase Tribute
+** {{icon|gold}} {{green|+2%}} to {{green|+10%}} Tributary Taxes
+** {{icon|opinion}} {{red|−15}} Tributary Opinion
+** {{iconify|Prestige}} Salary
+* [[File:Foreign emissary culture acceptance.png|24px]] Accommodate Tributaries
+** {{icon|opinion}} {{green|+2}} to {{green|+10}} Tributary Opinion
+** {{icon|opinion}} {{green|+2}} to {{green|+10}} Yearly Cultural Acceptance with tributaries' cultures
+** {{iconify|Gold}} Salary
+* [[File:High almoner attend poor.png|24px]] Divine Charity
+** {{icon|piety}} {{green|+0.1}} to {{green|+1.25}} Monthly Piety
+** {{iconify|Gold}} Salary
+| 
+* {{icon|piety}} {{green|+0.1}} Monthly Piety
+* {{icon|piety}} {{green|+10%}} Piety Gain
+* {{icon|learning lifestyle}} {{green|+10%}} Monthly Learning Lifestyle Experience
+* {{icon|opinion}} {{green|+10}} Opinion of Liege
+| 1
+| 
+* {{iconify|Mandala}} government
+* {{icon|learning}} 12+ Learning
+* {{icon|piety eastern}} Buddhist or Hindu
+| 
+* {{green|+2.5}} per {{iconify|Learning}} (max 50)
+* {{green|+20}} Clergy member
+* {{green|+20}} {{iconify|Compassionate}}
+* {{green|+20}} {{iconify|Devoted}}
+* {{green|+20}} {{iconify|Generous}}
+* {{green|+20}} {{iconify|Theologian}}
+* {{red|−10}} {{iconify|Avaricious}}
+* {{red|−10}} {{iconify|Greedy}}
+* {{red|−10}} {{iconify|Profligate}}
+| {{icon|auh}}
+|}
+
+==== King positions ====
+King court positions are available to {{iconify|King}}s and above.
+{| class="mildtable plainlist"
+! width=1% | Position
+! Effects on liege
+! Effects on position holder
+! Positions
+! Requirements
+! Aptitude
+! DLC
+|-
+| '''Cup-Bearer'''<br>[[File:Cupbearer court position.png]]
+|
+* {{icon|grandeur}} {{green|+1}} to {{green|+3}} Court Grandeur Bonus
+* {{icon|unknown}} {{green|20%}} Chance to prevent a Poison Murder scheme
+* [[File:Cupbearer court position task flatter dignitaries.png|24px]] Flatter Dignitaries
+** {{icon|scheme potential}} {{green|+1%}} to {{green|+20%}} Personal Scheme Potential
+** {{icon|scheme phase length}} {{green|−5}} Days Romance Phase Length
+** {{icon|scheme phase length}} {{green|−5}} Days Seduce Phase Length
+** {{icon|scheme phase length}} {{green|−5}} Days Sway Phase Length
+** {{iconify|Prestige}} Salary
+* [[File:Cupbearer court position task collect tallage.png|24px]] Collect Tallage
+** {{icon|gold}} {{green|+1%}} to {{green|+18%}} Courtly Vassal Tax Contribution
+** {{icon|opinion}} {{red|−30}} Courtly Vassal Opinion
+** {{iconify|Prestige}} Salary
+| 
+* {{icon|prestige}} {{green|+0.25}} Monthly Prestige
+* {{icon|diplomacy lifestyle}} {{green|+10%}} Monthly Diplomacy Lifestyle Experience
+* {{icon|opinion}} {{green|+10}} Opinion of liege
+* {{icon|no}} Cannot have another position
+* {{icon|alert}} {{yellow|Powerful agent}}
+| 1
+| 
+* {{icon|no}}{{iconify|Nomadic}}
+* {{icon|no}}[[File:Council.png|24px]] Councilor
+* {{icon|no}}{{iconify|Spouse}}
+* {{icon|no}}{{iconify|Vassal}}
+* {{icon|no}}{{iconify|Tax Collector}}
+|
+* {{green|+25}} by default
+* {{green|+2.5}} per {{iconify|Diplomacy}} (max 50)
+* {{green|+10}} {{iconify|Honest}}
+* {{green|+10}} {{iconify|Trusting}}
+* {{red|−10}} {{iconify|Deceitful}}
+* {{red|−15}} {{iconify|Severely Injured}}
+* {{red|−25}} {{iconify|Brutally Mauled}}
+* {{red|−25}} {{iconify|Maimed}}
+* {{red|−50}} {{iconify|Blind}}
+| 
+|-
+| '''High Almoner'''<br>[[File:High almoner court position.png]]
+|
+* {{icon|piety}} {{green|+2%}} to {{green|+20%}} Monthly Piety
+* [[File:High almoner attend poor.png|24px]] Divine Charity
+** {{icon|piety}} {{green|+0.1}} to {{green|+1.2}} Monthly Piety
+** {{iconify|Gold}}/Treasury Salary
+* [[File:High almoner court position task appease zealots.png|24px]] Appease Zealots
+** {{icon|levies}} {{green|+1%}} to {{green|+15%}} Zealot Vassal Levy Contribution
+** {{icon|opinion}} {{green|+2}} to {{green|+20}} Zealot Vassal Opinion
+** {{icon|unknown}} {{green|+50}} Zealot Zeal
+** {{icon|piety}} Piety Salary
+** [[File:Vassal stance zealot.png|24px]] Requires Zealot vassals
+| 
+* {{icon|piety}} {{green|+0.1}} Monthly Piety
+* {{icon|piety}} {{green|+10%}} Monthly Piety
+* {{icon|learning lifestyle}} {{green|+10%}} Monthly Learning Lifestyle Experience
+* {{icon|opinion}} {{green|+10}} Opinion of liege
+| 1
+| 
+* {{icon|learning}} 12 Learning or unlanded
+* {{icon|no}}{{iconify|Nomadic}}
+* {{icon|no}}{{iconify|Celestial}}
+* {{icon|no}}{{iconify|Mandala}}
+|
+* {{green|+2.5}} per {{iconify|Learning}} (max 50)
+* {{green|+20}} is part of the Clergy
+* {{green|+20}} {{iconify|Compassionate}}
+* {{green|+20}} {{iconify|Generous}}
+* {{green|+20}} {{iconify|Theologian}}
+* {{green|+20}} Monastic Communities tradition
+* {{red|−10}} {{iconify|Avaricious}}
+* {{red|−10}} {{iconify|Greedy}}
+* {{red|−10}} {{iconify|Profligate}}
+* {{red|−10}} {{iconify|Severely Injured}}
+* {{red|−15}} {{iconify|Brutally Mauled}}
+* {{red|−15}} {{iconify|Maimed}}
+| 
+|- id="Chief Qadi"
+| '''Chief Qadi'''<br>[[File:Chief qadi court position.png]]
+| 
+* {{icon|piety muslim}} {{green|+2%}} to {{green|+10%}} Monthly Piety
+* {{icon|stewardship}} '''0''' to {{green|+3}} Stewardship
+* [[File:High almoner attend poor.png|24px]] Divine Charity
+** {{icon|piety}} {{green|+0.1}} to {{green|+1.2}} Monthly Piety
+** {{iconify|Gold}}/Treasury Salary
+* [[File:High almoner court position task appease zealots.png|24px]] Appease Zealots
+** {{icon|levies}} {{green|+1%}} to {{green|+15%}} Zealot Vassal Levy Contribution
+** {{icon|opinion}} {{green|+2}} to {{green|+20}} Zealot Vassal Opinion
+** {{icon|unknown}} {{green|+50}} Zealot Zeal
+** {{icon|piety}} Piety Salary
+** [[File:Vassal stance zealot.png|24px]] Requires Zealot vassals
+* [[File:Chief qadi court position task public alms.png|24px]] Lead Public Sadaqah
+** {{icon|control}} {{green|+0.02}} to {{green|+0.2}} Monthly Control
+** {{icon|opinion}} {{green|+2}} to {{green|+20}} Popular Opinion
+** {{iconify|Gold}}/Treasury Salary
+| 
+* {{icon|stewardship}} {{green|+1}} Stewardship
+* {{icon|prestige}} {{green|+0.25}} Monthly Prestige
+* {{icon|piety muslim}} {{green|+10%}} Monthly Piety
+* {{icon|learning lifestyle}} {{green|+10%}} Monthly Learning Lifestyle Experience
+* {{icon|opinion}} {{green|+10}} Opinion of liege
+* {{icon|unknown}} Increased loyalty as regent
+| 1
+| 
+* {{icon|piety muslim}} Both characters are Muslim
+* {{iconify|Learning}} Education learning trait
+* {{icon|yes}} Gender permitted by doctrine
+* {{icon|no}}{{iconify|Nomadic}}
+| 
+* {{green|+2.5}} per {{iconify|Learning}} (max 50)
+* {{green|+15}} {{iconify|Generous}}
+* {{green|+15}} {{iconify|Just}}
+* {{green|+15}} {{iconify|Temperate}}
+* {{green|+15}} {{iconify|Scholar}}
+* {{green|+10}} [[File:Khvarenah legacy track.png|24px]] Brilliance dynasty legacy
+* {{red|−10}} {{iconify|Arbitrary}}
+* {{red|−10}} {{iconify|Greedy}}
+* {{red|−10}} {{iconify|Severely Injured}}
+* {{red|−15}} {{iconify|Brutally Mauled}}
+* {{red|−15}} {{iconify|Maimed}}
+| 
+|- id="Keeper of the Swans"
+| '''Keeper of the Swans'''<br>[[File:Keeper of the swans court position.png]]
+| 
+* {{icon|diplomacy}} {{green|+1}} Diplomacy per Level of Fame
+* {{icon|grandeur}} '''0''' to {{green|+2}} Court Grandeur Bonus
+* [[File:Cupbearer court position task flatter dignitaries.png|24px]] Flatter Dignitaries
+** {{icon|scheme potential}} {{green|+1%}} to {{green|+20%}} Personal Scheme Potential
+** {{icon|scheme phase length}} {{green|−5}} Days Romance Phase Length
+** {{icon|scheme phase length}} {{green|−5}} Days Seduce Phase Length
+** {{icon|scheme phase length}} {{green|−5}} Days Sway Phase Length
+** {{iconify|Prestige}} Salary
+| 
+* {{icon|diplomacy}} {{green|+2}} Diplomacy
+* {{icon|prestige}} {{green|+0.25}} Monthly Prestige
+* {{icon|opinion}} {{green|+5}} General Opinion
+* {{icon|opinion}} {{green|+10}} Opinion of liege
+| 1
+| 
+* {{icon|heritage}} West Germanic heritage
+* {{icon|no}}{{iconify|Nomadic}}
+* {{icon|no}}{{iconify|Celestial}}
+| 
+* {{green|+40}} by default
+* {{green|+4}} per {{iconify|Stewardship}} (max 50)
+* {{green|+20}} {{iconify|Master Hunter}}
+* {{green|+10}} {{iconify|Hunter}}
+* {{green|+5}} {{iconify|Novice Hunter}}
+* {{red|−10}} {{iconify|Severely Injured}}
+* {{red|−15}} {{iconify|Brutally Mauled}}
+* {{red|−15}} {{iconify|Maimed}}
+* {{red|−20}} {{iconify|Blind}}
+| 
+|- id="Garuda"
+| '''Garuda'''<br>[[File:Garuda court position.png]]
+| 
+* {{icon|dread}} {{green|+1}} to {{green|+10}} Natural Dread
+* {{icon|dread}} '''0''' to {{green|+30%}} Dread Gain
+* {{icon|dread}} '''0''' to {{green|−30%}} Dread Decay
+* {{icon|unknown}} Less likely to be captured battle
+* {{icon|unknown}} Less likely to die in battle
+* [[File:Executioner terrify court.png|24px]] Terrify Court
+** {{icon|dread}} {{green|+1}} to {{green|+10}} Natural Dread
+** {{icon|opinion}} {{red|−1}} to {{red|−10}} Courtier and Guest Opinion
+** {{iconify|Prestige}} Salary
+| 
+* {{icon|prestige}} {{green|+0.25}} Monthly Prestige
+* {{icon|dread}} {{green|+15}} Natural Dread
+* {{icon|dread}} {{green|−25%}} Dread Decay
+* {{icon|opinion}} {{green|+5}} Opinion of liege
+| 2
+| 
+* {{icon|yes}} Culture has Garuda Warriors tradition
+* {{iconify|Knight}}
+| 
+* {{green|+2.5}} per {{iconify|Martial}} (max 50)
+* {{green|+2}} per {{iconify|Prowess}} (max 50)
+* {{green|+30}} {{iconify|Legendary Blademaster}}
+* {{green|+15}} {{iconify|Blademaster}}
+* {{green|+5}} {{iconify|Aspiring Blademaster}}
+* {{red|−15}} {{iconify|Severely Injured}}
+* {{red|−25}} {{iconify|Brutally Mauled}}
+* {{red|−25}} {{iconify|Maimed}}
+* {{red|−50}} {{iconify|Blind}}
+| 
+|-
+| '''Court Artificer'''<br>[[File:Court artificer court position.png]]
+|
+* {{icon|grandeur}} '''0''' to {{green|+2}} Court Grandeur
+* {{icon|inspiration}} {{green|10%}} to {{green|30%}} Yearly chance to gain inspiration
+* [[File:Court artificer court position task martial.png|24px]] Create Weapons, Armor, and go Adventuring
+** {{icon|inspiration}} Gained inspirations will be Weapon, Armor or Adventure
+** {{icon|renown}} {{green|+0.1}} Monthly Renown
+** {{iconify|Gold}}/Treasury Salary
+* [[File:Court artificer court position task learning.png|24px]] Create Books & Tapestries
+** {{icon|inspiration}} Gained inspirations will be Book, Weaver or Alchemy
+** {{icon|renown}} {{green|+0.1}} Monthly Renown
+** {{iconify|Gold}}/Treasury Salary
+* [[File:Court artificer court position task stewardship.png|24px]] Create Crowns & Sculptures
+** {{icon|inspiration}} Gained inspirations will be Smith or Artisan
+** {{icon|renown}} {{green|+0.1}} Monthly Renown
+** {{iconify|Gold}}/Treasury Salary
+| 
+* [[File:Artifact quality.png|24px]] {{green|-20%}} Artifact Decay Reduction
+* {{icon|learning lifestyle}} {{green|+10%}} Monthly Learning Lifestyle Experience
+* {{icon|opinion}} {{green|+10}} Opinion of liege
+* {{icon|no}} Cannot have another position
+* {{icon|alert}} Will leave the court if fired
+| 3
+| 
+* {{icon|inspiration}} Inspired or completed an inspiration
+* {{icon|no}}{{iconify|Nomadic}}
+* {{icon|no}}[[File:Council.png|24px]] Councilor
+* {{icon|no}}{{iconify|Spouse}}
+* {{icon|no}}{{iconify|Vassal}}
+* {{icon|no}}{{iconify|Tax Collector}}
+|
+* {{green|+1}} per any skill point
+* {{red|−15}} {{iconify|Severely Injured}}
+* {{red|−20}} if Local Artisan
+* {{red|−25}} {{iconify|Brutally Mauled}}
+* {{red|−25}} {{iconify|Maimed}}
+* {{red|−50}} {{iconify|Blind}}
+| {{icon|roc}}
+|-
+| '''Court Musician'''<br>[[File:Court musician court position.png]]
+|
+* {{icon|stress loss}} {{green|+1%}} to {{green|+10%}} Stress Loss
+* {{icon|grandeur}} {{green|+1}} to {{green|+3}} Court Grandeur Bonus
+* {{icon|opinion}} {{green|+30}} Opinion for 10 years from feasts without Musical Theorists tradition
+* {{icon|opinion}} {{green|+65}} Opinion for 10 years from feasts with Musical Theorists tradition
+* [[File:Court musician court position task bolster legitimacy.png|24px]] Bolster Legitimacy
+** {{icon|legitimacy}} {{green|+0.1}} to {{green|+1}} Monthly Legitimacy
+** {{iconify|Gold}}/Treasury Salary
+* [[File:Chronicler promote legend realm.png|24px]] Extol Domestic Legend
+** {{icon|legend}} {{green|+5%}} to {{green|+60%}} Legend Spread Chance
+** {{iconify|Gold}}/Treasury Salary
+** {{icon|lod}} Requires promoting a legend
+* [[File:Chronicler espouse legend.png|24px]] Commend Legend Abroad
+** {{icon|unknown}} {{green|+25%}} to {{green|+85%}} Chance a vassal or neighbor promotes the character's legends
+** {{iconify|Gold}}/Treasury Salary
+** {{icon|lod}} Requires promoting a legend
+| 
+* {{icon|prestige}} {{green|+0.25}} Monthly Prestige
+* {{icon|stress gain}} {{green|−25%}} Stress Loss
+* {{icon|diplomacy lifestyle}} {{green|+10%}} Monthly Diplomacy Lifestyle Experience
+* {{icon|opinion}} {{green|+5}} General Opinion
+* {{icon|opinion}} {{green|+5}} Opinion of liege
+* {{icon|no}} Cannot have another position
+| 1
+| 
+* {{icon|diplomacy}} 12 Diplomacy or unlanded
+* {{icon|no}}[[File:Council.png|24px]] Councilor
+* {{icon|no}}{{iconify|Spouse}}
+* {{icon|no}}{{iconify|Tax Collector}}
+|
+* {{green|+2.5}} per {{iconify|Diplomacy}} (max 50)
+* {{green|+30}} {{iconify|Gregarious}}
+* {{green|+20}} Musical Theorists tradition
+* {{green|+10}} {{iconify|Poet}}
+* {{red|−10}} {{iconify|Shy}}
+* {{red|−10}} {{iconify|Severely Injured}}
+* {{red|−15}} {{iconify|Brutally Mauled}}
+* {{red|−15}} {{iconify|Maimed}}
+| {{icon|roc}}
+|-
+| '''Court Poet'''<br>[[File:Court poet court position.png]]
+|
+* {{icon|stress loss}} {{green|+1%}} to {{green|+10%}} Stress Loss
+* {{icon|grandeur}} {{green|+1}} to {{green|+3}} Court Grandeur Bonus
+* {{icon|inspiration}} {{green|10%}} to {{green|30%}} Yearly chance to gain inspiration
+* [[File:Court poet court position task create poetry.png|24px]] Write Poetry
+** {{icon|unknown}} Gain a [[Modifiers#Court_poet_modifiers|court poet modifier]] modifier each year
+** {{iconify|Gold}}/Treasury Salary
+* [[File:Chronicler promote legend realm.png|24px]] Extol Domestic Legend
+** {{icon|legend}} {{green|+5%}} to {{green|+60%}} Legend Spread Chance
+** {{iconify|Gold}}/Treasury Salary
+** {{icon|lod}} Requires promoting a legend
+* [[File:Chronicler espouse legend.png|24px]] Commend Legend Abroad
+** {{icon|unknown}} {{green|+25%}} to {{green|+85%}} Chance a vassal or neighbor promotes the character's legends
+** {{iconify|Gold}}/Treasury Salary
+** {{icon|lod}} Requires promoting a legend
+| 
+* {{icon|prestige}} {{green|+0.25}} Monthly Prestige
+* {{icon|stress gain}} {{green|−25%}} Stress Loss
+* {{icon|diplomacy lifestyle}} {{green|+10%}} Monthly Diplomacy Lifestyle Experience
+* {{icon|opinion}} {{green|+5}} General Opinion
+* {{icon|opinion}} {{green|+5}} Opinion of liege
+* {{icon|no}} Cannot have another position
+| 1
+| 
+* {{icon|no}}[[File:Council.png|24px]] Councilor
+* {{icon|no}}{{iconify|Spouse}}
+* {{icon|no}}{{iconify|Vassal}}
+* {{icon|no}}{{iconify|Tax Collector}}
+|
+* {{green|+25}} by default
+* {{green|+2.5}} per {{iconify|Diplomacy}} (max 50)
+* {{green|+1}} per {{iconify|Learning}} (max 50)
+* {{green|+20}} Enlightened Magnates tradition
+* {{green|+20}} Refined Poetry tradition
+* {{green|+15}} {{iconify|Gregarious}}
+* {{red|−10}} {{iconify|Severely Injured}}
+* {{red|−15}} {{iconify|Brutally Mauled}}
+* {{red|−15}} {{iconify|Maimed}}
+| {{icon|roc}}
+|-
+| '''Executioner'''<br>[[File:Executioner court position.png]]
+|
+* {{icon|death}} Can publicly Execute Prisoners
+* {{icon|dread}} {{green|+5%}} to {{green|+25%}} Dread Gain
+* {{icon|dread}} {{green|−5%}} to {{green|−25%}} Dread Decay
+* {{icon|control}} '''0''' to {{green|+12}} Domain Control per public execution
+* [[File:Executioner terrify court.png|24px]] Terrify Court
+** {{icon|dread}} {{green|+1}} to {{green|+10}} Natural Dread
+** {{icon|opinion}} {{red|−1}} to {{red|−10}} Courtier and Guest Opinion
+** {{iconify|Prestige}} Salary
+| 
+* {{icon|prestige}} {{green|+0.25}} Monthly Prestige
+* {{icon|dread}} {{green|+25}} Natural Dread
+* {{icon|dread}} {{green|+50%}} Dread Gain
+* {{icon|opinion}} {{red|−15}} General Opinion
+* {{icon|opinion}} {{green|+5}} Opinion of liege
+* {{icon|alert}} Existing crimes are forgiven
+* {{icon|no}} Cannot have another position
+| 1
+| 
+* {{icon|crime}} Criminal, Imprisoned or has Strong Hook
+* {{icon|no}}{{iconify|Nomadic}}
+* {{icon|no}}{{iconify|Celestial}}
+* {{icon|no}}[[File:Council.png|24px]] Councilor
+* {{icon|no}}{{iconify|Spouse}}
+* {{icon|no}}{{iconify|Vassal}}
+* {{icon|no}}{{iconify|Tax Collector}}
+|
+* {{green|+2.5}} per {{iconify|Intrigue}} (max 50)
+* {{green|+2}} per {{iconify|Prowess}} (max 50)
+* {{green|+25}} if {{iconify|Torturer}}
+* {{green|+20}} if {{iconify|Sadistic}}
+* {{red|−15}} {{iconify|Severely Injured}}
+* {{red|−25}} {{iconify|Brutally Mauled}}
+* {{red|−25}} {{iconify|Maimed}}
+* {{red|−50}} {{iconify|Blind}}
+| {{icon|roc}}
+|-
+| '''Food Taster'''<br>[[File:Food taster court position.png]]
+|
+* {{icon|grandeur}} {{green|+1}} to {{green|+3}} Court Grandeur
+* {{icon|scheme success chance}} '''0''' to {{green|−10%}} Initial Enemy Hostile Scheme Success Chance
+* {{icon|unknown}} {{green|33%}} Chance to prevent a Poison Murder scheme
+* [[File:Food taster court position task brew poisons.png|24px]] Brew Poisons
+** {{icon|scheme secrecy}} {{green|+1%}} to {{green|+20%}} Scheme Secrecy
+** {{icon|scheme potential}} {{green|+1%}} to {{green|+20%}} Hostile Scheme Potential
+** {{iconify|Gold}}/Treasury Salary
+* [[File:Food taster court position task ear to the ground.png|24px]] Keep an Ear to the Ground
+** {{icon|scheme discovery chance}} {{green|+1%}} to {{green|+10%}} Scheme Discovery Chance
+** {{icon|intrigue lifestyle}} {{green|+10%}} Monthly Intrigue Lifestyle Experience
+** {{iconify|Prestige}} Salary
+| 
+* {{icon|diplomacy}} {{green|+1}} Diplomacy
+* {{icon|prestige}} {{green|+0.25}} Monthly Prestige
+* {{icon|opinion}} {{green|+5}} Opinion of liege
+* {{icon|scheme potential}} {{red|+10%}} Enemy Hostile Scheme Potential
+* {{icon|no}} Cannot have another position
+* {{icon|alert}} {{yellow|Powerful agent}}
+| 1
+| 
+* {{icon|no}}{{iconify|Nomadic}}
+* {{icon|no}}[[File:Council.png|24px]] Councilor
+* {{icon|no}}{{iconify|Spouse}}
+* {{icon|no}}{{iconify|Vassal}}
+* {{icon|no}}{{iconify|Tax Collector}}
+|
+* {{green|+10}} by default
+* {{green|+3}} per {{iconify|Intrigue}} (max 50)
+* {{green|+25}} {{iconify|Gluttonous}}
+* {{green|+20}} Culinary Artists tradition
+* {{green|+15}} {{iconify|Comfort Eater}}
+* {{green|+15}} {{iconify|Herbalist}}
+* {{green|+15}} {{iconify|Loyal}}
+* {{green|+15}} {{iconify|Trusting}}
+* {{red|−10}} {{iconify|Severely Injured}}
+* {{red|−15}} {{iconify|Brutally Mauled}}
+* {{red|−15}} {{iconify|Maimed}}
+* {{red|−50}} {{iconify|Inappetetic}}
+| {{icon|roc}}
+|-
+| '''Royal Architect'''<br>[[File:Royal architect court position.png]]
+| 
+* {{icon|time}} {{green|−2%}} to {{green|−20%}} Holding Construction Time
+* {{icon|time}} {{green|−5%}} to {{green|−30%}} Building Construction Time
+* [[File:Royal architect fortify lands.png|24px]] Fortify Lands
+** {{icon|fort level}} {{green|+1}} to {{green|+3}} Fort Level
+** {{icon|garrison}} {{green|+1%}} to {{green|+10%}} Garrison Size
+** {{iconify|Gold}}/Treasury Salary
+* [[File:Royal architect public works.png|24px]] Public Works
+** {{icon|development}} {{green|+0.01}} to {{green|+0.15}} Monthly Development in Realm Capital
+** {{iconify|Gold}}/Treasury Salary
+| 
+* {{icon|prestige}} {{green|+0.25}} Monthly Prestige
+* {{icon|gold}} {{green|−15%}} Holding Construction Cost
+* {{icon|time}} {{green|−15%}} Holding Construction Time
+* {{icon|stewardship lifestyle}} {{green|+10%}} Monthly Stewardship Lifestyle Experience
+* {{icon|opinion}} {{green|+5}} Opinion of liege
+| 1
+| {{icon|no}}{{iconify|Nomadic}}
+|
+* {{green|+25}} by default
+* {{green|+2.5}} per {{iconify|Stewardship}} (max 50)
+* {{green|+40}} {{iconify|Architect}}
+* {{green|+10}} [[File:Khvarenah legacy track.png|24px]] Brilliance dynasty legacy
+* {{red|−10}} {{iconify|Severely Injured}}
+* {{red|−15}} {{iconify|Brutally Mauled}}
+* {{red|−15}} {{iconify|Maimed}}
+* {{red|−50}} {{iconify|Blind}}
+| {{icon|roc}}
+|-
+| '''Court Scholar'''<br>[[File:Court scholar court position.png]]
+| 
+* {{icon|innovation}} {{green|+2%}} to {{green|+10%}} Cultural Fascination Progress
+* {{icon|learning}} '''0''' to {{green|+3}} Learning
+* [[File:Physician guard family.png|24px]] Advanced Research
+** [[File:Focus invalid.png|24px]] {{green|+2%}} to {{green|+10%}} Monthly Lifestyle Experience
+** {{iconify|Gold}}/Treasury Salary
+| 
+* {{icon|prestige}} {{green|+0.5}} Monthly Prestige
+* {{icon|learning lifestyle}} {{green|+20%}} Monthly Learning Lifestyle Experience
+* {{icon|opinion}} {{green|+5}} General Opinion
+* {{icon|opinion}} {{green|+10}} Opinion of liege
+* {{icon|no}} Cannot have another position
+| 1
+| 
+* {{icon|yes}} Culture has Beacon of Learning tradition
+* {{icon|no}}[[File:Council.png|24px]] Councilor
+* {{icon|no}}{{iconify|Vassal}}
+* {{icon|no}}{{iconify|Tax Collector}}
+| 
+* {{green|+4}} per {{iconify|Learning}} (max 65)
+* {{green|+20}} {{iconify|Genius}}
+* {{green|+15}} {{iconify|Intelligent}}
+* {{green|+10}} {{iconify|Quick}}
+* {{green|+15}} {{iconify|Scholar}}
+* {{green|+15}} {{iconify|Theologian}}
+* {{green|+5}} {{iconify|Novice Physician}}
+* {{green|+10}} {{iconify|Shrewd}}
+* {{green|+10}} [[File:Khvarenah legacy track.png|24px]] Brilliance dynasty legacy
+* {{green|+10}} [[File:Innovation misc inventions.png|24px]] Mural Sextant innovation
+* {{red|−10}} {{iconify|Severely Injured}}
+* {{red|−15}} {{iconify|Brutally Mauled}}
+* {{red|−15}} {{iconify|Maimed}}
+| {{icon|lop}}
+|-
+| '''Fire Dragon Engineer'''<br>[[File:Fire dragon engineer court position.png]]
+| 
+* {{icon|time}} {{green|−5%}} to {{green|−25%}} Siege Phase Time
+* [[File:Fire dragon engineer court position forge fire dragons.png|24px]] Forge Fire Dragons
+** {{icon|levies}} {{green|+1}} to {{green|+5}} Max Size of Handgunner Regiments
+** {{icon|gold}} {{green|-2.5%}} to {{green|-10%}} Handgunner Maintenance
+** {{iconify|Treasury}} Salary
+* [[File:Fire dragon engineer court position command artillery.png|24px]] Command Artillery
+** {{icon|damage}} {{green|+10%}} to {{green|+50%}} Handgunner Damage
+** {{icon|siege progress}} '''0''' to {{green|+0.2}} Handgunner Siege Progress
+** {{iconify|Treasury}} Salary
+| 
+* {{icon|opinion}} {{green|+5}} Opinion of Liege
+* {{icon|no}} Cannot have another position
+| 1
+| 
+* {{iconify|Celestial}} government
+* [[File:Innovation gunpowder.png|24px]] Fire Medicine innovation
+* {{icon|yes}} Independent or liege has the same government
+* {{icon|no}}{{iconify|Spouse}}
+* {{icon|no}}{{iconify|Vassal}}
+| 
+* {{green|+1}} per {{iconify|Learning}} (max 50)
+* {{green|+15}} {{iconify|Diligent}}
+* {{green|+15}} {{iconify|Patient}}
+* {{green|+15}} {{iconify|Architect}}
+* {{green|+15}} {{iconify|Scholar}}
+* {{red|−15}} {{iconify|Lazy}}
+* {{red|−15}} {{iconify|Impatient}}
+| {{icon|auh}}
+|}
+
+==== Emperor positions ====
+{{expansion|rtp|auh}}
+Emperor court positions are available to {{iconify|Emperor}}s and above. Each position can only be given to one character.
+{| class="mildtable plainlist"
+! Position
+! Effects on liege
+! Effects on position holder
+! Requirements
+! Aptitude
+|- id="Akolouthos"
+| '''Akolouthos'''<br>[[File:Akolouthos court position.png]]
+| 
+* {{icon|bodyguard}} {{green|+5}} to {{green|+25}} Varangian Bodyguard Aptitude
+* {{icon|toughness}} {{green|+5%}} to {{green|+20%}} Heavy Infantry Toughness
+* {{icon|unknown}} {{green|50%}} Chance to prevent an Assassination Murder scheme
+* {{icon|varangian}} {{green|+33%}} Yearly chance to spawn characters with the Varangian trait
+* {{icon|varangian}} {{green|+17%}} Yearly chance to give courtiers the Varangian trait
+* {{icon|loyal}} {{green|+17%}} Yearly chance to give courtiers the Loyal trait
+* {{icon|gold}} {{red|−30}} or {{red|−50}} Gold per varangian regiment upon death
+* [[File:Executioner terrify court.png|24px]] Terrify Court
+** {{icon|dread}} {{green|+1}} to {{green|+10}} Natural Dread
+** {{icon|opinion}} {{red|−1}} to {{red|−10}} Courtier and Guest Opinion
+** {{iconify|Prestige}} Salary
+* [[File:Master of horse mightiest warhorse.png|24px]] Warhorse Grooming
+** {{icon|advantage}} '''0''' to {{green|+3}} Advantage to commanded army
+** {{iconify|Gold}}/Treasury Salary
+| 
+* {{icon|intrigue}} {{green|+1}} Intrigue
+* {{icon|prowess}} {{green|+1}} Prowess
+* {{icon|prestige}} {{green|+0.5}} Monthly Prestige
+* {{icon|scheme potential}} {{green|−10%}} Enemy Hostile Scheme Potential
+* {{icon|opinion}} {{green|+5}} Opinion of liege
+* {{icon|no}} Cannot have another position
+| 
+* {{icon|yes}} Varangian Guard has been founded
+* {{icon|yes}} Gender can be combatant
+* {{iconify|Loyal}} or different heritage
+* {{icon|no}}[[File:Council.png|24px]] Councilor
+* {{icon|no}}{{iconify|Spouse}}
+* {{icon|no}}{{iconify|Vassal}}
+* {{icon|no}}{{iconify|Tax Collector}}
+| 
+* {{green|+4}} per {{iconify|Martial}} (max 50)
+* {{green|+15}} {{iconify|Herculean}}/Amazonian
+* {{green|+10}} {{iconify|Brave}}
+* {{green|+10}} {{iconify|Robust}}
+* {{green|+10}} {{iconify|Strong}}
+* {{green|+10}} {{iconify|Hale}}
+* {{green|+10}} {{iconify|Honest}}
+* {{green|+10}} {{iconify|Just}}
+* {{green|+10}} {{iconify|Loyal}}
+* {{green|+10}} {{iconify|Varangian}}
+* {{green|+10}} {{iconify|Unyielding Defender}}
+* {{green|+5}} {{iconify|Gallant}}
+* {{green|+5}} {{iconify|Stubborn}}
+* {{green|+5}} {{iconify|Shieldmaiden}}/Shieldswain
+* {{red|−10}} {{iconify|Fickle}}
+* {{red|−15}} {{iconify|Craven}}
+* {{red|−25}} {{iconify|Disloyal}}
+|- id="Eparch"
+| '''Eparch'''<br>[[File:Eparch court position.png]]
+| 
+* {{icon|governor efficiency}} {{green|+2%}} to {{green|+10%}} Governor Efficiency
+* {{icon|governor efficiency}} {{green|+2%}} to {{green|+10%}} Governor Efficiency for characters with estates in capital
+* {{icon|influence}} {{red|100}} Influence cost to revoke the position
+* [[File:Eparch appease populace.png|24px]] Appease Populace
+** {{icon|opinion}} {{green|+10}} to {{green|+50}} Popular Opinion in Realm Capital
+** {{iconify|Treasury}} Salary
+** [[File:Vassal stance zealot.png|24px]] Requires Zealot vassals
+* [[File:Eparch support troops.png|24px]] Support Troops
+** {{icon|damage}} {{green|+10%}} to {{green|+50%}} Stationed Men-at-Arms Damage in Realm Capital
+** {{icon|toughness}} {{green|+5%}} to {{green|+25%}} Stationed Men-at-Arms Toughness in Realm Capital
+** {{icon|siege progress}} {{green|+12%}} to {{green|+60%}} Stationed Men-at-Arms Siege Weapon Effectiveness in Realm Capital
+** {{iconify|Treasury}} Salary
+* [[File:Eparch enforce public order.png|24px]] Enforce Public Order
+** {{icon|control}} {{green|+0.3}} to {{green|+1.5}} Monthly Control in Realm Capital
+** {{iconify|Treasury}} Salary
+* [[File:Eparch development.png|24px]] Develop Capital
+** {{icon|development}} {{green|+0.1}} to {{green|+0.5}} Monthly Development in Realm Capital
+** {{iconify|Treasury}} Salary
+| 
+* {{icon|prestige}} {{green|+1}} Monthly Prestige
+* {{icon|influence}} {{green|+25%}} Monthly Influence
+* {{icon|opinion}} {{green|+20}} Opinion of liege
+| 
+* {{icon|governor efficiency}} Administrative governement
+* {{icon|yes}} Located in or near the capital
+* {{icon|no}}{{iconify|Eunuch}}
+* {{icon|no}}{{iconify|Beardless Eunuch}}
+| 
+* {{green|+1}} per {{iconify|Diplomacy}} (max 50)
+* {{green|+1}} per {{iconify|Stewardship}} (max 50)
+* {{green|+5}} per Level of Influence
+* {{green|+12}} Dominant Family
+* {{green|+10}} {{iconify|Administrator}}
+* {{green|+10}} {{iconify|Diplomat}}
+* {{green|+10}} {{iconify|Overseer}}
+* {{green|+10}} {{iconify|Schemer}}
+* {{green|+10}} {{iconify|Scholar}}
+* {{green|+8}} Powerful Family
+* {{green|+8}} {{iconify|Republican Heir}}
+* {{green|+6}} {{iconify|Town Maven}}
+* {{green|+5}} {{iconify|Diligent}}
+* {{green|+5}} {{iconify|Just}}
+* {{green|+5}} {{iconify|Stubborn}}
+* {{green|+4}} {{iconify|Governor}}
+* {{green|+4}} {{iconify|Mayor Trainee}}
+* {{green|+2}} {{iconify|Town Dweller}}
+* {{red|−5}} {{iconify|Fickle}}
+* {{red|−5}} {{iconify|Impatient}}
+|- id="Grand Guardian"
+| '''Grand Guardian'''<br>[[File:Grand guardian court position.png]]
+| 
+* {{icon|damage}} {{green|+1%}} to {{green|+15%}} Army Damage
+* {{icon|toughness}} {{green|+1%}} to {{green|+15%}} Army Toughness
+* [[File:Grand guardian court position task guard the capital.png|24px]] Guard the Capital
+** {{icon|scheme success chance}} {{green|−0.1%}} to {{green|−1%}} Enemy Hostile Scheme Growth
+** {{icon|control}} {{green|+0.1}} to {{green|+0.3}} Monthly Control in Realm Capital
+** {{icon|plague resistance}} {{green|+5}} to {{green|+25}} Plague Resistance in Realm Capital
+** {{icon|damage}} {{green|+10%}} to {{green|+50%}} Stationed Men-at-Arms Damage in Realm Capital
+** {{icon|toughness}} {{green|+5%}} to {{green|+25%}} Stationed Men-at-Arms Toughness in Realm Capital
+** {{icon|siege progress}} {{green|+10%}} to {{green|+50%}} Stationed Men-at-Arms Siege Weapon Effectiveness in Realm Capital
+** {{iconify|Treasury}} Salary
+* [[File:Grand guardian court position task shield the realm.png|24px]] Shield the Realm
+** {{icon|advantage}} {{green|+1}} to {{green|+9}} Defender Advantage
+** {{icon|advantage}} {{green|+1}} to {{green|+9}} Controlled Territory Defender Advantage
+** {{icon|death}} {{green|−10%}} to {{green|−50%}} Retreat Losses
+** {{iconify|Treasury}} Salary
+* [[File:Grand guardian court position task instill martial discipline.png|24px]] Instill Martial Discipline
+** {{icon|knight}} {{green|+5%}} to {{green|+30%}} Knight Effectiveness
+** {{icon|levies}} {{green|+10%}} to {{green|+30%}} Levy Reinforcement Rate
+** {{icon|martial lifestyle}} {{green|+5%}} to {{green|+30%}} Monthly Martial Lifestyle Experience
+** {{iconify|Treasury}} Salary
+| 
+* {{icon|influence}} {{green|+3}} Monthly Influence
+* {{icon|merit}} {{green|+10}} Monthly Merit
+* {{icon|martial lifestyle}} {{green|+10%}} Monthly Martial Lifestyle Experience
+* {{icon|opinion}} {{green|+5}} Opinion of Liege
+* {{icon|no}} Cannot have another position
+* {{icon|alert}} {{yellow|Powerful agent}}
+| 
+* {{iconify|Celestial}} government
+* {{icon|yes}} Realm is independent
+* {{icon|no}}[[File:Council.png|24px]] Councilor
+| 
+* {{green|+5}} per Merit Rank (max 50)
+* {{green|+0.5}} per {{iconify|Martial}} (max 50)
+* {{green|+10}} {{iconify|Shrewd}}
+* {{green|+10}} {{iconify|Confucian Education}}
+* {{green|+10}} {{iconify|Genius}}
+* {{green|+10}} {{iconify|Intelligent}}
+* {{green|+5}} {{iconify|Quick}}
+* {{green|+5}} {{iconify|Calm}}
+* {{green|+5}} {{iconify|Diligent}}
+* {{green|+5}} {{iconify|Patient}}
+* {{green|+5}} {{iconify|Scholar}}
+* {{red|−10}} {{iconify|Lazy}}
+* {{red|−10}} {{iconify|Reclusive}}
+* {{red|−10}} {{iconify|Shy}}
+* {{red|−50}} {{iconify|Infirm}}
+* {{red|always 0}} if {{iconify|Incapable}}
+|- id="Grand Mentor"
+| '''Grand Mentor'''<br>[[File:Grand mentor court position.png]]
+| 
+* {{icon|diplomacy}} {{green|+1}} to {{green|+5}} Diplomacy
+* {{icon|stewardship}} {{green|+1}} to {{green|+5}} Stewardship
+* {{icon|learning}} {{green|+1}} to {{green|+5}} Learning
+* [[File:Grand mentor court position task teach liege.png|24px]] Edify the Emperor
+** [[File:Focus invalid.png|24px]] {{green|+10%}} to {{green|+30%}} Monthly Lifestyle Experience
+** {{icon|unknown}} {{green|0.3%}} to {{green|1.6%}} Monthly Chance to increase a skill lower than the courtier's
+** {{icon|governor}} {{green|0.3%}} to {{green|1.6%}} Monthly Chance to gain Governor Experience if have the trait
+** {{icon|confucian education}} {{green|0.3%}} to {{green|1.6%}} Monthly Chance to gain Confucian Experience if have the trait
+** {{iconify|Treasury}} Salary
+* [[File:Grand mentor court position task edify heirs.png|24px]] Instruct Imperial Heirs
+** {{icon|renown}} {{green|+0.05}} to {{green|+0.25}} Monthly Renown
+** {{icon|opinion}} {{green|+2}} to {{green|+10}} House Opinion
+** {{icon|unknown}} {{green|0.3%}} to {{green|1.6%}} Monthly Chance Monthly Chance a house member increases a skill lower than the courtier's
+** {{icon|governor}} {{green|0.3%}} to {{green|1.6%}} Monthly Chance a house member gains Governor Experience if has the trait
+** {{icon|confucian education}} {{green|0.3%}} to {{green|1.6%}} Monthly Chance a house member gains Confucian Experience if has the trait
+** {{iconify|Treasury}} Salary
+* [[File:Grand mentor court position task train officials.png|24px]] Cultivate Meritorious Officials
+** {{icon|renown}} {{green|+0.5}} to {{green|+1.5}} Monthly Influence
+** {{icon|unknown}} {{green|0.25%}} to {{green|1.25%}} Monthly Chance Monthly Chance a direct vassal increases a skill lower than the courtier's
+** {{icon|governor}} {{green|0.25%}} to {{green|1.25%}} Monthly Chance a direct vassal gains Governor Experience if has the trait
+** {{icon|confucian education}} {{green|0.25%}} to {{green|1.25%}} Monthly Chance a direct vassal gains Confucian Experience if has the trait
+** {{icon|merit}} {{green|0.25%}} to {{green|1.25%}} Monthly Chance a direct vassal gains Merit if government uses it
+** {{iconify|Treasury}} Salary
+| 
+* {{icon|influence}} {{green|+3}} Monthly Influence
+* {{icon|merit}} {{green|+10}} Monthly Merit
+* {{icon|learning lifestyle}} {{green|+10%}} Monthly Learning Lifestyle Experience
+* {{icon|opinion}} {{green|+5}} Opinion of Liege
+* {{icon|no}} Cannot have another position
+* {{icon|alert}} {{yellow|Powerful agent}}
+| 
+* {{iconify|Celestial}} government
+* {{icon|yes}} Realm is independent
+* {{icon|no}}[[File:Council.png|24px]] Councilor
+| 
+* {{green|+5}} per Merit Rank (max 50)
+* {{green|+0.5}} per {{iconify|Learning}} (max 50)
+* {{green|+10}} {{iconify|Shrewd}}
+* {{green|+10}} {{iconify|Confucian Education}}
+* {{green|+10}} {{iconify|Genius}}
+* {{green|+10}} {{iconify|Intelligent}}
+* {{green|+5}} {{iconify|Quick}}
+* {{green|+5}} {{iconify|Calm}}
+* {{green|+5}} {{iconify|Diligent}}
+* {{green|+5}} {{iconify|Patient}}
+* {{green|+5}} {{iconify|Scholar}}
+* {{red|−10}} {{iconify|Lazy}}
+* {{red|−10}} {{iconify|Reclusive}}
+* {{red|−10}} {{iconify|Shy}}
+* {{red|−50}} {{iconify|Infirm}}
+* {{red|always 0}} if {{iconify|Incapable}}
+|- id="Grand Preceptor"
+| '''Grand Preceptor'''<br>[[File:Grand preceptor court position.png]]
+| 
+* {{icon|influence}} {{green|+5%}} to {{green|+25%}} Monthly Influence
+* {{icon|opinion}} {{green|+2}} to {{green|+10}} Direct Vassal Opinion
+* [[File:Grand preceptor court position task instill righteousness.png|24px]] Imbue with Moral Righteousness
+** {{icon|piety}} {{green|+0.05}} to {{green|+0.25}} Monthly Piety
+** {{icon|opinion}} {{green|+2}} to {{green|+20}} Same Faith Opinion
+** {{icon|opinion}} {{green|+5}} to {{green|+25}} Zealot Vassal Opinion
+** {{iconify|Treasury}} Salary
+* [[File:Grand preceptor court position task propagate civic virtue.png|24px]] Propagate Civic Virtue
+** {{icon|development}} {{green|+10%}} to {{green|+30%}} Development Growth
+** {{icon|control}} {{green|+0.02}} to {{green|+0.2}} Monthly Control
+** {{icon|opinion}} {{green|+2}} to {{green|+20}} Popular Opinion
+** {{iconify|Treasury}} Salary
+* [[File:Grand preceptor court position task exalt imperial deeds.png|24px]] Exalt Imperial Deeds
+** {{icon|renown}} {{green|+0.05}} to {{green|+0.25}} Monthly Renown
+** {{icon|opinion}} {{green|−10%}} to {{green|−100%}} Short Reign Duration
+** {{icon|opinion}} {{green|+1}} to {{green|+10}} Courtier and Guest Opinion
+** {{icon|gold}} Gold Salary
+| 
+* {{icon|influence}} {{green|+3}} Monthly Influence
+* {{icon|merit}} {{green|+10}} Monthly Merit
+* {{icon|diplomacy lifestyle}} {{green|+10%}} Monthly Diplomacy Lifestyle Experience
+* {{icon|opinion}} {{green|+5}} Opinion of Liege
+* {{icon|no}} Cannot have another position
+* {{icon|alert}} {{yellow|Powerful agent}}
+| 
+* {{iconify|Celestial}} government
+* {{icon|yes}} Realm is independent
+* {{icon|no}}[[File:Council.png|24px]] Councilor
+| 
+* {{green|+5}} per Merit Rank (max 50)
+* {{green|+0.5}} per {{iconify|Learning}} (max 50)
+* {{green|+10}} {{iconify|Shrewd}}
+* {{green|+10}} {{iconify|Confucian Education}}
+* {{green|+10}} {{iconify|Genius}}
+* {{green|+10}} {{iconify|Intelligent}}
+* {{green|+5}} {{iconify|Quick}}
+* {{green|+5}} {{iconify|Calm}}
+* {{green|+5}} {{iconify|Diligent}}
+* {{green|+5}} {{iconify|Patient}}
+* {{green|+5}} {{iconify|Scholar}}
+* {{red|−10}} {{iconify|Lazy}}
+* {{red|−10}} {{iconify|Reclusive}}
+* {{red|−10}} {{iconify|Shy}}
+* {{red|−50}} {{iconify|Infirm}}
+* {{red|always 0}} if {{iconify|Incapable}}
+|- id="Development Aide"
+| '''Development Aide'''<br>[[File:Minister bureaucrat court position.png]]
+| 
+* {{icon|treasury}} {{green|+1%}} or {{green|+5%}} Monthly Ministry Budget
+* {{icon|influence}} {{green|+3%}} or {{green|+15%}} Monthly Influence
+* {{icon|yes}} No cost to revoke the court position
+| 
+* {{icon|influence}} {{green|+3}} Monthly Influence
+* {{icon|merit}} {{green|+1}} Monthly Merit
+* {{icon|learning lifestyle}} {{green|+10%}} Monthly Learning Lifestyle Experience
+* {{icon|opinion}} {{green|+10}} Opinion of Liege
+* {{icon|alert}} {{yellow|Powerful agent}}
+| [[File:Council.png|24px]] Celestial Hegemon Councilor
+| 
+* {{green|+2}} per Merit Rank
+* {{green|+1.5}} per Minister Skill (max 50)
+* {{green|+4}} per Influence Level
+* {{green|+10}} Disciple
+* {{green|+10}} {{iconify|Administrator}}
+* {{green|+10}} {{iconify|Diplomat}}
+* {{green|+10}} {{iconify|Scholar}}
+* {{green|+10}} {{iconify|Shrewd}}
+* {{green|+10}} {{iconify|Inspector}}
+* {{green|+5}} {{iconify|Diligent}}
+* {{green|+5}} {{iconify|Just}}
+* {{green|+5}} {{iconify|Patient}}
+* {{green|+5}} {{iconify|Stubborn}}
+* {{red|−5}} {{iconify|Lazy}}
+* {{red|−5}} {{iconify|Impatient}}
+|}
+
+==== Hegemon positions ====
+{{expansion|auh}}
+Hegemon court positions are available to {{icon|hegemony}} Hegemons that have {{iconify|Celestial}} government. Each position can only be given to one character.
+{| class="mildtable plainlist"
+! Position
+! Effects on liege
+! Effects on position holder
+! Requirements
+! Aptitude
+|-
+| {{iconbox|Favored Minister|The Favored Minister is the chosen favorite Councilor of a Celestial Son of Heaven and is granted the freedom to run their ministry as they wish.|image=Favored minister court position.png|w=20em}}
+| {{icon|influence}} {{green|+5%}} to {{green|+25%}} Monthly Influence
+| 
+* {{icon|merit}} {{green|+3}} Monthly Merit
+* {{icon|treasury}} {{green|+50%}} Monthly Ministry Base Rate
+* {{icon|influence}} {{green|+25%}} Monthly Influence
+* {{icon|movement power}} {{green|+25%}} Personal Movement Power
+* {{icon|opinion}} {{green|+10}} Opinion of liege
+* {{icon|alert}} {{yellow|Powerful agent}}
+| [[File:Council.png|24px]] Councilor
+| 
+* {{green|+2}} per Disciple (max 50)
+* {{green|+0.5}} per Councilor Skill (max 50)
+* {{green|+5}} per Merit Rank
+* {{green|+4}} per Influence Level
+|-
+| {{iconbox|Keeper of the Harem|The Keeper of the Harem occupies a position of no small importance in the imperial harem, supervising everything from the concubines' garments to the auspicious scheduling of imperial intercourse.|image=Keeper of the harem court position.png|w=20em}}
+| 
+* {{icon|opinion}} {{green|+5}} to {{green|+40}} Spouse Opinion
+* [[File:Keeper of the harem court position task maintain decorum.png|24px]] Maintain Harem Decorum
+** {{icon|scheme discovery chance}} {{green|+1%}} to {{green|+10%}} Scheme Discovery Chance
+** {{icon|scheme success chance}} Reduced Murder and Seduce scheme success chance against consorts/concubines
+** {{iconify|Treasury}} Salary
+* [[File:Keeper of the harem court position task attend to wellness.png|24px]] Attend to Harem' Wellness
+** {{icon|plague resistance}} {{green|+1}} to {{green|+9}} Plague Resistance
+** {{icon|stress}} {{green|−10}} Yearly Stress for ill consorts/concubines
+** {{icon|health}} Ill consorts/concubines gain a huge health boost
+** {{iconify|Treasury}} Salary
+* [[File:Keeper of the harem court position task select palace beauties.png|24px]] Select Palace Beauties
+** {{icon|stress gain}} {{green|−1%}} to {{green|−8%}} Stress Gain
+** {{icon|stress loss}} {{green|+10%}} to {{green|+25%}} Stress Gain
+** {{icon|yes}} Consorts/concubines older than 25 are automatically replaced
+** {{icon|no}} Will not replace lovers, soulmates, friends, best friends or diarchs
+** {{icon|no}} Will not replace consorts/concubines with a child
+** {{icon|no}} Will not replace consorts/concubines played by a human player
+** {{iconify|Treasury}} Salary
+| 
+* {{icon|opinion}} {{green|+5}} Opinion of Liege
+* {{icon|no}} Cannot have another position
+* {{icon|alert}} {{yellow|Powerful agent}}
+| 
+* {{iconify|Eunuch}} or Female
+* {{icon|no}}[[File:Council.png|24px]] Councilor
+* {{icon|no}}{{iconify|Concubine}}/Consort
+| 
+* {{green|+0.25}} per {{iconify|Diplomacy}} (max 50)
+* {{green|+0.25}} per {{iconify|Intrigue}} (max 50)
+* {{green|+10}} {{iconify|Shrewd}}
+* {{green|+10}} {{iconify|Genius}}
+* {{green|+10}} {{iconify|Intelligent}}
+* {{green|+5}} {{iconify|Quick}}
+* {{green|+5}} {{iconify|Calm}}
+* {{green|+5}} {{iconify|Diligent}}
+* {{green|+5}} {{iconify|Patient}}
+* {{red|−10}} {{iconify|Lazy}}
+* {{red|−10}} {{iconify|Reclusive}}
+* {{red|−10}} {{iconify|Shy}}
+* {{red|−50}} {{iconify|Infirm}}
+* {{red|always 0}} if {{iconify|Incapable}}
+|}
+
+==== Nomadic positions ====
+{{expansion|kos}}
+Nomadic court positions are available to characters with {{iconify|Nomadic}} government. Each position can only be given to one character and they cannot be given to vassals.
+{| class="mildtable plainlist"
+! Position
+! Effects on liege
+! Effects on position holder
+! Requirements
+! Aptitude
+|-
+| {{iconbox|Chief Bodyguard|The Chief Bodyguard is in charge of the safety of their liege, an equally prestigious and dangerous position.|image=Cherbi court position.png|w=20em}}
+| 
+* {{icon|toughness}} {{green|+1}} to {{green|+3}} Archer Cavalry Toughness
+* {{icon|bodyguard}} {{green|+1}} to {{green|+5}} Bodyguard Aptitude
+* {{icon|knight}} '''0''' to {{green|+3}} Number of Knights
+* [[File:Cherbi double the guard.png|24px]] Double the Guard
+** {{icon|scheme phase length}} {{green|+5}} to {{green|+25}} Days Enemy Hostile Scheme Phase Length
+** {{icon|scheme secrecy}} {{green|+1%}} to {{green|+15%}} Enemy Scheme Secrecy
+** {{iconify|Gold}} Salary
+* [[File:Executioner terrify court.png|24px]] Terrify Court
+** {{icon|dread}} {{green|+1}} to {{green|+10}} Natural Dread
+** {{icon|opinion}} {{red|−1}} to {{red|−10}} Courtier and Guest Opinion
+** {{iconify|Prestige}} Salary
+| 
+* {{icon|prestige}} {{green|+1}} Monthly Prestige
+* {{icon|dread}} {{green|+15}} Natural Dread
+* {{icon|scheme potential}} {{green|−15%}} Enemy Hostile Scheme Potential
+* {{icon|opinion}} {{green|+5}} Opinion of liege
+| 
+* {{icon|prowess}} 12+ Prowess
+* {{icon|yes}} Gender can be combatant
+| 
+* {{green|+2.5}} per {{iconify|Prowess}} (max 50)
+* {{green|+0.5}} per {{iconify|Martial}} (max 50)
+* {{green|+0.5}} per {{iconify|Intrigue}} (max 50)
+* {{green|+15}} {{icon|node diplomacy}} Praetorian Guard perk
+* {{green|+15}} {{iconify|Brave}}
+* {{green|+15}} {{iconify|Diligent}}
+* {{green|+15}} {{iconify|Gallant}}
+* {{green|+15}} {{iconify|Loyal}}
+* {{red|-15}} {{iconify|Craven}}
+* {{red|-15}} {{iconify|Disloyal}}
+* {{red|-15}} {{iconify|Lazy}}
+|-
+| {{iconbox|Chief Law Overseer|The Chief Law Overseer is the one ensuring the laws of their liege are followed all throughout the realm.|image=Yeke jarquchi court position.png|w=20em}}
+| 
+* {{icon|legitimacy}} {{green|+0.1}} to {{green|+0.7}} Monthly Legitimacy
+* {{icon|control}} {{green|+0.1}} to {{green|+0.5}} Monthly Control in Capital
+* {{icon|obedience}} {{green|−1}} to {{green|−5}} Obedience Threshold
+* [[File:Seneschal improve court.png|24px]] Organize Court
+** [[File:Court.png|24px]] {{green|+2}} to {{green|+10}} Aptitude of Other Court Positions
+** {{iconify|Prestige}} Salary
+* [[File:Seneschal improve domain.png|24px]] Manage Domain
+** {{icon|control}} {{green|+0.02}} to {{green|+0.2}} Monthly Control
+** {{iconify|Gold}} Salary
+* [[File:Yeke jarquchi culture acceptance.png|24px]] Blend Cultures
+** {{icon|culture}} {{green|+2}} to {{green|+10}} Yearly Cultural Acceptance with other realm cultures
+** {{iconify|Prestige}} Salary
+** {{icon|culture}} Requires another culture in the realm
+| 
+* {{icon|control}} {{green|+20%}} Control Growth
+* {{icon|diplomacy lifestyle}} {{green|+10%}} Monthly Diplomacy Lifestyle Experience
+* {{icon|opinion}} {{green|+5}} Opinion of liege
+| {{icon|diplomacy}} 12+ Diplomacy
+| 
+* {{green|+2.5}} per {{iconify|Diplomacy}} (max 50)
+* {{green|+1}} per {{iconify|Learning}} (max 50)
+* {{green|+15}} {{iconify|Administrator}}
+* {{green|+15}} {{iconify|Honest}}
+* {{green|+15}} {{iconify|Just}}
+* {{green|+15}} {{iconify|Overseer}}
+* {{green|+15}} {{iconify|Stubborn}}
+* {{red|-15}} {{iconify|Callous}}
+* {{red|-15}} {{iconify|Deceitful}}
+* {{red|-15}} {{iconify|Fickle}}
+* {{red|-15}} {{iconify|Sadistic}}
+|-
+| {{iconbox|Foreign Emissary|A Foreign Emissary is recruited from afar to impress their liege's court with exotic stories, and to act as a diplomat to neighboring leaders.|image=Foreign emissary court position.png|w=20em}}
+| 
+* {{icon|prestige}} {{green|+1%}} to {{green|+5%}} Monthly Prestige
+* {{icon|gold}} {{green|+4%}} to {{green|+20%}} Tributary Taxes
+* {{icon|opinion}} {{green|+1}} to {{green|+10}} Courtier and Guest Opinion
+* [[File:Court jester court position task entertain court.png|24px]] Entertain Courtiers
+** {{icon|stress loss}} {{green|+5%}} to {{green|+100%}} Yearly chance to reduce 1-2 courtiers' Stress
+** {{iconify|Prestige}} Salary
+* [[File:Foreign emissary culture acceptance.png|24px]] Accommodate Tributaries
+* {{icon|opinion}} {{green|+2}} to {{green|+10}} Tributary Opinion
+** {{icon|culture}} {{green|+2}} to {{green|+10}} Yearly Cultural Acceptance with other realm cultures
+** {{iconify|Gold}} Salary
+| 
+* {{icon|opinion}} {{green|+5}} General Opinion
+* {{icon|diplomacy lifestyle}} {{green|+10%}} Monthly Diplomacy Lifestyle Experience
+* {{icon|opinion}} {{green|+5}} Opinion of liege
+| {{icon|culture}} Different culture
+| 
+* {{green|+2.5}} per {{iconify|Diplomacy}} (max 50)
+* {{green|+1}} per {{iconify|Stewardship}} (max 50)
+* {{green|+25}} {{iconify|Diplomat}}
+* {{green|+25}} {{iconify|Eager Reveler}}
+* {{green|+15}} {{iconify|Calm}}
+* {{green|+15}} {{iconify|Humble}}
+* {{green|+15}} {{iconify|Stubborn}}
+* {{red|-15}} {{iconify|Arrogant}}
+* {{red|-15}} {{iconify|Fickle}}
+* {{red|-15}} {{iconify|impatient}}
+|-
+| {{iconbox|General|The General is in charge of segments of their liege's armies, ensuring success in battle.|image=Boyan court position.png|w=20em}}
+| 
+* {{icon|horde riders}} {{green|+1%}} to {{green|+10%}} Herd to Horde Riders
+* {{icon|opinion}} {{green|+1}} to {{green|+10}} Belligerent Vassal Opinion
+* {{icon|advantage}} '''0''' to {{green|+2}} Minimum Battle Roll
+* {{icon|advantage}} '''0''' to {{green|+2}} Maximum Battle Roll
+* [[File:Boyan impress vassals.png|24px]] Cow Vassals
+** {{icon|unknown}} {{green|−20}} Vassal Faction Commitment
+** {{icon|gold}} {{green|+4%}} to {{green|+20%}} Intimidated Vassal Tax Contribution
+** {{icon|herd}} {{green|+4%}} to {{green|+20%}} Intimidated Vassal Herd Contribution
+** {{icon|opinion}} {{red|−10}} Vassal Opinion
+** {{iconify|Prestige}} Salary
+* [[File:Boyan prepare raids.png|24px]] Prepare Raids
+** {{icon|army speed}} {{green|+3%}} to {{green|+15%}} Movement Speed over land while Raiding
+** {{icon|raid}} {{green|+2%}} to {{green|+10%}} Raid Speed
+** {{iconify|Prestige}} Salary
+| 
+* {{icon|horde riders}} {{green|+5%}} Herd to Horde Riders
+* {{icon|martial lifestyle}} {{green|+10%}} Monthly Martial Lifestyle Experience
+* {{icon|opinion}} {{green|+5}} Opinion of liege
+| 
+* {{icon|martial}} 12+ Martial
+* {{icon|yes}} Gender can be combatant
+| 
+* {{green|+2.5}} per {{iconify|Martial}} (max 50)
+* {{green|+0.5}} per {{iconify|Stewardship}} (max 50)
+* {{green|+0.5}} per {{iconify|Learning}} (max 50)
+* {{green|+15}} {{icon|node diplomacy}} Praetorian Guard perk
+* {{green|+15}} {{iconify|Ambitious}}
+* {{green|+15}} {{iconify|Brave}}
+* {{green|+15}} {{iconify|Diligent}}
+* {{green|+15}} {{iconify|Overseer}}
+* {{green|+15}} {{iconify|Patient}}
+* {{green|+15}} {{iconify|Strategist}}
+* {{red|-15}} {{iconify|Craven}}
+* {{red|-15}} {{iconify|Lazy}}
+* {{red|-15}} {{iconify|Paranoid}}
+* {{red|-15}} {{iconify|Shy}}
+|-
+| {{iconbox|Keeper of the Horses|The Keeper of the Horses is a prestigious position in charge of their liege's steeds and stables.|image=Keeper of the horses court position.png|w=20em}}
+| 
+* {{icon|herd}} {{green|+1%}} to {{green|+10%}} Herd Gain
+* {{icon|herd}} {{green|+1%}} to {{green|+10%}} Herd Capacity
+* {{icon|travel speed}} {{green|+1%}} to {{green|+8%}} Travel Speed
+* [[File:Master of horse oversee breeding.png|24px]] Oversee Breeding
+** {{icon|pursuit}} {{green|+2%}} to {{green|+15%}} Army Pursuit
+** {{iconify|Gold}} Salary
+* [[File:Master of horse mightiest warhorse.png|24px]] Warhorse Grooming
+** {{icon|advantage}} '''0''' to {{green|+3}} Advantage to commanded army
+** {{iconify|Gold}} Salary
+| 
+* {{icon|herd}} {{green|+10%}} Herd Capacity
+* {{icon|martial lifestyle}} {{green|+10%}} Monthly Martial Lifestyle Experience
+* {{icon|opinion}} {{green|+5}} Opinion of liege
+| {{icon|prowess}} 12+ Prowess
+| 
+* {{green|+2.5}} per {{iconify|Martial}} (max 50)
+* {{green|+1}} per {{iconify|Diplomacy}} (max 50)
+* {{green|+15}} {{icon|node diplomacy}} Praetorian Guard perk
+* {{green|+15}} {{iconify|Administrator}}
+* {{green|+15}} {{iconify|Calm}}
+* {{green|+15}} {{iconify|Compassionate}}
+* {{green|+15}} {{iconify|Patient}}
+* {{green|+15}} {{iconify|Traveler}}
+* {{green|+15}} {{iconify|Patriarch}}/Matriarch
+* {{red|-15}} {{iconify|Callous}}
+* {{red|-15}} {{iconify|Impatient}}
+* {{red|-15}} {{iconify|Sadistic}}
+* {{red|-15}} {{iconify|Wrathful}}
+|-
+| {{iconbox|Quartermaster|The Quartermaster ensures the clan is equipped to move at a moment's notice, as well as equipped for battle.|image=Yurtchi court position.png|w=20em}}
+| 
+* {{icon|gold}} {{green|−1%}} to {{green|−10%}} Men-at-Arms Maintenance
+* {{icon|gold}} {{green|−2%}} to {{green|−20%}} Domicile Building Construction Cost
+* {{icon|time}} {{green|−2%}} to {{green|−20%}} Domicile Building Construction Time
+* [[File:Yurtchi lean times.png|24px]] Embrace Frugality
+** {{icon|gold}} {{green|+1%}} to {{green|+15%}} Gold from Herd
+** {{icon|opinion}} {{red|−15}} Court and Guest Opinion
+** {{iconify|Prestige}} Salary
+* [[File:Yurtchi prosperous times.png|24px]] Commence with Revelry
+** {{icon|opinion}} {{green|+5}} Vassal Opinion
+** {{icon|opinion}} {{green|+10}} Courtier and Guest Opinion
+** {{icon|opinion}} {{green|+25}} Popular Opinion
+** {{iconify|Gold}} Salary
+| 
+* {{icon|stewardship lifestyle}} {{green|+10%}} Monthly Stewardship Lifestyle Experience
+* {{icon|gold}} {{green|−10%}} Domicile Building Construction Cost
+* {{icon|time}} {{green|−10%}} Domicile Building Construction Time
+* {{icon|opinion}} {{green|+5}} Opinion of liege
+| {{icon|stewardship}} 12+ Stewardship
+| 
+* {{green|+2.5}} per {{iconify|Stewardship}} (max 50)
+* {{green|+1}} per {{iconify|Learning}} (max 50)
+* {{green|+15}} {{iconify|Administrator}}
+* {{green|+15}} {{iconify|Diligent}}
+* {{green|+15}} {{iconify|Greedy}}
+* {{green|+15}} {{iconify|Overseer}}
+* {{red|-15}} {{iconify|Generous}}
+* {{red|-15}} {{iconify|Lazy}}
+|-
+| {{iconbox|Siege Engineer|A Siege Engineer is usually a foreign agent recruited to the Steppes for their expertise in siege warfare.|image=Siege engineer court position.png|w=20em}}
+| 
+* {{icon|time}} {{green|−5%}} to {{green|−25%}} Siege Phase Time
+* [[File:Royal architect fortify lands.png|24px]] Fortify Lands
+** {{icon|fort level}} {{green|+1}} to {{green|+3}} Fort Level
+** {{icon|garrison}} {{green|+1%}} to {{green|+10%}} Garrison Size
+** {{iconify|Gold}} Salary
+* [[File:Siege engineer build equipment.png|24px]] Build Siege Equipment
+** {{icon|siege progress}} {{green|+0.01}} to {{green|+0.05}} Men-at-Arms Siege Progress
+** {{icon|raid}} {{green|1%}} to {{green|5%}} Monthly Chance to recruit or upgrade a Siege Weapon regiment
+** {{iconify|Gold}} Salary
+| 
+* {{icon|learning lifestyle}} {{green|+10%}} Monthly Learning Lifestyle Experience
+* {{icon|military engineer}} {{green|+25%}} Military Engineer Trait Experience Gain
+* {{icon|opinion}} {{green|+5}} Opinion of liege
+| {{iconify|Military Engineer}}
+| 
+* {{green|+2}} per {{iconify|Learning}} (max 50)
+* {{green|+1.5}} per {{iconify|Martial}} (max 50)
+* {{green|+1}} per {{iconify|Stewardship}} (max 50)
+* {{green|+15}} {{iconify|Architect}}
+* {{green|+15}} {{iconify|Diligent}}
+* {{green|+15}} {{iconify|Patient}}
+* {{green|+15}} {{iconify|Scholar}}
+* {{red|-15}} {{iconify|Lazy}}
+* {{red|-15}} {{iconify|Impatient}}
+|-
+| {{iconbox|Stargazer|The Stargazer searches the skies to predict what fate may be upon us.|image=Court astrologer court position.png|w=20em}}
+| 
+* {{icon|decision}} Unlocks the Call for an Assembly decision
+* {{icon|decision}} Unlocks the Consult the Skies decision
+* {{icon|piety}} {{green|+2%}} to {{green|+5%}} Monthly Piety
+* {{icon|stress loss}} {{green|+10%}} to {{green|+25%}} Stress Loss
+* {{icon|learning}} '''0''' to {{green|+1}} Learning
+* [[File:Court astrologer handling weather.png|24px]] Oversee Preparations
+** {{icon|herd}} {{green|+15%}} Herd Gain if season is Abundant Grazing
+** {{icon|opinion}} {{green|+10}} Vassal Opinion if season is Everlasting Summer
+** {{icon|county fertility}} {{green|−30%}} County Fertility Consumption if season is Severe Drought
+** {{icon|county fertility}} {{green|+25%}} County Fertility Growth if season is Cold Zud
+** {{icon|county fertility}} {{green|+20%}} County Fertility Growth if season is White Zud
+** {{icon|travel speed}} {{green|+33%}} Domicile Travel Speed if season is Havsarsan Zud
+** {{icon|piety}} {{green|+3}} Monthly Piety if season is Blessing of the Blue Sky
+** {{iconify|Prestige}} Salary
+* [[File:Court astrologer guide shepherds.png|24px]] Guide Shepherds
+** {{icon|county fertility}} {{green|2%}} to {{green|10%}} Monthly chance a Herder's county gains County Fertility
+** {{icon|seasoned pastoralist}} {{green|1%}} to {{green|5%}} Monthly chance a Herder gains the Seasoned Pastoralist trait
+** {{iconify|Prestige}} Salary
+** {{icon|herder}} Requires herder vassals
+| 
+* {{icon|learning}} {{green|+1}} Learning
+* {{icon|opinion}} {{green|+5}} Opinion of liege
+| {{icon|no}}[[File:Council.png|24px]] Councilor
+| 
+* {{green|+1.75}} per {{iconify|Learning}} (max 50)
+* {{green|+26}} {{iconify|Erudite Oracle}}
+* {{green|+16}} {{iconify|Mastermind Philosopher}}
+* {{green|+12}} {{iconify|Astute Intellectual}}
+* {{green|+8}} {{iconify|Insightful Thinker}}
+* {{green|+4}} {{iconify|Conscientious Scribe}}
+* {{green|+15}} {{iconify|Wise Man}}/Woman
+* {{green|+15}} {{iconify|Herbalist}}
+* {{green|+10}} Spiritual ethos
+|}
+
+=== Officers ===
+{{expansion|rtp}}
+Officers are available to adventurer character as opposed to regular court positions. They do not have any salary and with the exceptions of Personal Physician, Caravan Master, Stooge, Bodyguard, Camp Priest and Cultural Emissary every position gives the follower +0.1 Monthly Prestige. Almost all positions require a certain building or upgrade to be constructed in the camp and only sufficiently qualified followers may be given a position. Each Officer position can only be given to one follower and each follower can only have one Officer position. 
+
+With the Likable Boss perk a Friend will gain {{green|+15}} Aptitude and a Best Friend will gain {{green|+30}} Aptitude.
+{| class="mildtable plainlist"
+! Position
+! Effects
+! Follower opinion
+! Follower requirements (any)
+! Aptitude
+! Requirements
+|-
+| {{iconbox|Second|A Second is the most trusted officer at camp, aiding the leader as next-in-command. They are responsible for orders and organization in the leader's absence.|image=Second camp officer.png|w=20em}}
+| 
+* {{icon|diplomacy}} {{green|+1}} to {{green|+5}} Diplomacy
+* {{icon|martial}} {{green|+1}} to {{green|+5}} Martial
+* {{icon|stewardship}} {{green|+1}} to {{green|+5}} Stewardship
+* {{icon|intrigue}} {{green|+1}} to {{green|+5}} Intrigue
+* {{icon|learning}} {{green|+1}} to {{green|+5}} Learning
+* {{icon|prowess}} {{green|+1}} to {{green|+5}} Prowess
+| {{green|+5}}
+| 
+| 
+* {{green|+1.5}} per {{iconify|Diplomacy}} (max 60)
+* {{green|+0.75}} per {{iconify|Martial}} (max 60)
+* {{green|+0.75}} per {{iconify|Stewardship}} (max 60)
+* {{green|+0.75}} per {{iconify|Intrigue}} (max 60)
+* {{green|+0.75}} per {{iconify|Learning}} (max 60)
+* {{green|+0.75}} per {{iconify|Prowess}} (max 60)
+* {{green|+20}} {{iconify|Overseer}}
+* {{green|+15}} {{iconify|Loyal}}
+* {{green|+10}} {{iconify|Callous}}
+* {{green|+10}} {{iconify|Sadistic}}
+* {{red|−20}} {{iconify|Craven}}
+* {{red|−20}} {{iconify|Fickle}}
+| 
+|- id="Stooge"
+| {{iconbox|Stooge|The Stooge is the involuntary focus of the camp's irritation and cruel humor. Their maltreatment is a great source of morale and the origin of many risible fireside yarns.|image=Stooge camp officer.png|w=20em}}
+| 
+* {{icon|yes}} Unlocks special options in events
+* {{icon|decision}} Unlocks the Humiliate the Stooge decision
+| {{red|−5}}
+| 
+| {{red|−1}} per any skill point (from 100)
+| 
+|-
+| {{iconbox|Laureate|The Laureate is a live-in verse writer for all occasions. Their work is known far and wide, and brings in plenty of eager poets to learn at their feet.|image=Court poet court position.png|w=20em}}
+| 
+* {{icon|renown}} {{green|+1%}} to {{green|+5%}} Monthly Renown
+* {{icon|prestige}} {{green|+5%}} to {{green|+25%}} Monthly Prestige
+* {{icon|diplomacy}} '''0''' to {{green|+3}} Diplomacy
+* {{icon|decision}} Unlocks the Invite Poets decision
+* {{icon|yes}} Unlocks the Send Poem interaction
+| {{green|+5}}
+| 
+* {{icon|diplomacy}} 12+ Diplomacy
+* {{iconify|Arrogant}}
+* {{iconify|Eager Reveler}}
+* {{iconify|Fickle}}
+* {{iconify|Gregarious}}
+* {{iconify|Poet}}
+| 
+* {{green|+2}} per {{iconify|Diplomacy}} (max 60)
+* {{green|+1}} per {{iconify|Intrigue}} (max 60)
+* {{green|+1}} per {{iconify|Learning}} (max 60)
+* {{green|+50}} {{iconify|Poet}}
+| {{icon|poet}} Violet Poet trait
+|-
+| {{iconbox|Chief Cook|The Chief Cook rustles up hearty grub, keeping the camp well fed and in good spirits. They are also responsible for preparing the officers' meals.|image=Camp cook camp officer.png|w=20em}}
+| 
+* {{icon|scheme success chance}} {{green|-3%}} or {{green|-20%}} Initial enemy hostile scheme success chance
+* {{icon|scheme success chance}} {{green|-5%}} Initial enemy hostile scheme success chance
+| {{green|+2}}
+| 
+* {{icon|intrigue}} 12+ Intrigue
+* {{iconify|Diligent}}
+* {{iconify|Gluttonous}}
+* {{iconify|Humble}}
+| 
+* {{green|+2.5}} per {{iconify|Intrigue}} (max 60)
+* {{green|+25}} {{iconify|Gluttonous}}
+* {{green|+20}} {{iconify|Eager Reveler}}
+* {{green|+20}} Culinary Artists tradition
+* {{green|+15}} {{iconify|Comfort Eater}}
+* {{green|+15}} {{iconify|Herbalist}}
+* {{red|−50}} {{iconify|Inappetetic}}
+| [[File:Domicile building mess.png|24px]] Mess Tent building
+|-
+| {{iconbox|Head Porter|The Head Porter is in charge of transporting the camp and all its provisions. They ensure everything arrives at the next destination in one piece.|image=Head porter camp officer.png|w=20em}}
+| 
+* {{icon|provisions}} {{green|-2%}} to {{green|-32%}} Provisions loss
+* {{icon|supply}} {{green|+5}} to {{green|+50}} Supply capacity
+* {{icon|provisions}} {{green|+500}} Provisions capacity
+| {{green|+5}}
+| 
+* {{icon|martial}} 12+ Martial
+* {{iconify|Athletic}}
+* {{iconify|Content}}
+* {{iconify|Diligent}}
+* {{iconify|Humble}}
+| 
+* {{green|+2.5}} per {{iconify|Martial}} (max 60)
+* {{green|+1}} per {{iconify|Stewardship}} (max 60)
+* {{green|+15}} {{iconify|Logistician}}
+| [[File:Domicile building bagage.png|24px]] Baggage Train building
+|-
+| {{iconbox|Master of Arms|The Master of Arms is tasked with keeping the fighting men in line, both at camp and on the battlefield. They are responsible for discipline and training.|image=Master of arms camp officer.png|w=20em}}
+| 
+* {{icon|damage}} {{green|+2%}} to {{green|+40%}} Men-at-arms damage
+* {{icon|toughness}} {{green|+1%}} to {{green|+20%}} Men-at-arms toughness
+* {{icon|decision}} Unlocks the Train for a Tournament decision
+| {{green|+5}}
+| 
+* {{icon|martial}} 12+ Martial
+* {{iconify|Brave}}
+* {{iconify|Callous}}
+* {{iconify|Diligent}}
+* {{iconify|Stubborn}}
+* {{iconify|Organizer}}
+* {{iconify|Aggressive Attacker}}
+* {{iconify|Unyielding Defender}}
+| 
+* {{green|+2.5}} per {{iconify|Martial}} (max 60)
+* {{green|+1}} per {{iconify|Prowess}} (max 60)
+* {{green|+20}} {{iconify|Overseer}}
+* {{green|+10}} any commander trait
+| [[File:Domicile building proving.png|24px]] Proving Grounds building
+|-
+| {{iconbox|Quartermaster|The Quartermaster is responsible for ensuring the camp is well fed and watered. They manage, safeguard, and distribute the provisions as needed.|image=Quartermaster camp officer.png|w=20em}}
+| 
+* {{icon|provisions}} {{green|-10%}} to {{green|-50%}} Provisions loss
+* {{icon|supply}} {{green|+10%}} to {{green|+50%}} Supply capacity
+* {{icon|provisions}} {{green|+500}} Provisions capacity
+* {{icon|supply}} {{green|+20%}} Supply capacity
+| {{green|+5}}
+| 
+* {{icon|stewardship}} 12+ Stewardship
+* {{iconify|Diligent}}
+* {{iconify|Gluttonous}}
+* {{iconify|Greedy}}
+* {{iconify|Logistician}}
+* {{iconify|Organizer}}
+| 
+* {{green|+2.5}} per {{iconify|Stewardship}} (max 60)
+* {{green|+20}} {{iconify|Administrator}}
+* {{green|+20}} {{iconify|Avaricious}}
+* {{green|+20}} {{iconify|Logistician}}
+* {{green|+10}} {{iconify|Greedy}}
+* {{red|−20}} {{iconify|Generous}}
+* {{red|−50}} {{iconify|Improvident}}
+* {{red|−50}} {{iconify|Profligate}}
+| [[File:Domicile building supply tent.png|24px]] Supply Tent building
+|-
+| {{iconbox|Chief Forager|The Chief Forager is tasked with supplementing the camp's provisions. They are responsible for organizing parties to gather fare from the local area.|image=Chief forager camp officer.png|w=20em}}
+| 
+* {{icon|provisions}} {{green|+10%}} to {{green|+66%}} Provisions gain
+* {{icon|supply}} {{green|+10%}} to {{green|+66%}} Supply duration
+* {{icon|learning}} Can use their Learning in the Gather Provisions decision
+* {{icon|supply}} {{green|+20%}} Supply duration
+| {{green|+5}}
+| 
+* {{icon|learning}} 12+ Learning
+* {{iconify|Deceitful}}
+* {{iconify|Diligent}}
+* {{iconify|Eccentric}}
+* {{iconify|Gardener}}
+* {{iconify|Herbalist}}
+* {{iconify|Humble}}
+* {{iconify|Novice Physician}}
+* {{iconify|Scholar}}
+* {{iconify|Wise Man}}/Woman
+* {{iconify|Witch}}
+| 
+* {{green|+2.5}} per {{iconify|Learning}} (max 60)
+* {{green|+1}} per {{iconify|Prowess}} (max 50)
+* {{green|+20}} {{iconify|Traveler}}
+* {{green|+5}} {{iconify|Herbalist}}
+* {{green|+5}} {{iconify|Hunter}}
+| 
+* [[File:Domicile building herbalists.png|24px]] Knowledgeable Herbalists upgrade
+* [[File:Domicile building brewers.png|24px]] Mobile Brewers upgrade
+* [[File:Domicile building reserve provisions.png|24px]] Reserve Provisions upgrade
+* [[File:Domicile building reserve water.png|24px]] Reserve Water upgrade
+|-
+| {{iconbox|Armorer|The Armorer is a smith who specializes in helmets and maile. They are responsible for making and mending the garb of the men-at-arms and horses.|image=Armorer camp officer.png|w=20em}}
+| 
+* {{icon|toughness}} {{green|+2%}} to {{green|+50%}} Men-at-arms toughness
+* {{icon|toughness}} {{green|+10%}} Men-at-arms toughness
+| {{green|+5}}
+| 
+* {{icon|stewardship}} 12+ Stewardship
+* {{iconify|Diligent}}
+* {{iconify|Gregarious}}
+* {{iconify|Humble}}
+* {{iconify|Wrathful}}
+| 
+* {{green|+2.5}} per {{iconify|Stewardship}} (max 60)
+* {{green|+2}} per {{iconify|Learning}} (max 60)
+| 
+* [[File:Domicile building smithy.png|24px]] Roaming Smithy upgrade
+* [[File:Domicile building arsenal.png|24px]] Stocked Arsenal upgrade
+|-
+| {{iconbox|Master Bard|The Master Bard entertains the camp and its officers with ballads and tall tales. Their efforts may also go some way to immortalizing an adventurer's grand deeds.|image=Master bard camp officer.png|w=20em}}
+| 
+* {{icon|prestige}} {{green|+0.05}} to {{green|+0.3}} Monthly prestige
+* {{icon|yes}} Unlocks the Send Poem interaction
+| {{green|+5}}
+| 
+* {{icon|diplomacy}} 12+ Diplomacy
+* {{iconify|Arrogant}}
+* {{iconify|Deceitful}}
+* {{iconify|Diligent}}
+* {{iconify|Gregarious}}
+* {{iconify|Drunkard}}
+* {{iconify|Poet}}
+| 
+* {{green|+2.5}} per {{iconify|Diplomacy}} (max 60)
+* {{green|+1}} per {{iconify|Learning}} (max 50)
+* {{green|+30}} {{iconify|Poet}}
+* {{green|+20}} {{iconify|Eager Reveler}}
+* {{green|+20}} {{iconify|Seducer}}
+* {{green|+20}} Musical Theorists tradition
+* {{green|+20}} Refined Poetry tradition
+* {{green|+15}} {{iconify|Gregarious}}
+* {{red|−10}} {{iconify|Shy}}
+| 
+* [[File:Domicile building trailing musicians.png|24px]] Trailing Musicians upgrade
+* [[File:Domicile building wandering poets.png|24px]] Wandering Poets upgrade
+|-
+| {{iconbox|Camp Priest|The Camp Priest offers spiritual support to the camp.|image=Camp priest camp officer.png|w=20em}}
+| 
+* {{icon|piety}} {{green|+2%}} to {{green|+20%}} Monthly piety
+* {{icon|learning}} '''0''' to {{green|+3}} Learning
+| {{green|+2}}
+| 
+* {{icon|learning}} 12+ Learning
+* {{iconify|Compassionate}}
+* {{iconify|Diligent}}
+* {{iconify|Gregarious}}
+* {{iconify|Zealous}}
+* {{iconify|Crusader}}
+* {{iconify|Pilgrim}}
+* {{iconify|Holy Warrior}}
+| 
+* {{green|+4}} per {{iconify|Learning}} (max 65)
+* {{green|+20}} {{iconify|Theologian}}
+* {{green|+15}} {{iconify|Scholar}}
+* {{green|+20}} {{iconify|Wise Man}}/Woman
+| [[File:Domicile building camp shrine.png|24px]] Portable Shrine upgrade
+|-
+| {{iconbox|Head Groom|The Head Groom is charged with the livery of the camp's horses and beasts of burden. They are responsible for the animal's provender, care, and tack.|image=Head groom camp officer.png|w=20em}}
+| 
+* {{icon|travel speed}} {{green|+5}} to {{green|+15}} Travel speed
+* {{icon|army speed}} '''0''' to {{green|+25%}} Army movement speed
+| {{green|+5}}
+| 
+* {{icon|stewardship}} 12+ Stewardship
+* {{iconify|Calm}}
+* {{iconify|Diligent}}
+* {{iconify|Patient}}
+| 
+* {{green|+1.3}} per {{iconify|Stewardship}} (max 50)
+* {{green|+1}} per {{iconify|Learning}} (max 50)
+* {{green|+20}} {{iconify|Traveler}}
+* {{green|+5}} {{iconify|Brave}}
+* {{green|+5}} {{iconify|Diligent}}
+* {{green|+5}} {{iconify|Herbalist}}
+* {{green|+5}} {{iconify|Hunter}}
+* {{red|−10}} {{iconify|Lazy}}
+* {{red|−20}} {{iconify|Craven}}
+| [[File:Domicile building ample steeds.png|24px]] Ample Steeds upgrade
+|-
+| {{iconbox|Huntsman|The Huntsman is an acolyte in the ways of the horn, hound, and bow. They are responsible for planning and leading the camp's hunting expeditions.|image=Huntperson camp officer.png|w=20em}}
+| 
+* {{icon|damage}} {{green|+2%}} to {{green|+50%}} Archer damage
+* {{icon|prowess}} Can use their Prowess in the Gather Provisions decision
+* {{icon|hunt}} Increases Hunt success chance
+* {{icon|unknown}} Improves martial education outcomes
+| {{green|+2}}
+| 
+* {{icon|prowess}} 12+ Prowess
+* {{iconify|Athletic}}
+* {{iconify|Brave}}
+* {{iconify|Callous}}
+* {{iconify|Diligent}}
+* {{iconify|Hunter}}
+* {{iconify|Patient}}
+| 
+* {{green|+2}} per {{iconify|Prowess}} (max 50)
+* {{green|+1.5}} per {{iconify|Learning}} (max 50)
+* {{green|+20}} {{iconify|Hunter}}
+* {{green|+5}} {{iconify|Brave}}
+* {{red|−10}} {{iconify|Craven}}
+| [[File:Domicile building trackers.png|24px]] Proficient Trackers upgrade
+|-
+| {{iconbox|Kenneler|The Kenneler is tasked with the care and training of the camp's pack of hounds. They keep the dogs healthy and well fed — most of the time.|image=Kennelperson camp officer.png|w=20em}}
+| 
+* {{icon|knight}} {{green|+5%}} to {{green|+33%}} Knight effectiveness
+* {{icon|yes}} Unlocks Toss to Dogs execution method
+| {{green|+2}}
+| 
+* {{icon|martial}} 12+ Martial
+* {{iconify|Diligent}}
+* {{iconify|Gregarious}}
+* {{iconify|Stubborn}}
+| 
+* {{green|+2.5}} per {{iconify|Martial}} (max 60)
+* {{green|+1.5}} per {{iconify|Prowess}} (max 60)
+* [[File:Modifier dog positive.png|24px]] {{green|+20}} Pet Dog modifier
+* [[File:Modifier cat positive.png|24px]] {{red|-20}} Pet Cat modifier
+| [[File:Domicile building kennel.png|24px]] Kennels upgrade
+|-
+| {{iconbox|Chief Engineer|The Chief Engineer is responsible for all tasks requiring a knowledge of mechanisms and machinery. They build and repair siege weapons, and instruct the men in their use.|image=Chief engineer camp officer.png|w=20em}}
+| 
+* {{icon|siege progress}} {{green|+10%}} to {{green|+33%}} Daily siege progress
+* {{icon|siege progress}} {{green|+10%}} to {{green|+66%}} Siege weapon effectiveness
+| {{green|+5}}
+| 
+* {{icon|learning}} 12+ Learning
+* {{iconify|Diligent}}
+* {{iconify|Eccentric}}
+* {{iconify|Patient}}
+* {{iconify|Stubborn}}
+* {{iconify|Logistician}}
+* {{iconify|Military Engineer}}
+| 
+* {{green|+2.5}} per {{iconify|Learning}} (max 60)
+* {{green|+1.5}} per {{iconify|Martial}} (max 60)
+* {{green|+15}} {{iconify|Strategist}}
+| [[File:Domicile building siege engineers.png|24px]] Siege Engineers upgrade
+|-
+| {{iconbox|Master of Spoils|The Master of Spoils is responsible for the collection and distribution of the camp's booty. They ensure the spoils of war are properly divided between the men.|image=Master of spoils camp officer.png|w=20em}}
+| 
+* {{icon|gold}} {{green|+5}} to {{green|+500}} Gold when looting a holding
+* {{icon|gold}} {{green|+10}} to {{green|+1000}} Gold when winning a battle
+* {{icon|prestige}} {{green|+10}} to {{green|+1000}} Prestige when winning a battle
+* {{icon|piety}} {{green|+10}} to {{green|+1000}} Prestige when winning a battle against a Hostile or Evil religion
+* {{icon|unknown}} {{green|+50%}} Chance to take artifacts during siege battles
+| {{green|+5}}
+| 
+* {{icon|stewardship}} 12+ Stewardship
+* {{iconify|Diligent}}
+* {{iconify|Greedy}}
+* {{iconify|Just}}
+* {{iconify|Stubborn}}
+| 
+* {{green|+2}} per {{iconify|Stewardship}} (max 60)
+* {{green|+1}} per {{iconify|Martial}} (max 60)
+* {{green|+1}} per {{iconify|Intrigue}} (max 60)
+* {{green|+15}} {{iconify|Avaricious}}
+* {{green|+15}} {{iconify|Reaver}}
+* {{green|+10}} {{iconify|Greedy}}
+* {{red|−50}} {{iconify|Improvident}}
+* {{red|−50}} {{iconify|Profligate}}
+| [[File:Domicile lock wagons.png|24px]] Lockwagon upgrade
+|-
+| {{iconbox|Man-Haggler|The Man-Haggler is responsible for valuable prisoners, and extracting the greatest possible profit from them. They look to the captives, and handle the ransom negotiations.|image=Person haggler camp officer.png|w=20em}}
+| 
+* {{icon|gold}} {{green|+7%}} to {{green|+33%}} Gold gain from ransoming prisoners
+* {{icon|gold}} {{green|-9%}} to {{green|-33%}} Gold loss from ransoming followers
+| {{green|+2}}
+| 
+* {{icon|diplomacy}} 12+ Diplomacy
+* {{iconify|Callous}}
+* {{iconify|Diligent}}
+* {{iconify|Greedy}}
+* {{iconify|Sadistic}}
+| 
+* {{green|+1.5}} per {{iconify|Diplomacy}} (max 60)
+* {{green|+0.5}} per {{iconify|Stewardship}} (max 60)
+* {{green|+0.5}} per {{iconify|Intrigue}} (max 60)
+* {{green|+0.5}} per {{iconify|Prowess}} (max 60)
+* {{green|+10}} {{iconify|Deceitful}}
+* {{green|+10}} {{iconify|Gregarious}}
+* {{green|+10}} {{iconify|Patient}}
+* {{red|−20}} {{iconify|Honest}}
+| [[File:Domicile building ransom cages.png|24px]] Ransom Cages upgrade
+|-
+| {{iconbox|Master Thief|The Master Thief is a rogue tasked with the varied and morally dubious arts of burglary. They may ensure access to objects otherwise out of reach.|image=Master thief camp officer.png|w=20em}}
+| 
+* {{icon|scheme secrecy}} {{green|+3%}} to {{green|+25%}} Scheme secrecy
+* {{icon|yes}} Unlocks the Steal Artifact interaction
+| {{green|+5}}
+| 
+* {{icon|intrigue}} 12+ Intrigue
+* {{iconify|Arbitrary}}
+* {{iconify|Craven}}
+* {{iconify|Deceitful}}
+* {{iconify|Diligent}}
+| 
+* {{green|+2.5}} per {{iconify|Intrigue}} (max 60)
+* {{green|+2}} per {{iconify|Prowess}} (max 50)
+* {{green|+20}} {{iconify|Schemer}}
+* {{green|+10}} {{iconify|Deceitful}}
+* {{red|−20}} {{iconify|Honest}}
+| [[File:Domicile building subdued gear.png|24px]] Subdued Gear upgrade
+|-
+| {{iconbox|Witness|The Witness has the solemn task of recording the deeds and rightful claims of the camp's leader. They attest to the great deeds and struggles of the camp.|image=Witness camp officer.png|w=20em}}
+| {{icon|prestige}} {{green|+0.05}} to {{green|+1}} Monthly prestige
+| {{green|+2}}
+| 
+* {{icon|diplomacy}} 12+ Diplomacy
+* {{iconify|Brave}}
+* {{iconify|Honest}}
+* {{iconify|Just}}
+| 
+* {{green|+2.5}} per {{iconify|Diplomacy}} (max 60)
+* {{green|+20}} {{iconify|Diplomat}}
+* {{green|+20}} {{iconify|Flagellant}}
+* {{green|+10}} {{iconify|Gregarious}}
+* {{green|+10}} {{iconify|Humble}}
+* {{green|+10}} {{iconify|Loyal}}
+* {{red|−20}} {{iconify|Arrogant}}
+* {{red|−20}} {{iconify|Shy}}
+| [[File:Domicile building proof of claims.png|24px]] Proof of Claims upgrade
+|}
+
+==== Captains ====
+Captains are officers obtained from upgrading a [[File:Domicile building proving.png|24px]] Proving Grounds building and improve one type of men-at-arms. There are no requirements for who can occupy the position beyond the one position per character limit. Each captain position increases the follower's {{iconify|Opinion}} by {{green|2}}. Their aptitude is increased by the following:
+* {{green|+2.5}} per {{iconify|Martial}} (max 60)
+* {{green|+1}} per {{iconify|Prowess}} (max 60)
+* {{green|+20}} if they have the {{iconify|Strategist}} trait
+* {{green|+10}} if they have any commander trait (multiple commander traits do not stack)
+{| class="mildtable plainlist"
+! Position
+! Effects
+! Required upgrade
+|-
+| {{iconbox|Archer Captain|The Archer Captain commands the camp's bowmen. They are responsible for the contingent's leadership, training, and tactics.|image=Archer captain camp officer.png|w=25em}}
+| 
+* {{icon|damage}} {{green|+5%}} to {{green|+50%}} Archer damage
+* {{icon|screen}} {{green|+5%}} to {{green|+50%}} Archer screen
+* {{icon|levies}} '''0''' to {{green|+1}} Max size of archer regiments
+| [[File:Domicile building the stump.png|24px]] The Stump
+|-
+| {{iconbox|Light Cavalry Captain|The Light Cavalry Captain is commander of the camp's swiftest horsemen. They are responsible for the contingent's leadership, training, and tactics.|image=Light cavalry captain camp officer.png|w=25em}}
+| 
+* {{icon|damage}} {{green|+5%}} to {{green|+50%}} Light cavalry damage
+* {{icon|pursuit}} {{green|+5%}} to {{green|+50%}} Light cavalry pursuit
+* {{icon|levies}} '''0''' to {{green|+1}} Max size of light cavalry regiments
+| [[File:Domicile building horse run.png|24px]] Horse Run
+|-
+| {{iconbox|Light Infantry Captain|The Light Infantry Captain commands the camp's armored battle-line. They are responsible for the contingent's leadership, training, and tactics.|image=Light infantry captain camp officer.png|w=25em}}
+| 
+* {{icon|damage}} {{green|+5%}} to {{green|+50%}} Skirmisher damage
+* {{icon|screen}} {{green|+5%}} to {{green|+50%}} Skirmisher screen
+* {{icon|levies}} '''0''' to {{green|+1}} Max size of Skirmisher regiments
+| [[File:Domicile building training circle.png|24px]] Training Circle
+|-
+| {{iconbox|Heavy Cavalry Captain|The Heavy Cavalry Captain commands the camp's armored chargers. They are responsible for the contingent's leadership, training, and tactics.|image=Heavy cavalry captain camp officer.png|w=25em}}
+| 
+* {{icon|damage}} {{green|+5%}} to {{green|+50%}} Heavy cavalry damage
+* {{icon|pursuit}} {{green|+5%}} to {{green|+50%}} Heavy cavalry pursuit
+* {{icon|levies}} '''0''' to {{green|+1}} Max size of heavy cavalry regiments
+| [[File:Domicile building nightly barding drills.png|24px]] Nightly Barding Drills
+|-
+| {{iconbox|Heavy Infantry Captain|The Heavy Infantry Captain commands the camp's armored battle-line. They are responsible for the contingent's leadership, training, and tactics.|image=Heavy infantry captain camp officer.png|w=25em}}
+| 
+* {{icon|damage}} {{green|+5%}} to {{green|+50%}} Heavy infantry damage
+* {{icon|screen}} {{green|+5%}} to {{green|+50%}} Heavy infantry screen
+* {{icon|levies}} '''0''' to {{green|+1}} Max size of heavy infantry regiments
+| [[File:Domicile building personal bouts.png|24px]] Personal Bouts
+|-
+| {{iconbox|Pike Captain|The Pike Captain commands of the spear lines. They are responsible for the contingent's leadership, training, and tactics.|image=Pike captain camp officer.png|w=25em}}
+| 
+* {{icon|damage}} {{green|+5%}} to {{green|+50%}} Spearmen damage
+* {{icon|toughness}} {{green|+2%}} to {{green|+25%}} Spearmen toughness
+* {{icon|levies}} '''0''' to {{green|+1}} Max size of spearmen regiments
+| [[File:Domicile building mock battle drill.png|24px]] Mock Battle Drills
+|-
+| {{iconbox|Camelry Captain|The Camelry Captain commands the camp's camel-riders. They are responsible for the contingent's leadership, training, and tactics.|image=Camelry captain camp officer.png|w=25em}}
+| 
+* {{icon|damage}} {{green|+5%}} to {{green|+50%}} Camel cavalry damage
+* {{icon|pursuit}} {{green|+5%}} to {{green|+50%}} Camel cavalry pursuit
+* {{icon|levies}} '''0''' to {{green|+1}} Max size of camel cavalry regiments
+| [[File:Domicile building camel run.png|24px]] Camel Run
+|-
+| {{iconbox|Elephantry Captain|The Elephantry Captain commands the camp's mahouts. They are responsible for the contingent's leadership, training, and tactics.|image=Elephantry captain camp officer.png|w=25em}}
+| 
+* {{icon|damage}} {{green|+5%}} to {{green|+25%}} Elephantry cavalry damage
+* {{icon|toughness}} {{green|+2%}} to {{green|+12%}} Elephantry toughness
+* {{icon|pursuit}} {{green|+5%}} to {{green|+25%}} Elephantry cavalry pursuit
+| [[File:Domicile building elephantry reserves.png|24px]] Elephantry Reserve
+|-
+| {{iconbox|Horse Archer Captain|The Horse Archer Captain commands the camp's mounted skirmishers. They are responsible for the contingent's leadership, training, and tactics.|image=Horse archer captain camp officer.png|w=25em}}
+| 
+* {{icon|damage}} {{green|+5%}} to {{green|+50%}} Archer cavalry damage
+* {{icon|pursuit}} {{green|+5%}} to {{green|+50%}} Archer cavalry pursuit
+* {{icon|levies}} '''0''' to {{green|+1}} Max size of archer cavalry regiments
+| [[File:Domicile building life in the saddle.png|24px]] Life in the Saddle
+|}
+
+==References==
+<references />
+{{Mechanics navbox}}
+[[Category:Realm]]
+[[Category:Character]]

@@ -1,0 +1,994 @@
+{{Version|1.18}}
+[[File:Dynasty example.png|thumb|330px|A reputable dynasty]]
+A '''Dynasty''' represents an unbroken noble line descending from the same Landed character who founded the dynasty. Each dynasty is made up of multiple '''Houses''' working towards bringing Renown upon the dynasty. A dynasty can be renamed by the Dynasty Head at any point.
+
+== Houses ==
+Each dynasty will have a Founding House, usually of the same name as the dynasty, which is the first house of that dynasty. Ruling members of a dynasty may choose to create a Cadet Branch, a new house under the dynasty. Each house has its own name and motto, usually inspired by the location in which they are founded and the founding character, which can be changed at will by the House Head. They will also have a unique coat of arms that has two quarters copied from the dynasty coat of arms.
+
+If a House Head demands the religious conversion of a house member and the member refuses, it will result in the creation of a new Cadet Branch.
+
+Characters are born into father's house in Patrilineal marriage, or mother's house in Matrilineal marriage.
+
+=== House head ===
+The House Head is the leader of a house. House Heads have the power to legitimize bastards, call house members to war at no cost and demand that they convert to their Faith. In addition, House Heads will get a {{iconify|Weak Hook}} on all newly born house members and monthly prestige from living and landed members of their house. If a faith has the ''Must be Approved'' doctrine for divorces but no [[head of faith]], the House Head must approve of divorces. When a House Head dies, their Primary Heir becomes the next House Head.
+
+When a character creates a Cadet Branch, they become its House Head, and free from the direct influence of their old House Head unless they were the Dynasty Head.
+
+If a character who has the {{iconify|Extolled by House}} or {{iconify|Accused of Decadence}} trait becomes House Head they will lose the trait.
+
+==== Dynasty head ====
+The most powerful House Head of a dynasty will be the Dynasty Head. If another House Head becomes 10% stronger than the current Dynasty Head it will take its place. Most of the time Dynasty Head is calculated by military strength, but if all House Heads have {{icon|governor efficiency}} Administrative, {{iconify|Celestial}}, {{iconify|Meritocratic}}, {{iconify|Meritocratic Khanate}} or {{iconify|Ritsuryō}} government then it will be calculated by powerful family rating.
+
+The Dynasty Head gains Monthly Prestige from living and landed members of their dynasty. The Dynasty Head can always disinherit and also has access to the following interactions with dynasty members of the same faith:
+{| class="mildtable plainlist"
+! Interaction
+! Effects
+! Cost
+|-
+| Call Dynasty Member To War
+| Targeted Dynasty Member may join the Dynasty Head's current war
+| 75 {{iconify|Renown}}
+|-
+| Claim Title
+| Gain an {{iconify|Unpressed Claim}} on the targeted Dynasty Member's Primary Title and a temporary {{red|-50}} {{iconify|Opinion}}
+| 150 {{iconify|Renown}}
+|-
+| Denounce
+| Targeted Dynasty Member gains the [[File:Trait denounced.png|24px]] Denounced trait and a permanent {{red|-50}} {{iconify|Opinion}}
+| 
+* 50 {{iconify|Renown}} and 150 {{iconify|Prestige}} if Dynasty Member is Unlanded
+* 100 {{iconify|Renown}} and 300 {{iconify|Prestige}} if Dynasty Member is Heir to a title
+* 125 {{iconify|Renown}} and 500 {{iconify|Prestige}} if Dynasty Member is Landed
+|-
+| End Dynasty Wars
+| All wars between members of the same Dynasty end in White Peace
+| 
+* 75{{iconify|Renown}}
+|-
+| Forgive
+| Targeted Dynasty Member loses the [[File:Trait denounced.png|24px]] Denounced trait and the {{iconify|Opinion}} malus
+| 
+* 25 {{iconify|Renown}}
+|}
+If the first [[File:Adventure legacy track.png|24px]] Adventure legacy has been unlocked Dynasty Heads will also gain the ''Send to the Varangian Guard'' interaction. Using it costs 350 {{iconify|Prestige}}, sends an unlanded and unmarried Dynasty Member to the court of the Byzantine Empire and gives them the {{iconify|Varangian}} trait. The interaction is not limited to Diplomatic Range but is not available if the Dynasty Head's faith has the Pacifism tenet, the Dynasty Head is at war or truce with the Byzantine Empire or the Byzantine Empire title was destroyed.
+
+If a character who has the {{iconify|Denounced}} or {{iconify|Disinherited}} trait becomes Dynasty Head they will lose the trait.
+
+=== Adoption ===
+Adoption is available to rulers who are unmarried or in a marriage that brings children into their house and allows them to adopt a child character into their House. It requires one of the following:
+* {{iconify|Compassionate}} trait
+* No child and low {{iconify|Fertility}}
+* Unmarried and Sexuality is [[File:Homosexual male.png|24px]][[File:Homosexual female.png|24px]] Homosexual or [[File:Asexual.png|24px]] Asexual
+* Culture has the Noble Adoption tradition
+* Spouse has the same sex and there is no opposite gender Consort or Concubine
+* Adoption game rule is set to Always Allowed
+
+Children cannot be adopted if they are imprisoned, they or close or extended family members are landed or they are already part of the same house.
+
+Each Adoption costs {{iconify|Piety}} depending on the child's faith:
+* 0 if the faith is Righteous or same faith
+* 100 if faith is Astray
+* 150 if faith is Hostile
+* 250 if faith is Evil
+
+Acceptance is increased by having no parents, friendship, guardianship, shared personality traits or if the child has the {{iconify|Ambitious}} trait. Acceptance can be decreased by having parents or being already part of a house.
+
+Adopting decreases the {{iconify|Opinion}} of all children without the {{iconify|Content}} trait by {{red|-20}}.
+
+{{expansion|rtp}}
+Adventurers can always adopt a follower regardless of age. In their case the adopted follower will join the character's dynasty but create a new house. Adopting as an adventurer costs 150 {{iconify|Prestige}} unless the character's culture has the Noble Adoption tradition. If the adventurer had a heir, the heir will become rivals with the adopted follower and lose {{red|-15}} {{iconify|Opinion}}. Followers cannot be adopted if they have the {{iconify|Devoted}} or {{iconify|Gallivanter}} traits.
+
+=== House relations ===
+When members of different houses interact it will improve or worsen relations between the houses. The following actions affect house relations. If none of these actions happen for 50 years house relations will move one level towards Neutral. 
+{| class="mildtable plainlist"
+! Positive actions
+! Negative actions
+|-
+| 
+* {{green|+20%}} House head gives a gift to the other house head
+* {{green|+20%}} Release from prison with no demands
+* {{green|+20%}} Become best friends
+* {{green|+10%}} Become friends
+* {{green|+10%}} Complete Education
+* {{icon|rtp}}{{icon|auh}} {{green|+10%}} Promote scheme
+* {{icon|wrd}} {{green|+20%}} Exchange hostages
+* {{icon|auh}} {{green|+20%}} Give bloc leadership
+* {{icon|auh}} {{green|+20%}} Join bloc
+| 
+* {{red|-10%}} Abduct
+* {{red|-10%}} Betrothal broken
+* {{red|-10%}} Declare war
+* {{red|-10%}} Divorce
+* {{red|-10%}} Become rivals
+* {{red|-20%}} Become nemeses
+* {{red|-20%}} Cheating discovered
+* {{red|-20%}} Murder discovered
+* {{red|-20%}} Execute
+* {{red|-20%}} Knight killed
+* {{red|-20%}} Imprison
+* {{red|-20%}} Raided
+* {{red|-20%}} Refused to support an ally
+* {{red|-20%}} Revoke title
+* {{red|-20%}} Torture, blind, castrate, disfigure a prisoner
+* {{icon|rtp}}{{icon|auh}} {{red|-10%}} Slander scheme
+* {{icon|rtp}}{{icon|auh}} {{red|-20%}} Revoke governorship
+* {{icon|rtp}}{{icon|auh}} {{red|-20%}} Raid Estate failure
+* {{icon|rtp}}{{icon|auh}} {{red|-30%}} Raid Estate success
+* {{icon|tnt}} {{red|-20%}} Grand Wedding promise broken
+* {{icon|auh}} {{red|-20%}} Leave bloc
+* {{icon|auh}} {{red|-30%}} Remove from house bloc
+|}
+
+Once house relation reaches 100% in either direction, it will improve or worsen and bring the following effects between the two houses:
+{| class="mildtable"
+! House relation
+! Opinion
+! Marriage acceptance
+! Scheme success chance
+! War likelihood
+! Activity acceptance
+! {{icon|auh}} Bloc cohesion
+! Other effects
+|-
+|{{iconbox|Feuding|The past cannot be undone, only burning hatred remains.|image=Default house relation level feud.png}}
+| {{red|-30}}
+| {{red|-25}}
+| {{green|+15}} Hostile
+| {{red|Increased}}
+| {{red|Decreased}}
+| {{red|Triple penalty}}
+| Unlocks the Eradicate Rival House casus belli<br>Members are more likely to start hostile schemes<br>Casus belli prestige costs are reduced by 15%
+|-
+|{{iconbox|Rivalry|Pride injured, contempt gives way to malice.|image=Default house relation level rivalry.png}}
+| {{red|-20}}
+| {{red|-25}}
+| {{green|+15}} Hostile
+| {{red|Increased}}
+| {{red|Decreased}}
+| {{red|Double penalty}}
+| 
+|-
+|{{iconbox|Quarreling|Hackles are raised by one grievance too many.|image=Default house relation level quarrel.png}}
+| {{red|-10}}
+| {{red|-25}}
+| 
+| 
+| 
+| {{red|Penalty}}
+| 
+|-
+|{{iconbox|Neutral|Past turns and slights give way to indifference.|image=Default house relation level neutral.png}}
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+|-
+|{{iconbox|Cordial|By turns, the seeds of friendship are planted.|image=Default house relation level cordial.png}}
+| {{green|+10}}
+| {{green|+25}}
+| 
+| 
+| 
+| {{green|Bonus}}
+| 
+|-
+|{{iconbox|Friendly|Friendship's seeds have flowered and borne fruit.|image=Default house relation level friendly.png}}
+| {{green|+20}}
+| {{green|+25}}
+| {{green|+15}} Personal
+| {{green|Decreased}}
+| {{green|Increased}}
+| {{green|Double bonus}}
+| 
+|-
+|{{iconbox|Faithful|Time has proved unbreakable the bonds long ago forged.|image=Default house relation level amity.png}}
+| {{green|+30}}
+| {{green|+25}}
+| {{green|+15}} Personal
+| {{green|Decreased}}
+| {{green|Increased}}
+| {{green|Triple bonus}}
+| House heads can negotiate an alliance
+|}
+
+=== Blocs ===
+{{expansion|auh}}
+Blocs are defensive alliances between rulers from different houses present in Japan and also block members from going to war against each other. Only house heads can leave blocs or ask to join another bloc. If a house leaves a bloc all its members will gain a 5-year truce will all members of houses from their previous bloc. Leaving a bloc will also give {{red|-30%}} House Relation with the bloc's leading house and {{red|-15}} Opinion with its house head. Leaving a house bloc is free but joining a house bloc costs 100 {{iconify|Prestige}}. A member who joins a bloc cannot leave it for 10 years.
+
+Every bloc has a leader, and its house head decides if another house can join the bloc, can remove houses from the bloc at will, and is the only character who can create factions. Only the bloc leader can create factions against the top liege and all bloc house members will automatically join the faction. A bloc leader cannot join another bloc but can always pass leadership to another house of their bloc, which will give {{green|+30%}} House Relation with it.
+
+Every bloc has a Cohesion, which ranges from 0 to 100 and gives bonuses to all members depending on the leader's family attribute. It is affected by the relation between all member houses and decreased by the number of landed rulers in the bloc. It is also increased by {{green|+0.25}} by every house that has the same family attribute as the leading house and decreased by {{red|-0.25}} for every house that has a different family attribute from the leading house and by {{red|-0.1}} each month by every member house. If Cohesion reaches 0 the bloc will be disbanded.
+
+Only house heads with {{iconify|Ritsuryō}} or {{iconify|Sōryō}} government can create or join a bloc but their house members will be part of it regardless of government.
+
+There are 4 or 5 blocs in every start date. Every bloc starts with 50 Cohesion.
+{{box wrapper}}
+{| class="mildtable"
+|+ '''867'''
+! Leader
+! Houses
+|-
+| Hok-ke
+| 6
+|-
+| Saga
+| 6
+|-
+| Sugawara
+| 9
+|-
+| Yoshimine
+| 4
+|}
+{| class="mildtable"
+|+ '''1066'''
+! Leader
+! Houses
+|-
+| Hok-ke
+| 12
+|-
+| Kawaki
+| 9
+|-
+| Kikuchi
+| 6
+|-
+| Kiyohara
+| 4
+|-
+| Murakami
+| 9
+|}
+{| class="mildtable"
+|+ '''1178'''
+! Leader
+! Houses
+|-
+| Kanmu
+| 14
+|-
+| Kikuchi
+| 6
+|-
+| Matsudono
+| 13
+|-
+| Ōshū
+| 6
+|-
+| Settsu
+| 12
+|}
+{{end box wrapper}}
+
+== Disinheriting ==
+Disinheriting is a character interaction that will give the targeted character the [[File:Trait disinherited.png|24px]] Disinherited trait and a permanent {{red|-75}} {{iconify|Opinion}}. It can be reversed at any point at the cost of 75 {{iconify|Renown}}. Disinheriting requires the target to be a vassal and is not available towards characters with a {{iconify|Strong Hook}}.
+
+Dynasty Heads can disinherit any member of their dynasty for the following cost:
+* Free if the targeted character has the {{iconify|Disputed Heritage}} or {{iconify|Bastard}} trait.
+* 75 {{iconify|Renown}} and 150 {{iconify|Prestige}} if the dynasty member is Unlanded
+* 150 {{iconify|Renown}} and 300 {{iconify|Prestige}} if the dynasty member is Heir to a title
+* 225 {{iconify|Renown}} and 900 {{iconify|Prestige}} if the dynasty member is Landed or part of an Administrative family
+* 50 {{iconify|Legitimacy}} if the dynasty member is not the Dynasty Head's child or primary title heir
+* 100 {{iconify|Legitimacy}} if the dynasty member is the Dynasty Head's child but not primary title heir
+* 200 {{iconify|Legitimacy}} if the dynasty member is the Dynasty Head's primary title heir
+* 20 {{icon|opinion}} General Opinion for 5 years
+
+If the Fate of Iberia DLC is installed all dynasty members, including the Dynasty Head, can disinherit their own children with the last [[File:Coterie legacy track.png|24px]] Coterie legacy. This disinheritance does not cost {{iconify|Renown}} but it gives {{red|-30}} {{iconify|Opinion}} with all vassals.
+
+== Renown ==
+Renown is a resource accumulated by a dynasty and is used for the most powerful Dynasty Head interactions, unlocking legacies and increasing a dynasty's level of Splendor. Each living dynasty member will add Renown to the dynasty, and Prestige to its Dynasty Head and House Head.
+{| class="mildtable" style="text-align: center;
+! Title rank
+! {{iconify|Renown}}
+! {{icon|prestige}} Dynasty Head Prestige
+! {{icon|prestige}} House Head Prestige
+! {{icon|renown}} Marriage Renown
+|-
+| None (stacks with title bonuses) || +0.02 || +0.01 || +0.02 || 0
+|-
+| {{iconify|Barony}} || +0.12 || +0.01 || +0.02 || +0.1
+|-
+| {{iconify|County}} || +0.25 || +0.02 || +0.04 || +0.2
+|-
+| {{iconify|Duchy}} || +0.5 || +0.03 || +0.06 || +0.4
+|-
+| {{iconify|Kingdom}} || +1 || +0.04 || +0.08 || +0.8
+|-
+| {{iconify|Empire}} || +2 || +0.05 || +0.1 || +1.6
+|-
+| {{iconify|Hegemony}} || +4 || +0.06 || +0.12 || +3.2
+|}
+Being married to a ruler of another dynasty grants 80% of the Renown their primary title generates.
+
+Renown gain is capped at {{green|+2}} for total non-ruler house members (100 members). Dynasty Head Prestige gain is capped at {{green|+3}}. House Head Prestige gain is capped at {{green|+5}}. Rulers will not add Renown to their dynasty if any Liege is a member of the same dynasty.
+
+=== Level of Splendor ===
+Firstly, all renown earned by a dynasty counts towards its Level of Splendor, which determines how well-known the dynasty is in the eyes of the world. Having a high level also makes it much easier to arrange marriages, especially with Dynasties with a Lower Level of Splendor. The Level of Splendor will only decrease if a player character attempts suicide. Peasant Dynasties start at Base Origins. The alliance acceptance bonus does not apply if both characters are part of the same dynasty.
+{| class="mildtable" style="text-align: center;
+! Level of splendor
+! {{icon|legitimacy}} Birth legitimacy
+! {{icon|prestige}} Birth prestige
+! {{icon|prestige}} Marriage prestige
+! {{iconify|Alliance}} acceptance
+! {{icon|opinion}} Max Long Reign opinion
+! Max level for guest congenital traits
+! {{icon|roc}} Dynasty banner quality
+! Required renown
+|-
+| style="text-align: left; | [[File:Icon dynasty prestige 00.png|40px]] Base Origins
+| '''0'''
+| '''0'''
+| {{red|−100}}
+| {{red|−5}}
+| +5
+| [[File:Trait beauty good 1.png|40px]][[File:Trait intellect good 1.png|40px]][[File:Trait physique good 1.png|40px]]
+| <span style="color:brown;">'''Common'''</span>
+| 0
+|-
+| style="text-align: left; | [[File:Icon dynasty prestige 00.png|40px]] Obscure
+| {{green|+50}}
+| {{green|+100}}
+| '''0'''
+| '''0'''
+| +10
+| [[File:Trait beauty good 1.png|40px]][[File:Trait intellect good 1.png|40px]][[File:Trait physique good 1.png|40px]]
+| <span style="color:brown;">'''Common'''</span>
+| 300
+|-
+| style="text-align: left; | [[File:Icon dynasty prestige 01.png|40px]] Insignificant
+| {{green|+100}}
+| {{green|+200}}
+| {{green|+100}}
+| {{green|+5}}
+| +15
+| [[File:Trait beauty good 1.png|40px]][[File:Trait intellect good 1.png|40px]][[File:Trait physique good 1.png|40px]]
+| <span style="color:brown;">'''Common'''</span>
+| 1000
+|-
+| style="text-align: left; | [[File:Icon dynasty prestige 01.png|40px]] Noteworthy
+| {{green|+150}}
+| {{green|+300}}
+| {{green|+200}}
+| {{green|+10}}
+| +20
+| [[File:Trait beauty good 2.png|40px]][[File:Trait intellect good 2.png|40px]][[File:Trait physique good 2.png|40px]]
+| <span style="color:brown;">'''Common'''</span>
+| 2000
+|-
+| style="text-align: left; |[[File:Icon dynasty prestige 03.png|40px]] Reputable
+| {{green|+200}}
+| {{green|+400}}
+| {{green|+300}}
+| {{green|+15}}
+| +25
+| [[File:Trait beauty good 2.png|40px]][[File:Trait intellect good 2.png|40px]][[File:Trait physique good 2.png|40px]]
+| {{green|Masterwork}}
+| 4000
+|-
+| style="text-align: left; |[[File:Icon dynasty prestige 03.png|40px]] Well-known
+| {{green|+250}}
+| {{green|+500}}
+| {{green|+400}}
+| {{green|+20}}
+| +30
+| [[File:Trait beauty good 2.png|40px]][[File:Trait intellect good 2.png|40px]][[File:Trait physique good 2.png|40px]]
+| {{green|Masterwork}}
+| 7000
+|-
+| style="text-align: left; |[[File:Icon dynasty prestige 02.png|40px]] Significant
+| {{green|+300}}
+| {{green|+600}}
+| {{green|+500}}
+| {{green|+25}}
+| +35
+| [[File:Trait beauty good 2.png|40px]][[File:Trait intellect good 2.png|40px]][[File:Trait physique good 2.png|40px]]
+| {{green|Masterwork}}
+| 11000
+|-
+| style="text-align: left; |[[File:Icon dynasty prestige 02.png|40px]] Famous
+| {{green|+350}}
+| {{green|+700}}
+| {{green|+600}}
+| {{green|+30}}
+| +40
+| [[File:Trait beauty good 3.png|40px]][[File:Trait intellect good 3.png|40px]][[File:Trait physique good 3.png|40px]]
+| <span style="color:blue;">'''Famed'''</span>
+| 16000
+|-
+| style="text-align: left; | [[File:Icon dynasty prestige 04.png|40px]] Glorious
+| {{green|+400}}
+| {{green|+800}}
+| {{green|+700}}
+| {{green|+35}}
+| +45
+| [[File:Trait beauty good 3.png|40px]][[File:Trait intellect good 3.png|40px]][[File:Trait physique good 3.png|40px]]
+| <span style="color:blue;">'''Famed'''</span>
+| 22000
+|-
+| style="text-align: left; | [[File:Icon dynasty prestige 04.png|40px]] Fabled
+| {{green|+450}}
+| {{green|+900}}
+| {{green|+800}}
+| {{green|+40}}
+| +50
+| [[File:Trait beauty good 3.png|40px]][[File:Trait intellect good 3.png|40px]][[File:Trait physique good 3.png|40px]]
+| <span style="color:blue;">'''Famed'''</span>
+| 29000
+|-
+| style="text-align: left; | [[File:Icon dynasty prestige 05.png|40px]] Legendary
+| {{green|+500}}
+| {{green|+1000}}
+| {{green|+900}}
+| {{green|+45}}
+| +55
+| [[File:Trait beauty good 3.png|40px]][[File:Trait intellect good 3.png|40px]][[File:Trait physique good 3.png|40px]]
+| <span style="color:purple;">'''Illustrious'''</span>
+| 37000
+|}
+
+=== Dynasty legacies ===
+Dynasty legacies are permanent bonuses that can be unlocked by the Dynasty Head and affect every member of a dynasty. Each legacy track contains five legacies. If an AI character becomes Dynasty Head it will only unlock legacies belonging to the track with the most current progress. If the AI selects Architected Ancestry a random trait will be chosen.
+
+The first dynasty legacy costs 250 {{iconify|Renown}} to unlock and each one afterwards costs 500 more than the previous one.
+{| class="mildtable plainlist"
+! width=1% | Track
+! width=19% | Legacy 1 effects
+! width=19% | Legacy 2 effects
+! width=19% | Legacy 3 effects
+! width=19% | Legacy 4 effects
+! width=19% | Legacy 5 effects
+! width=1% | DLC
+|- id="Warfare"
+| style="text-align: center; | '''Warfare'''<br>[[File:Warfare legacy track.png|60px]]
+| 
+* {{green|+2}} Prowess
+* {{green|+15%}} Knight Effectiveness
+| 
+* {{green|+15%}} Pursuit Efficiency
+* {{green|-15%}} Retreat Losses
+* {{green|-20%}} Casus Belli Cost
+| 
+* {{green|+10%}} Monthly Martial Experience
+* {{green|+50%}} Chance to gain Prowess as Knight
+* {{green|-25%}} Chance to die in battle
+* {{green|-25%}} Chance to get wounded in battle
+| 
+* {{green|+15%}} Men-At-Arms Counter Efficiency
+* {{green|+5}} Advantage
+| 
+* {{green|+1}} Max number of Men-at-Arms Regiments
+* Can recruit House Guard men-at-arms
+| 
+|- id="Law"
+| style="text-align: center; | '''Law'''<br>[[File:Law legacy track.png|60px]]
+| 
+* {{green|+5}} Popular Opinion
+* {{green|-30%}} Hunt and Feast cost
+| 
+* {{green|-20%}} Title Creation Cost
+* {{green|+0.2}} Monthly Control Growth
+| 
+* {{green|+10%}} Monthly Stewardship Experience
+* {{green|-5%}} Building Construction Cost
+* {{green|-5%}} Holding Construction Cost
+| 
+* {{green|+5}} Powerful Vassal Opinion
+* {{green|+10%}} Powerful Vassal Councilor Contribution
+| 
+* {{green|+1}} Domain Limit
+* {{green|+5}} Controlled Territory Defender Advantage
+| 
+|- id="Guile"
+| style="text-align: center; | '''Guile'''<br>[[File:Guile legacy track.png|60px]]
+<!-- Transclusion used by Dread page -->
+| <section begin=GuileDreadGain />{{green|+20%}}<section end=GuileDreadGain /> Dread Gain
+* {{green|+15}} Natural Dread
+| 
+* {{green|+10%}} Initial Hostile Scheme Success Chance
+* {{green|-50%}} Agent Bribe Cost
+| 
+* {{green|+10%}} Monthly Intrigue Experience
+* {{green|+15%}} Scheme Secrecy
+| 
+* {{green|-0.05}} Monthly Tyranny
+* {{green|+10%}} Intimidated Vassal Tax Contribution
+* {{green|+20%}} Terrified Vassal Tax Contribution
+| 
+* {{green|77%}} chance to prevent one Murder of each dynasty member
+* {{green|+100%}} Interaction Acceptance if Intimidated or Terrified
+| 
+|- id="Blood"
+| style="text-align: center; | '''Blood'''<br>[[File:Blood legacy track.png|60px]]
+| 
+* {{green|+30%}} Chance to inherit positive traits
+* {{green|+30%}} Chance of new good congenital traits
+| {{green|+30%}} Chance to reinforce congenital traits
+| 
+* {{green|-30%}} Chance to inherit negative traits
+* {{green|-30%}} Chance of new bad congenital traits
+| 
+* Select a trait to become more common to dynasty children: [[file:Trait beauty good 1.png|24px]] Comely, [[file:Trait intellect good 1.png|24px]] Quick, [[file:Trait physique good 1.png|24px]] Hale, [[file:Trait fecund.png|24px]] Fecund, [[file:Trait albino.png|24px]] Albino, [[file:Trait giant.png|24px]] Giant, [[file:Trait dwarf.png|24px]] Dwarf, [[file:Trait scaly.png|24px]] Scaly
+* The trait has a {{green|5%}} chance of appearing at birth
+* Double chance if player character is the parent
+| 
+*{{green|+5}} Years Life Expectancy
+* Dynasty members visibly age at a slower rate
+| 
+|- id="Erudition"
+| style="text-align: center; | '''Erudition'''<br>[[File:Erudition legacy track.png|60px]]
+| 
+* {{green|+10}} Courtier and Guest Opinion
+* {{green|-30%}} Guest Recruitment Cost
+* {{green|+5}} Court Grandeur Bonus
+* Better Guests are attracted
+<!-- Transclusion used by Piety page. -->
+| <section begin=Erudition2PietyGainPct />{{green|+10%}}<section end=Erudition2PietyGainPct /> Monthly piety
+* {{green|+5}} Clergy Opinion if Theocracy
+* {{green|+3}} Same Faith Opinion if Lay Clergy
+| 
+* {{green|+10%}} Monthly Learning Experience
+* {{green|+20%}} Development Growth
+| 
+* {{green|-20%}} Faith Creation and Reformation Cost
+* {{green|+30%}} Piety from Pilgrimages
+* {{green|+15}} Head of Faith Opinion if Spiritual Head of Faith
+* {{green|+5}} Faith Hostility Advantage if Temporal Head of Faith
+* {{green|+5%}} Same Faith Domain Taxes if No Head of Faith
+| {{green|+10%}} Effectiveness of Councilor Tasks
+| 
+|- id="Glory"
+| style="text-align: center; | '''Glory'''<br>[[File:Glory legacy track.png|60px]]
+| {{green|+30}} Marriage Acceptance
+| 
+* {{green|+10%}} Monthly Prestige
+* {{green|+1}} Number of Knights
+* {{green|-10%}} Mercenary Hire Cost
+* {{green|+100%}} Monthly Court Grandeur Change
+* {{green|+1}} {{iconify|Accolade}}s Available
+| 
+* {{green|+10%}} Monthly Diplomacy Experience
+* {{green|-20}} Days Personal Scheme Phase Length
+| 
+* {{green|+10}} Vassal Limit
+* {{green|-20%}} Short Reign Duration
+* {{green|-20}} Claimant Faction Acceptance for own Vassals
+* {{green|-20}} Liberty Faction Acceptance for own Vassals
+* {{green|+5}} Court Grandeur Bonus
+| 
+* {{green|+10}} General Opinion
+* {{green|+1}} Max Sway Schemes
+| 
+|- id="Kin"
+| style="text-align: center; | '''Kin'''<br>[[File:Kin legacy track.png|60px]]
+| 
+* {{green|+10%}} Fertility
+* {{green|+5}} Attraction Opinion
+| 
+* {{green|+10}} Child Opinion
+* {{green|+2-3}} Education Score
+| 
+* {{green|+10}} Spouse Opinion
+* {{green|-25%}} Pregnancy Complication Chance
+* Medium Disease Resistance Health Boost
+| 
+* {{green|+10}} Close Family Opinion
+* {{green|+5}} Dynasty Opinion
+* {{green|+30%}} Personal Scheme Success with dynasty members
+* Enables the House Paragon {{iconify|accolade}} attribute
+| 
+* At age 30 and every 5 years after, gain {{green|+1}} Random skill point
+* No Prowess Loss from Age
+|- id="Customs"
+| style="text-align: center; | '''Customs'''<br>[[File:Culture legacy track.png|60px]]
+| 
+* {{green|+1}} Foreign Language Limit
+* {{green|-20}} Days Learn Language Phase Length
+* {{green|+1%}} Cultural Acceptance per Successful Learn Language Scheme
+| 
+* {{green|+1}} Max Learn Language Schemes
+* {{green|+30%}} Promote Cultural Acceptance Speed
+| 
+* {{green|+15%}} Cultural Fascination Progress
+* {{green|+1}} Weak Hook when landing a different culture character
+| 
+* {{green|+20%}} Cultural Acceptance Gain
+* Unlocks Cultural Emissary Court Position
+| Unlocks Celebrate Other Cultures decision
+| {{icon|roc}}
+|- id="Activities"
+| style="text-align: center; | '''Activities'''<br>[[File:Activities legacy track.png|60px]]
+| 
+* {{green|-50%}} Grand Wedding Cost
+* {{green|+15}} Grand Wedding Acceptance
+* Grand Weddings may grant a Strong Hook on a liege with positive Opinion
+| 
+* {{green|-50%}} Pilgrimage Cost
+* {{green|+50%}} Pilgrim Trait Experience Gain
+* {{green|+50%}} Traveler Trait Experience Gain
+* {{green|+2}} Learning per Holy Site visited in Pilgrimage
+| 
+* {{green|+1.2}} Monthly Prestige for 20 years after completing a Majesty Tour
+* {{green|-0.5%}} Men at Arms Maintenance per Dread for 20 years after completing an Intimidation Tour
+* {{green|+25%}} Vassal Tax Contribution for 20 years after completing a Taxation Tour
+| 
+* {{green|+50%}} Hunter Trait Experience Gain
+* {{green|+50%}} Eager Reveler Trait Experience Gain
+* {{green|+500%}} Chance to sight Legendary Animals
+| 
+* {{green|+50%}} Hastiluder Trait Experience Gain
+* Invite Knights decision is free during Grand Tournaments
+* Invite Knights decision brings higher Prowess characters
+* First activity of a House Head is free
+| {{icon|tnt}}
+|- id="Heroic Bloodline"
+| style="text-align: center; | '''Heroic Bloodline'''<br>[[File:Heroic bloodline legacy track.png|60px]]
+| Unlocks the Great Deed legend seed
+| Unlocks the Ancestral Claim casus belli
+| 
+* {{green|-15%}} Legend Creation Cost
+* Can gain the Venerated Ancestor trait
+| 
+* {{green|-25%}} Legend Creation Cost
+* Can gain the Living Legend trait
+| 
+* {{green|+5%}} Same Faith Domain Taxes
+* {{green|+10}} Clergy Opinion
+* Can unlock the Legendary Watchtower building
+| {{icon|lod}}
+|- id="Legitimacy"
+| style="text-align: center; | '''Legitimacy'''<br>[[File:Legitimacy legacy track.png|60px]]
+| 
+* {{green|+0.1}} Monthly Control Growth
+* {{green|+5}} Popular Opinion
+| {{green|+10%}} Legitimacy Gain in first 10 years in power
+| 
+* {{green|+5}} Dynasty Opinion
+* Unlocks the Espouse Legitimacy intent
+| 
+* {{green|-10}} Enemy Join Claimant Faction Acceptance
+* {{green|-10}} Enemy Join Dissolution Faction Acceptance
+| Select a tier 5 education trait to enable without University Visit
+| {{icon|lod}}
+|}
+
+==== North Germanic legacies ====
+{{expansion|nrl}}
+Dynasties whose Dynasty Head has North Germanic {{iconify|heritage}} or a culture descended from Norse have two additional legacy tracks available. Once the first Legacy of a track has been unlocked its track will remain available regardless of the Dynasty Head's culture.
+{| class="mildtable plainlist"
+! Track
+! Legacy 1 effects
+! Legacy 2 effects
+! Legacy 3 effects
+! Legacy 4 effects
+! Legacy 5 effects
+|- id="Adventure"
+| style="text-align: center; | '''Adventure'''<br>[[File:Adventure legacy track.png|60px]]
+| 
+* {{green|+30%}} Diplomatic Range
+* Send to Varangian Guard Dynasty Head Interaction
+* Additional troops when using Varangian Adventure CB
+| 
+* Can trade while raiding without Longhips
+* {{green|+20%}} Chance to offer to trade instead of raid
+* {{green|-50%}} Send Gift Cost
+* {{green|+15%}} Seduction Scheme Success Chance
+* {{green|+100}} Prestige per Successful Seduction Scheme
+| 
+* {{green|+15}} Different Faith Opinion
+* {{green|-50%}} Different Faith Popular Opinion
+* {{green|-50%}} Faith Conversion Cost
+* {{green|+50%}} Dynasty Member Conversion Acceptance
+| 
+* {{green|-15%}} Enemy Hostile Scheme Success Chance
+* {{green|+10%}} Movement Speed
+* {{green|+100%}} Supply Duration
+| 
+* {{green|+3}} Vassal Opinion per Friend (max 5)
+* {{green|+2}} Popular Opinion per Friend (max 5)
+* {{green|+1%}} Vassal Tax Collection per Friend (max 5)
+* Can use the Befriend Scheme on Vassals
+|- id="Pillage"
+| style="text-align: center; | '''Pillage'''<br>[[File:Pillage legacy track.png|60px]]
+| 
+* {{green|+1}} Prowess
+* {{green|+20%}} Naval Speed
+* {{green|+100%}} Prestige and Fame from Battles
+| 
+* {{green|+50%}} Army Loot Capacity
+* {{green|+5}} Defender Advantage
+* {{green|+2}} Max Size of Heavy Infantry Regiments
+| 
+* {{green|+20%}} Chance to gain Prisoners after a Siege or Raid
+* {{green|+50%}} Gold from Ransoms
+* Ransoms give Prestige equal to Gold
+| 
+* {{green|+10%}} Enemy Fatal Casualties
+* {{green|+5}} Gold per 100 Fatal Casualties
+| 
+* {{green|+25%}} Daily Siege Progress
+* {{green|-40}} Enemy Control from Occupation
+* {{green|-20}} Enemy Control from Raiding
+|}
+
+==== Iberian legacies ====
+{{expansion|foi}}
+Dynasties whose Dynasty Head has Iberian {{iconify|heritage}} or the realm capital in the region of Iberia have two additional legacy tracks available. Once the first Legacy of a track has been unlocked the track will remain available regardless of Dynasty Head.
+{| class="mildtable plainlist"
+! Track
+! Legacy 1 effects
+! Legacy 2 effects
+! Legacy 3 effects
+! Legacy 4 effects
+! Legacy 5 effects
+|- id="Metropolitan"
+| style="text-align: center; | '''Metropolitan'''<br>[[File:Urbanism legacy track.png|60px]]
+| {{green|+20%}} County Development Growth per City
+| Can gain Stewardship-Learning education traits
+| 
+* {{green|-10%}} City Buildings Construction Cost
+* {{green|-10%}} City Buildings Construction Time
+* {{green|-10%}} City Holding Construction Cost
+* {{green|-10%}} City Holding Construction Time
+* {{green|+15%}} Republic Vassal Base Tax Contribution
+| 
+* {{green|+150}} Prestige when completing a City building
+* Chance to gain a guest when finishing a City building
+| Unlocks Expand Cities decision
+|- id="Coterie"
+| style="text-align: center; | '''Coterie'''<br>[[File:Coterie legacy track.png|60px]]
+| 
+* No court position salary for house members
+* No court position fire cost for house members
+| Gain {{Green|10%}} of the primary skill of Councilors who belong to your House
+| 
+* {{green|+10}} House Opinion
+* {{green|+150}} Prestige when accepting a house head call to war
+* Can call house members to war without being House Head
+| Unlocks the Share Secrets interaction with House members
+| Can disinherit own children with prestige and tyranny cost
+|}
+
+==== Brilliance ====
+{{expansion|lop}}
+Dynasties whose Dynasty Head has Iranian {{iconify|heritage}} or is descended from any culture with it have the [[File:Khvarenah legacy track.png|24px]] Brilliance legacy track available. Once the first Legacy has been unlocked the track will remain available regardless of the Dynasty Head's culture.
+{| class="mildtable plainlist"
+! Track
+! Legacy 1 effects
+! Legacy 2 effects
+! Legacy 3 effects
+! Legacy 4 effects
+! Legacy 5 effects
+|- id="Brilliance"
+| style="text-align: center; | '''Brilliance'''<br>[[File:Khvarenah legacy track.png|60px]]
+| 
+* {{green|+1}} Available Tax Jurisdictions
+* {{green|+10}} Chief Qadi Aptitude
+* {{green|+10}} Court Scholar Aptitude
+* {{green|+10}} Lady-in-waiting Aptitude
+* {{green|+10}} Master Assassin Aptitude
+* {{green|+10}} Royal Architect Aptitude
+| 
+* {{green|-20}} Days Personal Scheme Phase Length
+* {{green|+15%}} Initial Personal Scheme Success Chance
+* {{green|+15%}} Stewardship Lifestyle Experience
+* {{green|+10%}} Hostile Scheme Success Chance against Dynasty Members
+| 
+* {{green|+15%}} Courtly Vassal Tax Contribution
+* {{green|+15%}} Glory Hound Vassal Levy Contribution
+* {{green|+10}} Marriage Acceptance for Dynasty Members
+* {{green|+25%}} Skills when performing Vizier councilor tasks
+| 
+* Can use the Maguh Status tax decree
+* Can recruit Asawira men-at-arms
+* {{green|+20%}} Bestow Royal Favor councilor task effectiveness
+| Unlocks Embellish Capital decision
+|}
+
+==== Bureaucracy ====
+{{expansion|rtp}}
+Dynasties whose Dynasty Head has {{icon|governor efficiency}} Administrative government have the [[File:Administrative legacy track.png|24px]] Bureaucracy legacy track available.
+{| class="mildtable plainlist"
+! Track
+! Legacy 1 effects
+! Legacy 2 effects
+! Legacy 3 effects
+! Legacy 4 effects
+! Legacy 5 effects
+|- id="Bureaucracy"
+| style="text-align: center; | '''Bureaucracy'''<br>[[File:Administrative legacy track.png|60px]]
+| 
+* {{green|+10%}} Monthly Influence
+* {{green|+5%}} Governor Efficiency
+| 
+* {{green|+10%}} Initial Political Scheme Success Chance
+* {{green|-10%}} Cost to promote House Members
+| 
+* {{green|-10%}} Domicile Building Construction Time
+* {{green|+15}} Powerful Family Rating
+* Unlocks the Reception Hall estate upgrade
+| 
+* {{green|+0.1}} Monthly Development
+* {{green|+15}} Popular Opinion
+* Unlocks the Cabinet of Curiosities estate upgrade
+| 
+* Vassals and Noble Families are less likely to join Claimant factions
+* Vassals and Noble Families are less likely to use the Depose scheme
+* Unlocks the Order Mass Arrests decision
+|}
+
+==== Nomadic ====
+{{expansion|kos}}
+Dynasties whose Dynasty Head has {{iconify|Nomadic}} government have the [[File:Nomad legacy track.png|24px]] Nomadic legacy track available.
+{| class="mildtable plainlist"
+! Track
+! Legacy 1 effects
+! Legacy 2 effects
+! Legacy 3 effects
+! Legacy 4 effects
+! Legacy 5 effects
+|- id="Nomadic"
+| style="text-align: center; | '''Nomadic'''<br>[[File:Nomad legacy track.png|60px]]
+| 
+* {{green|+10%}} Herd Gain
+* {{green|+10%}} County Fertility Grown
+| 
+* {{green|+25%}} Movement Speed while Raiding
+* Unlocks the Terrorize raid intent
+| 
+* {{green|+1}} Size of Men-at-Arms Regiments
+* {{green|+10}} Peace Acceptance
+* {{green|+5%}} Herd Conversion into Horde Riders
+* {{green|-50%}} Hostile County Attrition while Raiding
+| 
+* {{green|+10%}} Herd Conversion into Horde Riders
+* {{green|+20%}} Archer Cavalry Damage
+* {{green|+20%}} Archer Cavalry Pursuit
+* {{green|+10%}} Horde Riders Damage
+* {{green|+10%}} Horde Riders Pursuit
+* Can recruit Kheshig men-at-arms
+| 
+* {{green|+10%}} Gold from Herd
+* {{green|+10%}} Tributary Taxes
+* {{green|+10}} Tributary Opinion
+* Unlocks the Peace of the Great Khan decision
+|}
+
+==== Virtues ====
+{{expansion|auh}}
+Dynasties whose Dynasty Head has {{iconify|Celestial}}, {{iconify|Meritocratic}} or {{iconify|Meritocratic Khanate}} government have the [[File:China legacy track.png|24px]] Virtues legacy track available.
+{| class="mildtable plainlist"
+! Track
+! Legacy 1 effects
+! Legacy 2 effects
+! Legacy 3 effects
+! Legacy 4 effects
+! Legacy 5 effects
+|-
+|- id="Virtues"
+| style="text-align: center; | '''Virtues'''<br>[[File:China legacy track.png|60px]]
+| 
+* {{green|+15%}} Confucian Education Trait Experience Gain
+* Gain Exam Advantage during Capital Examination activities
+| 
+* {{green|+10%}} Monthly Merit
+* {{green|+1}} Disciple Limit
+* Unlocks the Change Career Path Interaction
+| 
+* {{green|+5%}} Governor Efficiency
+* Unlocks the Family Archive estate upgrade
+| 
+* {{green|+15}} Celestial Appointment Candidate Score
+* {{green|+15}} Powerful Family Rating
+* {{green|+20}} Personal Movement Power
+* {{green|+10}} Ask to Join my Movement Acceptance
+| 
+* {{green|+1}} Max Political Schemes
+* {{green|+10%}} Monthly Influence
+* {{green|-10%}} Influence Career Cost
+* {{green|+10}} Department Aide Aptitude
+* Department Aide is cheaper to employ
+* Unlocks the Ancestral Gate estate building
+|}
+
+==== Divine Aspirations ====
+{{expansion|auh}}
+Dynasties whose Dynasty Head has {{iconify|Mandala}} or {{iconify|Wanua}} government have the [[File:Southeast asia legacy track.png|24px]] Divine Aspirations legacy track available.
+{| class="mildtable plainlist"
+! Track
+! Legacy 1 effects
+! Legacy 2 effects
+! Legacy 3 effects
+! Legacy 4 effects
+! Legacy 5 effects
+|-
+|- id="Divine Aspirations"
+| style="text-align: center; | '''Divine Aspirations'''<br>[[File:Southeast asia legacy track.png|60px]]
+| 
+* {{green|+10}} Travel Safety
+* {{green|+200}} Piety from Pilgrimages
+* {{green|+25}} Piety from visiting a Capital Temple Complex
+| 
+* {{green|+10%}} Tributary Taxes
+* {{green|+10%}} Tributary Piety Contribution
+* {{green|+10}} Tributary Opinion
+* {{green|+10}} Tributary Acceptance
+| 
+* {{green|+10%}} Piety from Buildings
+* {{green|+15}} Great Project Contribution Acceptance
+* Capital Temple Complex projects gain new contributions
+| 
+* {{green|+5}} Years Life Expectancy
+* {{green|+5}} Same Faith Opinion for heirs for first 10 years of reign
+* {{green|+5}} Tributary Opinion for heirs for first 10 years of reign
+* {{green|-15%}} Legitimacy Loss for heirs for first 10 years of reign
+| 
+* {{green|+15%}} Legitimacy Gain
+* Can complete a Mandala Succession challenge
+|}
+
+==== Elegance ====
+{{expansion|auh}}
+Dynasties whose Dynasty Head has {{iconify|Ritsuryō}} or {{iconify|Sōryō}} government have the [[File:Japan legacy track.png|24px]] Elegance legacy track available.
+{| class="mildtable plainlist"
+! Track
+! Legacy 1 effects
+! Legacy 2 effects
+! Legacy 3 effects
+! Legacy 4 effects
+! Legacy 5 effects
+|-
+|- id="Virtues"
+| style="text-align: center; | '''Elegance'''<br>[[File:Japan legacy track.png|60px]]
+| 
+* {{green|+5}} Dynasty Opinion
+* {{green|+25}} Same Dynasty Invite to Block Acceptance
+* {{green|+0.25}} Block Cohesion per Dynasty House in Block
+| 
+* {{green|+5}} Attraction Opinion
+* {{green|+10%}} Domicile Prestige
+* Can have a Court Poet regardless of title rank
+* Unlocks the Poetry Collection estate upgrade
+| 
+* {{green|+50%}} Level of Fame Impact
+* {{green|-20%}} Festival Activity Cost
+* Unlocks the Mend Broken House Relations interaction
+| 
+* {{green|+10%}} Domicile Income
+* {{green|+10%}} Domicile Influence
+* {{green|-10%}} Domicile Building Construction Time
+* Unlocks the Household Retainer Lodgings estate upgrade
+| 
+* {{green|+5}} Number of Knights
+* {{green|+10}} Knight Effectiveness
+* {{green|+1%}} Monthly Prestige per Knight
+|}
+
+== Opinion modifiers ==
+{| class="mildtable" style="float: left; margin-right: 30px;"
+! Relation
+! Opinion
+|-
+| Parent-Child
+| {{green|+50}}
+|-
+| Sibling (includes half-siblings)
+| {{green|+25}}
+|-
+| Spouse (includes secondary spouses)
+| {{green|+25}}
+|-
+| Same Dynasty
+| {{green|+5}}
+|}
+Characters within the same dynasty and especially close family have an {{iconify|Opinion}} bonus with each other. However the bonus is only given to public connections, secret family relations do not give any bonuses. In scenarios where a character has multiple relations to another all relevant modifiers are applied.
+{{clear}}
+
+== References ==
+<references/>
+{{Mechanics navbox}}
+[[Category:Character]]

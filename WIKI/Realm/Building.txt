@@ -1,0 +1,336 @@
+{{Version|1.17}}{{Buildings nav}}
+Each Holding has access to a number of '''buildings'''. Regular buildings primarily focus on increasing taxes and levies, with some secondary effects such as increasing fortifications or increasing supply, and can be upgraded once the required level of Development is reached. Only one building may be constructed or upgraded at a time in any Holding. Buildings can be constructed by a Baron, their direct Liege, or any Liege higher in hierarchy, but can only be replaced by the Baron.
+
+Buildings can also be converted into another building at full price cost with the new building starting always as level 1. Conversions can only be initiated by the direct holder of the barony.
+
+== Construction ==
+[[File:County menu buildings highlighted.png|400px|thumb|right|A screenshot of the county menu with buildings highlighted.]]
+Each Holding has a limited number of slots to construct buildings. County capitals have 2 building slots and other baronies have 1. The number of building slots can be increased by 1 by each of the following innovations:
+* {{iconify|Ledger}}
+* {{iconify|Bailiffs}}
+* {{iconify|Guilds}}
+* {{iconify|Windmills}}
+Unlocked building slots are not lost if the county's culture is changed to one that has fewer building slots innovations.
+
+The majority of buildings come in 8 levels and need the same innovation as the holding level they require. Certain traditions allow buildings to be constructed one holding level earlier.
+* Level 1 buildings cost 150 {{iconify|Gold}}
+* Level 2 buildings cost 250 {{iconify|Gold}}
+* Level 3 buildings cost 340 {{iconify|Gold}} and a level 2 holding
+* Level 4 buildings cost 500 {{iconify|Gold}} and a level 2 holding
+* Level 5 buildings cost 750 {{iconify|Gold}} and a level 3 holding
+* Level 6 buildings cost 1110 {{iconify|Gold}} and a level 3 holding
+* Level 7 buildings cost 1600 {{iconify|Gold}} and a level 4 holding
+* Level 8 buildings cost 2240 {{iconify|Gold}} and a level 4 holding
+
+== Types of buildings==
+Buildings come in several types:
+
+=== Economic buildings ===
+{{main|Economic buildings}}
+These buildings improve prosperity of holdings.
+
+=== Military buildings ===
+{{main|Military buildings}}
+These buildings increase levies and support stationed men-at-arms.
+
+=== Fortification buildings ===
+{{main|Fortification buildings}}
+These buildings increase the defenseiveness of Castle holdings.
+
+=== Temple buildings ===
+{{main|Temple buildings}}
+These buildings can only be built in Temple holdings.
+
+=== Tribe buildings ===
+{{main|Tribe buildings}}
+These buildings can only be built in Tribe holdings.
+
+=== County buildings ===
+{{main|County buildings}}
+These buildings can only be built in the capital of a county.
+
+=== Duchy buildings ===
+{{main|Duchy buildings}}
+These buildings can only be built in the capital of a Duchy and only if the holder has the respective Duchy [[title]].
+
+=== Special buildings ===
+{{main|Special buildings}}
+These are unique buildings for certain holdings on the map, including holy sites, universities, and mines. Most of these also serve as point-of-interest that provide lifestyle experience for [[traveling]] characters.
+
+=== City buildings ===
+City buildings can only be constructed in City holdings. All of them require 3 years to build.
+{| class="mildtable plainlist"
+! Type
+! Building
+! Monthly Tax
+! County effects
+! width=60% | Description
+|-
+| rowspan=8 style="text-align: center; | Guilds<br>[[File:Building guild halls.png]]
+| Guild Halls
+| {{icon|gold}} {{green|+0.3}}
+| {{icon|development}} {{green|+5%}} Monthly Development
+| ''The city provides all major guilds and burgher families with ample locale to organize and practice their crafts.''
+|-
+| Carver's Guilds
+| {{icon|gold}} {{green|+0.5}}
+| {{icon|development}} {{green|+10%}} Monthly Development
+| ''Carvers produce items out of wood or bone, such as frames, decorations or tools. They also carve heraldic shields, making the guild popular among the nobility.''
+|-
+| Carpenter's Guilds
+| {{icon|gold}} {{green|+0.7}}
+| {{icon|development}} {{green|+15%}} Monthly Development
+| ''Carpenters work with construction, primarily using timber as their material of choice. Their services are sought-after by both nobles and clergy, especially for the beautiful trim jointery they make for churches and estates.''
+|-
+| Hunter's Guilds
+| {{icon|gold}} {{green|+0.9}}
+| {{icon|development}} {{green|+20%}} Monthly Development
+| ''Hunters trade in meat and skins, with their services enabling both butchers and tanners to do their crafts. The finest skins naturally befall the most prestigious noble families.''
+|-
+| Mason's Guilds
+| {{icon|gold}} {{green|+1.1}}
+| {{icon|development}} {{green|+25%}} Monthly Development
+| ''Masons work with stone, both for construction and sculpture. Their skill is widely sought after, as their expertise is invaluable when constructing fortifications.''
+|-
+| Tailor's Guilds
+| {{icon|gold}} {{green|+1.3}}
+| {{icon|development}} {{green|+30%}} Monthly Development
+| ''Tailors wield needle, thread, and cloth as their weapons of choice. With their unparalleled skills, they produce beautiful garments for the nobility.''
+|-
+| Glassworker's Guilds
+| {{icon|gold}} {{green|+1.5}}
+| {{icon|development}} {{green|+35%}} Monthly Development
+| ''Glassworkers create fascinating items out of glass, everything from goblets to window panes. Having items made out of glass is very prestigious, making their services highly desirable.''
+|-
+| Artisan's Guilds
+| {{icon|gold}} {{green|+1.7}}
+| {{icon|development}} {{green|+40%}} Monthly Development
+| ''Artisans use a multitude of materials not only to produce works of art but also entirely new innovations. Their ingenuity and refined skill is drawing the attention of high nobles everywhere.''
+|}
+
+=== Oath buildings ===
+{{expansion|cor}}
+Oath buildings can only be constructed by rulers who swore an oath to provide for the people and only inside their domain. After the oath is completed new buildings of this type cannot be constructed until the next owner makes the same oath. Building or upgrading oath buildings takes 3 years and they do not have any holding requirements.
+{| class="mildtable plainlist"
+! Building
+! Level
+! Effects
+! Requirements
+! width=22% | Description
+|-
+| rowspan=4 style="text-align: center; | Martial Grants<br>[[File:Building oath warriors.png]]
+| Veterans' Smallholdings
+| 
+* {{icon|knight}} {{green|+1}} Number of Knights
+* {{icon|knight}} {{green|+10%}} Knight Effectiveness
+* {{icon|damage}} {{green|+10%}} Stationed Men-at-Arms Damage
+* {{icon|toughness}} {{green|+5%}} Stationed Men-at-Arms Toughness
+| 
+* [[File:Activity coronation.png|24px]] Support My Knights/Champions oath
+* {{icon|knight}} 2+ knights with 10+ Prowess and a commander trait if era is Tribal or Early Medieval
+* {{icon|knight}} 3+ knights with 14+ Prowess and a commander trait if era is High Medieval or Late Medieval
+| ''Aristocratic fighters of long service have been given generous local plots, and interest in serving loyally has increased here accordingly.''
+|-
+| Martial Estates
+| 
+* {{icon|knight}} {{green|+1}} Number of Knights
+* {{icon|knight}} {{green|+10%}} Knight Effectiveness
+* {{icon|damage}} {{green|+15%}} Stationed Men-at-Arms Damage
+* {{icon|toughness}} {{green|+7%}} Stationed Men-at-Arms Toughness
+* {{icon|gold}} {{green|-1%}} Men-at-Arms Maintenance
+| 
+* {{icon|levies}} 3+ regiments of different type and size 4+ if era is Tribal
+* {{icon|levies}} 4+ regiments of different type and size 4+ if era is Early Medieval
+* {{icon|levies}} 5+ regiments of different type and size 6+ if era is High Medieval
+* {{icon|levies}} 6+ regiments of different type and size 8+ if era is Late Medieval
+| ''Those of the aristocratic warrior class who do not die on the battlefield live in comfort, their granted holdings allowing them to recruit and arm themselves amply.''
+|-
+| Village Fiefdoms
+| 
+* {{icon|knight}} {{green|+1}} Number of Knights
+* {{icon|knight}} {{green|+10%}} Knight Effectiveness
+* {{icon|damage}} {{green|+20%}} Stationed Men-at-Arms Damage
+* {{icon|toughness}} {{green|+10%}} Stationed Men-at-Arms Toughness
+* {{icon|gold}} {{green|-3%}} Men-at-Arms Maintenance
+* {{icon|siege progress}} {{green|+0.1}} Stationed Men-at-Arms Siege Progress
+| 
+* {{icon|knight}} 4+ knights with 12+ Prowess and Martial if era is Tribal or Early Medieval
+* {{icon|knight}} 6+ knights with 14+ Prowess and Martial if era is High Medieval
+* {{icon|knight}} 8+ knights with 16+ Prowess and Martial if era is Late Medieval
+| ''Many local villages are given over to knightly officers as personal holdings, allowing them to gather strength and wealth at the expense of the other classes.''
+|-
+| Vast Martial Holdings
+| 
+* {{icon|knight}} {{green|+1}} Number of Knights
+* {{icon|knight}} {{green|+15%}} Knight Effectiveness
+* {{icon|damage}} {{green|+30%}} Stationed Men-at-Arms Damage
+* {{icon|toughness}} {{green|+20%}} Stationed Men-at-Arms Toughness
+* {{icon|gold}} {{green|-5%}} Men-at-Arms Maintenance
+* {{icon|siege progress}} {{green|+0.2}} Stationed Men-at-Arms Siege Progress
+| [[File:Modifier martial positive.png|24px]] Barony has A Warrior's Oath Fulfilled modifier
+| ''A sizeable share of local taxes are delivered unto minor warrior aristocrats, the title-holders to field and settlement alike. Their mighty retinues, however, still serve.''
+|-
+| rowspan=4 style="text-align: center; | Official Almshouses<br>[[File:Building oath poor.png]]
+| Charitable Customs
+| 
+* {{icon|development}} {{green|+0.05}} Monthly Development
+* {{icon|opinion}} {{green|+10}} Popular Opinion
+* {{icon|gold}} {{red|-5%}} Holding Taxes
+| 
+* [[File:Activity coronation.png|24px]] Provide for the Poor oath
+* {{icon|lowborn}} 2+ Lowborn courtiers if era is Tribal or Early Medieval
+* {{icon|lowborn}} 4+ Lowborn courtiers if era is High Medieval
+* {{icon|lowborn}} 6+ Lowborn courtiers if era is High Medieval
+| ''People with means are encouraged by authorities to give surplus food and wealth to the less fortunate, typically during holy days.''
+|-
+| Poorhouses
+| 
+* {{icon|development}} {{green|+5%}} Development Growth
+* {{icon|development}} {{green|+0.1}} Monthly Development
+* {{icon|opinion}} {{green|+15}} Popular Opinion
+* {{icon|gold}} {{red|-10%}} Holding Taxes
+| 
+* {{icon|vassal}} 2+ vassals with the Compassionate trait if era is Tribal or Early Medieval
+* {{icon|vassal}} 3+ vassals with the Compassionate trait if era is High Medieval or Late Medieval
+| ''The very poor, widows and the elderly are given modest boarding and some care in simple accommodations.''
+|-
+| Benevolent Ministries
+| 
+* {{icon|development}} {{green|+15%}} Development Growth
+* {{icon|development}} {{green|+0.2}} Monthly Development
+* {{icon|opinion}} {{green|+20}} Popular Opinion
+* {{icon|gold}} {{red|-20%}} Holding Taxes
+| {{icon|vassal}} Councilor vassal with the Compassionate trait
+| ''Almshouses and other civic needs that serve the wretched are well-serviced by official ministers of some means.''
+|-
+| Charitable Institutions
+| 
+* {{icon|development}} {{green|+20%}} Development Growth
+* {{icon|development}} {{green|+0.3}} Monthly Development
+* {{icon|opinion}} {{green|+30}} Popular Opinion
+* {{icon|gold}} {{red|-30%}} Holding Taxes
+| [[File:Modifier stewardship positive.png|24px]] Barony has A Poor's Oath Fulfilled modifier
+| ''All through the land, the needy want for nought. Gracious accommodations house would-be vagrants, hospitals tend to the sick and elderly, and generous allowances are made for poor peasants.''
+|-
+| rowspan=4 style="text-align: center; | Religious Monuments<br>[[File:Building oath faithful.png]]
+| Wayside Shrines
+| 
+* {{icon|gold}} {{green|+0.25}} Monthly Tax
+* {{icon|piety}} {{green|+2%}} Monthly Piety
+| 
+* [[File:Activity coronation.png|24px]] Provide for the Faithful oath
+* {{icon|yes}} County has the same faith
+* {{icon|learning}} 2+ courtiers with 14+ Learning if era is Tribal or Early Medieval
+* {{icon|learning}} 3+ courtiers with 16+ Learning if era is High Medieval or Late Medieval
+| ''Small shelters by the roadsides house simple sacred icons.''
+|-
+| Sacred Gates
+| 
+* {{icon|gold}} {{green|+0.4}} Monthly Tax
+* {{icon|piety}} {{green|+5%}} Monthly Piety
+* {{icon|plague resistance}} {{green|+4}} Plague Resistance
+| 
+* {{icon|yes}} County has the same faith
+* {{icon|vassal}} 3+ vassals with Devoted Servant level of devotion if era is Tribal or Early Medieval
+* {{icon|vassal}} 6+ vassals with Devoted Servant level of devotion if era is High Medieval or Late Medieval
+| ''Above the entrances to and throughout this settlement, detailed religious artworks inspire awe and promise safe passage.''
+|-
+| Temple Sanctuaries
+| 
+* {{icon|gold}} {{green|+0.55}} Monthly Tax
+* {{icon|piety}} {{green|+7%}} Monthly Piety
+* {{icon|plague resistance}} {{green|+8}} Plague Resistance
+| 
+* {{icon|yes}} County has the same faith
+* {{icon|devoted}} 2+ close family members with the Devoted trait if era is Tribal or Early Medieval
+* {{icon|devoted}} 4+ close family members with the Devoted trait if era is High Medieval or Late Medieval
+| ''The local temple complexes have been expanded with vaulted gardens, serene places which house freshwater wells.''
+|-
+| Monumental Squares
+| 
+* {{icon|gold}} {{green|+0.7}} Monthly Tax
+* {{icon|piety}} {{green|+10%}} Monthly Piety
+* {{icon|piety}} {{green|+0.1}} Monthly Piety
+* {{icon|plague resistance}} {{green|+12}} Plague Resistance
+* {{icon|opinion}} {{green|+4}} Clergy Opinion
+| [[File:Modifier piety positive.png|24px]] Barony has A Faithful's Oath Fulfilled modifier
+| ''Great investment has gone into massive central squares that abound with religious artwork, are kept bare of excess waste and usury, and supply water to locals.''
+|}
+
+==Terrain chart==
+[[File:World_horse_buildings_in_hills_and_mountains_map.png|160px|thumb|right|Hillside Grazing Lands can only be constructed in the yellow region. Warrior Lodges can only be constructed in the light pink region.]]
+Elephantry buildings can only be constructed in India or South East Asia.
+{| class="mildtable plainlist sortable"
+!Building
+!{{iconify|Desert}}
+!{{iconify|Desert Mountains}}
+!{{iconify|Drylands}}
+!{{iconify|Farmlands}}
+!{{iconify|Floodplains}}
+!{{iconify|Forest}}
+!{{iconify|Hills}}
+!{{iconify|Jungle}}
+!{{iconify|Mountains}}
+!{{iconify|Oasis}}
+!{{iconify|Plains}}
+!{{iconify|Steppe}}
+!{{iconify|Taiga}}
+!{{iconify|Wetlands}}
+|-
+|[[File:Building camel farms.png|24px]] Camelry
+|{{icon|yes}}||{{icon|yes}}||{{icon|yes}}||{{icon|no}}||{{icon|yes}}||{{icon|no}}||{{icon|no}}||{{icon|no}}|| {{icon|no}}||{{icon|yes}}||{{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|no}}
+|-
+|[[File:Building pastures.png|24px]] Cattle Pastures
+|{{icon|yes}}|| {{icon|yes}}||{{icon|yes}}||{{icon|yes}}||{{icon|yes}}|| {{icon|no}}|| {{icon|yes}}||{{icon|yes}}||{{icon|yes}}||{{icon|yes}}||{{icon|yes}}||{{icon|yes}}||{{icon|no}}||{{icon|no}}
+|-
+| [[File:Building plantations.png|24px]] Desert Agriculture
+|{{icon|yes}}|| {{icon|no}}|| {{icon|yes}}||{{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|no}}|| {{icon|yes}}||{{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|no}}
+|-
+|[[File:Building elephant pens.png|24px]] Elephantry
+|{{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|yes}}||{{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|no}}
+|-
+| [[File:Building cereal fields.png|24px]] Farms & Fields
+|{{icon|no}}||{{icon|no}}||{{icon|yes}}|| {{icon|yes}}||{{icon|yes}}||{{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|yes}}||{{icon|no}}||{{icon|no}}||{{icon|no}}
+|-
+|[[File:Building logging camps.png|24px]] Forestry
+|{{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|yes}}||{{icon|no}}||{{icon|yes}}||{{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|yes}}||{{icon|no}}
+|-
+|[[File:Building hill farms.png|24px]] Hill Farms
+| {{icon|no}}|| {{icon|no}}|| {{icon|no}}|| {{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|yes}}||{{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|no}}
+|-
+|[[File:Building horse pastures.png|24px]] Horse Herds
+|{{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|no}}|| {{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|yes}}||{{icon|no}}||{{icon|no}}
+|-
+|[[File:Building hunting grounds.png|24px]] Hunting Grounds
+|{{icon|no}}||{{icon|no}}||{{icon|yes}}||{{icon|no}}||{{icon|no}}||{{icon|yes}}||{{icon|yes}}||{{icon|yes}}||{{icon|no}}||{{icon|no}}||{{icon|yes}}||{{icon|yes}}||{{icon|yes}}||{{icon|yes}}
+|-
+|[[File:Building farm estates.png|24px]] Manor Houses
+|{{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|yes}}||{{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|no}}
+|-
+|[[File:Building orchards.png|24px]] Orchards
+|{{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|yes}}||{{icon|no}}|| {{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|yes}}||{{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|no}}
+|-
+| [[File:Building outposts.png|24px]] Outposts
+|{{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|yes}}|| {{icon|no}}||{{icon|yes}}||{{icon|no}}|| {{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|yes}}||{{icon|yes}}
+|-
+| [[File:Building quarries.png|24px]] Quarries
+|{{icon|no}}||{{icon|yes}}||{{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|yes}}||{{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|no}}
+|-
+|[[File:Building regimental grounds.png|24px]] Regimental Grounds
+|{{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|yes}}||{{icon|yes}}|| {{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|no}}|| {{icon|no}}|| {{icon|no}}||{{icon|no}}
+|-
+|[[File:Building peat quarries.png|24px]] Wetland Farms
+| {{icon|no}}|| {{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|yes}}
+|-
+| [[File:Building_hillside_grazing.png|24px]] Hillside Grazing Lands
+|{{icon|no}}||{{icon|yes}}||{{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|yes}}||{{icon|no}}||{{icon|yes}}||{{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|no}}
+|-
+|[[File:Building_warrior_lodges.png|24px]] Warrior Lodges
+|{{icon|no}}||{{icon|yes}}||{{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|yes}}||{{icon|no}}||{{icon|yes}}||{{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|no}}||{{icon|no}}
+|}
+
+==References==
+<references />
+
+{{Mechanics navbox}}
+[[Category:Realm]]

@@ -1,0 +1,1299 @@
+{{Version|1.18}}
+{{Faithnav}}
+Each [[character]] will follow a '''faith''', a specific denomination of one religion which dictates how a character should live.
+
+== Fervor ==
+Fervor is a measure of how righteous adherents believe that a faith is and ranges from {{red|0%}} to {{green|100%}}. Fervor determines how expensive it is for rulers to create new faiths and how likely counties and characters are to convert. 
+
+Fervor increases at a rate of {{green|+3.5}} each year, modified by the [[Faith#Virtues and sins|virtues and sins]] of religious leaders, particularly the head of faith. Fervor grows more slowly for faiths followed in more than 20 counties. New faiths start at 100% fervor, while historical ones start at 50%. A faith without a head of faith will gain {{green|+50}} Fervor if the head of faith title is created.
+
+At below 40% Fervor, Heresies can happen, with the chance increasing every 10% below that. When the outbreak occurs, each ruler that embraces the heresy will add 15% fervor to the religion they are defecting from.
+
+Fervor is modified by the [[Casus_belli#Holy_War_CBs|Holy War casus belli]]. Attackers in holy wars lose fervor, while defenders gain fervor.
+
+== Faith hostility ==
+Each faith has a view of every other faith that depends on their Theism doctrines, whether they have any syncretism tenet, and whether they have any religion-specific doctrines. The {{iconify|Pluralist}} doctrine halves the penalties while the {{iconify|Fundamentalist}} doctrine doubles them.
+{| class="mildtable" style="text-align: center;clear:all;"
+! View
+! Character opinion
+! Popular opinion
+! Intermarriage
+! Title usurpation
+! Holy wars
+! Advantage per {{icon|advantage}} Faith Hostility Advantage
+! Adoption piety cost
+! Description
+|-
+| '''Righteous'''
+| '''0'''
+| '''0'''
+| {{icon|yes}}
+| {{icon|yes}}
+| {{icon|no}}
+| '''0'''
+| {{green|0}}
+| ''This Faith is considered legitimate.''
+|-
+| '''Astray'''
+| {{red|−10}}
+| {{red|−15}}
+| {{icon|yes}}
+| {{icon|yes}}
+| {{icon|no}}
+| '''0'''
+| {{red|100}}
+| ''This Faith differs in a way that is not particularly significant.''
+|-
+| '''Hostile'''
+| {{red|−20}}
+| {{red|−30}}
+| {{icon|yes}}
+| {{icon|no}}
+| {{icon|yes}}
+| {{green|0.5}}
+| {{red|150}}
+| ''This Faith deviates significantly.''
+|-
+| '''Evil'''
+| {{red|−30}}
+| {{red|−45}}
+| {{icon|no}}
+| {{icon|no}}
+| {{icon|yes}}
+| {{green|1}}
+| {{red|250}}
+| ''This Faith is considered anathema.''
+|}
+
+== Faith organization ==
+Faith organization describes how organized and coherent each faith is. Faiths can be divided into organized and unreformed, each having advantages but also some drawbacks. Most Pagan faiths start unreformed, while all Abrahamic and Eastern faiths except for Kuzarism start organized.
+
+All pagan faiths need to first reform before they could be considered organized. Even if you change nothing about your religion when you reform it, it will still be considered organized once you pay the required Piety. Only an organised faith can declare holy wars.
+{| class="mildtable"
+! 
+! Organized
+! Unreformed
+|-
+| Adopt Feudal / Clan Ways decision || {{green|yes}} || {{red|no}}
+|-
+| Conversion || {{green|superior}} || {{red|inferior}}
+|-
+| Opinion with feudal, republic and clan vassals || '''0''' || {{red|−20}}
+|-
+| Monthly prestige || '''0''' || {{green|+20%}}
+|-
+| Conversion cost to unreformed faiths || {{red|+500%}} || '''0'''
+|-
+| Conquest casus belli || {{red|no}} || {{green|yes}}
+|-
+| Pagan combat advantage|| '''0''' || {{green|+10}}
+|-
+| Faith creation || New faiths || Reformation
+|-
+|Can raid
+|{{red|no}}
+|{{green|yes}}
+|}
+
+== Virtues and sins ==
+Virtues and sins are traits which a religion or faith considers virtuous or sinful. Characters receive {{green|+10}} Same Faith Opinion and {{green|+1}} Monthly Piety for each virtue trait they have and they lose {{red|-10}} Same Faith Opinion and {{red|-1}} Monthly Piety for each sin trait they have.
+
+If a trait is considered a virtue by both the faith's religion and one or more of the faith's tenets, the bonuses will stack. This however does not apply for bonuses that scale with the number of virtues or sins such as the Legalism tenet.
+
+== Head of faith ==
+The head of faith is the formal leader of a faith. Whether a faith has a head of faith or not, as well as how the head of faith is chosen if there is one, is determined by the doctrine with the same name. Heads of faith gain <section begin=HeadOfFaithPietyGain />{{green|+1}}<section end=HeadOfFaithPietyGain /> {{iconify|Piety}} per month.
+
+The head of faith is a title. To create it, a character requires control of a Holy Site, 300 {{iconify|Gold}} and at least a Devoted level of devotion. Heads of faith can be vassals even if they do not own any landed title.
+
+Some Christian and Muslim faiths have the same head of faith but can gain a new one via decisions.
+
+If the faith has a {{iconify|Spiritual}} head of faith, the following interactions are possible with a head of faith if the character is not at war with them:
+{| class="mildtable plainlist"
+! Interaction
+! Effects
+! Cost
+! Requirements
+! Cooldown
+|-
+| '''Ask for Gold'''
+| {{icon|gold}} Gain scaled gold
+| 
+* {{icon|piety}} 250 Piety or a hook
+* {{icon|opinion}} 20 Head of faith opinion
+* {{icon|opinion}} 10 Zealot vassal opinion
+| 
+* {{icon|gold}} Head of faith has enough gold
+* {{icon|no}}{{iconify|Excommunicated}}
+| 3 years
+|-
+| '''Seek Indulgences'''
+| 
+* {{icon|gallowsbait}} Lose the Gallowsbait trait or a random infamy trait considered shunned or criminal by the faith's crime doctrines
+* {{icon|piety}} {{green|+100}} Piety if character has no trait to remove
+* {{icon|opinion}} {{green|+15}} Head of faith opinion
+* {{icon|stress}} {{red|+20}} Stress if Cynical
+* {{icon|stress}} {{red|+20}} Stress if Greedy
+| {{icon|gold}} Scaled gold
+| 
+* {{icon|yes}} Communion tenet
+* {{icon|no}}{{iconify|Excommunicated}}
+| 
+|-
+| '''Make Declaration of Repentance'''
+| 
+* {{icon|excommunicated}} Lose the Excommunicated trait
+* {{icon|time}} Cannot gain the Excommunicated trait for 10 years
+* {{icon|opinion}} {{green|+10}} Head of faith opinion
+* {{icon|stress}} {{red|+20}} Stress if Cynical
+| 
+* {{icon|prestige}} 750 Prestige or a hook
+* {{icon|prestige}} 1 Level of fame or a hook
+* {{icon|piety}} 10% Piety for 10 years
+| 
+* {{icon|yes}} Communion tenet
+* {{iconify|Excommunicated}}
+| 10 years
+|-
+| {{icon|rtp}} '''Ask for Clerical Influence'''
+| 
+* {{icon|influence}} {{green|+100-400}} influence
+* [[File:Modifier influence positive.png|24px]] House gains the Clerical Political Agents modifier for 10 years
+| 
+* {{icon|piety}} 500 Piety or a hook
+* {{icon|opinion}} 30 Head of faith opinion
+| 
+* {{icon|governor efficiency}} Administrative government
+* {{icon|yes}} State faith
+* {{icon|no}}{{iconify|Excommunicated}}
+| 10 years
+|-
+| {{icon|cor}} '''Request Anointment'''
+| [[File:Coronation type anointment icon.png|24px]] Can use the Anointment variant for the Coronation activity
+| {{icon|piety}} 500 Piety or a hook
+| 
+* {{iconify|Emperor}} or above
+* [[File:Doctrine coronation.png|24px]] Anointment Permitted or Imperial Anointment doctrine
+* {{icon|no}}{{iconify|Excommunicated}}
+| 
+|}
+
+== Conversion ==
+Each character can convert to a different faith at any point. To do so, click on the Faith button on the bottom left corner of the screen (between the House and Culture buttons) and select the desired Faith from the ''Other Faiths'' menu.
+
+Conversion costs [[piety]] based on the difference between the [[doctrines]] of the new faith and the doctrines of the old one. The cost can also be affected by the following:
+* {{green|−1%}} per Learning attribute of character
+* {{green|−15%}} if old faith has Pluralistic doctrine
+* {{green|−20%}} if holding Stonehenge special building in Salisbury
+* {{green|−25%}} if both old faith and new faith has Pluralistic doctrine
+* {{green|−25%}} if converting to the faith of a concubine
+* {{green|−35%}} if converting to an existing faith
+* {{green|−50%}} if converting to an existing faith within the same religion
+* {{green|−50%}} if converting to the faith of a spouse
+* {{green|−50%}} if converting to the faith of an attacker in a Holy War
+* {{green|−50%}} if character's dynasty has 3 legacies in the Adventure tree
+* {{green|−75%}} if character has the Apostate lifestyle perk
+* {{green|−150%}} if the new faith exists in the realm or a neighboring realm and same religious family
+* {{green|−225%}} if converting to an organized faith from an unreformed faith
+* {{green|−225%}} if converting to the faith of a concubine while old faith is unreformed
+* {{green|−250%}} if converting to the faith of a spouse while old faith is unreformed
+* {{green|−250%}} if converting to the faith of an attacker in a Holy War while old faith is unreformed
+* {{green|−250%}} if the new faith exists in the realm or a neighboring realm and different religious family
+* {{red|+25%}} if the new faith is unreformed while having clan government
+* {{red|+50%}} if the new faith is unreformed while having feudal government
+* {{red|+75%}} if the new faith is unreformed while having republican government
+* {{red|+100%}} if the new faith belongs to a different religion within the same religious family
+* {{red|+200%}} if the new faith belongs to a different religious family
+* {{red|+500%}} if the new faith is unreformed while the old faith is organized
+* {{red|+500%}} if the new faith's religion is dead
+
+== New faiths ==
+A ruler who is at peace can create a new faith for a religion once per lifetime by spending a very large amount of piety. The farther the new faith's [[tenets]] will be from the character's original faith, the more piety it will cost to change it. Once a new faith is created, the ruler, their close family and their realm capital will instantly convert. Vassals may convert depending on their {{icon|opinion}} [[opinion]] and difference in {{iconify|learning}}. New faiths inherit the [[holy site]]s of the original faith.
+
+A ruler who is a vassal cannot create a new faith unless their primary title rank is at least {{icon|duke}} [[duke]].
+
+A new faith cannot have both its tenets and doctrines entirely identical to those of an existing faith.
+
+{{expansion|rtp}}
+Landless player characters can create a new faith at any time if they can afford the cost but cannot reform faiths and cannot be heads of faith.
+
+=== Reformation ===
+Faiths that are unreformed can be reformed by a ruler who controls at least 3 holy sites by spending a large amount of {{iconify|piety}}. Upon reformation, the new faith will keep the name of the old faith while the old faith will be renamed.
+
+When reforming their faith, AI rulers will never change tenets or doctrines except possibly for those regarding the head of faith.
+
+{{expansion|lod}}
+Reforming a faith will grant a {{iconify|Holy Legend}} seed.
+
+{{expansion|roc}}
+Holding court will always include an event to pay a large amount of {{iconify|Gold}} to remove the 3 holy sites restriction for reforming the faith if the following requirements are met:
+* Level of devotion is at least [[File:Icon piety pagan 02.png|24px]] Faithful
+* At least three of the counties housing the faith's holy sites follow the faith
+* At least one of the holy sites is in domain or belongs to a vassal with the same faith
+* At least one other independent ruler follows the same faith, has a holy site in their realm, and is not {{iconify|Zealous}} or {{iconify|Rival}}
+* At leans one independent ruler that is a neighbor or shares a seazone and follows a Hostile or Evil reformed faith from a different religion won a war, controls one of the unreformed faith's holy sites, or controls at least 4 counties that follow the unreformed faith
+
+== Religion  ==
+Religions have two main effects. First, each religion has a baseline set of sins and virtues. Second, the religion determines which men-at-arms its holy orders will favor. A faith's tenets can add traits considered sins and virtues, replacing some of the original ones if they happen to conflict.
+
+=== Abrahamic religions ===
+{| class="mildtable plainlist"
+! rowspan=2 | Religion
+! rowspan=2 | Virtues
+! rowspan=2 | Sins
+! rowspan=2 | Holy site building
+! rowspan=2 | Holy order men-at-arms
+! rowspan=2 | Holy order names
+! rowspan=2 | High god name
+! rowspan=2 | Great holy war name
+! colspan=4 | Court Chaplain / Realm Priest name
+|-
+! {{iconify|Count}}
+! {{iconify|Duke}}
+! {{iconify|King}}
+! {{iconify|Emperor}} and {{icon|hegemony}} Hegemon
+|-
+| {{anchor|Christianity}}'''Christianity'''
+| 
+* {{iconify|Compassionate}}
+* {{iconify|Chaste}}
+* {{iconify|Forgiving}}
+| 
+* {{iconify|Sadistic}}
+* {{iconify|Lustful}}
+* {{iconify|Vengeful}}
+| [[File:Structure cologne cathedral.png|24px]] Grand Cathedral
+| {{icon|heavy infantry}} Order Knights
+| 
+* Knights Templar
+* Knights Hospitaller
+* Teutonic Order
+* Order of Calatrava
+* Order of Alcantara
+* Knights of Santiago
+* Knights of the Chalice
+* Order of the Holy Communion
+* Knights of the First Gospel
+* Guardians of the Shroud
+* Knights of the Reliquary
+* Warriors of the Cross
+* Knights of Dunfres
+* Brotherhood of the Holy Sepulchre
+* Knights of the First Patriarchate
+* Order of the Holy Virgin
+| God
+| Crusade
+| Suffragan Bishop
+| Bishop
+| Archbishop
+| Patriarch<br>Matriarch
+|-
+| {{anchor|Islam}}'''Islam'''
+| 
+* {{iconify|Generous}}
+* {{iconify|Just}}
+* {{iconify|Temperate}}
+| 
+* {{iconify|Greedy}}
+* {{iconify|Arbitrary}}
+* {{iconify|Gluttonous}}
+* {{iconify|Drunkard}}
+| [[File:Structure cathedral muslim.png|24px]] Grand Mosque
+| {{icon|heavy cavalry}} Cataphracts
+| 
+* Companions of Hira
+* Warriors of the Hadith
+* Warriors of the Wahy
+| Allah
+| Jihad
+| Court Imam
+| Mufti
+| Allamah
+| Grand Allamah
+|-
+| {{anchor|Judaism}}'''Judaism'''
+|
+* {{iconify|Compassionate}}
+* {{iconify|Just}}
+* {{iconify|Patient}}
+| 
+* {{iconify|Cynical}}
+* {{iconify|Greedy}}
+* {{iconify|Lustful}}
+| [[File:Structure cathedral zoroastric.png|24px]] Grand Temple
+| {{icon|skirmishers}} Shomer
+| Herem Warriors
+| The Lord
+| Great Holy War
+| Kohen
+| Rabban
+| Nasi
+| Gadol
+|-
+| {{anchor|Dualism}}'''Dualism'''
+| 
+* {{iconify|Honest}}
+* {{iconify|Humble}}
+* {{iconify|Patient}}
+| 
+* {{iconify|Deceitful}}
+* {{iconify|Arrogant}}
+* {{iconify|Impatient}}
+| [[File:Structure cathedral zoroastric.png|24px]] Grand Temple
+| {{icon|heavy infantry}} Mubarizun
+| 
+* Army of Light
+* Servants of the Patricians
+* Dreamers of [Location Name]
+| God
+| Great Purification
+| Didaskalos
+| Ecclesiarch
+| Patriach<br>Matriarch
+| Patriach<br>Matriarch
+|-
+| {{anchor|Miletê Tawûsê Melek}}'''Miletê Tawûsê Melek'''
+| 
+* {{iconify|Generous}}
+* {{iconify|Just}}
+* {{iconify|Temperate}}
+| 
+* {{iconify|Greedy}}
+* {{iconify|Arbitrary}}
+* {{iconify|Gluttonous}}
+| [[File:Structure cathedral zoroastric.png|24px]] Grand Temple
+| {{icon|heavy cavalry}} Cataphracts
+| Servants of Melek Taus
+| Melek Taus
+| Jihad
+| Peshimam
+| Pîr
+| Sheikh
+| Baba Sheikh
+|}
+
+=== Dharmic religions ===
+{| class="mildtable plainlist"
+! rowspan=2 | Religion
+! rowspan=2 | Virtues
+! rowspan=2 | Sins
+! rowspan=2 | Holy site building
+! rowspan=2 | Holy order men-at-arms
+! rowspan=2 | Holy order names
+! rowspan=2 | High god name
+! rowspan=2 | Great holy war name
+! colspan=4 | Court Chaplain / Realm Priest name
+|-
+! {{iconify|Count}}
+! {{iconify|Duke}}
+! {{iconify|King}}
+! {{iconify|Emperor}} and {{icon|hegemony}} Hegemon
+|-
+| {{anchor|Buddhism}}'''Buddhism'''
+| 
+* {{iconify|Honest}}
+* {{iconify|Calm}}
+* {{iconify|Generous}}
+| 
+* {{iconify|Deceitful}}
+* {{iconify|Wrathful}}
+* {{iconify|Impatient}}
+| [[File:Structure cathedral buddhist.png|24px]] Grand Temple
+| {{icon|heavy infantry}} Khandayat
+| 
+* Chosen of Ashoka
+* Guardians of Bodh Gaya
+* Sangha of the Stuggle
+* Shakyan Faithful
+* Warriors of the Illuminated Heart
+| Siddhartha
+| Great Purification
+| Upadhyaya
+| Purohit
+| Rajpurohit
+| Marajpurohit
+|-
+| {{anchor|Hinduism}}'''Hinduism'''
+| 
+* {{iconify|Content}}
+* {{iconify|Temperate}}
+* {{iconify|Honest}}
+| 
+* {{iconify|Ambitious}}
+* {{iconify|Greedy}}
+* {{iconify|Wrathful}}
+| [[File:Structure cathedral indian.png|24px]] Grand Temple
+| {{iconify|War Elephants}}
+| 
+* Followers of Arjuna
+* Maharatas of the war god
+* Vyuha of the Temple
+* Vyuha of the war god
+| Brahman
+| Great Purification
+| Upadhyaya
+| Purohit
+| Rajpurohit
+| Marajpurohit
+|-
+| {{anchor|Jainism}}'''Jainism'''
+| 
+* {{iconify|Calm}}
+* {{iconify|Compassionate}}
+* {{iconify|Honest}}
+| 
+* {{iconify|Wrathful}}
+* {{iconify|Sadistic}}
+* {{iconify|Deceitful}}
+| [[File:Structure cathedral indian.png|24px]] Grand Temple
+| {{icon|heavy infantry}} Khandayat
+| 
+* Bulls of Rishabha
+* Guardians of the Lotus Ocean
+* Jivas of Madhya Loka
+* Sacrifices of Devloka
+| The Tirthankaras
+| Great Purification
+| Upadhyaya
+| Purohit
+| Rajpurohit
+| Marajpurohit
+|-
+| {{anchor|Zoroastrianism}}'''Zoroastrianism'''
+| 
+* {{iconify|Diligent}}
+* {{iconify|Honest}}
+* {{iconify|Just}}
+| 
+* {{iconify|Lazy}}
+* {{iconify|Deceitful}}
+* {{iconify|Sadistic}}
+| [[File:Structure great fire temple.png|24px]] Great Fire Temple
+| {{icon|heavy infantry}} Mubarizun
+| 
+* Champions of Ohrmazd
+* Fire Walkers
+* Immortals
+* Order of Warahrām
+| Ahura Mazda
+| Great Purification
+| Herbad
+| Mobed<br>Mobedyar
+| Dastur<br>Dastuyar
+| Dastur<br>Dastuyar
+|}
+
+=== Sinitic religions ===
+{| class="mildtable plainlist"
+! rowspan=2 | Religion
+! rowspan=2 | Virtues
+! rowspan=2 | Sins
+! rowspan=2 | Holy site building
+! rowspan=2 | Holy order men-at-arms
+! rowspan=2 | Holy order names
+! rowspan=2 | High god name
+! rowspan=2 | Great holy war name
+! colspan=4 | Court Chaplain / Realm Priest name
+|-
+! {{iconify|Count}}
+! {{iconify|Duke}}
+! {{iconify|King}}
+! {{iconify|Emperor}} and {{icon|hegemony}} Hegemon
+|-
+| {{anchor|Taoism}}'''Taoism'''
+| 
+* {{iconify|Compassionate}}
+* {{iconify|Content}}
+* {{iconify|Humble}}
+| 
+* {{iconify|Sadistic}}
+* {{iconify|Ambitious}}
+* {{iconify|Arrogant}}
+| [[File:Structure fogong temple pagoda.png|24px]] Grand Temple
+| {{icon|archers}} Shenbigong
+| Faithful of Han Chung-li
+| Tao
+| Great Purification
+| Court Priest<br>Court Priestess
+| Libationer
+| High Libationer
+| High Libationer
+|-
+| {{anchor|Confucianism}}'''Confucianism'''
+| 
+* {{iconify|Honest}}
+* {{iconify|Just}}
+* {{iconify|Scholar}}
+| 
+* {{iconify|Deceitful}}
+* {{iconify|Greedy}}
+* {{iconify|Lazy}}
+| [[File:Structure fogong temple pagoda.png|24px]] Grand Temple
+| {{iconify|Horse Archers}}
+| 
+* Faithful of Heaven
+* Guardians of Heaven
+* Warriors of the bell
+| Heaven
+| Great Holy War
+| Lisheng
+| Lisheng
+| Lisheng
+| Lisheng
+|}
+
+=== Pagan religions ===
+{| class="mildtable plainlist"
+! rowspan=2 | Religion
+! rowspan=2 | Virtues
+! rowspan=2 | Sins
+! rowspan=2 | Holy site building
+! rowspan=2 | Holy order men-at-arms
+! rowspan=2 | Holy order names
+! rowspan=2 | High god name
+! rowspan=2 | Great holy war name
+! colspan=4 | Court Chaplain / Realm Priest name
+|-
+! {{iconify|Count}}
+! {{iconify|Duke}}
+! {{iconify|King}}
+! {{iconify|Emperor}} and {{icon|hegemony}} Hegemon
+|-
+| {{anchor|Shintōism}}'''Shintōism'''
+| 
+* {{iconify|Compassionate}}
+* {{iconify|Content}}
+* {{iconify|Humble}}
+| 
+* {{iconify|Sadistic}}
+* {{iconify|Ambitious}}
+* {{iconify|Arrogant}}
+| [[File:Structure torii gate.png|24px]] Grand Temple
+| {{icon|no}} None
+| 
+| Amaterasu
+| Great Holy War
+| Court Priest<br>Court Priestess
+| Court Priest<br>Court Priestess
+| Court Priest<br>Court Priestess
+| Court Priest<br>Court Priestess
+|-
+| {{anchor|Tibetan}}'''Tibetan'''
+| 
+* {{iconify|Humble}}
+* {{iconify|Calm}}
+* {{iconify|Compassionate}}
+| 
+* {{iconify|Arrogant}}
+* {{iconify|Lustful}}
+* {{iconify|Greedy}}
+| [[File:Structure cathedral pagan.png|24px]] Grand Temple
+| {{icon|heavy infantry}} Mountaineers
+| Guardians of the Five Khandro
+| Sangpo Bumtri
+| Great Purification
+| Upadhyaya
+| Purohit
+| Banchenpo
+| Banchenpo
+|-
+| {{anchor|Mandé}}'''Mandé'''
+| 
+* {{iconify|Calm}}
+* {{iconify|Humble}}
+* {{iconify|Twin}} (x2.5)
+| 
+* {{iconify|Wrathful}}
+* {{iconify|Arrogant}}
+* {{iconify|Vengeful}}
+| [[File:Structure cathedral pagan.png|24px]] Grand Temple
+| {{icon|archers}} Bush Hunters
+| Watchers
+| Amma
+| Great Holy War
+| Hogon
+| Hogon
+| Hogon
+| Hogon
+|-
+| {{anchor|Bantu-Somali}}'''Bantu-Somali'''
+| 
+* {{iconify|Brave}}
+* {{iconify|Compassionate}}
+* {{iconify|Just}}
+| 
+* {{iconify|Craven}}
+* {{iconify|Callous}}
+* {{iconify|Arbitrary}}
+| [[File:Structure cathedral pagan.png|24px]] Grand Temple
+| {{icon|skirmishers}} Horn Warriors
+| Faithful of Wiilwaal
+| Waaq
+| Great Holy War
+| Court Shaman
+| Shaman
+| High Shaman
+| High Shaman
+|-
+| {{anchor|Hsexje}}'''Hsexje'''
+| 
+* {{iconify|Content}}
+* {{iconify|Temperate}}
+* {{iconify|Forgiving}}
+* {{iconify|Honest}}
+| 
+* {{iconify|Ambitious}}
+* {{iconify|Greedy}}
+* {{iconify|Wrathful}}
+| [[File:Structure cathedral pagan.png|24px]] Grand Temple
+| {{icon|no}} None
+| Faithful of the war god
+| Mubyasei
+| Great Purification
+| Court Shaman
+| Shaman
+| High Shaman
+| High Shaman
+|-
+| {{anchor|Tanism}}'''Tanism'''
+| 
+* {{iconify|Content}}
+* {{iconify|Temperate}}
+* {{iconify|Forgiving}}
+* {{iconify|Honest}}
+| 
+* {{iconify|Ambitious}}
+* {{iconify|Greedy}}
+* {{iconify|Wrathful}}
+| [[File:Structure cathedral pagan.png|24px]] Grand Temple
+| {{icon|no}} None
+| 
+* Warriors of Mother Sun
+* Warriors of Father Moon
+| Donyi-Polo
+| Great Purification
+| Court Shaman
+| Shaman
+| High Shaman
+| High Shaman
+|-
+| {{anchor|Nakkavaram}}'''Nakkavaram'''
+| 
+* {{iconify|Brave}}
+* {{iconify|Just}}
+* {{iconify|Gregarious}}
+| 
+* {{iconify|Craven}}
+* {{iconify|Arbitrary}}
+* {{iconify|Greedy}}
+| [[File:Structure po klong garai.png|24px]] Grand Temple
+| {{icon|no}} None
+| 
+* Warriors of Biliku
+* Warriors of the Temple
+| Biliku
+| Great Purification
+| Court Shaman
+| Shaman
+| High Shaman
+| High Shaman
+|-
+| {{anchor|Mundhumism}}'''Mundhumism'''
+| 
+* {{iconify|Content}}
+* {{iconify|Temperate}}
+* {{iconify|Forgiving}}
+* {{iconify|Honest}}
+| 
+* {{iconify|Ambitious}}
+* {{iconify|Greedy}}
+* {{iconify|Wrathful}}
+| [[File:Structure cathedral pagan.png|24px]] Grand Temple
+| {{icon|no}} None
+| 
+* Warriors of Mundhum
+* Warriors of the Temple
+| Tagera Ningwaphuma
+| Great Purification
+| Court Shaman
+| Shaman
+| High Shaman
+| High Shaman
+|}
+
+==== Single faith religions ====
+The following religions have only a single faith.
+{| class="mildtable plainlist"
+! rowspan=2 | Religion
+! rowspan=2 | Virtues
+! rowspan=2 | Sins
+! rowspan=2 | Holy order men-at-arms
+! rowspan=2 | Holy order names
+! rowspan=2 | High god name
+! rowspan=2 | Great holy war name
+! colspan=4 | Court Chaplain / Realm Priest name
+|-
+! {{iconify|Count}}
+! {{iconify|Duke}}
+! {{iconify|King}}
+! {{iconify|Emperor}} and {{icon|hegemony}} Hegemon
+|-
+| {{anchor|Thep Arak}}'''Thep Arak'''
+| 
+* {{iconify|Brave}}
+* {{iconify|Honest}}
+* {{iconify|Gregarious}}
+| 
+* {{iconify|Craven}}
+* {{iconify|Greedy}}
+* {{iconify|Sadistic}}
+| {{icon|no}} None
+| 
+| Phi Thien
+| Great Holy War
+| Shaman
+| High Shaman
+| High Shaman
+| High Shaman
+|-
+| {{anchor|Norse}}'''Norse'''
+| 
+* {{iconify|One-Eyed}}
+* {{iconify|Brave}}
+* {{iconify|Vengeful}}
+* {{iconify|Wrathful}}
+* {{iconify|Poet}}
+| 
+* {{iconify|Craven}}
+* {{iconify|Forgiving}}
+* {{iconify|Deceitful}}
+| {{icon|skirmishers}} Jomsviking Pirates
+| 
+* Chosen of Freyja
+* Faithful of Tyr
+* Jomsvikings
+* Odin’s Valkyries
+| Odin
+| Great Holy War
+| Godi<br>Gydja
+| Hofgoði
+| Riksgoði
+| Riksgoði
+|-
+| {{anchor|Tengrism}}'''Tengrism'''
+| 
+* {{iconify|Brave}}
+* {{iconify|Honest}}
+* {{iconify|Just}}
+| 
+* {{iconify|Craven}}
+* {{iconify|Deceitful}}
+* {{iconify|Arbitrary}}
+| {{iconify|Horse Archers}}
+| Lords of the Sky
+| Tengri
+| Great Holy War
+| Shaman
+| High Shaman
+| High Shaman
+| High Shaman
+|-
+| {{anchor|Finno-Ugric}}'''Finno-Ugric'''
+| 
+* {{iconify|Brave}}
+* {{iconify|Just}}
+* {{iconify|Stubborn}}
+| 
+* {{iconify|Craven}}
+* {{iconify|Arbitrary}}
+* {{iconify|Fickle}}
+| {{icon|archers}} Metsänvartija
+| Sons of Kalevala
+| Ukko
+| Great Holy War
+| Noaidi
+| Noaidi
+| High Noaidi
+| High Noaidi
+|-
+| {{anchor|Siberian}}'''Siberian'''
+| 
+* {{iconify|Brave}}
+* {{iconify|Generous}}
+* {{iconify|Temperate}}
+* {{iconify|Hunter}}
+| 
+* {{iconify|Craven}}
+* {{iconify|Greedy}}
+* {{iconify|Vengeful}}
+| {{icon|archers}} Metsänvartija
+| 
+* Downstreamers
+* Legion of the Bear
+* Sylvan Saviors
+* Thousand Crows
+| Numi-Turum
+| Great Holy War
+| Court Shaman
+| Shaman
+| High Shaman
+| High Shaman
+|-
+| {{anchor|Shamanism}}'''Shamanism'''
+| 
+* {{iconify|Brave}}
+* {{iconify|Generous}}
+* {{iconify|Honest}}
+| 
+* {{iconify|Craven}}
+* {{iconify|Greedy}}
+* {{iconify|Deceitful}}
+| {{icon|no}} None
+| 
+| Enekan Buga
+| Great Holy War
+| Court Shaman
+| Shaman
+| High Shaman
+| High Shaman
+|-
+| {{anchor|Hausa}}'''Hausa'''
+| 
+* {{iconify|Brave}}
+* {{iconify|Honest}}
+* {{iconify|Humble}}
+| 
+* {{iconify|Craven}}
+* {{iconify|Deceitful}}
+* {{iconify|Arrogant}}
+| {{icon|archers}} Bush Hunters
+| 
+* Spirit Guardians
+* Possessed
+| Boorii
+| Great Holy War
+| Adjingi<br>Magadja
+| Adjingi<br>Magadja
+| Adjingi<br>Magadja
+| Adjingi<br>Magadja
+|-
+| {{anchor|Slavic}}'''Slavic'''
+| 
+* {{iconify|Gregarious}}
+* {{iconify|Honest}}
+* {{iconify|Just}}
+| 
+* {{iconify|Shy}}
+* {{iconify|Deceitful}}
+* {{iconify|Arbitrary}}
+| {{iconify|Horse Archers}}
+| Warriors of Perun
+| Rod
+| Great Holy War
+| Zhrets<br>Zhritsa
+| Volkhv<br>Vedunya
+| Volkhv<br>Vedunya
+| Volkhv<br>Vedunya
+|-
+| {{anchor|Moism}}'''Moism'''
+| 
+* {{iconify|Brave}}
+* {{iconify|Diligent}}
+* {{iconify|Generous}}
+| 
+* {{iconify|Craven}}
+* {{iconify|Lazy}}
+* {{iconify|Greedy}}
+| {{icon|no}} None
+| 
+| Momu Apo
+| Great Holy War
+| Court Shaman
+| Shaman
+| High Shaman
+| High Shaman
+|-
+| {{anchor|Yoruba}}'''Yoruba'''
+| 
+* {{iconify|Patient}}
+* {{iconify|Brave}}
+* {{iconify|Just}}
+| 
+* {{iconify|Impatient}}
+* {{iconify|Deceitful}}
+* {{iconify|Arrogant}}
+| {{icon|archers}} Bush Hunters
+| Faithful of Ogun
+| Ọlọrun
+| Great Holy War
+| Court Shaman
+| Shaman
+| High Shaman
+| High Shaman
+|-
+| {{anchor|Akan}}'''Akan'''
+| 
+* {{iconify|Brave}}
+* {{iconify|Compassionate}}
+* {{iconify|Just}}
+| 
+* {{iconify|Craven}}
+* {{iconify|Callous}}
+* {{iconify|Arbitrary}}
+| {{icon|skirmishers}} Horn Warriors
+| Faithful of Adade Kofi
+| Nyame
+| Great Holy War
+| Court Shaman
+| Shaman
+| High Shaman
+| High Shaman
+|-
+| {{anchor|Dab Qhuas}}'''Dab Qhuas'''
+| 
+* {{iconify|Brave}}
+* {{iconify|Diligent}}
+* {{iconify|Humble}}
+| 
+* {{iconify|Craven}}
+* {{iconify|Lazy}}
+* {{iconify|Arrogant}}
+| {{icon|no}} None
+| 
+| Yawm Saub
+| Great Holy War
+| Court Shaman
+| Shaman
+| High Shaman
+| High Shaman
+|-
+| {{anchor|Bimoism}}'''Bimoism'''
+| 
+* {{iconify|Brave}}
+* {{iconify|Honest}}
+* {{iconify|Just}}
+| 
+* {{iconify|Craven}}
+* {{iconify|Deceitful}}
+* {{iconify|Arbitrary}}
+| {{icon|no}} None
+| 
+| Momu Apo
+| Great Holy War
+| Court Shaman
+| Shaman
+| High Shaman
+| High Shaman
+|-
+| {{anchor|Baltic}}'''Baltic'''
+| 
+* {{iconify|Brave}}
+* {{iconify|Calm}}
+* {{iconify|Just}}
+| 
+* {{iconify|Craven}}
+* {{iconify|Wrathful}}
+* {{iconify|Arbitrary}}
+| {{icon|archers}} Metsänvartija
+| Chosen of Perkunas
+| Dievas
+| Great Holy War
+| Court Seerer<br>Court Seeress
+| Vaidilė<br>Vaidilutė
+| Vaidilė<br>Vaidilutė
+| Vaidilė<br>Vaidilutė
+|-
+| {{anchor|Kordofan}}'''Kordofan'''
+| 
+* {{iconify|Content}}
+* {{iconify|Diligent}}
+* {{iconify|Patient}}
+| 
+* {{iconify|Lazy}}
+* {{iconify|Impatient}}
+| {{icon|skirmishers}} Horn Warriors
+| Faithful of Wepwawet
+| Wepwawet
+| Great Holy War
+| Court Shaman
+| Shaman
+| High Shaman
+| High Shaman
+|-
+| {{anchor|Dayawism}}'''Dayawism'''
+| 
+* {{iconify|Brave}}
+* {{iconify|Diligent}}
+* {{iconify|Just}}
+| 
+* {{iconify|Craven}}
+* {{iconify|Lazy}}
+* {{iconify|Arbitrary}}
+| {{icon|no}} None
+| 
+| Maykapal
+| Great Holy War
+| Court Shaman
+| Shaman
+| High Shaman
+| High Shaman
+|-
+| {{anchor|Senegambian}}'''Senegambian'''
+| 
+* {{iconify|Brave}}
+* {{iconify|Forgiving}}
+* {{iconify|Just}}
+| 
+* {{iconify|Craven}}
+* {{iconify|Vengeful}}
+* {{iconify|Arbitrary}}
+| {{icon|archers}} Bush Hunters
+| Servants of the Pangool
+| Roog
+| Great Holy War
+| Saltigue
+| Saltigue
+| Saltigue
+| Saltigue
+|-
+| {{anchor|Tolotang}}'''Tolotang'''
+| 
+* {{iconify|Brave}}
+* {{iconify|Honest}}
+* {{iconify|Just}}
+| 
+* {{iconify|Craven}}
+* {{iconify|Deceitful}}
+* {{iconify|Arbitrary}}
+| {{icon|no}} None
+| 
+| Dewata Seuwae
+| Great Holy War
+| Court Shaman
+| Shaman
+| High Shaman
+| High Shaman
+|-
+| {{anchor|Hantuism}}'''Hantuism'''
+| 
+* {{iconify|Brave}}
+* {{iconify|Honest}}
+* {{iconify|Just}}
+| 
+* {{iconify|Craven}}
+* {{iconify|Deceitful}}
+* {{iconify|Arbitrary}}
+| {{icon|no}} None
+| 
+| Ali-zu
+| Great Holy War
+| Court Shaman
+| Shaman
+| High Shaman
+| High Shaman
+|-
+| {{anchor|Kaharingan}}'''Kaharingan'''
+| 
+* {{iconify|Brave}}
+* {{iconify|Honest}}
+* {{iconify|Just}}
+| 
+* {{iconify|Craven}}
+* {{iconify|Deceitful}}
+* {{iconify|Arbitrary}}
+| {{icon|no}} None
+| 
+| Ranying Mahatala Langit
+| Great Holy War
+| Court Shaman
+| Shaman
+| High Shaman
+| High Shaman
+|-
+| {{anchor|Ezo}}'''Ezo'''
+| 
+* {{iconify|Brave}}
+* {{iconify|Forgiving}}
+* {{iconify|Just}}
+| 
+* {{iconify|Craven}}
+* {{iconify|Vengeful}}
+* {{iconify|Arbitrary}}
+| {{icon|no}} None
+| 
+| Ape-kamuy
+| Great Holy War
+| Court Shaman
+| Shaman
+| High Shaman
+| High Shaman
+|-
+| {{anchor|Muism}}'''Muism'''
+| 
+* {{iconify|Compassionate}}
+* {{iconify|Content}}
+* {{iconify|Humble}}
+| 
+* {{iconify|Sadistic}}
+* {{iconify|Ambitious}}
+* {{iconify|Arrogant}}
+| {{icon|no}} None
+| 
+| Hwa-nin
+| Great Holy War
+| Court Shaman
+| Shaman
+| High Shaman
+| High Shaman
+|-
+| {{anchor|Aluk}}'''Aluk'''
+| 
+* {{iconify|Brave}}
+* {{iconify|Calm}}
+* {{iconify|Diligent}}
+| 
+* {{iconify|Craven}}
+* {{iconify|Wrathful}}
+* {{iconify|Lazy}}
+| {{icon|no}} None
+| 
+| Puang Matua
+| Great Holy War
+| Court Shaman
+| Shaman
+| High Shaman
+| High Shaman
+|-
+| {{anchor|Uralic}}'''Uralic'''
+| 
+* {{iconify|Brave}}
+* {{iconify|Gregarious}}
+* {{iconify|Honest}}
+| 
+* {{iconify|Craven}}
+* {{iconify|Shy}}
+* {{iconify|Deceitful}}
+| {{iconify|Horse Archers}}
+| Táltos of the Field
+| Isten
+| Great Holy War
+| Táltos
+| Táltos
+| High Táltos
+| Grand Táltos
+|-
+| {{anchor|North-African}}'''North-African'''
+| 
+* {{iconify|Brave}}
+* {{iconify|Honest}}
+* {{iconify|Just}}
+| 
+* {{iconify|Craven}}
+* {{iconify|Deceitful}}
+* {{iconify|Arbitrary}}
+| {{icon|archers}} Bush Hunters
+| Guardians of Aguere
+| Achamán
+| Great Holy War
+| Court Shaman
+| Shaman
+| High Shaman
+| High Shaman
+|-
+| {{anchor|Utaki}}'''Utaki'''
+| 
+* {{iconify|Brave}}
+* {{iconify|Gregarious}}
+* {{iconify|Honest}}
+| 
+* {{iconify|Craven}}
+* {{iconify|Shy}}
+* {{iconify|Deceitful}}
+| {{icon|no}} None
+| 
+| Tiida
+| Great Holy War
+| Court Shaman
+| Shaman
+| High Shaman
+| High Shaman
+|-
+| {{anchor|Euskal Erlijioa}}'''Euskal Erlijioa'''
+| 
+* {{iconify|Brave}}
+* {{iconify|Just}}
+* {{iconify|Stubborn}}
+| 
+* {{iconify|Craven}}
+* {{iconify|Arbitrary}}
+* {{iconify|Fickle}}
+| {{icon|heavy infantry}} Mountaineers
+| Company of the Caves
+| Mari
+| Great Holy War
+| Sorgina
+| Sorgina
+| Sorgina
+| Sorgina
+|-
+| {{anchor|Greco-Roman}}'''Greco-Roman'''
+| 
+* {{iconify|Generous}}
+* {{iconify|Just}}
+* {{iconify|Temperate}}
+| 
+* {{iconify|Greedy}}
+* {{iconify|Arbitrary}}
+* {{iconify|Gluttonous}}
+| {{icon|heavy infantry}} Palatini
+| 
+* Myrmidons
+* Priesthood of Ares
+| Zeus
+| Great Holy War
+| Flamen<br>Vestal
+| Pontifex
+| Oracle<br>Sybil
+| Oracle<br>Sybil
+|-
+| {{anchor|Zunbil}}'''Zunbil'''
+| 
+* {{iconify|Brave}}
+* {{iconify|Honest}}
+* {{iconify|Just}}
+| 
+* {{iconify|Craven}}
+* {{iconify|Deceitful}}
+* {{iconify|Arbitrary}}
+| {{icon|heavy infantry}} Mubarizun
+| 
+* Guardians of the Heavens
+* Faithful of Zun
+* Warriors of the sun
+| Zun
+| Great Purification
+| Diviner
+| Diviner
+| Grand Diviner
+| Grand Diviner
+|-
+| {{anchor|Paganism}}'''Paganism'''
+| 
+* {{iconify|Brave}}
+* {{iconify|Honest}}
+* {{iconify|Just}}
+| 
+* {{iconify|Craven}}
+* {{iconify|Deceitful}}
+* {{iconify|Arbitrary}}
+| {{iconify|Horse Archers}}
+| Faithful of Mother Earth
+| Mother Earth
+| Great Holy War
+| Court Shaman
+| Shaman
+| High Shaman
+| High Shaman
+|}
+
+[[Category:Religion]]
+{{Mechanics navbox}}

@@ -1,0 +1,170 @@
+{{Version|1.18}}
+A duel is a combat outside of battle between two characters. Duels can last either until a character gets wounded or until death. Characters cannot duel if they are children, have the {{iconify|Blind}}, {{iconify|Incapable}} or {{iconify|Pregnant}} trait or are both over 70 and have below 10 {{iconify|Prowess}}. Characters will wear armor during duels, except for Tribal rulers who will fight shirtless.
+
+== Issuing a challenge ==
+Duels can start either as a result of events or if a character issues a challenge, which can only be done once every 5 years. If the recipient refuses the challenge they lose 150 {{iconify|Prestige}} while the challenger gains 150 {{iconify|Prestige}}. Acceptance for a duel is determined by the difference in {{iconify|Prowess}} as well as the recipient's {{iconify|Opinion}} and personality. AI rulers will never challenge someone with 15 {{iconify|Prowess}} more than them unless their Rationality is very low. There are seven types of Duels:
+{| class="mildtable plainlist"
+! width=1% | Type
+! Challenger requirements (any)
+! Opponent requirements
+! Effects
+|-
+| '''Artifact Challenge'''
+| {{icon|pressed claim}} Claim on one of the opponent's artifacts
+| {{iconify|Artifact}} claimed by the challenger
+| If the challenger wins they take the claimed artifact.<br>If the challenged character wins the challenger loses the claim of the artifact.
+|-
+| '''Sparring'''
+| 
+* Chivalry tradition
+* Futuwaa tradition
+| {{iconify|Knight}}
+| The victor has a 75% chance to gain a random positive modifier for 10 years and a 25% chance to gain a random negative modifier for 10 years.
+|-
+| '''Single Combat'''
+| 
+* Stalwart Leader perk
+* Martial Admiration tradition
+* Druzhina tradition
+* {{icon|auh}} Expansion political movement
+| {{iconify|Rival}}
+| The victor loses {{icon|stress loss}} Stress while the loser gains {{icon|stress gain}} Stress.
+|-
+| '''Anger Release'''
+| {{iconify|Irritable}} trait and stress level 1+
+| 
+| The victor loses {{icon|stress loss}} Stress while the loser gains {{icon|stress gain}} Stress.
+|-
+| '''Punishment'''
+| {{iconify|Wrathful}} trait
+| {{icon|crime}} Criminal (not liege or vassal)
+| If the challenger wins the challenged character is executed if the crime allows execution, otherwise imprisoned.<br>If the challenged character wins the challenger gains 100 {{iconify|Stress}}.
+|-
+| '''Rite of Passage'''
+| {{icon|decision}} Rite of Passage decision
+| {{icon|yes}} Adult
+| If the challenger wins it gains {{green|+10}} {{iconify|Opinion}} with Vassals and characters of the same culture and {{green|-10%}} {{iconify|Stress}} gain for 10 years.<br>If the challenged character wins the challenger gains {{red|+25%}} {{iconify|Stress}} Gain for 10 years.
+|-
+| '''Prowess Coup'''
+| {{icon|decision}} Attempt to Overthrow Liege decision
+| {{icon|vassal}} Liege
+| If the challenger wins it replaces the liege. Loser dies. Personal Champions can be used.
+|-
+| '''House Head Challenge'''
+| {{icon|yes}} House Unity is Impassive, Competitive or Antagonistic
+| {{icon|yes}} House Head
+| If the challenger wins it becomes the new house head.<br>If the challenged character wins it gains a {{iconify|Weak Hook}} on the challenger.
+|-
+| '''Trial-by-Combat'''
+| {{icon|nrl}} Performative Honor tradition
+| {{icon|crime}} Criminal (not liege or vassal)
+| The challenger may choose to duel for either {{iconify|Gold}}, {{iconify|Stress}}, {{iconify|Weak Hook}} or {{iconify|Death}}. Personal Champions can be used.
+|}
+
+{{iconify|Accolade}}s on the winning side of a duel gain between {{green|+10}} and {{green|+250}} Glory, if the winner has a {{iconify|Prowess}} advantage between {{green|+4}} and {{red|-20}} or more, respectively. Defeating a {{iconify|Rival}} also leads to a {{green|+25}} Glory gain.
+
+== Mechanics ==
+Each duel has two values to keep track of:
+* '''Likelihood of Success''' is a measure of who is currently dominating the duel. Most moves add Likelihood of Success, and the first character to get it a certain threshold above the opponent's wins.
+* '''Risk of Injury''' is a measure of how overextended a character is. If at the end of a round the difference in Likelihood of Success is not high enough for a character to win each character has a chance to lose based on their Risk of Injury.
+
+All duels last between 2 and 4 rounds. If after the fourth round there is no victor then the character with higher {{iconify|Prowess}} will win. During a duel either character can gain or lose Duel Edge. Duel Edge will add or substract {{iconify|Prowess}} to a character for the duration of the duel.
+
+During each round both characters will choose one of three random combat moves that are given based on their {{iconify|Prowess}}. AI characters will choose among the available moves based on their personality:
+* Characters with high Boldness or Vengefulness will choose the option that offers the best Likelihood of Success
+* Characters with low Boldness or Vengefulness will choose the option that offers the least Risk of Injury
+* Characters with high Rationality will choose the middle ground
+* Characters without high or low Boldness, Vengefulness or Rationality will choose at random
+
+{| class="mildtable sortable plainlist"
+! Combat Move
+! Likelihood of Success
+! Risk of Injury
+! {{iconify|Prowess}}
+! Other effects
+|-
+| Wait & Hope ||data-sort-value="1"| {{red|Low}} ||data-sort-value="2"| {{yellow|Medium}} || 0-15 || 
+|-
+| Unsure Attack ||data-sort-value="2"| {{yellow|Medium}} ||data-sort-value="3"| {{red|High}} || 0-15 || 
+|-
+| Enthusiastic Onslaught ||data-sort-value="3"| {{green|High}} ||data-sort-value="4"| {{red|Very High}} || 0-15 || 
+|-
+| Clouded Vision ||data-sort-value="0"| {{red|None}} ||data-sort-value="1"| {{green|Low}} || 0-15 || Adds -4 Duel Edge to the opponent
+|-
+| Headbutt ||data-sort-value="2"| {{yellow|Medium}} ||data-sort-value="3"| {{red|High}} || 0-15 || Adds -4 Duel Edge to both opponents
+|-
+| Guard ||data-sort-value="1"| {{red|Low}} ||data-sort-value="1"| {{green|Low}} || 6-20 || 
+|-
+| Probing Attack ||data-sort-value="2"| {{yellow|Medium}} ||data-sort-value="2"| {{yellow|Medium}} || 6-20 || 
+|-
+| Onslaught ||data-sort-value="3"| {{green|High}} ||data-sort-value="3"| {{red|High}} || 6-20 || 
+|-
+| Put the Boot In ||data-sort-value="4"| {{green|Very High}} ||data-sort-value="4"| {{red|Very High}} || 6-20 || 
+|-
+| Surprise Attack ||data-sort-value="-1"| '''Random''' ||data-sort-value="2"| {{yellow|Medium}} || 6-20 || 
+|-
+| Taunt ||data-sort-value="0"| {{red|None}} ||data-sort-value="2"| {{yellow|Medium}} || 6-20 || Opponent gains a {{iconify|Stress Gain}} modifier
+|-
+| Strict Guard ||data-sort-value="1"| {{red|Low}} ||data-sort-value="0"| {{green|None}} || 8+ || 
+|-
+| Confident Attack ||data-sort-value="2"| {{yellow|Medium}} ||data-sort-value="1"| {{green|Low}} || 8+ || 
+|-
+| Expert Onslaught ||data-sort-value="3"| {{green|High}} ||data-sort-value="2"| {{yellow|Medium}} || 8+ || 
+|-
+| Lightning Assault ||data-sort-value="4"| {{green|Very High}} ||data-sort-value="3"| {{red|High}} || 8+ || 
+|-
+| Tire Opponent ||data-sort-value="1"| {{red|Low}} ||data-sort-value="0"| {{green|None}} || 8+ || Increases the opponent's Risk of Injury
+|-
+| Attempt Disarm ||data-sort-value="1"| {{red|Low}} ||data-sort-value="2"| {{yellow|Medium}} || 12+ || Adds -6 Duel Edge to the opponent
+|}
+
+=== Special moves ===
+Special combat moves are either more effective or grant additional bonuses but have additional requirements. If those requirements are met special moves have a 30% chance to appear in the place of a regular move.
+{| class="mildtable sortable plainlist"
+! Combat Move
+! Likelihood of Success
+! Risk of Injury
+! Requirements
+! Other effects
+|-
+| Hail Mary ||data-sort-value="4"| {{green|Very High}} ||data-sort-value="3"| {{red|High}} || {{icon|prowess}} At least 10 Prowess difference || 
+|-
+| Disheartening Speech ||data-sort-value="0"| {{red|None}} ||data-sort-value="2"| {{yellow|Medium}} || {{icon|diplomacy}} At least 18 Diplomacy skill || Gives 5 {{iconify|Prestige}} per point of {{iconify|Diplomacy}}
+|-
+| In Command ||data-sort-value="0"| {{red|None}} ||data-sort-value="1"| {{green|Low}} || {{icon|martial}} At least 18 Martial skill || Adds -2 Duel Edge to the opponent if has the {{iconify|Arrogant}} trait<br>Adds -4 Duel Edge to the opponent if doesn't have the {{iconify|Arrogant}} trait
+|-
+| Like a Viper ||data-sort-value="3"| {{green|High}} ||data-sort-value="2"| {{yellow|Medium}} || {{icon|intrigue}} At least 18 Intrigue skill || Increases the opponent's Risk of Injury
+|-
+| Legendary Technique ||data-sort-value="3"| {{green|High}} ||data-sort-value="1"| {{green|Low}} || {{icon|learning}} At least 18 Learning skill || 
+|-
+| Silvered Vision ||data-sort-value="2"| {{yellow|Medium}} ||data-sort-value="0"| {{green|None}} || {{icon|stewardship}} At least 18 Stewardship skill<br>{{icon|gold}} At least 20 Gold<br>{{icon|no}} Character is not Maimed || Costs 20 {{iconify|Gold}}
+|-
+| Mocking Boast ||data-sort-value="0"| {{red|None}} ||data-sort-value="0"| {{green|None}} || {{icon|prestige}} Higher Prestige than the opponent<br>{{icon|no}} Opponent is not Humble || Adds -2 Duel Edge to the opponent<br>Opponent gains 40 {{iconify|Stress}} if it has the {{iconify|Arrogant}} trait<br>Opponent gains 20 {{iconify|Stress}} if it doesn't have the {{iconify|Arrogant}} trait
+|-
+| Master of Terrain ||data-sort-value="3"| {{green|High}} ||data-sort-value="1"| {{green|Low}} || {{icon|open terrain expert}} Any trait that gives a bonus in the current terrain || Adds +2 Duel Edge
+|-
+| Berserkergang ||data-sort-value="4"| {{green|Very High}} ||data-sort-value="2"| {{yellow|Medium}} || {{iconify|Berserker}} trait || Adds {{green|-20}} {{icon|stress loss}} Stress
+|-
+| Hard Grit ||data-sort-value="3"| {{green|High}} ||data-sort-value="0"| {{green|None}} || [[File:Trait shieldmaiden.png|24px]] Shieldmaiden trait || Adds +4 Duel Edge
+|-
+| Feint & Stab ||data-sort-value="3"| {{green|High}} ||data-sort-value="2"| {{yellow|Medium}} || [[File:Trait hunter.png|24px]] Hunter trait || Adds a {{green|+4}} {{iconify|Intrigue}} modifier for 5 years
+|-
+| Butchery ||data-sort-value="3"| {{green|High}} ||data-sort-value="2"| {{yellow|Medium}} || {{iconify|Raider}} trait || Gives 2 {{iconify|Dread}} per every 2 points of {{iconify|Prowess}}
+|-
+| Stoic Veteran ||data-sort-value="2"| {{yellow|Medium}} ||data-sort-value="0"| {{green|None}} || {{iconify|Varangian}} trait || Adds a {{iconify|Health}} Boost modifier for 5 years
+|-
+| Blade Dance ||data-sort-value="3"| {{green|High}} ||data-sort-value="1"| {{green|Low}} || [[File:Trait blademaster.png|24px]] Blademaster trait || Gives 5 {{iconify|Prestige}} per point of {{iconify|Prowess}}
+|-
+| Divine Wrath ||data-sort-value="1"| {{red|Low}} ||data-sort-value="0"| {{green|None}} || {{iconify|Zealous}} trait || Gives 10 {{iconify|Piety}} if opponent's Faith is considered Righteous<br>Gives 25 {{iconify|Piety}} if opponent's Faith is considered Astray<br>Gives 50 {{iconify|Piety}} if opponent's Faith is considered Hostile<br>Gives 75 {{iconify|Piety}} if opponent's Faith is considered Evil
+|-
+| Fueled by Pain ||data-sort-value="2"| {{yellow|Medium}} ||data-sort-value="2"| {{yellow|Medium}} || {{iconify|Deviant}} trait || Adds +2 Duel Edge if character does not have the  [[File:Trait wounded 2.png|24px]] Severely Wounded or [[File:Trait wounded 3.png|24px]] Brutally Mangled traits<br>Adds +4 Duel Edge if character has the [[File:Trait wounded 2.png|24px]] Severely Wounded trait<br>Adds +8 Duel Edge if character has the [[File:Trait wounded 3.png|24px]] Brutally Mangled trait
+|-
+| Something to Hide ||data-sort-value="0"| {{red|None}} ||data-sort-value="0"| {{green|None}} || {{icon|weak hook}} Hook on the opponent<br>{{icon|no}} Duel will not end in death || Adds +4 Duel Edge if holding a {{iconify|Weak Hook}} on the opponent<br>Adds +8 Duel Edge if holding a {{iconify|Strong Hook}} on the opponent
+|-
+| An Unexpected Ally ||data-sort-value="4"| {{green|Very High}} ||data-sort-value="0"| {{green|None}} || {{icon|yes}} Duel takes place in Africa, Persia, India or Burma<br>{{icon|yes}} Terrain is Farmlands, Floodplains, Jungle, Oasis or Wetlands || Can only appear once
+|}
+
+== References ==
+<references/>
+{{Mechanics navbox}}
+[[Category: Warfare]]

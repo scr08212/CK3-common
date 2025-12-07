@@ -1,0 +1,4653 @@
+{{Version|1.18}}
+[[File:Culture example.png|thumb|300px|Mashriqi culture]]
+The culture represents the customs and technologies that a character or county uses. Rulers can change a county's culture by ordering their Steward to complete the {{iconify|Promote Culture}} task.
+
+Counties will have lowered popular opinion with their direct Liege if they belong to a different culture and especially heritage. Characters can avoid this by granting the county title to a vassal of the same heritage as the target county.
+
+A ruler can convert to the culture of their Realm Capital at the cost of {{iconify|Prestige}}, provided that their [[Council|Court Chaplain]] endorses them. Every close family member sharing the ruler's culture will adopt the new culture. Vassals sharing the ruler's culture that own counties with the new culture can decide to adopt it as well.
+
+Depending on their culture, rulers are called by various linguistic titles which are known as their [[Form of Address]].
+
+== Culture head ==
+Each culture with at least one ruler has a Culture Head. The Culture Head is always the adult character who owns the most counties of said culture but if the {{iconify|Khans of the Steppe}} DLC is installed for some cultures the Culture Head is the character who has the most {{iconify|Herd}} unless a ruler without {{iconify|Nomadic}} government has greater military strength.
+
+Culture Heads can choose an [[Innovation]] to become a Cultural Fascination, which will improve its discovery progress by {{green|+20%}}, with an additional {{green|+1%}} per cultural head skill that matches the innovation's. The cultural fascination can be changed at any time.
+
+Culture Heads can reform their culture by adding new [[traditions]] if empty tradition slots are available or replacing existing ones at additional cost. If the Royal Court DLC is enabled, all rulers can hybridize their culture with another provided they meet the criteria. Adding traditions and reforming a culture takes a number of years to come into effect, depending on the number of said culture's counties. AI Culture Heads may add traditions, but will not directly replace one tradition with another. If a culture head is of a monogamous faith with a spiritual head of faith, the culture head may be given the option to remove Concubinage or Polygamy from their culture at the request of the head of faith via event.
+
+== Cultural acceptance ==
+Cultural Acceptance determines how much {{iconify|Opinion}} penalty two cultures have towards each other. For every culture the culture with the highest Cultural Acceptance will be selected for Culture Spread, which increases the speed at which progress is gained towards an innovation the culture doesn't know but the other culture does by {{green|+40%}}. If the Royal Court DLC is enabled, it also determines whether two cultures of different heritage can create a hybrid culture. The baseline acceptance between two cultures will be the following:
+*{{green|+20}} if both cultures share the same heritage
+*{{green|+10}} if both cultures share the same language
+*{{green|+10}} if both cultures share the same [[Culture#Ethos|ethos]] and are located within the same geographic region
+*{{green|+5}} if most counties of both cultures share the same [[religion]]
+*{{green|+10}} if most counties of both cultures share the same [[faith]]
+*{{green|+5}} if most counties of both cultures have an [[Faith#List_of_eastern_faiths|eastern faith]]
+*{{green|+10}} if most counties of both cultures have pluralistic faiths and are located within the same geographic region
+
+== Cultural pillars ==
+Each culture has 5 cultural pillars: Heritage, Language, Aesthetics, Martial Custom and Ethos.
+* {{iconify|Heritage}} represents a culture's origin and prevents creating hybrid cultures if both cultures share it.
+* {{icon|language}} Language represents the language that all characters and counties of a culture speak, and determines the default birth names, as well as the title naming and what the culture's knights are called. If a character converts to a culture with a different language, they will instantly learn it.
+* [[File:Aesthetics.png|24px]] Aesthetics determine the naming practices as well as the appearance of architecture, armies, clothes and coat of arms.
+* {{icon|equal}} Martial Custom determines what genders can act as Commanders and Knights and requires the Royal Court DLC. Without it the faith's View on Gender doctrine determines it.
+
+===Ethos===
+Each culture will have an ethos, which represents the core values, principles and attitude towards life that the culture has. It also determines which [[Royal court#Court type|court types]] are available. In the Royal Court DLC, reforming a culture's ethos costs 20000 {{iconify|Prestige}}.
+{| class="mildtable plainlist"
+! rowspan="2" |Ethos
+! rowspan="2" |Characters effects
+! rowspan="2" |Holdings effects
+! colspan="5" |Available court types
+! rowspan="2" width="30%" |Description
+|-
+!Diplomatic
+!Warlike
+!Administrative
+!Intrigue
+!Scholarly
+|-
+|'''Bellicose'''<br>[[File:Ethos_bellicose.png|150px]]
+|
+*[[File:Mercenary.png|24px]] {{green|+50%}} Available Mercenary Companies
+*{{icon|prowess}} {{green|+2}} Prowess
+*{{icon|gold}} {{green|-10%}} Men-at-Arms Recruitment Cost
+*{{icon|gold}} {{green|-10.00%}} Men-at-Arms Maintenance
+*{{icon|herd}} {{green|+1.0%}} Herd Conversion into Horde Riders
+*[[File:Vassal stance minority.png|24px]] {{red|-10}} Minority Vassal Opinion
+|{{icon|levies}} {{green|+10%}} Levy Size
+|{{icon|no}}
+|{{icon|yes}}
+|{{icon|no}}
+|{{icon|yes}}
+|{{icon|no}}
+|''This culture considers conflict and violence to be necessary states of existence; ingrained in its people is the idea that one should stand up and fight for their own.''
+|-
+|'''Bureaucratic'''<br>[[File:Ethos_bureaucratic.png|150px]]
+|
+*{{icon|rtp}} Kings can adopt Administrative government
+*[[File:Focus invalid.png|24px]] {{green|+10%}} Monthly Lifestyle Experience
+*{{icon|innovation}} {{green|+5%}} Cultural Fascination Progress
+*[[File:Vassal stance minority.png|24px]] {{red|-10}} Minority Vassal Opinion
+|{{icon|development}} {{green|+15.0%}} Development Growth
+|{{icon|no}}
+|{{icon|yes}}
+|{{icon|yes}}
+|{{icon|no}}
+|{{icon|no}}
+|''No culture lasts longer than its oldest record, and this culture believes in accounting so meticulous as to guarantee immortality.''
+|-
+|'''Ceremonious'''<br>[[File:Ethos_courtly.png|150px]]
+|
+*{{icon|prestige}} {{green|+10%}} Monthly Prestige
+*{{icon|gold}} {{green|-15%}} Title Creation Cost
+*{{icon|opinion}} {{green|+5}} House Opinion
+*{{icon|grandeur}} {{green|+5}} Court Grandeur
+*[[File:Vassal stance minority.png|24px]] {{red|-10}} Minority Vassal Opinion
+|
+|{{icon|yes}}
+|{{icon|no}}
+|{{icon|no}}
+|{{icon|no}}
+|{{icon|yes}}
+|''The ceremony of court life is so integral to this culture that it forms a core part of people's social behavior. A place for everyone, and everyone in their place.''
+|-
+|'''Communal'''<br>[[File:Ethos_communal.png|150px]]
+|
+*{{icon|gold}} {{green|-15%}} Same Culture Mercenary Hire Cost
+*{{icon|opinion}} {{green|+5}} Close Family Opinion
+*{{icon|county fertility}} {{green|+5%}} County Fertility Growth
+*[[File:Vassal stance minority.png|24px]] {{red|-10}} Minority Vassal Opinion
+|
+*{{icon|time}} {{green|-10%}} Building Construction Time
+*{{icon|gold}} {{green|-5%}} Building Construction Cost
+|{{icon|no}}
+|{{icon|no}}
+|{{icon|yes}}
+|{{icon|yes}}
+|{{icon|no}}
+|''This culture values the bonds of community above all else, fostering great loyalty and dedication by working together towards common goals.''
+|-
+|'''Egalitarian'''<br>[[File:Ethos_egalitarian.png|150px]]
+|
+* {{icon|opinion}} {{green|+35%}} Cultural Acceptance Gain
+* {{icon|vassal}} {{green|+10}} Vassal Limit
+* {{icon|gold}} {{green|+10%}} Tributary Taxes
+* {{icon|opinion}} {{green|+5}} Different Culture Opinion
+* {{icon|opinion}} {{green|+5}} Different Faith Opinion
+* {{icon|opinion}} {{green|+15}} Tributary Opinion
+|
+|{{icon|yes}}
+|{{icon|no}}
+|{{icon|yes}}
+|{{icon|no}}
+|{{icon|no}}
+|''Intolerance and isolationism may be the way for others, but this culture recognizes that accepting difference is far better than annihilating it.''
+|-
+|'''Spiritual'''<br>[[File:Ethos_spiritual.png|150px]]
+|
+*{{icon|kos}} Additional bonuses from Consult the Skies decision modifiers
+*{{icon|kos}} {{green|+10}} Stargazer Aptitude
+*{{icon|piety}} {{green|+10%}} Monthly Piety
+*{{icon|herd}} {{green|+5%}} Herd Capacity
+*{{icon|control}} {{green|+15%}} Control Growth
+*{{icon|piety}} {{green|-20%}} Faith Creation and Reformation Cost
+*[[File:Vassal stance minority.png|24px]] {{red|-10}} Minority Vassal Opinion
+|
+|{{icon|no}}
+|{{icon|no}}
+|{{icon|yes}}
+|{{icon|no}}
+|{{icon|yes}}
+|''While some cultures turn to war and others to worldly knowledge, this culture places its trust in the only constant throughout its history - the divine. Spirituality is the only way forward in a harsh and uncaring world.''
+|-
+|'''Stoic'''<br>[[File:Ethos_stoic.png|150px]]
+|
+*{{icon|health boost}} {{green|+0.25}} Health (Disease Resistance)
+*{{icon|stress gain}} {{green|-15%}} Stress Gain
+*{{icon|herd}} {{green|+4%}} Herd Gain
+*[[File:Death natural.png|24px]] {{green|-15%}} Friendly Fatal Casualties
+*[[File:Vassal stance minority.png|24px]] {{red|-10}} Minority Vassal Opinion
+|{{icon|advantage}} {{green|+5}} Defender Advantage
+|{{icon|yes}}
+|{{icon|yes}}
+|{{icon|no}}
+|{{icon|no}}
+|{{icon|no}}
+|''This culture believes in standing strong like a mountain, taking any and all hardships that life may throw at them and enduring them all with grim determination and an indomitable spirit.''
+|}
+
+== Traditions ==
+{{main|Traditions}}
+Each culture has several traditions, which represent the main customs of a culture and can grant various effects. A culture can have up to five traditions in the tribal era, with every additional era reached granting an additional slot for Traditions. 
+The base cost of adding a tradition is 2000 {{iconify|Prestige}}, which may be increased by the following:
+* {{red|+2000}} if the culture does not have one of the Tradition's preferred ethos.
+* {{red|+3000}} if the Tradition's optional requirement is not fulfilled. This does not apply to AI Culture Heads.
+
+In the Royal Court DLC replacing a tradition increases the final cost by {{red|+50%}} and the time it takes to establish it by {{red|+25%}}.
+
+The needed time to establish a tradition is dependent on the number of counties with that culture. The fewer counties the culture has, the faster it goes. The maximum time to establish a tradition is 30 years.
+
+Many traditions are mutually exclusive with other traditions. The only way to bypass this restriction is through hybridization with a culture that has the other tradition.
+
+== New cultures ==
+There are two ways through which a new culture can be formed, both of which cost {{iconify|Prestige}}.
+
+=== Hybrid cultures ===
+{{expansion|roc|kos}}
+Hybrid cultures gain all innovations known by either culture and will start with 100% Cultural Acceptance with both parents cultures. By default hybrid cultures will be given the name of their parent cultures connected by a hyphen, though some hybrids have custom names by default. Their default color will be a mix of the parent cultures' colors. There are three ways to create a hybrid culture:
+* If two cultures meet the Cultural Acceptance threshold and a ruler has counties of both cultures within their realm. Depending on game settings it might also require both cultures to be old enough. The hybrid culture can choose heritage, cultural pillars, traditions and aesthetics from either parent culture. The cost of creating a hybrid culture decreases based on the current Cultural Acceptance between the two parent cultures. The size of the hybrid culture will depend on how much Cultural Acceptance has been built when creating the hybrid culture. The Promote Culture steward task will have its efficiency increased for a few years in counties belonging to either parent culture.
+* If a ruler does not share the culture of their realm capital and the two cultures meet the requirements to create a hybrid culture is a 5% chance each year that the ruler will be given the option to create a hybrid culture. While it is free it does not allow its pillars or traditions to be customized and are chosen at random from the two parent cultures. The hybrid culture creation can be canceled and doing so will grant {{green|+5%}} Cultural Acceptance. This sort of hybridization cannot take place if either culture has the Staunch Traditionalists tradition.
+* Rulers with {{iconify|Nomadic}} government can create hybrid cultures via a decision but it does not allow its pillars or traditions to be customized and they are chosen at random from the two parent cultures.
+The base threshold for Cultural Acceptance is 40%, but this can be modified by several factors, including the [[Traditions]] of the two cultures, the {{Iconify|Way of the Nomad|link=Traits}} trait, and certain [[Struggle]] contexts.
+
+=== Divergent cultures ===
+{{expansion|roc}}
+Divergent cultures can be created at any point. Ethos can be freely changed. Language can be changed as long as a culture that has the target language as a pillar occupies at least 10% of the realm's counties, borders the character's culture, and has at least 25% acceptance of it (each condition can be met by a different culture that has the target language as a pillar). Martial Custom can be changed as long as the gender succession law favors the same gender. Aesthetics cannot be changed unless creating a culture divergence that took place historically. Traditions can be changed for a cost. The base cost of creating a divergent culture depends on how little of the original culture the ruler causing the divergence controls. Newly created divergent cultures gain a conversion bonus in counties of the original culture for 50 years.
+
+==List of cultures==
+Culture divergences that take place after the start date can be stopped by a player who controls 80% of the counties from the original culture.
+* Iberian architecture will have Mediterranean appearance and Iberian fashion will have Continental European appearance if the {{iconify|Fate of Iberia}} DLC is not installed.
+* Iranian architecture will have Arabic appearance, Iranian fashion will have Arabic appearance, and Turkic Fashion will have Mongolian appearance if the {{iconify|Legacy of Persia}} DLC is not installed.
+* Byzantine architecture will have Mediterranean appearance and Byzantine fashion will have Mediterranean appearance if the {{iconify|Roads to Power}} DLC is not installed. Constantinople will also use a unique appearance if the DLC is installed.
+{| class="mildtable sortable plainlist" style="text-align: center;"
+! {{iconify|Heritage}}
+! {{iconify|Culture}}
+! Ethos
+! Traditions
+! {{iconify|Language}}
+! Martial Custom
+! Architecture
+! Fashion
+! Coat of Arms
+! Military Equipment
+! Culture head
+|-
+| rowspan="2" |'''Ainuic'''
+! style="background-color:rgb(70,45,20); color: white" |Ainu
+|Spiritual<br>[[File:Ethos_spiritual.png|100px]]
+|
+*[[Forest Fighters]]<hr/>
+*[[Prolific Hunters]]<hr/>
+*[[Dexterous Fishermen]]<hr/>
+*[[Mystical Ancestors]]<hr/>
+*[[Wetlanders]]
+|Ainu
+|{{icon|male dominated}} Men Only
+|Eurasian Steppe<br>[[File:City western.png|140px]]
+|Ainu
+|Mongolian<br>[[File:House japan.png|50px]]
+|Japanese
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(185,122,87)" |Emishi
+|Stoic<br>[[File:Ethos_stoic.png|100px]]
+|
+*[[Forest Fighters]]<hr/>
+*[[Prolific Hunters]]<hr/>
+*[[Isolationist]]<hr/>
+*[[Sacred Hunts]]<hr/>
+*{{icon|auh}} [[Defiant Ambushers]]
+|Japonic
+|{{icon|male dominated}} Men Only
+|Japanese<br>[[File:City japan.png|140px]]
+|Ainu
+|Japanese<br>[[File:House japan.png|50px]]
+|Japanese
+|{{iconify|Counties}}
+|-
+| rowspan="3" |'''Akan'''
+! style="background-color:rgb(224,65,44)" |Akan
+|Egalitarian<br>[[File:Ethos_egalitarian.png|100px]]
+|
+*[[Bush Hunting]]<hr/>
+*[[Matriarchal]]<hr/>
+*[[Mystical Ancestors]]<hr/>
+*[[Parochialism]]
+|Kwa
+|{{icon|equal}} Equal
+|African<br>[[File:City mena.png|140px]]
+|African
+|West African<br>[[File:House frame 29.png|50px]]
+|Sub-Saharan African
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(178,95,80)" |Guan
+|Communal<br>[[File:Ethos_communal.png|100px]]
+|
+*[[Bush Hunting]]<hr/>
+*[[Dryland Dwellers]]<hr/>
+*[[Frequent Festivities]]<hr/>
+*[[Strong Believers]]
+|Kwa
+|{{icon|equal}} Equal
+|African<br>[[File:City mena.png|140px]]
+|African
+|West African<br>[[File:House frame 29.png|50px]]
+|Sub-Saharan African
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(178,23,8)" |Kru
+|Stoic<br>[[File:Ethos_stoic.png|100px]]
+|
+*[[Bush Hunting]]<hr/>
+*[[Dexterous Fishermen]]<hr/>
+*[[Practiced Pirates]]
+|Kru
+|{{icon|male dominated}} Men Only
+|African<br>[[File:City mena.png|140px]]
+|African
+|West African<br>[[File:House frame 29.png|50px]]
+|Sub-Saharan African
+|{{iconify|Counties}}
+|-
+|'''Albanian'''
+! style="background-color:rgb(80%,75%,83%)" |Albanian
+|Communal<br>[[File:Ethos_communal.png|100px]]
+|
+*[[Hill Defenders]]<hr/>
+*[[Marital Ceremonies]]<hr/>
+*[[Swords for Hire]]<hr/>
+*{{icon|roc}} [[Staunch Traditionalists]]
+|Albanian
+|{{icon|male dominated}} Men Only
+|Mediterranean<br>[[File:City mediterranean.png|140px]]
+|Byzantine
+|South Slavic<br>[[File:House frame 02.png|50px]]
+|Eastern European
+|{{iconify|Counties}}
+|-
+| rowspan="5" |'''Arabic'''
+! style="background-color:rgb(10%,75%,10%)" |Bedouin
+|Stoic<br>[[File:Ethos_stoic.png|100px]]
+|
+*[[Caravaneers]]<hr/>
+*[[Desert Travelers]]<hr/>
+*[[Mubarizun]]<hr/>
+*[[Tribal Unity]]<hr/>
+*{{icon|tnt}} [[Avid Falconers]]
+|Arabic
+|{{icon|male dominated}} Men Only
+|Arabic<br>[[File:City mena.png|140px]]
+|Abbasid
+|Arabic<br>[[File:House frame 13.png|50px]]
+|Arabic
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(10%,60%,10%)" |Egyptian
+|Spiritual<br>[[File:Ethos_spiritual.png|100px]]
+|
+*[[Agrarian]]<hr/>
+*[[Mubarizun]]<hr/>
+*[[Philosopher Culture]]<hr/>
+*[[Strong Believers]]
+|Arabic
+|{{icon|male dominated}} Men Only
+|Arabic<br>[[File:City mena.png|140px]]
+|Abbasid
+|Arabic<br>[[File:House frame 10.png|50px]]
+|Arabic
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(10%,60%,10%)" |Maghrebi
+|Spiritual<br>[[File:Ethos_spiritual.png|100px]]
+|
+*[[African Tolerance]]<hr/>
+*[[Dexterous Fishermen]]<hr/>
+*[[Dryland Dwellers]]<hr/>
+*[[Mubarizun]]<hr/>
+*[[Water Rituals]]
+|Arabic
+|{{icon|male dominated}} Men Only
+|Arabic<br>[[File:City mena.png|140px]]
+|Berber
+|Arabic<br>[[File:House frame 10.png|50px]]
+|Arabic
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(30%,95%,30%)" |Mashriqi
+|Spiritual<br>[[File:Ethos_spiritual.png|100px]]
+|
+*[[Dryland Dwellers]]<hr/>
+*[[Medicinal Herbalists]]<hr/>
+*[[Mubarizun]]<hr/>
+*[[Philosopher Culture]]<hr/>
+*[[Water Rituals]]
+|Arabic
+|{{icon|male dominated}} Men Only
+|Arabic<br>[[File:City mena.png|140px]]
+|Abbasid
+|Arabic<br>[[File:House frame 13.png|50px]]
+|Arabic
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(20%,60%,20%)" |Yemeni
+|Communal<br>[[File:Ethos_communal.png|100px]]
+|
+*[[Maritime Mercantilism]]<hr/>
+*[[Mountain Herding]]<hr/>
+*[[Mountaineers]]<hr/>
+*[[Religion Blending]]
+|Arabic
+|{{icon|male dominated}} Men Only
+|Arabic<br>[[File:City mena.png|140px]]
+|Abbasid
+|Arabic<br>[[File:House frame 13.png|50px]]
+|Arabic
+|{{iconify|Counties}}
+|-
+| rowspan="15" |'''Austronesian'''
+! style="background-color:rgb(60%,40%,30%)" |Acehnese
+|Spiritual<br>[[File:Ethos_spiritual.png|100px]]
+|
+*[[Xenophilic]]<hr/>
+*[[Seafarers]] / {{icon|auh}} [[Maritime Way of Life]]<hr/>
+*{{icon|roc}} [[Culture Blending]]<hr/>
+*{{icon|auh}} [[Esoteric Power]]
+|Chamic
+|{{icon|male dominated}} Men Only
+|Southeast Asian<br>[[File:City se asia.png|140px]]
+|Malay
+|Burman<br>[[File:House frame 30.png|50px]]
+|Southeast Asian
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(30%,50%,30%)" |Amis
+|Communal<br>[[File:Ethos_communal.png|100px]]
+|
+*[[Dexterous Fishermen]]<hr/>
+*[[Mystical Ancestors]]<hr/>
+*[[Seafarers]] / {{icon|auh}} [[Maritime Way of Life]]
+|Austronesian
+|{{icon|male dominated}} Men Only
+|Southeast Asian<br>[[File:City se asia.png|140px]]
+|Malay
+|Burman<br>[[File:House frame 26.png|50px]]
+|Southeast Asian
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(90%,10%,30%)" |Bisayan
+|Bellicose<br>[[File:Ethos_bellicose.png|100px]]
+|
+*[[Mystical Ancestors]]<hr/>
+*[[Seafarers]] / {{icon|auh}} [[Maritime Way of Life]]<hr/>
+*{{icon|auh}} [[Barangay Confederations]]
+|Austronesian
+|{{icon|male dominated}} Men Only
+|Southeast Asian<br>[[File:City se asia.png|140px]]
+|Malay
+|Burman<br>[[File:House frame 26.png|50px]]
+|Southeast Asian
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(0,105,146)" |Bugis
+|Bellicose<br>[[File:Ethos_bellicose.png|100px]]
+|
+*[[Philosopher Culture]]<hr/>
+*[[Warrior Culture]]<hr/>
+*[[Seafarers]] / {{icon|auh}} [[Maritime Way of Life]]<hr/>
+|Austronesian
+|{{icon|male dominated}} Men Only
+|Southeast Asian<br>[[File:City se asia.png|140px]]
+|Malay
+|Burman<br>[[File:House frame 26.png|50px]]
+|Southeast Asian
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(112,36,228); color: white" |Cham
+|Ceremonious<br>[[File:Ethos_courtly.png|100px]]
+|
+*[[Dexterous Fishermen]]<hr/>
+*[[Frequent Festivities]]<hr/>
+*[[Maritime Mercantilism]]<hr/>
+*[[Religion Blending]]<hr/>
+*[[Xenophilic]] / {{icon|auh}} [[Religious Hospitality]]
+|Chamic
+|{{icon|male dominated}} Men Only
+|Southeast Asian<br>[[File:City se asia.png|140px]]
+|Southeast Asian
+|Burman<br>[[File:House frame 26.png|50px]]
+|Southeast Asian
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(20%,40%,90%)" |Dayak
+|Spiritual<br>[[File:Ethos_spiritual.png|100px]]
+|
+*[[Jungle Dwellers]]<hr/>
+*[[Jungle Warriors]]<hr/>
+*{{icon|roc}} [[Expert Artisans]]
+|Austronesian
+|{{icon|male dominated}} Men Only
+|Southeast Asian<br>[[File:City se asia.png|140px]]
+|Malay
+|Burman<br>[[File:House frame 26.png|50px]]
+|Southeast Asian
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(80%,40%,0%)" |Iloko
+|Stoic<br>[[File:Ethos_stoic.png|100px]]
+|
+*[[Hill Dwellers]]<hr/>
+*[[Agrarian]] / {{icon|auh}} [[Rice Cultivators]]
+*{{icon|auh}} [[Barangay Confederations]]
+|Austronesian
+|{{icon|male dominated}} Men Only
+|Southeast Asian<br>[[File:City se asia.png|140px]]
+|Malay
+|Burman<br>[[File:House frame 26.png|50px]]
+|Southeast Asian
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(90%,25%,0%)" |Javanese
+|Ceremonious<br>[[File:Ethos_courtly.png|100px]]
+|
+*[[Mystical Ancestors]]<hr/>
+*[[Sacred Mountains]]<hr/>
+*[[Seafarers]] / {{icon|auh}} [[Maritime Way of Life]]<hr/>
+*{{icon|auh}} [[Esoteric Power]]<hr/>
+*{{icon|auh}} [[Hydraulic Builders]]
+|Austronesian
+|{{icon|male dominated}} Men Only
+|Southeast Asian<br>[[File:City se asia.png|140px]]
+|Malay
+|Burman<br>[[File:House frame 30.png|50px]]
+|Southeast Asian
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(80%,40%,0%)" |Malay
+|Ceremonious<br>[[File:Ethos_courtly.png|100px]]
+|
+*[[Maritime Mercantilism]]<hr/>
+*[[Xenophilic]]<hr/>
+*{{icon|roc}} [[Sorcerous Metallurgy]]<hr/>
+*[[Seafarers]] / {{icon|auh}} [[Maritime Way of Life]]<hr/>
+*{{icon|auh}} [[Esoteric Power]]
+|Austronesian
+|{{icon|male dominated}} Men Only
+|Southeast Asian<br>[[File:City se asia.png|140px]]
+|Malay
+|Burman<br>[[File:House frame 30.png|50px]]
+|Southeast Asian
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(30%,75%,60%)" |Moluccan
+|Communal<br>[[File:Ethos_communal.png|100px]]
+|
+*[[Maritime Mercantilism]]<hr/>
+*[[Seafarers]] / {{icon|auh}} [[Maritime Way of Life]]
+|Austronesian
+|{{icon|male dominated}} Men Only
+|Southeast Asian<br>[[File:City se asia.png|140px]]
+|Malay
+|Burman<br>[[File:House frame 26.png|50px]]
+|Southeast Asian
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(115,230,232)" |Nakkavaram
+|Stoic<br>[[File:Ethos_stoic.png|100px]]
+|
+*[[Isolationist]]<hr/>
+*[[Nudists]]<hr/>
+*[[Stalwart Defenders]]
+|Austronesian
+|{{icon|male dominated}} Men Only
+|Indian<br>[[File:City india.png|140px]]
+|Malay
+|Burman<br>[[File:House frame 30.png|50px]]
+|Southeast Asian
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(85%,45%,10%)" |Papuan
+|Communal<br>[[File:Ethos_communal.png|100px]]
+|
+*[[Isolationist]]<hr/>
+*[[Medicinal Herbalists]]<hr/>
+*[[Nudists]]<hr/>
+*{{icon|roc}} [[Culture Blending]]
+|Papuan
+|{{icon|male dominated}} Men Only
+|Southeast Asian<br>[[File:City se asia.png|140px]]
+|Papuan
+|Burman<br>[[File:House frame 26.png|50px]]
+|Southeast Asian
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(60%,80%,20%)" |Senoy
+|Communal<br>[[File:Ethos_communal.png|100px]]
+|
+*[[Charismatic]]<hr/>
+*[[Isolationist]]<hr/>
+*[[Jungle Dwellers]]<hr/>
+*[[Pacifists]]
+|Asli
+|{{icon|male dominated}} Men Only
+|Southeast Asian<br>[[File:City se asia.png|140px]]
+|Malay
+|Burman<br>[[File:House frame 30.png|50px]]
+|Southeast Asian
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(40%,30%,70%)" |Tagalog
+|Stoic<br>[[File:Ethos_stoic.png|100px]]
+|
+*[[Loyal Subjects]]<hr/>
+*[[Seafarers]] / {{icon|auh}} [[Maritime Way of Life]]<hr/>
+*{{icon|auh}} [[Barangay Confederations]]
+|Austronesian
+|{{icon|male dominated}} Men Only
+|Southeast Asian<br>[[File:City se asia.png|140px]]
+|Malay
+|Burman<br>[[File:House frame 26.png|50px]]
+|Southeast Asian
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(0,105,146)" |Toraja
+|Communal<br>[[File:Ethos_communal.png|100px]]
+|
+*[[Hill Dwellers]]<hr/>
+*{{icon|roc}} [[Culture Blending]]<hr/>
+*[[Seafarers]] / {{icon|auh}} [[Maritime Way of Life]]
+|Austronesian
+|{{icon|male dominated}} Men Only
+|Southeast Asian<br>[[File:City se asia.png|140px]]
+|Malay
+|Burman<br>[[File:House frame 26.png|50px]]
+|Southeast Asian
+|{{iconify|Counties}}
+|-
+| rowspan="3" |'''Baltic'''
+! style="background-color:rgb(50%,50%,10%)" |Latgalian
+|Stoic<br>[[File:Ethos_stoic.png|100px]]
+|
+*[[Forest Wardens]]<hr/>
+*[[Sacred Groves]]<hr/>
+*{{icon|roc}} [[Staunch Traditionalists]]
+|Baltic
+|{{icon|male dominated}} Men Only
+|Continental European<br>[[File:City western.png|140px]]
+|Northern European
+|Baltic<br>[[File:House frame 21.png|50px]]
+|Northern European
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(56%,55%,20%)" |Lithuanian
+|Bellicose<br>[[File:Ethos_bellicose.png|100px]]
+|
+*[[Forest Wardens]]<hr/>
+*[[Hit-and-Run Tacticians]]<hr/>
+*[[Sacred Groves]]<hr/>
+*[[Strong Believers]]
+|Baltic
+|{{icon|male dominated}} Men Only
+|Continental European<br>[[File:City western.png|140px]]
+|Northern European
+|Baltic<br>[[File:House frame 21.png|50px]]
+|Northern European
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(56%,55%,40%)" |Prussian
+|Bureaucratic<br>[[File:Ethos_bureaucratic.png|100px]]
+|
+*[[Charismatic]]<hr/>
+*[[Equitable]]<hr/>
+*[[Forest Wardens]]<hr/>
+*[[Sacred Groves]]
+|Baltic
+|{{icon|male dominated}} Men Only
+|Continental European<br>[[File:City western.png|140px]]
+|Northern European
+|Baltic<br>[[File:House frame 21.png|50px]]
+|Northern European
+|{{iconify|Counties}}
+|-
+| rowspan="5" |'''Balto-Finnic'''
+! style="background-color:rgb(30%,70%,70%)" |Estonian
+|Bellicose<br>[[File:Ethos_bellicose.png|100px]]
+|
+*[[Musical Theorists]]<hr/>
+*[[Hirds]] / {{icon|nrl}} [[Coastal Warriors]]<hr/>
+*{{icon|roc}} [[Staunch Traditionalists]]
+|Finnic
+|{{icon|male dominated}} Men Only
+|Continental European<br>[[File:City western.png|140px]]
+|Northern European
+|Balto-Finnic<br>[[File:House frame 21.png|50px]]
+|Northern European
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(10%,60%,60%)" |Finnish
+|Stoic<br>[[File:Ethos_stoic.png|100px]]
+|
+*[[Dexterous Fishermen]]<hr/>
+*[[Forest Wardens]]<hr/>
+*[[Isolationist]]
+|Finnic
+|{{icon|male dominated}} Men Only
+|Continental European<br>[[File:City western.png|140px]]
+|Northern European
+|Balto-Finnic<br>[[File:House frame 21.png|50px]]
+|Northern European
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(15%,85%,85%)" | Karelian
+|Stoic<br>[[File:Ethos_stoic.png|100px]]
+|
+*[[Forest Wardens]]<hr/>
+*[[Stalwart Defenders]]<hr/>
+*[[Swords for Hire]]
+|Finnic
+|{{icon|male dominated}} Men Only
+|Continental European<br>[[File:City western.png|140px]]
+|Sami
+|Balto-Finnic<br>[[File:House frame 05.png|50px]]
+|Northern European
+|{{iconify|Herd}}
+|-
+! style="background-color:rgb(40%,75%,85%)" |Sami
+|Communal<br>[[File:Ethos_communal.png|100px]]
+|
+*[[Adaptive Skirmishers]]<hr/>
+*[[Forest Wardens]]<hr/>
+*[[Winter Warriors]]
+|Sami
+|{{icon|male dominated}} Men Only
+|Continental European<br>[[File:City western.png|140px]]
+|Sami
+|Sami<br>[[File:House frame 05.png|50px]]
+|Northern European
+|{{iconify|Herd}}
+|-
+! style="background-color:rgb(30%,80%,70%)" | Vepsian
+|Egalitarian<br>[[File:Ethos_egalitarian.png|100px]]
+|
+*[[Isolationist]]<hr/>
+*[[Xenophilic]]
+|Finnic
+|{{icon|male dominated}} Men Only
+|Continental European<br>[[File:City western.png|140px]]
+|Ugro-Permian
+|Balto-Finnic<br>[[File:House frame 05.png|50px]]
+|Northern European
+|{{iconify|Counties}}
+|-
+|rowspan="2" |'''Bantu'''
+! style="background-color:rgb(60%,50%,70%)" | East Bantu
+|Stoic<br>[[File:Ethos_stoic.png|100px]]
+|
+*[[Adaptive Skirmishers]]<hr/>
+*[[Dryland Dwellers]]<hr/>
+*[[Hit-and-Run Tacticians]]<hr/>
+*[[Religion Blending]]
+|Sabaki
+|{{icon|male dominated}} Men Only
+|African<br>[[File:City mena.png|140px]]
+|African
+|East African<br>[[File:House frame 07.png|50px]]
+|Arabic
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(30%,90%,80%)" | Swahili
+|Egalitarian<br>[[File:Ethos_egalitarian.png|100px]]
+|
+*[[Linguists]]<hr/>
+*[[Maritime Mercantilism]]<hr/>
+*[[Storytellers]]
+|Sabaki
+|{{icon|male dominated}} Men Only
+|African<br>[[File:City mena.png|140px]]
+|African
+|East African<br>[[File:House frame 07.png|50px]]
+|Arabic
+|{{iconify|Counties}}
+|-
+| rowspan="4" |'''Berber'''
+! style="background-color:rgb(160,66,0)" |Baranis
+|Spiritual<br>[[File:Ethos_spiritual.png|100px]]
+|
+*[[African Tolerance]]<hr/>
+*[[Family Business]]<hr/>
+*[[Mountain Herding]]
+|Berber
+|{{icon|male dominated}} Men Only
+|Berber<br>[[File:City mena.png|140px]]
+|Berber
+|Berber<br>[[File:House frame 06.png|50px]]
+|Arabic
+|{{iconify|Herd}}
+|-
+! style="background-color:rgb(160,90,40)" |Butr
+|Stoic<br>[[File:Ethos_stoic.png|100px]]
+|
+*[[African Tolerance]]<hr/>
+*[[Desert Ribats]]<hr/>
+*[[Equal Inheritance]]<hr/>
+*[[Saharan Nomads]]
+|Berber
+|{{icon|male dominated}} Men Only
+|Berber<br>[[File:City mena.png|140px]]
+|Berber
+|Berber<br>[[File:House frame 06.png|50px]]
+|Arabic
+|{{iconify|Herd}}
+|-
+! style="background-color:rgb(181,87,67)" |Guanche
+|Stoic<br>[[File:Ethos_stoic.png|100px]]
+|
+*[[Isolationist]]<hr/>
+*[[Mystical Ancestors]]<hr/>
+*[[Stalwart Defenders]]
+|Berber
+|{{icon|male dominated}} Men Only
+|Berber<br>[[File:City mena.png|140px]]
+|African
+|West African<br>[[File:House frame 06.png|50px]]
+|Arabic
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(160,64,16)" |Zaghawa
+|Egalitarian<br>[[File:Ethos_egalitarian.png|100px]]
+|
+*[[African Tolerance]]<hr/>
+*[[Desert Ribats]]<hr/>
+*[[Saharan Nomads]]
+|Tubu
+|{{icon|male dominated}} Men Only
+|Berber<br>[[File:City mena.png|140px]]
+|Berber
+|Berber<br>[[File:House frame 06.png|50px]]
+|Arabic
+|{{iconify|Herd}}
+|-
+| rowspan="5" |'''Brythonic'''
+! style="background-color:rgb(114,77,193)" |Breton
+| Communal<br>[[File:Ethos_communal.png|100px]]
+|
+*[[Chanson de Geste]]<hr/>
+*[[Dexterous Fishermen]]<hr/>
+*[[Storytellers]]<hr/>
+*[[Swords for Hire]]
+|Brythonic
+|{{icon|male dominated}} Men Only
+|Continental European<br>[[File:City western.png|140px]]
+|Continental European
+|Breton<br>[[File:House frame 24.png|50px]]
+|Continental European
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(108,73,183)" |Cornish
+|Communal<br>[[File:Ethos_communal.png|100px]]
+|
+*[[Ancient Miners]]<hr/>
+*[[Dexterous Fishermen]]<hr/>
+*[[Storytellers]]
+|Brythonic
+|{{icon|male dominated}} Men Only
+|Continental European<br>[[File:City western.png|140px]]
+|Continental European
+|Welsh<br>[[File:House frame 24.png|50px]]
+|Continental European
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(73,91,183)" |Cumbrian
+|Stoic<br>[[File:Ethos_stoic.png|100px]]
+|
+*[[Concubines]]<hr/>
+*[[Highland Warriors]]<hr/>
+*[[Refined Poetry]]<hr/>
+*[[Stalwart Defenders]]
+|Brythonic
+|{{icon|male dominated}} Men Only
+|Continental European<br>[[File:City western.png|140px]]
+|Continental European
+|Scottish<br>[[File:House frame 24.png|50px]]
+|Continental European
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(0,94,183)" |Pictish
+|Bellicose<br>[[File:Ethos_bellicose.png|100px]]
+|
+*[[Concubines]]<hr/>
+*[[Highland Warriors]]<hr/>
+*[[Hill Dwellers]]<hr/>
+*[[Refined Poetry]]
+|Brythonic
+|{{icon|male dominated}} Men Only
+|Continental European<br>[[File:City western.png|140px]]
+|Northern European<br>Continental European
+|Scottish<br>[[File:House frame 24.png|50px]]
+|Continental European
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(82,73,183)" |Welsh
+|Stoic<br>[[File:Ethos_stoic.png|100px]]
+|
+*[[Concubines]]<hr/>
+*[[Highland Warriors]]<hr/>
+*[[Longbow Competitions]]<hr/>
+*[[Refined Poetry]]
+|Brythonic
+|{{icon|male dominated}} Men Only
+|Continental European<br>[[File:City western.png|140px]]
+|Continental European
+|Welsh<br>[[File:House frame 24.png|50px]]
+|Continental European
+|{{iconify|Counties}}
+|-
+| rowspan="3" |'''Burman'''
+! style="background-color:rgb(35%,60%,45%)" |Burmese
+|'''Bellicose'''<br>[[File:Ethos_bellicose.png|150px]]
+|
+*[[Agrarian]]<hr/>
+*[[Fervent Temple Builders]]<hr/>
+*[[Royal Army]]<hr/>
+*[[Castle Keepers]] / {{icon|auh}} [[Fortified Strongholds]]<hr/>
+*{{icon|auh}} [[Hydraulic Builders]]
+|Burmese
+|{{icon|male dominated}} Men Only
+|Indian<br>[[File:City india.png|140px]]
+|Malay
+|Burman<br>[[File:House frame 18.png|50px]]
+|Southeast Asian
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(15%,30%,50%)" |Kachin
+|Communal<br>[[File:Ethos_communal.png|100px]]
+|
+*[[Sacred Groves]]<hr/>
+*[[Storytellers]]<hr/>
+*[[Agrarian]] / {{icon|auh}} [[Rice Cultivators]]
+|Burmese
+|{{icon|male dominated}} Men Only
+|Southeast Asian<br>[[File:City se asia.png|140px]]
+|Southeast Asian
+|Burman<br>[[File:House frame 18.png|50px]]
+|Southeast Asian
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(10%,40%,20%)" |Karen
+|Spiritual<br>[[File:Ethos_spiritual.png|100px]]
+|
+*[[Jungle Warriors]]<hr/>
+*[[Medicinal Herbalists]]<hr/>
+*[[Religion Blending]]
+|Burmese
+|{{icon|male dominated}} Men Only
+|Southeast Asian<br>[[File:City se asia.png|140px]]
+|Southeast Asian
+|Burman<br>[[File:House frame 18.png|50px]]
+|Southeast Asian
+|{{iconify|Counties}}
+|-
+| rowspan="3" |'''Buyeo'''
+! style="background-color:rgb(35%,63%,45%)" |Baekje
+|Spiritual<br>[[File:Ethos_spiritual.png|100px]]
+|
+*[[Astute Diplomats]]<hr/>
+*[[Maritime Mercantilism]]<hr/>
+*[[Religious Patronage]]<hr/>
+*{{icon|auh}} [[Sinophilic]]<hr/>
+*{{icon|auh}} [[Stratified Society]]
+|Koreanic
+|{{icon|male dominated}} Men Only
+|Chinese<br>[[File:City china.png|140px]]
+|Korean
+|Chinese<br>[[File:House frame 09.png|50px]]
+|Chinese
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(30%,0%,30%); color: white" |Balhae
+|Ceremonious<br>[[File:Ethos_courtly.png|100px]]
+|
+*[[Castle Keepers]]<hr/>
+*[[Warriors by Merit]]<hr/>
+*{{icon|roc}} [[Culture Blending]]<hr/>
+*{{icon|auh}} [[Cultural Primacy]]<hr/>
+*{{icon|auh}} [[Sinophilic]]
+|Tungusic
+|{{icon|male dominated}} Men Only
+|Chinese<br>[[File:City china.png|140px]]
+|Korean
+|Chinese<br>[[File:House frame 09.png|50px]]
+|Chinese
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(22%,33%,75%)" |Goguryeo
+|Bellicose<br>[[File:Ethos_bellicose.png|100px]]
+|
+*[[Castle Keepers]]<hr/>
+*[[Martial Admiration]]<hr/>
+*[[Warriors by Merit]]<hr/>
+*{{icon|auh}} [[Cultural Primacy]]<hr/>
+*{{icon|auh}} [[Sinophilic]]
+|Koreanic
+|{{icon|male dominated}} Men Only
+|Chinese<br>[[File:City china.png|140px]]
+|Korean
+|Chinese<br>[[File:House frame 09.png|50px]]
+|Chinese
+|{{iconify|Counties}}
+|-
+| rowspan="2" |'''Caucasian'''
+! style="background-color:rgb(179,9,9); color: white" |Armenian
+|Stoic<br>[[File:Ethos_stoic.png|100px]]
+|
+*[[Fervent Temple Builders]]<hr/>
+*[[Highland Warriors]]<hr/>
+*[[Hill Dwellers]]<hr/>
+*[[Strong Believers]]<hr/>
+*[[Eastern Roman Legacy]] / {{icon|rtp}} [[Indomitable Azatani]]
+|Armenian
+|{{icon|male dominated}} Men Only
+|Byzantine<br>[[File:City byzantine.png|140px]]
+|Byzantine
+|Byzantine<br>[[File:House frame 02.png|50px]]
+|Eastern European
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(224,45,45)" |Georgian
+|Communal<br>[[File:Ethos_communal.png|100px]]
+|
+*[[Castle Keepers]]<hr/>
+*[[Caucasian Wolves]]<hr/>
+*[[Hereditary Hierarchy]]<hr/>
+*[[Metalworkers]]
+|Georgian
+|{{icon|male dominated}} Men Only
+|Byzantine<br>[[File:City byzantine.png|140px]]
+|Byzantine
+|Byzantine<br>[[File:House frame 02.png|50px]]
+|Eastern European
+|{{iconify|Counties}}
+|-
+| rowspan="4" |'''Central African'''
+! style="background-color:rgb(178,0,32)" |Hausa
+|Egalitarian<br>[[File:Ethos_egalitarian.png|100px]]
+|
+*[[Caravaneers]]<hr/>
+*[[Family Business]]<hr/>
+*[[Parochialism]]
+|Chadic
+|{{icon|equal}} Equal
+|African<br>[[File:City mena.png|140px]]
+|African
+|Central African<br>[[File:House frame 20.png|50px]]
+|Sub-Saharan African
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(178,35,78)" |Kanuri
+|Bellicose<br>[[File:Ethos_bellicose.png|100px]]
+|
+*[[Hit-and-Run Tacticians]]<hr/>
+*[[Quarrelsome]]
+|Tubu
+|{{icon|male dominated}} Men Only
+|African<br>[[File:City mena.png|140px]]
+|African
+|Central African<br>[[File:House frame 20.png|50px]]
+|Sub-Saharan African
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(178,116,134)" |Nupe
+|Bellicose<br>[[File:Ethos_bellicose.png|100px]]
+| 
+*[[Musical Theorists]]<hr/>
+*[[Parochialism]]
+|East Kwa
+|{{icon|male dominated}} Men Only
+|African<br>[[File:City mena.png|140px]]
+|African
+|Central African<br>[[File:House frame 20.png|50px]]
+|Sub-Saharan African
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(76,30,44); color: white" |Sao
+|Stoic<br>[[File:Ethos_stoic.png|100px]]
+|
+*[[Agrarian]]<hr/>
+*[[City Keepers]]<hr/>
+*[[Dryland Dwellers]]<hr/>
+*[[Parochialism]]
+|Chadic
+|{{icon|male dominated}} Men Only
+|African<br>[[File:City mena.png|140px]]
+|African
+|Central African<br>[[File:House frame 20.png|50px]]
+|Sub-Saharan African
+|{{iconify|Counties}}
+|-
+| rowspan="8" |'''Central Germanic'''
+! style="background-color:rgb(30%,30%,35%)" |Bavarian
+|Spiritual<br>[[File:Ethos_spiritual.png|100px]]
+|
+*[[Hereditary Hierarchy]]<hr/>
+*[[Stand and Fight!]]<hr/>
+*[[Strong Believers]]
+|High German
+|{{icon|male dominated}} Men Only
+|Continental European<br>[[File:City western.png|140px]]
+|Holy Roman Imperial
+|German<br>[[File:House frame 25.png|50px]]
+|Continental European
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(80%,59%,40%)" |Dutch
+|Bureaucratic<br>[[File:Ethos_bureaucratic.png|100px]]
+|
+*[[Agrarian]]<hr/>
+*[[Maritime Mercantilism]]<hr/>
+*[[Parochialism]]<hr/>
+*[[Polders]]
+|Dutch
+|{{icon|male dominated}} Men Only
+|Continental European<br>[[File:City western.png|140px]]
+|Holy Roman Imperial
+|Frisian<br>[[File:House frame 25.png|50px]]
+|Continental European
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(50%,50%,50%)" |Franconian
+|Ceremonious<br>[[File:Ethos_courtly.png|100px]]
+|
+*[[Astute Diplomats]]<hr/>
+*[[Castle Keepers]]<hr/>
+*[[Hereditary Hierarchy]]
+|High German
+|{{icon|male dominated}} Men Only
+|Continental European<br>[[File:City western.png|140px]]
+|Holy Roman Imperial
+|German<br>[[File:House frame 25.png|50px]]
+|Continental European
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(70%,30%,0%)" |Frisian
+|Stoic<br>[[File:Ethos_stoic.png|100px]]
+|
+*[[Battlefield Looters]]<hr/>
+*[[Dexterous Fishermen]]<hr/>
+*[[Strong Believers]]
+|Anglic
+|{{icon|male dominated}} Men Only
+|Continental European<br>[[File:City western.png|140px]]
+|Holy Roman Imperial
+|Frisian<br>[[File:House frame 25.png|50px]]
+|Continental European
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(50%,50%,50%)" |German
+|Stoic<br>[[File:Ethos_stoic.png|100px]]
+|
+*[[Astute Diplomats]]<hr/>
+*[[Hereditary Hierarchy]]<hr/>
+*[[Stand and Fight!]]
+|High German
+|{{icon|male dominated}} Men Only
+|Continental European<br>[[File:City western.png|140px]]
+|Holy Roman Imperial
+|German<br>[[File:House frame 25.png|50px]]
+|Continental European
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(80%,80%,50%)" |Langobard
+|Stoic<br>[[File:Ethos_stoic.png|100px]]
+|
+*[[Isolationist]]<hr/>
+*[[Martial Admiration]]<hr/>
+*[[Stand and Fight!]]<hr/>
+*{{icon|roc}} [[Malleable Invaders]]
+|Central Germanic
+|{{icon|male dominated}} Men Only
+|Mediterranean<br>[[File:City mediterranean.png|140px]]
+|Continental European
+|Latin<br>[[File:House frame 22.png|50px]]
+|Continental European
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(50,50,50); color: white" |Saxon
+|Stoic<br>[[File:Ethos_stoic.png|100px]]
+|
+*[[Religious Patronage]]<hr/>
+*[[Ruling Caste]]<hr/>
+*[[Stand and Fight!]]
+|Saxon
+|{{icon|male dominated}} Men Only
+|Continental European<br>[[File:City western.png|140px]]
+|Holy Roman Imperial
+|German<br>[[File:House frame 25.png|50px]]
+|Continental European
+|{{iconify|Counties}}
+|-
+
+! style="background-color:rgb(70%,70%,70%)" |Swabian
+|Communal<br>[[File:Ethos_communal.png|100px]]
+|
+*[[Industrious]]<hr/>
+*[[Mountain Homes]]<hr/>
+*[[Parochialism]]
+|High German
+|{{icon|male dominated}} Men Only
+|Continental European<br>[[File:City western.png|140px]]
+|Holy Roman Imperial
+|German<br>[[File:House frame 25.png|50px]]
+|Continental European
+|{{iconify|Counties}}
+|-
+| rowspan="3" |'''Chinese'''
+! style="background-color:rgb(90%,40%,10%)" |Bai
+|Ceremonious<br>[[File:Ethos_courtly.png|100px]]
+|
+*[[Hill Dwellers]]<hr/>
+*[[Ruling Caste]]<hr/>
+*[[Xenophilic]]<hr/>
+*{{icon|auh}} [[Hydraulic Builders]]
+|Chinese
+|{{icon|male dominated}} Men Only
+|Chinese<br>[[File:City china.png|140px]]
+|Chinese
+|Chinese<br>[[File:House china.png|50px]]
+|Chinese
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(100%,0%,0%)"; |Han
+|Ceremonious<br>[[File:Ethos_courtly.png|100px]]
+|
+*[[Agrarian]] / {{icon|auh}} [[Intensive Farming]]<hr/>
+*[[Formation Fighting Experts]] / {{icon|auh}} [[Art of War]]<hr/>
+*[[Philosopher Culture]] / {{icon|auh}} [[Scholar Officians]]<hr/>
+*{{icon|auh}} [[Court Machinations]]<hr/>
+*{{icon|auh}} [[Cultivation]]<hr/>
+*{{icon|auh}} [[Cultural Primacy]]
+|Chinese
+|{{icon|male dominated}} Men Only
+|Chinese<br>[[File:City china.png|140px]]
+|Chinese
+|Chinese<br>[[File:House china.png|50px]]
+|Chinese
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(90%,90%,90%)" |Yi
+|Stoic<br>[[File:Ethos_stoic.png|100px]]
+|
+*[[Highland Warriors]]<hr/>
+*[[Hill Dwellers]]<hr/>
+*[[Xenophilic]] / {{icon|foi}} [[Malleable Subjects]]
+|Chinese
+|{{icon|male dominated}} Men Only
+|Chinese<br>[[File:City china.png|140px]]
+|Chinese
+|Chinese<br>[[File:House china.png|50px]]
+|Chinese
+|{{iconify|Counties}}
+|-
+| rowspan="4" |'''Dravidian'''
+! style="background-color:rgb(75%,65%,15%)" |Gond
+|Communal<br>[[File:Ethos_communal.png|100px]]
+|
+*[[Jungle Warriors]]<hr/>
+*[[Sacred Groves]]<hr/>
+*{{icon|roc}} [[Culture Blending]]
+|Telugu
+|{{icon|male dominated}} Men Only
+|Indian<br>[[File:City india.png|140px]]
+|Indian
+|Dravidian<br>[[File:House frame 08.png|50px]]
+|Indian
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(80%,60%,0%)" | Kannada
+|Stoic<br>[[File:Ethos_stoic.png|100px]]
+|
+*[[Fervent Temple Builders]]<hr/>
+*[[Garuda Warriors]]<hr/>
+*[[Refined Poetry]]<hr/>
+*[[Ruling Caste]]
+|Kannada
+|{{icon|male dominated}} Men Only
+|Indian<br>[[File:City india.png|140px]]
+|Indian
+|Dravidian<br>[[File:House frame 08.png|50px]]
+|Indian
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(100%,70%,20%)" |Tamil
+|Communal<br>[[File:Ethos_communal.png|100px]]
+|
+*[[Metalworkers]]<hr/>
+*[[Parochialism]]<hr/>
+*[[Seafarers]]
+|Tamil
+|{{icon|male dominated}} Men Only
+|Indian<br>[[File:City india.png|140px]]
+|Indian
+|Dravidian<br>[[File:House frame 08.png|50px]]
+|Indian
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(80%,80%,0%)" |Telugu
+|Bellicose<br>[[File:Ethos_bellicose.png|100px]]
+|
+*[[Metalworkers]]<hr/>
+*[[Recognition of Talent]]<hr/>
+*[[Warrior Culture]]
+|Telugu
+|{{icon|male dominated}} Men Only
+|Indian<br>[[File:City india.png|140px]]
+|Indian
+|Dravidian<br>[[File:House frame 08.png|50px]]
+|Indian
+|{{iconify|Counties}}
+|-
+| rowspan="5" |'''East African'''
+! style="background-color:rgb(53,141,178)" | Beja
+|Communal<br>[[File:Ethos_communal.png|100px]]
+|
+*[[Desert Travelers]]<hr/>
+*[[Isolationist]]<hr/>
+*[[Mountain Skirmishing]]<hr/>
+*[[Warriors of the Dry]]
+|Cushitic
+|{{icon|male dominated}} Men Only
+|African<br>[[File:City mena.png|140px]]
+|African
+|East African<br>[[File:House frame 19.png|50px]]
+|Arabic
+|{{iconify|Herd}}
+|-
+! style="background-color:rgb(176,178,35)" |Daju
+|Stoic<br>[[File:Ethos_stoic.png|100px]]
+|
+*[[Dryland Dwellers]]<hr/>
+*[[Warrior Culture]]<hr/>
+*[[Warrior Queens]]
+|Sudanic
+|{{icon|equal}} Equal
+|African<br>[[File:City mena.png|140px]]
+|Arabic
+|East African<br>[[File:House frame 19.png|50px]]
+|Arabic
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(178,162,17)" |Ethiopian
+|Spiritual<br>[[File:Ethos_spiritual.png|100px]]
+|
+*[[Amharic Highlanders]]<hr/>
+*[[Fervent Temple Builders]]<hr/>
+*[[Isolationist]]<hr/>
+*[[Strong Believers]]
+|Ethiopic
+|{{icon|male dominated}} Men Only
+|African<br>[[File:City mena.png|140px]]
+|Arabic
+|East African<br>[[File:House frame 19.png|50px]]
+|Arabic
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(178,132,17)" |Nubian
+|Spiritual<br>[[File:Ethos_spiritual.png|100px]]
+|
+*[[Agrarian]]<hr/>
+*[[Astute Diplomats]]<hr/>
+*[[Land of the Bow]]<hr/>
+*[[Warrior Queens]]<hr/>
+*[[Xenophilic]]
+|Sudanic
+|{{icon|equal}} Equal
+|African<br>[[File:City mena.png|140px]]
+|Arabic
+|East African<br>[[File:House frame 19.png|50px]]
+|Arabic
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(110,112,39)" |Welayta
+|Stoic<br>[[File:Ethos_stoic.png|100px]]
+| 
+*[[Frequent Festivities]]<hr/>
+*[[Mountain Skirmishing]]
+|Omotic
+|{{icon|male dominated}} Men Only
+|African<br>[[File:City mena.png|140px]]
+|Arabic
+|East African<br>[[File:House frame 19.png|50px]]
+|Arabic
+|{{iconify|Counties}}
+|-
+| rowspan="4" |'''East Slavic'''
+! style="background-color:rgb(45%,60%,20%)" |Ilmenian
+|Communal<br>[[File:Ethos_communal.png|100px]]
+|
+*[[Agrarian]]<hr/>
+*[[Druzhina]]<hr/>
+*[[Forest Folk]]<hr/>
+*[[Hit-and-Run Tacticians]]
+|East Slavic
+|{{icon|male dominated}} Men Only
+|Continental European<br>[[File:City western.png|140px]]
+|Northern European
+|East Slavic<br>[[File:House frame 05.png|50px]]
+|Eastern European
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(20%,40%,10%)" |Russian
+|Communal<br>[[File:Ethos_communal.png|100px]]
+|
+*[[Charismatic]]<hr/>
+*[[Druzhina]]<hr/>
+*[[Mendicant Mystics]]
+|East Slavic
+|{{icon|male dominated}} Men Only
+|Continental European<br>[[File:City western.png|140px]]
+|Northern European
+|East Slavic<br>[[File:House frame 02.png|50px]]
+|Eastern European
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(50%,80%,30%)" |Severian
+|Stoic<br>[[File:Ethos_stoic.png|100px]]
+|
+*[[Druzhina]]<hr/>
+*[[Forest Folk]]<hr/>
+*[[Sacred Groves]]
+|East Slavic
+|{{icon|male dominated}} Men Only
+|Continental European<br>[[File:City western.png|140px]]
+|Northern European
+|East Slavic<br>[[File:House frame 05.png|50px]]
+|Eastern European
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(65%,80%,30%)" |Volhynian
+|Ceremonious<br>[[File:Ethos_courtly.png|100px]]
+|
+*[[Agrarian]]<hr/>
+*[[Astute Diplomats]]<hr/>
+*[[City Keepers]]<hr/>
+*[[Druzhina]]
+|East Slavic
+|{{icon|male dominated}} Men Only
+|Continental European<br>[[File:City western.png|140px]]
+|Northern European
+|East Slavic<br>[[File:House frame 05.png|50px]]
+|Eastern European
+|{{iconify|Counties}}
+|-
+| '''Eastern Roman'''
+! style="background-color:rgb(80%,30%,80%)" |Greek
+|Bureaucratic<br>[[File:Ethos_bureaucratic.png|100px]]
+|
+*[[Religious Patronage]]<hr/>
+*[[Byzantine Traditions]] / {{icon|rtp}} [[Roman Ceremonies]]<hr/>
+*[[Eastern Roman Legacy]] / {{icon|rtp}} [[Imperial Tagmata]]<hr/>
+*[[Formation Fighting Experts]] / {{icon|rtp}} [[Palace Politics]]<hr/>
+*[[Legalistic]] / {{icon|rtp}} [[Cultivated Sophistication]]
+|Greek
+|{{icon|male dominated}} Men Only
+|Byzantine<br>[[File:City byzantine.png|140px]]
+|Byzantine
+|Byzantine<br>[[File:House frame 02.png|50px]]
+|Eastern European
+|{{iconify|Counties}}
+|-
+| rowspan="4" |'''Frankish'''
+! style="background-color:rgb(30%,30%,50%)" |Frankish
+|Bellicose<br>[[File:Ethos_bellicose.png|100px]]
+|
+*[[Hereditary Hierarchy]]<hr/>
+*[[Stand and Fight!]]<hr/>
+*[[Warrior Culture]]
+|Frankish
+|{{icon|male dominated}} Men Only
+|Continental European<br>[[File:City western.png|140px]]
+|French
+|Frankish<br>[[File:House frame 03.png|50px]]
+|Continental European
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(10%,10%,60%); color: white" | French
+|Ceremonious<br>[[File:Ethos_courtly.png|100px]]
+|
+*[[Chanson de Geste]]<hr/>
+*[[Chivalry]]<hr/>
+*[[Hereditary Hierarchy]]
+|D'Oïl Vulgar
+|{{icon|male dominated}} Men Only
+|Continental European<br>[[File:City western.png|140px]]
+|French
+|French<br>[[File:House frame 03.png|50px]]
+|Continental European
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(10%,20%,40%); color: white" |Norman
+| Bellicose<br>[[File:Ethos_bellicose.png|100px]]
+|
+*[[Chanson de Geste]]<hr/>
+*[[Ruling Caste]]<hr/>
+*[[Stand and Fight!]]<hr/>
+*{{icon|rtp}} [[Audacious Cadets]]
+|D'Oïl Vulgar
+|{{icon|male dominated}} Men Only
+|Continental European<br>[[File:City western.png|140px]]
+|Continental European
+|Norman<br>[[File:House frame 03.png|50px]]
+|Continental European
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(10%,70%,80%)" | Occitan
+|Egalitarian<br>[[File:Ethos_egalitarian.png|100px]]
+|
+*[[Chanson de Geste]]<hr/>
+*[[Chivalry]]<hr/>
+*[[Equal Inheritance]]<hr/>
+*[[Parochialism]]
+|D'Oc Vulgar
+|{{icon|male dominated}} Men Only
+|Mediterranean<br>[[File:City mediterranean.png|140px]]
+|French
+|Occitanian<br>[[File:House frame 03.png|50px]]
+|Continental European
+|{{iconify|Counties}}
+|-
+| rowspan="2" |'''Goidelic'''
+! style="background-color:rgb(14,145,145)" |Gaelic
+|Bellicose<br>[[File:Ethos_bellicose.png|100px]]
+|
+*[[Concubines]]<hr/>
+*[[Dexterous Fishermen]]<hr/>
+*[[Highland Warriors]]<hr/>
+*[[Hill Dwellers]]<hr/>
+*[[Strong Kinship]]
+|Goidelic
+|{{icon|male dominated}} Men Only
+|Continental European<br>[[File:City western.png|140px]]
+|Northern European
+|Scottish<br>[[File:House frame 24.png|50px]]
+|Continental European
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(21,155,99)" |Irish
+|Ceremonious<br>[[File:Ethos_courtly.png|100px]]
+|
+*[[Maritime Mercantilism]]<hr/>
+*[[Monastic Communities]]<hr/>
+*[[Pastorialists]]<hr/>
+*[[Polygamous]]<hr/>
+*[[Refined Poetry]]
+|Goidelic
+|{{icon|male dominated}} Men Only
+|Continental European<br>[[File:City western.png|140px]]
+|Northern European
+|Irish<br>[[File:House frame 24.png|50px]]
+|Continental European
+|{{iconify|Counties}}
+|-
+| rowspan="5" |'''Guinean Uplander'''
+! style="background-color:rgb(10,100,178)" |Bobo
+|Egalitarian<br>[[File:Ethos_egalitarian.png|100px]]
+|
+*[[Stalwart Defenders]]<hr/>
+*[[Upland Skirmishing]]<hr/>
+*{{icon|roc}} [[Sorcerous Metallurgy]]
+|Soninke
+|{{icon|male dominated}} Men Only
+|African<br>[[File:City mena.png|140px]]
+|African
+|West African<br>[[File:House frame 20.png|50px]]
+|Sub-Saharan African
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(17,63,178); color: white" |Gur
+|Communal<br>[[File:Ethos_communal.png|100px]]
+|
+*[[Ancient Miners]]<hr/>
+*[[Upland Skirmishing]]<hr/>
+*{{icon|roc}} [[Sorcerous Metallurgy]]
+|Gur
+|{{icon|male dominated}} Men Only
+|African<br>[[File:City mena.png|140px]]
+|African
+|West African<br>[[File:House frame 20.png|50px]]
+|Sub-Saharan African
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(45,49,147); color: white" |Malinke
+|Spiritual<br>[[File:Ethos_spiritual.png|100px]]
+|
+*[[Charitable]]<hr/>
+*[[Upland Skirmishing]]<hr/>
+*{{icon|roc}} [[Sorcerous Metallurgy]]
+|Manding
+|{{icon|male dominated}} Men Only
+|African<br>[[File:City mena.png|140px]]
+|African
+|West African<br>[[File:House frame 20.png|50px]]
+|Sub-Saharan African
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(25,25,255); color: white" |Marka
+|Communal<br>[[File:Ethos_communal.png|100px]]
+|
+*[[Musical Theorists]]<hr/>
+*[[Upland Skirmishing]]<hr/>
+*[[Warriors of the Dry]]
+|Manding
+|{{icon|male dominated}} Men Only
+|African<br>[[File:City mena.png|140px]]
+|African
+|West African<br>[[File:House frame 20.png|50px]]
+|Sub-Saharan African
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(91,144,204)" |Mel
+|Egalitarian<br>[[File:Ethos_egalitarian.png|100px]]
+|
+*[[Stalwart Defenders]]<hr/>
+*[[Upland Skirmishing]]<hr/>
+*{{icon|roc}} [[Staunch Traditionalists]]
+|Manding
+|{{icon|male dominated}} Men Only
+|African<br>[[File:City mena.png|140px]]
+|African
+|West African<br>[[File:House frame 20.png|50px]]
+|Sub-Saharan African
+|{{iconify|Counties}}
+|-
+| rowspan="2" |'''Hmongic'''
+! style="background-color:rgb(40,140,100)" |Hmongic
+|Stoic<br>[[File:Ethos_stoic.png|100px]]
+|
+*[[Hill Dwellers]]<hr/>
+*[[Mystical Ancestors]]<hr/>
+*[[Prolific Hunters]]<hr/>
+*[[Xenophilic]] / {{icon|foi}} [[Malleable Subjects]]
+|Hmongic
+|{{icon|male dominated}} Men Only
+|Chinese<br>[[File:City china.png|140px]]
+|Chinese
+|Burman<br>[[File:House frame 26.png|50px]]
+|Chinese
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(100,140,120)" |Yao
+|Egalitarian<br>[[File:Ethos_egalitarian.png|100px]]
+|
+*[[Agrarian]]<hr/>
+*[[Medicinal Herbalists]]<hr/>
+*[[Xenophilic]] / {{icon|foi}} [[Malleable Subjects]]
+*{{icon|roc}} [[Expert Artisans]]
+|Hmongic
+|{{icon|male dominated}} Men Only
+|Chinese<br>[[File:City china.png|140px]]
+|Chinese
+|Chinese<br>[[File:House frame 26.png|50px]]
+|Chinese
+|{{iconify|Counties}}
+|-
+| rowspan="10" |'''Iberian'''
+! style="background-color:rgb(40%,60%,10%)" |Andalusian
+|Ceremonious<br>[[File:Ethos_courtly.png|100px]]
+|
+*[[Hit-and-Run Tacticians]]<hr/>
+*[[Xenophilic]] / {{icon|foi}} [[Malleable Subjects]]<hr/>
+*{{icon|roc}} [[Expert Artisans]]<hr/>
+*{{icon|foi}} [[Ritualized Friendship]]<hr/>
+*{{icon|foi}} [[Tabletop Warriors]]
+|Arabic
+|{{icon|male dominated}} Men Only
+|Iberian<br>[[File:City iberian.png|140px]]
+|Andalusian
+|Arabic<br>[[File:House frame 01.png|50px]]
+|Andalusian
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(80%,67%,24%)" |Aragonese
+|Bellicose<br>[[File:Ethos_bellicose.png|100px]]
+|
+*[[Martial Admiration]]<hr/>
+*[[Mountaineers]]<hr/>
+*[[Visigothic Codes]]<hr/>
+*[[Marital Ceremonies]] / {{icon|foi}} [[Ritualized Friendship]]<hr/>
+*{{icon|foi}} [[State Ransoming]]
+|D'Oc Vulgar
+|{{icon|male dominated}} Men Only
+|Iberian<br>[[File:City iberian.png|140px]]
+|Iberian
+|Iberian<br>[[File:House frame 01.png|50px]]
+|Iberian
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(75%,62%,19%)" | Asturleonese
+|Egalitarian<br>[[File:Ethos_egalitarian.png|100px]]
+|
+*[[Fervent Temple Builders]]<hr/>
+*[[Hit-and-Run Tacticians]]<hr/>
+*[[Mountaineers]]<hr/>
+*{{icon|foi}} [[Ritualized Friendship]]
+|Iberian Vulgar
+|{{icon|male dominated}} Men Only
+|Iberian<br>[[File:City iberian.png|140px]]
+|Iberian
+|Leonese<br>[[File:House frame 01.png|50px]]
+|Iberian
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(55%,42%,4%)" |Basque
+|Egalitarian<br>[[File:Ethos_egalitarian.png|100px]]
+| 
+*[[Marital Ceremonies]]<hr/>
+*[[Mountaineers]]<hr/>
+*[[Visigothic Codes]]<hr/>
+*{{icon|foi}} [[Ritualized Friendship]]
+|Basque
+|{{icon|male dominated}} Men Only
+|Iberian<br>[[File:City iberian.png|140px]]
+|Iberian
+|Iberian<br>[[File:House frame 01.png|50px]]
+|Iberian
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(95%,82%,9%)" |Castilian
+|Bellicose<br>[[File:Ethos_bellicose.png|100px]]
+| 
+*[[Castle Keepers]]<hr/>
+*[[Chivalry]]<hr/>
+*[[Martial Admiration]]<hr/>
+*[[Hit-and-Run Tacticians]] / {{icon|foi}} [[Tabletop Warriors]]<hr/>
+*{{icon|foi}} [[Ritualized Friendship]]
+|Iberian Vulgar
+|{{icon|male dominated}} Men Only
+|Iberian<br>[[File:City iberian.png|140px]]
+|Iberian
+|Castilian<br>[[File:House frame 01.png|50px]]
+|Iberian
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(85%,75%,8%)" |Catalan
+|Ceremonious<br>[[File:Ethos_courtly.png|100px]]
+|
+*[[Maritime Mercantilism]]<hr/>
+*[[Parochialism]]<hr/>
+*[[Refined Poetry]]<hr/>
+*[[Visigothic Codes]]<hr/>
+*{{icon|foi}} [[Ritualized Friendship]]
+|D'Oc Vulgar
+|{{icon|male dominated}} Men Only
+|Iberian<br>[[File:City iberian.png|140px]]
+|Iberian
+|Iberian<br>[[File:House frame 01.png|50px]]
+|Iberian
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(90%,75%,5%)" |Galician
+|Spiritual<br>[[File:Ethos_spiritual.png|100px]]
+|
+*[[Dexterous Fishermen]]<hr/>
+*[[Highland Warriors]]<hr/>
+*[[Monastic Communities]]<hr/>
+*{{icon|foi}} [[Ritualized Friendship]]
+|Iberian Vulgar
+|{{icon|male dominated}} Men Only
+|Iberian<br>[[File:City iberian.png|140px]]
+|Iberian
+|Iberian<br>[[File:House frame 01.png|50px]]
+|Iberian
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(75%,67%,7%)" | Portuguese
+|Bellicose<br>[[File:Ethos_bellicose.png|100px]]
+|
+*[[Chivalry]]<hr/>
+*[[Fervent Temple Builders]]<hr/>
+*[[Martial Admiration]]<hr/>
+*{{icon|foi}} [[Ritualized Friendship]]
+|Iberian Vulgar
+|{{icon|male dominated}} Men Only
+|Iberian<br>[[File:City iberian.png|140px]]
+|Iberian
+|Iberian<br>[[File:House frame 01.png|50px]]
+|Iberian
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(80%,70%,40%)" |Suebi
+|Bellicose<br>[[File:Ethos_bellicose.png|100px]]
+|
+*[[Agrarian]]<hr/>
+*[[Stand and Fight!]]
+|Central Germanic
+|{{icon|male dominated}} Men Only
+|Iberian<br>[[File:City iberian.png|140px]]
+|Iberian
+|Iberian<br>[[File:House frame 01.png|50px]]
+|Iberian
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(55%,55%,15%)" |Visigothic
+|Bellicose<br>[[File:Ethos_bellicose.png|100px]]
+|
+*[[Hit-and-Run Tacticians]]<hr/>
+*[[Martial Admiration]]<hr/>
+*[[Visigothic Codes]]<hr/>
+*{{icon|foi}} [[Malleable Subjects]]<hr/>
+*{{icon|foi}} [[Ritualized Friendship]]
+|Iberian Vulgar
+|{{icon|male dominated}} Men Only
+|Iberian<br>[[File:City iberian.png|140px]]
+|Iberian
+|Iberian<br>[[File:House frame 01.png|50px]]
+|Iberian
+|{{iconify|Counties}}
+|-
+| rowspan="14" |'''Indo-Aryan'''
+! style="background-color:rgb(0,120,140); color: white" |Bengali
+|Spiritual<br>[[File:Ethos_spiritual.png|100px]]
+|
+*[[Agrarian]]<hr/>
+*[[Philosopher Culture]]<hr/>
+*[[Religious Patronage]]
+|Magadhi
+|{{icon|male dominated}} Men Only
+|Indian<br>[[File:City india.png|140px]]
+|Indian
+|Indo-Aryan<br>[[File:House frame 17.png|50px]]
+|Indian
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(100%,40%,40%) |Brahui
+|Communal<br>[[File:Ethos_communal.png|100px]]
+|
+*[[Astute Diplomats]]<hr/>
+*[[Culture Blending]]<hr/>
+*[[Desert Travelers]]<hr/>
+*{{icon|lop}} [[Jirga]]
+|North Dravidian
+|{{icon|male dominated}} Men Only
+|Iranian<br>[[File:City iranian.png|140px]]
+|Iranian
+|Indo-Aryan<br>[[File:House frame 17.png|50px]]
+|Iranian
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(40%,20%,20%); color: white" |Gujarati
+|Spiritual<br>[[File:Ethos_spiritual.png|100px]]
+|
+*[[Expert Artisans]]<hr/>
+*[[Religion Blending]]<hr/>
+*[[Seafarers]]<hr/>
+*[[Vegetarians]]
+|Gurjar
+|{{icon|male dominated}} Men Only
+|Indian<br>[[File:City india.png|140px]]
+|Indian
+|Indo-Aryan<br>[[File:House frame 17.png|50px]]
+|Indian
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(65%,25%,10%)" |Kamrupi
+|Communal<br>[[File:Ethos_communal.png|100px]]
+|
+*[[Collective Lands]]<hr/>
+*[[Jungle Warriors]]<hr/>
+*{{icon|roc}} [[Culture Blending]]
+|Magadhi
+|{{icon|male dominated}} Men Only
+|Indian<br>[[File:City india.png|140px]]
+|Indian
+|Indo-Aryan<br>[[File:House frame 17.png|50px]]
+|Indian
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(100%,0%,0%)" |Kannauji
+|Spiritual<br>[[File:Ethos_spiritual.png|100px]]
+|
+*[[Agrarian]]<hr/>
+*[[City Keepers]]<hr/>
+*[[Court Eunuchs]]<hr/>
+*[[Ruling Caste]]
+|Shauraseni
+|{{icon|male dominated}} Men Only
+|Indian<br>[[File:City india.png|140px]]
+|Indian
+|Indo-Aryan<br>[[File:House frame 17.png|50px]]
+|Indian
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(60%,40%,30%)" |Kashmiri
+|Spiritual<br>[[File:Ethos_spiritual.png|100px]]
+|
+*[[Equal Inheritance]]<hr/>
+*[[Himalayan Settlers]]<hr/>
+*[[Refined Poetry]]
+|Kashmiri
+|{{icon|male dominated}} Men Only
+|Indian<br>[[File:City india.png|140px]]
+|Indian
+|Indo-Aryan<br>[[File:House frame 17.png|50px]]
+|Indian
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(60%,5%,5%); color: white" |Malvi
+|Stoic<br>[[File:Ethos_stoic.png|100px]]
+|
+*[[Agrarian]]<hr/>
+*[[Fervent Temple Builders]]<hr/>
+*[[Khadga Puja]]<hr/>
+*[[Mystical Ancestors]]
+|Gurjar
+|{{icon|male dominated}} Men Only
+|Indian<br>[[File:City india.png|140px]]
+|Indian
+|Indo-Aryan<br>[[File:House frame 17.png|50px]]
+|Indian
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(80%,20%,0%)" |Marathi
+|Stoic<br>[[File:Ethos_stoic.png|100px]]
+|
+*[[Industrious]]<hr/>
+*[[Modest]]<hr/>
+*[[Pastorialists]]
+|Marathi
+|{{icon|male dominated}} Men Only
+|Indian<br>[[File:City india.png|140px]]
+|Indian
+|Indo-Aryan<br>[[File:House frame 17.png|50px]]
+|Indian
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(60%,30%,0%)" |Nepali
+|Communal<br>[[File:Ethos_communal.png|100px]]
+|
+*[[Himalayan Settlers]]<hr/>
+*[[Martial Admiration]]<hr/>
+*[[Religious Patronage]]
+|Pahari
+|{{icon|male dominated}} Men Only
+|Indian<br>[[File:City india.png|140px]]
+|Indian
+|Indo-Aryan<br>[[File:House frame 17.png|50px]]
+|Indian
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(80%,40%,0%)" |Oriya
+|Spiritual<br>[[File:Ethos_spiritual.png|100px]]
+|
+*[[Culinary Artists]]<hr/>
+*[[Lords of the Elephant]]<hr/>
+*[[Seafarers]]
+|Magadhi
+|{{icon|male dominated}} Men Only
+|Indian<br>[[File:City india.png|140px]]
+|Indian
+|Indo-Aryan<br>[[File:House frame 17.png|50px]]
+|Indian
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(80%,30%,20%)" |Punjabi
+|Communal<br>[[File:Ethos_communal.png|100px]]
+|
+*[[Agrarian]]<hr/>
+*[[Marital Ceremonies]]<hr/>
+*[[Storytellers]]
+|Vrachada
+|{{icon|male dominated}} Men Only
+|Indian<br>[[File:City india.png|140px]]
+|Indian
+|Indo-Aryan<br>[[File:House frame 17.png|50px]]
+|Indian
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(60%,0%,0%); color: white" |Rajasthani
+|Bellicose<br>[[File:Ethos_bellicose.png|100px]]
+| 
+*[[Khadga Puja]]<hr/>
+*[[Mystical Ancestors]]<hr/>
+*[[Quarrelsome]]<hr/>
+*[[Warrior Culture]]
+|Gurjar
+|{{icon|male dominated}} Men Only
+|Indian<br>[[File:City india.png|140px]]
+|Indian
+|Indo-Aryan<br>[[File:House frame 17.png|50px]]
+|Indian
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(100%,20%,0%)" |Sindhi
+|Spiritual<br>[[File:Ethos_spiritual.png|100px]]
+|
+*[[Mendicant Mystics]]<hr/>
+*[[Refined Poetry]]<hr/>
+*[[Seafarers]]
+|Vrachada
+|{{icon|male dominated}} Men Only
+|Indian<br>[[File:City india.png|140px]]
+|Indian
+|Indo-Aryan<br>[[File:House frame 17.png|50px]]
+|Indian
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(100%,30%,30%)" |Sinhala
+|Spiritual<br>[[File:Ethos_spiritual.png|100px]]
+|
+*[[City Keepers]]<hr/>
+*[[Fervent Temple Builders]]<hr/>
+*[[Ruling Caste]]
+|Sinhalese
+|{{icon|male dominated}} Men Only
+|Indian<br>[[File:City india.png|140px]]
+|Indian
+|Indo-Aryan<br>[[File:House frame 17.png|50px]]
+|Indian
+|{{iconify|Counties}}
+|-
+| rowspan="10" |'''Iranian'''
+! style="background-color:rgb(10%,30%,70%); color: white" |Alan
+|Communal<br>[[File:Ethos_communal.png|100px]]
+|
+*[[Horse Lords]]<hr/>
+*[[Marital Ceremonies]]<hr/>
+*[[Mountaineers]]<hr/>
+*[[Steppe Tolerance]]
+|Scythian
+|{{icon|male dominated}} Men Only
+|Iranian<br>[[File:City iranian.png|140px]]
+|Iranian
+|Oghuz<br>[[File:House frame 12.png|50px]]
+|Iranian
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(19%,38%,31%)" |Afghan
+|Communal<br>[[File:Ethos_communal.png|100px]]
+|
+*[[Esteemed Hospitality]]<hr/>
+*[[Eye for an Eye]]<hr/>
+*[[Futuwaa]]<hr/>
+*[[Mountain Homes]]<hr/>
+*{{icon|lop}} Jirga
+|Scythian
+|{{icon|male dominated}} Men Only
+|Iranian<br>[[File:City iranian.png|140px]]
+|Iranian
+|Iranian<br>[[File:House frame 12.png|50px]]
+|Iranian
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(3%,9%,16%); color: white" |Baloch
+|Stoic<br>[[File:Ethos_stoic.png|100px]]
+|
+*[[Desert Travelers]]<hr/>
+*[[Esteemed Hospitality]]<hr/>
+*[[Futuwaa]]<hr/>
+*[[Isolationist]]<hr/>
+*{{icon|lop}} [[Jirga]]
+|Iranian
+|{{icon|male dominated}} Men Only
+|Iranian<br>[[File:City iranian.png|140px]]
+|Iranian
+|Iranian<br>[[File:House frame 12.png|50px]]
+|Iranian
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(0%,22%,19%); color: white" |Daylamite
+|Bellicose<br>[[File:Ethos_bellicose.png|100px]]
+|
+*[[Isolationist]]<hr/>
+*[[Mountaineers]]<hr/>
+*[[Stalwart Defenders]]<hr/>
+*[[Swords for Hire]]<hr/>
+*[[Futuwaa]] / {{icon|lop}} [[Pragmatic Creed]]
+|Iranian
+|{{icon|male dominated}} Men Only
+|Iranian<br>[[File:City iranian.png|140px]]
+|Iranian
+|Iranian<br>[[File:House frame 12.png|50px]]
+|Iranian
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(12%,38%,28%)" |Khwarezmian
+|Stoic<br>[[File:Ethos_stoic.png|100px]]
+|
+*[[Caravaneers]]<hr/>
+*[[City Keepers]]<hr/>
+*[[Dryland Dwellers]]<hr/>
+*[[Stalwart Defenders]]<hr/>
+*[[Futuwaa]] / {{icon|lop}} [[Frontier Warriors]]
+|Scythian
+|{{icon|male dominated}} Men Only
+|Iranian<br>[[File:City iranian.png|140px]]
+|Iranian
+|Iranian<br>[[File:House frame 12.png|50px]]
+|Iranian
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(0%,57%,22%)" |Kurdish
+|Communal<br>[[File:Ethos_communal.png|100px]]
+|
+*[[Eye for an Eye]]<hr/>
+*[[Mountain Homes]]<hr/>
+*[[Swords for Hire]]<hr/>
+*[[Futuwaa]] / {{icon|lop}} [[Fierce Independence]]
+|Iranian
+|{{icon|male dominated}} Men Only
+|Iranian<br>[[File:City iranian.png|140px]]
+|Iranian
+|Iranian<br>[[File:House frame 12.png|50px]]
+|Iranian
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(3%,38%,45%)" |Persian
+|Ceremonious<br>[[File:Ethos_courtly.png|100px]]
+|
+*[[Futuwaa]]<hr/>
+*[[Garden Architects]]<hr/>
+*[[Water Rituals]]<hr/>
+*[[Dryland Dwellers]] / {{icon|lop}} [[Irrigation Experts]]<hr/>
+*[[Philosopher Culture]] / {{icon|lop}} [[Beacon of Learning]]<hr/>
+*[[Refined Poetry]] / {{icon|lop}} [[Enlightened Magnates]]
+|Iranian
+|{{icon|male dominated}} Men Only
+|Iranian<br>[[File:City iranian.png|140px]]
+|Iranian
+|Iranian<br>[[File:House frame 12.png|50px]]
+|Iranian
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(40%,20%,75%); color: white" |Saka
+|Bellicose<br>[[File:Ethos_bellicose.png|100px]]
+|
+*[[Caravaneers]]<hr/>
+*[[Dryland Dwellers]]<hr/>
+*[[Expert Artisans]]<hr/>
+*[[Horse Lords]]<hr/>
+*{{icon|lop}} [[Frontier Warriors]]
+|Scythian
+|{{icon|male dominated}} Men Only
+|Iranian<br>[[File:City iranian.png|140px]]
+|Arabic
+|Iranian<br>[[File:House frame 12.png|50px]]
+|Iranian
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(3%,19%,28%); color: white" | Sogdian
+|Egalitarian<br>[[File:Ethos_egalitarian.png|100px]]
+|
+*[[Caravaneers]]<hr/>
+*[[Parochialism]]<hr/>
+*[[Religion Blending]]<hr/>
+*[[Futuwaa]] / {{icon|lop}} [[Frontier Warriors]]<hr/>
+*{{icon|lop}} [[Horse Breeders]]
+|Scythian
+|{{icon|male dominated}} Men Only
+|Iranian<br>[[File:City iranian.png|140px]]
+|Iranian
+|Iranian<br>[[File:House frame 12.png|50px]]
+|Iranian
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(22%,38%,31%)" |Tajik
+|Spiritual<br>[[File:Ethos_spiritual.png|100px]]
+|
+*[[Caravaneers]]<hr/>
+*[[City Keepers]]<hr/>
+*[[Futuwaa]]<hr/>
+*[[Dryland Dwellers]] / {{icon|lop}} [[Irrigation Experts]]<hr/>
+*[[Philosopher Culture]] / {{icon|lop}} [[Beacon of Learning]]
+|Iranian
+|{{icon|male dominated}} Men Only
+|Iranian<br>[[File:City iranian.png|140px]]
+|Iranian
+|Iranian<br>[[File:House frame 12.png|50px]]
+|Iranian
+|{{iconify|Counties}}
+|-
+| rowspan="6" |'''Israelite'''
+! style="background-color:rgb(60%,30%,60%)" |Ashkenazi
+|Communal<br>[[File:Ethos_communal.png|100px]]
+|
+*[[Bound by Faith]]<hr/>
+*[[Defensive Tactics]]<hr/>
+*[[Diasporic]]<hr/>
+*[[Forbearing]]<hr/>
+*[[Philosopher Culture]]
+|High German
+|{{icon|male dominated}} Men Only
+|Continental European<br>[[File:City western.png|140px]]
+|Holy Roman Imperial
+|Israelite<br>[[File:House frame 23.png|50px]]
+|Continental European
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(60%,30%,70%)" |Bavli
+|Communal<br>[[File:Ethos_communal.png|100px]]
+|
+*[[Bound by Faith]]<hr/>
+*[[Caravaneers]]<hr/>
+*[[Defensive Tactics]]<hr/>
+*[[Diasporic]]<hr/>
+*[[Xenophilic]]
+|Aramaic
+|{{icon|male dominated}} Men Only
+|Arabic<br>[[File:City mena.png|140px]]
+|Byzantine
+|Israelite<br>[[File:House frame 23.png|50px]]
+|Arabic
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(17%,75%,90%)" |Hebrew
+|Spiritual<br>[[File:Ethos_spiritual.png|100px]]
+|
+*[[Fervent Temple Builders]]<hr/>
+*[[Mystical Ancestors]]<hr/>
+*[[Philosopher Culture]]<hr/>
+*[[Strong Believers]]
+|Hebrew
+|{{icon|male dominated}} Men Only
+|Arabic<br>[[File:City mena.png|140px]]
+|Byzantine
+|Israelite<br>[[File:House frame 16.png|50px]]
+|Arabic
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(50%,20%,80%)" |Kochini
+|Communal<br>[[File:Ethos_communal.png|100px]]
+|
+*[[Diasporic]]<hr/>
+*[[Fervent Temple Builders]]<hr/>
+*[[Philosopher Culture]]<hr/>
+*[[Xenophilic]]
+|Tamil
+|{{icon|male dominated}} Men Only
+|Indian<br>[[File:City india.png|140px]]
+|Indian
+|Israelite<br>[[File:House frame 23.png|50px]]
+|Indian
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(50%,20%,70%)" |Radhanite
+|Egalitarian<br>[[File:Ethos_egalitarian.png|100px]]
+|
+*[[Defensive Tactics]]<hr/>
+*[[Diasporic]]<hr/>
+*[[Maritime Mercantilism]]<hr/>
+*[[Philosopher Culture]]<hr/>
+*[[Xenophilic]]
+|Shaz Turkic
+|{{icon|male dominated}} Men Only
+|Arabic<br>[[File:City mena.png|140px]]
+|Mongolian
+|Israelite<br>[[File:House frame 23.png|50px]]
+|Arabic
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(70%,20%,70%)" |Sephardi
+|Communal<br>[[File:Ethos_communal.png|100px]]
+|
+*[[Caravaneers]]<hr/>
+*[[Defensive Tactics]]<hr/>
+*[[Diasporic]]<hr/>
+*[[Maritime Mercantilism]]<hr/>
+*[[Philosopher Culture]]
+|Iberian Vulgar
+|{{icon|male dominated}} Men Only
+|Arabic<br>[[File:City mena.png|140px]]
+|Byzantine
+|Israelite<br>[[File:House frame 23.png|50px]]
+|Arabic
+|{{iconify|Counties}}
+|-
+| rowspan="2" |'''Japonic'''
+! style="background-color:rgb(80%,10%,10%)" |Ryukyuan
+|Spiritual<br>[[File:Ethos_spiritual.png|100px]]
+|
+*[[Dexterous Fishermen]]<hr/>
+*[[Maritime Mercantilism]]<hr/>
+*[[Seafarers]]<hr/>
+*[[Water Rituals]]
+|Japonic
+|{{icon|male dominated}} Men Only
+|Japanese<br>[[File:City japan.png|140px]]
+|Japanese
+|Japanese<br>[[File:House japan.png|50px]]
+|Japanese
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(80%,17%,18%)" |Yamato
+|Ceremonious<br>[[File:Ethos_courtly.png|100px]]
+|
+*[[Isolationist]] / {{icon|auh}} [[Inward Perfection]]<hr/>
+*[[Mountaineers]] / {{icon|auh}} [[Yashima]]<hr/>
+*[[Noble Adoption]] / {{icon|auh}} [[Dynastic Pragmatism]]<hr/>
+*[[Refined Poetry]] / {{icon|auh}} [[Ephemeral Grace]]<hr/>
+*[[Warrior Priests]] / {{icon|auh}} [[Warrior Monks]]<hr/>
+*{{icon|auh}} [[Fragile Peace]]
+|Japonic
+|{{icon|male dominated}} Men Only
+|Japanese<br>[[File:City japan.png|140px]]
+|Japanese
+|Japanese<br>[[File:House japan.png|50px]]
+|Japanese
+|{{iconify|Counties}}
+|-
+| rowspan="6" |'''Latin'''
+! style="background-color:rgb(95%,95%,55%)" |Cisalpine
+|Communal<br>[[File:Ethos_communal.png|100px]]
+|
+*[[Maritime Mercantilism]]<hr/>
+*[[Mountain Homes]]<hr/>
+*[[Republican Legacy]]
+|Italian Vulgar
+|{{icon|male dominated}} Men Only
+|Mediterranean<br>[[File:City mediterranean.png|140px]]
+|Continental European
+|Latin<br>[[File:House frame 22.png|50px]]
+|Continental European
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(95%,95%,75%)" |Italian
+|Spiritual<br>[[File:Ethos_spiritual.png|100px]]
+| 
+*[[Formation Fighting Experts]]<hr/>
+*[[Refined Poetry]]<hr/>
+*[[Republican Legacy]]
+|Italian Vulgar
+|{{icon|male dominated}} Men Only
+|Mediterranean<br>[[File:City mediterranean.png|140px]]
+|Continental European
+|Latin<br>[[File:House frame 22.png|50px]]
+|Continental European
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(80%,80%,50%)" |Lombard
+|Stoic<br>[[File:Ethos_stoic.png|100px]]
+|
+*[[Isolationist]]<hr/>
+*[[Martial Admiration]]<hr/>
+*[[Republican Legacy]]<hr/>
+*[[Stand and Fight!]]
+|Italian Vulgar
+|{{icon|male dominated}} Men Only
+|Mediterranean<br>[[File:City mediterranean.png|140px]]
+|Continental European
+|Latin<br>[[File:House frame 22.png|50px]]
+|Continental European
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(80%,10%,10%)" |Roman
+|Bellicose<br>[[File:Ethos_bellicose.png|100px]]
+|
+*[[Eastern Roman Legacy]]<hr/>
+*[[Formation Fighting Experts]]<hr/>
+*[[Hereditary Hierarchy]]<hr/>
+*[[Legalistic]]<hr/>
+*[[Noble Adoption]]<hr/>
+*[[Refined Poetry]]
+|Latin
+|{{icon|male dominated}} Men Only
+|Mediterranean<br>[[File:City mediterranean.png|140px]]
+|Byzantine<br>Continental European
+|Latin<br>[[File:House frame 22.png|50px]]
+|Eastern European
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(90%,90%,30%)" |Sardinian
+|Communal<br>[[File:Ethos_communal.png|100px]]
+|
+*[[Isolationist]]<hr/>
+*[[Stalwart Defenders]]
+|Sardinian Vulgar
+|{{icon|male dominated}} Men Only
+|Mediterranean<br>[[File:City mediterranean.png|140px]]
+|Continental European
+|Latin<br>[[File:House frame 22.png|50px]]
+|Continental European
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(65%,65%,20%)" |Sicilian
+|Ceremonious<br>[[File:Ethos_courtly.png|100px]]
+|
+*[[Refined Poetry]]<hr/>
+*[[Republican Legacy]]<hr/>
+*[[Ruling Caste]]<hr/>
+*[[Swords for Hire]]<hr/>
+*[[Xenophilic]]
+|Italian Vulgar
+|{{icon|male dominated}} Men Only
+|Mediterranean<br>[[File:City mediterranean.png|140px]]
+|Continental European
+|Latin<br>[[File:House frame 22.png|50px]]
+|Continental European
+|{{iconify|Counties}}
+|-
+| rowspan="2" |'''Magyar'''
+! style="background-color:rgb(50%,60%,30%)" |Hungarian
+|Bellicose<br>[[File:Ethos_bellicose.png|100px]]
+|
+*[[Agrarian]]<hr/>
+*[[Konni Raids]]<hr/>
+*[[Strong Believers]]
+|Magyar
+|{{icon|male dominated}} Men Only
+|Continental European<br>[[File:City western.png|140px]]
+|Continental European
+|Magyar<br>[[File:House frame 02.png|50px]]
+|Mongolian
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(30%,40%,10%)" |Mogyër
+|Bellicose<br>[[File:Ethos_bellicose.png|100px]]
+|
+*[[Strong Believers]]<hr/>
+*[[Tribal Unity]]<hr/>
+*[[Horse Lords]] / {{icon|kos}} [[Devoted Horsemanship]]
+|Magyar
+|{{icon|male dominated}} Men Only
+|Eurasian Steppe<br>[[File:City western.png|140px]]
+|Mongolian
+|Magyar<br>[[File:House frame 05.png|50px]]
+|Mongolian
+|{{iconify|Counties}}
+|-
+| rowspan="3" |'''Mon-Khmer'''
+! style="background-color:rgb(30%,30%,70%)" |Khmer
+|Ceremonious<br>[[File:Ethos_courtly.png|100px]]
+|
+*[[Fervent Temple Builders]]<hr/>
+*[[Mystical Ancestors]]<hr/>
+*[[Agrarian]] / {{icon|auh}} [[Rice Cultivators]]<hr/>
+*{{icon|auh}} [[Esoteric Power]]<hr/>
+*{{icon|auh}} [[Hydraulic Builders]]
+|Mon-Khmer
+|{{icon|male dominated}} Men Only
+|Southeast Asian<br>[[File:City se asia.png|140px]]
+|Southeast Asian
+|Burman<br>[[File:House frame 26.png|50px]]
+|Southeast Asian
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(20%,60%,40%)" |Khmu
+|Communal<br>[[File:Ethos_communal.png|100px]]
+|
+*[[Hill Dwellers]]<hr/>
+*[[Storytellers]]<hr/>
+*[[Agrarian]] / {{icon|auh}} [[Rice Cultivators]]
+|Mon-Khmer
+|{{icon|male dominated}} Men Only
+|Southeast Asian<br>[[File:City se asia.png|140px]]
+|Southeast Asian
+|Burman<br>[[File:House frame 26.png|50px]]
+|Southeast Asian
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(35%,60%,10%)" |Mon
+|Spiritual<br>[[File:Ethos_spiritual.png|100px]]
+|
+*[[Agrarian]]<hr/>
+*[[Religious Patronage]]<hr/>
+*[[Xenophilic]] / {{icon|foi}} [[Malleable Subjects]]<hr/>
+*{{icon|roc}} [[Culture Blending]]
+|Mon-Khmer
+|{{icon|male dominated}} Men Only
+|Southeast Asian<br>[[File:City se asia.png|140px]]
+|Southeast Asian
+|Burman<br>[[File:House frame 26.png|50px]]
+|Southeast Asian
+|{{iconify|Counties}}
+|-
+| rowspan="4" |'''Niger Delta'''
+! style="background-color:rgb(89,178,98)" |Edo
+|Egalitarian<br>[[File:Ethos_egalitarian.png|100px]]
+|
+*[[Bush Hunting]]<hr/>
+*[[Hidden Cities]]<hr/>
+*[[Parochialism]]
+|East Kwa
+|{{icon|male dominated}} Men Only
+|African<br>[[File:City mena.png|140px]]
+|African
+|Central African<br>[[File:House frame 29.png|50px]]
+|Sub-Saharan African
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(31,178,17)" |Ewe
+|Spiritual<br>[[File:Ethos_spiritual.png|100px]]
+|
+*[[Bush Hunting]]<hr/>
+*[[Legalistic]]<hr/>
+*[[Religion Blending]]
+|Kwa
+|{{icon|equal}} Equal
+|African<br>[[File:City mena.png|140px]]
+|African
+|Central African<br>[[File:House frame 29.png|50px]]
+|Sub-Saharan African
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(35,178,66)" |Igbo
+|Spiritual<br>[[File:Ethos_spiritual.png|100px]]
+|
+*[[Bush Hunting]]<hr/>
+*[[Hidden Cities]]<hr/>
+*[[Recognition of Talent]]
+|East Kwa
+|{{icon|equal}} Equal
+|African<br>[[File:City mena.png|140px]]
+|African
+|Central African<br>[[File:House frame 29.png|50px]]
+|Sub-Saharan African
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(53,178,141)" |Yoruba
+|Communal<br>[[File:Ethos_communal.png|100px]]
+| 
+*[[Bush Hunting]]<hr/>
+*[[Equal Inheritance]]<hr/>
+*[[Hidden Cities]]<hr/>
+*[[Philosopher Culture]]
+|East Kwa
+|{{icon|equal}} Equal
+|African<br>[[File:City mena.png|140px]]
+|African
+|Central African<br>[[File:House frame 29.png|50px]]
+|Sub-Saharan African
+|{{iconify|Counties}}
+|-
+| '''Nivkh'''
+! style="background-color:rgb(61,109,56)" |Nivkh
+|'''Stoic'''<br>[[File:Ethos_stoic.png|150px]]
+|
+*[[Dexterous Fishermen]]<hr/>
+*[[Forest Folk]]<hr/>
+*[[Isolationist]]<hr/>
+*[[Mystical Ancestors]]<hr/>
+*[[Winter Warriors]]
+|Nivkh
+|{{icon|male dominated}} Men Only
+|Eurasian Steppe<br>[[File:City western.png|140px]]
+|Mongolian
+|Mongolian<br>[[File:House frame 04.png|50px]]
+|Mongolian
+|{{iconify|Counties}}
+|-
+| rowspan="2" |'''Qiangic'''
+! style="background-color:rgb(80%,20%,20%)" |Qiang
+|Communal<br>[[File:Ethos_communal.png|100px]]
+|
+*[[Equal Inheritance]]<hr/>
+*[[Himalayan Settlers]]<hr/>
+*[[Medicinal Herbalists]]<hr/>
+*[[Sacred Mountains]]
+|Tangut
+|{{icon|male dominated}} Men Only
+|Indian<br>[[File:City india.png|140px]]
+|Mongolian
+|Indian<br>[[File:House frame 11.png|50px]]
+|Mongolian
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(80%,30%,0%)" |Tangut
+|Bureaucratic<br>[[File:Ethos_bureaucratic.png|100px]]
+|
+*[[Caravaneers]]<hr/>
+*[[Court Eunuchs]]<hr/>
+*[[Himalayan Settlers]]<hr/>
+*[[Religion Blending]]<hr/>
+*[[Religious Patronage]]<hr/>
+*{{icon|kos}} [[Iron Cavalry]]
+|Tangut
+|{{icon|male dominated}} Men Only
+|Indian<br>[[File:City india.png|140px]]
+|Mongolian
+|Mongolian<br>[[File:House frame 11.png|50px]]
+|Mongolian
+|{{iconify|Counties}}
+|-
+| rowspan="6" |'''Sahelian'''
+! style="background-color:rgb(127,91,0)" |Bozo
+|Communal<br>[[File:Ethos_communal.png|100px]]
+| 
+*[[Isolationist]]<hr/>
+*[[Religion Blending]]<hr/>
+*[[Wetlanders]]
+|Soninke
+|{{icon|male dominated}} Men Only
+|African<br>[[File:City mena.png|140px]]
+|African
+|West African<br>[[File:House frame 20.png|50px]]
+|Sub-Saharan African
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(178,166,107)" | Gaw
+|Communal<br>[[File:Ethos_communal.png|100px]]
+|
+*[[Caravaneers]]<hr/>
+*[[Dryland Dwellers]]
+|Ayneha
+|{{icon|male dominated}} Men Only
+|African<br>[[File:City mena.png|140px]]
+|African
+|West African<br>[[File:House frame 20.png|50px]]
+|Sub-Saharan African
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(229,95,0)" |Mossi
+|Bellicose<br>[[File:Ethos_bellicose.png|100px]]
+|
+*[[Adaptive Skirmishers]]<hr/>
+*[[Hereditary Hierarchy]]<hr/>
+*[[Ruling Caste]]
+|Gur
+|{{icon|equal}} Equal
+|African<br>[[File:City mena.png|140px]]
+|African
+|West African<br>[[File:House frame 20.png|50px]]
+|Sub-Saharan African
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(178,51,102)" |Songhai
+|Ceremonious<br>[[File:Ethos_courtly.png|100px]]
+|
+*[[Dryland Dwellers]]<hr/>
+*[[Ruling Caste]]<hr/>
+*[[Warrior Culture]]
+|Ayneha
+|{{icon|male dominated}} Men Only
+|African<br>[[File:City mena.png|140px]]
+|African
+|West African<br>[[File:House frame 20.png|50px]]
+|Sub-Saharan African
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(178,160,0)" |Soninke
+|Ceremonious<br>[[File:Ethos_courtly.png|100px]]
+|
+*[[Caravaneers]]<hr/>
+*[[City Keepers]]<hr/>
+*[[Dryland Dwellers]]<hr/>
+*[[Strong Believers]]
+|Soninke
+|{{icon|male dominated}} Men Only
+|African<br>[[File:City mena.png|140px]]
+|African
+|West African<br>[[File:House frame 20.png|50px]]
+|Sub-Saharan African
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(255,249,76)" |Sorko
+|Communal<br>[[File:Ethos_communal.png|100px]]
+|
+*[[Dryland Dwellers]]<hr/>
+*[[Xenophilic]]
+|Ayneha
+|{{icon|male dominated}} Men Only
+|African<br>[[File:City mena.png|140px]]
+|African
+|West African<br>[[File:House frame 20.png|50px]]
+|Sub-Saharan African
+|{{iconify|Counties}}
+|-
+| rowspan="2" |'''Samhanic'''
+! style="background-color:rgb(10%,30%,70%)" |Goryeo
+|Ceremonious<br>[[File:Ethos_courtly.png|100px]]
+|
+*[[Court Eunuchs]]<hr/>
+*[[Martial Admiration]]<hr/>
+*[[Philosopher Culture]] / {{icon|auh}} [[Scholar Officians]]<hr/>
+*{{icon|auh}} [[Cultural Primacy]]<hr/>
+*{{icon|auh}} [[Sinophilic]]<hr/>
+*{{icon|auh}} [[Stratified Society]]
+|Koreanic
+|{{icon|male dominated}} Men Only
+|Chinese<br>[[File:City china.png|140px]]
+|Korean
+|Chinese<br>[[File:House frame 09.png|50px]]
+|Chinese
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(47%,18%,16%)" |Silla
+|Ceremonious<br>[[File:Ethos_courtly.png|100px]]
+|
+*[[Martial Admiration]]<hr/>
+*[[Refined Poetry]]<hr/>
+*{{icon|auh}} [[Cultural Primacy]]<hr/>
+*{{icon|auh}} [[Sinophilic]]<hr/>
+*{{icon|auh}} [[Stratified Society]]
+|Koreanic
+|{{icon|male dominated}} Men Only
+|Chinese<br>[[File:City china.png|140px]]
+|Korean
+|Chinese<br>[[File:House frame 09.png|50px]]
+|Chinese
+|{{iconify|Counties}}
+|-
+| rowspan="3" |'''Senegambian'''
+! style="background-color:rgb(40%,45%,35%)" |Pulaar
+|Bellicose<br>[[File:Ethos_bellicose.png|100px]]
+|
+*[[Charismatic]]<hr/>
+*[[Forbearing]]
+|Senegambian
+|{{icon|male dominated}} Men Only
+|African<br>[[File:City mena.png|140px]]
+|African
+|West African<br>[[File:House frame 20.png|50px]]
+|Sub-Saharan African
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(45%,45%,30%)" |Serer
+|Spiritual<br>[[File:Ethos_spiritual.png|100px]]
+|
+*[[Hereditary Hierarchy]]<hr/>
+*[[Stalwart Defenders]]<hr/>
+*[[Strong Believers]]
+|Senegambian
+|{{icon|male dominated}} Men Only
+|African<br>[[File:City mena.png|140px]]
+|African
+|West African<br>[[File:House frame 20.png|50px]]
+|Sub-Saharan African
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(42%,43%,25%)" |Wolof
+|Communal<br>[[File:Ethos_communal.png|100px]]
+|
+*[[Ruling Caste]]<hr/>
+*[[Strong Believers]]
+|Senegambian
+|{{icon|male dominated}} Men Only
+|African<br>[[File:City mena.png|140px]]
+|African
+|West African<br>[[File:House frame 20.png|50px]]
+|Sub-Saharan African
+|{{iconify|Counties}}
+|-
+| rowspan="4" |'''South Slavic'''
+! style="background-color:rgb(30%,10%,10%); color: white" |Bosnian
+|Communal<br>[[File:Ethos_communal.png|100px]]
+|
+*[[Isolationist]]<hr/>
+*[[Mendicant Mystics]]<hr/>
+*[[Monastic Communities]]
+|South Slavic
+|{{icon|male dominated}} Men Only
+|Mediterranean<br>[[File:City mediterranean.png|140px]]
+|Continental European
+|South Slavic<br>[[File:House frame 02.png|50px]]
+|Eastern European
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(70%,50%,50%)" |Bulgarian
+|Bureaucratic<br>[[File:Ethos_bureaucratic.png|100px]]
+|
+*[[Konni Raids]]<hr/>
+*[[Merciful Blindings]]<hr/>
+*[[Ruling Caste]]<hr/>
+*[[Stand and Fight!]]
+|Slavonic
+|{{icon|male dominated}} Men Only
+|Mediterranean<br>[[File:City mediterranean.png|140px]]
+|Byzantine
+|South Slavic<br>[[File:House frame 02.png|50px]]
+|Eastern European
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(40%,20%,20%); color: white" |Croatian
+|Communal<br>[[File:Ethos_communal.png|100px]]
+|
+*[[Astute Diplomats]]<hr/>
+*[[Hereditary Hierarchy]]<hr/>
+*[[Konni Raids]]
+|South Slavic
+|{{icon|male dominated}} Men Only
+|Mediterranean<br>[[File:City mediterranean.png|140px]]
+|Continental European
+|South Slavic<br>[[File:House frame 02.png|50px]]
+|Eastern European
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(36%,10%,4%); color: white" |Serbian
+|Communal<br>[[File:Ethos_communal.png|100px]]
+|
+*[[Konni Raids]]<hr/>
+*[[Religious Patronage]]<hr/>
+*[[Stalwart Defenders]]<hr/>
+*{{icon|roc}} [[Staunch Traditionalists]]
+|South Slavic
+|{{icon|male dominated}} Men Only
+|Mediterranean<br>[[File:City mediterranean.png|140px]]
+|Byzantine
+|South Slavic<br>[[File:House frame 02.png|50px]]
+|Eastern European
+|{{iconify|Counties}}
+|-
+| '''Syriac'''
+! style="background-color:rgb(82%,83%,53%)" |Syriac
+|Communal<br>[[File:Ethos_communal.png|100px]]
+|
+*[[Caravaneers]]<hr/>
+*[[Loyal Subjects]]<hr/>
+*[[Philosopher Culture]]<hr/>
+*[[Strong Believers]]
+|Aramaic
+|{{icon|male dominated}} Men Only
+|Arabic<br>[[File:City mena.png|140px]]
+|Byzantine<br>Arabic
+|Byzantine<br>[[File:House frame 15.png|50px]]
+|Arabic
+|{{iconify|Counties}}
+|-
+| rowspan="4" |'''Tai'''
+! style="background-color:rgb(50%,45%,20%)" |Bouxcuengh
+|Communal<br>[[File:Ethos_communal.png|100px]]
+|
+*[[Culinary Artists]]<hr/>
+*[[Hill Dwellers]]<hr/>
+*[[Mystical Ancestors]]<hr/>
+*[[Storytellers]]
+|Tai
+|{{icon|male dominated}} Men Only
+|Chinese<br>[[File:City china.png|140px]]
+|Viet
+|Chinese<br>[[File:House frame 26.png|50px]]
+|Southeast Asian
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(50%,50%,50%)" |Hlai
+|Egalitarian<br>[[File:Ethos_egalitarian.png|100px]]
+|
+*[[Charitable]]<hr/>
+*[[Equal Inheritance]]<hr/>
+*[[Jungle Dwellers]]<hr/>
+*[[Xenophilic]] / {{icon|foi}} [[Malleable Subjects]]
+|Tai
+|{{icon|equal}} Equal
+|Chinese<br>[[File:City china.png|140px]]
+|Chinese
+|Chinese<br>[[File:House china.png|50px]]
+|Chinese
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(80%,90%,10%)" |Tai
+|Spiritual<br>[[File:Ethos_spiritual.png|100px]]
+|
+*[[Lords of the Elephant]]<hr/>
+*[[Loyal Subjects]]<hr/>
+*[[Agrarian]] / {{icon|auh}} [[Rice Cultivators]]
+*[[Castle Keepers]] / {{icon|auh}} [[Fortified Strongholds]]<hr/>
+*{{icon|auh}} [[Hydraulic Builders]]
+|Tai
+|{{icon|equal}} Equal
+|Southeast Asian<br>[[File:City se asia.png|140px]]
+|Tai
+|Chinese<br>[[File:House frame 26.png|50px]]
+|Southeast Asian
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(141,186,119)" |Tujia
+|Bellicose<br>[[File:Ethos_bellicose.png|100px]]
+|
+*[[Highland Warriors]]<hr/>
+*[[Loyal Subjects]]<hr/>
+*[[Storytellers]]<hr/>
+*[[Warrior Priests]]
+|Tai
+|{{icon|male dominated}} Men Only
+|Indian<br>[[File:City india.png|140px]]
+|Southeast Asian
+|Chinese<br>[[File:House frame 04.png|50px]]
+|Mongolian
+|{{iconify|Counties}}
+|-
+| rowspan="6" |'''Tibetan'''
+! style="background-color:rgb(50%,50%,50%)" |Bodpa
+|Spiritual<br>[[File:Ethos_spiritual.png|100px]]
+|
+*[[Himalayan Settlers]]<hr/>
+*[[Horse Breeders]]<hr/>
+*[[Religious Patronage]]
+|Tibetan
+|{{icon|male dominated}} Men Only
+|Indian<br>[[File:City india.png|140px]]
+|Mongolian
+|Tibetan<br>[[File:House frame 28.png|50px]]
+|Mongolian
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(220,170,120)" |Kirati
+|Communal<br>[[File:Ethos_communal.png|100px]]
+|
+*[[Himalayan Settlers]]<hr/>
+*[[Religion Blending]]
+|Tibetan
+|{{icon|male dominated}} Men Only
+|Indian<br>[[File:City india.png|140px]]
+|Mongolian
+|Tibetan<br>[[File:House frame 28.png|50px]]
+|Mongolian
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(191,182,182)" |Lhomon
+|Communal<br>[[File:Ethos_communal.png|100px]]
+|
+*[[Himalayan Settlers]]<hr/>
+*[[Medicinal Herbalists]]<hr/>
+*[[Mystical Ancestors]]
+|Tibetan
+|{{icon|male dominated}} Men Only
+|Indian<br>[[File:City india.png|140px]]
+|Mongolian<br>Indian
+|Tibetan<br>[[File:House frame 28.png|50px]]
+|Mongolian
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(90,90,125)" |Sumpa
+|Egalitarian<br>[[File:Ethos_egalitarian.png|100px]]
+|
+*[[Equal Inheritance]]<hr/>
+*[[Himalayan Settlers]]<hr/>
+*[[Mountaineers]]
+|Tibetan
+|{{icon|male dominated}} Men Only
+|Indian<br>[[File:City india.png|140px]]
+|Mongolian
+|Tibetan<br>[[File:House frame 28.png|50px]]
+|Mongolian
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(75,100,100)" |Tsangpa
+|Spiritual<br>[[File:Ethos_spiritual.png|100px]]
+|
+*[[Himalayan Settlers]]<hr/>
+*[[Religious Patronage]]<hr/>
+*[[Sacred Mountains]]
+|Tibetan
+|{{icon|male dominated}} Men Only
+|Indian<br>[[File:City india.png|140px]]
+|Mongolian
+|Tibetan<br>[[File:House frame 28.png|50px]]
+|Mongolian
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(100,90,70)" |Zhangzhung
+|Spiritual<br>[[File:Ethos_spiritual.png|100px]]
+|
+*[[Himalayan Settlers]]<hr/>
+*[[Sacred Mountains]]
+|Tibetan
+|{{icon|male dominated}} Men Only
+|Indian<br>[[File:City india.png|140px]]
+|Mongolian
+|Tibetan<br>[[File:House frame 28.png|50px]]
+|Mongolian
+|{{iconify|Counties}}
+|-
+|'''Tocharian'''
+! style="background-color:rgb(75%,45%,95%)" |Tocharian
+|Spiritual<br>[[File:Ethos_spiritual.png|100px]]
+|
+*[[Caravaneers]]<hr/>
+*[[Philosopher Culture]]<hr/>
+*[[Religious Patronage]]<hr/>
+*[[Xenophilic]]<hr/>
+*{{icon|lop}} [[Frontier Warriors]]
+|Tocharian
+|{{icon|male dominated}} Men Only
+|Iranian<br>[[File:City iranian.png|140px]]
+|Iranian
+|Iranian<br>[[File:House frame 12.png|50px]]
+|Iranian
+|{{iconify|Counties}}
+|-
+| rowspan="2" |'''Tungusic'''
+! style="background-color:rgb(250,185,5)" |Jurchen
+|Bellicose<br>[[File:Ethos_bellicose.png|100px]]
+|
+*[[Forest Folk]]<hr/>
+*[[Practiced Pirates]]<hr/>
+*[[Prolific Hunters]] / {{icon|foi}} [[Malleable Subjects]]<hr/>
+*[[Horse Breeders]] / {{icon|kos}} [[Iron Cavalry]]
+|Tungusic
+|{{icon|male dominated}} Men Only
+|Eurasian Steppe<br>[[File:City western.png|140px]]
+|Mongolian
+|Mongolian<br>[[File:House frame 14.png|50px]]
+|Mongolian
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(140,110,35)" |Mohe
+|Egalitarian<br>[[File:Ethos_egalitarian.png|100px]]
+|
+*[[Forest Folk]]<hr/>
+*[[Sacred Hunts]]<hr/>
+*[[Prolific Hunters]]<hr/>
+*[[Xenophilic]] / {{icon|foi}} [[Malleable Subjects]]
+|Tungusic
+|{{icon|male dominated}} Men Only
+|Eurasian Steppe<br>[[File:City western.png|140px]]
+|Mongolian
+|Mongolian<br>[[File:House frame 14.png|50px]]
+|Mongolian
+|{{iconify|Counties}}
+|-
+| rowspan="3" |'''Ugro-Permian'''
+! style="background-color:rgb(30%,87%,21%)" |Bjarmian
+|Stoic<br>[[File:Ethos_stoic.png|100px]]
+|
+*[[Caravaneers]]<hr/>
+*[[Charismatic]]<hr/>
+*[[Forest Wardens]]<hr/>
+*[[Xenophilic]]
+|Finnic
+|{{icon|male dominated}} Men Only
+|Continental European<br>[[File:City western.png|140px]]
+|Ugro-Permian
+|Ugro-Permian<br>[[File:House frame 05.png|50px]]
+|Northern European
+|{{iconify|Herd}}
+|-
+! style="background-color:rgb(40%,65%,20%)" |Ostyak
+|Spiritual<br>[[File:Ethos_spiritual.png|100px]]
+|
+*[[Isolationist]]<hr/>
+*[[Strong Believers]]<hr/>
+*{{icon|kos}} [[Tribes of the North]]
+|Ugro-Permian
+|{{icon|male dominated}} Men Only
+|Continental European<br>[[File:City western.png|140px]]
+|Ugro-Permian
+|Ugro-Permian<br>[[File:House frame 05.png|50px]]
+|Northern European
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(50%,75%,25%)" |Permian
+|Communal<br>[[File:Ethos_communal.png|100px]]
+|
+*[[Forest Wardens]]<hr/>
+*[[Frugal Armorers]]<hr/>
+*{{icon|kos}} [[Tribes of the North]]
+|Ugro-Permian
+|{{icon|male dominated}} Men Only
+|Continental European<br>[[File:City western.png|140px]]
+|Ugro-Permian
+|Ugro-Permian<br>[[File:House frame 05.png|50px]]
+|Northern European
+|{{iconify|Counties}}
+|-
+|'''Viet'''
+! style="background-color:rgb(70%,30%,50%)" |Viet
+|Ceremonious<br>[[File:Ethos_courtly.png|100px]]
+|
+*[[Astute Diplomats]]<hr/>
+*[[Mystical Ancestors]]<hr/>
+*[[Agrarian]] / {{icon|auh}} [[Rice Cultivators]]<hr/>
+*[[Hereditary Hierarchy]] / {{icon|auh}} [[Scholar Officians]]<hr/>
+*{{icon|auh}} [[Sinophilic]]
+|Vietic
+|{{icon|male dominated}} Men Only
+|Chinese<br>[[File:City china.png|140px]]
+|Viet
+|Chinese<br>[[File:House frame 28.png|50px]]
+|Chinese
+|{{iconify|Counties}}
+|-
+|'''Vlach'''
+! style="background-color:rgb(30%,20%,20%); color: white" |Vlach
+|Communal<br>[[File:Ethos_communal.png|100px]]
+|
+*[[Konni Raids]]<hr/>
+*[[Pastorialists]]<hr/>
+*[[Strong Believers]]<hr/>
+*[[Xenophilic]]<hr/>
+*{{icon|roc}} [[Staunch Traditionalists]]
+|Dacian Vulgar
+|{{icon|male dominated}} Men Only
+|Mediterranean<br>[[File:City mediterranean.png|140px]]
+|Byzantine
+|South Slavic<br>[[File:House frame 02.png|50px]]
+|Eastern European
+|{{iconify|Counties}}
+|-
+| rowspan="5" |'''Volga-Finnic'''
+! style="background-color:rgb(45%,55%,85%)" |Mari
+|Stoic<br>[[File:Ethos_stoic.png|100px]]
+|
+*[[Frequent Festivities]]<hr/>
+*[[Musical Theorists]]
+|Volga-Finnic
+|{{icon|male dominated}} Men Only
+|Continental European<br>[[File:City western.png|140px]]
+|Ugro-Permian
+|Eurasian Steppe<br>[[File:House frame 05.png|50px]]
+|Northern European
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(25%,50%,80%)" |Merya
+|Stoic<br>[[File:Ethos_stoic.png|100px]]
+|
+*[[Storytellers]]<hr/>
+*{{icon|roc}} [[Culture Blending]]
+|Volga-Finnic
+|{{icon|male dominated}} Men Only
+|Continental European<br>[[File:City western.png|140px]]
+|Ugro-Permian
+|Eurasian Steppe<br>[[File:House frame 05.png|50px]]
+|Northern European
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(35%,40%,80%)" |Meshchera
+|Stoic<br>[[File:Ethos_stoic.png|100px]]
+|
+*[[Musical Theorists]]<hr/>
+*[[Religion Blending]]<hr/>
+*{{icon|roc}} [[Culture Blending]]
+|Volga-Finnic
+|{{icon|male dominated}} Men Only
+|Continental European<br>[[File:City western.png|140px]]
+|Northern European
+|Eurasian Steppe<br>[[File:House frame 05.png|50px]]
+|Northern European
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(45%,35%,80%)" |Mordvin
+|Stoic<br>[[File:Ethos_stoic.png|100px]]
+|
+*[[Frequent Festivities]]<hr/>
+*[[Musical Theorists]]<hr/>
+*[[Religion Blending]]
+|Volga-Finnic
+|{{icon|male dominated}} Men Only
+|Continental European<br>[[File:City western.png|140px]]
+|Northern European
+|Eurasian Steppe<br>[[File:House frame 05.png|50px]]
+|Northern European
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(20%,30%,60%); color: white" |Muroma
+|Stoic<br>[[File:Ethos_stoic.png|100px]]
+|
+*[[Frequent Festivities]]<hr/>
+*[[Storytellers]]<hr/>
+*{{icon|roc}} [[Culture Blending]]
+|Volga-Finnic
+|{{icon|male dominated}} Men Only
+|Continental European<br>[[File:City western.png|140px]]
+|Northern European
+|Eurasian Steppe<br>[[File:House frame 05.png|50px]]
+|Northern European
+|{{iconify|Counties}}
+|-
+| rowspan="4" |'''West Germanic'''
+! style="background-color:rgb(80%,30%,30%)" |Anglo-Saxon
+|Bureaucratic<br>[[File:Ethos_bureaucratic.png|100px]]
+|
+*[[City Keepers]]<hr/>
+*[[Hirds]]<hr/>
+*[[The Witenagemot]]
+|Anglic
+|{{icon|male dominated}} Men Only
+|Continental European<br>[[File:City western.png|140px]]
+|Northern European<br>Continental European
+|Anglo-Saxon<br>[[File:House frame 24.png|50px]]
+|Continental European
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(80%,20%,20%)" | English
+|Bureaucratic<br>[[File:Ethos_bureaucratic.png|100px]]
+|
+*[[Castle Keepers]]<hr/>
+*[[Chivalry]]<hr/>
+*[[Hereditary Hierarchy]]<hr/>
+*[[Longbow Competitions]]
+|Anglic
+|{{icon|male dominated}} Men Only
+|Continental European<br>[[File:City western.png|140px]]
+|Continental European
+|English<br>[[File:House frame 24.png|50px]]
+|Continental European
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(50%,10%,10%); color: white" |Old Saxon
+|Bellicose<br>[[File:Ethos_bellicose.png|100px]]
+|
+*[[Hirds]]<hr/>
+*[[Seafarers]]<hr/>
+*[[Ting-Meet]]<hr/>
+*{{icon|roc}} [[Malleable Invaders]]
+|Anglic
+|{{icon|male dominated}} Men Only
+|Continental European<br>[[File:City western.png|140px]]
+|Norse
+|Continental European<br>[[File:House frame 24.png|50px]]
+|Continental European
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(204,76,40)" |Scots
+|Bureaucratic<br>[[File:Ethos_bureaucratic.png|100px]]
+|
+*[[City Keepers]]<hr/>
+*[[Hereditary Hierarchy]]<hr/>
+*[[Strong Kinship]]<hr/>
+*[[Xenophilic]]
+|Anglic
+|{{icon|male dominated}} Men Only
+|Continental European<br>[[File:City western.png|140px]]
+|Continental European
+|Scottish<br>[[File:House frame 24.png|50px]]
+|Continental European
+|{{iconify|Counties}}
+|-
+| rowspan="6" |'''West Slavic'''
+! style="background-color:rgb(40%,65%,40%)" |Carantanian
+|Communal<br>[[File:Ethos_communal.png|100px]]
+|
+*[[Martial Admiration]]<hr/>
+*[[Mountaineer Ruralism]]
+|South Slavic
+|{{icon|male dominated}} Men Only
+|Continental European<br>[[File:City western.png|140px]]
+|West Slavic
+|West Slavic<br>[[File:House frame 21.png|50px]]
+|Eastern European
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(20%,80%,50%)" |Czech
+|Bureaucratic<br>[[File:Ethos_bureaucratic.png|100px]]
+|
+*[[Castle Keepers]]<hr/>
+*[[Industrious]]<hr/>
+*[[Life is just a Joke]]<hr/>
+*[[Mountaineer Ruralism]]
+|Czech-Slovien
+|{{icon|male dominated}} Men Only
+|Continental European<br>[[File:City western.png|140px]]
+|West Slavic
+|West Slavic<br>[[File:House frame 21.png|50px]]
+|Eastern European
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(40%,70%,80%)" |Polabian
+|Stoic<br>[[File:Ethos_stoic.png|100px]]
+|
+*[[Hereditary Hierarchy]]<hr/>
+*[[Konni Raids]]<hr/>
+*[[Stalwart Defenders]]
+|Lechitic
+|{{icon|male dominated}} Men Only
+|Continental European<br>[[File:City western.png|140px]]
+|West Slavic
+|Polish<br>[[File:House frame 21.png|50px]]
+|Eastern European
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(30%,60%,60%)" |Polish
+|Ceremonious<br>[[File:Ethos_courtly.png|100px]]
+| 
+*[[Konni Raids]]<hr/>
+*[[Xenophilic]]<hr/>
+*{{icon|roc}} [[Staunch Traditionalists]]
+|Lechitic
+|{{icon|male dominated}} Men Only
+|Continental European<br>[[File:City western.png|140px]]
+|West Slavic
+|Polish<br>[[File:House frame 21.png|50px]]
+|Eastern European
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(30%,60%,40%)" |Pomeranian
+|Stoic<br>[[File:Ethos_stoic.png|100px]]
+| 
+*[[Konni Raids]]<hr/>
+*[[Maritime Mercantilism]]<hr/>
+*{{icon|roc}} [[Staunch Traditionalists]]
+|Lechitic
+|{{icon|male dominated}} Men Only
+|Continental European<br>[[File:City western.png|140px]]
+|West Slavic
+|West Slavic<br>[[File:House frame 21.png|50px]]
+|Eastern European
+|{{iconify|Counties}}
+|-
+! style="background-color:rgb(30%,60%,50%)" |Slovien
+|Egalitarian<br>[[File:Ethos_egalitarian.png|100px]]
+|
+*[[Equitable]]<hr/>
+*[[Mountaineer Ruralism]]
+|Czech-Slovien
+|{{icon|male dominated}} Men Only
+|Continental European<br>[[File:City western.png|140px]]
+|West Slavic
+|Polish<br>[[File:House frame 21.png|50px]]
+|Eastern European
+|{{iconify|Counties}}
+|}
+
+=== Nomadic cultures ===
+Nomadic cultures are located in nomadic regions. Counties with nomadic cultures will use the most common architecture of the region where they're located. If the {{iconify|Khans of the Steppe}} DLC is installed all of them will use {{iconify|Herd}} to determine their culture head and will lose the Horse Lords and Steppe Tolerance traditions.
+{| class="mildtable sortable plainlist" style="text-align: center;"
+! {{iconify|Heritage}}
+! {{iconify|Culture}}
+! Ethos
+! Traditions
+! {{iconify|Language}}
+! Martial Custom
+! Fashion
+! Coat of Arms
+! Military Equipment
+! Origin
+! Present in
+|-
+| rowspan="2" |'''Horn African'''
+! style="background-color:rgb(17,82,178); color: white" |Afar
+|Bellicose<br>[[File:Ethos_bellicose.png|100px]]
+|
+*[[Eye for an Eye]]<hr/>
+*[[Monogamous]]<hr/>
+*[[Mountain Skirmishing]]<hr/>
+*[[Warrior Culture]]
+|Cushitic
+|{{icon|male dominated}} Men Only
+|African
+|East African<br>[[File:House frame 07.png|50px]]
+|Arabic
+|Original
+|867-1178
+|-
+! style="background-color:rgb(15,39,76); color: white" |Somali
+|Communal<br>[[File:Ethos_communal.png|100px]]
+|
+*[[Dryland Dwellers]]<hr/>
+*[[Maritime Mercantilism]]<hr/>
+*[[Mountain Skirmishing]]<hr/>
+*[[Refined Poetry]]
+|Cushitic
+|{{icon|male dominated}} Men Only
+|African
+|East African<br>[[File:House frame 07.png|50px]]
+|Arabic
+|Original
+|867-1178
+|-
+| rowspan="9" |'''Mongolic'''
+! style="background-color:rgb(10%,10%,80%); color: white" |Buryat
+|Spiritual<br>[[File:Ethos_spiritual.png|100px]]
+|
+*[[Mystical Ancestors]]<hr/>
+*[[Strong Believers]]<hr/>
+*[[Horse Lords]]<hr/>
+*[[Steppe Tolerance]]<hr/>
+*{{icon|kos}} [[Tribes of the North]]
+|Mongolic
+|{{icon|male dominated}} Men Only
+|Mongolian
+|Mongolian<br>[[File:House frame 14.png|50px]]
+|Mongolian
+|Original
+|867-1178
+|-
+! style="background-color:rgb(40%,60%,90%)" |Kerait
+|Bellicose<br>[[File:Ethos_bellicose.png|100px]]
+|
+*[[Horse Breeders]]<hr/>
+*[[Prolific Hunters]]<hr/>
+*[[Horse Lords]]<hr/>
+*[[Steppe Tolerance]]
+|Mongolic
+|{{icon|male dominated}} Men Only
+|Mongolian
+|Mongolian<br>[[File:House frame 16.png|50px]]
+|Mongolian
+|Original
+|867-1178
+|-
+! style="background-color:rgb(80%,80%,30%)" |Khitan
+|Bellicose<br>[[File:Ethos_bellicose.png|100px]]
+|
+*[[Pastorialists]]<hr/>
+*[[Ruling Caste]]<hr/>
+*[[Sacred Hunts]]<hr/>
+*[[Religion Blending]] / {{icon|roc}} [[Malleable Invaders]]<hr/>
+*{{icon|kos}} [[Iron Cavalry]]
+|Khitan
+|{{icon|equal}} Equal
+|Mongolian
+|Mongolian<br>[[File:House frame 16.png|50px]]
+|Mongolian
+|Original
+|1066-1178
+|-
+! style="background-color:rgb(40%,40%,100%)" |Mongol
+|Bellicose<br>[[File:Ethos_bellicose.png|100px]]
+|
+*[[Hit-and-Run Tacticians]]<hr/>
+*[[Only the Strong]]<hr/>
+*[[Prolific Hunters]]<hr/>
+*[[Horse Lords]]<hr/>
+*[[Steppe Tolerance]] / {{icon|kos}} [[Wolves of the Deep Steppe]]<hr/>
+*{{icon|roc}} [[Malleable Invaders]]
+|Mongolic
+|{{icon|male dominated}} Men Only
+|Mongolian
+|Mongolian<br>[[File:House frame 14.png|50px]]
+|Mongolian
+|Original
+|867-1178
+|-
+! style="background-color:rgb(45%,55%,90%)" |Naiman
+|Stoic<br>[[File:Ethos_stoic.png|100px]]
+|
+*[[Charismatic]]<hr/>
+*[[Mountain Homes]]<hr/>
+*[[Pastorialists]]<hr/>
+*[[Stalwart Defenders]]<hr/>
+*[[Horse Lords]]<hr/>
+*[[Steppe Tolerance]]
+|Mongolic
+|{{icon|male dominated}} Men Only
+|Mongolian
+|Mongolian<br>[[File:House frame 14.png|50px]]
+|Mongolian
+|Original
+|867-1178
+|-
+! style="background-color:rgb(20%,20%,100%); color: white" |Oirat
+|Bellicose<br>[[File:Ethos_bellicose.png|100px]]
+|
+*[[Mountain Homes]]<hr/>
+*[[Prolific Hunters]]<hr/>
+*[[Strong Believers]]<hr/>
+*[[Horse Lords]]<hr/>
+*{{icon|kos}} [[Tribes of the North]]
+|Mongolic
+|{{icon|male dominated}} Men Only
+|Mongolian
+|Mongolian<br>[[File:House frame 14.png|50px]]
+|Mongolian
+|Original
+|867-1178
+|-
+! style="background-color:rgb(65%,40%,15%)" |Öngüd
+|Bellicose<br>[[File:Ethos_bellicose.png|100px]]
+|
+*[[Astute Diplomats]]<hr/>
+*[[Prolific Hunters]]<hr/>
+*[[Stalwart Defenders]]<hr/>
+*[[Horse Lords]]<hr/>
+*[[Steppe Tolerance]]
+|Shaz Turkic
+|{{icon|male dominated}} Men Only
+|Mongolian
+|Turkic<br>[[File:House frame 14.png|50px]]
+|Mongolian
+|Diverged from Shatuo
+|867-1178
+|-
+! style="background-color:rgb(23%,15%,80%); color: white" |Shiwei
+|Communal<br>[[File:Ethos_communal.png|100px]]
+|
+*[[Isolationist]]<hr/>
+*[[Mountaineers]]<hr/>
+*[[Pastorialists]]<hr/>
+*{{icon|kos}} [[Iron Cavalry]]
+|Khitan
+|{{icon|male dominated}} Men Only
+|Mongolian
+|Mongolian<br>[[File:House frame 14.png|50px]]
+|Mongolian
+|Original
+|867-1178
+|-
+! style="background-color:rgb(255,125,125)" |Tuyuhun
+|Bellicose<br>[[File:Ethos_bellicose.png|100px]]
+|
+*[[Dryland Dwellers]]<hr/>
+*[[Horse Breeders]]<hr/>
+*[[Pastorialists]]<hr/>
+*{{icon|kos}} [[Iron Cavalry]]
+|Mongolic
+|{{icon|male dominated}} Men Only
+|Mongolian
+|Mongolian<br>[[File:House frame 14.png|50px]]
+|Mongolian
+|Original
+|867-1178
+|-
+| rowspan="18" |'''Turkic'''
+! style="background-color:rgb(70%,70%,30%)" |Avar
+|Bellicose<br>[[File:Ethos_bellicose.png|100px]]
+|
+*[[Recognition of Talent]]<hr/>
+*[[Ruling Caste]]<hr/>
+*[[Horse Lords]]<hr/>
+*{{icon|roc}} [[Culture Blending]]
+|Oghur
+|{{icon|male dominated}} Men Only
+|Turkic
+|Turkic<br>[[File:House frame 14.png|50px]]
+|Mongolian
+|Original
+|867
+|-
+! style="background-color:rgb(118,89,51)" |Bashkir
+|Stoic<br>[[File:Ethos_stoic.png|100px]]
+|
+*[[Forest Folk]]<hr/>
+*[[Hill Dwellers]]<hr/>
+*[[Strong Believers]]<hr/>
+*[[Horse Lords]]<hr/>
+*{{icon|roc}} [[Malleable Invaders]]
+|Shaz Turkic
+|{{icon|male dominated}} Men Only
+|Turkic
+|Turkic<br>[[File:House frame 14.png|50px]]
+|Mongolian
+|Original
+|867-1178
+|-
+! style="background-color:rgb(147,124,93)" |Bolghar
+|Communal<br>[[File:Ethos_communal.png|100px]]
+|
+*[[Astute Diplomats]]<hr/>
+*[[Ruling Caste]]<hr/>
+*[[Horse Lords]]<hr/>
+*{{icon|roc}} [[Malleable Invaders]]
+|Oghur
+|{{icon|male dominated}} Men Only
+|Turkic
+|Turkic<br>[[File:House frame 14.png|50px]]
+|Mongolian
+|Original
+|867-1178
+|-
+! style="background-color:rgb(70%,50%,60%)" |Chuvash
+|Communal<br>[[File:Ethos_communal.png|100px]]
+|
+*[[Sacred Groves]]<hr/>
+*[[Sacred Hunts]]<hr/>
+*[[Strong Believers]]<hr/>
+*[[Horse Lords]]
+|Oghur
+|{{icon|male dominated}} Men Only
+|Turkic
+|Turkic<br>[[File:House frame 14.png|50px]]
+|Mongolian
+|Diverged from Bolghar
+|867-1178
+|-
+! style="background-color:rgb(75%,60%,20%)" |Cuman
+|Bellicose<br>[[File:Ethos_bellicose.png|100px]]
+|
+*[[Eye for an Eye]]<hr/>
+*[[Pastorialists]]<hr/>
+*[[Swords for Hire]]<hr/>
+*[[Warrior Culture]]<hr/>
+*[[Horse Lords]]<hr/>
+*{{icon|roc}} [[Malleable Invaders]]
+|Shaz Turkic
+|{{icon|male dominated}} Men Only
+|Turkic
+|Turkic<br>[[File:House frame 14.png|50px]]
+|Mongolian
+|Original
+|867-1178
+|-
+! style="background-color:rgb(248,138,71)" |Karluk
+|Communal<br>[[File:Ethos_communal.png|100px]]
+|
+*[[Dryland Dwellers]]<hr/>
+*[[Mountain Homes]]<hr/>
+*[[Sacred Mountains]]<hr/>
+*[[Horse Lords]]<hr/>
+*[[Steppe Tolerance]]<hr/>
+*{{icon|roc}} [[Malleable Invaders]]
+|Shaz Turkic
+|{{icon|male dominated}} Men Only
+|Turkic
+|Turkic<br>[[File:House frame 14.png|50px]]
+|Mongolian
+|Original
+|867-1178
+|-
+! style="background-color:rgb(70%,45%,10%)" |Khazar
+|Egalitarian<br>[[File:Ethos_egalitarian.png|100px]]
+|
+*[[Concubines]]<hr/>
+*[[Only the Strong]]<hr/>
+*[[Stand and Fight!]]<hr/>
+*[[Horse Lords]]<hr/>
+*[[Steppe Tolerance]]
+|Oghur
+|{{icon|equal}} Equal
+|Turkic
+|Turkic<br>[[File:House frame 14.png|50px]]
+|Mongolian
+|Original
+|867-1178
+|-
+! style="background-color:rgb(90%,75%,10%)" |Kimek
+|Stoic<br>[[File:Ethos_stoic.png|100px]]
+|
+*[[Pastorialists]]<hr/>
+*[[Prolific Hunters]]<hr/>
+*[[Stalwart Defenders]]<hr/>
+*[[Horse Lords]]
+|Shaz Turkic
+|{{icon|male dominated}} Men Only
+|Turkic
+|Turkic<br>[[File:House frame 14.png|50px]]
+|Mongolian
+|Original
+|867-1178
+|-
+! style="background-color:rgb(55%,50%,15%)" | Kipchak
+|Stoic<br>[[File:Ethos_stoic.png|100px]]
+|
+*[[Prolific Hunters]]<hr/>
+*[[Quarrelsome]]<hr/>
+*[[Swords for Hire]]<hr/>
+*[[Horse Lords]]
+|Shaz Turkic
+|{{icon|male dominated}} Men Only
+|Turkic
+|Turkic<br>[[File:House frame 14.png|50px]]
+|Mongolian
+|Original
+|867-1178
+|-
+! style="background-color:rgb(85%,72%,30%)" |Kirghiz
+|Egalitarian<br>[[File:Ethos_egalitarian.png|100px]]
+|
+*[[Prolific Hunters]]<hr/>
+*[[Quarrelsome]]<hr/>
+*[[Horse Lords]]<hr/>
+*{{icon|kos}} [[Tribes of the North]]
+|Shaz Turkic
+|{{icon|equal}} Equal
+|Turkic
+|Turkic<br>[[File:House frame 14.png|50px]]
+|Mongolian
+|Original
+|867-1178
+|-
+! style="background-color:rgb(55%,45%,10%)" |Laktan
+|Stoic<br>[[File:Ethos_stoic.png|100px]]
+|
+*[[Forest Folk]]<hr/>
+*[[Prolific Hunters]]<hr/>
+*[[Stalwart Defenders]]<hr/>
+*[[Horse Lords]]
+|Shaz Turkic
+|{{icon|male dominated}} Men Only
+|Turkic
+|Turkic<br>[[File:House frame 14.png|50px]]
+|Mongolian
+|Original
+|867-1178
+|-
+! style="background-color:rgb(255,155,25)" |Oghuz
+|Bellicose<br>[[File:Ethos_bellicose.png|100px]]
+|
+*[[Ruling Caste]]<hr/>
+*[[Swords for Hire]]<hr/>
+*[[Warrior Culture]]<hr/>
+*[[Horse Lords]]<hr/>
+*{{icon|kos}} [[Iron Cavalry]]
+|Shaz Turkic
+|{{icon|male dominated}} Men Only
+|Turkic
+|Oghuz<br>[[File:House frame 14.png|50px]]
+|Mongolian
+|Original
+|867-1178
+|-
+! style="background-color:rgb(85%,79%,25%)" |Pecheneg
+|Bellicose<br>[[File:Ethos_bellicose.png|100px]]
+| 
+*[[Quarrelsome]]<hr/>
+*[[Swords for Hire]]<hr/>
+*[[Warrior Culture]]<hr/>
+*[[Horse Lords]] / {{icon|kos}} [[Devoted Horsemanship]]
+|Shaz Turkic
+|{{icon|male dominated}} Men Only
+|Turkic
+|Oghuz<br>[[File:House frame 14.png|50px]]
+|Mongolian
+|Original
+|867-1178
+|-
+! style="background-color:rgb(70%,30%,20%)" |Shatuo
+|Bellicose<br>[[File:Ethos_bellicose.png|100px]]
+|
+*[[Court Eunuchs]]<hr/>
+*[[Pastorialists]]<hr/>
+*[[Ruling Caste]]<hr/>
+*{{icon|kos}} [[Iron Cavalry]]
+|Chinese
+|{{icon|male dominated}} Men Only
+|Turkic
+|Turkic<br>[[File:House frame 14.png|50px]]
+|Mongolian
+|Original
+|867
+|-
+! style="background-color:rgb(80%,40%,10%)" |Turkmen
+|Bellicose<br>[[File:Ethos_bellicose.png|100px]]
+|
+*[[By the Sword]]<hr/>
+*[[Prolific Hunters]]<hr/>
+*[[Ruling Caste]]<hr/>
+*[[Horse Lords]]<hr/>
+*{{icon|kos}} [[Iron Cavalry]]
+|Shaz Turkic
+|{{icon|male dominated}} Men Only
+|Turkic
+|Oghuz<br>[[File:House frame 14.png|50px]]
+|Mongolian
+|Diverged from Oghuz
+|1178
+|-
+! style="background-color:rgb(75%,80%,50%)" |Uriankhai
+|Communal<br>[[File:Ethos_communal.png|100px]]
+| 
+*[[Forest Folk]]<hr/>
+*[[Mendicant Mystics]]<hr/>
+*[[Prolific Hunters]]<hr/>
+*[[Horse Lords]]
+|Shaz Turkic
+|{{icon|male dominated}} Men Only
+|Turkic
+|Turkic<br>[[File:House frame 14.png|50px]]
+|Mongolian
+|Original
+|867-1178
+|-
+! style="background-color:rgb(85%,75%,50%)" | Uyghur
+|Spiritual<br>[[File:Ethos_spiritual.png|100px]]
+|
+*[[Caravaneers]]<hr/>
+*[[Charitable]]<hr/>
+*[[Religious Patronage]]<hr/>
+*[[Xenophilic]]<hr/>
+*[[Steppe Tolerance]]
+|Shaz Turkic
+|{{icon|male dominated}} Men Only
+|Turkic
+|Turkic<br>[[File:House frame 14.png|50px]]
+|Mongolian
+|Original
+|867-1178
+|-
+! style="background-color:rgb(65%,95%,55%)" |Yughur
+|Communal<br>[[File:Ethos_communal.png|100px]]
+|
+*[[Pastorialists]]<hr/>
+*[[Horse Lords]]<hr/>
+*[[Steppe Tolerance]]<hr/>
+*{{icon|kos}} [[Iron Cavalry]]
+|Shaz Turkic
+|{{icon|male dominated}} Men Only
+|Turkic
+|Turkic<br>[[File:House frame 14.png|50px]]
+|Mongolian
+|Diverged from Uyghur
+|867-1178
+|}
+
+=== North Germanic cultures ===
+There are four cultures with North Germanic heritage. Their Culture Head will always be the ruler who controls most counties of that culture. Between the years 950 and 990 the Norse culture split will take place. All Norse counties and characters inside Norway will become Norwegian, all Norse counties and characters inside Denmark will become Danish, and all Norse counties and characters inside Sweden, Finland and Sápmi will become Swedish. The split can be prevented by a ruler who controls 80% of the counties with Norse culture when it happens. Norse architecture will have Continental European appearance and Norse fashion will have Northern European appearance if the {{iconify|Northern Lords}} DLC is not installed.
+{| class="mildtable plainlist" style="text-align: center;"
+! {{iconify|Culture}}
+! Ethos
+! Traditions
+! {{iconify|Language}}
+! Martial Custom
+! Architecture
+! Fashion
+! Coat of Arms
+! Military Equipment
+! Present in
+|-
+! style="background-color:rgb(30%,55%,80%)" |Norse
+|Bellicose<br>[[File:Ethos_bellicose.png|100px]]
+|
+*[[Ting-Meet]]<hr/>
+*[[Hirds]] / {{icon|nrl}} [[Coastal Warriors]]<hr/>
+*[[Refined Poetry]] / {{icon|nrl}} [[Performative Honor]]<hr/>
+*[[Runestone Raisers]] / {{icon|nrl}} [[Northern Stories]]<hr/>
+*{{icon|roc}} [[Malleable Invaders]]
+|Norse
+|{{icon|male dominated}} Men Only
+|Norse<br>[[File:City norse.png|140px]]
+|Norse
+|Norse<br>[[File:House frame 05.png|50px]]
+|Norse
+|867-1066
+|-
+! style="background-color:rgb(15%,40%,55%)" |Danish
+|Bellicose<br>[[File:Ethos_bellicose.png|100px]]
+|
+*[[Ting-Meet]]<hr/>
+*[[Eye for an Eye]]<hr/>
+*[[Hereditary Hierarchy]]<hr/>
+*[[Runestone Raisers]]<hr/>
+*[[Hirds]] / {{icon|nrl}} [[Coastal Warriors]]
+|Norse
+|{{icon|male dominated}} Men Only
+|Continental European<br>[[File:City western.png|140px]]
+|Northern European
+|Danish<br>[[File:House frame 21.png|50px]]
+|Northern European
+|1066-1178
+|-
+! style="background-color:rgb(210,150,255)" |Norwegian
+|Bellicose<br>[[File:Ethos_bellicose.png|100px]]
+|
+*[[Ting-Meet]]<hr/>
+*[[Maritime Mercantilism]]<hr/>
+*[[Runestone Raisers]]<hr/>
+*[[Storytellers]]<hr/>
+*[[Hirds]] / {{icon|nrl}} [[Coastal Warriors]]
+|Norse
+|{{icon|male dominated}} Men Only
+|Continental European<br>[[File:City western.png|140px]]
+|Northern European
+|Norwegian<br>[[File:House frame 21.png|50px]]
+|Northern European
+|1066-1178
+|-
+! style="background-color:rgb(25%,50%,75%)" |Swedish
+|Bellicose<br>[[File:Ethos_bellicose.png|100px]]
+|
+*[[Ting-Meet]]<hr/>
+*[[Runestone Raisers]]<hr/>
+*[[Strong Believers]]<hr/>
+*[[Hirds]] / {{icon|nrl}} [[Coastal Warriors]]
+|Norse
+|{{icon|male dominated}} Men Only
+|Continental European<br>[[File:City western.png|140px]]
+|Northern European
+|Swedish<br>[[File:House frame 21.png|50px]]
+|Northern European
+|1066-1178
+|}
+
+=== Ancient cultures ===
+Ancient cultures are all dead and only exist for the purpose of Legends and historical characters. They can be selected for custom characters but do not start with any Innovation. If they are brought back on the map, their Culture Head will be the ruler who controls most counties of that culture.
+{| class="mildtable plainlist" style="text-align: center;"
+! {{iconify|Heritage}}
+! {{iconify|Culture}}
+! Ethos
+! Traditions
+! {{iconify|Language}}
+! Martial Custom
+! Architecture
+! Fashion
+! Coat of Arms
+! Military Equipment
+|-
+| '''Egyptian'''
+! style="background-color:rgb(90%,85%,17%)" |Ancient Egyptian
+|Spiritual<br>[[File:Ethos_spiritual.png|100px]]
+|
+*[[Agrarian]]<hr/>
+*[[Hereditary Hierarchy]]<hr/>
+*[[Philosopher Culture]]<hr/>
+*[[Strong Believers]]
+|Egyptian
+|{{icon|equal}} Equal
+|Arabic<br>[[File:City mena.png|140px]]
+|Abbasid<br>Byzantine
+|Latin<br>[[File:House frame 16.png|50px]]
+|Arabic
+|-
+| '''Gothic'''
+! style="background-color:rgb(10%,20%,10%); color: white" |Gothic
+|Bellicose<br>[[File:Ethos_bellicose.png|100px]]
+|
+*[[Isolationist]]<hr/>
+*[[Martial Admiration]]<hr/>
+*[[Stand and Fight!]]<hr/>
+*{{icon|roc}} [[Malleable Invaders]]
+|Central Germanic
+|{{icon|male dominated}} Men Only
+|Mediterranean<br>[[File:City mediterranean.png|140px]]
+|Continental European
+|Latin<br>[[File:House frame 16.png|50px]]
+|Continental European
+|-
+| rowspan="2" |'''Hellenic'''
+! style="background-color:rgb(70%,60%,95%)" |Macedonian
+|Bellicose<br>[[File:Ethos_bellicose.png|100px]]
+|
+*[[Astute Diplomats]]<hr/>
+*[[Legalistic]]<hr/>
+*[[Philosopher Culture]]
+|Hellenic
+|{{icon|male dominated}} Men Only
+|Mediterranean<br>[[File:City mediterranean.png|140px]]
+|Byzantine
+|Byzantine<br>[[File:House frame 16.png|50px]]
+|Eastern European
+|-
+! style="background-color:rgb(83%,55%,95%)" |Trojan
+|Bellicose<br>[[File:Ethos_bellicose.png|100px]]
+|
+*[[Astute Diplomats]]<hr/>
+*[[Legalistic]]<hr/>
+*[[Maritime Mercantilism]]<hr/>
+*[[Philosopher Culture]]
+|Hellenic
+|{{icon|male dominated}} Men Only
+|Mediterranean<br>[[File:City mediterranean.png|140px]]
+|Byzantine
+|Byzantine<br>[[File:House frame 16.png|50px]]
+|Eastern European
+|-
+| '''Hunnic'''
+! style="background-color:rgb(30%,21%,13%); color: white" |Hunnic
+|Bellicose<br>[[File:Ethos_bellicose.png|100px]]
+|
+*[[Horse Breeders]]<hr/>
+*[[Pastorialists]]<hr/>
+*[[Prolific Hunters]]<hr/>
+*[[Recognition of Talent]]
+|Hunnic
+|{{icon|male dominated}} Men Only
+|Eurasian Steppe<br>[[File:City western.png|140px]]
+|Mongolian
+|Mongolian<br>[[File:House frame 16.png|50px]]
+|Mongolian
+|}
+
+==List of unique formable cultures==
+
+Some formable cultures will receive a unique custom name, as long as certain conditions are met upon creation:
+
+===Unique divergent cultures===
+
+{| class="mildtable sortable plainlist" style="text-align: center;"
+!New Culture Name
+!Parent Culture/Heritage
+!Title/Realm Capital
+!Special Condition
+|-
+|Scanian
+|North Germanic Heritage
+|Petty Kingdom of Skåne
+|
+|-
+|Beta Israeli
+|East African Heritage
+|
+|Judaism Religion
+|-
+|Avadhi
+|Indo-Aryan Heritage
+|Kingdom of Kosala
+|
+|-
+|Malayali
+|Tamil
+|Raj of Chera Nadu
+|
+|-
+|Hejazi
+|Bedouin
+|Emirate of Mecca or Medina
+|
+|-
+|Szekely
+|Hungarian
+|Duchy of Transylvania or Transylvanian Alps
+|
+|-
+|Maithili
+|Bengali or Nepali
+|Raj of Tirabhukti
+|
+|-
+|Bihari
+|Indo-Aryan Heritage
+|Raj of Magadha, Tirabhukti or Kasi
+|
+|-
+|Azeri
+|Turkic Heritage
+|High Chiefdom of Shirvan or Azerbaijan
+|
+|-
+|Dhundari
+|Rajasthani
+|Raj of Ajmer
+|
+|-
+|Mewari
+|Rajasthani
+|Raj of Medapata
+|
+|-
+| Marwari
+| Rajasthani
+|Raj of Maru or Stravani
+|
+|-
+|Nimadi
+|Marathi or Malvi
+|Raj of Anupa
+|
+|-
+|Kathiawari
+|Gujarati
+|Raj of Anartta or Saurashtra
+|
+|-
+|Kabyle
+|Butr or Baranis
+|Emirate of Kroumerie, Bejaia or Zab
+|
+|-
+|Austrian
+| Central Germanic Heritage
+|Duchy of Austria, Salzburg, Steyermark or Carinthia or Archduchy of Austria
+|
+|-
+|Burgundian
+|Frankish Heritage
+|Duchy of Burgundy, or Upper Burgundy
+|
+|-
+|Arpitan
+|Frankish Heritage
+|Dauphinate of Viennois, Duchy of Savoy or Provence
+|
+|-
+|Lothringian
+|Central Germanic Heritage
+|Duchy of Upper Lorraine or Lower Lorraine
+|
+|-
+|Lorrainian
+|
+|Duchy of Upper Lorraine or Lower Lorraine
+|
+|-
+|Angevin
+|French
+|Duchy of Anjou
+|
+|-
+|Provancale
+|Occitan or French
+| Duchy of Provence
+|
+|-
+|Walloon
+| Frankish Heritage
+|Duchy of Flanders, Brabant, Luxembourg, Jülich or Holland
+|
+|-
+|Flemish
+|Dutch
+|Duchy of Flanders, Brabant, Luxembourg, Jülich or Holland
+|
+|-
+|Aquitanian
+|Occitan
+|Duchy of Acquitaine, Gascogne or Armagnac
+|
+|-
+|Poitevin
+|French
+|Duchy of Poitiou
+|
+|-
+|Auvergnat
+|Occitan
+|Duchy of Auvergne or Bourbon
+|
+|-
+|Lengadocian
+|Occitan
+|Duchy of Languedoc or Toulouse
+|
+|-
+|Mercian
+|Anglo-Saxon
+|Petty Kingdom of Mercia
+|
+|-
+|Northumbrian
+|Anglo-Saxon
+|Petty Kingdom of Northumbria, York or Lancaster
+|
+|-
+|Northerner
+|English
+|Petty Kingdom of Northumbria, York or Lancaster
+|
+|-
+|Silesian
+|Czech or Polish
+|Duchy of Upper Silesia or Lower Silesia
+|
+|-
+|Ruthenian
+|Russian
+|Grand Principality of Kyiv, Halych, the Cherven Cities, Volhynia, Turov, Pinsk, Minsk, Grodno, Chernigov, Pereyaslavl, Yedisan, Levedia, Voronezh, Khopyor, or Don Valley
+|
+|-
+|Belarusian
+| Russian
+|Grand Principality of Pinsk, Minsk or Grodno
+|
+|-
+|Red Ruthenian
+|Russian
+| Grand Principality of Halych and the Cherven Cities
+|
+|-
+|Munda
+|Bengali
+|Raj of Jharkland
+|
+|-
+|Shirvani
+|Persian
+|Shirvanshahdom of Shirvan
+|
+|-
+|Pontic
+|Greek or either parent culture is Greek
+| Duchy of Chaldia or Steppe Region
+|
+|-
+|Novgorodian
+|Russian
+|Grand Principality of Novgorod
+|
+|-
+|Geatish
+|Swedish
+|Petty Kingdom of Småland, Västergötland or Östergötland
+|
+|-
+|Gutish
+|Swedish
+|Petty Kingdom of Visby
+|
+|-
+|Venetian
+|Latin Heritage
+|Republic of Venice
+|
+|-
+|Mervi
+|Iranian Heritage
+| Mervshahdom of Merv
+|
+|-
+|Parsi
+|
+| India Region
+|Zoroastrian Religion
+|-
+| Icelandic
+| North Germanic Heritage
+|Petty Kingdom of Iceland
+|
+|-
+| Omani
+|Arabic Heritage
+|Emirate of Oman
+|
+|-
+|Khaleeji
+|Arabic Heritage
+|Emirate of Al-Hasa, Bahrain, Khuzestan, Hormuz or Fars
+|
+|-
+|Mahri
+|Arabic Heritage
+|Emirate of Mahra
+|
+|-
+|Gorani
+|Kurdish
+| Kermanshahdom of Kermanshah
+|
+|-
+|Luri
+|Iranian Heritage
+|Khuzestanshahdom of Khuzestan or Kermanshahdom of Kermanshah
+|
+|-
+|Tabari
+|Iranian Heritage
+|Tabaristanshahdom of Tabaristan or Daylamshahdom of Daylam
+|
+|-
+|Ligurian
+|Latin Heritage
+|Duchy of Genoa
+|
+|-
+|Romagnol
+|Latin Heritage
+| Duchy of Romagna or Emilia
+|
+|-
+|Tuscan
+|Latin Heritage
+|Duchy of Tuscany or Pisa
+|
+|-
+|Umbrian
+|Latin Heritage
+|Duchy of Spoleto
+|
+|-
+|New English
+|West Germanic Heritage
+| Steppe Region
+|
+|-
+| Moroccan
+|
+|Grand Emirate of Maghreb
+|
+|-
+| Algerian
+|
+|Grand Emirate of Tahert
+|
+|-
+| Tripolitanian
+|
+|Emirate of Syrte, Fezzan or Cyrenaica
+|
+|-
+|Tunisian
+|
+|Grand Emirate of Africa
+|
+|-
+|Lebanese
+|Arabic Heritage
+|Malikate of Syria
+|Coastal Capital
+|-
+|Syrian
+|Arabic Heritage
+|Sultanate of Syria
+|NOT Coastal Capital
+|-
+|Iraqi
+|Arabic Heritage
+|Sultanate of Mesopotamia or Jazira
+|
+|-
+|Soqotri
+|Arabic Heritage
+|Emirate of Socotra
+|
+|-
+| Palestinian
+|Arabic Heritage
+|Sultanate of Jerusalem or Israel
+|Islamic religion
+|-
+|Upper Saxon
+|Saxon
+|Duchy of Thüringia, Anhalt, Lausitz or Meissen
+|
+|-
+|Dalmatian
+|South Slavic, Eastern Roman or Latin Heritage
+|Kingdom of Croatia
+|
+|-
+| Neapolitan
+|Berber, Eastern Roman or Latin Heritage
+|Kingdom of Sicily EXCEPT Duchy of Sicily
+|
+|
+|-
+|Arvanite
+|Albanian Heritage
+|Byzantine Empire
+|
+|
+|-
+|Griko
+|Greek
+|Kingdom of Sicily
+|
+|
+|-
+|Egyptiote
+|Greek
+|Kingdom of Egypt
+|
+|
+|-
+|Cappadocian
+|Greek
+|Kingdom of Anatolia
+|
+|
+|-
+|Cypriot
+|Greek
+|Kingdom of Cyprus
+|
+|
+|-
+|Wamvita
+|Bantu Heritage
+|Duchy of Mombasa
+|
+|
+|}
+
+===Unique hybrid cultures===
+
+{| class="mildtable sortable plainlist" style="text-align: center;"
+!New Culture Name
+!Cultures/Heritages
+!Title/Realm Capital
+! Special Condition
+|-
+|Azeri
+|Turkic and Iranian Heritages
+|High Chiefdom of Shirvan or Azerbaijan
+|
+|-
+|Anatolian Turkish
+|Either Culture is Turkic Heritage
+|GHW Region of Anatolia
+|
+|-
+|Norse-Gael
+|Goidelic; and North Germanic Heritages
+|
+|
+|-
+|Danelander
+|Anglo-Saxon or English; and North Germanic Heritages
+|Kingdom of Danelaw or Daneland
+|
+|-
+|Ænglish
+|Anglo-Saxon; and Norwegian
+|
+|NOT Norse Religion
+|-
+|Anglo-Nordic
+|Anglo-Saxon or English; and North Germanic Heritage
+|
+|
+|-
+|Hindustani
+|Iranian or Turkic (ruler culture), and Indo-Aryan Heritages
+|GHW Region of Northern India
+|
+|-
+| Rhinelander
+|Frankish; and Central Germanic Heritages
+|Rhineland Region
+|
+|-
+|Turko-Persian
+|Oghuz (ruler culture); and Persian
+|
+|
+|-
+|Turko-Afghan
+|Oghuz (ruler culture); and Afghan
+|
+|
+|-
+|Ulster-Scot
+|Scots; and Irish
+|
+|
+|-
+|Romansh
+|Any two of the following: Frankish, Central Germanic or Latin Heritage (EXCEPT Frankish Heritage (ruler culture), and Central Germanic Culture) 
+| Duchy of Currezia
+|
+|-
+|Swiss
+|Any two of the following: Frankish, Central Germanic or Latin Heritage
+| Confederation of Switzerland
+|
+|-
+|Transylvanian
+|Magyar; and Vlach Heritage
+|Duchy of Transylvania or Transylvanian Alps
+|
+|-
+|Alsatian
+|Frankish; and Central Germanic Heritages
+|Duchy of Alsace or Upper Lorraine
+|
+|-
+|Vlaemsch
+|Frankish Heritage; and Dutch
+|
+|
+|-
+|Khalka
+|Tibetan; and Mongolic Heritage
+|
+|
+|-
+|Himalayan
+| Tibetan Heritage; and Nepali
+|
+|
+|-
+| Angevin
+|Frankish; and West Germanic Heritage
+|
+|
+|-
+|Uzbek
+|Mongolic; and Turkic Heritages
+|
+|
+|-
+|Kurlander
+|Central Germanic (ruler culture); and Balto or Balto-Finnic Heritage
+|High Chiefdom of Courland
+|
+|-
+|Livonian
+|Balto-Finnic; and Baltic Heritages
+|
+|
+|-
+|Moroccan
+|Arabic Heritage or Arabic Language; and Berber Heritage
+|Grand Emirate of Maghreb (or simply holding the Title as Andalusian)
+|
+|-
+|Algerian
+|Arabic Heritage or Arabic Language; and Berber Heritage
+| Grand Emirate of Tahert (or simply holding the Title as Andalusian)
+|
+|-
+|Tripolitanian
+|Arabic Heritage or Arabic Language; and Berber Heritage
+|Emirate of Syrte, Fezzan or Cyrenaica (or simply holding any of the Titles as Andalusian (must NOT hold the Grand Emirate of Africa))
+|
+|-
+|Tunisian
+|Arabic Heritage or Arabic Language; and Berber Heritage
+|Grand Emirate of Africa (or simply holding the Title as Andalusian)
+|
+|-
+|Kuzarim
+|Khazar; and Israelite Heritage
+|
+|Judaism Religion
+|-
+|Siddi
+|East African or Horn African; and Indo-Aryan or Dravidian Heritages
+|
+|
+|-
+|Bari
+|Berber; and Latin or Frankish Heritages
+|
+|
+|-
+|Gyalrong
+|Tibetan; and Qiangic Heritages
+|
+|
+|-
+|Lebanese
+|Eastern Roman; and Arabic Heritages
+|Malikate of Syria
+|
+|-
+|Outremer
+|Frankish (ruler culture); and Arabic Heritages
+|Syria Region
+|
+|-
+|Oltremare
+|Latin (ruler culture); and Arabic Heritages
+|Syria Region
+|
+|-
+|Ultramar
+|Iberian (ruler culture); and Arabic Heritages
+|Syria Region
+|Culture's faith must be Christian
+|-
+|Hierosolyman
+|North, Central or West Germanic (ruler culture); and Arabic Heritages
+|Syria Region
+|
+|-
+| Jerusaleman
+|South, West or East Slavic (ruler culture); and Arabic Heritages
+|Syria Region
+|
+|-
+|Külföldi
+|Magyar (ruler culture); and Arabic Heritages
+|Syria Region
+|
+|-
+|Dramor
+| Brythonic (ruler culture); and Arabic Heritages
+|Syria Region
+|
+|-
+|Coigríche
+|Goidelic (ruler culture); and Arabic Heritages
+|Syria Region
+|
+|-
+|Arpitan
+|Frankish; and Latin Heritages
+|Dauphinate of Viennois, Duchy of Savoy or Provence
+|
+|-
+|New English
+|West Germanic; and Mongolic or Turkic Heritages
+|Steppe Region
+|
+|-
+| Upper Saxon
+|Saxon and Polabian
+|
+|
+|-
+|Dobrujan
+|Vlach; and Turkic Heritages
+|Duchy of Dobrudja or Bugeac
+|
+|-
+|Aromanian
+|Vlach Heritage (or its Parent Culture); and Eastern Roman Heritage
+|Catapanate of Thessalonika, Epirus, or Hellas
+|
+|-
+|Dalmatian
+|Any two of the following: South Slavic, Eastern Roman or Latin Heritage
+|South Slavia Region except Kingdoms of Wallachia, Moldavia and Bulgaria
+|
+|-
+|Neapolitan
+|Any two of the following: Latin, Eastern Roman or Berber Heritage
+|Kingdom of Sicily EXCEPT Duchy of Sicily
+|
+|-
+|Siculo-Norman
+|Norman (ruler culture); Latin, Eastern Roman or Berber Heritage
+|Kingdom of Sicily
+|
+|-
+|Arvorigeg
+| Brythonic (ruler culture); and Frankish Heritage
+|
+|
+|-
+|Gallo
+|Frankish (ruler culture); and Brythonic Heritages
+|
+|
+|-
+|Scota
+|Scots and Egyptian
+|
+|
+|-
+|Parsi
+|Iranian and either Dravidian or Indo-Aryan Heritage
+|India Region
+|Zoroastrian Religion
+|-
+|Arvanite
+|Albanian and Eastern Roman Heritage
+|
+|
+|-
+|Wendish
+|Czech-Slovien or Lechitic Language with West Slavic Heritage (ruler culture), and Central or West Germanic Heritage
+|Holy Roman Empire
+|
+|-
+|Böhmisch
+|High German or Saxon Language with Central or West Germanic Heritage (ruler Culture); and West Slavic Heritage
+|Kingdom of Bohemia
+|
+|-
+|Gasmoulos
+|Frankish or Latin Heritage; and Eastern Roman Heritage
+|Byzantine Empire or Latin Empire
+|
+|-
+|Aquitanian
+|Basque Language; and Frankish Heritage
+|
+|
+|-
+|Griko
+|Eastern Roman Heritage; and Latin Heritage
+|Kingdom of Sicily
+|
+|-
+|Egyptiote
+|Eastern Roman Heritage (ruler culture); and Arabic Heritage
+|Kingdom of Egypt
+|
+|-
+|Shirazi
+|Bantu Heritage and either Arabic or Iranian Heritage
+|Eastern Africa Region
+|
+|-
+|Goryeo
+|Goguryeo (ruler culture); and Samhanic heritage
+|
+|
+|-
+|Samhan
+|Silla or Baekje (ruler culture); and Samhanic heritage
+|
+|
+|}
+
+== Harrying of the North ==
+{{expansion|rtp}}
+Harrying of the North is a culture mechanic enabled if Duke William II of Normandy wins his starting war against King Harold II Godwineson of England. If playing as Hereward the Wake it will only happen if you choose to travel to England after William wins the war.
+
+Once the Harrying of the North begins, every county belonging to a vassal of King William of Anglo-Saxon culture will gain {{green|+25}} {{iconify|Control}} but also {{red|-0.25}} Monthly {{iconify|Development}} for 15 years. King William will gain the Ruthless Conqueror modifier for 15 years, which has the following effects:
+* {{icon|dread}} {{green|+0.2}} Monthly Dread
+* {{icon|control}} {{green|+0.5}} Monthly Control
+* {{icon|opinion}} {{red|-15}} Popular Opinion
+* {{icon|opinion}} {{red|-30}} Minority Vassal Opinion
+* {{icon|opinion}} {{red|-45}} Anglo-Saxon Opinion
+
+Harrying of the North has two values to keep track of which are affected by events: Resistance and Pacification. It will start at 5 Resistance and 0 Pacification. Resistance and Pacification come in four levels and whichever value is higher will impart its effects:
+{| class="mildtable"
+! !! Level 1 !! Level 2 !! Level 3 !! Level 4
+|-
+! Resistance
+| If Resistance is above 7
+* {{red|-1}} Monthly Cultural Acceptance between Anglo-Saxon and Norman cultures
+| If Resistance is above 10
+* {{red|-2}} Monthly Cultural Acceptance between Anglo-Saxon and Norman cultures
+* Slightly increased chance of Claimant factions against the king of England
+| If Resistance is above 13
+* {{red|-5}} Monthly Cultural Acceptance between Anglo-Saxon and Norman cultures
+* Increased chance of Claimant factions against the king of England
+* {{red|-10}} Control every 3 years in all counties of vassals of king of England
+| If Resistance is above 16
+* {{red|-10}} Monthly Cultural Acceptance between Anglo-Saxon and Norman cultures
+* Greatly increased chance of Claimant factions against the king of England
+* {{red|-20}} Control every 3 years in all counties of vassals of king of England
+|-
+! Pacification
+| If Pacification is above 5
+* {{green|+1}} Monthly Cultural Acceptance between Anglo-Saxon and Norman cultures
+| If Pacification is above 8
+* {{green|+2}} Monthly Cultural Acceptance between Anglo-Saxon and Norman cultures
+* {{green|+1}} Monthly Dread for the king of England
+| If Pacification is above 11
+* {{green|+5}} Monthly Cultural Acceptance between Anglo-Saxon and Norman cultures
+* {{green|+2}} Monthly Dread for the king of England
+| If Pacification is above 14
+* {{green|+10}} Monthly Cultural Acceptance between Anglo-Saxon and Norman cultures
+* {{green|+3}} Monthly Dread for the king of England
+* Unlocks the Embrace English Culture decision
+|}
+
+Harrying of the North can end in three ways. All of them will give the king of England {{green|-65}} {{iconify|Stress}}.
+* If none of the vassals of the king of England has Anglo-Saxon culture or is a {{iconify|Duke}}
+* If the king of England does not have Norman or English culture
+* If 50 years pass
+
+==References==
+<references />
+{{Mechanics navbox}}
+[[Category:Character]]

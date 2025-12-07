@@ -1,0 +1,1545 @@
+{{Version|1.18}}
+[[File:Lifestyles.png|thumb|350px|The 6 lifestyles]]
+The '''lifestyle''' represents a character's choice of which [[skill]] the [[character]] will devote his or her time honing. There are 6 lifestyles to choose from, each containing 3 focuses and 3 perk trees. Characters gain lifestyle experience over time, but can also gain it through many events throughout the game.
+
+Once a lifestyle is chosen a character can receive random events related to its focuses. While most events are related to the currently selected focus, events from other focuses within the same lifestyle can take place as well.
+
+== Focuses ==
+Each lifestyle contains 3 focuses, each one granting various bonuses to the character. All focuses grant {{green|+25}} monthly experience towards the character's lifestyle, which can further be improved by the character's education and other factors. A character's focus can be changed once every 5 years. Characters must have a playable government or be heirs to gain lifestyle experience.
+
+The [[File:Wandering lifestyle.png|24px]] Wandering lifestyle requires the {{iconify|Wandering Nobles}} DLC.
+{| class="mildtable plainlist"
+! Lifestyle
+! Adventurer effects
+! Focus
+! Ruler effects
+! width=40% | Description
+|- id="Family"
+| rowspan=3 style="text-align: center"; | Diplomacy<br>[[File:Diplomacy lifestyle.png|70px]]
+| rowspan=3 | 
+* {{icon|scheme phase length}} {{green|-15}} Days Diplomatic Scheme Phase Length
+* {{icon|travel speed}} {{green|+15%}} Travel Speed
+* {{icon|opinion}} {{green|+10}} General Opinion
+| [[File:Diplomacy family focus.png|50px]] Family
+| 
+* {{icon|diplomacy}} {{green|+2}} Diplomacy
+* {{icon|fertility}} {{green|+20%}} Fertility
+| rowspan="3" | ''Focus on understanding people and their motives, how to handle other realms, and how to win the unwavering loyalty of your subjects.''
+|- id="Foreign Affairs"
+| [[File:Diplomacy foreign affairs focus.png|50px]] Foreign Affairs
+|
+* {{icon|diplomacy}} {{green|+3}} Diplomacy
+|- id="Majesty"
+| [[File:Diplomacy majesty focus.png|50px]] Majesty
+|
+* {{icon|diplomacy}} {{green|+1}} Diplomacy
+* {{icon|prestige}} {{green|+1.00}} Monthly Prestige
+|- id="Authority"
+| rowspan=3 style="text-align: center"; | Martial<br>[[File:Martial lifestyle.png|70px]]
+| rowspan=3 | 
+* {{icon|scheme phase length}} {{green|-15}} Days Martial Scheme Phase Length
+* {{icon|advantage}} {{green|+10}} Advantage
+* {{icon|toughness}} {{green|+15%}} Men-at-Arms Toughness
+| [[File:Martial authority focus.png|50px]] Authority
+|
+* {{icon|martial}} {{green|+1}} Martial
+<!-- Transclusion used by Dread page -->
+* {{icon|dread}} {{green|+20%}} Dread Gain
+* {{icon|control}} {{green|+0.30}} Monthly Control Growth
+| rowspan=3 | ''Focus on control of your realm, honorable conduct, and the strategies that will win your wars.''
+|- id="Chivalry"
+| [[File:Martial chivalry focus.png|50px]] Chivalry
+| 
+* {{icon|prowess}} {{green|+3}} Prowess
+* {{icon|opinion}} {{green|+10}} Attraction Opinion
+* {{icon|advantage}} {{green|+5}} Advantage
+|- id="Strategy"
+| [[File:Martial strategy focus.png|50px]] Strategy
+| 
+* {{icon|martial}} {{green|+3}} Martial
+|- id="Domain"
+| rowspan=3 style="text-align: center"; | Stewardship<br>[[File:Stewardship lifestyle.png|70px]]
+| rowspan=3 | 
+* {{icon|scheme phase length}} {{green|-15}} Days Stewardship Scheme Phase Length
+* {{icon|scheme success chance}} {{green|+25%}} Contract Scheme Growth
+* {{icon|provisions}} {{green|+25%}} Provisions Gain
+| [[File:Stewardship domain focus.png|50px]] Domain
+|
+* {{icon|stewardship}} {{green|+3}} Stewardship
+| rowspan="3" | ''Focus on dealing justice, administrating the lands of your realm, and filling your coffers with gold.''
+|- id="Duty"
+| [[File:Stewardship duty focus.png|50px]] Duty
+|
+* {{icon|yes}} {{green|-10}} Enemy Agent Acceptance
+* {{icon|yes}} {{green|-20}} Vassal Faction Commitment
+* {{icon|stewardship}} {{green|+1}} Stewardship
+|- id="Wealth"
+| [[File:Stewardship wealth focus.png|50px]] Wealth
+|
+* {{icon|gold}} {{green|+10%}} Monthly Income
+|- id="Intimidation"
+| rowspan=3 style="text-align: center"; | Intrigue<br>[[File:Intrigue lifestyle.png|70px]]
+| rowspan=3 | 
+* {{icon|scheme phase length}} {{green|-15}} Days Intrigue Scheme Phase Length
+* {{icon|scheme phase length}} {{green|-15}} Days Prowess Scheme Phase Length
+* {{icon|scheme success chance}} {{green|+2.5%}} Hostile Scheme Growth
+* {{icon|scheme secrecy}} {{green|+20%}} Scheme Secrecy
+| [[File:Intrigue intimidation focus.png|50px]] Intimidation
+|
+* {{icon|intrigue}} {{green|+2}} Intrigue
+* {{icon|dread}} {{green|-25%}} Dread Loss
+* {{icon|dread}} {{green|+30}} Natural Dread
+| rowspan="3" | ''Focus on the manipulation of people, the nature of secrets, and the cunning plots that will bring your plans to fruition.''
+|- id="Skullduggery"
+| [[File:Intrigue skulduggery focus.png|50px]] Skulduggery
+|
+* {{icon|yes}} {{green|+10}} Agent Acceptance
+* {{icon|intrigue}} {{green|+3}} Intrigue
+* {{icon|scheme secrecy}} {{green|+15%}} Scheme Secrecy
+|- id="Temptation"
+| [[File:Intrigue temptation focus.png|50px]] Temptation
+| 
+* {{icon|fertility}} {{green|+20%}} Fertility
+* {{icon|opinion}} {{green|+10}} Attraction Opinion
+* {{icon|scheme phase length}} {{green|-20}} Days Seduce Phase Length
+|- id="Medicine"
+| rowspan=3 style="text-align: center"; | Learning<br>[[File:Learning lifestyle.png|70px]]
+| rowspan=3 | 
+* {{icon|scheme phase length}} {{green|-15}} Days Learning Scheme Phase Length
+* {{icon|safety}} {{green|+10}} Travel Safety
+* {{icon|stress}} {{green|-20%}} Stress Gain
+| [[File:Learning medicine focus.png|50px]] Medicine
+|
+* {{icon|learning}} {{green|+1}} Learning
+* {{icon|health boost}} {{green|+0.25}} Health
+| rowspan="3" | ''Focus on learning all that you can. The realm of knowledge and divinity lie within your grasp, as well as the secrets to life itself.''
+|- id="Scholarship"
+| [[File:Learning scholarship focus.png|50px]] Scholarship
+| 
+* {{icon|learning}} {{green|+3}} Learning
+* {{icon|development}} {{green|+15%}} Development Growth
+|- id="Theology"
+| [[File:Learning theology focus.png|50px]] Theology
+|
+* {{icon|learning}} {{green|+2}} Learning
+<!-- Transclusion used by Piety page. -->
+* {{icon|piety}} {{green|+1.0}} Monthly Piety
+* {{icon|opinion}} {{green|+10}} Head of Faith Opinion
+|- id="Destination"
+| rowspan=3 style="text-align: center"; | Wandering<br>[[File:Wandering lifestyle.png|70px]]
+| rowspan=3 | {{icon|yes}} Can choose the Destination or Journey focus
+| [[File:Wandering destination focus.png|50px]] Destination
+|
+* {{icon|prestige}} {{green|+50}} Prestige per visited Point of Interest
+* {{icon|martial}} {{green|+1}} Martial
+* {{icon|stewardship}} {{green|+1}} Stewardship
+| rowspan="3" | ''Focus on traveling to the corners of the world, seeing great sights that others can only dream of, and surviving to tell the tale.''
+|- id="Internal Affairs"
+| [[File:Wandering internal affairs focus.png|50px]] Internal Affairs
+|
+* {{icon|stewardship}} {{green|+1}} Stewardship
+* {{icon|intrigue}} {{green|+1}} Intrigue
+* {{icon|control}} {{green|+0.30}} Monthly Control Growth
+|- id="Journey"
+| [[File:Wandering journey focus.png|50px]] Journey
+|
+* {{icon|stress loss}} {{green|-2}} Stress per visited Travel Location
+* {{icon|diplomacy}} {{green|+2}} Diplomacy
+|}
+
+=== Education focuses ===
+[[File:Education focuses.png|thumb|200px|The education focuses for a character with the Charming trait]]
+Education focuses are available to characters between the age of 6 and 9 and grant the character {{green|+1}} in the matching skill. When the character becomes an adult they will gain an education trait. The level of the education trait depends on both how well the character's childhood trait matched with the education focus, and the quality of their guardian, if they were assigned one. Players can change the education focus of their children, as well as their own if they are one. The education focus can only be changed once in both cases.
+{| class="mildtable plainlist"
+! Focus
+! Helpful traits
+! Struggling trait
+! Description
+|-
+| {{iconify|Diplomacy}}
+| 
+* [[File:Trait charming.png|24px]] Charming
+* [[File:Trait curious.png|24px]] Curious
+| [[File:Trait bossy.png|24px]] Bossy
+| ''The study of etiquette, communication and the practices of courtly life.''
+|-
+| {{iconify|Martial}}
+| 
+* [[File:Trait bossy.png|24px]] Bossy
+* [[File:Trait rowdy.png|24px]] Rowdy
+| [[File:Trait curious.png|24px]] Curious
+| ''The study of warfare and combat and the commanding of armies.''
+|-
+| {{iconify|Stewardship}}
+| 
+* [[File:Trait bossy.png|24px]] Bossy
+* [[File:Trait pensive.png|24px]] Pensive
+| [[File:Trait charming.png|24px]] Charming
+| ''The study of administration, management and the flow of gold.''
+|-
+| {{iconify|Intrigue}}
+| 
+* [[File:Trait charming.png|24px]] Charming
+* [[File:Trait rowdy.png|24px]] Rowdy
+| [[File:Trait pensive.png|24px]] Pensive
+| ''The study of secrecy, shadows and careful planning.''
+|-
+| {{iconify|Learning}}
+| 
+* [[File:Trait pensive.png|24px]] Pensive
+* [[File:Trait curious.png|24px]] Curious
+| [[File:Trait rowdy.png|24px]] Rowdy
+| ''The study of scholarship, theology and the pursuit of knowledge.''
+|}
+
+== Perk trees ==
+Each lifestyle has 3 perk trees, each one containing 9 perks. Each perk costs 1000 experience to unlock and the final perk in each tree always gives a powerful trait. Both perks and 6 unique traits can be obtained through lifestyle events. A perk can only be unlocked if all perks above have been unlocked.
+
+On average a new perk is unlocked every few years. A character can reset all lifestyle perks once per lifetime at the cost of 100 {{iconify|Stress}}, which is affected by Stress Gain modifiers. Resetting the perks will also remove any final trait.
+
+Rulers and adventurers use different sets of perk trees. All unlocked perks will convert to the ruler/adventurer variant if an adventurer becomes a ruler and vice versa.
+
+=== Diplomacy ===
+==== Diplomat ====
+{| class="wikitable plainlist" width=45% style="text-align: center; float:left; margin-right:10px;"
+|+Ruler
+| colspan="3" | '''Thoughtful'''
+* {{green|+100%}} Opinion Gain from Send Gift
+|-
+| width="33%" | '''Ducal Conquest'''
+* {{green|-20%}} Title Creation Cost
+* {{green|+30}} Candidate Score for Governorships
+* Enables the Ducal Conquest casus belli
+| width="33%" | '''Adaptive Traditions'''
+* {{green|+1}} Max Learn Language Schemes
+* {{green|+25%}} Foreign Affairs Effectiveness
+* {{green|+30}} Days Enemy Political Scheme Phase Length
+| width="33%" | '''Defensive Negotiations'''
+* {{green|+15}} Fellow Subject Opinion
+* {{green|+15}} Independent Ruler Opinion
+* {{green|+15}} Confederation Opinion
+* Can propose one Alliance without a Marriage
+* Enables the Purchase Truce interaction
+|-
+| '''Forced Vassalage'''
+* Enables the Forced Vassalization casus belli
+* {{green|+20%}} Monthly Merit
+| '''Flexible Truces'''
+* {{green|-25%}} Truce Time
+* No Prestige penalty for breaking Truces
+| '''Embassies'''
+* {{green|-60}} Learn Language Phase Length
+* {{green|+1}} Diplomacy per Alliance (up to 5)
+|-
+| colspan="3" | '''Accomplished Forger'''
+* {{green|+75%}} Fabricate Claim on County Speed
+* Can use the Buy Artifact Claim interaction
+* Enables Bloody Weddings if the Tours and Tournaments DLC is installed
+|-
+| colspan="3" | [[File:Trait diplomat.png]]<br>'''Diplomat'''
+* Gain the [[Diplomat]] trait
+|}
+{| class="wikitable plainlist" width=45% style="text-align: center; float:left; margin-right:10px;"
+|+{{icon|rtp}} Adventurer
+| colspan="3" | '''Thoughtful'''
+* {{green|+100%}} Opinion Gain from Send Gift
+|-
+| width="33%" | '''Best Foot Forward'''
+* {{green|+20}} Independent Ruler Opinion
+* {{green|+15%}} Initial Contract Scheme Success Chance
+| width="33%" | '''Adaptive Traditions'''
+* {{green|+1}} Max Learn Language Schemes
+* {{green|+15}} Different Culture Opinion
+| width="33%" | '''Defensive Negotiations'''
+* {{green|+10%}} Knight Effectiveness
+* {{green|+10%}} Travel Safety
+* {{green|+25}} Request Acceptance for Knights
+* {{green|+25}} Request Acceptance Men-at-Arms
+|-
+| '''Content Camp'''
+* {{green|+25}} Courtier Opinion
+* {{green|-120}} Days Sway Phase Length
+| '''Flexible Negotiator'''
+* {{green|-25%}} Truce Time
+* {{green|+20}} Request Acceptance
+| '''Embassies'''
+* {{green|-60}} Learn Language Phase Length
+* {{green|+20%}} Initial Political Scheme Success Chance
+* {{green|+1}} Diplomacy per Alliance (up to 5)
+* Can make requests to the ruler whose domain the camp is in
+|-
+| colspan="3" | '''Run Away With Me'''
+* {{green|+25%}} Scheme Secrecy
+* {{green|+50%}} Elope Success Chance
+* Can use the Elope scheme on anyone
+|-
+| colspan="3" | [[File:Trait diplomat.png]]<br>'''Diplomat'''
+* Gain the [[Diplomat]] trait
+|}
+{{clear}}
+
+==== August ====
+{| class="wikitable plainlist" width=45% style="text-align: center; float:left; margin-right:10px;"
+|+Ruler
+| width="50%" | '''Benevolent Intent'''
+* {{green|-20}} Days Sway Phase Length
+* {{green|+10}} Tributary Opinion if Mandala
+| width="50%" | '''Firm Hand'''
+* {{green|+0.4%}} Monthly Prestige per Dread
+* {{green|+0.1%}} Knight Effectiveness per Dread
+* {{green|+1}} Mandala Radiance per 30 Dread
+|-
+| '''Inspiring Rule'''
+* {{green|+10}} Councilor Opinion
+* {{green|+4%}} Monthly Prestige per Powerful Vassal on the Council
+* {{green|+2%}} Monthly Renown from Blood Brothers
+| '''Praetorian Guard'''
+* {{green|+1%}} Monthly Prestige per Knight
+* {{green|+15}} Bodyguard and General Aptitude
+* {{green|+1%}} Monthly Piety per Knight if Mandala
+|-
+| colspan="2" | '''True Ruler'''
+* {{green|+0.15}} Monthly Prestige per Legitimacy Level
+* {{green|+20}} Offer Vassalization Acceptance
+* {{green|+20}} Offer Confederation Acceptance
+* {{green|+20}} Demand as Tributary Acceptance
+* {{green|+15}} Court Grandeur
+* {{green|+0.15}} Monthly Piety per Legitimacy Level if Mandala
+|-
+| colspan="2" | '''Writing History'''
+* {{green|+10%}} Stress Loss per Level of Fame
+* {{green|+5%}} Legitimacy Gain
+* {{green|+25%}} Legend Spread Chance
+* Enables the Commission Epic decision
+|-
+| '''A Life of Glory'''
+* {{green|+100%}} Level of Fame Impact
+* {{green|+3}} Mandala Radiance
+| '''Dignitas'''
+* {{green|+1}} Diplomacy per Level of Fame
+* {{green|-50%}} Legitimacy Loss
+|-
+| colspan="2" | [[File:Trait august.png]]<br>'''August'''
+* Gain the [[August]] trait
+|}
+{| class="wikitable plainlist" width=45% style="text-align: center; float:left; margin-right:10px;"
+|+{{icon|rtp}} Adventurer
+| width="50%" | '''Benevolent Intent'''
+* {{green|-20}} Days Sway Phase Length
+* {{green|+25}} Opinion with Officers recruited via Scout for Talent
+| width="50%" | '''A Known Name'''
+* {{green|+20%}} Contract Prestige Rewards
+|-
+| '''Guest of Honor'''
+* Can Request a Feast from rulers on Roll of Patrons
+| '''Camp Guard'''
+* {{green|+0.5%}} Knight Effectiveness per Diplomacy
+* {{green|+15}} Bodyguard Aptitude
+|-
+| colspan="2" | '''Do You Know Who I Am'''
+* {{green|+20%}} Request Acceptance per Level of Fame
+|-
+| colspan="2" | '''Gravitas'''
+* {{green|+10%}} Stress Loss per Level of Fame
+* {{green|-25}} Days Personal Scheme Phase Length per Steadfast camp temperament bonus
+|-
+| '''A Life of Glory'''
+* {{green|+100%}} Level of Fame Impact
+| '''Dignitas'''
+* {{green|+1}} Diplomacy per Level of Fame
+* {{green|+1}} Martial per Level of Fame
+* {{green|+1}} Intrigue per Level of Fame
+|-
+| colspan="2" | [[File:Trait august.png]]<br>'''August'''
+* Gain the [[August]] trait
+|}
+{{clear}}
+
+==== Family Hierarch ====
+{| class="wikitable plainlist" width=45% style="text-align: center; float:left; margin-right:10px;"
+|+Ruler
+| width="50%" | '''Befriend'''
+* Enables the ''Befriend'' Scheme
+* Unlock the Challenge to Board Game Interaction
+| width="50%" | '''Heart of the Family'''
+* {{green|+15}} Close Family Opinion
+* {{green|+10}} Powerful Family Rating
+
+|-
+| '''Confidants'''
+* {{green|-5%}} Stress Gain per Friend (up to 5)
+| '''Groomed to Rule'''
+* Children gain {{green|+1}} to {{green|+3}} skill points (based on childhood trait)
+* {{green|+20}} Influence Ward's Personality Acceptance
+|-
+| '''Flatterer'''
+* {{green|-20}} Befriend Phase Length
+| '''Bound by Blood'''
+* Can use the Rescue House Members Casus Belli
+* Can use Unify the House Casus Belli
+* {{green|+25%}} Personal Scheme Success Chance on family members
+* {{green|+5%}} Monthly Prestige per Blood Brother
+|-
+| '''Friendly Counsel'''
+* Each Friend and Best Friend gives {{green|+2}} random skill points (up to 5)
+* Enables request Thematic Armies from Friends if Administrative
+| '''Sound Foundations'''
+* Each living Child gives {{green|+1}} random skill points (up to 5)
+|-
+| colspan="2" | [[File:Trait family first.png]]<br>'''Patriarch / Matriarch'''
+* Gain the [[Patriarch|Patriarch / Matriarch]] trait
+|}
+{| class="wikitable plainlist" width=45% style="text-align: center; float:left; margin-right:10px;"
+|+{{icon|rtp}} Adventurer
+| width="50%" | '''Befriend'''
+* Enables the ''Befriend'' Scheme
+* Unlock the Challenge to Board Game Interaction
+| width="50%" | '''Heart of the Family'''
+* {{green|+15}} Close Family Opinion
+
+|-
+| '''Confidants'''
+* {{green|-5%}} Stress Gain per Friend (up to 5)
+| '''Groomed to Rule'''
+* Children gain {{green|+1}} to {{green|+3}} skill points (based on childhood trait)
+* {{green|+20}} Influence Ward's Personality Acceptance
+|-
+| '''Flatterer'''
+* {{green|-120}} Befriend Phase Length
+| '''Bound by Blood'''
+* Can use the Rescue House Members Casus Belli
+* Can use Unify the House Casus Belli
+* {{green|+25%}} Personal Scheme Success Chance on family members
+|-
+| '''Friendly Counsel'''
+* Each Friend and Best Friend gives {{green|+2}} random skill points (up to 5)
+* Each Blood Brother gives {{green|+1}} random skill points
+| '''Sound Foundations'''
+* Each living Child gives {{green|+1}} random skill points (up to 5)
+|-
+| colspan="2" | [[File:Trait family first.png]]<br>'''Patriarch / Matriarch'''
+* Gain the [[Patriarch|Patriarch / Matriarch]] trait
+|}
+{{clear}}
+
+=== Martial ===
+==== Strategist ====
+{| class="wikitable plainlist" width=45% style="text-align: center; float:left; margin-right:10px;"
+|+Ruler
+| colspan="3" | '''Bellum Justum'''
+* {{green|-50%}} Casus Belli Cost
+|-
+| width="33%" | '''Parthian Tactics'''
+* {{green|+30%}} Cavalry Toughness
+* {{green|+20%}} Cavalry Pursuit
+* {{green|+10%}} Hastiluder Horse Experience
+| width="33%" | '''Organized March'''
+* {{green|+15%}} Army Movement Speed
+* {{green|+25%}} Travel Speed
+* {{green|+25%}} Archer Screen
+* {{green|+25%}} Heavy Infantry Screen
+* {{green|+25%}} Spearmen Screen
+* {{green|+25%}} Skirmisher Screen
+* {{green|+25%}} Horde Riders Screen
+| width="33%" | '''Engineered for Destruction'''
+* {{green|+25%}} Naval Speed
+* {{green|+40%}} Siege Weapon Effectiveness
+|-
+| '''Envelopment'''
+* {{green|+25%}} Men-at-Arms Counter Efficiency
+* {{green|+10%}} Hastiluder Wit Experience
+| '''Hit and Run'''
+* {{green|-25%}} Retreat Losses
+* {{green|+15%}} Heavy Infantry Damage 
+* {{green|+15%}} Heavy Infantry Toughness
+* {{green|+20%}} Skirmisher Damage
+* {{green|+10%}} Skirmisher Toughness
+* {{green|+30%}} Archer Damage
+* {{green|+30%}} Spearmen Toughness
+* {{green|+20%}} Horde Riders Damage
+* {{green|+20%}} Horde Riders Toughness
+* {{green|+10%}} Hastiluder Bow Experience
+| '''Living Off the Land'''
+* {{green|+200%}} Supply Capacity
+* {{green|+25%}} Travel Safety
+* {{green|+25%}} Raid Speed
+|-
+| colspan="3" | '''Sappers'''
+* {{green|+0.1}} Siege Progress for Archers, Heavy Infantry, Skirmishers and Spearmen
+|-
+| colspan="3" | [[File:Trait strategist.png]]<br>'''Strategist'''
+* Gain the [[Strategist]] trait
+|}
+{| class="wikitable plainlist" width=45% style="text-align: center; float:left; margin-right:10px;"
+|+{{icon|rtp}} Adventurer
+| colspan="3" | '''Bellum Justum'''
+* {{green|-50%}} Casus Belli Cost
+|-
+| width="33%" | '''Parthian Tactics'''
+* {{green|+30%}} Cavalry Toughness
+* {{green|+20%}} Cavalry Pursuit
+* {{green|+10%}} Hastiluder Horse Experience
+| width="33%" | '''Organized March'''
+* {{green|+15%}} Army Movement Speed
+* {{green|+25%}} Travel Speed
+* {{green|+25%}} Archer Screen
+* {{green|+25%}} Heavy Infantry Screen
+* {{green|+25%}} Spearmen Screen
+* {{green|+25%}} Skirmisher Screen
+* {{green|+25%}} Horde Riders Screen
+| width="33%" | '''Engineered for Destruction'''
+* {{green|+25%}} Naval Speed
+* {{green|+40%}} Siege Weapon Effectiveness
+|-
+| '''Envelopment'''
+* {{green|+25%}} Men-at-Arms Counter Efficiency
+* {{green|+10%}} Hastiluder Wit Experience
+| '''Hit and Run'''
+* {{green|-25%}} Retreat Losses
+* {{green|+15%}} Heavy Infantry Damage 
+* {{green|+15%}} Heavy Infantry Toughness
+* {{green|+20%}} Skirmisher Damage
+* {{green|+10%}} Skirmisher Toughness
+* {{green|+30%}} Archer Damage
+* {{green|+30%}} Spearmen Toughness
+* {{green|+20%}} Horde Riders Damage
+* {{green|+20%}} Horde Riders Toughness
+* {{green|+10%}} Hastiluder Bow Experience
+| '''Living Off the Land'''
+* {{green|+200%}} Supply Capacity
+* {{green|+25%}} Travel Safety
+* {{green|-20%}} Provisions Loss
+|-
+| colspan="3" | '''Sappers'''
+* {{green|+0.1}} Siege Progress for Archers, Heavy Infantry, Skirmishers and Spearmen
+|-
+| colspan="3" | [[File:Trait strategist.png]]<br>'''Strategist'''
+* Gain the [[Strategist]] trait
+|}
+{{clear}}
+
+==== Overseer ====
+{| class="wikitable plainlist" width=45% style="text-align: center; float:left; margin-right:10px;"
+|+Ruler
+| colspan="2" | '''Serve the Crown'''
+* {{green|+15}} Natural Dread
+* {{green|+0.3}} Monthly Control Growth
+|-
+| width="50%" | '''A Man's Home'''
+* {{green|+5}} Controlled Territory Defender Advantage
+* {{green|+10%}} Domicile Income
+| width="50%" | '''Strict Organization'''
+* {{green|+20%}} Increase Control in Country Progress Gain
+* {{green|+5%}} Governor Efficiency
+|-
+| '''Enduring Hardships'''
+* {{green|+1}} Fort Level
+* {{green|+10}} Plague Resistance
+* Enemy Occupations do not lower Control
+| '''Hard Rule'''
+* {{green|+20%}} Dread Gain
+* {{green|+50%}} Siege Progress against Revolts
+* {{green|+20}} Faction Military Power Threshold for Vassals
+|-
+| '''Prepared Conscription'''
+* {{green|-15%}} Army Maintenance
+* {{green|+100%}} Friendly Territory Levy Reinforcement Rate
+* {{green|-20%}} Horde Riders Upgrade Cost
+| '''Soldiers of Lesser Fortune'''
+* {{green|-30%}} Mercenary Hire Cost
+|-
+| colspan="2" | '''Absolute Control'''
+* Can give Vassal Directives
+* {{green|+10%}} Taxes from counties with 100 Control
+* {{green|+5%}} Levies from counties with 100 Control
+* {{green|+3}} Mandala Radiance
+|-
+| colspan="2" | [[File:Trait overseer.png]]<br>'''Overseer'''
+* Gain the [[Overseer]] trait
+|}
+{| class="wikitable plainlist" width=45% style="text-align: center; float:left; margin-right:10px;"
+|+{{icon|rtp}} Adventurer
+| colspan="2" | '''Serve the Crown'''
+* {{green|+15}} Natural Dread
+* {{green|-10}} Men-at-Arms Recruitment Cost
+|-
+| width="50%" | '''Impressment'''
+* {{green|+10%}} Provisions Capacity
+* {{green|+100%}} Siege Replenishment
+| width="50%" | '''Loot & Plunder'''
+* Winning a siege gives 20 times the holding's loot as Provisions
+|-
+| '''Enduring Hardships'''
+* {{green|-20%}} Provisions Use
+* {{green|-25%}} Friendly Fatal Casualties
+* {{green|+10}} Defender Advantage
+| '''Hard Rule'''
+* {{green|+20%}} Dread Gain
+* {{green|+10%}} Men-at-Arms Damage
+* {{green|+25%}} Gold from Mercenary Contracts
+|-
+| '''Prepared Conscription'''
+* {{green|-20%}} Men-at-Arms Recruitment Cost
+* {{green|-25%}} Refill Men-at-Arms Provisions
+| '''Soldiers of Lesser Fortune'''
+* {{green|-20%}} Men-at-Arms Recruitment Cost
+* {{green|+400%}} Reinforcements from Scrape the Barrel
+|-
+| colspan="2" | '''Absolute Control'''
+* Increases Steadfast camp temperament bonuses per 20 Dread
+|-
+| colspan="2" | [[File:Trait overseer.png]]<br>'''Overseer'''
+* Gain the [[Overseer]] trait
+|}
+{{clear}}
+
+==== Gallant ====
+{| class="wikitable plainlist" width=45% style="text-align: center; float:left; margin-right:10px;"
+|+Ruler
+| colspan="2" | '''Stalwart Leader'''
+* {{green|+4}} Prowess
+* {{green|+5%}} Hastiluder Foot Experience
+* {{green|-50%}} Death and Injury Risk when Commanding Armies
+* {{green|-25%}} Death and Injury Risk as a Commander
+* Can challenge Rivals to Single Combat
+|-
+| width="50%" | '''Courtship'''
+* {{green|+30%}} Romance and Elope Scheme Success Chance
+* {{green|-20}} Romance and Elope Scheme Phase Length
+| width="50%" | '''Chivalric Dominance'''
+* {{green|+75%}} Knight Effectiveness
+* {{green|+10%}} Accolade Glory Gain
+|-
+| '''Promising Prospects'''
+* {{green|+50}} Marriage Acceptance
+* {{green|+25}} Marriage Acceptance for Family
+| '''Never Back Down'''
+* {{green|-20%}} Friendly Fatal Casualties
+* {{green|+5}} Advantage
+* {{green|+10%}} Hastiluder Trait Experience Gain
+|-
+| '''Loyalty and Respect'''
+* {{green|+50}} Spouse Opinion
+* {{green|+25%}} Skills from Confidant Councilor Tasks
+* {{green|+25}} Obedience from Confidant
+| '''Household Guard'''
+* {{green|+4}} Number of Knights
+|-
+| colspan="2" | '''Peacemaker'''
+* {{green|+10}} Peace Acceptance
+|-
+| colspan="2" | [[File:Trait gallant.png]]<br>'''Gallant'''
+* Gain the [[Gallant]] trait
+|}
+{| class="wikitable plainlist" width=45% style="text-align: center; float:left; margin-right:10px;"
+|+{{icon|rtp}} Adventurer
+| colspan="2" | '''Stalwart Leader'''
+* {{green|+4}} Prowess
+* {{green|+5%}} Hastiluder Foot Experience
+* {{green|-50%}} Death and Injury Risk when Commanding Armies
+* {{green|-25%}} Death and Injury Risk as a Commander
+* Can challenge Rivals to Single Combat
+* Can Request a Grand Tournament from rulers on Roll of Patrons
+|-
+| width="50%" | '''Courtship'''
+* {{green|+30%}} Romance and Elope Scheme Success Chance
+* {{green|-120}} Romance and Elope Scheme Phase Length
+| width="50%" | '''Chivalric Dominance'''
+* {{green|+75%}} Knight Effectiveness
+* {{green|+25%}} Hastiluder Horse Experience
+|-
+| '''Promising Prospects'''
+* {{green|+50}} Marriage Acceptance
+* {{green|+25}} Marriage Acceptance for Family
+| '''Never Back Down'''
+* {{green|-20%}} Friendly Fatal Casualties
+* {{green|+5}} Advantage
+* {{green|+10%}} Hastiluder Trait Experience Gain
+|-
+| '''Loyalty and Respect'''
+* {{green|+50}} Spouse Opinion
+* {{green|+25%}} Hastiluder Wit Experience
+| '''Household Guard'''
+* {{green|+4}} Number of Knights
+* {{green|+25%}} Hastiluder Bow Experience
+|-
+| colspan="2" | '''Peacemaker'''
+* {{green|+10}} Peace Acceptance
+|-
+| colspan="2" | [[File:Trait gallant.png]]<br>'''Gallant'''
+* Gain the [[Gallant]] trait
+|}
+{{clear}}
+
+=== Stewardship ===
+==== Avaricious ====
+{| class="wikitable plainlist" width=45% style="text-align: center; float:left; margin-right:10px;"
+|+Ruler
+| colspan="3" | '''Golden Obligations'''
+* Can Demand Payment for Hooks
+|-
+| width="33%" | '''Heregeld'''
+* {{green|+10%}} Subject Taxes
+| width="33%" | '''War Profiteer'''
+* {{green|+10%}} Monthly Income while at War
+| width="33%" | '''This is MY Domain'''
+* Enables the Extort Subjects decision
+* {{green|+10%}} Domicile Income
+|-
+| '''Detailed Ledgers'''
+* {{green|+20}} Republican Ruler Opinion
+* {{green|+15%}} Republican Tax Contribution
+* {{green|+10%}} Administrative Tax Contribution
+* {{green|+10%}} Governor Salary
+* {{green|+25%}} Monthly Domicile Herd
+| '''Fearful Troops'''
+* {{green|-0.5%}} MAA Maintenance per Dread
+| '''Golden Aplomb'''
+* {{green|+10%}} Monthly Income per Stress level
+|-
+| colspan="3" | '''At Any Cost'''
+* {{green|+10%}} Domain Taxes
+* Enables the Sell Trivial Titles decision
+|-
+| colspan="3" | [[File:Trait avaricious.png]]<br>'''Avaricious'''
+* Gain the [[Avaricious]] trait
+|}
+{| class="wikitable plainlist" width=45% style="text-align: center; float:left; margin-right:10px;"
+|+{{icon|rtp}} Adventurer
+| colspan="3" | '''Golden Obligations'''
+* Can Demand Payment for Hooks
+|-
+| width="33%" | '''Well Stocked'''
+* {{green|+50%}} Provisions Capacity
+| width="33%" | '''Food Haggler'''
+* {{green|-25%}} Provisions Cost
+| width="33%" | '''Nature's Pantry'''
+* {{green|+25%}} Provisions from Gather Provisions
+|-
+| '''Detailed Cookbooks'''
+* {{green|-25%}} Provisions Loss
+| '''High-stakes Bartering'''
+* Enables High-stakes Bartering travel
+| '''Experienced Forgers'''
+* Gather Provisions works better
+|-
+| colspan="3" | '''You Get What You Pay For'''
+* {{green|+25%}} Contract Gold Rewards for non-Mercenary contracts
+|-
+| colspan="3" | [[File:Trait avaricious.png]]<br>'''Avaricious'''
+* Gain the [[Avaricious]] trait
+|}
+{{clear}}
+
+==== Architect ====
+{| class="wikitable plainlist" width=45% style="text-align: center; float:left; margin-right:10px;"
+|+Ruler
+| width="50%" | '''Tax Man'''
+* {{green|+25%}} Collect Taxes Effectiveness
+| width="50%" | '''Cutting Cornerstones'''
+* {{green|-5%}} Building and Holding Construction Cost
+* {{green|-15%}} Domicile Building Construction Cost
+|-
+| '''Defensive Measures'''
+* {{green|+1}} Fort Level
+* {{green|+20%}} Garrison Size
+* Can use the Purchase Truce interaction
+| '''Professional Workforce'''
+* {{green|-30%}} Construction Time
+|-
+| '''Organized Muster Rolls'''
+* {{green|+100%}} Levy Reinforcement Rate
+* {{green|+5%}} Horde Riders from Herd
+| '''Centralization'''
+* {{green|+0.3}} Monthly Development Growth in Realm Capital
+* {{green|+15}} Herd Gain
+|-
+| colspan="2" | '''Popular Figurehead'''
+* {{green|+50}} Popular Opinion
+|-
+| colspan="2" | '''Divided Attention'''
+* {{green|+2}} Domain Limit if not Nomadic, Mandala, Ritsuryō, Sōryō or Wanua
+* {{green|+1}} Domain Limit if Nomadic, Mandala, Ritsuryō, Sōryō or Wanua
+* {{green|-10%}} Domicile Building Construction Time if Administrative
+|-
+| colspan="2" | [[File:Trait architect.png]]<br>'''Architect'''
+* Gain the [[Architect]] trait
+|}
+{| class="wikitable plainlist" width=45% style="text-align: center; float:left; margin-right:10px;"
+|+{{icon|rtp}} Adventurer
+| width="50%" | '''Camp Tax'''
+* {{green|+1}} Monthly Income
+* {{green|-10%}} Building Construction Cost
+| width="50%" | '''Cutting Costs'''
+* {{green|-25%}} Refill Men-at-Arms Gold Cost
+|-
+| '''On the Road'''
+* {{green|+25%}} Travel Speed
+* {{green|+25%}} Move Domicile Travel Speed
+| '''Professional Recruitment'''
+* {{green|+5}} Skill points for followers recruited from holdings
+|-
+| '''See How It's Done'''
+* {{green|+25}} Gold per visited point of interest
+| '''Worldly Knowledge'''
+* {{green|+1}} Skill point per follower per visited Capital point of interest
+|-
+| colspan="2" | '''Inspirational Journeys'''
+* Enables Gather Inspiration travel
+|-
+| colspan="2" | '''Renowned Artificers'''
+* Followers produce better quality artifact when completing a Weapon, Armor or Smith inspiration
+|-
+| colspan="2" | [[File:Trait architect.png]]<br>'''Architect'''
+* Gain the [[Architect]] trait
+|}
+{{clear}}
+
+==== Administrator ====
+{| class="wikitable plainlist" width=45% style="text-align: center; float:left; margin-right:10px;"
+|+Ruler
+| colspan="2" | '''Meritocracy'''
+* {{green|+15}} Courtier and Guest Opinion
+* Enables the Claim Throne Scheme if government doesn't use Merit
+* {{green|+5%}} Monthly Merit if government uses Merit
+|-
+| width="50%" | '''Chains of Loyalty'''
+* {{green|-40}} Days Learn Language Phase Length
+* {{green|+25%}} Domestic Affairs Efficiency
+| width="50%" | '''Large Levies'''
+* {{green|+20%}} Vassal Levy Contribution
+* {{green|+20%}} Vassal Herd Contribution
+* {{green|+5%}} Gold from Herd
+* {{green|+10%}} Governor Trait Experience
+|-
+| '''Likable'''
+* {{green|+10}} Direct Subject Opinion
+* {{green|+20}} Liege and Suzerain Opinion
+| '''Soon Forgiven'''
+* {{green|-0.15}} Monthly Tyranny
+|-
+| '''Positions of Power'''
+* {{green|+20}} Councilor Opinion
+* {{green|+5%}} Governor Efficiency
+| '''Toe the Line'''
+* Vassals are less likely to join Independence Factions
+|-
+| colspan="2" | '''Honored to Serve'''
+* Can give Vassal Directives
+* {{green|+20%}} Powerful Vassal Councilor Tax, Levy and Herd Contribution if not Mandala or Sōryō
+* {{green|+5%}} Tributary Tax Contribution if Mandala
+* {{green|+50%}} Tributary Piety Contribution if Mandala
+* {{green|+5}} House and Close Family Opinion if Sōryō
+* {{green|+3}} Mandala Radiance if Mandala
+* {{green|+15}} Kurultai Obedience if Nomadic
+* {{green|-30%}} Request Council Position Cost if Administrative
+|-
+| colspan="2" | [[File:Trait administrator.png]]<br>'''Administrator'''
+* Gain the [[Administrator]] trait
+|}
+{| class="wikitable plainlist" width=45% style="text-align: center; float:left; margin-right:10px;"
+|+{{icon|rtp}} Adventurer
+| colspan="2" | '''Meritocracy'''
+* {{green|+15}} Courtier and Guest Opinion
+|-
+| width="50%" | '''That Which Binds Us'''
+* Enables Encourage Relationship travel
+| width="50%" | '''Large Fellowship'''
+* {{green|-50%}} Recruiting Cost via Scout for Talent
+|-
+| '''Likable Boss'''
+* {{green|+15}} Aptitude of Friends
+* {{green|+30}} Aptitude of Best Friends
+| '''Loyal Officers'''
+* {{green|+10}} Aptitude of Officers
+|-
+| '''Tight-knit'''
+* {{green|+5}} Aptitude of Officers with a Friend
+* {{green|+5}} Aptitude of Officers with a Lover
+* {{green|+10}} Aptitude of Officers with a Spouse
+| '''Talent Scout'''
+* Scout for Talent travel option applies to every travel
+|-
+| colspan="2" | '''Honored to Serve'''
+* Increases Steadfast camp temperament bonuses per Follower (up to 5)
+|-
+| colspan="2" | [[File:Trait administrator.png]]<br>'''Administrator'''
+* Gain the [[Administrator]] trait
+|}
+{{clear}}
+
+=== Intrigue ===
+==== Schemer ====
+{| class="wikitable plainlist" width=45% style="text-align: center; float:left; margin-right:10px;"
+|+Ruler
+| colspan="3" | '''Truth is Relative'''
+* Enables the Fabricate Hook scheme
+* ''Find Secrets'' may also fabricate Hooks and will always do so if there are no secrets to be found
+|-
+| width="33%" | '''Digging for Dirt'''
+* {{green|+25%}} Find Secrets Progress Speed
+| width="33%" | '''Court of Shadows'''
+* {{green|+4}} Months Scheme Grace Period
+* {{green|+50%}} Disrupt Schemes Effectiveness
+* {{green|+10%}} Political Scheme Potential
+| width="33%" | '''Swift Execution'''
+* {{green|-20}} Days Murder Phase Length
+|-
+| '''Kidnapper'''
+* Enables the Abduct Scheme
+* {{green|+10%}} Capture Chance from Capture Raid Intent
+| '''Prepared for Anything'''
+* {{green|-25}} Enemy Hostile Scheme Success Chance
+* {{green|-15}} Enemy Hostile Scheme Success Chance against own Courtiers
+| '''A Job Done Right'''
+* {{green|+25%}} Hostile Scheme Success Chance
+* {{green|+5%}} Hostile Scheme Potential
+|-
+| colspan="3" | '''Twice Schemed'''
+* {{green|+1}} Max Hostile and Political Schemes
+|-
+| colspan="3" | [[File:Trait schemer.png]]<br>'''Schemer'''
+* Gain the [[Schemer]] trait
+|}
+{| class="wikitable plainlist" width=45% style="text-align: center; float:left; margin-right:10px;"
+|+{{icon|rtp}} Adventurer
+| colspan="3" | '''Truth is Relative'''
+* Enables the Fabricate Hook scheme
+|-
+| width="33%" | '''Digging for Dirt'''
+* Enables Search for Secrets travel
+| width="33%" | '''I Look Good in Comparison'''
+* {{green|+100}} Prestige per exposed baron secret
+* {{green|+200}} Prestige per exposed count secret
+* {{green|+300}} Prestige per exposed duke secret
+* {{green|+400}} Prestige per exposed king secret
+* {{green|+500}} Prestige per exposed emperor secret
+* {{green|+600}} Prestige per exposed hegemon secret
+| width="33%" | '''Swift Execution'''
+* {{green|-120}} Days Murder Phase Length
+|-
+| '''Kidnapper'''
+* Enables the Abduct Scheme
+| '''Prepared for Anything'''
+* {{green|-25}} Enemy Hostile Scheme Success Chance
+* {{green|-15}} Enemy Hostile Scheme Success Chance against own Courtiers
+| '''A Job Done Right'''
+* {{green|+25%}} Hostile Scheme Success Chance
+* {{green|+5%}} Hostile Scheme Potential
+|-
+| colspan="3" | '''Twice Schemed'''
+* {{green|+1}} Max Hostile Schemes
+|-
+| colspan="3" | [[File:Trait schemer.png]]<br>'''Schemer'''
+* Gain the [[Schemer]] trait
+|}
+{{clear}}
+
+==== Seducer ====
+{| class="wikitable plainlist" width=45% style="text-align: center; float:left; margin-right:10px;"
+|+Ruler
+| width="50%" | '''Like Weeds in a Garden'''
+* {{green|+30%}} Fertility
+| width="50%" | '''Enticing Opportunity'''
+* {{green|-20}} Days Seduce Phase Length
+|-
+| '''Unshackled Lust'''
+* Removes the Attraction penalty from Seduce Schemes
+| '''Home Advantage'''
+* {{green|+50%}} Seduce Scheme Success Chance against own Courtiers and Guests
+|-
+| '''Subtle Desire'''
+* Removes the Tier difference penalty from Seduce Schemes
+* Removes the Incestuous penalty from Seduce Schemes targeting characters over 19 years old
+| '''Graceful Recovery'''
+* Can no longer critically fail Seduce Schemes
+|-
+| '''Mortal Adoration'''
+* If a Murder Scheme is successfully executed against this character a Lover may die in its place
+* {{green|-25}} Acceptance for Lovers against Murder Schemes targeting this character
+* {{green|+3}} Mandala Radiance
+| '''Smooth Operator'''
+* {{green|+25%}} Seduce Scheme Success Chance
+* {{green|+1}} Foreign Language Limit
+|-
+| colspan="2" | [[File:Trait seducer.png]]<br>'''Seducer'''
+* Gain the [[Seducer|Seducer / Seductress]] trait
+|}
+{| class="wikitable plainlist" width=45% style="text-align: center; float:left; margin-right:10px;"
+|+{{icon|rtp}} Adventurer
+| width="50%" | '''Like Weeds in a Garden'''
+* {{green|+30%}} Fertility
+| width="50%" | '''Enticing Opportunity'''
+* {{green|-120}} Days Seduce Phase Length
+|-
+| '''Unshackled Lust'''
+* Removes the Attraction penalty from Seduce Schemes
+| '''Home Advantage'''
+* {{green|+50%}} Seduce Scheme Success Chance against own Courtiers and Guests
+|-
+| '''Subtle Desire'''
+* Removes the Tier difference penalty from Seduce Schemes
+* Removes the Incestuous penalty from Seduce Schemes targeting characters over 19 years old
+| '''Graceful Recovery'''
+* Can no longer critically fail Seduce Schemes
+|-
+| '''Mortal Adoration'''
+* {{green|-25}} Acceptance for Lovers against Murder Schemes targeting this character
+* If a Murder Scheme is successfully executed against this character a Lover may die in its place
+* Successful Seduce schemes add rulers to the Roll of Patrons
+| '''Smooth Operator'''
+* {{green|+25%}} Seduce Scheme Success Chance
+* {{green|+1}} Foreign Language Limit
+|-
+| colspan="2" | [[File:Trait seducer.png]]<br>'''Seducer'''
+* Gain the [[Seducer|Seducer / Seductress]] trait
+|}
+{{clear}}
+
+==== Torturer ====
+{| class="wikitable plainlist" width=45% style="text-align: center; float:left; margin-right:10px;"
+|+Ruler
+| width="50%" | '''Dark Insights'''
+* {{green|50%}} chance to gain 1 Intrigue or Prowess when torturing someone (max 5 each)
+| width="50%" | '''Dreadful'''
+* {{green|+30%}} Dread Gain
+|-
+| '''Divine Retribution'''
+* No longer lose Piety or Clergy Opinion from Torturing or Executing
+| '''Thriving in Chaos'''
+* {{green|+4}} Martial and Intrigue per Stress level
+* {{green|+6}} Prowess per Stress level
+|-
+| colspan="2" | '''Malice Implicit'''
+* {{green|+0.5}} Dread Gain per Tyranny
+|-
+| colspan="2" | '''Fear Tax'''
+* {{green|+15%}} Intimidated Vassal Tax, Levy and Herd Contribution if not Mandala, Sōryō or Ritsuryō
+* {{green|+30%}} Terrified Vassal Tax and Levy and Herd Contribution if not Mandala, Sōryō or Ritsuryō
+* {{green|+0.05}} Monthly Piety per Dread if Mandala, Sōryō or Ritsuryō
+|-
+| '''Forever Infamous'''
+* No Dread Decay
+* Enables Murder Feasts with Tours and Tournaments DLC
+* {{green|+1}} Mandala Radiance per 30 Dread
+| '''Prison-Feudal Complex'''
+* {{green|+50%}} Imprison Chance
+|-
+| colspan="2" | [[File:Trait torturer.png]]<br>'''Torturer'''
+* Gain the [[Torturer]] trait
+|}
+{| class="wikitable plainlist" width=45% style="text-align: center; float:left; margin-right:10px;"
+|+{{icon|rtp}} Adventurer
+| width="50%" | '''Dark Insights'''
+* {{green|50%}} chance to gain 1 Intrigue or Prowess when torturing someone (max 5 each)
+| width="50%" | '''Dreadful'''
+* {{green|+30%}} Dread Gain
+|-
+| '''Divine Retribution'''
+* No longer lose Piety or Clergy Opinion from Torturing or Executing
+| '''Thriving in Chaos'''
+* {{green|+4}} Martial and Intrigue per Stress level
+* {{green|+6}} Prowess per Stress level
+|-
+| colspan="2" | '''Crime Pays'''
+* {{green|+100%}} Criminal Contract Gold Rewards
+|-
+| colspan="2" | '''Long Pig'''
+* Enables the Turn into Mystery Meat execution method
+|-
+| '''Forever Infamous'''
+* No Dread Decay
+| '''Prison-Feudal Complex'''
+* {{green|+50%}} Imprison Chance
+|-
+| colspan="2" | [[File:Trait torturer.png]]<br>'''Torturer'''
+* Gain the [[Torturer]] trait
+|}
+{{clear}}
+
+=== Learning ===
+==== Whole of Body ====
+{| class="wikitable plainlist" width=45% style="text-align: center; float:left; margin-right:10px;"
+|+Ruler
+| colspan="3" | '''Anatomical Studies'''
+* {{green|-50%}} Personal Physician Hire Cost
+* {{green|+50%}} Treatment Success Chance
+|-
+| width="33%" | '''Carefree'''
+* {{green|-20%}} Stress Gain
+* Enables the Reject Inheritance decision
+| width="33%" | '''Restraint'''
+* Enables the Embrace Celibacy and Abandon Celibacy decisions
+| width="33%" | '''Wash Your Hands'''
+* {{green|+5}} Plague Resistance
+* {{green|-50%}} Chance for the character to contract illnesses
+* {{green|-25%}} Chance for Courtiers to contract illnesses
+|-
+| '''Mental Resilience'''
+* {{green|+3}} Years Time between Mental Breaks
+| '''Know Thyself'''
+* Receive a warning 1 year before death of natural causes
+| '''Iron Constitution'''
+* {{green|+30%}} Disease Resistance Fertility
+* {{green|+2}} Disease Resistance Health
+|-
+| colspan="3" | '''Healthy'''
+* {{green|+0.5}} Health Boost
+* {{green|+5}} Plague Resistance
+|-
+| colspan="3" | [[File:Trait whole of body.png]]<br>'''Whole of Body'''
+* Gain the [[Whole of Body]] trait
+|}
+{| class="wikitable plainlist" width=45% style="text-align: center; float:left; margin-right:10px;"
+|+{{icon|rtp}} Adventurer
+| colspan="3" | '''Anatomical Studies'''
+* {{green|+50%}} Treatment Success Chance
+|-
+| width="33%" | '''Carefree'''
+* {{green|-20%}} Stress Gain
+* Enables the Reject Inheritance decision
+| width="33%" | '''Restraint'''
+* Enables the Embrace Celibacy and Abandon Celibacy decisions
+| width="33%" | '''Wash Your Hands'''
+* {{green|-50%}} Chance for the character to contract illnesses
+* {{green|-25%}} Chance for Courtiers to contract illnesses
+|-
+| '''Mental Resilience'''
+* {{green|+3}} Years Time between Mental Breaks
+| '''Know Thyself'''
+* Receive a warning 1 year before death of natural causes
+| '''Iron Constitution'''
+* {{green|+30%}} Disease Resistance Fertility
+* {{green|+2}} Disease Resistance Health
+|-
+| colspan="3" | '''Healthy'''
+* {{green|+0.5}} Health Boost
+|-
+| colspan="3" | [[File:Trait whole of body.png]]<br>'''Whole of Body'''
+* Gain the [[Whole of Body]] trait
+|}
+{{clear}}
+
+==== Scholar ====
+{| class="wikitable plainlist" width=45% style="text-align: center; float:left; margin-right:10px;"
+|+Ruler
+| width="50%" | '''Pedagogy'''
+* {{green|+25%}} Learn Language Success Chance
+* {{green|20%}} chance the character's Ward gains additional Skills
+* {{green|20%}} chance the character's Ward becomes a Friend
+| width="50%" | '''Scientific'''
+* {{green|+20%}} Cultural Fascination Progress
+|-
+| '''Open-Minded'''
+* {{green|+2}} Foreign Language Limit
+* {{green|+15}} Different Culture Opinion
+* {{green|+15}} Minority Vassal Opinion
+* {{green|+20%}} Cultural Acceptance Gain
+| '''Planned Cultivation'''
+* {{green|+20%}} Increase Development in County Efficiency
+* {{green|+15%}} County Fertility Growth
+|-
+| '''Apostate'''
+* {{green|+15}} Different Faith Opinion
+* {{green|-75%}} Faith Conversion Cost
+| '''Scholarly Circles'''
+* {{green|+1}} Learning per Level of Devotion
+|-
+| colspan="2" | '''Learn on the Job'''
+* Gain {{green|20%}} of the Councilors' primary Skills
+|-
+| colspan="2" | '''Sanctioned Loopholes'''
+* Can use the Buy Claim Interaction if government doesn't use Merit
+* {{green|+2}} Monthly Merit if government uses Merit
+* {{green|+15%}} Confucian Education Trait Experience Gain if government uses Merit
+|-
+| colspan="2" | [[File:Trait scholar.png]]<br>'''Scholar'''
+* Gain the [[Scholar]] trait
+|}
+{| class="wikitable plainlist" width=45% style="text-align: center; float:left; margin-right:10px;"
+|+{{icon|rtp}} Adventurer
+| width="50%" | '''Pedagogy'''
+* {{green|+25%}} Learn Language Success Chance
+* {{green|20%}} chance the character's Ward gains additional Skills
+* {{green|20%}} chance the character's Ward becomes a Friend
+| width="50%" | '''Camp Scientists'''
+* {{green|+25%}} Men-at-Arms Counter Efficiency
+* {{green|-15%}} Siege Phase Time
+* Increases Steadfast camp temperament bonuses per Follower with 15+ Learning
+|-
+| '''Open-Minded'''
+* {{green|+2}} Foreign Language Limit
+* {{green|+15}} Different Culture Opinion
+* {{green|-120}} Days Learn Language Phase Length
+| '''Take the Custom Where it Comes'''
+* {{green|-25%}} Men-at-Arms Recruitment Cost
+* {{green|+100%}} Traveler Wanderer Experience Gain
+* Can recruit Men-at-Arms of the camp's county's culture
+|-
+| '''Strength in Diversity'''
+* {{green|+15}} Different Faith Opinion
+* {{green|-75%}} Faith Conversion Cost
+* {{green|+1}} to all skills for every 3 faiths in camp if camp temperament is Steadfast (+5 max)
+| '''Applied Scholarship'''
+* {{green|+1}} Learning per Level of Devotion
+|-
+| colspan="2" | '''Inspiration is Everywhere'''
+* {{green|+100%}} Traveler Seasoned Experience Gain
+* Yearly chance for followers to gain a Book inspiration
+|-
+| colspan="2" | '''Acclaimed Authors'''
+* {{green|-75%}} Artifact Decay Reduction
+* Followers produce better quality artifacts when completing Book inspirations
+|-
+| colspan="2" | [[File:Trait scholar.png]]<br>'''Scholar'''
+* Gain the [[Scholar]] trait
+|}
+{{clear}}
+
+==== Theologian ====
+{| class="wikitable plainlist" width=45% style="text-align: center; float:left; margin-right:10px;"
+|+Ruler
+| colspan="2" |
+* '''Faithful'''
+* {{green|+10}} Clergy Opinion (faith has Theocratic Clergy)
+* {{green|+10}} Zealot Vassal Opinion (faith has Lay Clergy)
+* {{green|+0.2}} Monthly Merit
+|-
+| width="50%" |
+* '''Zealous Proselytizer'''
+* {{green|+25%}} Convert Faith in Country Speed
+* {{green|+10%}} Aid Stargazed Task Efficiency
+| width="50%" |
+* '''Clerical Justifications'''
+* {{green|+20%}} Religious Relations Efficiency
+|-
+|
+* '''Religious Icon'''
+* Fervor no longer slows Convert Faith in Country
+* {{green|+10%}} Stress Loss per Level of Devotion if Mandala
+|
+* '''Church and State'''
+* {{green|+50}} Realm Priest Opinion (faith has Theocratic Clergy)
+* {{green|+100%}} Monthly Piety from buildings (faith has Lay Clergy)
+* {{green|+5%}} Monthly Domicile Piety
+|-
+|
+* '''Prophet'''
+* {{green|+2%}} Monthly Piety per Knight
+* {{green|-50%}} Faith Creation and Reformation Cost
+* {{green|-20%}} Change State Faith Cost
+* {{green|+20%}} Monthly Merit
+|
+* '''Radiant'''
+* {{green|+100%}} Level of Devotion Impact
+|-
+| colspan="2" |
+* '''Defender of Faith'''
+* {{green|-25%}} Tyranny Gain (faith has the Righteous doctrine)
+* {{green|+20}} Zealot Vassal Opinion (faith has the Righteous doctrine)
+* {{green|+35%}} Zealot Vassal Tax and Levy Contribution (faith has the Righteous doctrine)
+* {{green|+1}} Diplomacy per Level of Devotion (faith has the Pluralist doctrine)
+* {{green|+20%}} Monthly Piety (faith has the Pluralist doctrine)
+* {{green|+10}} Faith Hostility Advantage (faith has the Fundamentalist doctrine)
+* {{green|+2}} Prowess per Level of Devotion (faith has the Fundamentalist doctrine)
+* {{green|+20}} Clergy Opinion (faith has the Fundamentalist doctrine)
+|-
+| colspan="2" |
+* [[File:Trait theologian.png]]
+* '''Theologian'''
+* Gain the [[Theologian]] trait
+|}
+{| class="wikitable plainlist" width=45% style="text-align: center; float:left; margin-right:10px;"
+|+{{icon|rtp}} Adventurer
+| colspan="2" |
+* '''Faithful'''
+* {{green|+10}} Clergy Opinion (faith has Theocratic Clergy)
+* {{green|+10}} Zealot Vassal Opinion (faith has Lay Clergy)
+* {{green|+5}} Faith Hostility Advantage from Steadfast camp temperament
+|-
+| width="50%" |
+* '''Proselytize Zealously'''
+* Enables Proselytize the Locals travel
+| width="50%" |
+* '''Prolific Pilgrim'''
+* {{green|-50%}} Pilgrimage Cost
+|-
+|
+* '''Religious Camp'''
+* {{green|+0.4}} Monthly Piety per same faith follower from Steadfast camp temperament
+|
+* '''Visiting Churches'''
+* {{green|+50}} Realm Priest Opinion (faith has Theocratic Clergy)
+* {{green|+100%}} Monthly Piety from buildings (faith has Lay Clergy)
+* {{green|+25}} Piety when visiting a Temple holding
+* {{green|+250}} Piety when visiting a Religious point of interest
+|-
+|
+* '''Wandering Missionary'''
+* {{green|+2%}} Monthly Piety per Knight
+* {{green|-50%}} Faith Creation and Reformation Cost
+* Enables Attempt to Convert interaction
+|
+* '''Radiant'''
+* {{green|+1}} Martial per Level of Devotion
+* {{green|+1}} Intrigue per Level of Devotion
+* {{green|+1}} Prowess per Level of Devotion
+|-
+| colspan="2" |
+* '''Defender of Faith'''
+* {{green|-25%}} Tyranny Gain (faith has the Righteous doctrine)
+* {{green|+20}} Zealot Vassal Opinion (faith has the Righteous doctrine)
+* {{green|+1}} Diplomacy per Level of Devotion (faith has the Pluralist doctrine)
+* {{green|+20%}} Monthly Piety (faith has the Pluralist doctrine)
+* {{green|+10}} Faith Hostility Advantage (faith has the Fundamentalist doctrine)
+* {{green|+2}} Prowess per Level of Devotion (faith has the Fundamentalist doctrine)
+* {{green|+20}} Clergy Opinion (faith has the Fundamentalist doctrine)
+* {{green|+100%}} Acceptance from Learning for the Attempt to Convert interaction if adventurer's Learning is higher
+* Removes the acceptance penalty for the Attempt to Convert interaction
+|-
+| colspan="2" |
+* [[File:Trait theologian.png]]
+* '''Theologian'''
+* Gain the [[Theologian]] trait
+|}
+{{clear}}
+
+=== Wandering ===
+==== Inspector ====
+{| class="wikitable plainlist" width=45% style="text-align: center; float:left; margin-right:10px;"
+|+Ruler
+| colspan="4" | '''Mustering'''
+* {{green|+10%}} Stationed Men-at-Arms Stats for 15 years for domain baronies traveled through
+|-
+| colspan="4" | '''Inspection'''
+* {{green|+10%}} Domain Taxes
+* {{green|+10%}} Minor Landholder Vassal Tax Contribution
+* Unlocks the Inspection activity
+|-
+| width="33%" | '''Know Your Land, Know Your People​'''
+* {{green|+10}} Parochial Vassal Opinion
+* {{green|+10}} Minor Landholder Vassal Opinion
+* {{green|+50}} Same Realm Marriage Acceptance
+* {{green|+25}} Same Realm Family Marriage Acceptance
+* Can use the Tutoring Trip travel option
+| colspan="2" width="33%" | '''No Stone Unturned​'''
+* {{green|+10%}} Control Growth for 10 years in counties where activities were hosted
+* {{green|+10%}} County Fertility Growth for 10 years in counties where activities were hosted
+* Gain Development in owned counties when hosting activities in them
+| width="33%" | '''Travel Logs​'''
+* {{green|+0.5}} Traveler Seasoned experience per traveled barony when arriving at destinations
+* Gain the Traveler trait if not already obtained
+|-
+| colspan="2" width="50%" | '''Arbitration'''
+* {{green|+20%}} Intimidated Vassal Tax Contribution
+* Enables the Local Arbitration decision
+| colspan="2" width="50%" | '''Charts & Itineraries​'''
+* Enables the Create Travel Itinerary decision
+* {{green|+35%}} Same Realm Scheme Secrecy
+|-
+| colspan="4" | '''Personal Touch​'''
+* {{green|+1}} Domain Limit
+* {{green|+50%}} No Stone Unturned Effects
+* Inspection activity also applies the effects of the Local Arbitration decision
+|-
+| colspan="4" | [[File:Trait inspector.png]]<br>'''Inspector'''
+* Gain the Inspector trait
+|}
+{| class="wikitable plainlist" width=45% style="text-align: center; float:left; margin-right:10px;"
+|+{{icon|rtp}} Adventurer
+| colspan="4" | '''Finding Your Way​'''
+* Enables the Designated Terrain decision
+* {{green|-20}} Designated Terrain Danger
+|-
+| colspan="4" | '''Earth's Bounty'''
+* {{green|-25%}} Designated Terrain Provisions Use
+* {{green|+10}} Head Porter Aptitude
+* {{green|+10}} Quartermaster Aptitude
+* Unlocks the Head Porter officer
+* Unlocks the Quartermaster officer
+|-
+| width="33%" | '''Knowing the Land​'''
+* {{green|+50%}} Gather Provisions in Designated Terrain
+* Can use the Tutoring Trip travel option
+| colspan="2" width="33%" | '''Navigating the Wilds​​'''
+* {{green|+5}} Designated Terrain Advantage
+* {{green|+2}} Designated Terrain Minimum Battle Roll
+* {{green|+2}} Designated Terrain Maximum Battle Roll
+| width="33%" | '''Travel Logs​'''
+* {{green|+0.5}} Traveler Seasoned experience per traveled barony when arriving at destinations
+* Gain the Traveler trait if not already obtained
+|-
+| colspan="2" width="50%" | '''Right-Hand Man​'''
+* {{green|+15}} Second Aptitude
+* Increases skills based on Camp Purpose
+| colspan="2" width="50%" | '''Charts & Itineraries​'''
+* Enables the Create Travel Itinerary decision
+|-
+| colspan="4" | '''King of the Wilds​​'''
+* Enables the Master Terrain decision
+|-
+| colspan="4" | [[File:Trait inspector.png]]<br>'''Inspector'''
+* Gain the Inspector trait
+|}
+{{clear}}
+
+==== Wayfarer ====
+{| class="wikitable plainlist" width=45% style="text-align: center; float:left; margin-right:10px;"
+|+Ruler
+| colspan="2" | '''Well Prepared​'''
+* {{green|+10}} Travel Safety
+* {{green|-25%}} Travel Option Cost
+* {{green|+25%}} Supply Duration
+|-
+| colspan="2" | '''Storyteller'''
+* Unlocks the Hike activity
+* {{green|+20-80}} Fame per travel
+* {{green|+25%}} Legend Spread Chance
+|-
+| width="50%" | '''Far and Wide​'''
+* {{green|+10}} Different Culture Opinion
+* {{green|+10}} Different Faith Opinion
+* {{green|+10}} Fame per visited Holding
+| width="50%" | '''Just One More Hill​'''
+* {{green|75%}} Chance children gain 1 Prowess
+* {{green|50%}} Chance children gain the Traveler trait
+|-
+| '''Of the People​'''
+* {{green|+30%}} Promote Cultural Acceptance Effectiveness
+* {{green|+20}} Popular Opinion for 2 years for any realm county traveled to
+* {{green|+3}} Mandala Radiance
+| '''Travel Companion​'''
+* {{green|+15}} Travel Companion Opinion
+* {{green|+15}} Caravan Master Opinion
+|-
+| '''Local Hero​'''
+* {{green|+1}} Diplomacy per Level of Fame
+* Can use the Appeasement travel option
+* Can use the Mellow Journey travel option
+| '''The Home Away from Home​'''
+* {{green|+50%}} Travel Stress Loss
+* Unlocks the Long Hike activity option
+|-
+| colspan="2" | [[File:Trait wayfarer.png]]<br>'''Wayfarer'''
+* Gain the Wayfarer trait
+|}
+{| class="wikitable plainlist" width=45% style="text-align: center; float:left; margin-right:10px;"
+|+{{icon|rtp}} Adventurer
+| colspan="2" | '''Well Prepared​'''
+* {{green|+10}} Travel Safety
+* {{green|-25%}} Travel Option Cost
+* {{green|+25%}} Supply Duration
+|-
+| colspan="2" | '''Storyteller'''
+* Unlocks the Hike activity
+* {{green|+20-80}} Fame per travel
+* {{green|+25%}} Legend Spread Chance
+|-
+| width="50%" | '''Far and Wide​'''
+* {{green|+10}} Different Culture Opinion
+* {{green|+10}} Different Faith Opinion
+* {{green|+10}} Fame per visited Holding
+| width="50%" | '''Just One More Hill​'''
+* {{green|75%}} Chance children gain 1 Prowess
+* {{green|50%}} Chance children gain the Traveler trait
+|-
+| '''Of the People​'''
+* {{green|+15}} Fame per Diplomacy when moving camp
+| '''Travel Companion​'''
+* {{green|+15}} Travel Companion Opinion
+* {{green|+15}} Caravan Master Opinion
+|-
+| '''Local Hero​'''
+* {{green|+1}} Diplomacy per Level of Fame
+* Can use the Appeasement travel option
+* Can use the Mellow Journey travel option
+| '''The Home Away from Home​'''
+* {{green|+50%}} Travel Stress Loss
+* Unlocks the Long Hike activity option
+|-
+| colspan="2" | [[File:Trait wayfarer.png]]<br>'''Wayfarer'''
+* Gain the Wayfarer trait
+|}
+{{clear}}
+
+==== Voyager ====
+{| class="wikitable plainlist" width=45% style="text-align: center; float:left; margin-right:10px;"
+|+Ruler
+| width="50%" | '''Power at Home'''
+* Swing the Scales of Power has increased efficiency while traveling
+* Diarchs are more loyal while traveling
+| width="50%" | '''Mercenary Contacts​'''
+* {{green|-15%}} Mercenary Hire Cost
+* Can use the Private Army travel option
+|-
+| colspan="2" | '''Journey'''
+* {{green|-250}} Days Learn Language Phase Length
+* Unlocks the Monument Expedition activity
+* Gain Traveler trait experience from Points of Interest
+|-
+| '''Journey Planner​'''
+* {{green|+15%}} Diplomatic Range
+* {{green|-20%}} Activity Options Cost
+| '''Finally There​'''
+* {{green|+10}} Prestige per visited Point of Interest
+* {{green|-5}} Stress per visited Point of Interest
+|-
+| colspan="2" | '''Souvenirs Aplenty​'''
+* If a destination has more Development than the capital gain Development equal to 1/5 of the difference if not Nomadic
+* {{green|+0.2}} Monthly Control after next season change if Nomadic
+* {{green|+15%}} County Fertility Growth after next season change if Nomadic
+|-
+| '''Gracious Host, Impeccable Guest​'''
+* {{green|+10}} Opinion with anyone traveling to the capital
+* {{green|+10}} Opinion with rulers when visiting their capital
+* {{green|+3}} Court Position Aptitude per known language
+| '''Been There, Done That​'''
+* {{green|+1}} Foreign Language Limit
+* {{green|+30%}} Point of Interest Rewards
+|-
+| colspan="2" | [[File:Trait voyager.png]]<br>'''Voyager'''
+* Gain the Voyager trait
+|}
+{| class="wikitable plainlist" width=45% style="text-align: center; float:left; margin-right:10px;"
+|+{{icon|rtp}} Adventurer
+| width="50%" | '''Organized Camp​'''
+* {{green|+250}} Provisions Capacity
+* {{green|-10%}} Provisions Use
+* {{green|+10%}} Camp Travel Speed
+| width="50%" | '''Mercenary Contacts​'''
+* {{green|-15%}} Mercenary Hire Cost
+* Can use the Private Army travel option
+|-
+| colspan="2" | '''Journey'''
+* {{green|-250}} Days Learn Language Phase Length
+* Unlocks the Monument Expedition activity
+* Gain Traveler trait experience from Points of Interest
+|-
+| '''Journey Planner​'''
+* {{green|+1}} Foreign Language Limit
+* {{green|+30%}} Point of Interest Rewards
+| '''Finally There​'''
+* {{green|+10}} Prestige per visited Point of Interest
+* {{green|-5}} Stress per visited Point of Interest
+|-
+| colspan="2" | '''Souvenirs Aplenty​'''
+* {{green|+20%}} Provisions Capacity
+* {{green|+10}} Follower Opinion when moving Camp
+* {{green|+25}} Gold when moving camp if adventurer has the Gallowsbait trait (once every 3 months)
+|-
+| '''Gracious Host, Impeccable Guest​'''
+* Steadfast Camp bonuses scale with known languages
+* {{green|+10}} Opinion with rulers when visiting their capital
+| '''Been There, Done That​'''
+* {{green|+15%}} Diplomatic Range
+* {{green|-20%}} Activity Options Cost
+|-
+| colspan="2" | [[File:Trait voyager.png]]<br>'''Voyager'''
+* Gain the Voyager trait
+|}
+{{clear}}
+
+== References ==
+<references/>
+{{Mechanics navbox}}
+[[Category:Character]]

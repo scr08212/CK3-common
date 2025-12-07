@@ -1,0 +1,1456 @@
+{{Version|1.18}}
+[[File:Iberian Struggle.jpg|thumb|350px|The Iberian Struggle]]
+Situations are major historical incidents that involve more than one ruler and are happening over a period of time. Situations go through multiple phases, which determine how each ruler is affected by them.
+
+== Natural disasters ==
+Natural disasters cannot happen in the first 10 years of a game. Afterwards, one of each natural disaster will take place every year. Selecting a disaster will display all affected counties with a flashing red border. Natural disasters are 2 times less likely to take place in the de jure capital of a {{iconify|Duchy}}, and 4 times less likely if it's also the de jure capital of a {{iconify|Kingdom}}. They are also 10 times less likely to take place in a region that already had a natural disaster.
+
+Natural disaster situations affect the owners of counties where the disaster takes place, as well as any liege they have.
+
+Every natural disaster has one of three levels of severity.
+
+Every natural disaster situation has 3 phases.
+# '''Warning''' phases last 40 days; halfway through, every affected ruler will receive the option to gain 10 {{iconify|Stress}} and enter a regency while the situation lasts so that recovery contributions will cost 10% less. If the ruler is already in a regency the ruler will not gain {{iconify|Stress}}.
+# '''Impact''' phases last 30 days. Every affected ruler will lose 50 {{iconify|Legitimacy}} if not Hegemon of China and 100 [[File:Mandate legitimacy.png|24px]] Legitimacy if Hegemon of China and every location will lose {{iconify|Control}}, will no longer increase in {{iconify|Development}}, and will receive a modifier based on the situation's severity for 25 years. Every 7 days characters will die, every army located in the situation region has a 25-75% chance to be damaged and lose supplies (depending on its size), and the rulers affected will receive a random negative event. The map terrain will visibly change, and remain as altered until the situation ends.
+# '''Recovery''' phases last for 15 years and give every affected ruler {{red|-0.25}} {{icon|legitimacy}} Monthly Legitimacy. Affected rulers can pay various contributions to receive bonuses. The cost of each contribution depends on the number of counties affected, the severity of the disaster, the ruler's {{icon|gold}} Tax income and the innovations from their culture. If all mandatory contributions have been paid, the situation will end after another two months, and all penalties from the disaster will be removed. If the disaster affects multiple independent realms, each realm must pay the contributions separately to end the disaster within their own realm.
+{| class="mildtable plainlist"
+! Contribution
+! Cost
+! Effects
+! Mandatory to remove penalties
+|-
+| '''Housing Reconstruction'''
+| Very low
+| 
+* {{icon|legitimacy}} {{green|+25}} Legitimacy if independent
+* {{icon|prestige}} {{green|+150}} Prestige if non-administrative vassal
+* {{icon|piety}} {{green|+150}} Piety if non-administrative vassal
+* {{icon|influence}} {{green|+30}} Influence if administrative vassal
+* {{icon|merit}} {{green|+60}} Merit if celestial vassal
+* {{icon|development}} {{green|+25%}} Development Growth for 25 years in all counties affected
+* {{icon|no}} Steward cannot be given councilor tasks until the situation ends
+* {{icon|gold}} {{green|+15%}} Holding Taxes in all counties affected for 10 years without the Urbanization innovation
+* {{icon|gold}} {{green|+15%}} Holding Taxes in all counties affected for 15 years with the Urbanization innovation
+| Yes
+|-
+| '''Survivor Recovery'''
+| Moderate
+| 
+* {{icon|legitimacy}} {{green|+25}} Legitimacy if independent
+* {{icon|prestige}} {{green|+150}} Prestige if non-administrative vassal
+* {{icon|piety}} {{green|+150}} Piety if non-administrative vassal
+* {{icon|influence}} {{green|+30}} Influence if administrative vassal
+* {{icon|merit}} {{green|+60}} Merit if celestial vassal
+* {{icon|control}} {{green|+10%}} Control Growth for 10 years
+* {{icon|opinion}} {{green|+10}} Popular Opinion for 10 years
+* {{icon|gold}} {{red|-15%}} Holding Taxes until the situation ends without the Bailifs innovation
+* {{icon|gold}} {{red|-10%}} Holding Taxes until the situation ends with the Bailifs innovation
+| Yes
+|-
+| '''Debris Removal / Land Drainage'''
+| Moderate
+| 
+* {{icon|legitimacy}} {{green|+25}} Legitimacy if independent
+* {{icon|prestige}} {{green|+150}} Prestige if non-administrative vassal
+* {{icon|piety}} {{green|+150}} Piety if non-administrative vassal
+* {{icon|influence}} {{green|+30}} Influence if administrative vassal
+* {{icon|merit}} {{green|+60}} Merit if celestial vassal
+* [[File:Modifier social positive.png|24px]] Keeper of Order permanent modifier
+* {{icon|levies}} {{red|-75%}} Levy Reinforcement Rate for 10 years
+* {{icon|gold}} {{green|-10%}} Building Construction Cost for 5 years with the City Planning innovation
+| Yes
+|-
+| '''Memorial Fortifications'''
+| High
+| 
+* {{icon|legitimacy}} {{green|+50}} Legitimacy if independent
+* {{icon|prestige}} {{green|+350}} Prestige if non-administrative vassal
+* {{icon|piety}} {{green|+350}} Piety if non-administrative vassal
+* {{icon|influence}} {{green|+60}} Influence if administrative vassal
+* {{icon|merit}} {{green|+100}} Merit if celestial vassal
+* [[File:Modifier county development positive.png|24px]] Memorial Builder permanent modifier
+* [[File:Modifier county development positive.png|24px]] Memorial Fortifications permanent modifier in all counties affected
+| No
+|-
+| '''Refugee Resettlement'''
+| High
+| 
+* {{icon|legitimacy}} {{green|+50}} Legitimacy if independent
+* {{icon|prestige}} {{green|+350}} Prestige if non-administrative vassal
+* {{icon|piety}} {{green|+350}} Piety if non-administrative vassal
+* {{icon|influence}} {{green|+60}} Influence if administrative vassal
+* {{icon|merit}} {{green|+100}} Merit if celestial vassal
+* {{icon|gold}} {{green|-25%}} Building Construction Cost in all counties affected for 10 years without the Rightful Ownership innovation
+* {{icon|development}} {{green|+25%}} Development Growth in all counties affected for 10 years without the Rightful Ownership innovation
+* {{icon|opinion}} {{green|+15}} Popular Opinion in all counties affected for 10 years without the Rightful Ownership innovation
+* {{icon|gold}} {{green|-25%}} Building Construction Cost in all counties affected for 15 years with the Rightful Ownership innovation
+* {{icon|development}} {{green|+25%}} Development Growth in all counties affected for 15 years with the Rightful Ownership innovation
+* {{icon|opinion}} {{green|+15}} Popular Opinion in all counties affected for 15 years with the Rightful Ownership innovation
+* {{icon|levies}} {{green|+5%}} Levy Size in all counties affected for 25 years without the Manorialism innovation
+* {{icon|levies}} {{green|+15%}} Levy Reinforcement Rate in all counties affected for 25 years without the Manorialism innovation
+* {{icon|levies}} {{green|+5%}} Levy Size in all counties affected for 35 years with the Manorialism innovation
+* {{icon|levies}} {{green|+15%}} Levy Reinforcement Rate in all counties affected for 35 years with the Manorialism innovation
+* {{icon|domain}} {{red|-1}} Domain Limit for 10 years without the Court Officials innovation
+* {{icon|domain}} {{red|-1}} Domain Limit for 5 years with the Court Officials innovation
+* {{icon|gold}} {{red|-50%}} Holding Taxes in all counties affected for 10 years without the Magistrates innovation
+| No
+|-
+| '''Aid for Victims'''
+| Very high
+| 
+* {{icon|legitimacy}} {{green|+50}} Legitimacy if independent
+* {{icon|prestige}} {{green|+350}} Prestige if non-administrative vassal
+* {{icon|piety}} {{green|+350}} Piety if non-administrative vassal
+* {{icon|influence}} {{green|+60}} Influence if administrative vassal
+* {{icon|merit}} {{green|+100}} Merit if celestial vassal
+* [[File:Modifier piety positive.png|24px]] Disaster Relief Savior permanent modifier
+* {{icon|opinion}} {{green|+30}} Opinion with Head of Faith if faith has one
+* {{icon|development}} {{green|+0.5}} Monthly Development in all counties affected for 25 years without the Sanitation innovation
+* {{icon|control}} {{green|+25%}} Control Growth in all counties affected for 25 years without the Sanitation innovation
+* {{icon|opinion}} {{green|+15}} Popular Opinion in all counties affected for 25 years without the Sanitation innovation
+* {{icon|plague resistance}} {{green|+3}} Plague Resistance in all counties affected for 25 years without the Sanitation innovation
+* {{icon|development}} {{green|+0.5}} Monthly Development in all counties affected for 35 years with the Sanitation innovation
+* {{icon|control}} {{green|+25%}} Control Growth in all counties affected for 35 years with the Sanitation innovation
+* {{icon|opinion}} {{green|+15}} Popular Opinion in all counties affected for 35 years with the Sanitation innovation
+* {{icon|plague resistance}} {{green|+3}} Plague Resistance in all counties affected for 35 years with the Sanitation innovation
+| No
+|}
+If a human player would be picked for death during a situation, both the player's character and a close family member, always the primary heir if there is one, will be at risk and the player will receive the following choices:
+* Try to survive together through a twice as difficult {{iconify|Prowess}} challenge. Both characters will be wounded, and if the challenge is failed one of the characters will die.
+* Try to survive separately through a {{iconify|Prowess}} challenge. Any character who fails the challenge will die.
+* Sacrifice yourself to save the family member. The player character will die, the family member will escape unharmed, and the dynasty will gain 250 {{iconify|Renown}}.
+* Sacrifice the family member to survive. The family member will die and the player character will escape unharmed; the player character will lose 350 {{iconify|Prestige}} and 250 {{iconify|Piety}}, and gain the {{iconify|Craven}} trait.
+
+=== Earthquake ===
+Earthquakes affect an epicenter county and every adjacent county. An earthquake can take place anywhere in the world but is influenced by the following:
+* Twice more likely if located in Asia Minor, China, Middle East, North-Eastern Africa, Indonesia, Japan, Philippines or Southern Europe
+* Twice more likely if the county has at least one barony with {{iconify|Mountains}} or {{iconify|Desert Mountains}} terrain
+
+Earthquakes have the following levels of severity:
+{| class="mildtable plainlist" style="text-align: center;"
+! Severity
+! {{icon|death}} Characters killed
+! {{iconify|Supply}} Limit
+! {{icon|time}} Construction Time
+! {{icon|control}} Monthly Control
+! {{icon|opinion}} Popular Opinion
+! {{iconify|Danger}}
+! {{iconify|Plague Resistance}}
+! width=35% | Guaranteed in
+|-
+| [[File:Natural disaster.png|40px]] || {{red|5%}} || {{red|-40%}} || {{red|+30%}} || {{red|-0.2}} || {{red|-20}} || {{red|+20}} || {{red|-3}}
+| Arabia, Borneo, Korea, India, Lanka, Northern Europe, Siberia, Western Africa, Western Britannia and Western Steppes
+|-
+| [[File:Natural disaster.png|40px]][[File:Natural disaster.png|40px]] || {{red|10%}} || {{red|-50%}} || {{red|+40%}} || {{red|-0.4}} || {{red|-25}} || {{red|+30}} || {{red|-6}}
+| Arakan, Asia, Asia Minor, Bactria, Burma, Himalaya, Middle East, Southern Europe and Tibet
+|-
+| [[File:Natural disaster.png|40px]][[File:Natural disaster.png|40px]][[File:Natural disaster.png|40px]] || {{red|15%}} || {{red|-60%}} || {{red|+50%}} || {{red|-0.6}} || {{red|-30}} || {{red|+40}} || {{red|-9}}
+| Arakan, Asia, Asia Minor, Bactria, Burma, Himalaya, Middle East, Southern Europe and Tibet
+|}
+
+=== Flood ===
+Floods can only take place in counties adjacent to a major river. The major river can be any in the world but it is twice more likely to cause a flood if any adjacent barony has {{iconify|Farmlands}} or {{iconify|Plains}} terrain.
+
+Floods have the following levels of severity. They will always have a severity of 2 or 3 if the flooding river is Nile or Yellow River.
+{| class="mildtable plainlist" style="text-align: center;"
+! Severity
+! {{icon|death}} Characters killed
+! {{iconify|Supply}} Limit
+! {{icon|time}} Construction Time
+! {{icon|control}} Monthly Control
+! {{icon|opinion}} Popular Opinion
+! {{iconify|Danger}}
+! {{iconify|Plague Resistance}}
+|-
+| [[File:Natural disaster.png|40px]] || {{red|5%}} || {{red|-60%}} || {{red|+60%}} || {{red|-0.6}} || {{red|-20}} || {{red|+20}} || {{red|-9}}
+|-
+| [[File:Natural disaster.png|40px]][[File:Natural disaster.png|40px]] || {{red|10%}} || {{red|-70%}} || {{red|+70%}} || {{red|-0.8}} || {{red|-25}} || {{red|+30}} || {{red|-12}}
+|-
+| [[File:Natural disaster.png|40px]][[File:Natural disaster.png|40px]][[File:Natural disaster.png|40px]] || {{red|15%}} || {{red|-80%}} || {{red|+80%}} || {{red|-1}} || {{red|-30}} || {{red|+40}} || {{red|-15}}
+|}
+If all mandatory contributions are paid every county affected by the disaster will gain the [[File:Modifier county development positive.png|24px]] Good Fertility modifier for 10 years, which gives the following bonuses:
+* {{icon|supply}} {{green|+25%}} Supply Limit
+* {{icon|development}} {{green|+15%}} Development Growth
+* {{icon|kos}} {{green|+25%}} County Fertility Growth
+
+== Struggles ==
+A struggle goes through multiple phases that change 3 months after sufficient Catalysts, actions that push the struggle towards the next phase, take place. All characters will be considered Involved, Interloper, or Uninvolved in a struggle, which determines how much they can influence it and how much they can be influenced by it.
+
+Ending a struggle will give a {{iconify|Heroic legend}} seed.
+
+=== Iberian Struggle ===
+{{expansion|foi}}
+The Iberian Struggle is present in all start dates.
+
+A faith or culture will become involved in the Iberian Struggle if 80% of the counties that follow it are present in the region of Iberia. In addition the following faiths and cultures will always be involved:
+* Faiths: {{iconify|Mozarabism}}, {{iconify|Catholicism}}, {{iconify|Muwalladism}}, {{iconify|Ash'arism}}
+* Cultures: Andalusian, Aragonese, Asturleonese, Basque, Castilian, Catalan, Galician, Portuguese, Bedouin, Maghrebi, Mashriqi, Baranis, Sephardi
+{| class="mildtable plainlist"
+! Involvement level
+! Catalyst progress
+! Holy Wars in Iberia
+! Struggle Clash casus belli
+! Inter-faith marriages in Iberia
+! Requirements
+|-
+| '''Involved'''
+| align=center | {{icon|yes}}
+| align=center | {{icon|no}}
+| align=center | {{icon|yes}}
+| align=center | {{icon|yes}}
+| 
+* {{icon|yes}} Realm capital within the region of Iberia
+* {{icon|yes}} Faith is involved
+* {{icon|yes}} Culture is involved
+|-
+| '''Interloper'''
+| align=center | {{icon|yes}}
+| align=center | {{icon|no}}
+| align=center | {{icon|no}}
+| align=center | {{icon|no}}
+| 
+* {{icon|yes}} Realm capital within the region of Iberia or courtier in Iberia
+* {{icon|no}} Faith is involved
+* {{icon|no}} Culture is involved
+|-
+| '''Uninvolved'''
+| align=center | {{icon|no}}
+| align=center | {{icon|yes}}
+| align=center | {{icon|no}}
+| align=center | {{icon|no}}
+| 
+* {{icon|no}} Realm capital within the region of Iberia or courtier in Iberia
+|}
+
+==== Phases ====
+The Iberian Struggle goes through four cyclic phases and always starts in the [[File:Struggle iberia phase opportunity.png|24px]] Opportunity phase.
+{| class="mildtable plainlist"
+! Phase
+! Involved character effects
+! Interloper character effects
+! Catalysts
+|-
+| align=center | '''Opportunity'''<br>[[File:Struggle iberia phase opportunity.png|90px]]
+| 
+* {{icon|gold}} {{green|-30%}} Mercenary Hire Cost
+* {{icon|prestige}} {{green|-50%}} Casus Belli Prestige Cost for war targets in Iberia
+* {{icon|prestige}} {{green|+150}} Prestige when learning a new Language
+* {{icon|prestige}} {{green|+150}} Prestige when granting a title to an Involved character
+* {{icon|prestige}} {{green|-25%}} Culture Conversion Cost towards involved cultures
+* {{icon|piety}} {{green|-50%}} Faith Conversion Cost towards involved faiths
+* [[File:Task_conversion.png|24px]] {{green|+25%}} Convert Faith in County Task Speed
+* [[File:Task_develop_county.png|24px]] {{green|+1}} Cultural Acceptance from Increase Development in County tasks
+* {{icon|prestige}} Fabricating Claims for Iberia costs Prestige instead of Gold
+* [[File:Struggle cb.png|24px]] Enables the Border Raid casus belli
+* {{icon|decision}} Enables the Commission Epic decision
+* {{icon|decision}} Enables the Sell Minor Titles decision for Kings and Emperors
+* {{icon|yes}} Enables the Bargain Fealty character interaction
+* {{icon|yes}} Enables the Contract Assistance character interaction
+* {{icon|yes}} Enables the Buy Claim character interaction with any Involved character
+* {{icon|yes}} Enables the Demand Payment character interaction with any Involved character
+* {{icon|yes}} Enables the Foment Revolt character interaction with any Involved character
+* {{icon|yes}} Enables the Purchase Truce character interaction with any Involved character
+* {{icon|yes}} Enables the Befriend scheme
+* {{icon|yes}} Enables the Abduct scheme against any Involved character
+* {{icon|yes}} Enables the Claim Throne scheme against any Involved character
+* {{icon|yes}} Enables the Fabricate Hook scheme against any Involved character
+| 
+* {{icon|prestige}} {{green|-50%}} Casus Belli Prestige Cost for war targets in Iberia
+* {{icon|prestige}} {{green|-25%}} Culture Conversion Cost towards involved cultures
+* {{icon|piety}} {{green|-50%}} Faith Conversion Cost towards involved faiths
+* [[File:Task_conversion.png|24px]] {{green|+25%}} Convert Faith in County Task Speed
+* {{icon|gold}} {{red|-10%}} Holding Taxes
+* {{icon|opinion}} {{red|-5}} Popular Opinion
+* {{icon|decision}} Enables the Iberian Foothold decision
+| '''Towards Hostility'''
+* '''+25''' Break a Truce with an Involved character
+* '''+10''' Expose a Secret of an Involved character
+* '''+10''' Become Rival or Nemesis with an Involved character
+* '''+10''' Usurp a title de jure part of Empire of Hispania
+* '''+5''' Kill an Involved character
+* '''+5''' Convert an Involved character or a county in Iberia
+* '''+5''' Use a Hook on an Involved character
+* '''+3''' Construct a Building in a Castle Holding
+* '''+3''' Gain a Claim on a Title jure part of Empire of Hispania
+* '''+3''' Enforce Demands on an offensive war against an Involved character
+* '''+1''' Yearly Progress
+''' Towards Conciliation'''
+* '''+25''' Release an Involved character without any request
+* '''+10''' Grant Independence to a non de jure Vassal
+* '''+10''' Grant a County to a character of Involved culture
+* '''+10''' Convert to an Involved culture or faith
+* '''+10''' Become Best Friends or Soulmate with an Involved character
+* '''+5''' Invite an Involved character of different culture or faith to a Feast
+* '''+5''' Ransom an Involved character
+* '''+5''' Give a Right or lower Obligations to a vassal of different culture or faith
+* '''+3''' Construct a Building in a City Holding
+* '''+3''' Send a Gift or Artifact to an Involved character
+* '''+3''' Learn the Language of an Involved character
+* '''+3''' Purchase a Truce from an involved character
+* '''+3''' Become Friends or Lovers with an Involved character
+* '''+3''' Form an Alliance with an Involved character of different faith
+* '''+1''' Increase Development in a County of different culture or faith
+|-
+| align=center | '''Hostility'''<br>[[File:Struggle iberia phase hostility.png|90px]]
+| 
+* {{icon|scheme}} {{green|+1}} Max Hostile Schemes
+* {{icon|levies}} {{green|+50%}} Same Faith Levy Reinforcement Rate
+* {{icon|gold}} {{green|+25%}} Different Faith Domain Taxes
+* {{icon|gold}} {{green|-30%}} Same Culture Mercenary Hire Cost
+* {{icon|piety}} {{green|-25%}} Holy Order Hire Cost
+* {{icon|advantage}} {{green|+5}} Advantage
+* {{icon|death}} {{green|+50%}} Enemy Fatal Casualties
+* {{icon|pursuit}} {{green|+20%}} Army Pursuit
+* {{icon|siege progress}} {{green|+20%}} Army Siege Weapon Effectiveness
+* {{icon|unknown}} {{green|-50%}} Struggle Clash Casus Belli Cost
+* {{icon|unknown}} {{green|-50%}} Casus Belli Cost against characters of different faith
+* {{icon|piety}} {{green|-50%}} Casus Belli Piety Cost for war targets in Iberia
+* {{icon|time}} {{yellow|-900}} Days Truce Duration within Iberia
+* [[File:Task_conversion.png|24px]] {{red|-25%}} Convert Faith in County Task Speed
+* [[File:Task_promote_culture.png|24px]] {{red|-50%}} Promote Culture Task Speed
+* {{icon|development}} {{red|-30%}} Development Growth
+* {{icon|time}} {{red|-50%}} Cultural Fascination Progress
+* {{icon|opinion}} {{red|-10}} Different Culture and Faith Opinion
+* {{icon|opinion}} {{red|-50%}} Cultural Acceptance Gain
+* {{icon|piety}} {{red|-250}} Piety when marrying someone of different faith
+* [[File:Struggle cb.png|24px]] Enables the Border Raid casus belli
+* [[File:Vassalization cb.png|24px]] Enables the Forced Vassalization casus belli
+* {{icon|decision}} Enables the Study the Art of Scheming decision
+* {{icon|decision}} Found Holy Order decision is available for Dukes
+* {{icon|yes}} Enables the Purchase Truce character interaction with any Involved character
+* {{icon|yes}} Enables the Claim Liege Title character interaction for Powerful Vassals
+* {{icon|yes}} Enables the Claim Throne scheme for Powerful Vassals against any Involved character
+| 
+* {{icon|piety}} {{green|-25%}} Holy Order Hire Cost
+* {{icon|death}} {{green|+50%}} Enemy Fatal Casualties
+* {{icon|unknown}} {{green|-50%}} Casus Belli Cost against characters of different faith
+* {{icon|piety}} {{green|-50%}} Casus Belli Piety Cost for war targets in Iberia
+* {{icon|time}} {{yellow|-900}} Days Truce Duration within Iberia
+* {{icon|gold}} {{red|-30%}} Holding Taxes
+* [[File:Task_conversion.png|24px]] {{red|-25%}} Convert Faith in County Task Speed
+* [[File:Task_promote_culture.png|24px]] {{red|-50%}} Promote Culture Task Speed
+* {{icon|development}} {{red|-40%}} Development Growth
+* {{icon|time}} {{red|-25%}} Cultural Fascination Progress
+* {{icon|opinion}} {{red|-15}} Popular Opinion
+* {{icon|opinion}} {{red|-25%}} Cultural Acceptance Gain
+* {{icon|decision}} Enables the Iberian Foothold decision
+| '''Towards Compromise'''
+* '''+25''' Release an Involved character without any request
+* '''+10''' Grant Independence to a non de jure Vassal
+* '''+10''' Grant a County to a character of Involved culture
+* '''+10''' Convert to an Involved culture or faith
+* '''+10''' Become Best Friends or Soulmate with an Involved character
+* '''+5''' Invite an Involved character of different culture or faith to a Feast
+* '''+5''' Ransom an Involved character
+* '''+5''' Give a Right or lower Obligations to a vassal of different culture or faith
+* '''+3''' Construct a Building in a City Holding
+* '''+3''' Send a Gift or Artifact to an Involved character
+* '''+3''' Learn the Language of an Involved character
+* '''+3''' Purchase a Truce from an involved character
+* '''+3''' Become Friends or Lovers with an Involved character
+* '''+3''' Form an Alliance with an Involved character of different faith
+* '''+1''' Increase Development in a County of different culture or faith
+* '''+1''' Yearly Progress
+|-
+| align=center | '''Conciliation'''<br>[[File:Struggle iberia phase conciliation.png|90px]]
+| 
+* {{icon|scheme}} {{green|+1}} Max Personal Schemes
+* {{icon|development}} {{green|+30%}} Development Growth
+* {{icon|prestige}} {{green|-50%}} Hybrid Culture Cost
+* {{icon|gold}} {{green|-25%}} City Building and Holding Construction Cost
+* {{icon|scheme success chance}} {{green|+10%}} Personal Scheme Success Chance
+* {{icon|scheme success chance}} {{green|+50%}} Befriend Scheme Power
+* {{icon|scheme success chance}} {{green|+25%}} Learn Language Scheme Power
+* {{icon|scheme success chance}} {{green|+20}} Hostile Scheme Resistance
+* {{icon|prestige}} {{green|+75}} Prestige when befriending an Involved character
+* {{icon|prestige}} {{green|+150}} Prestige when releasing prisoners of different culture
+* {{icon|prestige}} {{green|+150}} Prestige when releasing prisoners of different faith
+* {{icon|prestige}} {{green|+150}} Prestige from Feast activities
+* {{icon|piety}} {{green|+100}} Piety when marrying someone of different faith
+* {{icon|piety}} {{green|+100}} Piety when learning a new Language
+* {{icon|time}} {{green|-25%}} Building Construction Time
+* {{icon|innovation}} {{green|+25%}} Cultural Fascination Progress
+* {{icon|opinion}} {{green|+20}} Popular Opinion
+* {{icon|opinion}} {{green|+20}} Different Culture and Faith Opinion
+* {{icon|opinion}} {{green|+10}} Different Faith Liege Opinion
+* {{icon|opinion}} {{green|-50%}} Different Faith Popular Opinion
+* {{icon|opinion}} {{green|+20%}} Cultural Acceptance Gain
+* {{icon|unknown}} {{green|+25}} Marriage Acceptance with Involved characters
+* {{icon|time}} {{yellow|+900}} Days Truce Duration within Iberia
+* {{icon|control}} {{red|-0.01}} Monthly Control when at War
+* {{icon|control}} {{red|-10%}} Monthly Control Growth when at War
+* {{icon|unknown}} {{red|-25}} Agent Acceptance
+* {{icon|unknown}} Struggle Clash casus belli is more expensive
+* [[File:Struggle cb.png|24px]] Struggle Clash casus belli can only target Counties
+* [[File:Struggle cb.png|24px]] Enables the Iberian Reclamation casus belli
+* {{icon|decision}} Enables the Build Pilgrim Roads decision
+* {{icon|decision}} Enables the Sponsor Jewish Sciences decision
+* {{icon|opinion}} Gifts to different culture or faith characters make progress towards Friendship
+* {{icon|opinion}} Granting titles to different culture or faith characters make progress towards Friendship
+* {{icon|yes}} Enables the Befriend scheme
+* {{icon|no}} Cannot execute Involved characters
+* {{icon|no}} Cannot use Invasion and Conquest casus bellis
+* {{icon|no}} Cannot use the Convert Faith in County task in counties with involved faiths
+| 
+* {{icon|development}} {{green|+30%}} Development Growth
+* {{icon|prestige}} {{green|-50%}} Hybrid Culture Cost
+* {{icon|time}} {{green|-5%}} Building Construction Time
+* {{icon|opinion}} {{green|+10}} Popular Opinion
+* {{icon|time}} {{yellow|+900}} Days Truce Duration within Iberia
+* {{icon|gold}} {{red|-25%}} Holding Taxes
+* {{icon|control}} {{red|-0.02}} Monthly Control when at War
+* {{icon|control}} {{red|-25%}} Monthly Control Growth when at War
+* [[File:Struggle cb.png|24px]] Struggle Clash casus belli can only target Counties
+* {{icon|no}} Cannot use Invasion and Conquest casus bellis
+| '''Towards Compromise'''
+* '''+25''' Break a Truce with an Involved character
+* '''+10''' Expose a Secret of an Involved character
+* '''+10''' Become Rival or Nemesis with an Involved character
+* '''+10''' Usurp a title de jure part of Empire of Hispania
+* '''+5''' Kill an Involved character
+* '''+5''' Convert an Involved character or a county in Iberia
+* '''+5''' Use a Hook on an Involved character
+* '''+3''' Construct a Building in a Castle Holding
+* '''+3''' Gain a Claim on a Title jure part of Empire of Hispania
+* '''+3''' Enforce Demands on an offensive war against an Involved character
+* '''+1''' Yearly Progress
+|-
+| align=center | '''Compromise'''<br>[[File:Struggle iberia phase compromise.png|90px]]
+| 
+* {{icon|scheme}} {{green|+1}} Max Learn Language Schemes
+* {{icon|garrison}} {{green|+25%}} Garrison Size
+* {{icon|levies}} {{green|+50%}} Same Faith Levy Reinforcement Rate
+* {{icon|levies}} {{green|+50%}} Friendly Territory Levy Reinforcement Rate
+* {{icon|gold}} {{green|-25%}} Castle Building and Holding Construction Cost
+* {{icon|advantage}} {{green|+5}} Defender Advantage
+* {{icon|renown}} {{green|+50}} Renown when granting titles to different culture or faith characters
+* {{icon|renown}} {{green|+75}} Renown when granting independence
+* {{icon|prestige}} {{green|+150}} Prestige when releasing prisoners of different culture
+* {{icon|prestige}} {{green|+150}} Prestige when releasing prisoners of different faith
+* {{icon|piety}} {{green|+100}} Piety when completing a building in a Temple holding
+* {{icon|piety}} {{green|+100}} Piety when befriending an Involved character
+* {{icon|piety}} {{green|+100}} Piety when forming an Alliance with an Involved character
+* [[File:Task_promote_culture.png|24px]] {{green|+50%}} Promote Culture Task Speed
+* {{icon|opinion}} {{green|+10}} Different Culture and Faith Opinion
+* {{icon|opinion}} {{green|+50%}} Cultural Acceptance Gain
+* {{icon|unknown}} {{green|+10}} White Peace Acceptance
+* {{icon|time}} {{yellow|+900}} Days Truce Duration within Iberia
+* [[File:Task_conversion.png|24px]] {{red|-25%}} Convert Faith in County Task Speed
+* {{icon|prestige}} {{red|+50%}} Prestige Casus Belli Cost when targeting characters of different faith
+* [[File:Truce.png|24px]] Wards and Guardians establish Truces between their lieges
+* {{icon|development}} Completing a building in a Castle holding may increase County Development
+* {{icon|unknown}} Struggle Clash casus belli is more expensive
+* [[File:Struggle cb.png|24px]] Struggle Clash casus belli can only target one County
+* [[File:Struggle cb.png|24px]] Enables the Iberian Reclamation casus belli
+* {{icon|yes}} Enables the Enforce Truce character interaction with vassals if title rank is Duke or higher
+* {{icon|no}} Cannot use Invasion and Conquest casus bellis
+| 
+* {{icon|scheme}} {{green|+1}} Max Learn Language Schemes
+* [[File:Task_promote_culture.png|24px]] {{green|+50%}} Promote Culture Task Speed
+* {{icon|opinion}} {{green|+5}} Different Culture and Faith Opinion
+* {{icon|unknown}} {{green|+10}} White Peace Acceptance
+* {{icon|time}} {{yellow|+900}} Days Truce Duration within Iberia
+* {{icon|gold}} {{red|-25%}} Holding Taxes
+* {{icon|opinion}} {{red|-10}} Popular Opinion
+* {{icon|advantage}} {{red|-5}} Defender Advantage
+* [[File:Task_conversion.png|24px]] {{red|-25%}} Convert Faith in County Task Speed
+* {{icon|control}} {{red|-0.01}} Monthly Control when at War
+* {{icon|control}} {{red|-25%}} Monthly Control Growth when at War
+* {{icon|prestige}} {{red|+50%}} Prestige Casus Belli Cost when targeting characters of different faith
+* [[File:Struggle cb.png|24px]] Struggle Clash casus belli can only target one County
+| '''Towards Opportunity'''
+* '''+25''' Break a Truce with an Involved character
+* '''+10''' Expose a Secret of an Involved character
+* '''+10''' Become Rival or Nemesis with an Involved character
+* '''+10''' Usurp a title de jure part of Empire of Hispania
+* '''+5''' Kill an Involved character
+* '''+5''' Convert an Involved character or a county in Iberia
+* '''+5''' Use a Hook on an Involved character
+* '''+3''' Construct a Building in a Castle Holding
+* '''+3''' Gain a Claim on a Title jure part of Empire of Hispania
+* '''+3''' Enforce Demands on an offensive war against an Involved character
+* '''+1''' Yearly Progress
+|}
+
+==== Endings ====
+The Iberian Struggle can be ended in three ways by independent rulers that are Involved. Each ending will grant the dynasty that ended the situation {{green|10000}} {{iconify|Renown}}. Alternatively an Interloper character may end the situation by taking the Iberian Foothold decision.
+{| class="mildtable"
+! Ending
+! Effects
+! Requirements
+|-
+| '''Dominance'''
+| 
+* {{icon|nickname}} Gain the ''the Conquistador'' nickname
+* {{icon|empire}} Unlocks the creation of the Empire of Hispania title
+* [[File:Struggle cb.png|24px]] House can keep using the Struggle Clash casus belli
+* {{icon|yes}} Choose a permanent reward
+** '''This shall be a land of The Lord/God!'''
+*** [[File:Modifier piety positive.png|24px]] House gains the Faith Hostility permanent modifier
+*** {{icon|piety}} {{green|+1000}} Piety
+*** {{icon|piety}} {{green|-50%}} Holy War for Duchy Casus Belli Cost against Involved faiths
+*** [[File:Task_conversion.png|24px]] {{green|+50%}} Convert Faith in County Task Speed in the region of Iberia
+*** {{icon|stress}} {{red|+40}} Stress if Cynical
+*** {{icon|yes}} All Holy War casus belli require one Level of Devotion less
+** '''The settlement of this peninsula will be our focus.'''
+*** [[File:Modifier county opinion positive.png|24px]] House gains the Cultural Hostility permanent modifier
+*** {{icon|renown}} {{green|+1000}} Renown
+*** {{icon|prestige}} {{green|-50%}} Conquer Duchy Casus Belli Cost against Involved cultures
+*** [[File:Task_promote_culture.png|24px]] {{green|+50%}} Promote Culture Task Speed
+*** {{icon|opinion}} {{red|-50%}} Cultural Acceptance between all Involved cultures
+*** {{icon|stress}} {{red|+40}} Stress if Humble
+** '''God/Allah has given Iberia to the [culture collective noun].'''
+*** [[File:Modifier county opinion positive.png|24px]] House gains the Domination Hostility modifier for 200 years
+*** {{icon|prestige}} {{green|+3000}} Prestige
+*** {{icon|piety}} {{green|-50%}} Holy War for Duchy Casus Belli Cost against Involved faiths
+*** {{icon|prestige}} {{green|-50%}} Conquer Duchy Casus Belli Cost against Involved cultures
+*** [[File:Task_conversion.png|24px]] {{green|+50%}} Convert Faith in County Task Speed in the region of Iberia
+*** [[File:Task_promote_culture.png|24px]] {{green|+50%}} Promote Culture Task Speed
+*** {{icon|opinion}} {{red|-75%}} Cultural Acceptance between all Involved cultures
+*** {{icon|stress}} {{red|+40}} Stress if Cynical
+*** {{icon|stress}} {{red|+40}} Stress if Humble
+*** {{icon|yes}} All Holy War casus belli require one Level of Devotion less
+| 
+* [[File:Struggle iberia phase hostility.png|24px]] Hostility struggle phase or completely controls iberia as a kingdom or empire for 5 years
+* {{icon|yes}} Every county de jure part of the kingdom title which hold your capital has the same culture and faith
+* {{icon|no}} Any other independent Involved character controls 20% or more of the region of Iberia
+* {{icon|yes}} One of the following:
+** {{icon|kingdom}} Hold and completely control 2 kingdoms de jure part of Empire of Hispania
+** {{icon|decision}} Took the Unite the Spanish Thrones decision
+* {{icon|duchy}} Completely control at least two of the following duchies:
+** Balansiyyah
+** Cordoba
+** Galicia
+** Gothia
+** Tulaytulah
+|-
+| '''Status Quo'''
+| 
+* {{icon|nickname}} Gain the ''the Pragmatic'' nickname
+* {{icon|warning}} Empire of Hispania title is destroyed
+* {{icon|empire}} A de jure empire is created for each Kingdom title in Iberia with at least 5 Counties
+* {{icon|de jure}} All Kingdoms too small become de jure part of a neighbor empire
+* {{icon|de jure}} All completely controlled Duchies become de jure part of the primary Kingdom of their Top Liege
+* {{icon|piety}} {{red|+50%}} Holy War for Duchy Casus Belli Cost against Involved faiths
+* {{icon|prestige}} {{red|+50%}} Conquer Duchy Casus Belli Cost against Involved cultures
+* [[File:Modifier county development positive.png|24px]] Houses of all independent Involved rulers gain the Compromise permanent modifier
+* [[File:Modifier rock positive.png|24px]] Realm Capitals of all independent Involved rulers gain the Regional Stronghold permanent modifier
+| 
+* [[File:Struggle iberia phase compromise.png|24px]] Compromise struggle phase
+* {{icon|yes}} Peace between all independent Involved characters
+* {{icon|no}} Any independent Involved character controls 50% or more of the region of Iberia
+* {{icon|yes}} One of the following:
+** {{icon|exalted among men}} Level of Fame is at least Exalted Among Men
+** {{icon|kingdom}} Hold and completely control a kingdom de jure part of Empire of Hispania
+* {{icon|yes}} One of the following:
+** {{icon|yes}} {{green|60}} Opinion or Strong Hook with all independent Involved characters
+** {{icon|no}} Any other independent Involved character is King or Emperor
+** {{icon|yes}} More than 25% of the region of Iberia is controlled by Interloper or Uninvolved characters
+* {{icon|duchy}} Completely control at least one of the following duchies:
+** Balansiyyah
+** Cordoba
+** Galicia
+** Gothia
+** Tulaytulah
+|-
+| '''Détente'''
+| 
+* {{icon|nickname}} Gain the ''the Equitable'' nickname
+* {{icon|empire}} Unlocks the creation of the Empire of Hispania title
+* {{icon|marriage}} Enables inter-faith marriages between all Involved cultures
+* {{icon|yes}} Allows all characters of both Involved culture and Involved faith to join each other's defensive wars against characters of different culture and faith
+* {{icon|no}} Disables Holy War casus bellis between all involved cultures
+* [[File:Modifier social positive.png|24px]] Houses of all independent Involved rulers gain the Conciliation permanent modifier
+* {{icon|opinion}} {{green|+50%}} Cultural Acceptance between all Involved cultures
+| 
+* [[File:Struggle iberia phase conciliation.png|24px]] Conciliation struggle phase
+* {{icon|exalted among men}} Level of Fame is at least Exalted Among Men
+* {{icon|kingdom}} Hold and completely control a kingdom de jure part of Empire of Hispania
+* {{icon|yes}} Alliance with every independent Involved character
+*{{icon|yes}} Control 50% or less of the region of Iberia
+|}
+
+=== Iranian Intermezzo ===
+{{expansion|lop}}
+The Iranian Intermezzo is present only in 867. While the situation is present [[File:Nation fracturing faction.png|24px]] Dissolution factions cannot form for the Abbasid Empire.
+
+A faith or culture will become involved in the Iranian Intermezzo if 50% of the counties that follow it are present in the region of Persia. In addition the following faiths and cultures will always be involved:
+* Faiths: {{iconify|Ash'arism}}, {{iconify|Maturidism}}, {{iconify|Mu'tazilism}}, {{iconify|Isma'ilism}}, {{iconify|Zayidism}}, {{iconify|Imamism}}, {{iconify|Azraqism}}, {{iconify|Alevism}}, {{iconify|Mazdayasna}}, {{iconify|Khurmazdism}}, {{iconify|Khurramism}}, {{iconify|Afridunism}}, {{iconify|Mahayana}}, {{iconify|Nestorianism}}
+* Cultures: Afghan, Baloch, Daylamite, Khwarezmian, Kurdish, Persian, Sogdian, Tajik, Bedouin, Mashriqi, Yemeni, Brahui
+{| class="mildtable plainlist"
+! Involvement level
+! Catalyst progress
+! Fewer Dissolution Factions
+! More Claimant Factions
+! Requirements
+|-
+| '''Involved'''
+| align=center | {{icon|yes}}
+| align=center | {{icon|yes}}
+| align=center | {{icon|yes}}
+| 
+* {{icon|yes}} Realm capital within the region of Persia
+* {{icon|yes}} Faith is involved
+* {{icon|yes}} Culture is involved
+|-
+| '''Interloper'''
+| align=center | {{icon|yes}}
+| align=center | {{icon|yes}}
+| align=center | {{icon|yes}}
+| 
+* {{icon|yes}} Realm capital within the region of Persia or courtier in Persia
+* {{icon|no}} Faith is involved
+* {{icon|no}} Culture is involved
+|-
+| '''Uninvolved'''
+| align=center | {{icon|no}}
+| align=center | {{icon|no}}
+| align=center | {{icon|no}}
+| 
+* {{icon|no}} Realm capital within the region of Persia or courtier in Persia
+|}
+
+All characters that begin Involved or Interloper in the Iranian Intermezzo will have either the {{iconify|Detractor of the Caliphate}} or {{iconify|Supporter of Caliphal Authority}} trait, which determines their stance. The trait and stance can be switched via a decision but this can only be done every 20 years unless the current Sunni Caliph dies. Newly arrived rulers who become Involved or Interloper will also unlock a decision to choose a side. If a ruler with the {{iconify|Supporter of Caliphal Authority}} trait kills the Sunni Caliph and is not part of the same dynasty they will automatically change sides and cannot switch back. If a ruler with the {{iconify|Detractor of the Caliphate}} inherits the Sunni Caliphate title they will automatically change sides. During the Iranian Intermezzo the Sunni Caliphate title cannot be destroyed.
+
+==== Phases ====
+The Iranian Intermezzo starts in the [[File:Struggle persia phase unrest.png|24px]] Unrest phase and will alternate between it and the [[File:Struggle persia phase stabilisation.png|24px]] Stabilization phase until ended.
+{| class="mildtable plainlist"
+! Phase
+! Involved character effects
+! Interloper character effects
+! Catalysts
+|-
+| align=center | '''Unrest '''<br>[[File:Struggle persia phase unrest.png|90px]]
+| 
+* {{icon|supply}} {{green|+100%}} Supply Limit
+* {{icon|levies}} {{green|+100%}} Friendly Territory Levy Reinforcement Rate
+* {{icon|time}} {{green|-50%}} Building Construction Time
+* {{icon|levies}} {{green|+100%}} Levy Size
+* {{icon|gold}} {{green|-25%}} Mercenary Hire Cost
+* {{icon|advantage}} {{green|+5}} Advantage when commanding own armies
+* {{icon|garrison}} {{red|-50%}} Garrison Size
+* {{icon|danger}} {{red|+25}} Danger
+* {{icon|control}} {{red|-0.02}} Monthly Control when at War
+* {{icon|advantage}} {{green|+5}} Advantage in same Cultural Heritage provinces
+* {{icon|gold}} {{green|-30%}} Temple Buildings Construction Cost
+* {{icon|scheme success chance}} {{green|+20%}} Hostile Scheme Success Chance
+* {{icon|scheme success chance}} {{green|+100%}} Claim Throne Scheme Power
+* {{icon|yes}} {{green|-50%}} Request Incursion Cost against the Sunni Caliph
+* {{icon|yes}} {{green|-20%}} Subjugation Casus Belli Cost for the Sunni Caliph
+* {{icon|yes}} Arrange Marriage interaction has the option to use Piety to increase acceptance
+* {{icon|yes}} Enables the Abandon Hook character interaction
+* {{icon|yes}} Enables the Challenge House Head character interaction with the House Head
+* {{icon|yes}} Enables the Claim Throne scheme against any Involved character
+* {{icon|yes}} Sway scheme may remove the Disloyal trait
+* [[File:Vassal stance minority.png|24px]] Vassals of different culture are more likely to use the Minority vassal stance
+* {{icon|no}} Dissolution factions cannot form against the Sunni Caliph or Arabian Emperor
+* {{iconify|Supporter of Caliphal Authority}} trait unlocks the Install Loyalist casus belli
+* {{icon|yes}} Sunni Caliphate title unlocks the Demand Submission interaction
+* {{icon|prestige}} {{green|+75}} Prestige when befriending an Involved character
+* {{icon|prestige}} {{green|+350}} Prestige when winning a war to help a claimant of the same culture
+* {{icon|piety}} {{green|+100}} Piety when completing a building in a Temple holding
+* {{icon|piety}} {{green|+100}} Piety when converting a County or Involved character
+* {{icon|yes}} {{green|+10}} Offer Vassalage Acceptance per Level of Devotion
+* {{icon|opinion}} {{green|+20}} Zealot Vassal Opinion
+* {{icon|gold}} {{green|+50%}} Zealot Vassal Tax Contribution
+* {{icon|levies}} {{green|+50%}} Zealot Vassal Levy Contribution
+* {{icon|unknown}} {{yellow|+50}} Zealot Vassal Boldness
+* {{icon|unknown}} {{yellow|+75}} Zealot Vassal Vengefulness
+* {{icon|unknown}} {{yellow|+75}} Zealot Vassal Zeal
+* {{icon|diarch}} {{yellow|+25}} Scales of Power Balance Point for Viziers
+* {{icon|opinion}} {{red|-10}} Minority Vassal Opinion
+* {{icon|opinion}} {{red|-10}} Minority Vassal Opinion of different faith
+* {{icon|gold}} {{red|-50%}} Minority Vassal Tax Contribution
+* {{icon|levies}} {{red|-50%}} Minority Vassal Levy Contribution
+| 
+* {{icon|supply}} {{green|+100%}} Supply Limit
+* {{icon|levies}} {{green|+100%}} Friendly Territory Levy Reinforcement Rate
+* {{icon|time}} {{green|-50%}} Building Construction Time
+* {{icon|levies}} {{green|+50%}} Levy Size
+* {{icon|gold}} {{green|-35%}} Mercenary Hire Cost
+* {{icon|advantage}} {{green|+10}} Advantage when commanding own armies
+* {{icon|garrison}} {{red|-25%}} Garrison Size
+* {{icon|danger}} {{red|+25}} Danger
+* {{icon|control}} {{red|-0.01}} Monthly Control when at War
+| '''Towards Stabilization'''
+* '''+25''' Important character uses the Become Caliphal Supporter decision
+* '''+25''' Win a War started against another Involved Ruler of the same Tier or higher
+* '''+10''' Start a War started against another Involved Ruler of the same Tier or higher
+* '''+10''' Win a war with the Install a Supporter casus belli
+* '''+10''' Vassalize an Independent Ruler
+* '''+10''' Win a War started against another Involved Ruler of lower Tier
+* '''+5''' Start a War started against another Involved Ruler of lower Tier
+* '''+5''' Detractor of the Caliphate character uses the Become Caliphal Supporter decision
+* '''+5''' Reveal a Secret of a Detractor of the Caliphate Ruler
+* '''+5''' Invite an Involved Ruler to a Hunt or Feast activity as an Honorary Guest
+* '''+5''' Reveal Muslim Secret Faith
+* '''+5''' Convert a Detractor of the Caliphate character
+* '''+5''' Obtain a Title within the Struggle Region from an Interloper or Uninvolved Ruler
+* '''+5''' Execute a character with the Detractor of the Caliphate trait
+* '''+5''' Kill a character with the Detractor of the Caliphate trait
+* '''+3''' Imprison a character with the Detractor of the Caliphate trait
+* '''+3''' Learn the language of an Involved Ruler
+* '''+1''' Yearly Progress per Involved house with Harmonious unity
+''' Towards Concession'''
+* '''+25''' Sunni Caliph dies violently (once per 25 years)
+* '''+10''' Sunni Caliph dies normally (once per 25 years)
+* '''+10''' Sunni Caliphate or Arabian Empire holder surrenders in a Civil War
+* '''+3''' Sunni Caliphate or Arabian Empire holder accepts a faction demand
+* '''+3''' Lose a Title within the Struggle Region to an Interloper or Uninvolved Ruler
+* '''+3''' Complete a Raid against an Involved Ruler
+* '''+3''' A Supporter of the Caliphate and a Detractor of the Caliphate become Best Friends or Soulmates
+* '''+3''' A Supporter of the Caliphate and a Detractor of the Caliphate make white peace
+* '''+3''' A Supporter of the Caliphate and a Detractor of the Caliphate abandon a hook
+* '''+3''' A Supporter of the Caliphate and a Detractor of the Caliphate negotiate release without demands
+* '''+3''' A Supporter of the Caliphate and a Detractor of the Caliphate transfer a vassal
+* '''+2''' A Supporter of the Caliphate and a Detractor of the Caliphate form an alliance
+* '''+1''' A Supporter of the Caliphate and a Detractor of the Caliphate become Friends or Lovers
+* '''+1''' A Supporter of the Caliphate and a Detractor of the Caliphate send a gift
+* '''+1''' A Supporter of the Caliphate and a Detractor of the Caliphate pardon a crime
+* '''+1''' A Supporter of the Caliphate and a Detractor of the Caliphate negotiate release with demands
+* '''+1''' Yearly Progress
+|-
+| align=center | '''Stabilization'''<br>[[File:Struggle persia phase stabilisation.png|90px]]
+| 
+* {{icon|yes}} Sending a Ward will establish a Truce with the Guardian
+* {{icon|no}} Cannot use the Invasion and Conquest casus belli
+* {{icon|gold}} {{green|-50%}} Men-at-Arms Recruitment Cost
+* {{icon|gold}} {{green|-25%}} Men-at-Arms Maintenance
+* {{icon|gold}} {{green|-30%}} Castle Buildings Construction Cost
+* {{icon|opinion}} {{green|+50%}} Cultural Acceptance Gain
+* {{icon|prestige}} {{green|+150}} Prestige when learning a new Language
+* {{icon|prestige}} {{green|+150}} Prestige when granting a title to an Involved character
+* {{icon|prestige}} {{green|+150}} Prestige when releasing prisoners of different culture
+* {{icon|piety}} {{green|+100}} Piety when forming an Alliance with an Involved character
+* {{icon|piety}} {{green|+100}} Piety when completing a building in a Temple holding
+* {{icon|piety}} {{green|+100}} Piety when befriending an Involved character
+* {{icon|renown}} {{green|+75}} Renown when granting independence
+* [[File:Task_develop_county.png|24px]] {{green|+1}} Cultural Acceptance from Increase Development in County tasks
+* {{icon|opinion}} {{green|+30}} Same Faith Opinion
+* {{icon|opinion}} {{green|+10}} Same Culture Opinion
+* {{icon|opinion}} {{red|-20}} Different Faith Minority Vassal Opinion
+* {{icon|yes}} Enables the Befriend scheme
+* {{icon|decision}} Enables the Commission Epic decision
+* {{icon|yes}} Sunni Caliphate title unlocks the Claim Throne scheme
+* {{icon|no}} Dissolution factions cannot form against the Sunni Caliph or Arabian Emperor
+| 
+* {{icon|yes}} Sending a Ward will establish a Truce with the Guardian
+* {{icon|no}} Cannot use the Invasion and Conquest casus belli
+* {{icon|gold}} {{green|-25%}} Men-at-Arms Recruitment Cost
+| '''Towards Unrest'''
+* '''+25''' Important character uses the Announce Opposition to Caliphate decision
+* '''+25''' Win a War started against another Involved Ruler of the same Tier or higher
+* '''+10''' Start a War started against another Involved Ruler of the same Tier or higher
+* '''+10''' Win a war with the Install a Supporter casus belli
+* '''+10''' Important character uses the Find a New Faith for Persia decision
+* '''+10''' Create a Cadet Branch
+* '''+10''' Win a War started against another Involved Ruler of lower Tier
+* '''+5''' Start a War started against another Involved Ruler of lower Tier
+* '''+5''' Supporter of the Caliphate character uses the Announce Opposition to Caliphate decision
+* '''+5''' Reveal a Secret of a Supporter of the Caliphate Ruler
+* '''+5''' Reveal non-Muslim Secret Faith
+* '''+5''' Convert a Supporter of the Caliphate character
+* '''+5''' Usurp a Title de jure part of Persian Empire
+* '''+5''' Form an Alliance with an Uninvolved Realm as a Detractor of the Caliphate
+* '''+5''' A Supporter of the Caliphate and a Detractor of the Caliphate become Rivals or Nemesis
+* '''+5''' Execute a character with the Supporter of the Caliphate trait
+* '''+5''' Kill a character with the Supporter of the Caliphate trait
+* '''+3''' Imprison a character with the Supporter of the Caliphate trait
+* '''+3''' Acquire a Claim on a Title de jure part of Persian Empire
+* '''+1''' Yearly Progress per Involved house with Antagonistic unity
+''' Towards Concession'''
+* '''+25''' Sunni Caliph dies violently (once per 25 years)
+* '''+10''' Sunni Caliph dies normally (once per 25 years)
+* '''+10''' Sunni Caliphate or Arabian Empire holder surrenders in a Civil War
+* '''+3''' Sunni Caliphate or Arabian Empire holder accepts a faction demand
+* '''+3''' Lose a Title within the Struggle Region to an Interloper or Uninvolved Ruler
+* '''+3''' Complete a Raid against an Involved Ruler
+* '''+3''' A Supporter of the Caliphate and a Detractor of the Caliphate become Best Friends or Soulmates
+* '''+3''' A Supporter of the Caliphate and a Detractor of the Caliphate make white peace
+* '''+3''' A Supporter of the Caliphate and a Detractor of the Caliphate abandon a hook
+* '''+3''' A Supporter of the Caliphate and a Detractor of the Caliphate negotiate release without demands
+* '''+3''' A Supporter of the Caliphate and a Detractor of the Caliphate transfer a vassal
+* '''+2''' A Supporter of the Caliphate and a Detractor of the Caliphate form an alliance
+* '''+1''' A Supporter of the Caliphate and a Detractor of the Caliphate become Friends or Lovers
+* '''+1''' A Supporter of the Caliphate and a Detractor of the Caliphate send a gift
+* '''+1''' A Supporter of the Caliphate and a Detractor of the Caliphate pardon a crime
+* '''+1''' A Supporter of the Caliphate and a Detractor of the Caliphate negotiate release with demands
+* '''+1''' Yearly Progress
+|}
+
+==== Concession ====
+If the Iranian Intermezzo reaches the [[File:Struggle persia ending phase concession.png|24px]] Concession phase it ends with the following effects:
+* All wars between independent involved rulers end in [[File:War outcome white peace.png|24px]] White Peace
+* All independent involved rulers gain a truce with each other for 50 years
+* All independent involved rulers lose all claims
+* Every House with a House Head that has the {{iconify|Supporter of Caliphal Authority}} trait gains the [[File:Modifier stewardship positive.png|24px]] Rebuilding Efforts modifier for 100 years
+* Every House with a House Head that has the {{iconify|Detractor of the Caliphate}} trait gains the [[File:Modifier martial positive.png|24px]] Frontier Ambitions modifier for 100 years
+* If Caliph al-Mu'tass ibn al-Mutawakkil is alive he loses the [[File:Modifier intrigue positive.png|24px]] Extremely Suspicious modifier
+
+==== Endings ====
+As long as it does not reach the [[File:Struggle persia ending phase concession.png|24px]] Concession phase, the Iranian Intermezzo can be ended in the following ways:
+{| class="mildtable"
+! Ending
+! Effects
+! Requirements
+|-
+| '''Abbasid Humiliation<br>Found a New Caliphate'''
+|
+* {{icon|nickname}} Gain the ''the Righteous'' nickname
+* {{icon|empire}} Gain the Persian Empire title
+* {{icon|duchy}} Gain a Caliphate title
+* {{icon|fervor}} {{green|+50}} Fervor
+* {{icon|renown}} {{green|+5000}} Renown
+* {{icon|piety islam}} {{green|+5000}} Piety
+* {{icon|unknown}} {{green|75%}} Chance for every Involved county and ruler to convert to the character's faith
+* [[File:Modifier magic positive.png|24px]] Dynasty gains the Light of the Walayah for 100 years
+* [[File:Task_conversion.png|24px]] Convert Faith in County task becomes more effective for the character's faith
+| 
+* {{icon|yes}} Religion is Islam
+* [[File:Struggle persia phase unrest.png|24px]] Unrest struggle phase
+* {{iconify|Detractor of the Caliphate}} trait
+* {{icon|kingdom}} King or Emperor
+* {{icon|yes}} Realm is larger than that of the Sunni Caliph's
+* {{icon|yes}} One of the following:
+** {{icon|alliance}} Allied with at least 2 kings
+** {{icon|yes}} Realm size is 50 or more
+* {{icon|no}}{{icon|sunni}} Faith has the Sunni doctrine
+* {{icon|yes}} Control one of following:
+** {{icon|yes}} Holy Site
+** {{icon|piety islam}} Muslim historical building
+* {{icon|yes}} One of the following:
+** {{icon|temporal}} Head of Faith
+** {{icon|yes}} Head of Faith does not exist
+** {{icon|yes}} Head of Faith has a different faith
+* {{icon|yes}} Two of the following:
+** {{iconify|Sayyid}} trait
+** {{iconify|Wise Man}}/Woman trait
+** [[File:Khvarenah legacy track.png|24px]] Brilliance dynasty legacy 4
+** [[File:Icon piety islam 04.png|24px]] Level of Devotion is at least Paragon of Virtue
+** {{icon|yes}} Control 15 counties with the same faith
+|-
+| '''Abbasid Humiliation<br>Dominate the Caliph'''
+| 
+* {{icon|nickname}} Gain the ''the Protector of the Caliphate'' nickname
+* {{icon|empire}} Gain the Arabian Empire title and all it's vassals
+* {{icon|renown}} {{green|+5000}} Renown
+* {{icon|prestige}} {{green|+5000}} Prestige
+* {{icon|vassal}} Sunni Caliph becomes a vassal
+* {{icon|yes}} House unlocks the Request Honorary Title interaction
+* {{icon|yes}} House unlocks the Request House Unity Interference interaction
+| 
+* {{icon|yes}} Religion is Islam
+* [[File:Struggle persia phase unrest.png|24px]] Unrest struggle phase
+* {{iconify|Detractor of the Caliphate}} trait
+* {{icon|kingdom}} King or Emperor
+* {{icon|yes}} Realm is larger than that of the Sunni Caliph's
+* {{icon|yes}} One of the following:
+** {{icon|alliance}} Allied with at least 2 kings
+** {{icon|yes}} Realm size is 50 or more
+* {{icon|empire}} Sunni Caliph holds the Arabian Empire title
+* {{icon|illustrious}} Level of Fame is at least Illustrious
+* {{icon|duchy}} Completely control the Duchy of Samarra
+* {{icon|county}} Held the County of Samarra for 5 years
+* {{icon|yes}} One of the following:
+** {{icon|county}} Hold the County of Baghdad
+** {{icon|yes}} Imprisoned the Sunni Caliph
+** {{iconify|Strong Hook}} on the Sunni Caliph
+|-
+| '''Renewed Caliphate'''
+| 
+* {{icon|fervor}} {{green|+50}} Fervor
+* {{icon|renown}} {{green|+10000}} Renown
+* {{icon|renown}} {{green|+10000}} Renown for Sunni Caliph
+* {{icon|prestige}} {{green|+5000}} Prestige for Sunni Caliph
+* {{icon|unknown}} {{green|50%}} Chance for every Involved county and ruler to convert to the character's faith
+* {{icon|de jure}} All Kingdoms that are de jure part of the Persian Empire becomes de jure part of Arabian Empire
+* [[File:Task_conversion.png|24px]] Convert Faith in County task is more effective for Sunni faiths
+* [[File:Vassalization cb.png|24px]] House Head unlocks the Subjugation casus belli against all Muslim rulers
+* [[File:Vassalization cb.png|24px]] Sunni Caliph's House Head unlocks the Subjugation casus belli against all Muslim rulers
+* {{icon|vassal}} Every independent Supporter of Caliphal Authority becomes a vassal of the Sunni Caliph
+* {{icon|no}} Muslim rulers cannot create Dissolution or Independence factions against the Sunni Caliph
+* {{icon|supporter of caliphal authority}} Children of rulers with the Supporter of Caliphal Authority trait gain the trait
+* {{iconify|Detractor of the Caliphate}} trait becomes a Crime for Sunni Caliph
+* {{icon|supporter of caliphal authority}} Rulers with the Supporter of Caliphal Authority trait are less likely to join factions against the Sunni Caliph
+* {{icon|rtp}} If the Roads to Power DLC is installed Sunni Caliph can choose to change government to Administrative
+| 
+* [[File:Struggle persia phase stabilisation.png|24px]] Stabilization struggle phase
+* [[File:Icon piety islam 04.png|24px]] Level of Devotion is at least Paragon of Virtue
+* {{iconify|Supporter of Caliphal Authority}} trait
+* {{icon|temporal}} Head of Faith is Sunni Caliphate
+* {{iconify|Alliance}} with Head of Faith
+* {{icon|empire}} Sunni Caliph holds the Arabian Empire title
+* {{icon|supporter of caliphal authority}} 50% of Involved independent rulers have the Supporter of Caliphal Authority trait
+* {{icon|no}}{{iconify|Detractor of the Caliphate}} trait for any Involved or Interloper duke or higher
+* {{icon|no}} Non-Sunni faith for any Involved or Interloper duke or higher
+|-
+| '''Iranian Resurgence'''
+| 
+* {{icon|nickname}} Gain the ''the Flame of Persia'' nickname
+* {{icon|empire}} Gain the Persian Empire title
+* [[File:Modifier flame positive.png|24px]] Dynasty gains the Flame of Persia permanent modifier
+* [[File:Modifier flame positive.png|24px]] All Involved rulers of Iranian heritage gain the Rekindled Persian Spirit permanent modifier
+* {{icon|yes}} All Involved rulers of Iranian heritage become independent if the liege does not have Iranian heritage
+* {{icon|prestige}} {{green|+5000}} Prestige
+* {{icon|renown}} {{green|+10000}} Renown
+* {{icon|unknown}} {{green|+20}} Offer Vassalage Acceptance for Iranian heritage
+* {{icon|unknown}} {{green|50%}} Chance for every Involved county and ruler to convert to the character's faith
+* {{icon|opinion}} {{green|+100}} Cultural Acceptance with all Iranian heritage cultures
+* {{icon|yes}} Iranian heritage cultures become more effective and resistant to conversion
+* {{icon|levies}} Gain an army inheritable on succession:
+** [[File:Unit asawira.png|24px]] 500 Asawira
+** [[File:Unit ayyar.png|24px]] 2000 Ayyar
+* {{icon|levies}} All Involved rulers of Iranian heritage gain an army inheritable on succession:
+** [[File:Unit asawira.png|24px]] 100 Asawira
+** [[File:Unit ayyar.png|24px]] 400 Ayyar
+** [[File:Unit zupin spearmen.png|24px]] 400 Zupin Spearmen
+** [[File:Unit tawashi.png|24px]] 200 Tawashi
+** [[File:Unit tarkhan.png|24px]] 100 Tarkhans
+* If practicing a secret faith have the option to reveal it to make close family members and vassals convert
+|
+* {{icon|exalted among men}} Level of Fame is at least Exalted Among Men
+* {{icon|kingdom}} King or Emperor
+* {{icon|heritage}} Iranian heritage
+* {{icon|heritage}} 60% of Involved and Interloper rulers have Iranian heritage
+* {{icon|yes}} Control 30% of the Struggle Region
+* {{icon|yes}} One of the following:
+** {{icon|alliance}} Allied with at least 2 kings of Iranian heritage
+** {{icon|yes}} Control 40 or more counties with Iranian Heritage
+|}
+
+== Dynastic Cycle ==
+{{expansion|auh}}
+The Dynastic Cycle is present in all start dates. A character will become an interloper if it either owns de jure territory of Hegemony of China or they are located inside a barony that's both de jure part of Hegemony of China's and currently owned by them. They will become involved if they are either part of Hegemony of China or if they are a tributary who has Palace Access in their contract.
+ 
+Phases of the Dynastic Cycle are called eras. In 1066 it starts in the Advancement era, in 867 and 1178 it starts in the Tension era, and in 867 it also starts with 40% progress towards the Division era. The situation will alternate between Tension and either Advancement or Expansion. Which era will be picked depends on the Favored Era, which can be selected by the Hegemon every 20 years at the cost of 250 {{iconify|Influence}}. If the the Hegemony of China title is taken by a character who does not have {{iconify|Celestial}} government, whose culture does not have Han heritage, who is not part of the same dynasty as the previous owner, the era will change to Conquest.
+
+Every 10 years the hegemon and members of a political movement can add 50 Catalyst Progress towards or away from Advancement, Expansion, or Division. This costs 250 {{iconify|Influence}} and 200 [[File:Group power.png|24px]] Power for their movement (Pro-Dynasty if the hegemon does it).
+{| class="mildtable plainlist"
+! Era
+! Common effects (excluding foreign rulers)
+! Hegemon of China effects
+|-
+| align=center | '''Advancement'''<br>[[File:Dynastic cycle phase advancement.png|90px]]
+| 
+* {{icon|unknown}} Tributary Imperial Grace decreases by 1 every year
+* [[File:Task integrate title.png|24px]] {{green|+1}} Integrate Title councilor task progress
+| 
+* [[File:Icon game concept celestial metropolitan administration.png|24px]] Unlocks the Metropolitan administration type
+* [[File:Imperial examination focus stewardship icon.png|24px]] Capital Examination activity can use the Efficient Governance variant
+* {{icon|yes}} Can change the General Secretariat Control law
+* {{icon|no}} Cannot declare war
+* {{icon|innovation}} {{green|+20%}} Cultural Fascination Progress
+* {{icon|gold}} {{green|-15%}} Building Construction Cost
+* {{icon|time}} {{green|-15%}} Building Construction Time
+* {{icon|time}} {{green|-50%}} Great Projects Construction Time
+* {{icon|levies}} {{red|-2}} Max Men-at-Arms Regiments
+* [[File:Mandate legitimacy.png|24px]] {{red|+1}} Expected Legitimacy Level after 50 years
+* [[File:Mandate legitimacy.png|24px]] {{red|+2}} Expected Legitimacy Level after 100 years
+|-
+| align=center | '''Expansion'''<br>[[File:Dynastic cycle phase expansion.png|90px]]
+| 
+* {{icon|unknown}} Tributary Imperial Grace decreases by 2 every year
+* {{icon|no}} Cannot use the Integrate Title councilor task
+* {{icon|yes}} Vassals with a different government can declare war against other vassals
+| 
+* [[File:De jure cb.png|24px]] Unlocks the Seize Hegemonic County casus belli
+* [[File:De jure cb.png|24px]] Unlocks the Seize Hegemonic Duchy casus belli
+* [[File:Icon game concept celestial protectorate administration.png|24px]] Unlocks the Protectorate administration type
+* {{icon|yes}} Unlocks the Grand Expansionist Command law for Army Command Structure
+* [[File:Imperial examination focus martial icon.png|24px]] Capital Examination activity can use the Military Strategists variant
+* {{icon|yes}} Replacing councilors with lower merit ones does not affect the Dynastic Cycle
+* {{icon|levies}} {{green|+2}} Max Title Men-at-Arms Regiments
+* [[File:Mandate legitimacy.png|24px]] {{green|+50}} Legitimacy per conquered Duchy or Kingdom
+* {{icon|treasury}} {{red|+20%}} Court Position Salary
+|-
+| align=center | '''Conquest'''<br>[[File:Dynastic cycle phase conquest.png|90px]]
+| 
+* {{icon|unknown}} Tributary Imperial Grace decreases by 3 every year
+* {{icon|no}} Cannot use the Integrate Title councilor task
+* [[File:De jure cb.png|24px]] Unlocks the Seize Hegemonic County casus belli if Military Administration
+* [[File:De jure cb.png|24px]] Unlocks the Seize Hegemonic Duchy casus belli if Military Administration
+| 
+* [[File:De jure cb.png|24px]] Unlocks the Seize Hegemonic County casus belli
+* [[File:De jure cb.png|24px]] Unlocks the Seize Hegemonic Duchy casus belli
+* {{icon|decision}} Unlocks the Promote Cultural Governors decision
+* {{icon|levies}} {{green|+2}} Max Title Men-at-Arms Regiments
+* {{icon|gold}} {{green|-30%}} Mercenary Hire Cost
+* [[File:Mandate legitimacy.png|24px]] {{green|+50}} Legitimacy per conquered Duchy or Kingdom
+* [[File:Mandate legitimacy.png|24px]] {{green|+20%}} Legitimacy Gain
+* [[File:Mandate legitimacy.png|24px]] {{red|+20%}} Legitimacy Loss
+* [[File:Mandate legitimacy.png|24px]] {{red|-100}} Legitimacy per Natural Disaster
+* {{icon|opinion}} {{red|-20}} Vassal Opinion
+* {{icon|treasury}} {{red|-20%}} Treasury from Vassals
+* {{icon|unknown}} {{red|All tributaries become independent}}
+|-
+| align=center | '''Tension'''<br>[[File:Dynastic cycle phase instability.png|90px]]
+| 
+* {{icon|unknown}} Tributary Imperial Grace decreases by 3 every year
+* {{icon|no}} Cannot use the Integrate Title councilor task
+* [[File:De jure cb.png|24px]] Unlocks the Seize Hegemonic County casus belli if Military Administration
+* [[File:De jure cb.png|24px]] Unlocks the Seize Hegemonic Duchy casus belli if Military Administration
+* {{icon|yes}} Vassals with a different government are more likely to declare internal wars
+* {{icon|yes}} Non-jure subjects are more likely to demand or declare independence
+* {{icon|factions}} Populist and Peasant factions are more likely to be created or joined
+* {{icon|governor efficiency}} {{red|-5%}} Governor Efficiency per hegemon legitimacy level below 5
+* [[File:Mandate legitimacy.png|24px]] {{red|-100}} Legitimacy per Natural Disaster
+| 
+* {{icon|no}} Cannot declare war
+* {{icon|no}} Cannot offer vassalage
+* [[File:Mandate legitimacy.png|24px]] {{green|+20%}} Legitimacy Gain
+* [[File:Mandate legitimacy.png|24px]] {{red|+20%}} Legitimacy Loss
+* {{icon|opinion}} {{red|-20}} Vassal Opinion
+* {{icon|treasury}} {{red|-20%}} Treasury from Vassals
+* [[File:Struggle cb.png|24px]] {{red|Independent rulers can use the Seize the Mandate of Heaven CB against China}}
+|}
+
+=== Division ===
+The Division phase can be reached either through Catalysts during the Tension or Conquest phase or if the hegemon owns less than 30% of China's de jure territory or reaches the [[File:Mandate legitimacy 0.png|24px]] Illegitimate Ruler legitimacy level. When the Division phase is reached the {{iconify|Hegemony}} of China title is destroyed, the former hegemon suffers an immediate succession, and all its subjects become independent. Every {{iconify|Kingdom}} title that is part of it is also destroyed if its holder has less than 100 {{iconify|Movement Power}} and every {{iconify|Empire}} title that is part of it is also destroyed if its holder has less than 350 {{iconify|Movement Power}}. The Silk Road situation will enter the Hardship phase in every region and the Attend Children's Examination decision will become unavailable.
+
+As a result of the changes, every previously involved ruler will become an interloper. All interlopers will receive {{red|-20%}} {{icon|gold}} Taxes and {{green|+100%}} {{iconify|Legitimacy}} from completing great projects; will gain {{iconify|Legitimacy}} if they appoint characters with Merit Rank 1-4 as governors, councilors and court positions; and will unlock the Consolidate Land Under Heaven casus belli. The only way for the Division phase to end is by claiming the Mandate of Heaven, which is available to all independent rulers who control more than half of the de jure counties of {{iconify|Hegemony}} of China. A ruler who claims the Mandate of Heaven immediately receives the following rewards:
+* {{iconify|Hegemony}} of China title
+* {{icon|treasury}} 1000 Treasury
+* {{icon|influence}} 1000 Influence
+* {{icon|renown}} 2500 Renown
+* {{icon|control}} 25 Control in every county de jure part of Hegemony of China
+* [[File:Mandate legitimacy.png|24px]] Maximum Legitimacy
+* {{icon|vassal}} Tributaries with the capital in the de jure territory of Hegemony of China become vassals
+* {{icon|celestial}} Change government to Celestial if not already
+* {{icon|celestial}} Vassals that don't have Republic or Theocracy government change government to Celestial and gain Merit scaled by their age and skills
+* {{icon|vassal}} Independent rulers with the capital in the de jure territory of Hegemony of China that have Celestial government, the same heritage or the same dynasty are vassalized
+* [[File:Modifier dragon seal positive.png|24px]] Son of Heaven permanent modifier
+* Choice to change the situation phase to either Advancement or Expansion
+* Every courtier with at least 3000 Merit creates a noble family if not part of one
+* Councilors are replaced if characters with higher Merit Rank are available
+
+=== Political movements ===
+In the Dynastic Cycle situation all subjects of China are divided among four sides, called Political Movements. Political Movements give various effects depending on the current era. A subject can change their Political Movement every 5 years at the cost of 250 {{iconify|Influence}}. The hegemon can favor a movement every 20 years at the cost of 250 {{iconify|Influence}} and 25 Progress towards [[File:Dynastic cycle phase chaos.png|24px]] Division.
+
+Every subject of China involved in the Dynastic Cycle has a Personal Movement Power, which is increased by the following:
+* Age
+* Title rank
+* Merit rank
+* Level of devotion
+* Level of influence
+* Men-at-arms
+* Governor trait experience
+* Estate upgrades
+* Power of disciples
+* Being a councilor
+* Being a diarch
+Every Political Movement has a Movement Power, which is the sum of Personal Movement Power of all members. Reaching 350 Movement Power unlocks for every member the [[File:Domicile astrologer yurt.png|24px]] Yamen Grievance Drum estate upgrade and reaching 800 Movement Power unlocks for every member Dismiss Hook and Request Permission to Raid interactions and the Raid Estate scheme.
+
+Every Political Movement has a leader, who unlocks the Make Movement Petition decision. When the leader dies the character with most Personal Movement Power becomes the new leader but they will be replaced if they are defeated in a [[File:Activity debate.png|24px]] Debate activity.
+{| class="mildtable plainlist"
+! {{diagonal split header|Political Movement|Era}} !! {{icon|yes}} All eras !! [[File:Dynastic cycle phase advancement.png|24px]] Advancement !! [[File:Dynastic cycle phase expansion.png|24px]] Expansion !! [[File:Dynastic cycle phase conquest.png|24px]] Conquest !! [[File:Dynastic cycle phase instability.png|24px]] Tension
+|-
+! [[File:Dynastic cycle group pro.png|50px]] Pro-Dynasty
+| 
+* {{icon|opinion}} {{green|+10}} Liege Opinion
+* {{icon|scheme success chance}} {{green|+50%}} Personal Scheme Power on Liege
+* {{icon|scheme success chance}} {{red|-50%}} Hostile Scheme Power on Liege
+* {{icon|yes}} Disciples/elders can ask for knights
+* {{icon|yes}} Disciples/elders can ask for courtiers
+| 
+* {{icon|innovation}} {{green|+10%}} Cultural Fascination Progress
+* {{icon|gold}} {{green|-10%}} Building Construction Cost
+* {{icon|time}} {{green|-10%}} Building Construction Time
+* {{icon|levies}} {{red|-1}} Max Men-at-Arms Regiments
+* {{icon|gold}} {{red|+10%}} Men-at-Arms Maintenance
+| 
+* {{icon|levies}} {{green|+1}} Max Men-at-Arms Regiments
+* {{icon|gold}} {{green|-10%}} Men-at-Arms Maintenance
+| 
+* {{icon|levies}} {{green|+1}} Max Men-at-Arms Regiments
+* {{icon|gold}} {{green|-10%}} Men-at-Arms Maintenance
+* {{icon|opinion}} {{red|-10}} Vassal Opinion
+* {{icon|gold}} {{red|-10%}} Vassal Tax Contribution
+| 
+* {{icon|opinion}} {{red|-30}} Vassal Opinion
+* {{icon|gold}} {{red|-20%}} Vassal Tax Contribution
+|-
+! [[File:Dynastic cycle group advance.png|50px]] Advancement
+| 
+* {{icon|yes}} Bolster Governance interaction
+* {{icon|decision}} Develop Capital decision
+* {{icon|decision}} Study Poetry decision
+* {{icon|yes}} Disciples/elders can ask for courtiers
+* {{icon|unknown}} {{green|+10}} Court Poet Aptitude
+* {{icon|roc}} {{green|+1}} Inspired courtier per 3 years
+| 
+* {{icon|innovation}} {{green|+20%}} Cultural Fascination Progress
+* {{icon|gold}} {{green|-20%}} Building Construction Cost
+* {{icon|time}} {{green|-20%}} Building Construction Time
+* {{icon|levies}} {{red|-2}} Max Men-at-Arms Regiments
+* {{icon|gold}} {{red|+20%}} Men-at-Arms Maintenance
+| 
+| 
+* {{icon|levies}} {{green|+2}} Max Men-at-Arms Regiments
+* {{icon|gold}} {{green|-20%}} Men-at-Arms Maintenance
+* {{icon|opinion}} {{red|-20}} Vassal Opinion
+* {{icon|gold}} {{red|-20%}} Vassal Tax Contribution
+| 
+* {{icon|opinion}} {{red|-20}} Vassal Opinion
+* {{icon|gold}} {{red|-10%}} Vassal Tax Contribution
+* {{icon|treasury}} {{red|-20%}} Monthly Treasury
+|-
+! [[File:Dynastic cycle group expand.png|50px]] Expansion
+| 
+* {{icon|yes}} Undermine Governance interaction
+* {{icon|yes}} Request Incursion interaction
+* {{icon|yes}} Spar with Champion interaction
+* {{icon|yes}} Disciples/elders can ask for knights
+| 
+| 
+* {{icon|levies}} {{green|+3}} Max Men-at-Arms Regiments
+* {{icon|gold}} {{green|-30%}} Men-at-Arms Maintenance
+| 
+* {{icon|levies}} {{green|+2}} Max Title Men-at-Arms Regiments
+* {{icon|opinion}} {{green|+10}} Vassal Opinion
+| 
+* {{icon|opinion}} {{red|-20}} Vassal Opinion
+* {{icon|gold}} {{red|-10%}} Vassal Tax Contribution
+* {{icon|treasury}} {{red|-20%}} Monthly Treasury
+|-
+! [[File:Dynastic cycle group anti.png|50px]] Conservative
+| 
+* {{icon|yes}} Undermine Governance interaction
+* [[File:Domicile reception hall.png|24px]] Reception Hall upgrade
+* {{icon|yes}} Disciples/elders can ask for feasts
+* {{icon|opinion}} {{green|+10}} House Opinion
+| 
+* {{icon|influence}} {{green|+1}} Monthly Influence
+* {{icon|opinion}} {{green|+10}} House Opinion
+* {{icon|gold}} {{green|-10%}} Domicile Building Construction Cost
+* {{icon|time}} {{red|+10%}} Domicile Building Construction Time
+* {{icon|levies}} {{red|-2}} Max Men-at-Arms Regiments
+* {{icon|gold}} {{red|+20%}} Men-at-Arms Maintenance
+| 
+* {{icon|influence}} {{green|+1}} Monthly Influence
+* {{icon|opinion}} {{green|+10}} House Opinion
+* {{icon|gold}} {{green|-10%}} Domicile Building Construction Cost
+* {{icon|time}} {{red|+10%}} Domicile Building Construction Time
+| 
+* {{icon|levies}} {{green|+2}} Max Men-at-Arms Regiments
+* {{icon|gold}} {{green|-20%}} Men-at-Arms Maintenance
+* {{icon|opinion}} {{green|+10}} House Opinion
+* {{icon|opinion}} {{red|-20}} Vassal Opinion
+* {{icon|gold}} {{red|-20%}} Vassal Tax Contribution
+| 
+* {{icon|opinion}} {{red|-20}} Vassal Opinion
+* {{icon|gold}} {{red|-10%}} Vassal Tax Contribution
+* {{icon|treasury}} {{red|-20%}} Monthly Treasury
+|-
+! Unaligned
+| {{icon|yes}} Can be asked to join movements
+| 
+* {{icon|levies}} {{red|-2}} Max Men-at-Arms Regiments
+* {{icon|gold}} {{red|+20%}} Men-at-Arms Maintenance
+| 
+| 
+* {{icon|opinion}} {{red|-20}} Vassal Opinion
+* {{icon|gold}} {{red|-20%}} Vassal Tax Contribution
+| 
+* {{icon|opinion}} {{red|-20}} Vassal Opinion
+* {{icon|gold}} {{red|-10%}} Vassal Tax Contribution
+* {{icon|treasury}} {{red|-20%}} Monthly Treasury
+|}
+
+== The Silk Road ==
+{{expansion|auh}}
+The Silk Road situation affects all rulers with their capital in one of the situation regions. There are 6 situation regions, connected in the following order: Occident < Transcaspia and India < Central Asia and Tibet < China. Every region has an innovation assigned and every 12 years a random innovation discovered by the Han culture will be assigned to the China situation and all existing innovations will move westwards. These innovations can be researched normally by cultures with Chinese heritage or the Sinophilic tradition as well as if a ruler of that culture controls the region's hub while the innovation is present in the region. Other rulers can attempt to unlock these innovations by taking the Visit a Silk Road Market decision and passing the skill challenge.
+
+How each ruler is affected depends on the phase in their region and their participant group.
+{| class="wikitable plainlist"
+! {{diagonal split header|Participant group|Phase}}
+! {{red|Hardship}} !! Steady Trading !! <span style="color:blue;">'''Exceptional Bounty'''</span>
+|-
+! Everyone
+| {{icon|development}} {{red|-2%}} Development Growth
+| 
+* {{icon|development}} {{green|+1%}} Development Growth
+* {{icon|innovation}} {{green|+2%}} Cultural Fascination Progress
+* {{icon|plague resistance}} {{red|-5}} Plague Resistance
+| 
+* {{icon|development}} {{green|+2%}} Development Growth
+* {{icon|innovation}} {{green|+5%}} Cultural Fascination Progress
+* {{icon|plague resistance}} {{red|-10}} Plague Resistance
+|-
+! Lands Under Heaven
+| {{icon|legitimacy}} {{red|+10%}} Legitimacy Loss
+| {{icon|gold}} {{green|+1%}} Domain Taxes
+| {{icon|gold}} {{green|+2%}} Domain Taxes
+|-
+! Silk Road Domains
+| {{icon|gold}} {{red|-2%}} Domain Taxes
+| {{icon|gold}} {{green|+1%}} Domain Taxes
+| 
+* {{icon|gold}} {{green|+2%}} Domain Taxes
+* {{icon|development}} {{green|+0.01}} Monthly Development
+|-
+! Silk Road Realms
+| {{icon|gold}} {{red|-1%}} Domain Taxes
+| None
+| {{icon|gold}} {{green|+2%}} Domain Taxes
+|-
+! Peripheral Realms
+| {{icon|gold}} {{red|-1%}} Domain Taxes
+| None
+| {{icon|gold}} {{green|+1%}} Domain Taxes
+|-
+! {{icon|kos}} Steppe Nomads
+| {{icon|county fertility}} {{green|+2%}} County Fertility Growth
+| {{icon|herd}} {{green|+0.5%}} Herd Conversion into Horde Riders
+| 
+* {{icon|herd}} {{green|+0.7%}} Herd Conversion into Horde Riders
+* {{icon|travel speed}} {{green|+10%}} Move Domicile Travel Speed
+* {{icon|county fertility}} {{red|-2%}} County Fertility Growth
+|}
+The situation has the following catalysts:
+* {{green|+30}} If a Grand Canals great project in completed in China
+* {{green|+20}} If a Grand Canals great project in completed in Central Asia or Tibet
+* {{green|+10}} If a Grand Canals great project in completed in India or Transcapia
+* {{green|+15}} If a Bazaars special building is constructed
+* {{green|+15}} Yearly if there are no wars in the region
+* {{green|+10}} Yearly if there are no wars in any adjacent upstream region
+* {{green|+10}} Yearly if there are no wars in any distant upstream region
+* {{green|+5}} Yearly if the Dynastic Cycle situation is in the Stability phase
+* {{icon|lop}} {{green|+15}} If the Iranian Intermezzo ends
+* {{icon|kos}} {{green|+5}} If a Nomadic or Herder holding is feudalized
+* {{red|-5}} Yearly if there is a war in any distant upstream region
+* {{red|-10}} Yearly if there is a war in any adjacent upstream region
+* {{red|-15}} Yearly if there is a war in the region
+* {{red|-10}} If a county on the Silk Road route is raided
+* {{red|-15}} If a county on the Silk Road route is besieged by the Greatest of Khans
+* {{red|-50}} If the Byzantine Empire title is destroyed
+* {{icon|lop}} {{red|-3}} Yearly if Iranian Intermezzo phase is Unrest
+* {{icon|kos}} {{red|-50}} If an Expand the Steppes decision targets the situation region
+* All regions will change phase to Hardship if the Dynastic Cycle situation enters the Division phase
+
+If the Starting Silk Road Innovations game rule has been set to Preset, at the start of the game the silk road starts with the following innovations:
+{| class="wikitable plainlist"
+! {{diagonal split header|Region|Year}}
+! 867 !! 1066 !! 1178
+|-
+! China
+| [[File:Innovation dragon kiln.png|30px]] Dragon Kilns
+| [[File:Innovation compass.png|30px]] Compass
+| [[File:Innovation grenades.png|30px]] Grenades
+|-
+! Central Asia and Tibet
+| [[File:Innovation block printing.png|30px]] Block Printing
+| [[File:Innovation gunpowder.png|30px]] Fire Medicine
+| [[File:Innovation pharmacopoeia.png|30px]] Pharmacopoeia
+|-
+! India and Transcaspia
+| [[File:Innovation waterworks.png|30px]] Waterworks
+| [[File:Innovation farm.png|30px]] Champa Rice
+| [[File:Innovation weapons and armor 01.png|30px]] Coking
+|-
+! Occident
+| [[File:Innovation cupellation.png|30px]] Cupellation
+| [[File:Innovation pharmacopoeia.png|30px]] Pharmacopoeia
+| [[File:Innovation bulkheads.png|30px]] Bulkheads
+|}
+
+== Steppe seasons ==
+{{expansion|kos}}
+Steppe seasons are situations that affect characters with {{iconify|Nomadic}} government present in certain locations if The Great Steppe game rule was enabled. The character with the highest {{iconify|Herd}} involved in a situation will be considered the Gurkhan, who gains access to the [[File:Nomad authority 5.png|24px]] Unrestricted Dominance law and the Establish Paiza System decision.
+
+There are 5 steppe season situations, depending on where the character's Nomadic Capital is located. Every steppe season situation covers multiple regions, and different regions may be affected by different situation phases.
+{| class="mildtable plainlist" style="text-align: center;"
+!Situation
+!Regions
+!Everlasting Summer
+!Abundant Grazing
+!Severe Drought
+!Cold Zud
+!White Zud
+!Havsarsan Zud
+!Blessing of the Blue Sky
+|-
+| align=left | [[File:The great steppe.png]] '''The Great Steppe'''
+|
+*Central Steppe
+*Eastern Steppe
+*Western Steppe
+|{{icon|yes}}
+|{{icon|yes}}
+|{{icon|yes}}
+|{{icon|yes}}
+|{{icon|yes}}
+|{{icon|yes}}
+|{{icon|yes}}
+|-
+| align=left | [[File:Game rule extra nomads tibet.png|70px]] '''Changthang'''
+|
+*Eastern Plateau
+*Western Plateau
+*River Valley
+|{{icon|yes}}
+|{{icon|yes}}
+|{{icon|yes}}
+|{{icon|yes}}
+|{{icon|yes}}
+|{{icon|no}}
+|{{icon|no}}
+|-
+| align=left | [[File:Game rule extra nomads sami.png|70px]] '''The Taiga and Tundra'''
+|
+*Karelia
+*Sápmi
+|{{icon|yes}}
+|{{icon|yes}}
+|{{icon|yes}}
+|{{icon|yes}}
+|{{icon|yes}}
+|{{icon|no}}
+|{{icon|no}}
+|-
+| align=left | [[File:Game rule extra nomads arabs.png|70px]] '''Al-Bādiya'''
+|
+*Egypt
+*The Arabian Desert
+|{{icon|yes}}
+|{{icon|yes}}
+|{{icon|yes}}
+|{{icon|no}}
+|{{icon|no}}
+|{{icon|no}}
+|{{icon|no}}
+|-
+| align=left | [[File:Game rule extra nomads horn.png|70px]] '''Bilād as-Sūmāl'''
+|
+*Horn of Africa
+*Nubia
+|{{icon|yes}}
+|{{icon|yes}}
+|{{icon|yes}}
+|{{icon|no}}
+|{{icon|no}}
+|{{icon|no}}
+|{{icon|no}}
+|-
+| align=left | [[File:Game rule extra nomads sahel.png|70px]] '''Tiniri'''
+|
+*North Africa
+*Sahara
+*Sahel
+|{{icon|yes}}
+|{{icon|yes}}
+|{{icon|yes}}
+|{{icon|no}}
+|{{icon|no}}
+|{{icon|no}}
+|{{icon|no}}
+|}
+Nomads can view and are affected by the season regions, which change season every 10 years and is visible on the map. Seasons can be predicted by using the {{iconify|Stargazer}} court position, with the accuracy depending on its Aptitude.
+{| class="mildtable plainlist"
+!Phase
+!{{iconify|County Fertility}}
+!{{icon|supply}} Region Supply Limit
+!{{iconify|Control}} 
+![[File:Court astrologer handling weather.png|24px]] Stargazer Oversee Preparations bonus
+!Free casus belli
+!Region characters effects
+!Notes 
+|-
+| align="center" |'''Everlasting Summer'''<br>[[File:mpo_season_everlasting_summer.png|160px]]
+| align="center" |{{green|+75%}} Growth
+| align="center" |{{green|+50%}}
+|
+|{{icon|opinion}} {{green|+10}} Vassal Opinion
+|
+|
+*{{icon|herd}} {{green|+20%}} Vassal Herd Contribution
+*{{icon|opinion}} {{green|+10}} Vassal Opinion
+*{{icon|opinion}} {{green|+10}} Tributary Opinion
+|
+|-
+| align="center" |'''Abundant Grazing'''<br>[[File:mpo_season_abudant_grazing.png|160px]]
+| align="center" |{{green|+25%}} Growth
+|
+|
+|{{icon|herd}} {{green|+15%}} Herd Gain
+|
+| 
+*{{icon|gold}} {{green|-20%}} Man-at-Arms Maintenance
+*{{icon|gold}} {{green|-50%}} Hunt Cost
+*{{icon|opinion}} {{green|+20}} Vassal Opinion
+*{{icon|herd}} {{green|+50%}} Herd from from Demand Herd interactions
+|
+|-
+| align="center" |'''Severe Drought'''<br>[[File:mpo_season_severe_drought.png|160px]]
+| align="center" |{{red|+25%}} Consumption
+| align="center" |
+{{red|-20%}}
+|
+|{{icon|county fertility}} {{green|-30%}} County Fertility Consumption
+|
+|
+*{{icon|raid}} {{green|+25%}} Raid Speed
+*{{icon|unknown}} {{green|+15}} Migration Acceptance
+*{{icon|opinion}} {{green|+15}} Courtier and Guest Opinion after Migration
+*{{icon|herd}} {{red|-20%}} Herd Gain
+*{{icon|horde riders}} {{red|-20%}} Herd Conversion into Horde Riders
+|
+|-
+| align="center" |'''Cold Zud'''<br>[[File:mpo_season_cold_zud.png|160px]]
+| align="center" |{{red|+40%}} Consumption
+| align="center" |{{red|-30%}}
+| align="center" |{{red|-10}}
+|{{icon|county fertility}} {{green|+25%}} County Fertility Growth
+|[[File:Retaliation cb.png|24px]] Retaliation War 
+|
+*{{icon|unknown}} {{green|+25}} Demand Obedience Acceptance
+*{{icon|unknown}} {{green|+25}} Demand as Tributary Acceptance
+*{{icon|ill}} Increased chance to gain the Ill trait
+|
+|-
+| align="center" |'''White Zud'''<br>[[File:mpo_season_white_zud.png|160px]]
+| align="center" |{{red|+80%}} Consumption
+| align="center" |{{red|-20%}}
+| align="center" |{{red|-25}}
+|{{icon|county fertility}} {{green|+25%}} County Fertility Growth 
+|[[File:Retaliation cb.png|24px]] Retaliation War
+|
+*{{icon|unknown}} {{green|+25}} Demand Obedience Acceptance
+*{{icon|unknown}} {{green|+25}} Demand as Tributary Acceptance
+*{{icon|gold}} {{green|-25%}} Upgrade Nomadic Horde Regiment Cost
+*{{icon|ill}} Increased chance to gain the Ill trait
+|
+|-
+| align="center" |'''Havsarsan Zud'''<br>[[File:mpo_season_havsarsan_zud.png|160px]]
+| align="center" |{{red|+100%}} Consumption
+| align="center" |{{red|-50%}}
+| align="center" |{{red|-25}}
+|{{icon|travel speed}} {{green|+33%}} Domicile Travel Speed
+|
+*[[File:Retaliation cb.png|24px]] Retaliation War
+*[[File:Humiliation cb.png|24px]] Humiliation War
+|
+*{{icon|decision}} Unlocks the Desperate Times decision
+*{{icon|unknown}} {{green|+25}} Demand as Tributary Acceptance
+*{{icon|stress}} {{red|+30%}} Stress Gain
+*{{icon|ill}} Increased chance to gain the Ill trait
+*[[File:Succession chaotic.png|24px]] {{red|Realm uses Chaotic Succession}}
+|Can only happen once and chance increases over time
+|-
+| align="center" |'''Blessing of the Blue Sky'''<br>[[File:mpo_season_blessing_blue_sky.png|160px]]
+| align="center" |{{green|+300%}} Growth
+| align="center" |{{green|+100%}}
+|
+|{{icon|piety}} {{green|+3}} Monthly Piety
+|
+|
+*{{icon|stress}} {{green|-25%}} Stress Gain
+*{{icon|opinion}} {{green|+15}} Vassal Opinion
+*{{icon|opinion}} {{green|+15}} Tributary Opinion
+|Can only happen once and chance increases over time
+|}
+
+== References ==
+<references/>
+
+{{Mechanics navbox}}
+[[Category:Realm]]

@@ -1,0 +1,504 @@
+{{Version|1.18}}
+[[File:Hooks and Secrets.jpg|thumb|330px|Hooks and secrets]]
+A hook represents that a character owes you a favor or that you can coerce them in some way. Hooks can be gained in a variety of ways and can be used to force a character to do something. You can only have one hook on a character at a time. If you gain a new hook and it's a stronger type of hook or lasts longer, it replaces the older one. Having a hook of any kind over an opponent during a non-lethal duel unlocks a [[Duel#Special moves|special move]], Something to Hide. Hook come in three levels of strength. Hooks that are permanent cannot be removed with the Abandon Hook interaction.
+
+== Weak hooks ==
+Weak hooks can only be used once. For most interactions a weak hook only provides a bonus to acceptance rather than forced action. The hook name has some narrow effects. The ''Obligation'' hook halves the monthly base salary of assigned [[court]] positions (it does not affect task expenses).
+{| class="mildtable plainlist sortable"
+! Hook
+! Duration
+! Source
+! Can be fabricated
+|-
+| '''Blackmail'''
+| 10 years or until the secret is exposed
+| Blackmail character interaction over a secret which is a shunned practice
+| {{icon|no}}
+|-
+| '''Crime Accomplice'''
+| 10 years
+| 
+* Coup conspiracy promise
+* Iberian Struggle events
+| {{icon|no}}
+|-
+| '''Favor'''
+| 10 years
+| Countless events and interactions
+| {{icon|no}}
+|-
+| '''Obligation'''
+| 10 years
+| Activity events
+| {{icon|no}}
+|-
+| '''House Head'''
+| Permanent
+| House Head over when a child is born
+| {{icon|no}}
+|-
+| '''Indebted'''
+| 10 years
+| Random events
+| {{icon|yes}}
+|-
+| '''Manipulation'''
+| 10 years
+| Random events
+| {{icon|yes}}
+|-
+| '''Threatened'''
+| 10 years
+| Random events
+| {{icon|yes}}
+|-
+| '''Won Trial-by-Combat'''
+| 10 years
+| House Head Challenge or Trial-by-Combat duel
+| {{icon|no}}
+|-
+| {{icon|roc}} '''Violated Sumptuary Law'''
+| 10 years
+| Violating Sumptuary Law debate
+| {{icon|no}}
+|-
+| {{icon|tnt}} '''Involved in Suspicious Activity'''
+| 10 years
+| Grand Tour events
+| {{icon|no}}
+|-
+| {{icon|rtp}} '''Excelled at Contract'''
+| 5 years
+| Exceptional Success at adventurer contract
+| {{icon|no}}
+|-
+| {{icon|rtp}} '''Follower Oath'''
+| Permanent
+| Adventurer events
+| {{icon|no}}
+|-
+| {{icon|cor}} '''Heir of Indebted Claimant'''
+| Permanent
+| Install Claimants oath fulfilled
+| {{icon|no}}
+|-
+| {{icon|cor}} '''Supporter'''
+| 20 years
+| Coronation events
+| {{icon|no}}
+|}
+
+== Perpetual hooks ==
+Perpetual hooks are permanent and can be used multiple times with a five year cool-down between uses. For most interactions a perpetual hook only provides a bonus to acceptance rather than forced action. Perpetual hooks cannot be fabricated.
+* {{icon|wrd}} '''Loyal Hostage''' hooks can be obtained from events if a hostage becomes an adult
+* {{icon|cor}} '''Indebted Claimant''' hooks are obtained on every installed claimant if a ruler fulfills a Install Claimants oath
+* {{icon|auh}} '''Filial Piety''' hooks are obtained at birth if the faith has the Filial Piety tenet
+
+== Strong hooks ==
+Strong hooks can be used multiple times with a five year cool-down between uses. For most interactions using a strong hook will force acceptance. Passively, it also prevents the character from joining factions, declaring war, imprisoning or demanding religious conversion from the character holding the hook. Having a strong hook over a Realm Priest forces them to pay maximum contribution.
+{| class="mildtable plainlist sortable"
+! Hook
+! Duration
+! Source
+! Can be fabricated
+|-
+| '''Blackmail'''
+| Until the secret is exposed
+| Blackmail character interaction over a secret which is a criminal practice
+| {{icon|no}}
+|-
+| '''Fabrication'''
+| 10 years
+| Fabricate a Hook scheme
+| {{icon|yes}}
+|-
+| '''Loyalty'''
+| Permanent
+| 
+* Recognition of Talent tradition (pardon or negotiate release)
+* Random events
+| {{icon|yes}}
+|-
+| '''Loyalty to Predecessor'''
+| 20 years
+| Current Regent had 75 Opinion towards the previous liege
+| {{icon|no}}
+|-
+| '''Oath Debt'''
+| 20 years
+| Offered a hook when sending a request
+| {{icon|no}}
+|-
+| '''Saved Life'''
+| Permanent
+| Activity events
+| {{icon|no}}
+|-
+| '''Serious Crime Accomplice'''
+| Permanent
+| Coup conspiracy promise
+| {{icon|no}}
+|-
+| '''Threatened Life'''
+| 10 years
+| Random events
+| {{icon|yes}}
+|-
+| {{icon|foi}} '''Best Friend'''
+| Until the characters are no longer Best Friends
+| Best Friend and culture has the Ritualized Friendship tradition
+| {{icon|no}}
+|-
+| {{icon|tnt}} '''Bestowed Grace'''
+| 20 years
+| Grand Wedding events
+| {{icon|no}}
+|-
+| {{icon|lop}} '''Caliphal Submission'''
+| 20 years
+| Install Loyalist casus belli
+| {{icon|no}}
+|-
+| {{icon|rtp}} '''Mutual Follower Oath'''
+| Permanent
+| Adventurer events
+| {{icon|no}}
+|-
+| {{icon|kos}} '''Blood Brother/Sister'''
+| Until the characters are no longer Blood Brothers
+| Blood Brother
+| {{icon|no}}
+|}
+
+== Spending hooks ==
+Hooks can be used in a variety of ways. This list may not be fully exhaustive. Hooks can't be used for everything, though. Below this table there is a list of exceptions.
+{| class="wikitable"
+|+
+!Action
+!Requirements
+!Weak Hook
+!Strong Hook
+!Notes
+|-
+|Abandon Hook
+|[[File:Trait forgiving.png|frameless|24x24px]] Forgiving Trait
+| -20 Stress
+| -42 Stress
+|Gain +50 Opinion with recipient. Despite the name, a Strong Hook can be abandoned every five years.
+|-
+|Arrange Marriage
+|
+| +100 Acceptance
+| +200 Acceptance
+|Marriage arrangement is accepted
+|-
+|Demand/Exchange Hostage
+|
+| +40 Acceptance
+|Forced
+|Hostage(s) depart for new court
+|-
+|Imprison
+|
+| +30 Acceptance
+|Forced
+|Target is imprisoned
+|-
+|Demand Conversion
+|
+| +50 Acceptance
+|Forced
+|
+|-
+|Offer Ward
+|
+| +100 Acceptance
+|Forced
+|
+|-
+|Offer Guardianship
+|
+| +200 Acceptance
+|Forced
+|
+|-
+|Offer Hostage
+|
+| +0 Acceptance
+|Forced
+|
+|-
+|Exchange Hostages
+|
+| +40 Acceptance
+| +40 Acceptance
+|Text incorrectly reads "weak hook used"
+|-
+|Demand Hostage
+|
+| +40 Acceptance
+|Forced
+|
+|-
+|Recall Hostage
+|
+| +40 Acceptance
+|Forced
+|
+|-
+|Ask to Take Vows
+|Target may be a child
+| +50 Acceptance
+|Forced
+|
+|-
+|Adopt House Member
+|Cultivated Sophistication cultural tradition
+| +50 Acceptance
+| +50 Acceptance
+|
+|-
+|Revoke Title/Retract Vassal
+|
+| +40 Acceptance
+|Forced
+|Gain title/vassal
+|-
+|Recruit to Court
+|
+|Forced
+|Forced
+|
+|-
+|Invite to Scheme
+|
+| +100 Acceptance
+|Forced
+|
+|-
+|Force to Join Faction
+|Hook must be Strong
+|N/A
+|Forced
+|Target joins faction 
+|-
+|Demand Artifact
+|Target has an artifact you have a claim on
+| +100 Acceptance
+|Forced
+|
+|-
+|Declare Me Regent
+|
+|Forced
+|Forced
+|You are designated as future Regent
+|-
+|Declare Me Co-Emperor
+|Roman Ceremonies cultural tradition
+| +50 Acceptance
+|Forced
+|
+|-
+|Ask to Promote Legend
+|
+| +100 Acceptance
+|?
+|
+|-
+|Request Excommunication
+|Hook is on the Head of Faith + faith has [[File:Core tenet chalice.png|frameless|37x37px]]Communion [[Tenet]]
+| +50 Acceptance
+|Forced
+|
+|-
+|Request Divorce
+|Hook is on the Head of Faith ([[File:Doctrine spiritual head.png|frameless|24x24px]]Spiritual Head [[Doctrines|Doctrine]]) or else House Head
+|Forced
+|Forced
+|
+|-
+|Request Claim
+|Hook is on the Head of Faith + faith [[File:Doctrine spiritual head.png|frameless|24x24px]]Spiritual Head Doctrine
+| +100 Acceptance
+|Forced
+|
+|-
+|Ask for Gold
+|Hook is on the Head of Faith + faith [[File:Doctrine spiritual head.png|frameless|24x24px]]Spiritual Head Doctrine
+|Forced
+|Forced
+|
+|-
+|Invite to Court
+|Target is unlanded and not married to liege
+|Forced
+|Forced
+|Target joins your court
+|-
+|Demand Council Position
+|Target is direct liege
+|Forced
+|Forced
+|Able to request council position of choice. Cannot be removed for 25 years.
+|-
+|Request Court Position
+|Target is direct liege
+| +100 Acceptance
+|Forced
+|Able to request court position of choice. NO REMOVAL PROTECTION.
+|-
+|Modify Vassal Contract
+|Contract not modified in vassal's lifetime
+|Forced
+|Forced
+|May make one change in user's favor as vassal or liege. Liege does not incur tyranny.
+|-
+|Swing Scales of Power
+|In a Diarchy
+|10 Swing
+|10 Swing
+|
+|-
+|Declare War
+|Vassal of liege whose Crown Authority prevents war
+|Forced
+|Forced
+|
+|-
+|Demand Payment
+|[[File:Node stewardship.png|24x24px]]Golden Obligations perk
+|Forced
+|Forced
+|Scaling {{icon|gold}}Gold (10 unemployed, 15 court position, 50 count, 
+|-
+|Castrate Kin
+|Palace Politics cultural tradition + Hook is on the Child
+| +50 Acceptance
+|Forced
+|
+|-
+|Force Vote
+|Elective Realm
+|Forced
+|Forced
+|Target votes for your candidate for 100 years.
+|-
+|Ask to Influence Candidacy
+|Administrative Realm
+|Forced
+|Forced
+|Target spends {{iconify|Influence}} to support candidate for governorship.
+|-
+|Request Permission to Raid
+|Administrative Realm, Hook is on top liege
+| +40 Acceptance
+|?
+|
+|-
+|Modify Theme Administration
+|Administrative Realm, Hook is on top liege
+|Forced
+|Forced
+|
+|-
+|Demand Administrative Government
+|Administrative Realm
+|Forced
+|Forced
+|
+|-
+|Request Clergy Support
+|Administrative Realm + Hook is on the Head of Faith
+|Forced
+|Forced
+|
+|}
+
+=== What hooks can't do ===
+Hooks cannot be invoked in many interactions, but these are the most notable.
+{| class="wikitable"
+|+Action
+|Call to War
+|-
+|Contract War Assistance
+|-
+|Hire Mercenaries
+|-
+|Offer Peace
+|-
+|Purchase Truce
+|-
+|Offer Vassalage
+|-
+|Invite to Activity
+|-
+|Negotiate Settlement
+|-
+|Request as House Head
+|-
+|Influence Ward Personality
+|-
+|Give Vassal Directive
+|}
+
+[[File:Trait arbitrary.png|frameless|24x24px]] Arbitrary rulers may use the [[Interactions#Dismiss hook|Dismiss Hook interaction]] at the cost of opinion, prestige, and tyranny.
+
+== Secrets ==
+Characters acquire secrets when they do something that is a crime or frowned upon. Secrets can be discovered through random events or via the ''Find Secrets'' spymaster [[Council#Council_task|task]]. If a secret is discovered, the character who uncovered it has two options. One option is to expose the secret, which will apply negative effects upon the target based on the severity of the secret. The other option is to blackmail the target. If the target agrees to the blackmail, the character will gain a {{iconify|Weak Hook}} if the secret is Shunned and a {{iconify|Strong Hook}} if the secret is Criminal. If the target refuses, the secret will be exposed. Secrets can be shared with members of the same House if the Dynasty has the 4th [[File:Coterie legacy track.png|24px]] Coterie legacy.
+
+If a character is asked to convert to a faith practiced in secret they will always agree.
+{| class="mildtable plainlist"
+! Secret
+! Severity
+|-
+| {{iconbox|Attempted to murder|This character has attempted murder.|image=Secret murder.png}}
+| [[File:Doctrine kinslaying.png|24px]] Depends on who was the target
+|-
+| {{iconbox|Murdered|This character is a murderer.|image=Secret murder.png}}
+| [[File:Doctrine kinslaying.png|24px]] Depends on who was the target
+|-
+| {{iconbox|Is gathering power and plotting a coup|This character is plotting a coup against their liege.|image=Secret murder.png}}
+| {{icon|crime}} Always criminal
+|-
+| {{iconbox|Is a Cannibal|This character consumes human flesh.|image=Secret deviancy.png}}
+| [[File:Core tenet foodsacrifice.png|24px]] Depends on whether faith has the Ritual Cannibalism tenet
+|-
+| {{iconbox|Is a Deviant|This character has a predilection for socially unacceptable acts.|image=Secret deviancy.png}}
+| [[File:Doctrine deviancy.png|24px]] Depends on the Deviancy crime doctrine
+|-
+| {{iconbox|Is a Sodomite|This character engages in sexual intercourse with other men/women.|image=Secret deviancy.png}}
+| [[File:Doctrine homosexuality.png|24px]] Depends on the Same-Sex Relations crime doctrine
+|-
+| {{iconbox|Is Incestuous|This character has sexual relations with close family members.|image=Secret deviancy.png}}
+| [[File:Doctrine consanguinity.png|24px]] Depends on the Consanguinity marriage doctrine
+|-
+| {{iconbox|Practices in secret|This character practices their Religion in secret, fearing persecution.|image=Secret religious.png}}
+| {{icon|unknown}} Depends of faith hostility
+|-
+| {{iconbox|Is a Non-Believer|This character believes in a false god, or none at all.|image=Secret religious.png}}
+| {{icon|opinion}} Always Shunned
+|-
+| {{iconbox|Is a Witch|This character practices witchcraft.|image=Secret religious.png}}
+| [[File:Doctrine witchcraft.png|24px]] Depends on the Witchcraft crime doctrine
+|-
+| {{iconbox|Lover|This character is someone's illicit lover.|image=Secret adultery.png}}
+| [[File:Doctrine adultery men.png|24px]][[File:Doctrine adultery women.png|24px]] Depends on the Adultery crime doctrines
+|-
+| {{iconbox|Is almost certainly an illegitimate child|This character's ancestry is in doubt.|image=Secret adultery.png}}
+| [[File:Doctrine bastardry.png|24px]] Depends on the Bastardry marriage doctrine
+|-
+| {{iconbox|Is an illegitimate child out of wedlock|This character is a bastard.|image=Secret adultery.png}}
+| [[File:Doctrine bastardry.png|24px]] Depends on the Bastardry marriage doctrine
+|-
+| {{iconbox|Embezzled resources|This character misappropriated excessive amounts of resources they were entrusted with.|image=Icon gold.png}}
+| {{icon|gold}} Depends on the amount of Gold embezzled
+|}
+The ''Lover'', ''
+Is almost certainly an illegitimate child'' and ''Is an illegitimate child out of wedlock'' secrets can be removed if a marriage or concubinage makes them no longer valid.
+
+== References ==
+<references/>
+
+{{Mechanics navbox}}
+[[Category:Character]]

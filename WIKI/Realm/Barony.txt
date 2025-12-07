@@ -1,0 +1,739 @@
+{{Version|1.18}}
+A '''Barony''' is the lowest rank of [[Titles|landed titles]] and the only rank that is not playable (although they may be held by playable characters). Each [[county]] has 1-7 baronies, which will always be in the same realm as the county they're part of. Baronies may be sparsely populated or have a holding.
+
+== Capital ==
+A barony can be three types of capital:
+* [[File:County capital.png|30px]] The county capital is the primary barony of a county. Its holding can never be destroyed and is always owned by the ruler who holds the county title. County capitals allow the construction of an additional building and have {{green|+1}} {{iconify|Fort Level}}. The county capital can be changed when the owner of the county also has another holding in the county.
+* [[File:County capital.png|30px]] The duchy capital is the primary barony of a duchy. Duchy capitals have an additional building slot dedicated to the duchy building. Duchy capitals can be changed via the Relocate De jure Capital but if a duchy building was constructed it will be removed.
+* [[File:Realm capital.png|30px]] The realm capital is the barony where a ruler and its court resides and is always inherited by the primary heir. The realm capital can only be moved once per lifetime unless it's the de jure capital of the primary title and cannot be moved during a war. It also produces an additional {{green|+1}} {{icon|gold}} Tax and is less likely to join Peasant Rabble factions. Each barony within the same de jure duchy as the realm capital will gain {{green|+10%}} {{iconify|Levies}}.
+
+== Holdings ==
+[[File:Holding UI.png|400px|thumb|right|A holding]]
+Each barony may have a holding, which represents the main settlement inside it and is required to be able to use the barony. Constructing a new holding will create a title for that barony, which may be held or given to another character. Baronies that are not a county capital can be granted to a Courtier; when constructing holdings in a Vassal's county, the holder of the County title will automatically receive the holding once construction is complete. 
+
+Different holding types will only provide {{icon|gold}} Taxes and {{iconify|Levies}} if held by rulers with certain government types. Giving away a holding that does not provide anything does not give {{iconify|Stress}} regardless of traits.
+
+All holdings are constructed at level 1 and can be upgraded up to level 4. Constructing or upgrading a holding takes 5 years (before any bonuses/penalties).
+* Constructing a Castle, City or Temple holding requires 400 {{iconify|gold}}. If the county does not have a set of 1 Castle, 1 City and 1 Temple the missing holdings must be constructed first.
+* Upgrading a Castle, City or Temple holding to level 2 requires 550 {{iconify|gold}}.
+* Upgrading a Castle, City or Temple holding to level 3 requires 700 {{iconify|gold}}.
+* Upgrading a Castle, City or Temple holding to level 4 requires 850 {{iconify|gold}}.
+* Upgrading a Tribe holding requires 200 {{iconify|gold}} and 400 {{iconify|prestige}}.
+* Tribe, Nomadic Settlement and Herder Pens holdings cannot be constructed. Governments that can't hold them can turn them into Castle holdings at the cost of 500 {{iconify|gold}}. For {{icon|governor efficiency}} Administrative governments the cost is increased to 625 {{iconify|gold}}. If the county is on the Siberian Permafrost the cost is increased to 2500 {{iconify|gold}} but it also removes the permafrost.
+
+=== Castle ===
+Castle holdings can be held directly by any government type except {{iconify|Nomadic}}.
+{| class="mildtable" style="text-align: center;"
+! Level
+! {{icon|gold}} Monthly tax
+! {{iconify|Levies}}
+! {{iconify|Garrison}}
+! {{iconify|Garrison}} reinforcement rate
+! {{iconify|Fort level}}
+! {{icon|safety}} Danger
+! {{icon|damage}}{{icon|toughness}} Stationed regiment bonus
+! {{icon|siege progress}} Stationed Siege Weapon Effectiveness
+! {{icon|innovation}} Required innovation
+|-
+| '''Motte'''
+| {{green|+0.4}}
+| {{green|+175}}
+| {{green|+250}}
+| {{green|+4%}}
+| {{green|+1}}
+| {{green|-10}}
+| {{green|+15%}}
+| {{green|+10%}}
+| {{iconify|Mottes}}
+|-
+| '''Keep'''
+| {{green|+0.7}}
+| {{green|+325}}
+| {{green|+750}}
+| {{green|+6%}}
+| {{green|+4}}
+| {{green|-12}}
+| {{green|+20%}}
+| {{green|+15%}}
+| {{iconify|Battlements}}
+|-
+| '''Concentric Castle'''
+| {{green|+1}}
+| {{green|+475}}
+| {{green|+1250}}
+| {{green|+8%}}
+| {{green|+8}}
+| {{green|-14}}
+| {{green|+25%}}
+| {{green|+20%}}
+| {{iconify|Hoardings}}
+|-
+| '''Fortress'''
+| {{green|+1.3}}
+| {{green|+625}}
+| {{green|+1750}}
+| {{green|+10%}}
+| {{green|+13}}
+| {{green|-16}}
+| {{green|+30%}}
+| {{green|+25%}}
+| {{iconify|Machicolations}}
+|}
+
+=== City ===
+City holdings can be held directly by [[File:Republic government.png|24px]] Republic, [[File:Holy order government.png|24px]] Holy Order, {{icon|governor efficiency}} Administrative, {{iconify|Celestial}}, {{iconify|Meritocratic}}, {{iconify|Meritocratic Khanate}} and {{iconify|Ritsuryō}} governments.
+{| class="mildtable" style="text-align: center;"
+! Level
+! {{icon|gold}} Monthly tax
+! {{iconify|Levies}}
+! {{iconify|Garrison}}
+! {{iconify|Garrison}} reinforcement rate
+! {{icon|safety}} Danger
+! {{icon|innovation}} Required innovation
+|-
+| '''Village Center'''
+| {{green|+0.8}}
+| {{green|+75}}
+| {{green|+150}}
+| {{green|+3%}}
+| {{green|-10}}
+| {{iconify|City Planning}}
+|-
+| '''Large City'''
+| {{green|+1.4}}
+| {{green|+125}}
+| {{green|+300}}
+| {{green|+4%}}
+| {{green|-12}}
+| {{iconify|Manorialism}}
+|-
+| '''City Center'''
+| {{green|+2}}
+| {{green|+175}}
+| {{green|+450}}
+| {{green|+5%}}
+| {{green|-14}}
+| {{iconify|Windmills}}
+|-
+| '''Bustling Metropolis'''
+| {{green|+2.6}}
+| {{green|+225}}
+| {{green|+1050}}
+| {{green|+6%}}
+| {{green|-16}}
+| {{iconify|Cranes}}
+|}
+
+=== Temple ===
+Which governments can hold directly a temple holding depends on the Clerical Tradition doctrine of the faith of the ruler holding the barony's country title.
+* If the doctrine is {{iconify|Theocratic}} only [[File:Theocracy government.png|24px]] Theocracy government can directly hold temples
+* If the doctrine is {{iconify|Lay Clergy}} any government can directly hold temples
+Constructing a Temple holding will raise {{iconify|Fervor}} by 1 and grant its county title holder 500 {{iconify|Piety}} regardless of which ruler funded it. If the {{iconify|Legends of the Dead}} DLC is installed the ruler who funded the holding has a 10% chance to gain a {{iconify|Holy legend}} seed.
+{| class="mildtable" style="text-align: center;"
+! Level
+! {{icon|gold}} Monthly tax
+! {{iconify|Levies}}
+! {{iconify|Garrison}}
+! {{iconify|Garrison}} reinforcement rate
+! {{icon|safety}} Danger
+! {{icon|damage}}{{icon|toughness}} Stationed regiment bonus
+! {{icon|siege progress}} Stationed Siege Weapon Effectiveness
+! {{icon|innovation}} Required innovation
+|-
+| '''Shrine'''
+| {{green|+0.75}}
+| {{green|+125}}
+| {{green|+150}}
+| {{green|+3%}}
+| {{green|-10}}
+| {{green|+10%}}
+| {{green|+5%}}
+| {{iconify|City Planning}}
+|-
+| '''Temple Grounds'''
+| {{green|+1.15}}
+| {{green|+225}}
+| {{green|+450}}
+| {{green|+4%}}
+| {{green|-12}}
+| {{green|+12%}}
+| {{green|+7%}}
+| {{iconify|Manorialism}}
+|-
+| '''House of Worship'''
+| {{green|+1.55}}
+| {{green|+325}}
+| {{green|+750}}
+| {{green|+5%}}
+| {{green|-14}}
+| {{green|+15%}}
+| {{green|+10%}}
+| {{iconify|Windmills}}
+|-
+| '''Grand Temple'''
+| {{green|+2}}
+| {{green|+425}}
+| {{green|+1050}}
+| {{green|+6%}}
+| {{green|-16}}
+| {{green|+17%}}
+| {{green|+12%}}
+| {{iconify|Cranes}}
+|}
+
+=== Tribe ===
+Tribe holdings can only be held directly by rulers with {{iconify|Tribal}} or {{iconify|Wanua}} government. If the {{iconify|Khans of the Steppe}} DLC is installed they will also give {{green|+35%}} County Fertility Growth.
+{| class="mildtable" style="text-align: center;"
+! Level
+! {{icon|gold}} Monthly tax
+! {{iconify|Levies}}
+! {{iconify|Garrison}}
+! {{iconify|Garrison}} reinforcement rate
+! {{iconify|Fort level}}
+! {{icon|damage}}{{icon|toughness}} Stationed regiment bonus
+! {{icon|innovation}} Required innovation
+|-
+| '''Tribal Hold'''
+| {{green|+0.25}}
+| {{green|+250}}
+| {{green|+250}}
+| {{green|+3%}}
+| {{green|+1}}
+| {{green|+20%}}
+| {{icon|no}} Cannot be constructed
+|-
+| '''Fortified Tribal Hold'''
+| {{green|+0.55}}
+| {{green|+400}}
+| {{green|+500}}
+| {{green|+4%}}
+| {{green|+2}}
+| {{green|+30%}}
+| {{icon|planned assemblies}} Plenary Assemblies
+|}
+
+=== Temple Citadel ===
+Temple Citadel holdings can be held directly and upgraded by any government type except {{iconify|Nomadic}} but they can only be constructed by rulers with {{iconify|Mandala}} government.
+{| class="mildtable" style="text-align: center;"
+! Level
+! {{icon|gold}} Monthly tax
+! {{icon|gold}} Monthly tax per level of devotion
+! {{iconify|Levies}}
+! {{iconify|Garrison}}
+! {{iconify|Garrison}} reinforcement rate
+! {{iconify|Fort level}}
+! {{icon|safety}} Danger
+! {{icon|damage}}{{icon|toughness}} Stationed regiment bonus per level of devotion
+! {{icon|innovation}} Required innovation
+|-
+| '''Temple Keep'''
+| {{green|+0.12}}
+| {{green|+0.12}}
+| {{green|+175}}
+| {{green|+250}}
+| {{green|+4%}}
+| {{green|+1}}
+| {{green|-10}}
+| {{green|+1%}}
+| {{iconify|City Planning}}
+|-
+| '''Walled Monastery'''
+| {{green|+0.2}}
+| {{green|+0.27}}
+| {{green|+325}}
+| {{green|+500}}
+| {{green|+5%}}
+| {{green|+4}}
+| {{green|-12}}
+| {{green|+3%}}
+| {{iconify|Manorialism}}
+|-
+| '''Temple Compound'''
+| {{green|+0.27}}
+| {{green|+0.42}}
+| {{green|+475}}
+| {{green|+1000}}
+| {{green|+7%}}
+| {{green|+6}}
+| {{green|-14}}
+| {{green|+5%}}
+| {{iconify|Windmills}}
+|-
+| '''Fortress of Sanctuary'''
+| {{green|+0.35}}
+| {{green|+0.57}}
+| {{green|+625}}
+| {{green|+1500}}
+| {{green|+9%}}
+| {{green|+8}}
+| {{green|-16}}
+| {{green|+7%}}
+| {{iconify|Cranes}}
+|}
+
+=== Nomadic Settlement ===
+{{expansion|kos}}
+Nomadic Settlement is a holding type found throughout the Steppe region and will only provide their effects to rulers with {{iconify|Nomadic}} government. Buildings cannot be constructed in a Nomadic Settlement. A Nomadic Settlement has the following effects:
+* {{icon|county fertility}} {{green|+50%}} Realm County Fertility
+* {{icon|county fertility}} {{green|+1}} County Fertility
+* {{icon|plague resistance}} {{green|+25}} Plague Resistance
+* {{icon|raid}} {{green|+100%}} Hostile Raid Time
+* {{iconify|Fort Level}} depends on the Nomadic Capital of their holder
+Nomadic Settlements can be abandoned to a Herder at any point, turning them into Herder Pens.
+
+=== Herder Pens ===
+{{expansion|kos}}
+Herder Pens is a holding type present in all counties controlled by a character with {{iconify|Herder}} government. Its only effects are giving the county {{green|+25}} {{iconify|Plague Resistance}} and {{green|-8}} {{iconify|Danger}}. They will also give {{green|+2}} {{iconify|County Fertility}} Growth if the county's culture has the Pastoralists or Wolves of the Deep Steppe traditions.
+
+If the county title is taken by a character with {{iconify|Nomadic}} government, the holding is converted into a Nomadic Settlement. Other governments do not receive any benefit from owning Herder Pens.
+
+=== Razing holdings ===
+{{expansion|kos}}
+Rulers with {{iconify|Nomadic}} governments can raze Castle, City, Temple and Tribe holdings held directly every 5 years to gain scaled {{iconify|Gold}}. Razing a holding downgrades all buildings by one level, removes them if they can't be downgraded, and if there are no buildings left razing the holding will turn it into a Nomadic Settlement. Special buildings cannot be destroyed and are retained if the holding becomes a Nomadic Settlement.
+
+== Terrain ==
+Each Barony has a dominant terrain. The terrain determines the movement speed and combat width in the Barony and can affect the supply limit and development growth in its County as well as which buildings can be constructed.
+{| class="mildtable sortable" style="text-align: center;
+! Terrain
+! {{icon|army speed}} Movement speed
+! [[File:Combat width.png|24px]] Combat width
+! {{icon|advantage}} Defender advantage
+! {{icon|supply}} County supply
+! {{icon|development}} County development
+! {{iconify|Danger}}
+! {{icon|plague resistance}} Plague spread chance
+! {{icon|kos}} Fertility growth
+! Other effects
+|- id="Desert"
+| style="text-align: left;" | [[File:Terrain desert.png|50px]] {{yellow|Desert}}
+| 70%
+| 100%
+| 0
+| {{red|-30%}}
+| {{red|-50%}}
+| {{red|+50}}
+| {{green|very low}}
+| +0.25
+| 
+|- id="Desert Mountains"
+| style="text-align: left;" | [[File:Terrain desert mountains.png|50px]] '''Desert Mountains'''
+| 50%
+| 50%
+| +12
+| {{red|-60%}}
+| {{red|-50%}}
+| {{red|+65}}
+| {{green|very low}}
+| +0.15
+| {{green|-30%}} Defender Retreat Losses
+|-
+| style="text-align: left;" | [[File:Terrain drylands.png|50px]] <span style="color:magenta;">'''Drylands'''</span>
+| 100%
+| 100%
+| 0
+| 
+| {{red|-5%}}
+| {{red|+35}}
+| {{green|low}}
+| +0.25
+| 
+|-id="Farmlands"
+| style="text-align: left;" | [[File:Terrain farmlands.png|50px]] {{red|Farmlands}}
+| 100%
+| 100%
+| 0
+| {{green|+50%}}
+| {{green|+20%}}
+| '''0'''
+| {{red|very high}}
+| +0.35
+| 
+|-id="Floodplains"
+| style="text-align: left;" | [[File:Terrain floodplains.png|50px]] <span style="color:blue;">'''Floodplains'''</span>
+| 100%
+| 75%
+| 0
+| {{green|+35%}}
+| {{green|+20%}}
+| {{red|+35}}
+| {{red|high}}
+| +0.2
+| 
+|-id="Forest"
+| style="text-align: left;" | [[File:Terrain forest.png|50px]] {{green|Forest}}
+| 80%
+| 90%
+| +3
+| {{red|-10%}}
+| 
+| {{red|+45}}
+| {{green|low}}
+| +0.15
+| 
+|-id="Hills"
+| style="text-align: left;" | [[File:Terrain hills.png|50px]] <span style="color:maroon;">'''Hills'''</span>
+| 80%
+| 80%
+| +5
+| {{red|-10%}}
+| {{red|-10%}}
+| {{red|+45}}
+| {{green|low}}
+| +0.2
+| 
+|-id="Jungle"
+| style="text-align: left;" | [[File:Terrain jungle.png|50px]] <span style="color:darkgreen;">'''Jungle'''</span>
+| 50%
+| 70%
+| +6
+| {{red|-25%}}
+| {{red|-40%}}
+| {{red|+65}}
+| {{green|very low}}
+| +0.05
+| 
+|-id="Mountains"
+| style="text-align: left;" | [[File:Terrain mountains.png|50px]] <span style="color:gray;">'''Mountains'''</span>
+| 50%
+| 50%
+| +12
+| {{red|-50%}}
+| {{red|-25%}}
+| {{red|+65}}
+| {{green|very low}}
+| +0.15
+| 
+|-id="Oasis"
+| style="text-align: left;" | [[File:Terrain oasis.png|50px]] <span style="color:dodgerblue;">'''Oasis'''</span>
+| 100%
+| 100%
+| 0
+| {{green|+10%}}
+| {{green|+10%}}
+| {{red|+10}}
+| {{green|low}}
+| +0.35
+| 
+|-id="Plains"
+| style="text-align: left;" | [[File:Terrain plains.png|50px]] <span style="color:darksalmon;">'''Plains'''</span>
+| 100%
+| 100%
+| 0
+| 
+| 
+| {{red|+10}}
+| {{green|low}}
+| +0.25
+| 
+|-id="Steppe"
+| style="text-align: left;" | [[File:Terrain steppe.png|50px]] <span style="color:olive;">'''Steppe'''</span>
+| 100%
+| 100%
+| 0
+| 
+| {{red|-50%}}
+| {{red|+50}}
+| {{green|low}}
+| +0.35
+| 
+|-id="Taiga"
+| style="text-align: left;" | [[File:Terrain taiga.png|50px]] <span style="color:darkseagreen;">'''Taiga'''</span>
+| 80%
+| 80%
+| +4
+| {{red|-20%}}
+| {{red|-5%}}
+| {{red|+55}}
+| {{green|very low}}
+| +0.15
+| 
+|-id="Wetlands"
+| style="text-align: left;" | [[File:Terrain wetlands.png|50px]] <span style="color:deepskyblue;">'''Wetlands'''</span>
+| 70%
+| 60%
+| +5
+| {{red|-25%}}
+| {{red|-25%}}
+| {{red|+65}}
+| {{red|high}}
+| +0.2
+| {{red|+25%}} Retreat Losses<br>{{red|+20%}} Fatal Casualties
+|-id="Farmlands"
+| style="text-align: left;" | [[File:Terrain terraced hills.png|50px]] <span style="color:deeppink;">'''Terraced Hills'''</span>
+| 80%
+| 80%
+| +5
+| {{green|+10%}}
+| {{green|+10%}}
+| '''0'''
+| {{green|low}}
+| +0.2
+| 
+|}
+
+== Winter ==
+[[File:Winter.jpg|thumb|450px|The Himalayas affected by winter while India is unaffected]]
+All baronies that are not in the lower third of the map will suffer winter effects each year. Winter starts near the middle of October and its Severity slowly increases but it is not the same every year. How early and severely it affects a barony depends on its position on the map, with northmost and mountain baronies being affected first and most severely. Winters end at the beginning of March. Certain regiments of Men-at-Arms receive bonuses or penalties during Winter.
+{|class = "mildtable" style="text-align: center;
+! Severity
+! {{iconify|Supply}} Loss
+! {{iconify|Provisions}} Use
+! {{icon|death}} Fatal Casualties
+! {{icon|advantage}} Defender Advantage
+|-
+| style="text-align: left; | [[File:Winter mild.png]] Mild
+| {{red|-2}}
+| {{red|-10%}}
+| '''0'''
+| '''0'''
+|-
+| style="text-align: left; | [[File:Winter normal.png]] Normal
+| {{red|-5}}
+| {{red|-20%}}
+| '''0'''
+| '''0'''
+|-
+| style="text-align: left; | [[File:Winter harsh.png]] Harsh
+| {{red|-10}}
+| {{red|-40%}}
+| {{red|-20%}}
+| {{green|+5}}
+|}
+
+== Plagues ==
+[[File:Black Death.jpg|thumb|450px|The Black Death]]
+A plague is an outbreak of a contagious disease trait that spreads across the map. If a plague is present within a ruler's domain they unlock the Isolate Capital and Enter Seclusion decisions (these increase the {{iconify|Plague Resistance}} at a cost of other penalties). If a plague is present within the player's realm or the realm of a neighbor then a button will appear in the lower-right corner, showing all plagues.
+
+Affected baronies have an Infection Rate that determines the penalties they get. The maximum Infection Rate is reduced by a percentage equal to the county's {{iconify|Plague Resistance}}, which also reduced their spread.
+* If {{iconify|Plague Resistance}} is above 10 plagues are 25% less likely to spread to or increase Infection Rate in the barony.
+* If {{iconify|Plague Resistance}} is above 50 plagues are 50% less likely to spread to or increase Infection Rate in the barony.
+* If {{iconify|Plague Resistance}} is above 80 plagues are 75% less likely to spread to or increase Infection Rate in the barony.
+
+The number of buildings increase the chance for a plague to appear or spread in a barony, especially [[File:Building tradeport.png|24px]] tradeports, [[File:Building market villages.png|24px]] markets, [[File:Building guild halls.png|24px]] guilds, or if the holding is a [[File:Holding city.png|24px]] city. Plagues spread faster across coastal regions. They are less likely to spread to islands, with the exception of Great Britain. Once a plague ends the affected baronies will receive a {{iconify|Development}} growth bonus for 5 years and will be 4 times more resistant to plagues for 50 years. Plagues cannot spread to and from Iceland.
+
+When a barony is infected its county will lose {{iconify|Development}}. The penalty scales inversely with the number of baronies so for example a county with 3 baronies will lose 3 times less {{iconify|Development}} per infected barony than a county with 1 barony.
+
+Each plague will have one of three levels of intensity, which affects their duration, number of baronies that will be affected, and chance for characters to get infected. The ruler who has the source of the outbreak within its domain will lose 20, 50 or 100 {{iconify|Legitimacy}} depending on intensity. {{iconify|Development}} and later eras increase the chance for a plague to be of higher intensity.
+{| class="mildtable plainlist"
+! Plague
+! Barony effects (over 10% infection rate)
+! Barony effects (over 50% infection rate)
+! Barony effects (over 80% infection rate)
+! Affected baronies
+! Duration
+! width=20% | Notes
+! width=1% | DLC
+|-
+| '''Bubonic Plague'''<br>[[File:Trait bubonic plague.png]]
+| 
+* {{icon|danger}} {{red|+25}} Plague Danger
+* {{icon|development}} {{red|-3}} Monthly Development
+* {{icon|opinion}} {{red|-10}} Popular Opinion
+* {{icon|control}} {{red|-0.6}} Monthly Control
+* {{icon|supply}} {{red|-20%}} Supply Limit
+* {{icon|levies}} {{red|-30%}} Levy Reinforcement Rate
+* {{icon|levies}} {{red|-25%}} Levy Size
+| 
+* {{icon|danger}} {{red|+40}} Plague Danger
+* {{icon|development}} {{red|-6}} Monthly Development
+* {{icon|opinion}} {{red|-25}} Popular Opinion
+* {{icon|control}} {{red|-0.8}} Monthly Control
+* {{icon|supply}} {{red|-50%}} Supply Limit
+* {{icon|levies}} {{red|-50%}} Levy Reinforcement Rate
+* {{icon|levies}} {{red|-40%}} Levy Size
+| 
+* {{icon|danger}} {{red|+60}} Plague Danger
+* {{icon|development}} {{red|-8}} Monthly Development
+* {{icon|opinion}} {{red|-25}} Popular Opinion
+* {{icon|control}} {{red|-0.8}} Monthly Control
+* {{icon|supply}} {{red|-100%}} Supply Limit
+* {{icon|levies}} {{red|-100%}} Levy Reinforcement Rate
+* {{icon|levies}} {{red|-50%}} Levy Size
+| 
+* Minor: 180-360
+* Major: 540-900
+* Apocalyptic: 12000-13100
+| 
+* Minor: 6-12
+* Major: 12-24
+* Apocalyptic: 24-48
+| Spreads faster than other plagues
+| 
+|-
+| '''Consumption'''<br>[[File:Trait consumption.png]]
+| 
+* {{icon|danger}} {{red|+20}} Plague Danger
+* {{icon|development}} {{red|-2}} Monthly Development
+| 
+* {{icon|danger}} {{red|+40}} Plague Danger
+* {{icon|development}} {{red|-3}} Monthly Development
+* {{icon|opinion}} {{red|-2}} Popular Opinion
+* {{icon|control}} {{red|-0.05}} Monthly Control
+| 
+* {{icon|danger}} {{red|+60}} Plague Danger
+* {{icon|development}} {{red|-4}} Monthly Development
+* {{icon|opinion}} {{red|-3}} Popular Opinion
+* {{icon|control}} {{red|-0.1}} Monthly Control
+| 
+* Minor: 30-55
+* Major: 75-90
+* Apocalyptic: 145-220
+| 
+* Minor: 12-18
+* Major: 20-25
+* Apocalyptic: 30-45
+| 
+| 
+|-
+| '''Smallpox'''<br>[[File:Trait smallpox.png]]
+| 
+* {{icon|danger}} {{red|+10}} Plague Danger
+* {{icon|development}} {{red|-1}} Monthly Development
+* {{icon|opinion}} {{red|-2}} Popular Opinion
+| 
+* {{icon|danger}} {{red|+20}} Plague Danger
+* {{icon|development}} {{red|-2}} Monthly Development
+* {{icon|opinion}} {{red|-3}} Popular Opinion
+| 
+* {{icon|danger}} {{red|+30}} Plague Danger
+* {{icon|development}} {{red|-3}} Monthly Development
+* {{icon|opinion}} {{red|-5}} Popular Opinion
+* {{icon|control}} {{red|-0.1}} Monthly Control
+* {{icon|supply}} {{red|-20%}} Supply Limit
+| 
+* Minor: 30-55
+* Major: 85-130
+* Apocalyptic: 220-325
+| 
+* Minor: 6-8
+* Major: 10-20
+* Apocalyptic: 22-40
+| 
+| 
+|-
+| '''Typhus'''<br>[[File:Trait typhus.png]]
+| 
+* {{icon|danger}} {{red|+20}} Plague Danger
+* {{icon|development}} {{red|-1}} Monthly Development
+* {{icon|opinion}} {{red|-2}} Popular Opinion
+* {{icon|control}} {{red|-0.3}} Monthly Control
+* {{icon|levies}} {{red|-20%}} Levy Reinforcement Rate
+| 
+* {{icon|danger}} {{red|+30}} Plague Danger
+* {{icon|development}} {{red|-2}} Monthly Development
+* {{icon|opinion}} {{red|-3}} Popular Opinion
+* {{icon|control}} {{red|-0.4}} Monthly Control
+* {{icon|levies}} {{red|-20%}} Levy Reinforcement Rate
+* {{icon|garrison}} {{red|-10%}} Garrison Size
+| 
+* {{icon|danger}} {{red|+40}} Plague Danger
+* {{icon|development}} {{red|-3}} Monthly Development
+* {{icon|opinion}} {{red|-5}} Popular Opinion
+* {{icon|control}} {{red|-0.5}} Monthly Control
+* {{icon|levies}} {{red|-20%}} Levy Reinforcement Rate
+* {{icon|garrison}} {{red|-20%}} Garrison Size
+| 
+* Minor: 30-55
+* Major: 75-90
+* Apocalyptic: 145-220
+| 
+* Minor: 6-12
+* Major: 12-24
+* Apocalyptic: 24-48
+| 
+| 
+|-
+| '''Bloody Flux'''<br>[[File:Trait dysentery.png]]
+| 
+* {{icon|danger}} {{red|+10}} Plague Danger
+* {{icon|development}} {{red|-1.5}} Monthly Development
+* {{icon|control}} {{red|-0.1}} Monthly Control
+* {{icon|opinion}} {{red|-2}} Popular Opinion
+| 
+* {{icon|danger}} {{red|+20}} Plague Danger
+* {{icon|development}} {{red|-2.5}} Monthly Development
+* {{icon|control}} {{red|-0.3}} Monthly Control
+* {{icon|opinion}} {{red|-3}} Popular Opinion
+* {{icon|supply}} {{red|-10%}} Supply Limit
+| 
+* {{icon|danger}} {{red|+30}} Plague Danger
+* {{icon|development}} {{red|-4}} Monthly Development
+* {{icon|control}} {{red|-0.5}} Monthly Control
+* {{icon|opinion}} {{red|-5}} Popular Opinion
+* {{icon|supply}} {{red|-20%}} Supply Limit
+| 
+* Minor: 20-30
+* Major: 40-55
+* Apocalyptic: 90-270
+| 
+* Minor: 2-4
+* Major: 8-16
+* Apocalyptic: 16-32
+| Spreads faster in baronies that have armies or fortifications
+| {{icon|lod}}
+|-
+| '''Holy Fire'''<br>[[File:Trait ergotism.png]]
+| 
+* {{icon|danger}} {{red|+5}} Plague Danger
+* {{icon|control}} {{red|-0.1}} Monthly Control
+* {{icon|supply}} {{red|-10%}} Supply Limit
+* {{icon|time}} {{red|+50%}} Holding Construction Time
+* {{icon|toughness}} {{red|-10%}} Station Men-at-Arms Toughness
+| 
+* {{icon|danger}} {{red|+10}} Plague Danger
+* {{icon|control}} {{red|-0.1}} Monthly Control
+* {{icon|supply}} {{red|-20%}} Supply Limit
+* {{icon|time}} {{red|+75%}} Holding Construction Time
+* {{icon|toughness}} {{red|-20%}} Station Men-at-Arms Toughness
+| 
+* {{icon|danger}} {{red|+15}} Plague Danger
+* {{icon|control}} {{red|-0.1}} Monthly Control
+* {{icon|supply}} {{red|-30%}} Supply Limit
+* {{icon|time}} {{red|+100%}} Holding Construction Time
+* {{icon|toughness}} {{red|-100%}} Station Men-at-Arms Toughness
+* {{icon|development}} {{red|-0.5}} Monthly Development
+| 
+* Minor: 20-30
+* Major: 45-65
+* Apocalyptic: 85-90
+| 
+* Minor: 6-12
+* Major: 12-18
+* Apocalyptic: 24-30
+| 
+| {{icon|lod}}
+|-
+| '''Measles'''<br>[[File:Trait measles.png]]
+| 
+* {{icon|danger}} {{red|+5}} Plague Danger
+* {{icon|control}} {{red|-0.1}} Monthly Control
+| 
+* {{icon|danger}} {{red|+15}} Plague Danger
+* {{icon|control}} {{red|-0.2}} Monthly Control
+* {{icon|development}} {{red|-0.25}} Monthly Development
+* {{icon|opinion}} {{red|-2}} Popular Opinion
+| 
+* {{icon|danger}} {{red|+30}} Plague Danger
+* {{icon|control}} {{red|-0.4}} Monthly Control
+* {{icon|development}} {{red|-0.5}} Monthly Development
+* {{icon|opinion}} {{red|-5}} Popular Opinion
+| 
+* Minor: 55-75
+* Major: 130-180
+* Apocalyptic: 270-405
+| 
+* Minor: 3-6
+* Major: 6-12
+* Apocalyptic: 12-24
+| Children are more likely to get infected
+| {{icon|lod}}
+|}
+An Apocalyptic {{iconify|Bubonic Plague}} will always be named Black Death. Every ruler will be notified when it appears and when it spreads inside their borders. Where it can appear, how it spreads and whether it can appear multiple times depends on Game Rules. If the {{iconify|Legends of the Dead}} DLC is installed there will be numerous unique events that can happen during Black Death.
+
+If the {{iconify|Legends of the Dead}} DLC is installed the map table will change appearance during a major epidemic. This behavior can be disabled in the settings menu.
+
+== References ==
+<references />
+
+{{Mechanics navbox}}
+[[Category:Realm]]

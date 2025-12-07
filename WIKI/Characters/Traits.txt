@@ -1,0 +1,3674 @@
+{{Version|1.18}}
+Traits represent a character's personality, abilities, reputation, and physical characteristics. They can be gained or lost through events and some traits can be inherited by descendants. Traits affect everything about a character, from attributes to the opinion others have on them. Most traits influence the outcome of certain events or grant additional options. When using the [[Ruler Designer]], most traits have a cost in customization points.
+
+== Personality traits ==
+Personality traits are the traits that represent a character the most and impact if and how much {{iconify|Stress}} a character receives for actions and decisions that conflict with these traits. For AI characters, it also determines [[Character#AI Personality|their behavior]] (e.g. how resistant they are to another character's {{iconify|Dread}}). Characters tend not to have more than 3 personality traits. While personality traits can change, it is very difficult to do so; this most often occurs as the result of a mental break at Stress Level 2 or higher.
+
+Personality traits are most malleable during childhood, where they will gain an event to gain a personality trait at ages of 9, 11 and 13. If the player is playing as the child, they could choose to gain one of 3 possible traits. Otherwise, if the player is the guardian of a child, they can choose to go with child's acquired personality, or change it at a cost of stress. Children are more likely to gain the personality trait of their guardian, and less likely to gain the opposite of it. Certain [[Traditions]] make certain personalities more prevalent.
+
+Each personality trait has one or two opposite traits and usually characters with opposite personality traits will have lowered {{iconify|Opinion}} of each other. Additionally, characters with same or similar traits will typically be easier to Befriend, Seduce and Romance, while harder for those with opposite or contrasting traits. A character cannot have two opposing traits, or three mutually exclusive traits. Personality traits are listed with opposite traits on the same row.
+
+On Steam, if Stream Rich Presence is enabled one of the personality traits will be referenced while the user is playing.
+<!-- Transclusions -->
+<!-- Put outside of tabber because otherwise they don't display when included. -->
+<includeonly>
+<!-- Dread page -->
+<section begin=VengefulDreadGain />{{green|+15%}}<section end=VengefulDreadGain />
+<section begin=ParanoidDreadGain />{{green|+25%}}<section end=ParanoidDreadGain />
+<section begin=CallousDreadGain />{{green|+25%}}<section end=CallousDreadGain />
+<!-- Piety page -->
+<section begin=HumblePietyGain />{{green|+0.5}}<section end=HumblePietyGain />
+<section begin=CynicalPietyLossPct />{{red|−20%}}<section end=CynicalPietyLossPct />
+<section begin=ZealousPietyGainPct />{{green|+20%}}<section end=ZealousPietyGainPct />
+</includeonly>
+
+{| class="mildtable sortable plainlist"
+! Trait
+! width=25% | Character effects
+! AI effects
+! Cost
+! Trait
+! width=25% | Character effects
+! AI effects
+! Cost
+|-
+| '''Brave'''<br>[[File:Trait brave.png]]
+|
+* {{icon|martial}} {{green|+2}} Martial
+* {{icon|prowess}} {{green|+3}} Prowess
+* {{icon|opinion}} {{green|+10}} Attraction Opinion
+* [[File:Vassal stance glory hound.png|24px]] {{green|+10}} Glory Hound Vassal Opinion
+* {{icon|unknown}} {{red|+100%}} Likelihood of capture or death in Battle
+* {{icon|opinion}} {{green|+10}} Same Trait Opinion
+* {{icon|opinion}} {{red|-10}} Opposite Trait Opinion
+* {{icon|Stress loss}} Stress Loss through Hunting
+|
+* +200 Boldness
+* +20 Energy
+* +20 Sociability
+* -20 Rationality
+| {{red|+40}}
+| '''Craven'''<br>[[File:Trait craven.png]]
+|
+* {{icon|martial}} {{red|-2}} Martial
+* {{icon|intrigue}} {{green|+2}} Intrigue
+* {{icon|prowess}} {{red|-3}} Prowess
+* {{icon|opinion}} {{red|-10}} Attraction Opinion
+* {{icon|scheme phase length}} {{green|+10}} Days Enemy Hostile Scheme Phase Length
+* {{icon|scheme secrecy}} {{green|+10%}} Scheme Secrecy
+* {{icon|safety}} {{green|+25%}} Travel Safety
+* [[File:Vassal stance courtly.png|24px]] {{red|-5}} Courtly Vassal Opinion
+* [[File:Vassal stance glory hound.png|24px]] {{red|-15}} Glory Hound Vassal Opinion
+* {{icon|unknown}} {{green|-50%}} Likelihood of capture or death in Battle
+* {{icon|opinion}} {{green|+20}} Same Trait Opinion
+* {{icon|Stress gain}} Stress Gain through Torture
+|
+* +10 Rationality
+* -20 Energy
+* -20 Sociability
+* -200 Boldness
+* -5 Body Weight
+| {{green|-10}}
+|-
+| '''Calm'''<br>[[File:Trait calm.png]]
+|
+* {{icon|diplomacy}} {{green|+1}} Diplomacy
+* {{icon|intrigue}} {{green|+1}} Intrigue
+* {{icon|stress loss}} {{green|+10%}} Stress Loss   
+* {{icon|dread}} {{red|+50%}} Dread Decay
+* {{icon|Scheme Discovery Chance}} {{green|+10%}} Scheme Discovery Chance
+* {{icon|opinion}} {{green|+10}} Same Trait Opinion
+* {{icon|opinion}} {{red|-10}} Opposite Trait Opinion
+* {{icon|decision}} Enables the Meditate in Seclusion decision
+|
+* +75 Rationality
+* -10 Energy
+* -10 Vengefulness
+* -20 Boldness
+* +10 Body Weight
+| {{red|+25}}
+| '''Wrathful'''<br>[[File:Trait wrathful.png]]
+|
+* {{icon|diplomacy}} {{red|-1}} Diplomacy
+* {{icon|martial}} {{green|+3}} Martial
+* {{icon|intrigue}} {{red|-1}} Intrigue
+* {{icon|dread}} {{green|+20}} Natural Dread
+* [[File:Vassal stance courtly.png|24px]] {{red|-10}} Courtly Vassal Opinion
+* [[File:Vassal stance glory hound.png|24px]] {{green|+5}} Glory Hound Vassal Opinion
+* [[File:Vassal stance parochial.png|24px]] {{red|-10}} Parochial Vassal Opinion
+* {{icon|yes}} Enables the Punish Criminal interaction
+|
+* +35 Boldness
+* +20 Vengefulness
+* +10 Energy
+* -20 Compassion
+* -35 Rationality
+* -10 Body Weight
+| {{red|+30}}
+|-
+| '''Chaste'''<br>[[File:Trait chaste.png]]
+|
+* {{icon|learning}} {{green|+2}} Learning
+* {{icon|fertility}} {{red|-25%}} Fertility
+* {{icon|scheme phase length}} {{red|+40}} Days Seduce Scheme Phase Length
+* {{icon|opinion}} {{green|+10}} Same Trait Opinion
+* {{icon|opinion}} {{red|-10}} Opposite Trait Opinion
+* {{icon|unknown}} Harder to seduce
+| 
+* +20 Honor
+* +10 Energy
+* +10 Zeal
+* -20 Greed
+* -20 Sociability
+| {{red|+20}}
+| '''Lustful'''<br>[[File:Trait lustful.png]]
+|
+* {{icon|intrigue}} {{green|+2}} Intrigue
+* {{icon|fertility}} {{green|+25%}} Fertility
+* {{icon|scheme phase length}} {{green|-10}} Days Seduce Scheme Phase Length
+* {{icon|opinion}} {{green|+10}} Same Trait Opinion
+* {{icon|opinion}} {{red|-10}} Opposite Trait Opinion
+* [[File:Asexual.png|24px]] '''-50%''' Asexuality Chance
+* {{icon|unknown}} Easier to seduce
+| 
+* +35 Sociability
+* +20 Greed
+* +10 Energy
+* -10 Honor
+* -10 Zeal
+| {{red|+25}}
+|-
+| '''Content'''<br>[[File:Trait content.png]]
+|
+* {{icon|intrigue}} {{red|-1}} Intrigue
+* {{icon|learning}} {{green|+2}} Learning
+* {{icon|stress loss}} {{green|+10%}} Stress Loss
+* {{icon|opinion}} {{green|+20}} Opinion of Liege
+* {{icon|opinion}} {{green|+10}} Opinion of Vassals
+* [[File:Vassal stance parochial.png|24px]] {{green|+10}} Parochial Vassal Opinion
+* {{icon|opinion}} {{green|+20}} Same Trait Opinion
+* {{icon|Stress gain}} Stress Gain through Claim Throne
+* {{icon|Stress gain}} Stress Gain through Execution of non-criminal prisoners
+* {{icon|Stress gain}} Stress Gain through Force onto Council
+|
+* +10 Honor
+* -10 Sociability
+* -10 Vengefulness
+* -10 Zeal
+* -35 Boldness
+* -35 Energy
+* -50 Greed
+* -15 Body Weight
+| {{red|+20}}
+| '''Ambitious'''<br>[[File:Trait ambitious.png]]
+|
+* {{icon|diplomacy}} {{green|+1}} Diplomacy
+* {{icon|martial}} {{green|+1}} Martial
+* {{icon|stewardship}} {{green|+1}} Stewardship
+* {{icon|intrigue}} {{green|+1}} Intrigue
+* {{icon|learning}} {{green|+1}} Learning
+* {{icon|prowess}} {{green|+1}} Prowess
+* {{icon|stress gain}} {{red|+25%}} Stress Gain
+* {{icon|opinion}} {{red|-15}} Opinion of Liege
+* [[File:Vassal stance glory hound.png|24px]] {{green|+10}} Glory Hound Vassal Opinion
+* {{icon|opinion}} {{red|-15}} Same Trait Opinion
+* {{icon|Stress gain}} Stress Gain through Gifting Titles (if under Domain Limit)
+* {{icon|Stress gain}} Stress Gain through Granting Vassals Independence
+* {{icon|Stress gain}} Stress Gain through Signing White Peace in Offensive Wars
+|
+* +75 Energy
+* +75 Greed
+* +50 Boldness
+* +20 Sociability
+* +10 Zeal
+* -20 Honor
+* +5 Body Weight
+| {{red|+40}}
+|-
+| '''Diligent'''<br>[[File:Trait diligent.png]]
+|
+* {{icon|diplomacy}} {{green|+2}} Diplomacy
+* {{icon|stewardship}} {{green|+3}} Stewardship
+* {{icon|learning}} {{green|+3}} Learning 
+* {{icon|stress loss}} {{red|-50%}} Stress Loss
+* [[File:Vassal stance parochial.png|24px]] {{green|+5}} Parochial Vassal Opinion
+* {{icon|opinion}} {{green|+10}} Same Trait Opinion
+* {{icon|opinion}} {{red|-10}} Opposite Trait Opinion
+* {{icon|decision}} Enables the Develop Capital decision
+* {{icon|Stress loss}} Stress Loss through Hunting
+|
+* +75 Energy
+* +35 Boldness
+* +20 Rationality
+* +10 Vengefulness
+* -14 Body Weight
+| {{red|+40}}
+| '''Lazy'''<br>[[File:Trait lazy.png]]
+|
+* {{icon|diplomacy}} {{red|-1}} Diplomacy
+* {{icon|intrigue}} {{red|-1}} Intrigue
+* {{icon|stewardship}} {{red|-1}} Stewardship
+* {{icon|martial}} {{red|-1}} Martial
+* {{icon|learning}} {{red|-1}} Learning
+* {{icon|stress loss}} {{green|+50%}} Stress Loss
+* {{icon|travel speed}} {{red|-10}} Travel Speed
+* {{icon|Stress loss}} No Stress Loss through Hunting
+|
+* +10 Greed
+* -10 Compassion
+* -10 Sociability
+* -10 Vengefulness
+* -20 Boldness
+* -50 Energy
+* +10 Body Weight
+| {{green|-10}}
+|-
+| '''Forgiving'''<br>[[File:Trait forgiving.png]]
+|
+* {{icon|diplomacy}} {{green|+2}} Diplomacy
+* {{icon|intrigue}} {{red|-2}} Intrigue
+* {{icon|learning}} {{green|+1}} Learning
+* {{icon|opinion}} {{green|+15}} Prisoner Opinion
+* [[File:Vassal stance minority.png|24px]] {{green|+15}} Minority Vassal Opinion
+* {{icon|opinion}} {{green|+10}} Same Trait Opinion
+* {{icon|opinion}} {{red|-10}} Opposite Trait Opinion
+* {{icon|yes}} Enables the Abandon Hook interaction
+* {{icon|Stress gain}} Stress Gain through Blackmail
+* {{icon|Stress gain}} Stress Gain through Imprisonment
+* {{icon|Stress gain}} Stress Gain through Murder
+* {{icon|Stress gain}} Stress Gain through Title Revocation
+* {{icon|Stress gain}} Stress Gain through Torture
+| 
+* +35 Compassion
+* +20 Honor
+* +10 Rationality
+* -10 Energy
+* -200 Vengefulness
+| {{red|+25}}
+| '''Vengeful'''<br>[[File:Trait vengeful.png]]
+|
+* {{icon|diplomacy}} {{red|-2}} Diplomacy
+* {{icon|intrigue}} {{green|+2}} Intrigue
+* {{icon|prowess}} {{green|+2}} Prowess
+* {{icon|dread}} {{green|+15%}} Dread Gain
+* {{icon|scheme success chance}} {{green|+15}} Hostile Scheme Success Chance against Rivals
+* {{icon|yes}} Enables the Fabricate Hook Scheme against Rivals
+* {{icon|Stress loss}} Stress Loss through Execution of Rivals
+* {{icon|Stress loss}} Stress Loss through Murder of Rivals
+| 
+* +200 Vengefulness
+* +10 Energy
+* -10 Honor
+* -10 Rationality
+* -20 Compassion
+* -10 Body Weight
+| {{red|+30}}
+|-
+| '''Generous'''<br>[[File:Trait generous.png]]
+|
+* {{icon|diplomacy}} {{green|+3}} Diplomacy
+* {{icon|gold}} {{red|-10%}} Monthly Income
+* [[File:Vassal stance courtly.png|24px]] {{green|+15}} Courtly Vassal Opinion
+* {{icon|opinion}} {{red|-15}} Opposite Trait Opinion
+* {{icon|Stress gain}} Stress Gain from Demanding Money
+* {{icon|Stress loss}} Stress Loss from Gifting Money
+| 
+* +35 Compassion
+* +20 Honor
+* +10 Sociability
+* -200 Greed
+* -15 Body Weight
+| {{red|+20}}
+| '''Greedy'''<br>[[File:Trait greedy.png]]
+|
+* {{icon|diplomacy}} {{red|-2}} Diplomacy
+* {{icon|gold}} {{green|+5%}} Monthly Income
+* {{icon|gold}} {{green|+10%}} Monthly Income per Stress Level
+* [[File:Vassal stance courtly.png|24px]] {{red|-15}} Courtly Vassal Opinion
+* {{icon|Stress gain}} Stress Gain through Gifting Money
+* {{icon|Stress gain}} Stress Gain through Granting Title (if under Domain Limit)
+* {{icon|Stress loss}} Stress Loss through Extra Taxes
+| 
+* +200 Greed
+* -10 Honor
+* -20 Compassion
+* +10 Body Weight
+| {{red|+30}}
+|-
+| '''Gregarious'''<br>[[File:Trait gregarious.png]]
+|
+* {{icon|diplomacy}} {{green|+2}} Diplomacy 
+* {{icon|Influence}} {{green|+0.10}} Monthly Influence
+* {{icon|opinion}} {{green|+5}} Attraction Opinion
+* {{icon|scheme phase length}} {{green|-10}} Days Personal Scheme Phase Length
+* [[File:Vassal stance courtly.png|24px]] {{green|+5}} Courtly Vassal Opinion
+* {{icon|opinion}} {{green|+10}} Same Trait Opinion
+* {{icon|Stress gain}} Stress Gain from Failure during Sway schemes
+* {{icon|Stress loss}} Stress Loss through Feasting
+|
+* +200 Sociability
+* +35 Compassion
+* +20 Boldness
+* +10 Body Weight
+| {{red|+30}}
+| '''Shy'''<br>[[File:Trait shy.png]]
+|
+* {{icon|diplomacy}} {{red|-2}} Diplomacy
+* {{icon|learning}} {{green|+1}} Learning
+* {{icon|opinion}} {{red|-5}} Attraction Opinion
+* {{icon|scheme phase length}} {{red|-20}} Days Personal Scheme Phase Length
+* {{icon|scheme phase length}} {{green|+20}} Enemy Hostile Scheme Phase Length
+* {{icon|safety}} {{green|+25%}} Travel Safety
+* {{icon|plague resistance}} {{green|+5}} Plague Resistance
+* {{icon|scheme phase length}} {{green|+20}} Learn Language Scheme Phase Length
+* [[File:Vassal stance parochial.png|24px]] {{green|+10}} Parochial Vassal Opinion
+* {{icon|opinion}} {{green|+10}} Same Trait Opinion
+* [[File:Withdraw from view.png|24px]] Enables the Withdraw from View Countermeasure (Tier 4)
+* {{icon|Stress gain}} Stress Gain through Plots
+|
+* -10 Vengefulness
+* -10 Zeal
+* -20 Boldness
+* -200 Sociability
+* -5 Body Weight
+| {{green|-10}}
+|-
+| '''Honest'''<br>[[File:Trait honest.png]]
+|
+* {{icon|diplomacy}} {{green|+2}} Diplomacy
+* {{icon|intrigue}} {{red|-4}} Intrigue
+* [[File:Vassal stance courtly.png|24px]] {{green|+5}} Courtly Vassal Opinion
+* {{icon|opinion}} {{green|+10}} Same Trait Opinion
+* {{icon|opinion}} {{red|-10}} Opposite Trait Opinion
+* {{icon|Stress gain}} Stress Gain through Blackmail
+* {{icon|Stress loss}} Stress Loss from Exposing Secrets
+|
+* +50 Honor
+* +20 Sociability
+* +10 Boldness
+* +10 Compassion
+| {{red|+20}}
+| '''Deceitful'''<br>[[File:Trait deceitful.png]]
+|
+* {{icon|diplomacy}} {{red|-2}} Diplomacy
+* {{icon|intrigue}} {{green|+4}} Intrigue
+* {{icon|opinion}} {{red|-10}} Opposite Trait Opinion
+* {{icon|decision}} Enables the Study the Art of Scheming decision
+|
+* +10 Rationality
+* -10 Boldness
+* -10 Compassion
+* -50 Honor
+| {{red|+30}}
+|-
+| '''Humble'''<br>[[File:Trait humble.png]]
+|
+* {{icon|piety}} {{green|+0.5}} Monthly Piety
+* {{icon|opinion}} {{green|+10}} Opinion of Liege
+* {{icon|opinion}} {{green|+10}} Opinion of Vassals
+* {{icon|opinion}} {{green|+10}} Clergy Opinion
+* [[File:Vassal stance zealot.png|24px]] {{green|+10}} Zealot Vassal Opinion
+* {{icon|opinion}} {{red|-15}} Opposite Trait Opinion
+| 
+* +20 Compassion
+* +20 Honor
+* -10 Energy
+* -50 Greed
+* -10 Body Weight
+| {{red|+20}}
+| '''Arrogant'''<br>[[File:Trait arrogant.png]]
+|
+* {{icon|prestige}} {{green|+1}} Monthly Prestige
+* {{icon|opinion}} {{red|-5}} Opinion of Liege
+* {{icon|opinion}} {{red|-5}} Opinion of Vassals
+* {{icon|scheme secrecy}} {{red|-10%}} Scheme Secrecy
+* {{icon|opinion}} {{red|-15}} Opposite Trait Opinion
+* {{icon|Stress gain}} Stress Gain through Granting Vassals Independence
+* {{icon|Stress gain}} Stress Gain through Legitimizing Bastard
+* {{icon|Stress gain}} Stress Gain through Signing White Peace in Offensive Wars
+* {{icon|unknown}} Unique "This is you" description from beauty traits
+|
+* +35 Boldness
+* +20 Greed
+* +20 Sociability
+* +10 Energy
+* -20 Compassion
+* -20 Honor
+* -20 Rationality
+* +5 Body Weight
+| {{red|+20}}
+|-
+| '''Just'''<br>[[File:Trait just.png]]
+|
+* {{icon|stewardship}} {{green|+2}} Stewardship
+* {{icon|intrigue}} {{red|-3}} Intrigue
+* {{icon|learning}} {{green|+1}} Learning
+* [[File:Vassal stance parochial.png|24px]] {{green|+15}} Parochial Vassal Opinion
+* [[File:Vassal stance minority.png|24px]] {{green|+15}} Minority Vassal Opinion
+* {{icon|legitimacy}} Increased Initial Legitimacy
+* {{icon|opinion}} {{green|+10}} Same Trait Opinion
+* {{icon|opinion}} {{red|-10}} Opposite Trait Opinion
+* {{icon|Stress gain}} Stress Gain through Blackmail
+* {{icon|Stress gain}} Stress Gain through Execution of Prisoners
+* {{icon|Stress loss}} Stress Loss from Exposing Secrets
+| 
+* +200 Honor
+* +20 Rationality
+* +10 Vengefulness
+* +10 Zeal
+| {{red|+40}}
+| '''Arbitrary'''<br>[[File:Trait arbitrary.png]]
+|
+* {{icon|stewardship}} {{red|-2}} Stewardship
+* {{icon|intrigue}} {{green|+3}} Intrigue
+* {{icon|learning}} {{red|-1}} Learning
+* {{icon|stress gain}} {{green|-50%}} Stress Gain
+* {{icon|dread}} {{green|+15}} Natural Dread
+* {{icon|opinion}} {{red|-5}} Vassal Opinion
+* {{icon|yes}} Enables the Dismiss Hook interaction
+* {{icon|yes}} Enables the Arbitrary Arrest Countermeasure (Tier 2)
+|
+* +10 Boldness
+* -10 Compassion
+* -10 Zeal
+* -20 Rationality
+* -200 Honor
+| {{red|+30}}
+|-
+| '''Patient'''<br>[[File:Trait patient.png]]
+|
+* {{icon|learning}} {{green|+2}} Learning 
+* {{icon|opinion}} {{green|+5}} Liege Opinion
+* {{icon|scheme phase length}} {{green|+10}} Enemy Hostile Scheme Phase Length
+* [[File:Vassal stance parochial.png|24px]] {{green|+10}} Parochial Vassal Opinion
+* {{icon|opinion}} {{red|-15}} Opposite Trait Opinion
+|
+* +35 Rationality
+* +10 Vengefulness
+* -10 Energy
+* -20 Boldness
+* +5 Body Weight
+| {{red|+30}}
+| '''Impatient'''<br>[[File:Trait impatient.png]]
+|
+* {{icon|learning}} {{red|-2}} Learning
+* {{icon|prestige}} {{green|+20%}} Monthly Prestige
+* {{icon|opinion}} {{red|-5}} Opinion of Liege
+* {{icon|scheme phase length}} {{green|-10}} Days Hostile Scheme Phase Length
+* {{icon|travel speed}} {{green|+25.0%}} Travel Speed
+* {{icon|safety}} {{red|-10}} Travel Safety
+* [[File:Vassal stance courtly.png|24px]] {{red|-10}} Courtly Vassal Opinion
+* [[File:Vassal stance parochial.png|24px]] {{red|-10}} Parochial Vassal Opinion
+* {{icon|opinion}} {{red|-15}} Opposite Trait Opinion
+* {{icon|decision}} Enables the Expedite Schemes decision
+|
+* +20 Boldness
+* +10 Energy
+* -10 Vengefulness
+* -35 Rationality
+* -10 Body Weight
+| {{red|+25}}
+|-
+| '''Temperate'''<br>[[File:Trait temperate.png]]
+|
+* {{icon|stewardship}} {{green|+2}} Stewardship
+* {{icon|health boost}} {{green|+0.25}} Health
+* [[File:Vassal stance courtly.png|24px]] {{red|-10}} Courtly Vassal Opinion
+* {{icon|opinion}} {{green|+10}} Same Trait Opinion
+* {{icon|opinion}} {{red|-10}} Opposite Trait Opinion
+*
+| 
+* +10 Energy
+* -10 Vengefulness
+* -35 Greed
+* -18 Body Weight
+| {{red|+40}}
+| '''Gluttonous'''<br>[[File:Trait gluttonous.png]]
+|
+* {{icon|stewardship}} {{red|-2}} Stewardship
+* {{icon|stress loss}} {{green|+10%}} Stress Loss
+* {{icon|opinion}} {{red|-5}} Attraction Opinion
+* {{icon|opinion}} {{green|+10}} Same Trait Opinion
+* {{icon|opinion}} {{red|-10}} Opposite Trait Opinion
+* {{icon|unknown}} Less likely to die from poisoning during Murder schemes
+| 
+* +35 Greed
+* -10 Energy
+* +50 Body Weight
+| {{red|+20}}
+|-
+| '''Trusting'''<br>[[File:Trait trusting.png]]
+|
+* {{icon|diplomacy}} {{green|+2}} Diplomacy
+* {{icon|intrigue}} {{red|-2}} Intrigue
+* {{icon|opinion}} {{green|+15}} Opinion of Liege
+* {{icon|opinion}} {{green|+15}} Opinion of Vassals
+* {{icon|scheme success chance}} {{red|+15.0%}} Initial Enemy Hostile Scheme Success Chance
+* {{icon|safety}} {{red|-10}} Travel Safety
+* {{icon|yes}} Can offer potential Agent a Strong Hook
+* {{icon|Stress gain}} Stress Gain through Blackmail of Non-criminal prisoners
+* {{icon|Stress gain}} Stress Gain through Execution of Non-criminal prisoners
+| 
+* +35 Honor
+* +35 Sociability
+* +20 Compassion
+* -20 Rationality
+* -20 Vengefulness
+* +10 Body Weight
+| {{red|+10}}
+| '''Paranoid'''<br>[[File:Trait paranoid.png]]
+|
+* {{icon|diplomacy}} {{red|-1}} Diplomacy
+* {{icon|intrigue}} {{green|+3}} Intrigue
+* {{icon|stress gain}} {{red|+100%}} Stress gain
+* {{icon|dread}} {{green|+25%}} Dread Gain
+* {{icon|opinion}} {{red|-10}} Opinion of Vassals
+* {{icon|Scheme Discovery Chance}} {{green|+10%}} Scheme Discovery Chance
+* {{icon|scheme success chance}} {{green|-25.0%}} Initial Enemy Personal Scheme Success Chance
+* {{icon|travel speed}} {{red|-10}} Travel Speed
+* {{icon|safety}} {{green|+10}} Travel Safety
+* {{icon|yes}} Enables all Countermeasure (Tier 2)
+* {{icon|Stress gain}} Stress Gain through Inviting characters to court
+* {{icon|Stress gain}} Stress Gain through Plots
+| 
+* +20 Vengefulness
+* -10 Compassion
+* -20 Honor
+* -20 Rationality
+* -35 Sociability
+* -25 Body Weight
+| {{green|-10}}
+|-
+| '''Zealous'''<br>[[File:Trait zealous.png]]
+|
+* {{icon|martial}} {{green|+2}} Martial
+* {{icon|piety}} {{green|+20%}} Monthly Piety
+* {{icon|opinion}} {{red|-35}} Opinion of Different Faith
+* {{icon|piety}} {{red|+20%}} Faith Conversion Cost
+* [[File:Vassal stance zealot.png|24px]] {{green|+15}} Zealot Vassal Opinion
+* {{icon|opinion}} {{green|+15}} Same Trait and Faith Opinion
+* {{icon|opinion}} {{red|-10}} Opposite Trait Opinion
+* {{icon|Stress loss}} Stress Loss through Execution (Different Faith)
+| 
+* +200 Zeal
+* +20 Energy
+* -20 Rationality
+* -5 Body Weight
+| {{red|+30}}
+| '''Cynical'''<br>[[File:Trait cynical.png]]
+|
+* {{icon|intrigue}} {{green|+2}} Intrigue
+* {{icon|learning}} {{green|+2}} Learning
+* {{icon|piety}} {{red|-20%}} Monthly Piety
+* {{icon|piety}} {{green|-20%}} Faith Conversion Cost
+* [[File:Vassal stance zealot.png|24px]] {{red|-15}} Zealot Vassal Opinion
+* {{icon|opinion}} {{green|+10}} Same Trait Opinion
+* {{icon|opinion}} {{red|-10}} Opposite Trait Opinion
+| 
+* +35 Rationality
+* -10 Compassion
+* -20 Energy
+* -200 Zeal
+| {{red|+30}}
+|}
+
+{| class="mildtable plainlist"
+! Trait
+! width=25% | Character effects
+!AI effects
+! Cost
+! Trait
+! Character effects
+!AI effects
+! Cost
+! Trait
+! Character effects
+!AI effects
+! Cost
+|-
+| '''Compassionate'''<br>[[File:Trait compassionate.png]]
+|
+* {{icon|diplomacy}} {{green|+2}} Diplomacy
+* {{icon|intrigue}} {{red|-2}} Intrigue
+* {{icon|dread}} {{red|-15}} Natural Dread
+* {{icon|dread}} {{red|+100%}} Dread Decay
+* {{icon|opinion}} {{green|+5}} Attraction Opinion
+* [[File:Vassal stance courtly.png|24px]] {{green|+10}} Courtly Vassal Opinion
+* [[File:Vassal stance minority.png|24px]] {{green|+15}} Minority Vassal Opinion
+* {{icon|opinion}} {{red|-15}} Opposite Trait Opinion
+* {{icon|yes}} Enables the Adopt interaction
+* {{icon|Stress gain}} Stress Gain through Blackmail
+* {{icon|Stress gain}} Stress Gain through Break up with lover
+* {{icon|Stress gain}} Stress Gain through Denounce
+* {{icon|Stress gain}} Stress Gain through Disinherit
+* {{icon|Stress gain}} Stress Gain through Dismiss Concubine
+* {{icon|Stress gain}} Stress Gain through Execution
+* {{icon|Stress gain}} Stress Gain through Fabricate Hook
+* {{icon|Stress gain}} Stress Gain through Imprison
+* {{icon|Stress gain}} Stress Gain through Move to Dungeon
+* {{icon|Stress gain}} Stress Gain through Start Abduct
+* {{icon|Stress gain}} Stress Gain through Start Murder
+* {{icon|Stress gain}} Stress Gain through Title Revocation
+* {{icon|Stress gain}} Stress Gain through Torture
+|
+* +200 Compassion
+* +35 Honor
+* +35 Sociability
+* -20 Greed
+| {{red|+10}}
+| '''Callous'''<br>[[File:Trait callous.png]]
+|
+* {{icon|diplomacy}} {{red|-2}} Diplomacy
+* {{icon|intrigue}} {{green|+2}} Intrigue
+* {{icon|dread}} {{green|+25%}} Dread Gain
+* {{icon|opinion}} {{green|-20%}} Tyranny Gain
+* {{icon|dread}} {{green|-25%}} Dread Decay
+* {{icon|opinion}} {{red|-5}} Attraction Opinion
+* {{icon|opinion}} {{red|-5}} Close Family Opinion
+* [[File:Vassal stance courtly.png|24px]] {{red|-10}} Courtly Vassal Opinion
+* {{icon|Stress gain}} Stress Gain from Releasing Prisoners without Demands
+| 
+* +10 Rationality
+* -10 Sociability
+* -35 Honor
+* -200 Compassion
+| {{red|+40}}
+| '''Sadistic'''<br>[[File:Trait sadistic.png]]
+|
+* {{icon|intrigue}} {{green|+2}} Intrigue 
+* {{icon|prowess}} {{green|+4}} Prowess 
+* {{icon|dread}} {{green|+35}} Natural Dread
+* {{icon|opinion}} {{red|-10}} General Opinion
+* [[File:Vassal stance courtly.png|24px]] {{red|-10}} Courtly Vassal Opinion
+* {{icon|yes}} Enables to use Hostile Schemes against own children
+* {{icon|Stress loss}} Stress Loss through Execution
+* {{icon|Stress loss}} Stress Loss through Murder
+| 
+* -75 Honor
+* -200 Compassion
+| {{red|+40}}
+|-
+| '''Fickle'''<br>[[File:Trait fickle.png]]
+|
+* {{icon|diplomacy}} {{green|+2}} Diplomacy
+* {{icon|stewardship}} {{red|-2}} Stewardship
+* {{icon|intrigue}} {{green|+1}} Intrigue
+* {{icon|scheme phase length}} {{green|+20}} Days Enemy Hostile Scheme Phase Length
+| 
+* +20 Boldness
+* -20 Honor
+* -20 Rationality
+* -20 Vengefulness
+* -10 Body Weight
+| {{red|+25}}
+| '''Stubborn'''<br>[[File:Trait stubborn.png]]
+|
+* {{icon|stewardship}} {{green|+3}} Stewardship
+* {{icon|health boost}} {{green|+0.25}} Health (Disease Resistance)
+* {{icon|opinion}} {{red|-5}} Liege Opinion
+* [[File:Vassal stance courtly.png|24px]] {{red|-10}} Courtly Vassal Opinion
+* [[File:Vassal stance parochial.png|24px]] {{red|-10}} Parochial Vassal Opinion
+* [[File:Vassal stance minority.png|24px]] {{red|-5}} Minority Vassal Opinion
+| 
+* +35 Honor
+* +35 Vengefulness
+* -10 Rationality
+| {{red|+30}}
+| '''Eccentric'''<br>[[File:Trait eccentric.png]]
+|
+* {{icon|diplomacy}} {{red|-2}} Diplomacy
+* {{icon|learning}} {{green|+2}} Learning
+* {{icon|stress gain}} {{red|+50%}} Stress Gain
+* {{icon|stress loss}} {{green|+50%}} Stress Loss
+* [[File:Focus invalid.png|24px]] {{green|+20%}} Monthly Lifestyle Experience
+* [[File:Withdraw from view.png|24px]] Enables the Withdraw from View Countermeasure (Tier 2)
+* {{icon|opinion}} {{green|+10}} Same Trait Opinion
+| 
+* +75 Boldness
+* -20 Honor
+* -20 Sociability
+* -200 Rationality
+| {{red|+15}}
+|}
+
+== Education traits ==
+When reaching adulthood every character receives an education trait based on how their education focus went and can be upgraded by completing [[File:Activity adult education.png|24px]] University Visit activities. Education traits grant a bonus to one skill as well as to the monthly experience gained in the Lifestyle associated with the trait. There are three exceptions:
+* {{iconify|Prowess}} traits can be obtained together with a {{iconify|Martial}} education one if either the child or its guardian's culture that has the [[Innovation#High_Medieval_innovations|Knighthood]] innovation and a Martial Custom cultural pillar matching the child's gender.
+* {{icon|stewardship}}{{icon|learning}} Stewardship-Learning traits can be obtained if the child's dynasty has the second [[File:Urbanism legacy track.png|24px]] Metropolitan legacy unlocked. The chance to gain a trait are equal to the {{iconify|Development}} level of their guardian's liege's capital and higher {{iconify|Development}} also increases the chance of gaining a better trait.
+* Level 5 traits can be obtained if the child's dynasty finished the [[File:Legitimacy legacy track.png|24px]] Legitimacy dynasty legacy or the estate has the Education Hall upgrade.
+{| class="mildtable plainlist"
+! width=1% | Skill
+! Trait
+! Skill
+! Monthly Skill Lifestyle Experience
+! Other effects
+! Cost
+! width=45% | Description
+|- id="Naive Appeaser"
+| rowspan=5 align=center | [[File:Diplomacy.png]]<br>Diplomacy
+| {{iconify|Naive Appeaser}}
+| {{green|+2}}
+| align=center | {{green|+10%}}
+| 
+| align=center | '''0'''
+| ''The Naive Appeaser has been somewhat educated in the art of diplomacy but is nevertheless more often an embarrassment to themselves and those around them than not.''
+|- id="Adequate Bargainer"
+| {{iconify|Adequate Bargainer}}
+| {{green|+4}}
+| align=center | {{green|+20%}}
+| 
+| align=center | {{red|+20}}
+| ''Things often work out in favor of the Adequate Bargainer, but whether this is due to their skill in diplomacy or luck is up for debate.''
+|- id="Charismatic Negotiator"
+| {{iconify|Charismatic Negotiator}}
+| {{green|+6}}
+| align=center | {{green|+30%}}
+| 
+| align=center | {{red|+40}}
+| ''A master of persuasive rhetoric and the nuances of diplomacy; the Charismatic Negotiator is an excellent diplomat.''
+|- id="Grey Eminence"
+| {{iconify|Grey Eminence}}
+| {{green|+8}}
+| align=center | {{green|+40%}}
+| 
+| align=center | {{red|+80}}
+| ''As familiar with the nuances of diplomacy as the back of their hand, the Grey Eminence is a master of the art.''
+|- id="Virtuoso Arbitrator"
+| {{iconify|Virtuoso Arbitrator}}
+| {{green|+10}}
+| align=center | {{green|+50%}}
+|
+* {{icon|martial}} {{green|+3}} Martial
+* {{icon|martial lifestyle}} {{green|+25%}} Monthly Martial Lifestyle Experience
+* {{icon|scheme potential}} {{green|+10%}} Personal Scheme Potential
+* {{icon|yes}} {{green|+25}} Offer Vassalization Acceptance<br>{{icon|yes}} {{green|+5}} War Score from offering Hostages (Max {{green|+10}})
+| align=center | {{red|+150}}
+| ''The Virtuoso Arbitrator's silver tongue can charm the hardest hearts and open the most barricaded of doors.''
+|- id="Misguided Warrior"
+| rowspan=5 align=center | [[File:Martial.png]]<br>Martial
+| {{iconify|Misguided Warrior}}
+| {{green|+2}}
+| align=center | {{green|+10%}}
+| 
+| align=center | '''0'''
+| ''The Misguided Warrior has received an education in the art of war, but is more likely to hurt themselves than their enemies.''
+|- id="Tough Soldier"
+| {{iconify|Tough Soldier}}
+| {{green|+4}}
+| align=center | {{green|+20%}}
+| 
+| align=center | {{red|+20}}
+| ''The Tough Soldier has shown some prowess in martial matters, but still has a lot to learn.''
+|- id="Skilled Tactician"
+| {{iconify|Skilled Tactician}}
+| {{green|+6}}
+| align=center | {{green|+30%}}
+| 
+| align=center | {{red|+40}}
+| ''The Skilled Tactician is a reliable commander and fearsome warrior, renowned for their martial skill.''
+|- id="Brilliant Strategist"
+| {{iconify|Brilliant Strategist}}
+| {{green|+8}}
+| align=center | {{green|+40%}}
+| 
+| align=center | {{red|+80}}
+| ''The battlefield is the domain of the Brilliant Strategist, and no martial matter is beyond their knowledge.''
+|- id="Exalted Warlord"
+| {{iconify|Exalted Warlord}}
+| {{green|+10}}
+| align=center | {{green|+50%}}
+|
+* {{icon|stewardship}} {{green|+3}} Stewardship<br>{{icon|stewardship lifestyle}} {{green|+25%}} Monthly Stewardship Lifestyle Experience<br>{{icon|army speed}} {{green|+20%}} Army Movement Speed<br>{{icon|siege progress}} {{green|+50%}} Army Siege Weapon Effectiveness
+| align=center | {{red|+150}}
+| ''The Exalted Warlord overcomes seemingly insurmountable odds on the battlefield with consummate ease, turning whole campaigns with a single deft maneuver.''
+|- id="Indulgent Wastrel"
+| rowspan=5 align=center | [[File:Stewardship.png]]<br>Stewardship
+| {{iconify|Indulgent Wastrel}}
+| {{green|+2}}
+| align=center | {{green|+10%}}
+| 
+| align=center | '''0'''
+| ''The Indulgent Wastrel received an education in stewardship to study the flow of money, but unfortunately the flow seems to go only one way...''
+|- id="Thrifty Clerk"
+| {{iconify|Thrifty Clerk}}
+| {{green|+4}}
+| align=center | {{green|+20%}}
+| 
+| align=center | {{red|+20}}
+| ''The Thrifty Clerk is adequate when it comes to investments and administrations, but blunders in the art of stewardship are still the norm.''
+|- id="Fortune Builder"
+| {{iconify|Fortune Builder}}
+| {{green|+6}}
+| align=center | {{green|+30%}}
+| 
+| align=center | {{red|+40}}
+| ''The Fortune Builder possesses a keen sense for all matters relating to stewardship and is an administrative force to be reckoned with.''
+|- id="Midas Touched"
+| {{iconify|Midas Touched}}
+| {{green|+8}}
+| align=center | {{green|+40%}}
+| 
+| align=center | {{red|+80}}
+| ''The Midas Touched is followed by success after success in the art of stewardship, displaying an indisputable mastery of the art.''
+|- id="Golden Sovereign"
+| {{iconify|Golden Sovereign}}
+| {{green|+10}}
+| align=center | {{green|+50%}}
+|
+* {{icon|learning}} {{green|+3}} Learning<br>{{icon|learning lifestyle}} {{green|+25%}} Monthly Learning Lifestyle Experience<br>{{icon|gold}} {{green|+25%}} Vassal Taxes
+| align=center | {{red|+150}}
+| ''The Golden Sovereign can take a failing enterprise to prosperity with the merest shred of attention, riches springing from where once there was insolvency.''
+|- id="Amateurish Plotter"
+| rowspan=5 align=center | [[File:Intrigue.png]]<br>Intrigue
+| {{iconify|Amateurish Plotter}}
+| {{green|+2}}
+| align=center | {{green|+10%}}
+| 
+| align=center | '''0'''
+| ''The Amateurish Plotter has had some education in the art of intrigue, but any knowledge in the art has eluded them.''
+|- id="Flamboyant Trickster"
+| {{iconify|Flamboyant Trickster}}
+| {{green|+4}}
+| align=center | {{green|+20%}}
+| 
+| align=center | {{red|+20}}
+| ''The Flamboyant Trickster has received an education in the art of intrigue, but still has a lot left to learn before mistakes and blunders become exceptions rather than the norm.''
+|- id="Intricate Webweaver"
+| {{iconify|Intricate Webweaver}}
+| {{green|+6}}
+| align=center | {{green|+30%}}
+| 
+| align=center | {{red|+40}}
+| ''The Intricate Webweaver is a master of intrigue, manipulation, and secrecy.''
+|- id="Elusive Shadow"
+| {{iconify|Elusive Shadow}}
+| {{green|+8}}
+| align=center | {{green|+40%}}
+| 
+| align=center | {{red|+80}}
+| ''The Elusive Shadow has excelled as a master of intrigue, and the shroud of secrecy around them is second to none.''
+|- id="Conniving Puppetmaster"
+| {{iconify|Conniving Puppetmaster}}
+| {{green|+10}}
+| align=center | {{green|+50%}}
+|
+* {{icon|diplomacy}} {{green|+3}} Diplomacy<br>{{icon|diplomacy lifestyle}} {{green|+25%}} Monthly Diplomacy Lifestyle Experience
+* {{icon|scheme potential}} {{green|+10%}} Hostile Scheme Potential<br>{{icon|yes}} {{green|+25}} Agent Acceptance
+| align=center | {{red|+150}}
+| ''The Conniving Puppetmaster is a whisper in the wind, a shadow on the wall. Their knife serves where words would not.''
+|- id="Conscientious Scribe"
+| rowspan=5 align=center | [[File:Learning.png]]<br>Learning
+| {{iconify|Conscientious Scribe}}
+| {{green|+2}}
+| align=center | {{green|+10%}}
+| 
+| align=center | '''0'''
+| ''Despite an education focused on learning the Conscientious Scribe shows little aptitude for the subject — at least they can read...''
+|- id="Insightful Thinker"
+| {{iconify|Insightful Thinker}}
+| {{green|+4}}
+| align=center | {{green|+20%}}
+| 
+| align=center | {{red|+20}}
+| ''The Insightful Thinker is adept at most matters theological, but sadly both actual skill and dedication seem to be lacking.''
+|- id="Astute Intellectual"
+| {{iconify|Astute Intellectual}}
+| {{green|+6}}
+| align=center | {{green|+30%}}
+| 
+| align=center | {{red|+40}}
+| ''The Astute Intellectual possesses a deep understanding of theology, philosophy, and all subjects of deeper learning.''
+|- id="Mastermind Philosopher"
+| {{iconify|Mastermind Philosopher}}
+| {{green|+8}}
+| align=center | {{green|+40%}}
+| 
+| align=center | {{red|+80}}
+| ''The Mastermind Philosopher possess an uncanny insight into all subjects of higher learning.''
+|- id="Erudite Oracle"
+| {{iconify|Erudite Oracle}}
+| {{green|+10}}
+| align=center | {{green|+50%}}
+|
+* {{icon|intrigue}} {{green|+3}} Intrigue<br>{{icon|intrigue lifestyle}} {{green|+25%}} Monthly Intrigue Lifestyle Experience<br>{{icon|development}} {{green|+0.10}} Monthly Development Growth
+| align=center | {{red|+150}}
+| ''The Erudite Oracle's knowledge of the divine and the mundane is unparalleled, their counsel sought by the great and the good of scholarly circles.''
+|- id="Bumbling Squire"
+| rowspan=4 align=center | [[File:War.png]]<br>Prowess
+| {{iconify|Bumbling Squire}}
+| {{green|+1}}
+| align=center | 
+| 
+| align=center | {{icon|no}}
+| ''The Bumbling Squire is only technically a knight, remembering little from their formal training.''
+|- id="Confident Knight"
+| {{iconify|Confident Knight}}
+| {{green|+2}}
+| align=center | 
+| 
+| align=center | {{icon|no}}
+| ''The Confident Knight is familiar with the ways of their culture's traditional combat, even fighting a few actions against recalcitrant peasants as a teenager.''
+|- id="Formidable Banneret"
+| {{iconify|Formidable Banneret}}
+| {{green|+3}}
+| align=center | 
+| 
+| align=center | {{icon|no}}
+| ''The Formidable Banneret led troops and fought bandits even before their majority, battle-hardened into a determined combatant.''
+|- id="Famous Champion"
+| {{iconify|Famous Champion}}
+| {{green|+4}}
+| align=center | 
+| 
+| align=center | {{icon|no}}
+| ''The Famous Champion is known, respected, and perhaps even feared throughout the realm as a paragon of their culture's warrior practices.''
+|- id="Town Dweller"
+| rowspan=4 align=center | [[File:Stewardship.png]]<br>[[File:Learning.png]]<br>Stewardship-Learning
+| {{iconify|Town Dweller}}
+| {{green|+1}}
+| align=center | 
+| 
+| align=center | {{icon|no}}
+| ''The Town Dweller has been initiated to the management of cities.''
+|-
+| {{iconify|Mayor Trainee}}
+| {{green|+2}}
+| align=center | 
+| 
+| align=center | {{icon|no}}
+| ''The Mayor Trainee has been trained in the art of city management.''
+|-
+| {{iconify|Town Maven}}
+| {{green|+3}}
+| align=center | 
+| 
+| align=center | {{icon|no}}
+| ''The Town Maven has developed a strong sense of city management.''
+|-
+| {{iconify|Republican Heir}}
+| {{green|+4}}
+| align=center | 
+| 
+| align=center | {{icon|no}}
+| ''The Republican Heir has mastered the arcane art of city management.''
+|}
+
+== Congenital traits ==
+{{see also|Trait inheritance}}
+Congenital traits have a very small chance to appear upon birth and can be inherited by a character's descendants, especially if both parents have the same trait or are related. Congenital traits are marked with a white aura.
+{| class="mildtable plainlist"
+! colspan="2" | Trait
+! Effects
+! Caused by inbreeding
+! Appearance age
+! Cost
+! Description
+|- id="Melancholic"
+{{trait entry|Melancholic}}
+| 
+* {{icon|diplomacy}} {{red|−1}} Diplomacy
+* {{icon|martial}} {{red|−1}} Martial
+* {{icon|stewardship}} {{red|−1}} Stewardship
+* {{icon|intrigue}} {{red|−1}} Intrigue
+* {{icon|fertility}} {{red|−10%}} Fertility
+* {{icon|health penalty}} {{red|−0.5}} Health
+* {{icon|unknown}} Unique "this is you" description
+| {{icon|no|alt=y}}
+| 10-14
+|{{green|-20}}
+| ''This character has a hard time seeing the good in life.''
+|- id="Lunatic"
+{{trait entry|Lunatic}}
+|
+* {{icon|health penalty}} {{red|−0.25}} Health
+* {{icon|opinion}} {{red|−10}} Attraction Opinion
+* {{icon|opinion}} {{red|−10}} Vassal Opinion
+* {{icon|scheme phase length}} {{green|+10}} Enemy Hostile Scheme Phase Length
+* {{icon|opinion}} {{green|+10}} Same Trait Opinion
+| {{icon|no|alt=y}}
+| 16-30
+|{{green|-15}}
+| ''Plagued by hallucinations, delusions and disorganized thoughts, this character struggles to distinguish between what is real and what is not.''
+|- id="Possessed"
+{{trait entry|Possessed}}
+|
+* {{icon|health penalty}} {{red|−0.5}} Health
+* {{icon|opinion}} {{red|−10}} Attraction Opinion
+* {{icon|learning lifestyle}} {{green|+10%}} Monthly Learning Lifestyle Experience
+* {{icon|opinion}} {{green|+15}} Same Trait Opinion
+| {{icon|no|alt=y}}
+| 10-20
+|{{green|-20}}
+| ''The sudden changes in emotion, awareness and ability that this character experiences can only be explained by spirits inhabiting their body.''
+|- id="Fecund"
+{{trait entry|Fecund}}
+|
+* {{icon|fertility}} {{green|+50%}} Fertility
+* {{icon|health boost}} {{green|+5}} Years Life Expectancy
+* {{icon|fertility}} {{green|+5}} Years of Fertility
+| {{icon|no|alt=y}}
+| Birth
+|{{red|+50}}
+| ''This character is fruitful and fertile.''
+|- id="Albino"
+{{trait entry|Albino}}
+|
+* {{icon|dread}} {{green|+15}} Natural Dread
+* {{icon|opinion}} {{red|−10}} General Opinion
+* {{icon|opinion}} {{green|+10}} Same Trait Opinion
+| {{icon|no|alt=y}}
+| Birth
+|'''0'''
+| ''With their white hair and red eyes, this character strikes fear in many.''
+|- id="Lisping"
+{{trait entry|Lisping}}
+|
+* {{icon|diplomacy}} {{red|−2}} Diplomacy
+* {{icon|opinion}} {{green|+10}} Same Trait Opinion
+| {{icon|no|alt=y}}
+| Birth
+|{{green|-5}}
+| ''This character has trouble pronouncing certain sounds.''
+|- id="Stuttering"
+{{trait entry|Stuttering}}
+|
+* {{icon|diplomacy}} {{red|−2}} Diplomacy
+* {{icon|opinion}} {{green|+10}} Same Trait Opinion
+| {{icon|no|alt=y}}
+| Birth
+|{{green|-5}}
+| ''Finishing a sentence quickly is not this character's strong suit.''
+|- id="Pure-blooded"
+{{trait entry|Pure-blooded}}
+|
+* {{icon|fertility}} {{green|+10%}} Fertility
+* {{icon|health boost}} {{green|+0.25}} Health
+* {{icon|unknown}} {{green|−50%}} Inbreeding Chance
+| {{icon|yes|alt=y}}
+| Birth
+|{{red|+50}}
+| ''This character is of a pure bloodline.''
+|- id="Giant"
+{{trait entry|Giant}}
+|
+* {{icon|prowess}} {{green|+6}} Prowess
+* {{icon|health penalty}} {{red|−0.25}} Health
+* {{icon|opinion}} {{red|−5}} Attraction Opinion
+* [[File:Vassal stance glory hound.png|24px]] {{green|+10}} Glory Hound Vassal Opinion
+* {{icon|opinion}} {{green|+10}} Tribal and Wanua Ruler Opinion
+* {{icon|opinion}} {{green|+20}} Same Trait Opinion
+| {{icon|yes|alt=y}}
+| Birth
+|{{red|+20}}
+| ''Others have to crane their necks, and rein in awe, as this character walks by.''
+|- id="Scaly"
+{{trait entry|Scaly}}
+|
+* {{icon|fertility}} {{red|−20%}} Fertility
+* {{icon|dread}} {{green|+10}} Natural Dread
+* {{icon|opinion}} {{red|−30}} Attraction Opinion
+* {{icon|opinion}} {{red|−10}} Vassal Opinion
+* {{icon|opinion}} {{green|+10}} Same Trait Opinion
+| {{icon|yes|alt=y}}
+| Birth
+|'''0'''
+| ''This character is covered in scaly patches of skin.''
+|- id="Club-footed"
+{{trait entry|Club-footed}}
+|
+* {{icon|prowess}} {{red|−2}} Prowess
+* {{icon|opinion}} {{red|−10}} Attraction Opinion
+* {{icon|opinion}} {{green|+10}} Same Trait Opinion
+| {{icon|yes|alt=y}}
+| Birth
+|'''0'''
+| ''This character is cursed with twisted feet and an unsightly walk.''
+|- id="Dwarf"
+{{trait entry|Dwarf}}
+|
+* {{icon|prowess}} {{red|−4}} Prowess
+* {{icon|opinion}} {{red|−20}} Attraction Opinion
+* {{icon|opinion}} {{green|+20}} Same Trait Opinion
+| {{icon|yes|alt=y}}
+| Birth
+|'''0'''
+| ''This character is afflicted by a genetic disorder that stunts their growth.''
+|- id="Hunchbacked"
+{{trait entry|Hunchbacked}}
+|
+* {{icon|prowess}} {{red|−2}} Prowess
+* {{icon|opinion}} {{red|−30}} Attraction Opinion
+* {{icon|opinion}} {{red|−10}} Vassal Opinion
+* {{icon|opinion}} {{green|+10}} Same Trait Opinion
+| {{icon|yes|alt=y}}
+| Birth
+|{{green|-10}}
+| ''This character is weighted down by the curse of a humpback.''
+|- id="Sterile"
+{{trait entry|Sterile}} / Infertile
+| {{icon|fertility}} {{red|−50%}} Fertility
+| {{icon|yes|alt=y}}
+| Birth
+|'''0'''
+| ''This character cannot produce children.''
+|- id="Wheezing"
+{{trait entry|Wheezing}}
+|
+* {{icon|health penalty}} {{red|−0.15}} Health
+* {{icon|opinion}} {{red|−10}} Vassal Opinion
+* {{icon|unknown}} {{red|4 times more likely to spread disease traits}}
+| {{icon|yes|alt=y}}
+| Birth
+|{{green|-10}}
+| ''This character is cursed to spend their life coughing and wheezing.''
+|- id="Spindly"
+{{trait entry|Spindly}}
+|
+* {{icon|prowess}} {{red|−1}} Prowess
+* {{icon|health penalty}} {{red|−0.25}} Health
+* {{icon|opinion}} {{red|−10}} Attraction Opinion
+| {{icon|yes|alt=y}}
+| Birth
+|{{green|-10}}
+| ''This character's limbs are long and knobby.''
+|- id="Bleeder"
+{{trait entry|Bleeder}}
+|
+* {{icon|health penalty}} {{red|-1.5}} Health
+* {{icon|opinion}} {{red|−10}} Vassal Opinion
+| {{icon|yes|alt=y}}
+| Birth
+|{{green|-20}}
+| ''Any kind of wound might prove fatal to this character since their sanguine humors are in a hurry to escape their body.''
+|}
+
+=== Leveled congenital traits ===
+The following Congenital traits come in multiple levels. A leveled Congenital trait has a 50% chance to increase in level if both parents have the same trait, both positively and negatively. 
+
+The game incorrectly states that if both parents have the same trait, it will get inherited (it will, just not as an active trait), the actual factors for genetic inheritance are complicated, see [[Family (relation)]]. The name of some leveled traits depends on the character's gender.
+{| class="mildtable plainlist"
+! Trait group
+! Negative level 3
+! Negative level 2
+! Negative level 1
+! Positive level 1
+! Positive level 2
+! Positive level 3
+|- style="vertical-align:top"
+| Appearance
+| id="Hideous" | {{iconify|Hideous|60px}} ({{green|-30}} cost)
+* {{icon|diplomacy}} {{red|−3}} Diplomacy
+* {{icon|fertility}} {{red|−30%}} Fertility
+* {{icon|opinion}} {{red|−30}} Attraction Opinion
+* {{icon|unknown}} Extreme Facial Characteristics
+* {{icon|unknown}} Penalties to Seduction
+| id="Ugly" | {{iconify|Ugly|60px}} ({{green|-20}} cost)
+* {{icon|diplomacy}} {{red|−2}} Diplomacy
+* {{icon|fertility}} {{red|−20%}} Fertility
+* {{icon|opinion}} {{red|−20}} Attraction Opinion
+* {{icon|unknown}} Extreme Facial Characteristics
+* {{icon|unknown}} Penalties to Seduction
+| id="Homely" | {{iconify|Homely|60px}} ({{green|-10}} cost)
+* {{icon|diplomacy}} {{red|−1}} Diplomacy
+* {{icon|fertility}} {{red|−10%}} Fertility
+* {{icon|opinion}} {{red|−10}} Attraction Opinion
+* {{icon|unknown}} Extreme Facial Characteristics
+* {{icon|unknown}} Penalties to Seduction
+| id="Comely" | {{iconify|Comely|60px}} ({{red|+40}} cost)
+* {{icon|diplomacy}} {{green|+1}} Diplomacy
+* {{icon|fertility}} {{green|+10%}} Fertility
+* {{icon|opinion}} {{green|+10}} Attraction Opinion
+* {{icon|unknown}} {{green|Slower Portrait Aging}}
+* {{icon|unknown}} Moderate Facial Characteristics
+* {{icon|unknown}} Bonuses to Seduction
+| id="Pretty" | {{iconify|Pretty|60px}}/Handsome ({{red|+80}} cost)
+* {{icon|diplomacy}} {{green|+2}} Diplomacy
+* {{icon|fertility}} {{green|+20%}} Fertility
+* {{icon|opinion}} {{green|+20}} Attraction Opinion
+* {{icon|unknown}} {{green|Slower Portrait Aging}}
+* {{icon|unknown}} Moderate Facial Characteristics
+* {{icon|unknown}} Bonuses to Seduction
+| id="Beautiful" | {{iconify|Beautiful|60px}} ({{red|+120}} cost)
+* {{icon|diplomacy}} {{green|+3}} Diplomacy
+* {{icon|fertility}} {{green|+30%}} Fertility
+* {{icon|opinion}} {{green|+30}} Attraction Opinion
+* {{icon|unknown}} {{green|Slower Portrait Aging}}
+* {{icon|unknown}} Moderate Facial Characteristics
+* {{icon|unknown}} Bonuses to Seduction
+
+|- style="vertical-align:top"
+| Intelligence
+| id="Imbecile" | {{iconify|Imbecile|60px}} ({{green|-45}} cost)
+* {{icon|diplomacy}} {{red|−8}} Diplomacy
+* {{icon|martial}} {{red|−8}} Martial
+* {{icon|stewardship}} {{red|−8}} Stewardship
+* {{icon|intrigue}} {{red|−8}} Intrigue
+* {{icon|learning}} {{red|−8}} Learning
+* [[File:Focus invalid.png|24px]] {{red|−30%}} Monthly Lifestyle Experience
+* {{icon|unknown}} Penalty to education
+* {{icon|unknown}} Cannot be seduced
+* -200 Rationality
+| id="Stupid" | {{iconify|Stupid|60px}} ({{green|-30}} cost)
+* {{icon|diplomacy}} {{red|−4}} Diplomacy
+* {{icon|martial}} {{red|−4}} Martial
+* {{icon|stewardship}} {{red|−4}} Stewardship
+* {{icon|intrigue}} {{red|−4}} Intrigue
+* {{icon|learning}} {{red|−4}} Learning
+* [[File:Focus invalid.png|24px]] {{red|−20%}} Monthly Lifestyle Experience
+* {{icon|unknown}} Penalty to education
+* -75 Rationality
+| id="Slow" | {{iconify|Slow|60px}} ({{green|-15}} cost)
+* {{icon|diplomacy}} {{red|−2}} Diplomacy
+* {{icon|martial}} {{red|−2}} Martial
+* {{icon|stewardship}} {{red|−2}} Stewardship
+* {{icon|intrigue}} {{red|−2}} Intrigue
+* {{icon|learning}} {{red|−2}} Learning
+* [[File:Focus invalid.png|24px]] {{red|−10%}} Monthly Lifestyle Experience
+* {{icon|unknown}} Penalty to education
+* -50 Rationality
+| id="Quick" | {{iconify|Quick|60px}} ({{red|+80}} cost)
+* {{icon|diplomacy}} {{green|+1}} Diplomacy
+* {{icon|martial}} {{green|+1}} Martial
+* {{icon|stewardship}} {{green|+1}} Stewardship
+* {{icon|intrigue}} {{green|+1}} Intrigue
+* {{icon|learning}} {{green|+1}} Learning
+* [[File:Focus invalid.png|24px]] {{green|+10%}} Monthly Lifestyle Experience
+* {{icon|unknown}} Bonus to education
+* +50 Rationality
+|{{iconify|Intelligent|60px}} ({{red|+160}} cost)
+* {{icon|diplomacy}} {{green|+3}} Diplomacy
+* {{icon|martial}} {{green|+3}} Martial
+* {{icon|stewardship}} {{green|+3}} Stewardship
+* {{icon|intrigue}} {{green|+3}} Intrigue
+* {{icon|learning}} {{green|+3}} Learning
+* [[File:Focus invalid.png|24px]] {{green|+20%}} Monthly Lifestyle Experience
+* {{icon|unknown}} Bonus to education
+* +75 Rationality
+| id="Genius" | {{iconify|Genius|60px}} ({{red|+240}} cost)
+* {{icon|diplomacy}} {{green|+5}} Diplomacy
+* {{icon|martial}} {{green|+5}} Martial
+* {{icon|stewardship}} {{green|+5}} Stewardship
+* {{icon|intrigue}} {{green|+5}} Intrigue
+* {{icon|learning}} {{green|+5}} Learning
+* [[File:Focus invalid.png|24px]] {{green|+30%}} Monthly Lifestyle Experience
+* {{icon|unknown}} Bonus to education
+* +200 Rationality
+
+|- style="vertical-align:top"
+| Physique
+| id="Feeble" | {{iconify|Feeble|60px}} ({{green|-45}} cost)
+* {{icon|prowess}} {{red|−6}} Prowess
+* {{icon|health penalty}} {{red|-1}} Health
+* {{icon|opinion}} {{red|−10}} Attraction Opinion
+* {{icon|unknown}} Penalties to Prowess Education
+* {{icon|unknown}} Penalties to Seduction
+* -30 Energy
+| id="Frail" | {{iconify|Frail|60px}} ({{green|-30}} cost)
+* {{icon|prowess}} {{red|−4}} Prowess
+* {{icon|health penalty}} {{red|−0.5}} Health
+* {{icon|opinion}} {{red|−5}} Attraction Opinion
+* {{icon|unknown}} Penalties to Prowess Education
+* {{icon|unknown}} Penalties to Seduction
+* -20 Energy
+| id="Delicate" | {{iconify|Delicate|60px}} ({{green|-15}} cost)
+* {{icon|prowess}} {{red|−2}} Prowess
+* {{icon|health penalty}} {{red|−0.25}} Health
+* {{icon|unknown}} Penalties to Prowess Education
+* {{icon|unknown}} Penalties to Seduction
+* -10 Energy
+| id="Hale" | {{iconify|Hale|60px}} ({{red|+60}} cost)
+* {{icon|prowess}} {{green|+2}} Prowess
+* {{icon|health boost}} {{green|+0.25}} Health
+* {{icon|opinion}} {{green|+5}} Attraction Opinion
+* {{icon|unknown}} Bonuses to Prowess Education
+* {{icon|unknown}} Bonuses to Seduction
+* +10 Energy
+|{{iconify|Robust|60px}} ({{red|+120}} cost)
+* {{icon|prowess}} {{green|+4}} Prowess
+* {{icon|health boost}} {{green|+0.5}} Health
+* {{icon|opinion}} {{green|+10}} Attraction Opinion
+* {{icon|unknown}} Bonuses to Prowess Education
+* {{icon|unknown}} Bonuses to Seduction
+* +20 Energy
+| id="Amazonian" | <div id="Herculean">[[File:Trait physique good 3.png|60px]] Amazonian/Herculean ({{red|+180}} cost)
+* {{icon|prowess}} {{green|+8}} Prowess
+* {{icon|health boost}} {{green|+1}} Health
+* {{icon|opinion}} {{green|+15}} Attraction Opinion
+* {{icon|unknown}} Bonuses to Prowess Education
+* {{icon|unknown}} Bonuses to Seduction
+* +20 Energy
+|}
+
+== Physical traits ==
+{| class="mildtable plainlist"
+! colspan="2" | Trait
+! Character effects
+! AI effects
+! Cost
+! Description
+|- id="Shrewd"
+{{trait entry|Shrewd}}
+|
+* {{icon|diplomacy}} {{green|+2}} Diplomacy
+* {{icon|martial}} {{green|+2}} Martial
+* {{icon|stewardship}} {{green|+2}} Stewardship
+* {{icon|intrigue}} {{green|+2}} Intrigue
+* {{icon|learning}} {{green|+2}} Learning
+| +50 Rationality
+| {{red|+50}}
+| ''Life has taught this character the value of good judgement and sharp wit.''
+|- id="Strong"
+{{trait entry|Strong}}
+|
+* {{icon|prowess}} {{green|+4}} Prowess
+* {{icon|health boost}} {{green|+0.5}} Health
+| +20 Energy
+| {{red|+50}}
+| ''Though training and perseverance, this character has been granted a strong body.''
+|- id="One-Eyed"
+{{trait entry|One-Eyed}}
+|
+* {{icon|learning}} {{green|+1}} Learning
+* {{icon|prowess}} {{red|−2}} Prowess
+* {{icon|dread}} {{green|+10}} Natural Dread
+* {{icon|opinion}} {{red|−5}} Attraction Opinion
+* {{icon|unknown}} {{red|+100%}} Likelihood of capture or death in Battle
+* {{icon|unknown}} Always wears an Eye Patch face item
+| −10 Energy
+| {{red|+10}}
+| ''This character only has one eye.''
+|- id="One-Legged"
+{{trait entry|One-Legged}}
+|
+* {{icon|learning}} {{green|+1}} Learning
+* {{icon|prowess}} {{red|−4}} Prowess
+* {{icon|dread}} {{red|−10}} Natural Dread
+* {{icon|opinion}} {{red|−10}} Attraction Opinion
+* {{icon|unknown}} {{red|+100%}} Likelihood of capture or death in Battle
+| −10 Energy
+| {{green|-5}}
+| ''This character only has one leg.''
+|- id="Weak"
+{{trait entry|Weak}}
+|
+* {{icon|prowess}} {{red|−2}} Prowess
+* {{icon|health penalty}} {{red|−0.5}} Health
+* {{icon|opinion}} {{red|−10}} Attraction Opinion
+* {{icon|opinion}} {{red|−10}} Vassal Opinion
+| −20 Energy
+| {{green|-10}}
+| ''This character's body is on the decline.''
+|- id="Dull"
+{{trait entry|Dull}}
+|
+* {{icon|diplomacy}} {{red|−2}} Diplomacy
+* {{icon|martial}} {{red|−2}} Martial
+* {{icon|stewardship}} {{red|−2}} Stewardship
+* {{icon|intrigue}} {{red|−2}} Intrigue
+* {{icon|learning}} {{red|−2}} Learning
+| −50 Rationality
+| {{green|-20}}
+| ''It has been a long time since this character's mind had any exercise.''
+|- id="Eunuch"
+{{trait entry|Eunuch}}
+|
+* {{icon|opinion}} {{red|−10}} Attraction Opinion
+* [[File:Vassal stance glory hound.png|24px]] {{red|−10}} Glory Hound Vassal Opinion
+* {{icon|warning}} Cannot have children
+* {{icon|warning}} Cannot inherit titles
+* {{icon|warning}} Cannot marry
+| −15 Energy
+| {{green|-10}}
+| ''This character has been intentionally castrated after sexual maturity.''
+|- id="Beardless Eunuch"
+{{trait entry|Beardless Eunuch}}
+|
+* {{icon|prowess}} {{red|−4}} Prowess
+* {{icon|opinion}} {{red|−10}} Attraction Opinion
+* [[File:Vassal stance glory hound.png|24px]] {{red|−20}} Glory Hound Vassal Opinion
+* {{icon|warning}} Cannot have children
+* {{icon|warning}} Cannot inherit titles
+* {{icon|warning}} Cannot marry
+| 
+* −10 Boldness
+* −25 Energy
+| {{green|-15}}
+| ''Castration before puberty has stunted this character's muscles and body hair, leaving them the quintessential eunuch.''
+|}
+
+== Leveled traits ==
+The following traits have one or more trait paths. The traits and the experience to upgrade them are gained following certain actions, events or activities. Each trait level adds to the previous ones (i.e. Blademaster at level 2 gives {{icon|prowess}} {{green|+12}} Prowess).
+{| class="mildtable plainlist"
+! width=1% | Trait
+! Level 0 Effects
+! width=1% | Paths
+! Level 1 effects
+! Level 2 effects
+! Level 3 effects
+! Level 4 effects
+! Level 5 effects
+|- id="Aspiring Blademaster"
+| Aspiring Blademaster<br>[[File:Trait blademaster.png|75px]]
+|
+* {{icon|prowess}} {{green|+3}} Prowess
+* {{icon|health boost}} {{green|+0.25}} Disease Resistance
+| Blademaster<br>[[File:Trait track lifestyle blademaster.png]]
+|
+* {{icon|prowess}} {{green|+3}} Prowess
+* {{icon|health boost}} {{green|+0.25}} Disease Resistance
+|
+* {{icon|prowess}} {{green|+6}} Prowess
+* {{icon|health boost}} {{green|+0.50}} Disease Resistance
+| {{icon|no}}
+| {{icon|no}}
+| {{icon|no}}
+|- id="Charioteer"
+| Charioteer<br>[[File:Trait charioteer blue.png|75px]]
+|
+| Charioteering<br>[[File:Trait track charioteer blue.png]]
+|
+* {{icon|prowess}} {{green|+1}} Prowess
+* {{icon|health boost}} {{green|+0.25}} Health
+* {{icon|travel speed}} {{green|+5%}} Travel Speed
+|
+* {{icon|prowess}} {{green|+1}} Prowess
+* {{icon|health boost}} {{green|+0.25}} Health
+* {{icon|travel speed}} {{green|+10%}} Travel Speed
+| {{icon|no}}
+| {{icon|no}}
+| {{icon|no}}
+|-
+|Confucian Education<br>[[File:Trait confucian education.png|75px]]
+|
+* {{icon|learning}} {{green|+1}} Learning
+* {{icon|opinion}} {{green|+10}} Same Trait Opinion
+|Confucianism<br>[[File:Trait confucian education.png|60px]]
+|
+* {{icon|learning}} {{green|+1}} Learning
+* [[File:Focus invalid.png|24px]] {{green|+4%}} Lifestyle Experience
+* {{icon|opinion}} {{green|+5}} Confucian Opinion
+|
+* {{icon|stewardship}} {{green|+1}} Stewardship
+* [[File:Focus invalid.png|24px]] {{green|+4%}} Lifestyle Experience
+|
+* {{icon|learning}} {{green|+1}} Learning
+* [[File:Focus invalid.png|24px]] {{green|+4%}} Lifestyle Experience
+* {{icon|opinion}} {{green|+5}} Confucian Opinion
+|
+* {{icon|stewardship}} {{green|+1}} Stewardship
+* [[File:Focus invalid.png|24px]] {{green|+4%}} Lifestyle Experience
+|
+* {{icon|learning}} {{green|+1}} Learning
+* [[File:Focus invalid.png|24px]] {{green|+4%}} Lifestyle Experience
+* {{icon|opinion}} {{green|+5}} Confucian Opinion
+|- id="Eager Reveler"
+| Eager Reveler<br>[[File:Trait reveler.png|75px]]
+|
+*{{icon|intrigue}} {{green|+1}} Intrigue
+* [[File:Vassal stance courtly.png|24px]] {{green|+5}} Courtly Vassal Opinion
+* {{icon|opinion}} {{green|+15}} Same Trait Opinion
+| Reveler<br>[[File:Trait track lifestyle reveler.png]]
+|
+* {{icon|diplomacy}} {{green|+1}} Diplomacy
+* {{icon|intrigue}} {{green|+1}} Intrigue
+* [[File:Vassal stance courtly.png|24px]] {{green|+5}} Courtly Vassal Opinion
+|
+* {{icon|diplomacy}} {{green|+2}} Diplomacy
+* {{icon|intrigue}} {{green|+1}} Intrigue
+* {{icon|scheme success chance}} {{green|+10.0%}} Initial Hostile Scheme Success Chance
+* [[File:Vassal stance courtly.png|24px]] {{green|+5}} Courtly Vassal Opinion
+| {{icon|no}}
+| {{icon|no}}
+| {{icon|no}}
+|-
+|Governor<br>[[File:Trait governor.png|75px]]
+|
+|Governor<br>[[File:Trait track governor.png]]
+|
+* {{icon|stewardship}} {{green|+1}} Stewardship
+* {{icon|influence}} {{green|+1}} Monthly Influence
+|
+* {{icon|diplomacy}} {{green|+1}} Diplomacy
+* {{icon|influence}} {{green|+1}} Monthly Influence
+|
+* {{icon|martial}} {{green|+1}} Martial
+* {{icon|intrigue}} {{green|+1}} Intrigue
+* {{icon|influence}} {{green|+1}} Monthly Influence
+|
+* {{icon|diplomacy}} {{green|+1}} Diplomacy
+* {{icon|martial}} {{green|+1}} Martial
+* {{icon|stewardship}} {{green|+1}} Stewardship
+* {{icon|intrigue}} {{green|+1}} Intrigue
+* {{icon|influence}} {{green|+2}} Monthly Influence
+|{{icon|no}}
+|-
+| rowspan="4" |Hastiluder<br>[[File:Trait tournament.png|75px]]
+| rowspan="4" |{{icon|opinion}} {{green|+10}} Same Trait Opinion
+|Bow<br>[[File:Trait track bow.png]]
+|{{icon|health boost}} {{green|+0.25}} Health
+|
+* {{icon|health boost}} {{green|+0.25}} Health
+* {{icon|levies}} {{green|+15%}} Vassal Levy Base Contribution
+|
+* {{icon|health boost}} {{green|+0.25}} Health
+* {{icon|gold}} {{green|-25%}} Army Gold Maintenance
+| rowspan="4" |{{icon|no}}
+| rowspan="4" |{{icon|no}}
+|- id="Hunter"
+| Foot<br>[[File:Trait track foot.png]]
+|{{icon|prowess}} {{green|+1}} Prowess
+|
+* {{icon|martial}} {{green|+1}} Martial
+* {{icon|prowess}} {{green|+1}} Prowess
+|
+* {{icon|prowess}} {{green|+4}} Prowess per Stress Level
+* {{icon|knight}} {{green|+2}} Number of knights
+* {{icon|levies}} {{green|+2}} Size of MAA Regiments
+|-
+| Horse<br>[[File:Trait track horse.png]]
+|{{icon|prestige}} {{green|+5%}} Monthly Prestige
+|
+* {{icon|prestige}} {{green|+10%}} Monthly Prestige
+* [[File:Vassal stance glory hound.png|24px]] {{green|+20}} Glory Hound Opinion
+|
+* {{icon|prowess}} {{green|+1}} Prowess per Level of Fame
+* {{icon|renown}} {{green|+5%}} Monthly Renown
+|- id="Knight-Errant"
+| Wit<br>[[File:Trait track wit.png]]
+|{{icon|diplomacy}} {{green|+1}} Diplomacy
+|
+* {{icon|diplomacy}} {{green|+1}} Diplomacy
+* [[File:Focus invalid.png|24px]] {{green|+5%}} Lifestyle Experience
+* [[File:Vassal stance zealot.png|24px]] {{green|+10}} Zealot Vassal Opinion
+|
+* {{icon|diplomacy}} {{green|+1}} Diplomacy
+* [[File:Focus invalid.png|24px]] {{green|+10%}} Lifestyle Experience
+* {{icon|army speed}} {{green|+20%}} Army Speed
+|- id="Mystic"
+| Mystic<br>[[File:Trait mystic.png|75px]]
+|
+* {{icon|learning}} {{green|+1}} Learning
+* {{icon|decision}} Mystical Communion decision
+| Mystic<br>[[File:Trait track lifestyle mystic.png]]
+| {{icon|learning}} {{green|+1}} Learning
+| {{icon|learning}} {{green|+2}} Learning
+| {{icon|no}}
+| {{icon|no}}
+| {{icon|no}}
+|- id="Novice Physician"
+| Novice Physician<br>[[File:Trait physician.png|75px]]
+|
+* {{icon|learning}} {{green|+1}} Learning
+* {{icon|health boost}} {{green|+0.25}} Disease Resistance
+| Physician<br>[[File:Trait track lifestyle physician.png]]
+|
+* {{icon|learning}} {{green|+1}} Learning
+* {{icon|health boost}} {{green|+0.25}} Disease Resistance
+|
+* {{icon|learning}} {{green|+2}} Learning
+* {{icon|health boost}} {{green|+0.50}} Disease Resistance
+| {{icon|no}}
+| {{icon|no}}
+| {{icon|no}}
+|- id="Peasant Leader"
+| Peasant Leader<br>[[File:Trait peasant leader.png|75px]]
+|
+* {{icon|gold}} {{green|-50.00%}} Army Gold Maintenance
+* {{icon|opinion}} {{green|+10}} Popular Opinion
+* {{icon|opinion}} {{red|−10}} General Opinion
+* {{icon|opinion}} {{green|+25}} Same Trait Opinion
+| Notoriety<br>[[File:Trait peasant leader.png|60px]]
+| {{icon|advantage}} {{green|-25%}} Enemy Defensive Advantage
+|
+* {{icon|advantage}} {{green|+1}} Advantage
+* {{icon|siege progress}} {{green|+0.1}} Levy Siege Progress
+|
+* {{icon|advantage}} {{green|+2}} Advantage
+* {{icon|opinion}} {{green|+20}} Popular Opinion
+* {{icon|opinion}} No Different Culture penalty
+* {{icon|opinion}} No Different Faith penalty
+| {{icon|no}}
+| {{icon|no}}
+|- id="Pilgrim"
+| Pilgrim<br>[[File:Trait pilgrim.png|75px]]
+|
+* {{icon|piety}} {{green|+5%}} Monthly Piety
+* {{icon|travel speed}} {{green|+5}} Travel Speed
+* {{icon|safety}} {{green|+5}} Travel Safety
+* [[File:Vassal stance zealot.png|24px]] {{green|+5}} Zealot Vassal Opinion
+| Pilgrim<br>[[File:Trait track pilgrim.png]]
+|
+* {{icon|learning}} {{green|+1}} Learning
+* {{icon|piety}} {{green|+10%}} Monthly Piety
+* [[File:Vassal stance zealot.png|24px]] {{green|+10}} Zealot Vassal Opinion
+|
+* {{icon|learning}} {{green|+2}} Learning
+* {{icon|piety}} {{green|+10%}} Monthly Piety
+* {{icon|opinion}} {{green|+5}} Different Culture Opinion
+* [[File:Vassal stance zealot.png|24px]] {{green|+20}} Zealot Vassal Opinion
+| {{icon|no}}
+| {{icon|no}}
+| {{icon|no}}
+|- id="Poet"
+| Poet<br>[[File:Trait poet.png|75px]]
+| 
+* {{icon|diplomacy}} {{green|+1}} Diplomacy per Level of Fame
+* {{icon|stress loss}} {{green|+10%}} Stress Loss
+* {{icon|yes}} Send Poem interaction
+| Poetry<br>[[File:Trait track lifestyle poet.png]]
+| 
+* {{icon|diplomacy}} {{green|+1}} Diplomacy
+* [[File:Vassal stance courtly.png|24px]] {{green|+5}} Courtly Vassal Opinion
+| 
+* {{icon|diplomacy}} {{green|+2}} Diplomacy
+* [[File:Vassal stance courtly.png|24px]] {{green|+5}} Courtly Vassal Opinion
+| {{icon|no}}
+| {{icon|no}}
+| {{icon|no}}
+|- id="Scarred"
+| Scarred<br>[[File:Trait scarred.png|75px]]
+|
+* {{icon|prestige}} {{green|+0.10}} Monthly Prestige
+* {{icon|opinion}} {{green|+5}} Attraction Opinion
+| Scarred<br>[[File:Trait scarred.png|60px]]
+|
+* {{icon|health penalty}} {{red|−0.10}} Health
+* {{icon|prestige}} {{green|+0.05}} Monthly Prestige
+* {{icon|opinion}} {{red|−5}} Attraction Opinion
+* {{icon|opinion}} {{red|−10}} Child Opinion
+|
+* {{icon|health penalty}} {{red|−0.10}} Health
+* {{icon|dread}} {{green|+10%}} Dread Gain
+* {{icon|opinion}} {{red|−20}} Attraction Opinion
+* {{icon|opinion}} {{red|−20}} Child Opinion
+| {{icon|no}}
+| {{icon|no}}
+| {{icon|no}}
+|- id="Traveler"
+| rowspan=2 | Traveler<br>[[File:Trait traveler.png|75px]]
+| rowspan=2 |
+* {{icon|diplomacy}} {{green|+1}} Diplomacy
+* [[File:Wandering lifestyle.png|24px]] {{green|+10%}} Wandering Lifestyle Experience
+* {{icon|opinion}} {{green|+5}} Same Trait Opinion
+| Wanderer<br>[[File:Trait track travel.png]]
+|
+* {{icon|diplomacy}} {{green|+1}} Diplomacy
+* {{icon|learning}} {{green|+1}} Learning
+* {{icon|health boost}} {{green|+0.25}} Health
+* {{icon|travel speed}} {{green|+5%}} Travel Speed
+* [[File:Wandering lifestyle.png|24px]] {{green|+20%}} Wandering Lifestyle Experience
+|
+* {{icon|diplomacy}} {{green|+1}} Diplomacy
+* {{icon|learning}} {{green|+1}} Learning
+* {{icon|health boost}} {{green|+0.25}} Health
+* {{icon|travel speed}} {{green|+10%}} Travel Speed
+* [[File:Wandering lifestyle.png|24px]] {{green|+20%}} Wandering Lifestyle Experience
+| rowspan=2 | {{icon|no}}
+| rowspan=2 | {{icon|no}}
+| rowspan=2 | {{icon|no}}
+|-
+| Seasoned<br>[[File:Trait track danger.png]]
+|
+* {{icon|stewardship}} {{green|+1}} Stewardship
+* {{icon|prowess}} {{green|+1}} Prowess
+* {{icon|opinion}} {{green|+5}} Travel Companion Opinion
+* {{icon|safety}} {{green|+5%}} Travel Safety
+|
+* {{icon|stewardship}} {{green|+1}} Stewardship
+* {{icon|prowess}} {{green|+1}} Prowess
+* {{icon|opinion}} {{green|+5}} Travel Companion Opinion
+* {{icon|safety}} {{green|+10%}} Travel Safety
+|- id="Gallowsbait"
+| rowspan=5 | Gallowsbait<br>[[File:Trait gallowsbait.png|75px]]
+| rowspan=5 | 
+* {{icon|legitimacy}} {{red|-25%}} Legitimacy Gain
+* {{icon|legitimacy}} {{red|+25%}} Legitimacy Loss
+* {{icon|opinion}} {{green|+50}} Same Trait Opinion
+* {{icon|decision}} Wipe Slate decision
+* {{icon|no}} Purchase Land
+| Bandit<br>[[File:Trait track bandit.png]]
+|
+* {{icon|martial}} {{green|+1}} Martial
+* {{icon|opinion}} {{green|+2}} Courtier Opinion
+* {{icon|opinion}} {{green|+2}} Guest Opinion
+* {{icon|opinion}} {{red|−2}} General Opinion
+* {{icon|opinion}} {{red|−5}} Minor Landholder Opinion
+|
+* {{icon|opinion}} {{green|+2}} Courtier Opinion
+* {{icon|opinion}} {{green|+2}} Guest Opinion
+* {{icon|opinion}} {{red|−2}} General Opinion
+* {{icon|opinion}} {{red|−5}} Minor Landholder Opinion
+| 
+* {{icon|martial}} {{green|+1}} Martial
+* {{icon|opinion}} {{green|+2}} Courtier Opinion
+* {{icon|opinion}} {{green|+2}} Guest Opinion
+* {{icon|opinion}} {{red|−2}} General Opinion
+* {{icon|opinion}} {{red|−5}} Minor Landholder Opinion
+| 
+* {{icon|prestige}} {{green|+0.01}} Monthly Prestige per Dread
+* {{icon|opinion}} {{green|+5}} Courtier Opinion
+* {{icon|opinion}} {{green|+5}} Guest Opinion
+* {{icon|opinion}} {{red|−5}} General Opinion
+* {{icon|opinion}} {{red|−5}} Minor Landholder Opinion
+| 
+* {{icon|prestige}} {{green|+0.01}} Monthly Prestige per Dread
+* {{icon|opinion}} {{green|+10}} Courtier Opinion
+* {{icon|opinion}} {{green|+10}} Guest Opinion
+* {{icon|opinion}} {{red|−10}} General Opinion
+* {{icon|opinion}} {{red|−10}} Minor Landholder Opinion
+|-
+| Trickster<br>[[File:Trait track trickster.png]]
+| 
+* {{icon|diplomacy}} {{green|+1}} Diplomacy
+* {{icon|opinion}} {{green|+2}} Courtier Opinion
+* {{icon|opinion}} {{green|+2}} Guest Opinion
+* {{icon|opinion}} {{red|−2}} General Opinion
+* {{icon|opinion}} {{red|−5}} Courtly Opinion
+| 
+* {{icon|opinion}} {{green|+2}} Courtier Opinion
+* {{icon|opinion}} {{green|+2}} Guest Opinion
+* {{icon|opinion}} {{red|−2}} General Opinion
+* {{icon|opinion}} {{red|−5}} Courtly Opinion
+| 
+* {{icon|diplomacy}} {{green|+1}} Diplomacy
+* {{icon|opinion}} {{green|+2}} Courtier Opinion
+* {{icon|opinion}} {{green|+2}} Guest Opinion
+* {{icon|opinion}} {{red|−2}} General Opinion
+* {{icon|opinion}} {{red|−5}} Courtly Opinion
+| 
+* {{icon|opinion}} {{green|+5}} Courtier Opinion
+* {{icon|opinion}} {{green|+5}} Guest Opinion
+* {{icon|opinion}} {{red|−5}} General Opinion
+* {{icon|opinion}} {{red|−5}} Courtly Opinion
+| 
+* {{icon|diplomacy}} {{green|+1}} Diplomacy per Level of Fame
+* {{icon|opinion}} {{green|+10}} Courtier Opinion
+* {{icon|opinion}} {{green|+10}} Guest Opinion
+* {{icon|opinion}} {{red|−10}} General Opinion
+* {{icon|opinion}} {{red|−10}} Courtly Opinion
+|-
+| Thief<br>[[File:Trait track thief.png]]
+| 
+* {{icon|intrigue}} {{green|+1}} Intrigue
+* {{icon|opinion}} {{green|+2}} Courtier Opinion
+* {{icon|opinion}} {{green|+2}} Guest Opinion
+* {{icon|opinion}} {{red|−2}} General Opinion
+* {{icon|opinion}} {{red|−5}} Parochial Opinion
+| 
+* {{icon|opinion}} {{green|+2}} Courtier Opinion
+* {{icon|opinion}} {{green|+2}} Guest Opinion
+* {{icon|opinion}} {{red|−2}} General Opinion
+* {{icon|opinion}} {{red|−5}} Parochial Opinion
+| 
+* {{icon|intrigue}} {{green|+1}} Intrigue
+* {{icon|scheme secrecy}} {{green|+5%}} Scheme Secrecy
+* {{icon|opinion}} {{green|+2}} Courtier Opinion
+* {{icon|opinion}} {{green|+2}} Guest Opinion
+* {{icon|opinion}} {{red|−2}} General Opinion
+* {{icon|opinion}} {{red|−5}} Parochial Opinion
+| 
+* {{icon|scheme secrecy}} {{green|+5%}} Scheme Secrecy
+* {{icon|opinion}} {{green|+5}} Courtier Opinion
+* {{icon|opinion}} {{green|+5}} Guest Opinion
+* {{icon|opinion}} {{red|−5}} General Opinion
+* {{icon|opinion}} {{red|−5}} Parochial Opinion
+| 
+* {{icon|scheme secrecy}} {{green|+10%}} Scheme Secrecy
+* {{icon|opinion}} {{green|+10}} Courtier Opinion
+* {{icon|opinion}} {{green|+10}} Guest Opinion
+* {{icon|opinion}} {{red|−10}} General Opinion
+* {{icon|opinion}} {{red|−10}} Parochial Opinion
+|-
+| Poacher<br>[[File:Trait track poacher.png]]
+| 
+* {{icon|stewardship}} {{green|+1}} Stewardship
+* {{icon|provisions}} {{green|+5%}} Provisions Gain
+* {{icon|opinion}} {{green|+2}} Courtier Opinion
+* {{icon|opinion}} {{green|+2}} Guest Opinion
+* {{icon|opinion}} {{red|−2}} General Opinion
+* {{icon|opinion}} {{red|−5}} Glory Hound Opinion
+| 
+* {{icon|provisions}} {{green|+5%}} Provisions Gain
+* {{icon|opinion}} {{green|+2}} Courtier Opinion
+* {{icon|opinion}} {{green|+2}} Guest Opinion
+* {{icon|opinion}} {{red|−2}} General Opinion
+* {{icon|opinion}} {{red|−5}} Glory Hound Opinion
+| 
+* {{icon|stewardship}} {{green|+1}} Stewardship
+* {{icon|provisions}} {{green|+5%}} Provisions Gain
+* {{icon|opinion}} {{green|+2}} Courtier Opinion
+* {{icon|opinion}} {{green|+2}} Guest Opinion
+* {{icon|opinion}} {{red|−2}} General Opinion
+* {{icon|opinion}} {{red|−5}} Glory Hound Opinion
+| 
+* {{icon|opinion}} {{green|+5}} Courtier Opinion
+* {{icon|opinion}} {{green|+5}} Guest Opinion
+* {{icon|opinion}} {{red|−5}} General Opinion
+* {{icon|opinion}} {{red|−5}} Glory Hound Opinion
+| 
+* {{icon|opinion}} {{green|+10}} Courtier Opinion
+* {{icon|opinion}} {{green|+10}} Guest Opinion
+* {{icon|opinion}} {{red|−10}} General Opinion
+* {{icon|opinion}} {{red|−10}} Glory Hound Opinion
+|-
+| Marauder<br>[[File:Trait track marauder.png]]
+| 
+* {{icon|prowess}} {{green|+1}} Prowess
+* {{icon|opinion}} {{green|+4}} Courtier Opinion
+* {{icon|opinion}} {{green|+4}} Guest Opinion
+* {{icon|opinion}} {{red|−4}} General Opinion
+| 
+* {{icon|opinion}} {{green|+4}} Courtier Opinion
+* {{icon|opinion}} {{green|+4}} Guest Opinion
+* {{icon|opinion}} {{red|−4}} General Opinion
+| 
+* {{icon|prowess}} {{green|+1}} Prowess
+* {{icon|opinion}} {{green|+4}} Courtier Opinion
+* {{icon|opinion}} {{green|+4}} Guest Opinion
+* {{icon|opinion}} {{red|−4}} General Opinion
+| 
+* {{icon|opinion}} {{green|+10}} Courtier Opinion
+* {{icon|opinion}} {{green|+10}} Guest Opinion
+* {{icon|opinion}} {{red|−10}} General Opinion
+| 
+* {{icon|scheme}} {{green|+1}} Max Murder Schemes
+* {{icon|opinion}} {{green|+20}} Courtier Opinion
+* {{icon|opinion}} {{green|+20}} Guest Opinion
+* {{icon|opinion}} {{red|−20}} General Opinion
+|}
+
+=== Commander traits ===
+Commander traits give various bonuses to armies led by a character with such traits. If creating a custom ruler each commander trait costs {{red|25}} customization points. Commander traits come in 4 levels.
+* At level 2 the trait's bonuses double
+* At level 3 the trait's bonuses triple and the traits also provides {{green|+1}} {{iconify|Advantage}}
+* At level 4 the trait's bonuses quadruple and the traits also provides {{green|+2}} {{iconify|Advantage}} and {{green|+1}} {{iconify|Martial}}
+Guardians can attempt to teach wards their commander traits. The success chance depends primarily on the ward's {{iconify|Opinion}}, {{iconify|Martial}} and {{iconify|Prowess}}. One commander trait can be taught every 5 years.
+{| class="mildtable plainlist"
+! colspan="2" | Trait
+! Effect
+! Experience
+! width=33% | Description
+|- id="Aggressive Attacker"
+{{trait entry|Aggressive Attacker}}
+| [[File:Death natural.png|24px]] {{green|+10%}} Enemy Fatal Casualties
+| 1 + Martial/10 per battle victory as attacker
+| ''Nothing will sate an Aggressive Attacker but the blood of their enemies.''
+|- id="Defender"
+{{trait entry|Defender}}
+| [[File:Death natural.png|24px]] {{green|−10%}} Friendly Fatal Casualties
+| 1 + Martial/10 per battle victory as defender
+| ''A Defender knows one thing above all else; this is as far as the enemy goes.''
+|- id="Faithful Blade"
+{{trait entry|Faithful Blade}}
+| {{icon|advantage}} {{green|+4}} Faith Hostility Advantage
+| 0.75 + Martial/10 per battle victory against a commander with a different religion
+| ''Burning with religious fervor, the Faithful Blade will not rest until all Heathens are defeated.''
+|- id="Flexible leader"
+{{trait entry|Flexible leader}}
+| {{icon|advantage}} {{green|−20%}} Enemy Defensive Advantage
+| 0.5 + Martial/10 per battle victory
+| ''The Flexible leader knows how to reduce the Advantage defending armies get from fortifications, terrain, rivers and strait crossings.''
+|- id="Forder"
+{{trait entry|Forder}}
+|
+* {{icon|advantage}} Crosses Rivers & Straits without Advantage penalties
+* {{icon|travel speed}} {{green|+5}} Travel Speed
+| 2 + Martial/10 per battle victory in the coastal or riverside provinces.
+| ''The Forder is at home close to water and will suffer no Advantage penalty in battles when disembarking from ships or attacking across straits or rivers.''
+|- id="Logistician"
+{{trait entry|Logistician}}
+| 
+* {{icon|supply}} {{green|+40%}} Supply Duration
+* {{icon|safety}} {{green|+4}} Travel Safety
+| 0.2 + Martial/20 when the commanded army moves into a new barony
+| ''If there is one thing the Logistician knows, it is how to make supplies last - and last well.''
+|- id="Military Engineer"
+{{trait entry|Military Engineer}}
+| {{icon|time}} {{green|−10%}} Siege Phase Time
+| Fort level/2 + Martial/20 per completed a siege or raid
+| ''With extensive knowledge of siege engines and defensive capabilities, the Military Engineer will not be kept at bay.''
+|- id="Organizer"
+{{trait entry|Organizer}}
+|
+* {{icon|army speed}} {{green|+10%}} Army Movement Speed
+* {{icon|screen}} {{green|−10%}} Retreat Losses
+| 0.2 + Martial/20 when the commanded army moves into a new barony
+| ''In capable hands, a well organized army can swiftly outmaneuver the enemy in any situation.''
+|- id="Raider"
+{{trait entry|Reaver}}
+|
+* {{icon|raid}} {{green|+40%}} Raid Speed
+* {{icon|death}} {{green|−30%}} Hostile County Attrition
+| 0.2 + Martial/20 per completed a siege or raid
+| ''The Raider longs for loot almost as much as victory: if there is anything of value to be had they will find it.''
+|- id="Cautious Leader"
+{{trait entry|Cautious Leader}}
+|
+* {{icon|advantage}} {{green|+2}} Minimum Battle Roll 
+* {{icon|advantage}} {{red|−1}} Maximum Battle Roll
+| 3 + Martial/10 per battle victory while having 50% or less troops as the defending army
+| ''A Cautious Leader is careful not to take any unnecessary risk in battles, but does so at the cost of potential gain.''
+|- id="Reckless"
+{{trait entry|Reckless}}
+|
+* {{icon|advantage}} {{red|−2}} Minimum Battle Roll
+* {{icon|advantage}} {{green|+3}} Maximum Battle Roll
+| 3 + Martial/10 per battle victory while having 50% or less troops as the defending army
+| ''If there is an advantage to be had, the Reckless commander is sure to seize it.''
+|- id="Forest Fighter"
+{{trait entry|Forest Fighter}}
+|
+* {{icon|advantage}} {{green|+2}} Advantage in Forest
+* {{icon|advantage}} {{green|+2}} Advantage in Taiga
+| 2 + Martial/10 per battle victory in the previously mentioned terrain
+| ''Where some see forests as obstacles, the Forest Fighter sees opportunity.''
+|- id="Open Terrain Expert"
+{{trait entry|Open Terrain Expert}}
+| 
+* {{icon|advantage}} {{green|+2}} Advantage in Plains
+* {{icon|advantage}} {{green|+2}} Advantage in Farmlands
+* {{icon|advantage}} {{green|+2}} Advantage in Steppe
+| 2 + Martial/10 per battle victory in the previously mentioned terrain
+| ''Open fields and vast spaces are where the Open Terrain Expert feels at home, and they are swift to take advantage of this in battle.''
+|- id="Rough Terrain Expert"
+{{trait entry|Rough Terrain Expert}}
+| 
+* {{icon|advantage}} {{green|+2}} Advantage in Hills
+* {{icon|advantage}} {{green|+2}} Advantage in Mountains
+* {{icon|advantage}} {{green|+2}} Advantage in Wetlands
+| 2 + Martial/10 per battle victory in the previously mentioned terrain
+| ''Difficult terrain can be a powerful tool for those able to utilize it to gain the upper hand in battle.''
+|- id="Desert Warrior"
+{{trait entry|Desert Warrior}}
+|
+* {{icon|supply}} Negate Supply Limit Penalty in Desert
+* {{icon|advantage}} {{green|+2}} Advantage in Desert
+* {{icon|advantage}} {{green|+2}} Advantage in Desert Mountains
+* {{icon|advantage}} {{green|+2}} Advantage in Oasis
+* {{icon|advantage}} {{green|+2}} Advantage in Drylands
+| 2 + Martial/10 per battle victory in the previously mentioned terrain
+| ''The punishing sun and beating heat of the desert is no foe to the Desert Warrior.''
+|- id="Jungle Stalker"
+{{trait entry|Jungle Stalker}}
+|
+* {{icon|supply}} Negate Supply Limit Penalty in Jungle
+* {{icon|advantage}} {{green|+2}} Advantage in Jungle
+* {{icon|death}} {{green|−20%}} Attrition Taken in Jungle 
+| 2 + Martial/10 per battle victory in the previously mentioned terrain
+| ''The lush forest of any jungle is an ally to the Jungle Stalker.''
+|- id="Winter Soldier"
+{{trait entry|Winter Soldier}}
+|
+* {{icon|army speed}} {{green|+10%}} Movement Speed in Baronies affected by Winter
+* {{icon|advantage}} {{green|+3}} Advantage in Baronies affected by Winter
+| 0.75 + Martial/10 per battle victory in a province affected by winter
+| ''The Winter Soldier is molded by the bitter cold, and knows how to turn it to their advantage.''
+|}
+
+=== Adventurer traits ===
+Adventurer traits are only present on certain historical adventurers in 1066 and cannot be obtained by other means. They have only a single path. The Exiled trait is leveled up by defeating characters of Norman culture in battle or duels.
+{| class="mildtable plainlist"
+! Trait
+! Effects
+! Path
+! Level 1 effects
+! Level 2 effects
+! Level 3 effects
+! Level 4 effects
+! Character
+|- id="Violet Poet"
+| Violet Poet<br>[[File:Trait poet.png|75px]]
+| 
+* {{icon|opinion}} {{green|+10}} Attraction Opinion
+* {{icon|scheme phase length}} {{green|-10}} Days Seduce Phase Length
+* [[File:Court poet court position.png|24px]] Unlocks the Laureate officer
+* {{icon|decision}} Write Poem decision
+| Rhapsodist<br>[[File:Trait poet.png|60px]]
+| 
+* {{icon|opinion}} {{green|+10}} Attraction Opinion
+* {{icon|scheme phase length}} {{green|-10}} Days Seduce Phase Length
+* {{icon|scheme phase length}} {{green|-10}} Days Romance Phase Length
+* {{icon|diplomacy}} {{green|+1}} Diplomacy per Level of Fame
+| 
+* {{icon|opinion}} {{green|+10}} Attraction Opinion
+* {{icon|scheme phase length}} {{green|-10}} Days Seduce Phase Length
+* {{icon|scheme phase length}} {{green|-10}} Days Romance Phase Length
+* {{icon|intrigue}} {{green|+1}} Intrigue per Level of Fame
+| 
+* {{icon|opinion}} {{green|+20}} Attraction Opinion
+* {{icon|scheme phase length}} {{green|-10}} Days Seduce Phase Length
+* {{icon|scheme phase length}} {{green|-10}} Days Romance Phase Length
+* {{icon|learning}} {{green|+1}} Learning per Level of Fame
+| {{icon|no}}
+| Wallanda bint al-Mustakfi
+|- id="Exiled"
+| Exiled<br>[[File:Trait the wake.png|75px]]
+| 
+* {{icon|travel speed}} {{green|+15}} Travel Speed
+* {{icon|danger}} {{green|−100}} Wetlands Danger
+* {{icon|opinion}} {{red|−10}} Different Culture Opinion
+| Fenstalker<br>[[File:Trait the wake.png|60px]]
+| 
+* {{icon|martial}} {{green|+1}} Martial
+* {{icon|advantage}} {{green|+2}} Advantage in Wetlands
+* {{icon|supply}} {{green|+10%}} Supply Limit in Wetlands
+* {{icon|death}} {{green|−10%}} Attrition in Wetlands
+* {{icon|opinion}} {{red|−5}} Norman Opinion
+| 
+* {{icon|martial}} {{green|+1}} Martial
+* {{icon|advantage}} {{green|+3}} Advantage in Wetlands
+* {{icon|supply}} {{green|+20%}} Supply Limit in Wetlands
+* {{icon|death}} {{green|−20%}} Attrition in Wetlands
+* {{icon|opinion}} {{red|−5}} Norman Opinion
+| 
+* {{icon|dread}} {{green|+5}} Natural Dread
+* {{icon|prowess}} {{green|+1}} Prowess
+* {{icon|martial}} {{green|+1}} Martial
+* {{icon|advantage}} {{green|+2}} Minimum Battle Roll
+* {{icon|advantage}} {{green|+1}} Advantage in Wetlands
+* {{icon|supply}} {{green|+20%}} Supply Limit in Wetlands
+* {{icon|death}} {{green|−20%}} Attrition in Wetlands
+* {{icon|opinion}} {{red|−10}} Norman Opinion
+| 
+* {{icon|dread}} {{green|+15}} Natural Dread
+* {{icon|prowess}} {{green|+2}} Prowess
+* {{icon|martial}} {{green|+2}} Martial
+* {{icon|advantage}} {{green|+1}} Advantage in Uncontrolled
+* {{icon|supply}} {{green|+10%}} Supply Limit in Wetlands
+* {{icon|time}} {{green|+50%}} Raid Speed
+* {{icon|opinion}} {{red|−15}} Norman Opinion
+| Hereweard 'the Wake' of Oslac
+|}
+
+== Lifestyle traits ==
+Lifestyle traits can be obtained through either the final perk of each [[Lifestyle]] tree or as a result of Lifestyle [[Decisions]]. They are available for custom rulers even if the required DLC is not installed. Adding lifestyle traits to a custom ruler will not unlock the prerequisite perks. Resetting lifestyle perks remove the lifestyle traits as well.
+{| class="mildtable plainlist"
+! colspan="2" | Trait
+! Character effects
+! AI effects
+! Cost
+! Requirements
+! width=30% | Description
+|- id="Gardener"
+{{trait entry|Gardener}}
+|
+* {{icon|stewardship}} {{green|+2}} Stewardship
+* {{icon|stress gain}} {{green|−20%}} Stress Gain
+* {{icon|opinion}} {{green|+10}} Courtier and Guest Opinion
+|
+* +10 Rationality
+| {{red|+50}}
+| {{icon|unknown}} Random yearly event
+| ''This character knows everything there is to know about gardens, plants, and how to tend them.''
+|- id="August"
+{{trait entry|August}}
+|
+* {{icon|diplomacy}} {{green|+2}} Diplomacy
+* {{icon|martial}} {{green|+1}} Martial
+* {{icon|prestige}} {{green|+1}} Monthly Prestige
+* {{icon|legitimacy}} Increased Initial Legitimacy
+| +20 Energy
+| {{red|+50}}
+| {{icon|diplomacy lifestyle}} Finishing the [[Lifestyle#August|August]] perk tree
+| ''The August is honored as a true ruler, worthy of the empires of old!''
+|- id="Diplomat"
+{{trait entry|Diplomat}}
+|
+* {{icon|diplomacy}} {{green|+3}} Diplomacy
+* {{icon|opinion}} {{green|+20}} Independent Ruler Opinion
+* {{icon|scheme phase length}} {{green|-20}} Days Personal Scheme Phase Length
+* {{icon|decision}} Enables the Call for Confederation decision
+| 
+* +20 Energy
+* +20 Sociability
+| {{red|+50}}
+| {{icon|diplomacy lifestyle}} Finishing the [[Lifestyle#Diplomat|Diplomat]] perk tree
+| ''The Diplomat navigates the perilous waters of social interactions deftly, and achieves their goals with dazzling charisma and conviction while mediating between the highest rulers of the land.''
+|- id="Patriarch"
+| id="Matriarch" {{trait entry|Patriarch}} / Matriarch
+|
+* {{icon|fertility}} {{green|+20%}} Fertility
+* {{icon|Stress loss}} {{green|+20%}} Stress Loss
+* {{icon|opinion}} {{green|+15}} Close Family Opinion
+* {{icon|opinion}} {{green|+10}} House Opinion
+* {{icon|decision}} Enables the Call for Confederation decision
+| 
+* +20 Energy
+* +20 Sociability
+| {{red|+50}}
+| {{icon|diplomacy lifestyle}} Finishing the [[Lifestyle#Family_Hierarch|Family Hierarch]] perk tree
+| ''A person who is truly dedicated to their family, and the prosperity of their House.''
+|- id="Gallant"
+{{trait entry|Gallant}}
+|
+* {{icon|martial}} {{green|+2}} Martial
+* {{icon|prowess}} {{green|+4}} Prowess
+* {{icon|prestige}} {{green|+20%}} Monthly Prestige
+* {{icon|opinion}} {{green|+20}} Attraction Opinion
+* {{icon|accolade}} {{green|+20%}} Accolade Glory Gain
+| 
+* +35 Boldness
+* +20 Honor
+* +20 Sociability
+| {{red|+50}}
+| {{icon|martial lifestyle}} Finishing the [[Lifestyle#Gallant|Gallant]] perk tree
+| ''True nobility comes not only from one's blood, but from actions tempered by a spirit like gleaming steel.''
+|- id="Overseer"
+{{trait entry|Overseer}}
+|
+* {{icon|martial}} {{green|+2}} Martial
+* {{icon|stewardship}} {{green|+2}} Stewardship
+* {{icon|control}} {{green|+0.50}} Monthly Control Growth
+* {{icon|plague resistance}} {{green|+5}} Plague Resistance
+| +20 Rationality
+| {{red|+50}}
+| {{icon|martial lifestyle}} Finishing the [[Lifestyle#Overseer|Overseer]] perk tree
+| ''The guidance, firmness of hand, and authority ensure problems are solved properly.''
+|- id="Strategist"
+{{trait entry|Strategist}}
+|
+* {{icon|diplomacy}} {{green|+1}} Diplomacy
+* {{icon|martial}} {{green|+3}} Martial
+* [[File:Death natural.png|24px]] {{green|+25%}} Enemy Fatal Casualties
+* {{icon|advantage}} Crosses Rivers & Straits without Advantage penalties
+| +30 Rationality
+| {{red|+50}}
+| {{icon|martial lifestyle}} Finishing the [[Lifestyle#Strategist|Strategist]] perk tree
+| ''A dedicated student of of the art of war, capable of turning any situation to their advantage.''
+|- id="Administrator"
+{{trait entry|Administrator}}
+|
+* {{icon|diplomacy}} {{green|+1}} Diplomacy
+* {{icon|stewardship}} {{green|+3}} Stewardship
+* {{icon|opinion}} {{green|+5}} Vassal Opinion
+* {{icon|plague resistance}} {{green|+10}} Plague Resistance
+* [[File:Vassal stance parochial.png|24px]] {{green|+10}} Parochial Vassal Opinion
+| 
+* +20 Rationality
+* +10 Energy
+| {{red|+50}}
+| {{icon|stewardship lifestyle}} Finishing the [[Lifestyle#Administrator|Administrator]] perk tree
+| ''To organize, administrate, and raise efficiency - the Administrator will get it done.''
+|- id="Architect"
+{{trait entry|Architect}}
+|
+* {{icon|stewardship}} {{green|+2}} Stewardship
+* {{icon|time}} {{green|−15%}} Building Construction Time
+* {{icon|gold}} {{green|−10%}} Building Construction Cost
+* {{icon|time}} {{green|−15%}} Holding Construction Time
+* {{icon|gold}} {{green|−10%}} Holding Construction Cost
+* {{icon|time}} {{green|−15%}} Domicile Building Construction Time
+* {{icon|gold}} {{green|−10%}} Domicile Building Construction Cost
+| 
+* +10 Energy
+* +5 Rationality
+| {{red|+50}}
+| {{icon|stewardship lifestyle}} Finishing the [[Lifestyle#Architect|Architect]] perk tree
+| ''The works of an experienced builder will stand for centuries.''
+|- id="Avaricious"
+{{trait entry|Avaricious}}
+| 
+* {{icon|stewardship}} {{green|+2}} Stewardship
+* {{icon|gold}} {{green|+15%}} Holding Taxes
+| 
+* +30 Greed
+* +20 Energy
+* −20 Honor
+* −20 Rationality
+* −30 Compassion
+| {{red|+50}}
+| {{icon|stewardship lifestyle}} Finishing the [[Lifestyle#Avaricious|Avaricious]] perk tree
+| ''Gold, gold, gold! Can there be any higher calling, and goal more noble, than the pursuit of wealth?''
+|- id="Schemer"
+{{trait entry|Schemer}}
+|
+* {{icon|intrigue}} {{green|+5}} Intrigue
+* {{icon|scheme phase length}} {{green|-20}} Days Hostile Scheme Phase Length
+| −20 Honor
+| {{red|+50}}
+| {{icon|intrigue lifestyle}} Finishing the [[Lifestyle#Schemer|Schemer]] perk tree
+| ''The Schemer lives to understand and manipulate the things that drive other people - and exploit them!''
+|- id="Seducer"
+| id="Seductress" {{trait entry|Seducer}} / Seductress
+|
+* {{icon|intrigue}} {{green|+3}} Intrigue
+* {{icon|fertility}} {{green|+20%}} Fertility
+* {{icon|opinion}} {{green|+40}} Attraction Opinion
+| 
+* +20 Sociability
+* −10 Honor
+| {{red|+50}}
+| {{icon|intrigue lifestyle}} Finishing the [[Lifestyle#Seducer|Seducer]] perk tree
+| ''It is not difficult to desire. The true challenge is to be desired.''
+|- id="Torturer"
+{{trait entry|Torturer}}
+|
+* {{icon|prowess}} {{green|+4}} Prowess
+<!-- Transclusion used by Dread page -->
+* {{icon|dread}} {{green|+50%}} Dread Gain
+* {{icon|scheme phase length}} {{green|+20}} Days Enemy Hostile Scheme Phase Length
+* {{icon|levies}} {{green|+10%}} Levy Size
+| 
+* +20 Boldness
+* +20 Vengefulness
+* −30 Honor
+| {{red|+50}}
+| {{icon|intrigue lifestyle}} Finishing the [[Lifestyle#Torturer|Torturer]] perk tree
+| ''Inflicting pain. Holding someone's life in your hands. This is true power.''
+|- id="Scholar"
+{{trait entry|Scholar}}
+|
+* {{icon|learning}} {{green|+3}} Learning
+* {{icon|scheme success chance}} {{green|+10.0%}} Initial Hostile Scheme Success Chance
+* {{icon|scheme success chance}} {{green|+10.0%}} Initial Personal Scheme Success Chance
+* {{icon|development}} {{green|+15.0%}} Development Growth
+* {{icon|development}} {{green|−15%}} Development Decline
+* {{icon|county fertility}} {{green|+15%}} County Fertility Growth
+| +30 Rationality
+| {{red|+50}}
+| {{icon|learning lifestyle}} Finishing the [[Lifestyle#Scholar|Scholar]] perk tree
+| ''Philosophy, nature, and knowledge. Understanding the world is the only way to rule it.''
+|- id="Theologian"
+{{trait entry|Theologian}}
+|
+* {{icon|learning}} {{green|+3}} Learning
+* {{icon|piety}} {{green|+20%}} Monthly Piety
+* {{icon|lod}} {{green|+15%}} Yearly chance to unlock a Legend Seed
+| 
+* +20 Zeal
+* +10 Rationality
+| {{red|+50}}
+| {{icon|learning lifestyle}} Finishing the [[Lifestyle#Theologian|Theologian]] perk tree
+| ''Divinity holds the answer to every question, from what resides in the hearts of men, to the mysteries of life.''
+|- id="Whole of Body"
+{{trait entry|Whole of Body}}
+|
+* {{icon|fertility}} {{green|+20%}} Fertility
+* {{icon|health boost}} {{green|+0.50}} Health
+* {{icon|stress gain}} {{green|−20%}} Stress Gain
+| +20 Energy
+| {{red|+75}}
+| {{icon|learning lifestyle}} Finishing the [[Lifestyle#Whole_of_Body|Whole of Body]] perk tree
+| ''Know yourself, know your limitations, and know the full extent of your reach.''
+|- id="Herbalist"
+{{trait entry|Herbalist}}
+|
+* {{icon|learning}} {{green|+2}} Learning
+* {{icon|intrigue}} {{green|+2}} Intrigue
+* {{icon|health boost}} {{green|+0.50}} Health (Disease Resistance)
+|
+* +10 Rationality
+| {{red|+50}}
+| {{icon|learning lifestyle}} Medicine Lifestyle Focus events and activities
+| ''This character is well versed in herbs, botany, and medical practices related to plants.''
+|- id="Inspector"
+{{trait entry|Inspector}}
+|
+* {{icon|stewardship}} {{green|+2}} Stewardship
+* {{icon|opinion}} {{green|+25%}} Long Reign Bonus
+* {{icon|development}} {{green|+10%}} Development Growth
+* {{icon|safety}} {{green|+10}} Travel Safety
+|
+| {{red|+50}}
+| [[File:Wandering lifestyle.png|24px]] Finishing the [[Lifestyle#Inspector|Inspector]] perk tree
+| ''The realm thrives under the watchful eye of the Inspector. With a penchant for travel intricately woven into the fabric of governance, it personally oversees vassals and navigates the challenges of management, ensuring a prosperous and well-tended domain.''
+|- id="Wayfarer"
+{{trait entry|Wayfarer}}
+|
+* {{icon|diplomacy}} {{green|+2}} Diplomacy
+* {{icon|prowess}} {{green|+1}} Prowess per Level of Fame
+* {{icon|stress loss}} {{green|+5%}} Stress Loss per Level of Fame
+|
+| {{red|+50}}
+| [[File:Wandering lifestyle.png|24px]] Finishing the [[Lifestyle#Wayfarer|Wayfarer]] perk tree
+| ''Travelling is more than a means to an end for the Wayfarer. Disappearing for days at a time they will always return to tell fantastical tales of faraway places, tall mountains, dark caves, or deep forests.''
+|- id="Voyager"
+{{trait entry|Voyager}}
+|
+* {{icon|stewardship}} {{green|+2}} Stewardship
+* {{icon|prestige}} {{green|+0.25}} Monthly Prestige
+* {{icon|unknown}} {{green|+15%}} Diplomatic Range
+* {{icon|travel speed}} {{green|+10}} Travel Speed
+|
+| {{red|+50}}
+| [[File:Wandering lifestyle.png|24px]] Finishing the [[Lifestyle#Voyager|Voyager]] perk tree
+| ''The most glorious of cities, the ruins of old, kings and queens of faraway realms. The Voyager has seen it all, and is happy to share their experiences with others.''
+|}
+
+== Infamy traits ==
+Infamy traits may be virtuous, accepted, shunned or considered criminal for a character depending on the Doctrines or Tenets of its faith.
+
+Infamy traits don't take effect until they are revealed, in which case they would be secrets that could be discovered and revealed 
+{| class="mildtable plainlist"
+! colspan="2" | Trait
+! Effects
+! Deciding factor
+! Cost
+! Description
+|- id="Adulterer"
+{{trait entry|Adulterer}}
+| {{icon|opinion}} {{green|+10}} Same Trait Opinion
+|
+* [[File:Doctrine adultery men.png|50px]] Male Adultery doctrine
+* [[File:Doctrine adultery women.png|50px]] Female Adultery doctrine
+| {{green|-5}}
+| ''This character has violated the sanctity of marriage by copulating with another.''
+|- id="Fornicator"
+{{trait entry|Fornicator}}
+| {{icon|opinion}} {{green|+10}} Same Trait Opinion
+|
+* [[File:Doctrine adultery men.png|50px]] Male Adultery doctrine
+* [[File:Doctrine adultery women.png|50px]] Female Adultery doctrine
+| {{green|-5}}
+| ''This character has copulated outside of wedlock.''
+|- id="Deviant"
+{{trait entry|Deviant}}
+|
+* {{icon|Stress loss}} {{green|+25%}} Stress Loss
+* {{icon|opinion}} {{green|+35}} Same Trait Opinion
+| [[File:Doctrine deviancy.png|50px]] Deviancy doctrine
+| {{green|-5}}
+| ''This character has an... eclectic and unconventional taste.''
+|- id="Dynastic Kinslayer"
+{{trait entry|Dynastic Kinslayer}}
+| {{icon|opinion}} {{red|−5}} Dynasty Opinion
+| [[File:Doctrine kinslaying.png|50px]] Kinslaying doctrine
+| {{icon|no}}
+| ''This character has committed the sin of murdering a dynasty member.''
+|- id="Familial Kinslayer"
+{{trait entry|Familial Kinslayer}}
+|
+* {{icon|opinion}} {{red|−5}} Close Family Opinion
+* {{icon|opinion}} {{red|−5}} Dynasty Opinion
+| [[File:Doctrine kinslaying.png|50px]] Kinslaying doctrine
+| {{icon|no}}
+| ''This character has slain a member of their extended family.''
+|- id="Kinslayer"
+{{trait entry|Kinslayer}}
+|
+* {{icon|opinion}} {{red|−10}} Close Family Opinion
+* {{icon|opinion}} {{red|−5}} Dynasty Opinion
+| [[File:Doctrine kinslaying.png|50px]] Kinslaying doctrine
+| {{icon|no}}
+| ''This character is known for having slain close kin.''
+|- id="Incestuous"
+{{trait entry|Incestuous}}
+| {{icon|opinion}} {{green|+20}} Same Trait Opinion
+| [[File:Doctrine consanguinity.png|50px]] Consanguinity doctrine
+| '''0'''
+| ''This character is known for having sexual relations with relatives.''
+|- id="Sodomite"
+{{trait entry|Sodomite}}
+| {{icon|opinion}} {{green|+10}} Same Trait Opinion
+| [[File:Doctrine homosexuality.png|50px]] Same-Sex Relations doctrine
+| {{icon|no}}
+| ''This character is known for having sexual relations with people of their own gender.''
+|- id="Witch"
+{{trait entry|Witch}}
+|
+* {{icon|diplomacy}} {{red|−1}} Diplomacy
+* {{icon|intrigue}} {{green|+1}} Intrigue
+* {{icon|learning}} {{green|+1}} Learning
+* {{icon|opinion}} {{green|+20}} Same Trait Opinion
+| [[File:Doctrine witchcraft.png|50px]] Witchcraft doctrine
+| {{red|+10}}
+| ''This character dabbles in subjects many would consider occult.''
+|- id="Cannibal"
+{{trait entry|Cannibal}}
+|
+* {{icon|prowess}} {{green|+2}} Prowess
+* {{icon|Stress loss}} {{green|+15%}} Stress Loss
+* {{icon|dread}} {{green|+20}} Natural Dread
+* {{icon|opinion}} {{green|+35}} Same Trait Opinion
+| [[File:Core tenet foodsacrifice.png|50px]] Ritual Cannibalism tenet
+| {{red|+40}}
+| ''This character thinks that other people make the best of meals.''
+|- id="Excommunicated"
+{{trait entry|Excommunicated}}
+<!-- Transclusion used in Piety page. -->
+|
+* {{icon|piety}} {{red|−50%}} Monthly piety
+* [[File:Vassal stance zealot.png|24px]] {{red|−50}} Zealot Vassal Opinion
+* {{icon|yes}} Enables the Make Declaration of Repentance interaction with the head of faith
+* {{icon|no}} Cannot have Anointment Coronations
+* [[File:Excommunication cb.png|24px]] {{red|Rulers with the same faith gain the Excommunication War casus belli}}
+| [[File:Core tenet chalice.png|50px]] Communion tenet
+| {{icon|no}}
+| ''This character has been excluded from participating in religious services.''
+|- id="Murderer"
+{{trait entry|Murderer}}
+| {{icon|opinion}} {{red|−15}} General Opinion
+| Relation to victim
+| {{green|-10}}
+| ''This character has illegally brought about someone's demise.''
+|}
+
+== Coping mechanisms ==
+A coping mechanism is a trait that can be obtained when a character suffers a [[mental break]] and helps a character lose {{iconify|stress}} and usually imparts negative effects. A few coping mechanisms impart only positive effects and are rare but can be obtained more easily by having the ''Whole of Body'' lifestyle focus. Each coping mechanism unlocks a unique decision.
+{| class="mildtable plainlist "
+! colspan="2" | Trait
+! Character effects
+! Unlocked decision
+! AI effects
+! Cost
+! width=40% | Description
+|- id="Drunkard"
+{{trait entry|Drunkard}}
+|
+* {{icon|stewardship}} {{red|−2}} Stewardship
+* {{icon|prowess}} {{red|−2}} Prowess
+* {{icon|health penalty}} {{red|−0.15}} Health
+* {{icon|Stress loss}} {{green|+20%}} Stress Loss
+* {{icon|safety}} {{red|−10}} Travel Safety
+* {{icon|opinion}} {{green|+10}} Same Trait Opinion
+| Indulge in Drink
+| 
+* −10 Rationality
+* −15 Energy
+| {{green|-10}}
+| ''This character has taken to the bottle, and is constantly looking for its bottom.''
+|- id="Flagellant"
+{{trait entry|Flagellant}}
+|
+* {{icon|prowess}} {{red|−2}} Prowess
+* {{icon|health penalty}} {{red|−0.15}} Health
+* {{icon|Stress loss}} {{green|+20%}} Stress Loss
+| Flagellate
+| 
+* +25 Zeal
+* +10 Honor
+* +5 Boldness
+| {{green|-10}}
+| ''The catharsis of self-flagellation is the only thing which makes this character feel better.''
+|- id="Comfort Eater"
+{{trait entry|Comfort Eater}}
+|
+* {{icon|stewardship}} {{red|−1}} Stewardship
+* {{icon|Stress loss}} {{green|+20%}} Stress Loss
+| Indulge in Food
+| 
+* +5 Greed
+* −5 Energy
+| {{green|-5}}
+| ''This character often tries to fill the emptiness they feel by indulging in comforting foods.''
+|- id="Contrite"
+{{trait entry|Contrite}}
+|
+* {{icon|intrigue}} {{red|−2}} Intrigue
+* {{icon|Stress loss}} {{green|+20%}} Stress Loss
+| Confess
+| 
+* +10 Compassion
+* +10 Honor
+* +10 Zeal
+* −10 Vengefulness
+| {{green|-5}}
+| ''This character suffers from a guilty conscience, often feeling compelled to confess things better left unmentioned.''
+|- id="Improvident"
+{{trait entry|Improvident}}
+|
+* {{icon|diplomacy}} {{green|+1}} Diplomacy
+* {{icon|gold}} {{red|−15%}} Monthly Income
+* {{icon|Piety}} {{green|+0.5}} Monthly Piety
+* {{icon|Stress loss}} {{green|+20%}} Stress Loss
+* [[File:Vassal stance zealot.png|24px]] {{green|+10}} Zealot Vassal Opinion
+| Donate to Charity
+| 
+* +10 Compassion
+* −10 Greed
+| {{green|-5}}
+| ''This character habitually gives far more money away to charities than they can reasonably afford.''
+|- id="Inappetetic"
+{{trait entry|Inappetetic}}
+|
+* {{icon|diplomacy}} {{red|−1}} Diplomacy
+* {{icon|prowess}} {{red|−3}} Prowess
+* {{icon|Stress loss}} {{green|+20%}} Stress Loss
+| Shun Food
+| 
+* −5 Greed
+* −10 Energy
+| {{green|-5}}
+| ''Stress has ruined this character's appetite, causing them to skip meals and waste away...''
+|- id="Reclusive"
+{{trait entry|Reclusive}}
+|
+* {{icon|diplomacy}} {{red|−2}} Diplomacy
+* {{icon|stewardship}} {{red|−1}} Stewardship
+* {{icon|Stress loss}} {{green|+20%}} Stress Loss
+* {{icon|plague resistance}} {{green|+10}} Plague Resistance
+* [[File:Withdraw from view.png|24px]] Improves the Withdraw from View countermeasure (Tier 3)
+| Seclude Yourself
+| 
+* −10 Boldness
+* −10 Energy
+* −35 Sociability
+| {{green|-5}}
+| ''This character often sequestrates themselves away and neglects their responsibilities.''
+|- id="Irritable"
+{{trait entry|Irritable}}
+|
+* {{icon|diplomacy}} {{red|−2}} Diplomacy
+* {{icon|martial}} {{red|−1}} Martial
+* {{icon|prowess}} {{green|+2}} Prowess
+* {{icon|Stress loss}} {{green|+20%}} Stress Loss
+<!-- Transclusion used in Dread page -->
+* {{icon|dread}} {{green|+10%}} Dread Gain
+* {{icon|opinion}} {{red|−5}} Attraction Opinion
+* {{icon|stress}} Enables the Release your Anger interaction at stress level 1+
+| Lash Out
+| 
+* +10 Boldness
+* +10 Energy
+* +10 Vengefulness
+* −10 Compassion
+* −20 Rationality
+| '''0'''
+| ''Stress has made this character prone to frequent outbursts and tantrums.''
+|- id="Rakish"
+{{trait entry|Rakish}}
+|
+* {{icon|diplomacy}} {{red|−1}} Diplomacy
+* {{icon|intrigue}} {{green|+1}} Intrigue
+* {{icon|Stress loss}} {{green|+20%}} Stress Loss
+* {{icon|opinion}} {{red|−5}} Attraction Opinion
+* {{icon|opinion}} {{green|+5}} Same Trait Opinion
+| Visit a Brothel
+| 
+* +20 Sociability
+* +10 Greed
+* −10 Energy
+* −10 Honor
+* −10 Zeal
+| '''0'''
+| ''This character spends so much time in the brothel that it has become their second home.''
+|- id="Hashishiyah"
+{{trait entry|Hashishiyah}}
+|
+* {{icon|stewardship}} {{red|−2}} Stewardship
+* {{icon|learning}} {{red|−2}} Learning
+* {{icon|Stress loss}} {{green|+20%}} Stress Loss
+* {{icon|opinion}} {{green|+10}} Same Trait Opinion
+| Consume Hashish Cakes
+| 
+* −10 Vengefulness
+* −15 Energy
+| {{red|+5}}
+| ''This character is dependent on the consumption of hashish to deal with the stress of everyday life.''
+|- id="Profligate"
+{{trait entry|Profligate}}
+|
+* {{icon|gold}} {{red|−10%}} Monthly Income
+* {{icon|prestige}} {{green|+0.50}} Monthly Prestige
+* {{icon|Stress loss}} {{green|+20%}} Stress Loss
+* [[File:Vassal stance courtly.png|24px]] {{green|+10}} Courtly Vassal Opinion
+| Visit the Market
+| 
+* +10 Greed
+* −10 Compassion
+| {{red|+10}}
+| ''Compulsive spending causes this character to frequently waste money on unnecessary purchases.''
+|- id="Confider"
+{{trait entry|Confider}}
+|
+* {{icon|diplomacy}} {{green|+1}} Diplomacy
+* {{icon|Stress loss}} {{green|+20%}} Stress Loss
+| Talk to Confidant
+| 
+* +20 Sociability
+* +10 Compassion
+| {{red|+15}}
+| ''In sharing their problems with a close confidant, this character has become able to manage life far better than they could before.''
+|- id="Journaller"
+{{trait entry|Journaller}}
+|
+* {{icon|learning}} {{green|+1}} Learning
+* {{icon|Stress loss}} {{green|+20%}} Stress Loss
+| Write Thoughts Down
+| +10 Rationality
+| {{red|+15}}
+| ''This character has taken to writing down the thoughts which plague them to make them easier to manage.''
+|- id="Athletic"
+{{trait entry|Athletic}}
+|
+* {{icon|prowess}} {{green|+1}} Prowess
+* {{icon|health boost}} {{green|+0.25}} Health
+* {{icon|Stress loss}} {{green|+20%}} Stress Loss
+| Work Off Some Stress
+| 
+* +25 Energy
+* +5 Boldness
+| {{red|+40}}
+| ''Regular exercise helps this character keep a level head and burn off stress.''
+|- id="Burdened"
+{{trait entry|Burdened}}
+|
+* {{icon|learning}} {{red|−2}} Learning
+* {{icon|merit}} {{red|−30%}} Monthly Merit
+* {{icon|Stress loss}} {{green|+20%}} Stress Loss
+* {{icon|governor}} {{red|−30%}} Governor Trait Experience Gain
+* {{icon|strong hook}} Can offer potential agents a Strong Hook
+| 
+| 
+* +20 Sociability
+* +10 Compassion
+* -10 Energy
+* -10 Rationality
+* -10 Vengefulness
+| {{green|-10}}
+| ''Scholarly success eludes this character, their path full of thorns. To escape the constant feelings of inadequacy, this character lets their mind wander to the soft clouds above.''
+|}
+
+== Childhood traits ==
+Characters between 3 and 15 years old can have one childhood trait. Childhood traits grant a minor bonus to two Skills and if the child is given an Education Focus that matches one of the two Skills the trait improves, then the trait can improve the level of the education trait given when the character reaches adulthood. If creating a custom ruler each childhood trait costs 5 customization points.
+{| class="mildtable plainlist sortable" style="text-align: center;
+! colspan="2" | Trait
+! {{iconify|Diplomacy}}
+! {{iconify|Martial}}
+! {{iconify|Stewardship}}
+! {{iconify|Intrigue}}
+! {{iconify|Learning}}
+! {{icon|scheme phase length}} Learn Language Phase Length
+! [[File:Focus invalid.png|24px]] Wrong education
+! AI effects
+! width=20% | Description
+|- id="Bossy"
+{{trait entry|Bossy}} || '''0''' || {{green|+1}} || {{green|+1}} || '''0''' || '''0''' || '''0''' || {{iconify|Diplomacy}}
+|
+* +25 Boldness
+* +25 Greed
+* +15 Honor
+* +15 Rationality
+* +15 Vengefulness
+| align=left | ''This child can often be seen ordering other children around. While they are concerned with getting things done the right way, getting things done their way is equally important.''
+|- id="Charming"
+{{trait entry|Charming}} || {{green|+1}} || '''0''' || '''0''' || {{green|+1}} || '''0''' || {{green|-20}} || {{iconify|Stewardship}}
+| 
+* +25 Greed
+* +25 Sociability
+* +15 Compassion
+* +15 Rationality
+* +15 Vengefulness
+* -15 Honor
+| align=left | ''This child certainly knows how to wrap people around their little finger. They are sweet and amiable, which allows them to get away with almost anything.''
+|- id="Curious"
+{{trait entry|Curious}} || {{green|+1}} || '''0''' || '''0''' || '''0''' || {{green|+1}} || {{green|-40}} || {{iconify|Martial}}
+|
+* +25 Boldness +25 Compassion
+* +15 Energy
+* +15 Honor
+* +15 Sociability
+* -15 Vengefulness
+| align=left | ''There is rarely a silent moment with this child. Constantly asking questions, they are curious about everything and everyone.''
+|- id="Pensive"
+{{trait entry|Pensive}} || '''0''' || '''0''' || {{green|+1}} || '''0''' || {{green|+1}} || {{green|-40}} || {{iconify|Intrigue}}
+|
+* +25 Rationality
+* +15 Energy
+* +15 Honor
+* -15 Greed
+* -15 Boldness
+* -25 Sociability
+| align=left | ''This child is often lost in thought, trying understand the world around them. They often rely on books and systems to make sense of things.''
+|- id="Rowdy"
+{{trait entry|Rowdy}} || '''0''' || {{green|+1}} || '''0''' || {{green|+1}} || '''0''' || '''0''' || {{iconify|Learning}}
+|
+* +25 
+* +25 Energy
+* +15 Sociability
+* +15 Vengefulness
+* -15 Compassion
+* -15 Honor
+* -15 Rationality
+| align=left | ''This child is always on the move, full of energy and mischief. When they are up to something, it is not uncommon for others to get hurt.''
+|}
+
+== Health traits ==
+A Health trait is a negative trait that lowers a character's {{iconify|Health}} and is visible on the character. They last a varying amount of time and differ greatly in lethality.
+
+The visual effect of certain health traits can be replaced with one from a lesser trait by disabling ''Show graphic diseases and injuries'' option in the settings menu.
+{| class="mildtable sortable" style="text-align: center;
+! colspan="2" | Trait
+! {{iconify|Diplomacy}}
+! {{iconify|Martial}}
+! {{iconify|Stewardship}}
+! {{iconify|Intrigue}}
+! {{iconify|Learning}}
+! {{iconify|Prowess}}
+! {{iconify|Dread}}
+! {{iconify|Fertility}}
+! {{iconify|Dread}} Loss
+! {{icon|opinion}} Attraction
+! {{icon|health penalty}} Health
+! Curable
+! Congenital
+! Cost
+|- id="Sickly"
+{{trait entry|Sickly}}  || '''0''' || '''0''' || '''0''' || '''0''' || '''0''' || '''0''' || {{red|−20}} || '''0''' || {{red|+100%}} || '''0''' || {{red|−2.5}} || {{icon|yes|alt=y}} || {{icon|no|alt=y}} || 
+|- id="Impotent"
+{{trait entry|Impotent}} || '''0''' || '''0''' || '''0''' || '''0''' || '''0''' || '''0''' || '''0''' || {{red|−50%}} || '''0''' || '''0''' || '''0''' || {{icon|no|alt=y}} || {{icon|no|alt=y}} || 
+|- id="Maimed"
+{{trait entry|Maimed}} || {{red|−2}} || {{red|−2}} || {{red|−2}} || {{red|−2}} || {{red|−2}} || {{red|−4}} || {{red|−15}} || {{red|−50%}} || {{red|+100%}} || {{red|−10}} || {{red|−3}} || {{icon|no|alt=y}} || {{icon|no|alt=y}} || 
+|- id="Infirm"
+{{trait entry|Infirm}} || {{red|−3}} || {{red|−3}} || {{red|−3}} || {{red|−3}} || {{red|−3}} || {{red|−6}} || {{red|−15}} || {{red|−30%}} || {{red|+100%}} || '''0''' || {{red|−1}} || {{icon|no|alt=y}} || {{icon|no|alt=y}} || {{green|-20}}
+|- id="Inbred"
+{{trait entry|Inbred}} || {{red|−5}} || {{red|−5}} || {{red|−5}} || {{red|−5}} || {{red|−5}} || {{red|−2}} || '''0''' || {{red|−50%}} || '''0''' || {{red|−30}} || {{red|−1.5}} || {{icon|no|alt=y}} || {{icon|yes|alt=y}} || {{green|-30}}
+|- id="Blind"
+{{trait entry|Blind}} || '''0''' || {{red|−6}} || {{red|−2}} || {{red|−2}} || '''0''' || {{red|−10}} || {{red|−10}} || '''0''' || '''0''' || {{red|−10}} || {{red|−0.25}} || {{icon|no|alt=y}} || {{icon|no|alt=y}} || {{green|-10}}
+|- id="Disfigured"
+{{trait entry|Disfigured}} || {{red|−4}} || '''0''' || '''0''' || '''0''' || '''0''' || '''0''' || '''0''' || {{red|−20%}} || '''0''' || {{red|−20}} || '''0''' || {{icon|no|alt=y}} || {{icon|no|alt=y}} || {{green|-10}}
+|}
+
+=== Wounds ===
+There are three traits of increasing severity that represents a character's current level of wounds. They are increased as part of various events, hunts, duels, or battles, and have a chance to be reduced every 3 months. The chance to reduce wounds decreases with the character's age and {{iconify|Stress}}. They cannot be added to custom characters. If a character gets wounded while they already have the highest level of wounds they will die. When a character fully recovers from wounds they have a 40% chance to gain or increase the {{iconify|Scarred}} trait.
+{| class="mildtable" style="text-align: center;
+! colspan="2" | Trait
+! {{iconify|Martial}}
+! {{iconify|Intrigue}}
+! {{iconify|Prowess}}
+! {{iconify|Dread}}
+! {{iconify|Fertility}}
+! {{iconify|Dread}} Loss
+! {{icon|opinion}} Attraction
+! {{icon|health penalty}} Health
+! Base recovery chance
+! Description
+|- id="Wounded"
+{{trait entry|Wounded}} || {{red|−1}} || {{red|−1}} || {{red|−2}} || {{red|−10}} || '''0''' || {{red|+100%}} || '''0''' || {{red|−1}} || 40% || ''This character has been wounded, but will probably heal fine given time.''
+|- id="Severely Injured"
+{{trait entry|Severely Injured}} || {{red|−2}} || {{red|−2}} || {{red|−4}} || {{red|−15}} || {{red|−25%}} || {{red|+100%}} || {{red|−10}} || {{red|−2}} || 20% || ''This character has been severely injured, and the road to recovery could be a long one.''
+|- id="Brutally Mauled"
+{{trait entry|Brutally Mauled}} || {{red|−4}} || {{red|−4}} || {{red|−8}} || {{red|−20}} || {{red|−75%}} || {{red|+100%}} || {{red|−20}} || {{red|−4}} || 10% || ''This character has been broken, and is clinging to life.''
+|}
+Each time a character's wounds increase, there is a 10% chance that 2 or 3 months later the wound will become infected, giving a severe {{iconify|Health Penalty}}. 3 months later there is a 15% chance the infection will go away and a 10% chance the infection will be replaced by gangrene, giving an even more severe {{iconify|Health Penalty}}.
+
+=== Diseases ===
+Diseases are Health traits that can be spread from one character to another. If a character recovers from a disease they become immune to it. Immunity is permanent for the Bubonic Plague, Smallpox and Measles and lasts 20 years for other traits. There is no immunity against the Ill trait. STD diseases are congenital and can also be spread to other characters if sleeping with them.
+
+Each year a character has a 10% chance to gain a Diseases trait, though this can be reduced in multiple ways. Diseases are also gained from plagues being in the domain or travel baronies. The Bubonic Plague may or may not appear depending on game rules.
+
+The health penalties can be reduced or canceled if a {{icon|court physician}} Personal Physician with sufficient Aptitude was employed.
+{| class="mildtable sortable" style="text-align: center;
+! colspan="2" | Trait
+! {{iconify|Diplomacy}}
+! {{iconify|Martial}}
+! {{iconify|Stewardship}}
+! {{iconify|Intrigue}}
+! {{iconify|Learning}}
+! {{iconify|Prowess}}
+! {{iconify|Dread}}
+! {{iconify|Fertility}}
+! {{iconify|Dread}} Loss
+! {{icon|opinion}} Attraction
+! {{iconify|Health Penalty}}
+! Curable
+! STD
+! Cost
+|- id="Ill"
+{{trait entry|Ill}} || '''0''' || '''0''' || '''0''' || '''0''' || '''0''' || {{red|−4}} || {{red|−10}} || {{red|−20%}} || {{red|+100%}} || '''0''' || Everyone: {{red|Severe}}<br>Elderly: {{red|Severe}} || {{icon|yes}} || {{icon|no}} || '''0'''
+|- id="Bloody Flux"
+{{trait entry|Bloody Flux}} || {{red|−2}} || {{red|−1}} || '''0''' || {{red|−2}} || '''0''' || {{red|−8}} || {{red|−50}} || '''0''' || '''0''' || {{red|−5}} || Everyone: {{red|Critical}}<br>Elderly: {{red|Severe}} || {{icon|yes}} || {{icon|no}} || '''0'''
+|- id="Bubonic Plague"
+{{trait entry|Bubonic Plague}} || {{red|−2}} || {{red|−3}} || {{red|−2}} || {{red|−3}} || {{red|−2}} || {{red|−10}} || {{red|−30}} || {{red|−50%}} || {{red|+100%}} || {{red|−30}} || Everyone: {{red|The Reaper Approaches}} || {{icon|yes}} || {{icon|no}} || 
+|- id="Cancer"
+{{trait entry|Cancer}} || '''0''' || '''0''' || '''0''' || '''0''' || '''0''' || '''0''' || {{red|−15}} || {{red|−20%}} || {{red|+100%}} || '''0''' || Everyone: {{red|Critical}}<br>Elderly: {{red|Severe}} || {{icon|yes}} || {{icon|no}} || {{green|-10}}
+|- id="Consumption"
+{{trait entry|Consumption}} || {{red|−2}} || '''0''' || {{red|−1}} || {{red|−2}} || '''0''' || {{red|−2}} || {{red|−10}} || '''0''' || {{red|+100%}} || {{red|−10}} || Everyone: {{red|Severe}}<br>Child: {{red|Severe}}<br>Elderly: {{red|Severe}} || {{icon|yes}} || {{icon|no}} || '''0'''
+|- id=" Great Pox"
+{{trait entry|Great Pox}} || {{red|−1}} || {{red|−1}} || {{red|−1}} || {{red|−1}} || {{red|−1}} || '''0''' || {{red|−20}} || {{red|−20%}} || {{red|+100%}} || {{red|−10}} || Everyone: {{red|Severe}} || {{icon|yes}} || {{icon|yes}} || {{green|-10}}
+|- id="Gout Ridden"
+{{trait entry|Gout Ridden}} || {{red|−2}} || {{red|−1}} || '''0''' || '''0''' || '''0''' || {{red|−2}} || {{red|−5}} || '''0''' || '''0''' || {{red|−15}} || Everyone: {{red|Severe}} || {{icon|yes}} || {{icon|no}} || {{green|-5}}
+|- id="Holy Fire"
+{{trait entry|Holy Fire}} || {{red|−6}} || '''0''' || {{red|−1}} || {{red|−2}} || {{red|−2}} || '''0''' || {{red|−25}} || '''0''' || '''0''' || {{red|−10}} || Everyone: {{red|Critical}} || {{icon|yes}} || {{icon|no}} || '''0'''
+|- id="Leper"
+{{trait entry|Leper}} || '''0''' || '''0''' || '''0''' || '''0''' || '''0''' || {{red|−8}} || {{red|−20}} || {{red|−95%}} || {{red|+100%}} || {{red|−35}} || Everyone: {{red|Severe}} || {{icon|no}} || {{icon|no}} || {{green|-30}}
+|- id="Lover's Pox"
+{{trait entry|Lover's Pox}} || '''0''' || '''0''' || '''0''' || '''0''' || '''0''' || '''0''' || {{red|−5}} || '''0''' || '''0''' || {{red|−20}} || '''None''' || {{icon|no}} || {{icon|yes}} || '''0'''
+|- id="Measles"
+{{trait entry|Measles}} || {{red|−2}} || '''0''' || {{red|−1}} || {{red|−1}} || {{red|−2}} || {{red|−4}} || {{red|−5}} || '''0''' || '''0''' || {{red|−10}} || Everyone: {{red|Critical}}<br>Child: {{red|Critical}} || {{icon|yes}} || {{icon|no}} || '''0'''
+|- id="Pneumonia"
+{{trait entry|Pneumonia}} || {{red|−2}} || {{red|−2}} || {{red|−2}} || {{red|−2}} || {{red|−2}} || {{red|−8}} || {{red|−10}} || {{red|−50%}} || {{red|+100%}} || '''0''' || Everyone: {{red|Critical}}<br>Elderly: {{red|Severe}} || {{icon|yes}} || {{icon|no}} || '''0'''
+|- id="Smallpox"
+{{trait entry|Smallpox}} || {{red|−2}} || '''0''' || {{red|−1}} || '''0''' || {{red|−2}} || {{red|−10}} || {{red|−15}} || {{red|−25%}} || {{red|+100%}} || {{red|−10}} || Everyone: {{red|Catastrophic}}<br>Elderly: {{red|Severe}} || {{icon|yes}} || {{icon|no}} || '''0'''
+|- id="Typhus"
+{{trait entry|Typhus}} || {{red|−1}} || '''0''' || {{red|−2}} || {{red|−1}} || {{red|−2}} || {{red|−4}} || {{red|−15}} || {{red|−20%}} || {{red|+100%}} || {{red|−10}} || Everyone: {{red|Catastrophic}}<br>Elderly: {{red|Severe}} || {{icon|yes}} || {{icon|no}} || '''0'''
+|}
+
+=== Incapable ===
+Incapable is the most severe health trait and cannot be added at character creation. It prevents the character from having children, declaring war, performing schemes, hosting or joining activities, being councilors or knights, or taking part in duels, and forces them into an Entrenched Regency. It prevents them from making decisions except for the newly-unlocked Attempt Suicide decision and if the character has a royal court the throne will be empty. It also brings the following penalties:
+* {{icon|diplomacy}} {{red|-6}} Diplomacy
+* {{icon|martial}} {{red|-6}} Martial
+* {{icon|stewardship}} {{red|-6}} Stewardship
+* {{icon|intrigue}} {{red|-6}} Intrigue
+* {{icon|learning}} {{red|-6}} Learning
+* {{icon|prowess}} {{red|-12}} Prowess
+* {{icon|dread}} {{red|-25}} Natural Dread
+* {{icon|dread}} {{red|+100%}} Dread Loss
+* {{icon|health negative}} {{red|Severe Health Penalty}}
+
+== Dynasty traits ==
+Dynasty traits can be either given or removed by members of the same Dynasty.
+{| class="mildtable plainlist "
+! colspan="2" | Trait
+! Effects
+! Cost
+! Requirements
+! width=20% | Description
+|- id="Bastard"
+{{trait entry|Bastard}}
+|
+* {{icon|diplomacy}} {{red|−1}} Diplomacy
+* {{icon|opinion}} {{red|−15}} Dynasty Opinion
+* {{icon|legitimacy}} {{red|−10%}} Legitimacy Gain
+* {{icon|warning}} Can not inherit titles
+* {{icon|opinion}} {{green|+5}} Same Trait Opinion
+| '''0'''
+| 
+* [[File:Secret adultery.png|24px]] Character was born outside marriage or concubinage
+* [[File:Doctrine bastardry.png|24px]] Faith does not have the No Bastards bastardry doctrine
+| ''This character was not born of a legal pairing of parents, or a concubine, and will have to live with the stain of illegitimacy their whole life.''
+|- id="Bastard Founder"
+{{trait entry|Bastard Founder}}
+| 
+* {{icon|diplomacy}} {{red|−1}} Diplomacy
+* {{icon|warning}} Can not inherit titles
+|
+| {{icon|yes}} Character gained a Landed title while being a Bastard
+| ''A former bastard who has founded their own Dynasty.''
+|- id="Born in the Purple"
+{{trait entry|Born in the Purple}}
+|
+* {{icon|prestige}} {{green|+0.10}} Monthly Prestige
+* {{icon|influence}} {{green|+0.75}} Monthly Influence
+* {{icon|opinion}} {{green|−25%}} Short Reign Duration
+* {{icon|legitimacy}} Increased Initial Legitimacy
+| {{red|+40}}
+|
+* {{icon|barony}} One of the parents had their capital in the Barony of Constantinople when the character was born
+* {{icon|empire}} The same parent owned the Byzantine Empire or Roman Empire title when the character was born
+* {{icon|yes}} A parent's culture had the Byzantine Traditions or Roman Ceremonies tradition
+* {{icon|yes}} If the mother was landless she must have been in Constantinople or a diarch during birth
+* {{icon|yes}} If the mother was landed she must have been at peace with the father during birth
+* {{icon|no}} Mother was imprisoned during the birth
+* {{icon|no}} Mother was commanding an army the during birth
+* {{icon|cor}} If Coronation laws are enabled the parents much be crowned
+| ''This character was born to prominent parents, a rich life and high expectations.''
+|- id="Child of Concubine"
+| id="Consort" {{trait entry|Child of Concubine}}
+| {{icon|diplomacy}} {{red|−1}} Diplomacy
+|
+| {{icon|yes}} One of the parents was a Concubine when the character was born
+| ''This character was born of a concubine.''<br>''This character was fathered by a concubine.''
+|- id="Denounced"
+{{trait entry|Denounced}}
+|
+* {{icon|diplomacy}} {{red|−1}} Diplomacy
+* {{icon|prestige}} {{red|−1}} Monthly Prestige
+* {{iconify|Crime}} towards members of the same Dynasty
+* {{icon|yes}} Removed if character becomes Dynasty Head
+|
+| {{icon|yes}} Denounce Dynasty Head interaction
+| ''This character has been denounced by the Dynasty Head and can now be imprisoned by any other Dynasty member.''
+|- id="Disinherited"
+{{trait entry|Disinherited}}
+| 
+* {{icon|opinion}} {{red|−5}} Dynasty Opinion
+* {{icon|warning}} Can not inherit titles from the same Dynasty
+* {{icon|yes}} Removed if character becomes Dynasty Head
+|
+| {{icon|yes}} Disinherit Dynasty Head interaction
+| ''This character has been disinherited by the Dynasty Head and cannot inherit any title from any Dynasty member.''
+|- id="Disputed Heritage"
+{{trait entry|Disputed Heritage}}
+| 
+* {{icon|diplomacy}} {{red|−1}} Diplomacy
+* {{icon|opinion}} {{red|−10}} House Opinion
+* {{icon|legitimacy}} {{red|+10%}} Legitimacy Loss
+|
+| [[File:Secret adultery.png|24px]] Illegitimate Child secret was exposed
+| ''Credible Rumors surround this character's heritage. Many say that their father is someone else.''
+|- id="Legitimized Bastard"
+{{trait entry|Legitimized Bastard}}
+|
+* {{icon|diplomacy}} {{red|−1}} Diplomacy
+* {{icon|opinion}} {{red|−10}} Dynasty Opinion
+* {{icon|legitimacy}} {{red|−5%}} Legitimacy Gain
+| '''0'''
+| {{icon|yes}} Legitimize House Head interaction
+| ''This character was born a bastard, but has since been legitimized.''
+|- id="Twin"
+{{trait entry|Twin}}
+| {{icon|opinion}} {{green|+15}} Twin Sibling Opinion
+|
+| {{icon|unknown}} 2% chance at birth
+| ''This character was born a twin.''
+|- id="Wild Oat"
+{{trait entry|Wild Oat}}
+| {{icon|diplomacy}} {{red|−1}} Diplomacy
+| '''0'''
+| 
+* [[File:Secret adultery.png|24px]] Character was born outside marriage or concubinage
+* [[File:Doctrine bastardry.png|24px]] Faith has the No Bastards bastardry doctrine
+| ''This character was born out of wedlock.''
+|- id="Accused of Decadence"
+{{trait entry|Accused of Decadence}}
+|
+* {{icon|piety}} {{red|−1}} Monthly Piety
+* {{icon|stress gain}} {{red|+25%}} Stress Gain
+* {{icon|opinion}} {{red|−15}} House Opinion
+* {{icon|scheme success chance}} {{green|+10.0%}} Initial Hostile Scheme Success Chance
+* {{icon|scheme secrecy}} {{green|+10%}} Scheme Secrecy
+* {{icon|opinion}} {{green|+25}} Same Trait Opinion
+* {{icon|yes}} Removed if character becomes House Head
+| 
+| {{icon|yes}} Accuse of Decadence House Head interaction
+| ''This character has been accused of decadence by their House Head. Whether the claims are true or not, his reputation and credibility is significantly tarnished.''
+|- id="Extolled by House"
+{{trait entry|Extolled by House}}
+|
+* {{icon|piety}} {{green|+1}} Monthly Piety
+* {{icon|opinion}} {{green|+15}} House Opinion
+* {{icon|scheme success chance}} {{red|+25.0%}} Initial Enemy Hostile Scheme Success Chance
+* {{icon|yes}} Removed if character becomes House Head
+| 
+| {{icon|yes}} Extol Virtuousness House Head interaction
+| ''This character has had their virtues extolled by their House Head. Whether the attention is deserved or not, they now have a hard time staying away from the prying eyes of the public.''
+|- id="Venerated Ancestor"
+{{trait entry|Venerated Ancestor}}
+<!-- Transclusion used by Piety page. -->
+|
+* {{icon|piety}} {{green|+2}} Monthly Piety
+* {{icon|legitimacy}} {{green|+25%}} Legitimacy Gain
+| 
+| 
+* [[File:Heroic bloodline legacy track.png|24px]] Heroic Bloodline dynasty legacy 3
+* {{icon|lod}} Completed a Mythical Holy Legend
+| ''Exceptionally holy, the venerated ancestor is a beacon of light for everyone religious.''
+|- id="Living Legend"
+| [[File:Trait legend.png|60px]]
+| Living Legend
+|
+* {{icon|prestige}} {{green|+2}} Monthly Prestige
+* {{icon|legitimacy}} {{green|+25%}} Legitimacy Gain
+| 
+| 
+* [[File:Heroic bloodline legacy track.png|24px]] Heroic Bloodline dynasty legacy 4
+* {{icon|lod}} Completed a Mythical Heroic Legend
+| ''Renowned for their heroic life, this character is known to all as a living legend.''
+|}
+
+=== Descendant traits ===
+Descendant traits can be obtained if one of a character's known parents has either a certain founding trait or a descendant trait. Descendant traits are lost if a character's father is revealed to be someone without such traits and the mother does not have it.
+
+{| class="mildtable plainlist"
+! colspan="2" | Founding trait
+! Effects
+! AI Zeal
+! colspan="2" | Descendant trait
+! Effects
+! AI Zeal
+! Founding requirements
+! Cost
+|-
+| id="Saoshyant" {{trait entry|Saoshyant}}
+| 
+* {{icon|diplomacy}} {{green|+1}} Diplomacy
+* {{icon|learning}} {{green|+2}} Learning
+* {{icon|prowess}} {{green|+2}} Prowess
+* {{icon|opinion}} {{green|+5}} Zoroastrian Opinion
+| +100
+| id="Saoshyant Descendant" {{trait entry|Saoshyant Descendant}}
+| 
+* {{icon|learning}} {{green|+1}} Learning
+* {{icon|opinion}} {{green|+5}} Zoroastrian Opinion
+| 0
+| {{icon|decision}} [[Become the Saoshyant]] decision
+| {{icon|no}}
+|- id="Sayyid"
+{{trait entry|Sayyid}}
+| 
+* {{icon|opinion}} {{green|+5}} Muslim Opinion
+* {{icon|legitimacy}} Increased Initial Legitimacy
+* {{icon|lod}} {{green|+15%}} Yearly chance to unlock a Legend Seed
+| 0
+{{trait entry|Sayyid}}
+| 
+* {{icon|opinion}} {{green|+5}} Muslim Opinion
+* {{icon|legitimacy}} Increased Initial Legitimacy
+* {{icon|lod}} {{green|+15%}} Yearly chance to unlock a Legend Seed
+| 0
+| {{icon|yes}} Descendant of Muhammad
+| {{red|+25}}
+|-
+| id="Paragon" {{trait entry|Paragon}}
+| [[File:Vassal stance zealot.png|24px]] {{green|+20}} Zealot Vassal Opinion
+| +20
+| id="Consecrated Blood" {{trait entry|Consecrated Blood}}
+| [[File:Vassal stance zealot.png|24px]] {{green|+10}} Zealot Vassal Opinion
+| +10
+| 
+* {{icon|decision}} [[Consecrate Bloodline]] decision
+* {{icon|no}} Head of Faith
+| {{icon|no}}
+|-
+| id="The Savior" {{trait entry|The Savior}}
+|
+* {{icon|opinion}} {{green|+10}} Same Faith Opinion
+* Hidden: +75% county conversion speed<ref>{{cite file|common\script_values\99_court_chaplain_values.txt}}, <code>conversion_savior_liege</code></ref>
+| +100
+| id="Divine Blood" {{trait entry|Divine Blood}}
+|
+* {{icon|opinion}} {{green|+5}} Same Faith Opinion
+* Hidden: +25% county conversion speed<ref>{{cite file|common\script_values\99_court_chaplain_values.txt}}, <code>conversion_divine_blood_liege</code></ref>
+| 0
+| 
+* {{icon|decision}} Consecrate Bloodline decision
+* {{icon|yes}} Head of Faith
+| {{icon|no}}
+|- id="Golden Lineage"
+{{trait entry|Golden Lineage}}
+| 
+* {{icon|dread}} {{green|+10%}} Dread Gain
+* {{icon|vassal}} {{green|+200}} Vassal Limit
+* {{icon|vassal}} {{green|+20%}} Terrified Vassal Contribution
+* {{icon|herd}} {{green|+20%}} Herd Capacity
+* {{icon|legitimacy}} Increased Initial Legitimacy
+| 0
+{{trait entry|Golden Lineage}}
+| 
+* {{icon|dread}} {{green|+10%}} Dread Gain
+* {{icon|vassal}} {{green|+200}} Vassal Limit
+* {{icon|vassal}} {{green|+20%}} Terrified Vassal Contribution
+* {{icon|herd}} {{green|+20%}} Herd Capacity
+* {{icon|legitimacy}} Increased Initial Legitimacy
+| 0
+| {{icon|kos}} Winning the war to become the Greatest of Khans
+| {{icon|no}}
+|}
+
+== Decision traits ==
+The following traits can be gained via {{iconify|decision}}s and are not available at character creation.
+{| class="mildtable plainlist "
+! colspan="2" | Trait
+! Effects
+! AI effects
+! Decision
+! width=25% | Description
+|- id="Augustus"
+{{trait entry|Augustus}}
+|
+* {{icon|prestige}} {{green|+0.50}} Monthly Prestige
+* {{icon|Influence}} {{green|+1.50}} Monthly Influence
+* {{icon|opinion}} {{green|+10}} Vassal Opinion
+| +20 Energy
+| Restore the Roman Empire
+| ''This character is the current ruler of the restored Roman Empire and commands the respect an office of such magnitude is due.''
+|- id="Celibate"
+{{trait entry|Celibate}}
+|
+* {{icon|piety}} {{green|+1}} Monthly Piety
+* {{icon|opinion}} {{green|+10}} Clergy Opinion
+* {{icon|warning}} Can not have children
+* {{icon|opinion}} {{red|−10}} Opposite Trait Opinion
+| +30 Zeal
+| Embrace Celibacy
+| ''This character has sworn themselves to celibacy.''
+|- id="Chakravarti"
+{{trait entry|Chakravarti}}
+| 
+* {{icon|diplomacy}} {{green|+2}} Diplomacy
+* {{icon|martial}} {{green|+1}} Martial
+* {{icon|learning}} {{green|+2}} Learning
+* {{icon|opinion}} {{green|+20}} Buddhist Opinion
+* {{icon|opinion}} {{green|+20}} Hindu Opinion
+* {{icon|opinion}} {{green|+20}} Jain Opinion
+| 
+* +50 Zeal
+* +40 Honor
+* +20 Boldness
+* +20 Energy
+| Become Chakravarti
+| ''This character has united the center of the world, and is the rightful ruler of its entirety.''
+|- id="Gallivanter"
+{{trait entry|Gallivanter}}
+|
+* {{icon|stress gain}} {{green|−10%}} Stress Gain
+* {{icon|stress loss}} {{green|+10%}} Stress Loss
+* {{icon|opinion}} {{red|−10}} Dynasty Opinion
+* [[File:Vassal stance courtly.png|24px]] {{red|−30}} Courtly Vassal Opinion
+* [[File:Vassal stance parochial.png|24px]] {{red|−20}} Parochial Vassal Opinion
+* {{icon|no}} Cannot purchase titles
+* {{icon|warning}} Can not inherit titles
+| 
+| Reject Inheritance
+| ''This character eschews responsibilities beyond what they already have - their time is precious, and they do not wish it frittered away on pointless duties and meaningless ambitions.''
+|- id="Greatest of Khans"
+{{trait entry|Greatest of Khans}}
+|
+* {{icon|death}} Executing characters brings an event to decide what to do with the head
+* {{icon|diplomacy}} {{green|+2}} Diplomacy
+* {{icon|martial}} {{green|+2}} Martial
+* {{icon|stewardship}} {{green|+1}} Stewardship
+* {{icon|prowess}} {{green|+2}} Prowess
+* {{icon|dread}} {{green|+50}} Natural Dread
+* {{icon|dread}} {{green|−50%}} Dread Decay
+* {{icon|vassal}} {{green|+75}} Vassal Limit
+* {{icon|gold}} {{green|−50%}} Army Gold Maintenance
+* {{icon|opinion}} {{green|+25}} Same Culture Opinion
+* {{icon|scheme phase length}} {{green|+100}} Days Enemy Hostile Scheme Phase Length
+* {{icon|scheme success chance}} {{green|−100.0%}} Initial Enemy Hostile Scheme Success Chance
+* {{icon|legitimacy}} {{green|+10}} Monthly Legitimacy
+* [[File:Vassal stance minority.png|24px]] {{green|+40}} Minority Vassal Opinion
+* {{icon|damage}} {{green|+100%}} Cavalry Damage
+* {{icon|toughness}} {{green|+100%}} Cavalry Toughness
+* {{icon|siege progress}} {{green|+0.5}} Light Cavalry Siege Progress
+* {{icon|siege progress}} {{green|+0.5}} Archer Cavalry Siege Progress
+* {{icon|herd}} {{green|+100%}} Herd Gain
+* {{icon|horde riders}} {{green|+50%}} Herd Conversion into Horde Riders
+* {{icon|obedience}} {{green|+50}} Obedience
+| 
+* +40 Energy
+* +20 Boldness
+* +20 Honor
+| Become the Greatest of All Khans
+| ''This character has been proclaimed the ruler of the universe itself, by right of conquest.''
+|- id="Reincarnation"
+{{trait entry|Reincarnation}}
+|
+* {{icon|piety eastern}} {{green|+1}} Monthly Piety
+* {{icon|opinion}} {{green|+5}} Same Faith Opinion
+* {{icon|unknown}} Copies the appearance of an ancestor
+| 
+| Divine Reincarnation
+| ''This character is said to be the reincarnation of their ancestor.''
+|- id="Heresiarch"
+{{trait entry|Heresiarch}}
+|
+* {{icon|martial}} {{green|+2}} Martial
+* {{icon|learning}} {{green|+2}} Learning
+* {{icon|prowess}} {{green|+2}} Prowess
+* {{icon|Influence}} {{green|+0.75}} Monthly Influence
+* {{icon|opinion}} {{green|+10}} Same faith opinion
+* {{icon|advantage}} {{green|+5}} Advantage against co-religionists
+| +20 Zeal
+| 
+* Reform the Magi
+* {{icon|rtp}} Embrace Heresy
+| ''This character is the local leader of a heretical sect.''
+|- id="Detractor of the Caliphate"
+{{trait entry|Detractor of the Caliphate}}
+|
+* {{icon|yes}} Unlocks the Foment Revolt interaction
+* {{icon|yes}} Unlocks the Request Incursion interaction
+* {{icon|decision}} Unlocks the Find a New Faith for Persia decision
+* {{icon|opinion}} {{green|+10}} Same Trait Opinion
+* {{icon|opinion}} {{red|−30}} Opposite Trait Opinion
+* {{icon|yes}} Unlocks the Join My Side interaction with opposite trait characters
+| 
+| {{icon|lop}} Announce Opposition to Caliphate
+| ''This character believes that the Caliph's place is, at best, Baghdad. And only Baghdad.''
+|- id="Supporter of Caliphal Authority"
+{{trait entry|Supporter of Caliphal Authority}}
+|
+* [[File:Fp3 install loyalist war cb.png|24px]] Unlocks the Install Loyalist casus belli during the Iranian Intermezzo
+* {{icon|opinion}} {{green|+10}} Same Trait Opinion
+* {{icon|opinion}} {{red|−30}} Opposite Trait Opinion
+* {{icon|yes}} Unlocks the Join My Side interaction with opposite trait characters
+| 
+| {{icon|lop}} Become Caliphal Supporter
+| ''This character believes that the Caliphate should reaffirm its hold on the Middle East.''
+|- id="Conqueror"
+{{trait entry|Conqueror}}
+|
+* {{icon|gold}} {{green|+5}} Monthly Tax
+* {{icon|legitimacy}} {{green|+5}} Monthly Legitimacy
+* {{icon|gold}} {{green|−75.00%}} Men-at-Arms Maintenance
+* {{icon|gold}} {{green|−75%}} Title Creation Cost
+* {{icon|scheme phase length}} {{green|+25}} Days Enemy Hostile Scheme Phase Length
+* {{icon|scheme success chance}} {{green|-3.0%}} Enemy Hostile Scheme Growth
+* {{icon|scheme potential}} {{green|-40%}} Enemy Hostile Scheme Potential
+* {{icon|vassal}} {{green|+50}} Minimum Vassal Limit
+* {{icon|vassal}} {{green|+500}} Maximum Vassal Limit
+* {{icon|domain}} {{green|+5}} Minimum Domain Limit
+* {{icon|domain}} {{green|+15}} Maximum Domain Limit
+* {{icon|herd}} {{green|+50%}} Herd Capacity
+* {{icon|horde riders}} {{green|+20%}} Herd Conversion into Horde Riders
+* [[File:Vassalization cb.png|24px]] Unlocks the Forced Vassalization Casus Belli
+* {{icon|yes}} Casus Belli are free
+* {{icon|no}} Factions cannot form
+* {{icon|building}} Every 3-6 months the realm capital gains a building
+* {{icon|levies}} Every 3-6 months men-at-arms reinforce and increase their size by 1
+* {{icon|gold}} Every 3-6 months the character gains random gold
+* {{icon|prestige}} Every 3-6 months the character gains 150 prestige
+* {{icon|stress loss}} Every 3-6 months the character loses 40 stress
+* {{icon|unknown}} Every 3-6 months the character increases a skill by 2
+* {{icon|unknown}} Every 3-6 months the character has a 15% chance to increase their education trait level
+* {{icon|unknown}} Every year a claimant joins the court
+* {{icon|unknown}} Can gain various beneficial events
+| 
+| {{icon|rtp}} Become a Great Conqueror
+| ''The world lies before me, ripe for the taking. It will be mine.''
+|- id="Way of the Nomad"
+{{trait entry|Way of the Nomad}}
+|
+* {{icon|opinion}} {{green|+10}} Different Culture Opinion
+* {{icon|opinion}} {{green|+10}} Different Faith Opinion
+* {{icon|opinion}} {{green|-25%}} Different Faith Popular Opinion Penalty
+* [[File:Blood brother.png|24px]] Can have a Blood Brother
+* {{icon|decision}} Enables the Introduce Heir decision
+* {{icon|decision}} Enables the Recruit Plains Specialist decision
+* {{icon|decision}} Enables the Become Adventurer decision
+* {{icon|nomadic}} If a Nomadic Character settles outside of The Great Steppe, only their Children will inherit this Trait.
+* {{icon|heavy horse archers}} Can recruit Heavy Horse Archers even if not Nomadic
+* {{icon|horse archers}} Can recruit Horse Archers even if not Nomadic
+* {{icon|nomad lancers}} Can recruit Nomad Lancers even if not Nomadic
+* {{icon|steppe raiders}} Can recruit Steppe Raiders even if not Nomadic
+* {{icon|prestige}} {{green|-75%}} Convert to Local Culture Decision Cost
+* {{icon|prestige}} {{green|-75%}} Hybrid Culture Creation Cost
+* {{icon|promote cultural acceptance}} {{green|-50%}} Cultural Acceptance required to Create a Hybrid Culture
+* {{icon|death}} Executing characters brings an event to decide what to do with the head
+| 
+| {{icon|kos}} Adopt the Nomadic Ways
+| ''This character has been shaped from birth by the harsh life on the steppe. Their ways, though strange to the meek settled peoples, offer unmatched strength and cunning.''
+|}
+
+== Faith traits ==
+These traits can only obtained by characters of certain faiths.
+{| class="mildtable plainlist"
+! colspan="2" | Trait
+! Effects
+! AI effects
+! Cost
+! Requirements
+! Alternative names
+! Description
+|- id="Berserker"
+{{trait entry|Berserker}}
+|
+* {{icon|martial}} {{green|+2}} Martial
+* {{icon|prowess}} {{green|+5}} Prowess
+* {{icon|dread}} {{green|+15}} Natural Dread
+* {{icon|opinion}} {{green|+10}} Same trait opinion
+* {{icon|diplomacy}} {{red|−2}} Diplomacy
+* {{icon|yes}} Character wears a fur cloak
+|
+* +35 Boldness
+* +20 Energy
+* -35 Rationality
+| {{red|+40}}
+| Faith has the Warmonger tenet
+|
+| ''Once this character's blood starts to boil it will only be sated by the death of their enemies.''
+|- id="Hajji"
+{{trait entry|Hajji}}
+|
+* {{icon|travel speed}} {{green|+5}} Travel Speed
+* {{icon|safety}} {{green|+5}} Travel Safety
+* {{icon|opinion}} {{green|+5}} Muslim opinion
+| +20 Zeal
+| {{red|+30}}
+| 
+* Completed a Hajj pilgrimage
+* Obtained automatically if realm capital is Mecca
+| Hajjah if female
+| ''This character has completed the Hajj, a pilgrimage to the House of Allah in Mecca.''
+|- id="Devoted"
+{{trait entry|Devoted}}
+|
+* {{icon|piety}} {{green|+0.3}} Monthly piety
+* {{icon|opinion}} {{green|+5}} Same faith opinion
+* {{icon|warning}} Can not inherit
+* {{icon|warning}} Can not marry
+| -10 Sociability
+| {{icon|no}}
+| Faith has the Monasticism tenet
+|
+* Monk if male
+* Nun if female
+* Promised to the Clergy if child
+* Bhikkhu / Bhikkhuni if Buddhist
+* Sanyasi / Sanyasini if Hindu
+* Muni / Aryika if Jain
+| ''This character has dedicated their life to the service of a higher power.''
+|- id="Order Member"
+{{trait entry|Order Member}}
+|
+* {{icon|martial}} {{green|+1}} Martial
+* {{icon|prowess}} {{green|+4}} Prowess
+* {{icon|opinion}} {{green|+15}} Same trait and faith opinion
+* {{icon|warning}} Can not inherit
+* {{icon|warning}} Can not marry
+|
+* +10 Zeal
+* +5 Honor
+* -10 Greed
+| {{icon|no}}
+| Holy Order member
+|
+| ''This character serves in a militarized Holy Order.''
+|- id="Crusader"
+{{trait entry|Crusader}}
+|
+* {{icon|martial}} {{green|+2}} Martial
+* {{icon|prowess}} {{green|+3}} Prowess
+* {{icon|opinion}} {{green|+15}} Clergy opinion
+* {{icon|opinion}} {{green|+5}} Same faith opinion
+* {{icon|lod}} Unlocks a Legend Seed
+| +10 Zeal
+| {{red|+50}}
+| Participated in a Crusade
+|
+| ''This character has participated in a Crusade. They must be on the attacking side and fight (siege or battle) in the target kingdom.''
+|- id="Mujahid"
+{{trait entry|Mujahid}}
+|
+* {{icon|martial}} {{green|+2}} Martial
+* {{icon|prowess}} {{green|+3}} Prowess
+* {{icon|opinion}} {{green|+15}} Clergy opinion
+* {{icon|opinion}} {{green|+5}} Same faith opinion
+* {{icon|lod}} Unlocks a Legend Seed
+| +10 Zeal
+| {{red|+50}}
+| Participated in a Jihad
+|
+| ''This character has participated in a Jihad. They must be on the attacking side and fight (siege or battle) in the target kingdom.''
+|- id="Warrior of the Faith"
+{{trait entry|Warrior of the Faith}}
+|
+* {{icon|martial}} {{green|+2}} Martial
+* {{icon|prowess}} {{green|+3}} Prowess
+* {{icon|opinion}} {{green|+15}} Clergy opinion
+* {{icon|opinion}} {{green|+5}} Same faith opinion
+* {{icon|lod}} Unlocks a Legend Seed
+| +10 Zeal
+| {{red|+50}}
+| Participated in a Great Holy War
+|
+{| class="mildtable mw-collapsible mw-collapsed"
+! Condition
+! Name
+|-
+| Tibetan
+| Kailash Guardian
+|-
+| Buddhist
+| Atoner
+|-
+| Dualist
+| Guardian of Light
+|-
+| Norse
+| Valhalla Bound
+|-
+| Hellenic
+| Ares' Own
+|-
+| Hindu
+| Shiva's Hand
+|-
+| Jain
+| Pacifier
+|-
+| Jewish
+| Kanai
+|-
+| Uralic
+| Forged of Hadúr
+|-
+| Baltic
+| Hound of Dievas
+|-
+| Slavic
+| Perun's Champion
+|-
+| Finno-Ugric
+| Ukko's Hammer
+|-
+| Siberian
+| Ulgen's Nimrod
+|-
+| Tengri
+| Skylord
+|-
+| Mandé
+| Nyame's Shield
+|-
+| Hausa
+| Facilitator
+|-
+| Senegambian
+| Takhar's Arbiter
+|-
+| Zoroastrian
+| Gond-i Shahanshah
+|-
+| Zunbil
+| Warrior of the Sun
+|}
+| ''This character has participated in a Great Holy War. They must be on the attacking side and fight (siege or battle) in the target kingdom.''
+|- id="Holy Monarch"
+{{trait entry|Holy Monarch}}
+|
+* {{icon|martial}} {{green|+3}} Martial
+* {{icon|prowess}} {{green|+2}} Prowess
+* {{icon|advantage}} {{green|+5}} Faith Hostility Advantage
+* {{icon|screen}} {{green|−20%}} Retreat Losses
+* [[File:Death natural.png|24px]] {{green|−15%}} Friendly Fatal Casualties
+* {{icon|control}} {{green|+0.5}} Monthly Control Growth
+* {{icon|opinion}} {{green|+35}} Popular opinion
+* {{icon|opinion}} {{green|+15}} Same faith opinion
+* {{icon|opinion}} {{green|+10}} Same trait opinion
+* {{icon|yes}} Ignore Negative Culture Opinion
+| +25 Zeal
+| {{red|+120}}
+| Great Holy War beneficiary
+|
+* Crusader King/Queen if Christian
+* Sky-King/Queen if Tengri
+* Kailash King/Queen if Tibetan
+* Bear King/Queen if Finno-Ugric
+* Sun-King/Queen if Zunbil
+* Archon/Archontess if Hellenic
+* Amir al-Mu'minin if Muslim
+* Nagid if Jewish
+* Chosen of Xradesahr if Dualist
+* Rajarishi if Hindu
+* High Aasaan if Buddhist
+* Irenic Monarch if Jain
+* Argbadh if Zoroastrian
+* Hersir if Norse
+* Galadima if Hausa
+* Roog's Chosen if Senegambian
+* Hadùr's Chosen if Uralic
+* Dievas' Chosen if Baltic
+* Perun's Chosen if Slavic
+* Ulgen's Chosen if Siberian
+* Nyame's Chosen if Mandé
+| ''A great warrior King who has carved their own kingdom out of the lands of the infidels.''
+|}
+
+== Event traits ==
+These traits can only be gained by events and may have different names depending on circumstances.
+{| class="mildtable plainlist"
+! colspan="2" | Trait
+! Effects
+! AI effects
+! Cost
+! width=50% | Description
+|- id="Veteran Adventurer"
+{{trait entry|Veteran Adventurer}}
+|
+* {{icon|martial}} {{green|+1}} Martial per Level of Fame
+* {{icon|prowess}} {{green|+1}} Prowess per Level of Fame
+* {{icon|gold}} {{green|−50.00%}} Men-at-Arms Maintenance
+* {{icon|opinion}} {{red|−10}} General Opinion
+* {{icon|opinion}} Ignore Negative Culture Opinion
+* {{icon|opinion}} No Negative Opinion of Other Cultures
+* {{icon|opinion}} {{green|+20}} Same Trait Opinion
+|
+* +20 Energy
+* +20 Boldness
+* -20 Honor
+| {{red|+50}}
+| ''This character has previously led a life of bravery and action as an adventurer, and proven their worth by working their way up from such humble beginnings.''
+|- id="Follower"
+{{trait entry|Follower}}
+|
+* {{icon|diplomacy}} {{green|+1}} Diplomacy
+* {{icon|opinion}} {{green|+20}} Same Trait Opinion
+|
+* +20 Energy
+* +20 Boldness
+* -20 Honor
+| {{red|+10}}
+| ''This character spent some time in a Veteran Adventurer's camp, being part of their entourage when they became landed.''
+|- id="Populist Leader"
+{{trait entry|Populist Leader}}
+|
+* {{icon|gold}} {{green|-50.00%}} Army Gold Maintenance
+* {{icon|opinion}} {{green|+15}} Popular Opinion
+* [[File:Vassal stance courtly.png|24px]] {{red|−30}} Courtly Vassal Opinion
+* [[File:Vassal stance parochial.png|24px]] {{green|+10}} Parochial Vassal Opinion (Same Faith)
+* [[File:Vassal stance parochial.png|24px]] {{green|+10}} Parochial Vassal Opinion (Same Culture)
+|
+| {{red|+150}}
+| ''This character came to power after fighting for the independence of their people.''
+|- id="Pregnant"
+{{trait entry|Pregnant}}
+| {{icon|prowess}} {{red|−2}} Prowess
+| -15 Energy
+| {{icon|no}}
+| ''This character is with child.''
+|- id="Raider"
+{{trait entry|Raider}}
+|
+* {{icon|martial}} {{green|+2}} Martial
+* {{icon|prowess}} {{green|+3}} Prowess
+* {{icon|prestige}} {{green|+0.30}} Monthly Prestige
+* {{icon|opinion}} {{green|+5}} Same Trait Opinion
+|
+* +10 Energy
+* +10 Boldness
+| {{red|+25}}
+| ''This character is a well-known plunderer of foreign settlements.''
+----
+Called Viking if culture has the {{iconify|Longships}} innovation
+|- id="Shieldmaiden"
+{{trait entry|Shieldmaiden}} / Shieldswain
+|
+* {{icon|martial}} {{green|+3}} Martial
+* {{icon|prowess}} {{green|+3}} Prowess
+* {{icon|opinion}} {{green|+10}} Same trait opinion
+|
+* +50 Boldness
+* +50 Energy
+| {{red|+40}}
+| ''This character defies the normal structures of their society, fighting in the shield wall.''
+|- id="Varangian"	
+{{trait entry|Varangian}}
+|
+* {{icon|diplomacy}} {{green|+1}} Diplomacy
+* {{icon|martial}} {{green|+2}} Martial
+* {{icon|prowess}} {{green|+2}} Prowess
+* {{icon|opinion}} {{green|+10}} Same trait opinion
+|
+* +10 Energy
+* +10 Boldness
+| {{red|+40}}
+| ''This character has served the Byzantine Army as part of the Varangian Guard.''
+|- id="Loyal"
+{{trait entry|Loyal}}
+|
+* {{icon|diplomacy}} {{green|+1}} Diplomacy
+* {{icon|intrigue}} {{Red|−1}} Intrigue
+* {{icon|opinion}} {{green|+15}} Liege Opinion
+* {{icon|unknown}} Less likely to join Factions against their Liege
+* {{icon|opinion}} {{green|+10}} Same Trait Opinion
+* {{icon|opinion}} {{red|−10}} Opposite Trait Opinion
+|
+| {{red|+20}}
+| ''This person takes their relations more seriously than most.''
+|- id="Disloyal"
+{{trait entry|Disloyal}}
+|
+* {{icon|diplomacy}} {{red|−1}} Diplomacy
+* {{icon|intrigue}} {{green|+1}} Intrigue
+* {{icon|opinion}} {{red|−15}} Liege Opinion
+* {{icon|unknown}} More likely to join Factions against their Liege
+* {{icon|opinion}} {{green|+10}} Same Trait Opinion
+* {{icon|opinion}} {{red|−10}} Opposite Trait Opinion
+| -20 Honor
+| {{green|−20}}
+| ''Where most people see a relationship this person sees an opportunity.''
+|- id="Despoiler of Byzantium"
+{{trait entry|Despoiler of Byzantium}}
+| 
+* {{icon|martial}} {{green|+1}} Martial
+* {{icon|prowess}} {{green|+2}} Prowess
+* {{icon|dread}} {{green|+10}} Natural dread
+* {{icon|knight}} {{green|+0.2%}} Knight effectiveness per dread
+* {{icon|gold}} {{green|−0.25%}} Men-at-arms maintenance per dread
+* {{icon|time}} {{green|−25%}} Siege phase time
+* {{icon|opinion}} {{red|−10}} Popular opinion
+* {{icon|opinion}} {{red|−15}} Clergy opinion
+* {{icon|opinion}} {{red|−50}} Greek opinion
+| 
+* +10 Greed
+* -10 Compassion
+* -10 Honor
+| {{icon|no}}
+| ''This character was among the fearsome Latin lords who conquered and ruined an ancient Christian empire.''
+|- id="Campeador"
+{{trait entry|Campeador}}
+| 
+* {{icon|martial}} {{green|+2}} Martial
+* {{icon|prowess}} {{green|+4}} Prowess
+* {{icon|prestige}} {{green|+0.4}} Monthly prestige
+* {{icon|opinion}} {{green|+4}} Same culture opinion
+| +20 Honor
+| {{icon|no}}
+| ''Rodrigo's expertise of the battlefield has earned him the title of "Battlefield Champion".''
+|- id="Seasoned Pastoralist"
+{{trait entry|Seasoned Pastoralist}}
+| {{icon|county fertility}} {{green|+20%}} County Fertility Growth
+| 
+| {{icon|no}}
+| ''This character has become an expert in the ways of husbandry and can ensure that their cattle make the best possible use of the pasture.''
+|- id="Former Emperor"
+{{trait entry|Former Emperor}}
+| 
+* {{icon|prestige}} {{green|+0.25}} Monthly Prestige
+* {{icon|influence}} {{green|+0.25}} Monthly Influence
+| 
+* +25 Boldness
+* -25 Energy
+| {{icon|no}}
+| ''This character was once the Ceremonial Monarch and retains considerable influence despite having left the throne.''
+|- id="Historical Character"
+{{trait entry|Historical Character}}
+| 
+* {{icon|diplomacy}} {{green|+2}} Diplomacy
+* {{icon|learning}} {{green|+4}} Learning
+* {{icon|health boost}} {{green|+0.25}} Health
+* {{icon|scheme success chance}} {{green|-1%}} Enemy hostile scheme growth
+| 
+| {{icon|no}}
+| ''This character is of real-life historical importance.''
+|}
+
+== Court type traits ==
+{{expansion|roc}}
+Court type traits can only be obtained by characters that have been courtiers for at least 5 years. For a level 1 trait the court must have reached Grandeur Level 5 while for level 2 the court must have reached Grandeur Level 8. These traits cannot be selected for custom rulers.
+{| class="mildtable plainlist "
+! Trait chain
+! Level 1 effects
+! Level 2 effects
+|- id="Diplomatic Courtier"
+| [[File:Diplomatic court 1.png|60px]] Diplomatic
+| {{icon|diplomacy}} {{green|+1}} Diplomacy
+|
+* {{icon|diplomacy}} {{green|+2}} Diplomacy
+* {{icon|prestige}} {{green|+0.30}} Monthly Prestige
+* {{icon|diplomacy lifestyle}} {{green|+15%}} Monthly Diplomacy Lifestyle Experience
+|- id="Warlike Courtier"
+| [[File:Warlike court 1.png|60px]] Warlike
+| 
+* {{icon|martial}} {{green|+1}} Martial
+* {{icon|prowess}} {{green|+1}} Prowess
+|
+* {{icon|martial}} {{green|+2}} Martial
+* {{icon|prowess}} {{green|+2}} Prowess
+* {{icon|gold}} {{green|-5.00%}} Men-at-Arms Maintenance
+* {{icon|martial lifestyle}} {{green|+15%}} Monthly Martial Lifestyle Experience
+|- id="Administrative Courtier"
+| [[File:Administrative court 1.png|60px]] Administrative
+| {{icon|stewardship}} {{green|+1}} Stewardship
+|
+* {{icon|stewardship}} {{green|+2}} Stewardship
+* {{icon|control}} {{green|+0.20}} Monthly Control
+* {{icon|stewardship lifestyle}} {{green|+15%}} Monthly Stewardship Lifestyle Experience
+|- id="Intrigue Courtier"
+| [[File:Intrigue court 1.png|60px]] Intrigue
+| {{icon|intrigue}} {{green|+1}} Intrigue
+|
+* {{icon|intrigue}} {{green|+2}} Intrigue
+* {{icon|dread}} {{green|+10}} Natural Dread
+* {{icon|scheme success chance}} {{green|-10.0%}} Initial Enemy Hostile Scheme Success Chance
+* {{icon|intrigue lifestyle}} {{green|+15%}} Monthly Intrigue Lifestyle Experience
+|- id="Scholarly Courtier"
+| [[File:Scholarly court 1.png|60px]] Scholarly
+| {{icon|learning}} {{green|+1}} Learning
+| 
+* {{icon|learning}} {{green|+2}} Learning
+* {{icon|development}} {{green|+20%}} Development Growth
+* {{icon|learning lifestyle}} {{green|+15%}} Monthly Learning Lifestyle Experience
+|}
+
+== Immortal ==
+The Immortal trait can only be added when creating custom characters. It makes the character immortal: they do not visibly age, years do not affect their attributes, their {{iconify|Fertility}} does not decrease and they cannot gain the {{iconify|Incapable}} trait. It also cancels the Long Reign bonus. The trait costs 10000 points so it will always invalidate achievements.
+
+== References ==
+<references/>
+{{Mechanics navbox}}
+
+[[Category:Character]]

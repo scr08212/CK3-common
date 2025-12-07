@@ -1,0 +1,977 @@
+{{Version|1.17}}
+Knights are characters that fight in an army. Each ruler can only have a small number of Knights. By default, Knights are appointed automatically based on their {{iconify|Prowess}} skill, but characters can be manually forced or forbidden to become Knights. Diarchs cannot be appointed as knights.
+
+If an army loses a Battle, each Knight has a 10% chance to be captured and imprisoned and 5% chance to be killed. The chances are increased to 55.3% and 27.6% respectively if the army is defeated in the Early Battle Phase.
+
+== Cultural alternatives ==
+Knight is the default naming for most governments, and Champion for tribal governments. But some alternatives exist.
+{| class="wikitable"
+! Knight name
+!Language
+|-
+| Hetaireiarchai
+| Greek
+|-
+| Baghatur
+| Mongolic, Turkic
+|-
+| Shoorveer
+| Sauraseni, Marathi, Magadhan, Pahari, Vrachada, Rajasthani, Sinhalese, Kashmiri, Tamil, Telugu, Kannada
+|-
+| Aswārān
+| Iranian (Zoroastrianism)
+|-
+| Fāris
+| Arabic (Islam)
+|}
+
+== Appointment ==
+Each ruler can only have a small number of Knights. By default, Knights are appointed automatically based on their {{iconify|Prowess}} skill, but characters can be manually forced or forbidden to become Knights.
+
+To be appointed as Knights a character must fulfil the following conditions:
+* Is adult
+* Is not imprisoned
+* Is not diarch
+* Does not have the {{iconify|Blind}} or {{iconify|Incapable}} trait
+* Members of the clergy and characters with the {{iconify|Devoted}} trait may only serve as knights if their faith has the {{icon|Clerical function}} ''Recruitment'' Clerical Function doctrine, the Warmonger tenet, or the Unrelenting Faith tenet.
+* If {{iconify|Royal Court}} is installed the ruler's culture's Martial Custom must allow it.
+* If {{iconify|Royal Court}} is not installed the ruler's faith's View on Gender must allow it.
+
+== Combat performance ==
+
+Knights represent a significant fraction of the total realm fighting force. Their strong side is extremely high damage per combat width, which helps to out-damage and even stackwipe larger enemy armies. They are also free in terms of monthly maintenance. Their weakness is low total toughness, requiring the use of MAA or levies to absorb damage for them, and the potential to get wounded, killed or captured in combat.
+
+Knights can be wounded, maimed (one-eyed, one-legged, disfigured, maimed, incapable), killed and captured. The chance of being wounded and killed decreases with higher levels of {{iconify|Prowess}} or if their army outnumbers the enemy's or the game difficulty was reduced. Knights with Berserker traits may instantly kill other knights if they are lower than 80% of the Berserker knight's Prowess.
+
+Knights combat stats are based on their {{iconify|Prowess}} skill with each point of {{iconify|Prowess}} grants 50 {{iconify|Damage}} and 10 {{iconify|Toughness}}, further modified by realm Knight Effectiveness.
+
+To put these numbers into perspective, one levy soldier has 10 {{iconify|Damage}} and 10 {{iconify|Toughness}}, and so 1 knight with 10 prowess and base effectiveness deals as much damage as 50 levies. For an early game tribal realm it is not uncommon to field 7 knights with 15 average prowess and 120% effectiveness, which amounts to as much damage as 630 levies.
+
+== Number of Knights ==
+
+Each ruler can only have a small number of Knights. This number can be increased from various sources.
+
+{| class="mildtable"
+|-
+! Source
+! Number of Knights
+|-
+| <nowiki>Primary Title rank Emperor | King | Duke | Count</nowiki>
+| {{green|+8}}<nowiki> | </nowiki>{{green|+7}}<nowiki> | </nowiki>{{green|+6}}<nowiki> | </nowiki>{{green|+5}}
+|-
+| <nowiki>Level of Fame The Living Legend | Exalted among Men | Illustrious | Distinguished</nowiki>
+| {{green|+4}}<nowiki> | </nowiki>{{green|+3}}<nowiki> | </nowiki>{{green|+2}}<nowiki> | </nowiki>{{green|+1}}
+|-
+| Lifestyle perk Household Guard (Gallant way)
+| {{green|+4}}
+|-
+| Trait [[Activity#Grand_Tournament|Hastiluder]] (Foot way, Level 3)
+| {{green|+2}}
+|-
+| Dynasty legacy perk [[Dynasty#Glory|Renowned Name]] (Glory way)
+| {{green|+1}}
+|-
+| Administrative Government
+| {{red|-5}}
+|-
+| tribal building [[War Camps]] lvl 1 / 2
+| {{green|+1}} / {{green|+2}} each
+|-
+| feudal building [[Regimental Grounds]] lvl 7
+| {{green|+1}} each
+|-
+| duchy capital building [[Military Academies]] lvl 1 / 2 / 3
+| {{green|+2}} / {{green|+4}} / {{green|+6}} each
+|-
+| some special buildings and holy sites
+| {{green|+1}} / {{green|+2}}
+|-
+| Adventurer || {{green|+2}}
+|-
+| Freebooters || {{green|+3}}
+|-
+| Swords-for-Hire / Legitimists || {{green|+8}}
+|-
+| Roaring Campfire camp building || {{green|+1}} per building level
+|-
+| Grand Aspirations camp upgrade || {{green|+2}}
+|-
+| tradition [[Only The Strong]]
+| {{green|+2}}
+|-
+| tradition [[Strength In Numbers]]
+| {{red|-2}}
+|-
+| tradition [[Martial Admiration]] / Futuwaa / Druzhina / Chanson De Geste
+| {{green|+2}}
+|-
+| tradition [[Hirds]]
+| {{green|+1}}
+|-
+| {{iconify|nrl||||}} tradition [[Performative Honor]] / Trials By Combat / The Right To Prove
+| {{green|+1}} / {{green|+1}} / {{red|-2}}
+|-
+| accolade [[Knight#Mentor|Mentor]]
+| {{green|+1}} / {{green|+2}}
+|-
+| artifact modifiers
+| up to {{green|+4}} each
+|-
+| court grandeur
+| {{green|+1}}
+|-
+| event modifiers
+| varies
+|}
+
+== Accolades ==
+[[File:El Cid Accolade.png|thumb|300px|An accolade]]
+{{expansion|tnt}}
+{{iconify|Accolade}}s are special named honors granted to knights, Acclaimed Knights, by rulers at the cost of 200 {{iconify|Prestige}} that enables the accolade to gain Glory. These Acclaimed Knights can only be unlanded knights with at least 8 {{iconify|Prowess}} and have a {{green|+15}} {{iconify|Opinion}} of their liege.
+
+If the Acclaimed Knight ever leaves, then a new knight may succeed them and take up the accolade. Rulers can choose an accolade successor, that at a minimum, meets the primary accolade attribute requirements. If there is no accolade successor available then the accolade will become inactive until a replacement character is recruited to court. 
+
+If there are no successors available at the rulers court, then a ruler can pay 125 {{iconify|Prestige}} to "Seek Worthy Accolade Successor", a few days later a replacement joins the rulers court that, at a minimum, meets the primary accolade attribute requirements. This "Seek Worthy Accolade Successor" has a 2 year cool down period for the ruler. 
+
+A ruler can have up to 5 accolades, depending on the following:
+* {{iconify|King}} title rank 
+* {{iconify|Emperor}} title rank
+* {{icon|hegemony}} Hegemon title rank
+* {{iconify|Bannus}} innovation
+* {{iconify|Knighthood}} innovation
+* [[File:Glory legacy track.png|24px]] Glory dynasty legacy 2
+
+=== Glory gain ===
+{{iconify|Accolade}}s can gain Glory if:
+* Their army is victorious. (+30 Glory for each battle present)
+* They win against other knights.
+* They attend activities. (Confirmed: Grand tournaments, Grand Weddings, Grand Tour, Hunting) [Activities that do NOT provide glory: Funeral]
+* Their liege wins a war against a ruler with higher title rank. 
+
+Once enough Glory has been obtained the accolade will rank up and gain additional bonuses. 
+
+There are 6 ranks for accolades which require the following amount of Glory:
+{| class="wikitable plainlist"
+! Rank
+| 1 || 2 || 3 || 4 || 5 || 6
+|-
+! Glory
+| 100 || 300 || 600 || 1000 || 1500 || 2100
+|}
+There is no maximum limit of glory.
+
+=== Glory loss ===
+{{iconify|Accolade}}s lose Glory upon succession of the Accolade. This happens if the Acclaimed Knight:
+
+*dies.
+* leaves your court.
+
+The amount of glory lost will be more if the successor doesn’t meet the secondary accolade attribute requirements of the preceding Acclaimed Knight.  This new Acclaimed Knight will then adopt a secondary accolade attribute that better suits their personality.
+
+Typically, if both primary and secondary accolade attribute are met by the successor, then a percentage loss of glory is lost, exampled here as when an Accolade was near level 6 with 2100+ glory and then succeeded, approximately 320 glory is lost. If only the primary accolade attribute is met by the successor, then approximately 540 glory is lost on succession. 
+
+=== {{iconify|Accolade}} attributes ===
+Each accolade has two accolade attributes available for selection depending on the knight's traits. The primary accolade attribute determines the bonuses received at levels 1-3-5 and the secondary accolade attribute determines the bonuses received at levels 2-4-6. Only one of each Accolade Attributes may be selected for Accolades.
+
+{| class="mildtable plainlist"
+! width=1% | Accolade Attribute !! Rank 1-2 bonus !! Rank 3-4 bonus !! Rank 5-6 bonus !! Requirements
+|-
+| '''Besieger'''
+|
+* '''Liege Modifiers:'''
+* {{icon|levies}} {{green|+1}} Max Size for Siege Weapons Regiments
+*'''Knight Army Modifiers:'''
+* {{icon|time}} {{green|-10%}} Siege Phase Time
+* {{icon|siege progress}} {{green|+10%}} Daily Siege Progress
+|
+* '''Liege Modifiers:'''
+* {{icon|levies}} {{green|+2}} Max Size for Siege Weapons Regiments
+*'''Knight Army Modifiers:'''
+* {{icon|time}} {{green|-15%}} Siege Phase Time
+* {{icon|siege progress}} {{green|+15%}} Daily Siege Progress
+|
+* '''Liege Modifiers:'''
+* {{icon|levies}} {{green|+4}} Max Size for Siege Weapons Regiments
+*'''Knight Army Modifiers:'''
+* {{icon|time}} {{green|-20%}} Siege Phase Time
+* {{icon|siege progress}} {{green|+20%}} Daily Siege Progress
+|
+* {{icon|yes}} Mangonels innovation
+* At least one of these:
+
+* {{iconify|Logistician}} 
+
+* {{iconify|Military Engineer}}
+
+*
+|-
+| '''Blademaster'''
+|
+* '''Liege Modifiers:'''
+* [[File:Trait track lifestyle blademaster.png|24px]] {{green|+15%}} Blademaster Trait Experience
+* {{icon|aspiring blademaster}} Gain the Aspiring Blademaster Trait in 3 years
+* {{icon|aspiring blademaster}} Primary Heir gain the Aspiring Blademaster Trait in 3 years
+*
+|
+* '''Liege Modifiers:'''
+* {{icon|knight}} {{green|+40%}} Knight Effectiveness
+* [[File:Trait track lifestyle blademaster.png|24px]] {{green|+25%}} Blademaster Trait Experience
+* {{icon|aspiring blademaster}} Gain the Aspiring Blademaster Trait in 3 years
+* {{icon|aspiring blademaster}} Primary Heir gain the Aspiring Blademaster Trait in 3 years
+|
+* '''Liege Modifiers:'''
+* {{icon|knight}} {{green|+80%}} Knight Effectiveness
+* [[File:Trait track lifestyle blademaster.png|24px]] {{green|+35%}} Blademaster Trait Experience
+* {{icon|aspiring blademaster}} Gain the Aspiring Blademaster Trait in 3 years
+* {{icon|aspiring blademaster}} Primary Heir gain the Aspiring Blademaster Trait in 3 years
+* {{icon|yes}} {{green|+20}} Grand Tournament Guest Invitation Acceptance
+| {{iconify|Legendary Blademaster}}
+|-
+| '''Charmer'''
+|
+* '''Liege Modifiers:'''
+* {{icon|scheme phase length}} {{green|-10}} Days Seduce Scheme Phase Length
+* {{icon|yes}} Courtiers are more vulnerable to the Seduce Schemes of any Character
+|
+* '''Liege Modifiers:'''
+* {{icon|scheme phase length}} {{green|-20}} Days Seduce Scheme Phase Length
+* {{icon|yes}} Courtiers are more vulnerable to the Seduce Schemes of any Character
+* {{icon|fertility}} {{green|+25%}} Fertility while hosting Feasts and Grand Weddings
+* {{icon|opinion}} {{green|+10}} Attraction Opinion while hosting Feasts and Grand Weddings
+|
+* '''Liege Modifiers:'''
+* {{icon|scheme phase length}} {{green|-40}} Days Seduce Scheme Phase Length
+* {{icon|yes}} Courtiers are more vulnerable to the Seduce Schemes of any Character
+* {{icon|fertility}} {{green|+50%}} Fertility while hosting Feasts and Grand Weddings
+* {{icon|opinion}} {{green|+20}} Attraction Opinion while hosting Feasts and Grand Weddings
+|
+* {{iconify|Lustful}}
+
+* {{iconify|Seducer}}
+|-
+| '''Contender'''
+|
+* '''Liege Modifiers:'''
+* {{icon|hastiluder}} {{green|+10%}} Hastiluder Experience
+* {{icon|hastiluder}} {{green|+10}} Hastiluder Experience from Grand Tournament for this Knight
+|
+* '''Liege Modifiers:'''
+* {{icon|hastiluder}} {{green|+20%}} Hastiluder Experience
+* {{icon|hastiluder}} {{green|+15}} Hastiluder Experience from Grand Tournament for this Knight
+* {{icon|hastiluder}} {{green|+5}} Hastiluder Experience from Grand Tournament for all Knights
+|
+* '''Liege Modifiers:'''
+* {{icon|prestige}} {{green|+2%}} Monthly Prestige per Knight
+* {{icon|hastiluder}} {{green|+30%}} Hastiluder Experience
+* {{icon|hastiluder}} {{green|+20}} Hastiluder Experience from Grand Tournament for this Knight
+* {{icon|hastiluder}} {{green|+10}} Hastiluder Experience from Grand Tournament for all Knights
+*
+|
+* {{icon|prowess}} 20 Prowess
+
+* {{iconify|Hastiluder}} with 50 experience
+|-
+| '''Disciplinarian'''
+|
+* '''Liege Modifiers:'''
+* {{icon|levies}} {{green|+10%}} Levy Reinforcement Rate
+|
+* '''Liege Modifiers:'''
+* {{icon|gold}} {{green|-10.00%}} Levy Maintenance
+* {{icon|levies}} {{green|+20%}} Levy Reinforcement Rate
+*'''Knight Army Modifiers:'''
+* {{icon|death}} {{green|-40%}} Hostile County Attrition
+|
+* '''Liege Modifiers:'''
+* {{icon|gold}} {{green|-20.00%}} Levy Maintenance
+* {{icon|levies}} {{green|+30%}} Levy Reinforcement Rate
+*'''Knight Army Modifiers:'''
+* {{icon|death}} {{green|-80%}} Hostile County Attrition
+|
+* {{iconify|Diligent}}
+
+* {{iconify|Stubborn}}
+
+* {{iconify|Temperate}}
+
+* {{iconify|Organizer}}
+
+* {{iconify|Overseer}}
+|-
+| '''Fanatic'''
+|
+* '''Liege Modifiers:'''
+* [[File:Vassal stance minority.png|24px]] {{green|+10}} Zealot Vassal Opinion
+|
+* '''Liege Modifiers:'''
+* [[File:Vassal stance minority.png|24px]] {{green|+15}} Zealot Vassal Opinion
+* {{icon|piety}} {{green|-10%}} Holy War Cost
+* {{icon|piety}} Gain Piety from joining Holy Wars
+|
+* '''Liege Modifiers:'''
+* [[File:Vassal stance minority.png|24px]] {{green|+25}} Zealot Vassal Opinion
+* {{icon|piety}} {{green|-20%}} Holy War Cost
+* {{icon|piety}} Gain Piety from joining Holy Wars
+|
+* {{icon|yes}} Same faith
+
+* {{iconify|Zealous}} 
+* {{iconify|Holy Warrior}}
+|-
+| '''House Paragon'''
+|
+* '''Knight Army Modifiers:'''
+* House members in an Army are somewhat less likely to be Wounded or Killed
+|
+* '''Liege Modifiers:'''
+* {{icon|renown}} {{green|+5%}} Monthly Renown
+* {{icon|hastiluder}} Children gain Hastiluder trait at 16 age (according to Martial Custom)
+*'''Knight Army Modifiers:'''
+* House members in an Army are less likely to be Wounded or Killed
+|
+* '''Liege Modifiers:'''
+* {{icon|renown}} {{green|+15%}} Monthly Renown
+* {{icon|hastiluder}} Children gain Hastiluder trait and some Experience at 16 age (according to Martial Custom)
+*'''Knight Army Modifiers:'''
+* House members in an Army are much less likely to be Wounded or Killed
+*
+|
+* {{icon|yes}} Same House
+* {{icon|no}}{{iconify|Denounced}}
+* [[File:Kin legacy track.png|24px]] Kin dynasty legacy 4
+|-
+| '''Huntsmaster'''
+|
+* '''Liege Modifiers:'''
+* [[File:Trait track hunter.png|24px]] {{green|+15%}} Hunter (Venator) Trait Experience
+* {{icon|hunter}} Gain the Hunter Trait in 3 years
+* {{icon|hunter}} Primary Heir gain the Hunter Trait in 3 years
+|
+* '''Liege Modifiers:'''
+* [[File:Trait track hunter.png|24px]] {{green|+25%}} Hunter (Venator) Trait Experience
+* {{icon|hunter}} Gain the Hunter Trait in 3 years
+* {{icon|hunter}} Primary Heir gain the Hunter Trait in 3 years
+* {{icon|unknown}} Reduced chance for negative Hunt events
+|
+* '''Liege Modifiers:'''
+* [[File:Trait track hunter.png|24px]] {{green|+35%}} Hunter (Venator) Trait Experience
+* {{icon|hunter}} Gain the Hunter Trait in 3 years
+* {{icon|hunter}} Primary Heir gain the Hunter Trait in 3 years
+* {{icon|unknown}} Significantly reduced chance for negative Hunt events
+|
+* {{iconify|Hunter}}
+* {{icon|no}} Vegetarians Tradition
+|-
+| '''Idealist'''
+|
+* '''Liege Modifiers:'''
+* {{icon|courtly vassal}} {{green|+5}} Courtly Vassal Opinion
+* {{icon|minority vassal}} {{green|+3}} Minority Vassal Opinion
+* {{icon|minor landholder vassal}} {{green|+3}} Minor Landholder Vassal Opinion
+|
+* '''Liege Modifiers:'''
+* {{icon|courtly vassal}} {{green|+8}} Courtly Vassal Opinion
+* {{icon|minority vassal}} {{green|+6}} Minority Vassal Opinion
+* {{icon|minor landholder vassal}} {{green|+6}} Minor Landholder Vassal Opinion
+|
+* '''Liege Modifiers:'''
+* {{icon|courtly vassal}} {{green|+10}} Courtly Vassal Opinion
+* {{icon|minority vassal}} {{green|+10}} Minority Vassal Opinion
+* {{icon|minor landholder vassal}} {{green|+10}} Minor Landholder Vassal Opinion
+* {{icon|prestige}} {{green|+350}} Prestige per White Peace
+|
+* {{iconify|Compassionate}} 
+
+* {{iconify|Forgiving}} 
+
+* {{iconify|Generous}} 
+
+* {{iconify|Trusting}}
+|-
+| '''Manipulator'''
+|
+* '''Liege Modifiers:'''
+* {{icon|scheme phase length}} {{green|-5}} Days Intrigue Scheme Phase Length
+|
+* '''Liege Modifiers:'''
+* {{icon|intrigue}} {{green|+1}} Intrigue
+* {{icon|knight}} {{green|+0.3%}} Knight Effectiveness per Dread
+* {{icon|scheme phase length}} {{green|-10}} Days Intrigue Scheme Phase Length
+|
+* '''Liege Modifiers:'''
+* {{icon|intrigue}} {{green|+2}} Intrigue
+* {{icon|dread}} {{green|+20}} Natural Dread
+* {{icon|knight}} {{green|+0.5%}} Knight Effectiveness per Dread
+* {{icon|scheme phase length}} {{green|-15}} Days Intrigue Scheme Phase Length
+|
+* At least one of these:
+* {{icon|intrigue}} 15 Intrigue
+
+* {{iconify|Schemer}}
+|-
+| '''Marauder'''
+|
+* '''Liege Modifiers:'''
+* {{icon|prestige}} {{green|+0.1%}} Monthly Prestige per Dread
+*'''Knight Army Modifiers:'''
+* {{icon|advantage}} {{green|+2}} Uncontrolled Territory Attacker Advantage
+|
+* '''Liege Modifiers:'''
+* {{icon|prestige}} {{green|+0.2%}} Monthly Prestige per Dread
+*'''Knight Army Modifiers:'''
+* {{icon|advantage}} {{green|+3}} Uncontrolled Territory Attacker Advantage
+|
+* '''Liege Modifiers:'''
+* {{icon|prestige}} {{green|+0.3%}} Monthly Prestige per Dread
+*'''Knight Army Modifiers:'''
+* {{icon|advantage}} {{green|+5}} Uncontrolled Territory Attacker Advantage
+|
+* {{iconify|Callous}} 
+
+* {{iconify|Sadistic}} 
+
+* {{iconify|Vengeful}}
+|-
+| '''Master of Revels'''
+|
+* '''Liege Modifiers:'''
+* [[File:Trait track lifestyle reveler.png|24px]] {{green|+15%}} Reveler Trait Experience
+* {{icon|eager reveler}} Gain the Eager Reveler Trait in 3 years
+* {{icon|eager reveler}} Primary Heir gain the Eager Reveler Trait in 3 years
+|
+* '''Liege Modifiers:'''
+* [[File:Trait track lifestyle reveler.png|24px]] {{green|+25%}} Reveler Trait Experience
+* {{icon|eager reveler}} Gain the Eager Reveler Trait in 3 years
+* {{icon|eager reveler}} Primary Heir gain the Eager Reveler Trait in 3 years
+*'''Knight Army Modifiers:'''
+* {{icon|prestige}} {{green|+35}} Prestige per Knight's victory in Battle
+|
+* '''Liege Modifiers:'''
+* [[File:Trait track lifestyle reveler.png|24px]] {{green|+35%}} Reveler Trait Experience
+* {{icon|eager reveler}} Gain the Eager Reveler Trait in 3 years
+* {{icon|eager reveler}} Primary Heir gain the Eager Reveler Trait in 3 years
+* {{green|+20}} Feast and Grand Wedding Guest Invitation Acceptance
+*'''Knight Army Modifiers:'''
+* {{icon|prestige}} {{green|+75}} Prestige per Knight's victory in Battle
+| {{iconify|Eager Reveler}}
+|- id="Mentor"
+| '''Mentor'''
+|
+* '''Liege Modifiers:'''
+* {{icon|knight}} {{green|+1}} Number of Knights
+|
+* '''Liege Modifiers:'''
+* {{icon|learning}} {{green|+1}} Learning
+* {{icon|knight}} {{green|+1}} Number of Knights
+* {{icon|hastiluder}} Train Commanders Task occasionally increases a Knight's Hastiluder experience
+* {{icon|prowess}} {{green|+1}} Prowess for children when they become 16
+* {{icon|prestige}} {{green|+100}} Prestige for children when they become 16
+|
+* '''Liege Modifiers:'''
+* {{icon|learning}} {{green|+2}} Learning
+* {{icon|knight}} {{green|+2}} Number of Knights
+* {{icon|hastiluder}} Train Commanders Task occasionally highly increases a Knight's Hastiluder experience
+* {{icon|prowess}} {{green|+3}} Prowess for children when they become 16
+* {{icon|prestige}} {{green|+250}} Prestige for children when they become 16
+|
+* At least one of these:
+* {{icon|learning}} 15 Learning
+
+* {{iconify|Whole of Body}}
+|-
+| '''Politicker'''
+|
+* '''Liege Modifiers:'''
+* [[File:Vassal stance courtly.png|24px]] {{green|+3}} Courtly Vassal Opinion
+* [[File:Vassal stance minority.png|24px]] {{green|+5}} Minority Vassal Opinion
+* [[File:Vassal stance barons and minor landholders.png|24px]] {{green|+3}} Minor Landowner Vassal Opinion
+|
+* '''Liege Modifiers:'''
+* {{icon|diplomacy}} {{green|+1}} Diplomacy
+* [[File:Vassal stance courtly.png|24px]] {{green|+6}} Courtly Vassal Opinion
+* [[File:Vassal stance minority.png|24px]] {{green|+8}} Minority Vassal Opinion
+* [[File:Vassal stance barons and minor landholders.png|24px]] {{green|+6}} Minor Landowner Vassal Opinion
+* {{icon|diarch}} {{green|-10}} Scales of Power Balancing Point
+|
+* '''Liege Modifiers:'''
+* {{icon|diplomacy}} {{green|+2}} Diplomacy
+* [[File:Vassal stance courtly.png|24px]] {{green|+10}} Courtly Vassal Opinion
+* [[File:Vassal stance minority.png|24px]] {{green|+10}} Minority Vassal Opinion
+* [[File:Vassal stance barons and minor landholders.png|24px]] {{green|+10}} Minor Landowner Vassal Opinion
+* {{icon|diarch}} {{green|-15}} Scales of Power Balancing Point
+* {{icon|levies}} Grand Tours increase Vassal Levy Base Contribution
+* {{icon|siege progress}} Grand Tours increase Siege Progress against vassals
+|
+* {{icon|diplomacy}} 15 Diplomacy
+
+* {{iconify|Diplomat}}
+|-
+| '''Reeve'''
+|
+* '''Liege Modifiers:'''
+* [[File:Vassal stance parochial.png|24px]] {{green|+10}} Parochial Vassal Opinion
+|
+* '''Liege Modifiers:'''
+* {{icon|stewardship}} {{green|+1}} Stewardship
+* [[File:Vassal stance parochial.png|24px]] {{green|+15}} Parochial Vassal Opinion
+* {{icon|development}} {{green|+0.5}} Development in least-developed county from Grand Tournament
+|
+* '''Liege Modifiers:'''
+* {{icon|stewardship}} {{green|+2}} Stewardship
+* [[File:Vassal stance parochial.png|24px]] {{green|+25}} Parochial Vassal Opinion
+* {{icon|development}} {{green|+1}} Development in least-developed county from Grand Tournament
+* {{icon|levies}} Increase Control in County Councilor Task may grant additional Control
+|
+* {{icon|stewardship}} 15 Stewardship
+
+* {{iconify|Administrator}}
+|-
+| '''Scoundrel'''
+|
+* '''Liege Modifiers:'''
+* {{icon|gold}} {{green|-10.00%}} Mercenary Hire Cost
+|
+* '''Liege Modifiers:'''
+* {{icon|martial}} {{green|+2}} Martial per Stress Level
+* {{icon|gold}} {{green|-20.00%}} Mercenary Hire Cost
+|
+* '''Liege Modifiers:'''
+* {{icon|martial}} {{green|+5}} Martial per Stress Level
+* {{icon|gold}} {{green|-30.00%}} Mercenary Hire Cost
+|
+* {{iconify|Ambitious}} 
+
+* {{iconify|Deceitful}} 
+
+* {{iconify|Greedy}} 
+
+* {{iconify|Gregarious}} 
+
+* {{iconify|Adventurer}}
+|-
+| '''Stalwart'''
+|
+* '''Liege Modifiers:'''
+* {{icon|safety}} {{green|+5}} Travel Safety
+|
+* '''Liege Modifiers:'''
+* {{icon|safety}} {{green|+10}} Travel Safety
+*'''Knight Army Modifiers:'''
+* {{icon|toughness}} {{green|+10%}} Army Toughness
+|
+* '''Liege Modifiers:'''
+* {{icon|safety}} {{green|+15}} Travel Safety
+*'''Knight Army Modifiers:'''
+* {{icon|toughness}} {{green|+15%}} Army Toughness
+|
+* {{iconify|Honest}} 
+
+* {{iconify|Just}} 
+
+* {{iconify|Patient}} 
+
+* {{iconify|Unyielding Defender}} 
+
+* {{iconify|Loyal}}
+|-
+| '''Tactician'''
+|
+* '''Liege Modifiers:'''
+* [[File:Martial lifestyle.png|24px]] {{green|+15%}} Monthly Martial Lifestyle Experience
+|
+* '''Liege Modifiers:'''
+* {{icon|martial}} {{green|+1}} Martial
+* [[File:Martial lifestyle.png|24px]] {{green|+25%}} Monthly Martial Lifestyle Experience
+*'''Knight Army Modifiers:'''
+* [[File:Icon maa countered.png|24px]] {{green|+25%}} Men-at-Arms Counter Efficiency for current army
+|
+* '''Liege Modifiers:'''
+* {{icon|martial}} {{green|+2}} Martial
+* [[File:Martial lifestyle.png|24px]] {{green|+35%}} Monthly Martial Lifestyle Experience
+* {{icon|levies}} Organize Army task may increase Levy Reinforcement Rate
+*'''Knight Army Modifiers:'''
+* [[File:Icon maa countered.png|24px]] {{green|+35%}} Men-at-Arms Counter Efficiency for current army
+|
+* {{icon|martial}} 15 Martial
+
+* {{iconify|Strategist}}
+|-
+| '''Thug'''
+|
+* '''Liege Modifiers:'''
+* {{icon|dread}} {{green|+0.2}} Dread Gain per Tyranny
+|
+* '''Liege Modifiers:'''
+* {{icon|dread}} {{green|+0.4}} Dread Gain per Tyranny
+* {{icon|crime}} {{green|+15}} Imprison Chance
+|
+* '''Liege Modifiers:'''
+* {{icon|dread}} {{green|+0.8}} Dread Gain per Tyranny
+* {{icon|crime}} {{green|+25}} Imprison Chance
+|
+* {{iconify|Arbitrary}} 
+
+* {{iconify|Arrogant}} 
+
+* {{iconify|Impatient}} 
+
+* {{iconify|Wrathful}} 
+
+* {{iconify|Reaver}}
+|-
+| '''Valiant'''
+|
+* '''Knight Army Modifiers:'''
+* {{icon|damage}} {{green|+10%}} Army Damage
+|
+* '''Liege Modifiers:'''
+* [[File:Vassal stance glory hound.png|24px]] {{green|+15}} Glory Hound Vassal Opinion
+*'''Knight Army Modifiers:'''
+* {{icon|damage}} {{green|+20%}} Army Damage
+|
+* '''Liege Modifiers:'''
+* [[File:Vassal stance glory hound.png|24px]] {{green|+25}} Glory Hound Vassal Opinion
+*'''Knight Army Modifiers:'''
+* {{icon|damage}} {{green|+30%}} Army Damage
+|
+* {{iconify|Brave}} 
+
+* {{iconify|Reckless}} 
+
+* {{iconify|Berserker}}
+|}
+
+=== Retinue {{iconify|accolade}}s ===
+Retinue accolades unlock a unique type of Men-at-Arms if they are the primary attribute. Requirements below are for the candidate knight. For example, tradition and innovation requirement must be fulfilled by the culture of the knight in question.
+{| class="mildtable plainlist"
+! width=1% | Accolade Attribute !! Rank 1-2 bonus !! Rank 3-4 bonus !! Rank 5-6 bonus !! width=20% | Requirements
+|-
+| '''Archer'''
+|
+* '''Liege Modifiers:'''
+* {{icon|levies}} {{green|+2}} Max Size for Archer Regiments
+* '''Knight Army Modifiers:'''
+* {{icon|damage}} {{green|+10%}} Archer Damage
+* {{icon|toughness}} {{green|+10%}} Archer Toughness
+|
+* '''Liege Modifiers:'''
+* {{icon|levies}} {{green|+4}} Max Size for Archer Regiments
+* {{icon|gold}} {{green|-15.00%}} Archer Maintenance
+* '''Knight Army Modifiers:'''
+* {{icon|damage}} {{green|+40%}} Archer Damage
+* {{icon|toughness}} {{green|+20%}} Archer Toughness
+* '''Unlocks:'''
+* {{icon|archers}} [[Army#Retinue|Retinue Archers]] Men-at-Arms
+|
+* '''Liege Modifiers:'''
+* {{icon|levies}} {{green|+6}} Max Size for Archer Regiments
+* {{icon|gold}} {{green|-25.00%}} Archer Maintenance
+* '''Knight Army Modifiers:'''
+* {{icon|damage}} {{green|+60%}} Archer Damage
+* {{icon|toughness}} {{green|+30%}} Archer Toughness
+* '''Unlocks:'''
+* {{icon|archers}} [[Army#Retinue|Retinue Archers]] Men-at-Arms
+| {{iconify|Forest Fighter}} or {{iconify|Hastiluder}} with 20 Trait Experience in Bow
+|-
+| '''Outrider'''
+|
+* '''Liege Modifiers:'''
+* {{icon|levies}} {{green|+1}} Max Size for Light Cavalry Regiments
+* '''Knight Army Modifiers:'''
+* {{icon|pursuit}} {{green|+5%}} Army Movement Speed
+* {{icon|damage}} {{green|+10%}} Light Cavalry Damage
+* {{icon|toughness}} {{green|+10%}} Light Cavalry Toughness
+* {{icon|pursuit}} {{green|+10%}} Light Cavalry Pursuit
+|
+* '''Liege Modifiers:'''
+* {{icon|levies}} {{green|+2}} Max Size for Light Cavalry Regiments
+* {{icon|gold}} {{green|-10%}} Light Cavalry Maintenance
+* '''Knight Army Modifiers:'''
+* {{icon|pursuit}} {{green|+10%}} Army Movement Speed
+* {{icon|damage}} {{green|+40%}} Light Cavalry Damage
+* {{icon|toughness}} {{green|+20%}} Light Cavalry Toughness
+* {{icon|pursuit}} {{green|+20%}} Light Cavalry Pursuit
+* '''Unlocks:'''
+* {{icon|light cavalry}} [[Army#Retinue|Retinue Outriders]] Men-at-Arms
+|
+* '''Liege Modifiers:'''
+* {{icon|levies}} {{green|+4}} Max Size for Light Cavalry Regiments
+* {{icon|gold}} {{green|-20%}} Light Cavalry Maintenance
+* '''Knight Army Modifiers:'''
+* {{icon|pursuit}} {{green|+15%}} Army Movement Speed
+* {{icon|damage}} {{green|+60%}} Light Cavalry Damage
+* {{icon|toughness}} {{green|+30%}} Light Cavalry Toughness
+* {{icon|pursuit}} {{green|+40%}} Light Cavalry Pursuit
+* '''Unlocks:'''
+* {{icon|light cavalry}} [[Army#Retinue|Retinue Outriders]] Men-at-Arms
+| {{iconify|Open Terrain Expert}} or {{iconify|Hastiluder}} with 20 Trait Experience in Horse
+|-
+| '''Pike Captain'''
+|
+* '''Liege Modifiers:'''
+* {{icon|levies}} {{green|+1}} Max Size for Spearmen Regiments
+* '''Knight Army Modifiers:'''
+* {{icon|damage}} {{green|+10%}} Spearmen Damage
+* {{icon|toughness}} {{green|+10%}} Spearmen Toughness
+|
+* '''Liege Modifiers:'''
+* {{icon|levies}} {{green|+2}} Max Size for Spearmen Regiments
+* {{icon|gold}} {{green|-10%}} Spearmen Maintenance
+* '''Knight Army Modifiers:'''
+* {{icon|damage}} {{green|+30%}} Spearmen Damage
+* {{icon|toughness}} {{green|+40%}} Spearmen Toughness
+* '''Unlocks:'''
+* {{icon|spearmen}} [[Army#Retinue|Retinue Pikemen]] Men-at-Arms
+|
+* '''Liege Modifiers:'''
+* {{icon|levies}} {{green|+4}} Max Size for Spearmen Regiments
+* {{icon|gold}} {{green|-20%}} Spearmen Maintenance
+* '''Knight Army Modifiers:'''
+* {{icon|damage}} {{green|+50%}} Spearmen Damage
+* {{icon|toughness}} {{green|+60%}} Spearmen Toughness
+* '''Unlocks:'''
+* {{icon|spearmen}} [[Army#Retinue|Retinue Pikemen]] Men-at-Arms
+| {{iconify|Rough Terrain Expert}} or {{iconify|Hastiluder}} with 20 Trait Experience in Foot
+|-
+| '''Skirmisher'''
+|
+* '''Liege Modifiers:'''
+* {{icon|levies}} {{green|+2}} Max Size for Skirmisher Regiments
+* '''Knight Army Modifiers:'''
+* {{icon|pursuit}} {{green|+10%}} Movement Speed in Provinces affected by Winter
+* {{icon|damage}} {{green|+10%}} Skirmisher Damage
+* {{icon|toughness}} {{green|+10%}} Skirmisher Toughness
+* {{icon|screen}} {{green|+10%}} Skirmisher Screen
+|
+* '''Liege Modifiers:'''
+* {{icon|levies}} {{green|+4}} Max Size for Skirmisher Regiments
+* {{icon|gold}} {{green|-15%}} Skirmisher Maintenance
+* '''Knight Army Modifiers:'''
+* {{icon|pursuit}} {{green|+15%}} Movement Speed in Provinces affected by Winter
+* {{icon|damage}} {{green|+40%}} Skirmisher Damage
+* {{icon|toughness}} {{green|+20%}} Skirmisher Toughness
+* {{icon|screen}} {{green|+30%}} Skirmisher Screen
+* '''Unlocks:'''
+* {{icon|skirmishers}} [[Army#Retinue|Retinue Skirmishers]] Men-at-Arms
+|
+* '''Liege Modifiers:'''
+* {{icon|levies}} {{green|+6}} Max Size for Skirmisher Regiments
+* {{icon|gold}} {{green|-25%}} Skirmisher Maintenance
+* '''Knight Army Modifiers:'''
+* {{icon|pursuit}} {{green|+20%}} Movement Speed in Provinces affected by Winter
+* {{icon|damage}} {{green|+60%}} Skirmisher Damage
+* {{icon|toughness}} {{green|+30%}} Skirmisher Toughness
+* {{icon|screen}} {{green|+50%}} Skirmisher Screen
+* '''Unlocks:'''
+* {{icon|skirmishers}} [[Army#Retinue|Retinue Skirmishers]] Men-at-Arms
+| {{iconify|Jungle Stalker}},  {{iconify|Winter Soldier}}, or {{iconify|Hastiluder}} with 20 Trait Experience in Bow or 20 Trait Experience in Foot
+|-
+| '''Vanguard'''
+|
+* '''Liege Modifiers:'''
+* {{icon|levies}} {{green|+1}} Max Size for Heavy Infantry Regiments
+* '''Knight Army Modifiers:'''
+* {{icon|damage}} {{green|+10%}} Heavy Infantry Damage
+* {{icon|toughness}} {{green|+10%}} Heavy Infantry Toughness
+|
+* '''Liege Modifiers:'''
+* {{icon|levies}} {{green|+2}} Max Size for Heavy Infantry Regiments
+* {{icon|gold}} {{green|-10%}} Heavy Infantry Maintenance
+* '''Knight Army Modifiers:'''
+* {{icon|damage}} {{green|+40%}} Heavy Infantry Damage
+* {{icon|toughness}} {{green|+20%}} Heavy Infantry Toughness
+* '''Unlocks:'''
+* {{icon|heavy infantry}} [[Army#Retinue|Retinue Vanguard]] Men-at-Arms
+|
+* '''Liege Modifiers:'''
+* {{icon|levies}} {{green|+4}} Max Size for Heavy Infantry Regiments
+* {{icon|gold}} {{green|-20%}} Heavy Infantry Maintenance
+* '''Knight Modifiers:'''
+* {{icon|damage}} {{green|+60%}} Heavy Infantry Damage
+* {{icon|toughness}} {{green|+30%}} Heavy Infantry Toughness
+* '''Unlocks:'''
+* {{icon|heavy infantry}} [[Army#Retinue|Retinue Vanguard]] Men-at-Arms
+| {{iconify|Athletic}}, {{iconify|Strong}}, {{iconify|Hale}}, {{iconify|Robust}}, {{iconify|Herculean}}, or {{iconify|Hastiluder}} with 20 Trait Experience in Foot
+At least one of these:
+* {{icon|yes}} Quilted Armor innovation
+* {{icon|yes}} Any innovation or tradition that gives special heavy infantry Men-at-Arms
+|-
+| '''Lancer'''
+|
+* '''Liege Modifiers:'''
+* {{icon|levies}} {{green|+1}} Max Size of Heavy Cavalry Regiments
+* '''Knight Army Modifiers:'''
+* {{icon|damage}} {{green|+10%}} Heavy Cavalry Damage
+* {{icon|toughness}} {{green|+10%}} Heavy Cavalry Toughness
+|
+* '''Liege Modifiers:'''
+* {{icon|levies}} {{green|+2}} Max Size of Heavy Cavalry Regiments
+* {{icon|gold}} {{green|-10.00%}} Heavy Cavalry Maintenance
+* '''Knight Army Modifiers:'''
+* {{icon|damage}} {{green|+40%}} Heavy Cavalry Damage
+* {{icon|toughness}} {{green|+20%}} Heavy Cavalry Toughness
+* '''Unlocks:'''
+* {{icon|heavy cavalry}} [[Army#Retinue|Retinue Lancers]] Men-at-Arms
+|
+* '''Liege Modifiers:'''
+* {{icon|levies}} {{green|+4}} Max Size of Heavy Cavalry Regiments
+* {{icon|gold}} {{green|-20.00%}} Heavy Cavalry Maintenance
+* '''Knight Army Modifiers:'''
+* {{icon|damage}} {{green|+60%}} Heavy Cavalry Damage
+* {{icon|toughness}} {{green|+30%}} Heavy Cavalry Toughness
+* '''Unlocks:'''
+* {{icon|heavy cavalry}} [[Army#Retinue|Retinue Lancers]] Men-at-Arms
+|
+* {{iconify|Aggressive Attacker}} or {{iconify|Hastiluder}} with 20 Trait Experience in Horse
+* At least one of these:
+* {{icon|yes}} Arched Saddle innovation
+* {{icon|yes}} Valets innovation
+* {{icon|yes}} Audacious Cadets tradition
+* {{icon|yes}} Caucasian Wolves tradition
+* {{icon|yes}} Eastern Roman Legacy tradition
+* {{icon|yes}} Imperial Tagmata tradition
+|-
+| '''Camelier'''
+|
+* '''Liege Modifiers:'''
+* {{icon|levies}} {{green|+1}} Max Size for Camel Cavalry Regiments
+* '''Knight Army Modifiers:'''
+* {{icon|pursuit}} {{green|+5%}} Army Movement Speed
+* {{icon|damage}} {{green|+10%}} Camel Cavalry Damage
+* {{icon|toughness}} {{green|+10%}} Camel Cavalry Toughness
+* {{icon|pursuit}} {{green|+10%}} Camel Cavalry Pursuit
+* {{icon|screen}} {{green|+10%}} Camel Cavalry Screen
+|
+* '''Liege Modifiers:'''
+* {{icon|levies}} {{green|+2}} Max Size for Camel Cavalry Regiments
+* {{icon|gold}} {{green|-10%}} Camel Cavalry Maintenance
+* '''Knight Army Modifiers:'''
+* {{icon|pursuit}} {{green|+10%}} Army Movement Speed
+* {{icon|damage}} {{green|+40%}} Camel Cavalry Damage
+* {{icon|toughness}} {{green|+20%}} Camel Cavalry Toughness
+* {{icon|pursuit}} {{green|+20%}} Camel Cavalry Pursuit
+* {{icon|screen}} {{green|+20%}} Camel Cavalry Screen
+* '''Unlocks:'''
+* {{icon|camel cavalry}} [[Army#Retinue|Retinue Camel]] Riders Men-at-Arms
+|
+* '''Liege Modifiers:'''
+* {{icon|levies}} {{green|+4}} Max Size for Camel Cavalry Regiments
+* {{icon|gold}} {{green|-20%}} Camel Cavalry Maintenance
+* '''Knight Army Modifiers:'''
+* {{icon|pursuit}} {{green|+15%}} Army Movement Speed
+* {{icon|damage}} {{green|+60%}} Camel Cavalry Damage
+* {{icon|toughness}} {{green|+30%}} Camel Cavalry Toughness
+* {{icon|pursuit}} {{green|+30%}} Camel Cavalry Pursuit
+* {{icon|screen}} {{green|+30%}} Camel Cavalry Screen
+* '''Unlocks:'''
+* {{icon|camel cavalry}} [[Army#Retinue|Retinue Camel]] Riders Men-at-Arms
+|
+* {{iconify|Desert Warrior}} or {{iconify|Hastiluder}} with 20 Trait Experience in Horse
+* {{icon|yes}} War Camels innovation
+|-
+| '''Crossbow Captain'''
+|
+* '''Liege Modifiers:'''
+* {{icon|levies}} {{green|+2}} Max Size for Archer Regiments
+* '''Knight Army Modifiers:'''
+* {{icon|damage}} {{green|+10%}} Archer Damage
+* {{icon|toughness}} {{green|+10%}} Archer Toughness
+* {{icon|death}} Slightly increased chance to kill enemy knights
+|
+* '''Liege Modifiers:'''
+* {{icon|levies}} {{green|+4}} Max Size for Archer Regiments
+* {{icon|gold}} {{green|-15%}} Archer Maintenance
+* '''Knight Army Modifiers:'''
+* {{icon|damage}} {{green|+40%}} Archer Damage
+* {{icon|toughness}} {{green|+20%}} Archer Toughness
+* {{icon|death}} Moderately increased chance to kill enemy knights
+* '''Unlocks:'''
+* {{icon|archers}} [[Army#Retinue|Retinue Crossbowmen]] Men-at-Arms
+|
+* '''Liege Modifiers:'''
+* {{icon|levies}} {{green|+6}} Max Size for Archer Regiments
+* {{icon|gold}} {{green|-25%}} Archer Maintenance
+* '''Knight Army Modifiers:'''
+* {{icon|damage}} {{green|+60%}} Archer Damage
+* {{icon|toughness}} {{green|+30%}} Archer Toughness
+* {{icon|death}} Highly increased chance to kill enemy knights
+* '''Unlocks:'''
+* {{icon|archers}} [[Army#Retinue|Retinue Crossbowmen]] Men-at-Arms
+|
+* {{iconify|Cautious Leader}} or {{iconify|Hastiluder}} with 20 Trait Experience in Bow
+* At least one of these:
+* {{icon|yes}} Advanced Bowmaking innovation
+* {{icon|yes}} Chu-ko-nu innovation
+|-
+| '''Elephant Rider'''
+|
+* '''Liege Modifiers:'''
+* {{icon|levies}} {{green|+1}} Max Size for Elephant Cavalry Regiments
+* {{icon|gold}} {{green|-20%}} Elephant Cavalry Maintenance
+|
+* '''Liege Modifiers:'''
+* {{icon|levies}} {{green|+2}} Max Size for Elephant Cavalry Regiments
+* {{icon|gold}} {{green|-35%}} Elephant Cavalry Maintenance
+* '''Knight Army Modifiers:'''
+* {{icon|damage}} {{green|+20%}} Elephant Cavalry Damage
+* '''Unlocks:'''
+* {{icon|elephant cavalry}} [[Army#Retinue|Retinue War Elephants]] Men-at-Arms
+|
+* '''Liege Modifiers:'''
+* {{icon|levies}} {{green|+3}} Max Size for Elephant Cavalry Regiments
+* {{icon|gold}} {{green|-50%}} Elephant Cavalry Maintenance
+* '''Knight Army Modifiers:'''
+* {{icon|damage}} {{green|+20%}} Elephant Cavalry Damage
+* {{icon|toughness}} {{green|+20%}} Elephant Cavalry Toughness
+* '''Unlocks:'''
+* {{icon|elephant cavalry}} [[Army#Retinue|Retinue War Elephants]] Men-at-Arms
+|
+* {{iconify|Jungle Stalker}} or {{iconify|Hastiluder}} with 20 Trait Experience in Horse
+* {{icon|yes}} Elephantry innovation
+|-
+| '''Horse Archer'''
+|
+* '''Liege Modifiers:'''
+* {{icon|levies}} {{green|+1}} Max Size for Archer Cavalry Regiments
+* '''Knight Army Modifiers:'''
+* {{icon|pursuit}} {{green|+5%}} Army Movement Speed
+* {{icon|damage}} {{green|+10%}} Archer Cavalry Damage
+* {{icon|toughness}} {{green|+10%}} Archer Cavalry Toughness
+* {{icon|pursuit}} {{green|+10%}} Archer Cavalry Pursuit
+|
+* '''Liege Modifiers:'''
+* {{icon|levies}} {{green|+2}} Max Size for Archer Cavalry Regiments
+* {{icon|gold}} {{green|-10%}} Archer Cavalry Maintenance
+* '''Knight Army Modifiers:'''
+* {{icon|pursuit}} {{green|+10%}} Army Movement Speed
+* {{icon|damage}} {{green|+40%}} Archer Cavalry Damage
+* {{icon|toughness}} {{green|+20%}} Archer Cavalry Toughness
+* {{icon|pursuit}} {{green|+20%}} Archer Cavalry Pursuit
+* '''Unlocks:'''
+* {{icon|horse archers}} [[Army#Retinue|Retinue Horse Archers]] Men-at-Arms
+|
+* '''Liege Modifiers:'''
+* {{icon|levies}} {{green|+4}} Max Size for Archer Cavalry Regiments
+* {{icon|gold}} {{green|-20%}} Archer Cavalry Maintenance
+* '''Knight Army Modifiers:'''
+* {{icon|pursuit}} {{green|+15%}} Army Movement Speed
+* {{icon|damage}} {{green|+60%}} Archer Cavalry Damage
+* {{icon|toughness}} {{green|+30%}} Archer Cavalry Toughness
+* {{icon|pursuit}} {{green|+40%}} Archer Cavalry Pursuit
+* '''Unlocks:'''
+* {{icon|horse archers}} [[Army#Retinue|Retinue Horse Archers]] Men-at-Arms
+|
+* {{iconify|Flexible Leader}} or {{iconify|Hastiluder}} with 20 Trait Experience in Bow or 20 Trait Experience in Horse
+* One of:
+** Horse Lords tradition
+** {{icon|kos}} Devoted Horsemanship tradition
+** {{icon|kos}} Wolves of the Deep Steppe tradition
+** {{icon|kos}} Way of the Nomad trait
+** {{icon|kos}} Nomadic government
+|}
+
+==References==
+<references />
+{{Mechanics navbox}}
+[[Category:Realm]]
+[[Category:Character]]

@@ -1,0 +1,1238 @@
+{{Version|1.18}}
+[[File:Character attributes.png|thumb|350px|Character attributes]]
+'''Attributes''' represent certain statistics that each character has, and determine mainly how good a character is at certain actions.
+
+== Age ==
+A character is considered a child if they are below 16 years and an adult once they reach 16 years. A character can die of old age after reaching 60 years. (If they die of poor health before it, the death reason will be "Natural Causes".) Each starting character will have a number of lifestyle perks unlocked based on its age.
+* <section begin=HealthLossViaAge />Once a character reaches the age of 25, they have a 7.5% chance to lose {{icon|health}} {{red|−0.125}} health each year. The chance increases by 2.2% each year.<section end=HealthLossViaAge />
+* Once a character reaches the age of 45, they have a 10% chance to lose {{icon|prowess}} {{red|1}} prowess each year. The chance increases by 1.5% each year. A dynasty can prevent this by completing the [[File:Kin legacy track.png|24px]] Kin legacy.
+
+== Skills ==
+Skills represent a character's expertise across various fields and together with traits determine how good or bad a character is at a given task. Each character will be born with a skill level between 0 and 10 in every skill category, partially determined by both parents. Between the ages of 6 and 16 a child can gain up to 4 more skill points spread across all skill categories, once again determined by the skill of both parents. Skill will be further increased or decreased by various traits and modifiers. All skills cap at 100. The five main skills are diplomacy, martial, stewardship, intrigue, and learning. Prowess is a secondary skill that reflects a character's aptitude in personal combat.
+{| class="mildtable plainlist"
+! Skill
+! Effect per level
+! {{icon|kos}} Additional effects per level if Nomadic
+|-
+| [[File:Diplomacy.png]] Diplomacy
+|
+* {{icon|prestige}} {{green|+1%}} Monthly Prestige (Starting from {{red|−8%}} at Level 0)
+* {{icon|opinion}} {{green|+1}} General Opinion (Starting from {{red|−8}} at Level 0)
+* {{icon|legitimacy}} Increases initial legitimacy
+| {{icon|herd}} {{green|+1%}} Herd Gain (Starting from {{red|−8%}} at Level 0)
+|-
+| [[File:Martial.png]] Martial
+|
+* {{icon|gold}} {{green|−1.00%}} Army Gold Maintenance (Starting from {{red|+8%}} at Level 0)
+* {{icon|Knight}} {{green|+1}} Knight (per 5 Levels)
+* {{icon|toughness}} {{green|+1%}} Army Toughness (Starting from {{red|−8%}} at Level 0)
+* {{icon|levy}} {{green|+2.5%}} Levy Reinforcement Rate (Starting from {{red|−20%}} at Level 0)
+* {{icon|safety}} {{green|+1}} Travel Safety
+* {{icon|advantage}} {{green|+1}} Advantage when commanding armies
+| {{icon|horde riders}} {{green|+0.5%}} Herd Conversion into Horde Riders (Starting from {{red|−4%}} at Level 0)
+|-
+| [[File:Stewardship.png]] Stewardship
+|
+* {{icon|gold}} {{green|+2%}} Domain Taxes (Starting from {{red|−16%}} at Level 0)
+* {{icon|gold}} {{green|+4%}} Domicile Income (Starting from {{red|−32%}} at Level 0)
+* {{icon|travel speed}} {{green|+1}} Travel Speed
+* {{icon|domain}} {{green|+1}} Domain Limit (per 6 Levels)
+* {{icon|auh}} {{green|+1%}} Barter Goods
+| {{icon|gold}} {{green|+2%}} Income from Herd (Starting from {{red|−16%}} at Level 0)
+|-
+| [[File:Intrigue.png]] Intrigue
+|
+* {{icon|scheme secrecy}} {{green|+2%}} Scheme Secrecy
+* {{icon|scheme secrecy}} {{green|−0.5%}} Enemy Scheme Secrecy
+* [[File:Scheme opportunity.png|24px]] {{green|+1}} Scheme Advantage (per 5 Levels above 15)
+* {{icon|crime}} {{green|+1%}} Imprisonment Success Chance
+|
+|-
+| [[File:Learning.png]] Learning
+|
+* {{icon|piety}} {{green|+0.1}} Monthly Piety
+* {{icon|piety}} {{green|−1%}} Conversion Cost
+* {{icon|unknown}} {{green|+1}} Demand Conversion Acceptance
+* {{icon|language}} {{green|+0.2}} Foreign Language Limit
+* {{icon|prestige}} Reduces the cost to increase Crown Authority
+| {{icon|county fertility}} {{green|+2%}} County Fertility Growth (Starting from {{red|−16%}} at Level 0)
+|-
+| [[File:War.png]] Prowess
+|
+* {{icon|damage}} {{green|+100}} Damage as knight
+* {{icon|toughness}} {{green|+10}} Toughness as knight
+* {{icon|unknown}} Determines the combat moves available in a [[duel]]
+* {{icon|unknown}} Determines likelihood of being injured/killed in a battle as a Commander/Knight
+* {{icon|unknown}} Determines muscle mass in character appearance
+| 
+|}
+
+=== Value thresholds ===
+The final value of each skill, including modification by education and other traits, is tested against certain thresholds in the game data. One is used to set the human-readable description of the skill level shown in the tooltip while mousing over one of a character's skills, to give a general assessment of their ability.
+{| class="mildtable" style="text-align: center;"
+! Values
+! Description
+|-
+| 0–4
+| Terrible
+|-
+| 5–8
+| Poor
+|-
+| 9–12
+| Average
+|-
+| 13–16
+| Good
+|-
+| 17-68
+| Excellent
+|-
+| 69
+| Nice
+|-
+| 70-100
+| Excellent
+|}
+
+== Dread ==
+Dread is a measure of how feared a ruler is by their vassals and courtiers. A character's dread can range from 0 to 100, with {{iconify|Nomadic}} and {{iconify|Meritocratic Khanate}} rulers having a higher cap of 150. Enough dread compared to another character's [[#Boldness|boldness]] can make characters either intimidated or terrified, allowing most diplomatic actions to succeed despite negative opinion.
+
+Dread is gained by various actions that inspire fear, such as torturing or executing prisoners. However, it is also possible to lose dread through actions showing compassion or weakness, including releasing prisoners and accepting faction demands. Each character additionally has ''natural dread'' which is the value towards which dread will drift over time (either up or down), at a base rate of 0.5 per month. The lifestyle perk ''[[Lifestyle#Torturer|Forever Infamous]]'' prevents dread from decaying.
+
+Each character has a hidden boldness attribute, which is decided primarily by its [[traits]] (i.e characters with "Brave" trait will never be Intimidated, while those with "Craven" trait will always be Terrified). A character becomes intimidated by characters whose {{iconify|dread}} is 20 above their own boldness and terrified by characters whose dread is 45 above their own boldness. This includes negative boldness, meaning that characters with 0 {{iconify|dread}} can still have 'Intimidated' or 'Terrified' characters if they are below the boldness level required.
+
+=== Intimidation and terror ===
+Intimidated characters are less likely to join factions or schemes against the character they're intimidated by, while a terrified character will never join factions or schemes against them. In addition, it affects their acceptance for various character interactions:
+{| class="mildtable" style="text-align: center;
+! Interaction
+! [[File:Intimidated.png]] Intimidated acceptance
+! [[File:Terrified.png]] Terrified acceptance
+|-
+| Arrange marriage
+| {{green|+75}}
+| {{green|+150}}
+|-
+| Blackmail
+| {{green|+50}}
+| {{green|+100}}
+|-
+| Negotiate alliance
+| {{green|+50}}
+| {{green|+100}}
+|-
+| Offer guardianship
+| {{green|+50}}
+| {{green|+100}}
+|-
+| Offer ward
+| {{green|+50}}
+| {{green|+100}}
+|-
+| Ransom
+| {{green|+40}}
+| {{green|+100}}
+|-
+| Ask to take vows
+| {{green|+25}}
+| {{green|+50}}
+|-
+| Imprison
+| {{green|+25}}
+| {{green|+50}}
+|-
+| Retract vassal
+| {{green|+25}}
+| {{green|+50}}
+|-
+| Revoke title
+| {{green|+25}}
+| {{green|+50}}
+|-
+| Demand conversion
+| {{green|+10}}
+| {{green|+20}}
+|-
+| Offer vassalage
+| {{green|+10}}
+| {{green|+20}}
+|-
+| Marry
+| {{red|-50}}
+| {{red|-75}}
+|}
+
+=== Natural dread ===
+The natural dread of a character is modified by the following (default value is 0):
+{| class="mildtable sortable"
+|-
+! Source
+! Natural dread
+|-
+| First [[Dynasty#Dynasty Legacies|Guile]] dynastic legacy perk
+| {{green|+15}}
+|-
+| [[Lifestyle#Focuses|Intimidation]] focus
+| {{green|+30}}
+|-
+|Eye for an Eye tradition
+| +10
+|-
+|Respected Despots family attribute
+| +10
+|-
+|Achamanism holy site of Carthage
+| +5
+|-
+| ''[[Lifestyle#Overseer|Serve the Crown]]'' lifestyle perk
+| {{green|+15}}
+|-
+|[[Knight#Accolade attributes|Manipulator]] accolade stat
+|{{green|+20}}
+|-
+| [[Traits#Wrathful|Wrathful]] trait
+| {{green|+20}}
+|-
+| [[Traits#Arbitrary|Arbitrary]] trait
+| {{green|+15}}
+|-
+| [[Traits#Sadistic|Sadistic]] trait
+| {{green|+35}}
+|-
+| [[Traits#Albino|Albino]] trait
+| {{green|+15}}
+|-
+| [[Traits#Scaly|Scaly]] trait
+| {{green|+10}}
+|-
+| [[Traits#One-Eyed|One-Eyed]] trait
+| {{green|+10}}
+|-
+| [[Traits#Cannibal|Cannibal]] trait
+| {{green|+20}}
+|-
+| [[Traits#Greatest of Khans|Greatest of Khans]] trait
+| {{green|+50}}
+|-
+| [[Traits#Compassionate|Compassionate]] trait
+| {{red|-15}}
+|-
+| [[Traits#Wounded|Wounded]] trait
+| {{red|-10}}
+|-
+| [[Traits#Severely Injured|Severely Injured]] trait
+| {{red|-15}}
+|-
+| [[Traits#Brutally Mauled|Brutally Mauled]] trait
+| {{red|-20}}
+|-
+| [[Traits#Sickly|Sickly]] trait
+| {{red|-20}}
+|-
+| [[Traits#Infirm|Infirm]] trait
+| {{red|-15}}
+|-
+| [[Traits#Incapable|Incapable]] trait
+| {{red|-25}}
+|-
+| [[Traits#Maimed|Maimed]] trait
+| {{red|-15}}
+|-
+| [[Traits#Blind|Blind]] trait
+| {{red|-10}}
+|-
+| [[Traits#Ill|Ill]] trait
+| {{red|-10}}
+|-
+| [[Traits#Bubonic Plague|Bubonic Plague]] trait
+| {{red|-30}}
+|-
+| [[Traits#Cancer|Cancer]] trait
+| {{red|-20}}
+|-
+| [[Traits#Consumption|Consumption]] trait
+| {{red|-10}}
+|-
+| [[Traits#Great Pox|Great Pox]] trait
+| {{red|-20}}
+|-
+| [[Traits#Gout-ridden|Gout-ridden]] trait
+| {{red|-5}}
+|-
+| [[Traits#Leper|Leper]] trait
+| {{red|-20}}
+|-
+| [[Traits#Lover's Pox|Lover's Pox]] trait
+| {{red|-5}}
+|-
+| [[Traits#Pneumonia|Pneumonia]] trait
+| {{red|-10}}
+|-
+| [[Traits#One-Legged|One-Legged]] trait
+| {{red|-10}}
+|-
+| [[Traits#Small Pox|Small Pox]] trait
+| {{red|-15}}
+|-
+| [[Traits#Typhus|Typhus]] trait
+| {{red|-15}}
+|}
+
+== Health ==
+Health is a measure of how likely a character is to die. Male characters are born with health between (and including) 4.5 and 4.9; female characters are born with health between (and including) 5.0 and 5.4.<ref>{{cite file|common\defines\00_defines.txt}}: <code>NEWBORN_HEALTH_BASE = 4.5</code>, <code>NEWBORN_HEALTH_SPAN = 0.5</code>, <code>NEWBORN_HEALTH_FEMALE_BONUS = 0.5</code>.</ref> {{#lst:Attributes|HealthLossViaAge}}
+{| class="mildtable"
+! Health
+! Can die
+! Description
+! Interval
+|-
+| [[File:Health negative.png|24px]] Dying
+| align=center | {{icon|yes}}
+| ''You are at Death's doorstep''
+| health < 0
+|-
+| [[File:Health negative.png|24px]] Near Death
+| align=center | {{icon|yes}}
+| ''You are not long for this world...''
+| 0 ≤ health < 1
+|-
+| [[File:Health.png|24px]] Poor
+| align=center | {{icon|yes}}
+| ''You are ailing''
+| 1 ≤ health < 3
+|-
+| [[File:Health.png|24px]] Fine
+| align=center | {{icon|no}}
+| ''You are feeling fine''
+| 3 ≤ health < 5
+|-
+| [[File:Health positive.png|24px]] Good
+| align=center | {{icon|no}}
+| ''Your humors are balanced''
+| 5 ≤ health < 7
+|-
+| [[File:Health positive.png|24px]] Excellent
+| align=center | {{icon|no}}
+| ''You are full of vim and vigor!''
+| health ≥ 7
+|}
+
+Some traits, tenets and modifiers provide bonuses {{icon|health boost}} Disease resistance (health). This means that any health penalties applied to the character are negated by the amount of disease resistance the character has. Note that there is also [[#Disease resistance (fertility)|disease resistance for fertility]].
+
+=== Health boosts and penalties ===
+Health effects have different names depending on the value:<ref>{{cite file|common\defines\00_defines.txt}}, <code>NModifier</code></ref>
+{| class="mildtable"
+|-
+! Displayed as
+! Range of values
+|-
+| {{icon|health penalty}} {{red|The Reaper Approaches}}
+| value ≤ −6 
+|-
+| {{icon|health penalty}} {{red|Catastrophic Health Penalty}}
+| −6 < value ≤ −4.5
+|-
+| {{icon|health penalty}} {{red|Critical Health Penalty}}
+| −4.5 < value ≤ −3
+|-
+| {{icon|health penalty}} {{red|Severe Health Penalty}}
+| −3 < value ≤ −1
+|-
+| {{icon|health penalty}} {{red|Major Health Penalty}}
+| −1 < value ≤ −0.75
+|-
+| {{icon|health penalty}} {{red|Moderate Health Penalty}}
+| −0.75 < value ≤ −0.5
+|-
+|{{icon|health penalty}}  {{red|Minor Health Penalty}}
+| −0.5 < value ≤ −0.25
+|-
+| {{icon|health penalty}} {{red|Tiny Health Penalty}}
+| −0.25 < value < 0
+|-
+| {{icon|health boost}} {{green|Small Health Boost}}
+| 0 < value < +0.25
+|-
+| {{icon|health boost}} {{green|Medium Health Boost}}
+| +0.25 ≤ value < +0.5
+|-
+| {{icon|health boost}} {{green|Significant Health Boost}}
+| +0.5 ≤ value < +0.75
+|-
+| {{icon|health boost}} {{green|Huge Health Boost}}
+| +0.75 ≤ value < +1
+|-
+| {{icon|health boost}} {{green|Massive Health Boost}}
+| +1 ≤ value < +2
+|-
+| {{icon|health boost}} {{green|Godlike Health Boost}}
+| value ≥ +2
+|}
+
+=== Death ===
+{{icon|death}} Death is the end of a character's life. For landed characters, it triggers succession for any held titles. There can be multiple causes:
+* {{icon|health}} When health is either Poor, Near Death or Dying, there is a chance at a given interval to die. The lower a character's health, the bigger this chance is.
+* [[File:Secret murder.png|24px]] Upon success of a [[murder scheme]], the targeted character dies.
+* {{icon|decision}} The [[Attempt Suicide]] decision has a chance for the character to die.
+* Knights may die in battle or in duels, with this chance increasing with low {{iconify|prowess}} and other factors.
+* Characters may die when the holding they are currently residing in is captured in a siege.
+* [[prison|Imprisoned]] characters may be executed by their jailors.
+* Various events may cause death.
+
+== Fertility ==
+{{see also|Family (relation)}}
+Fertility represents a character's chance to have or cause pregnancy. Married couples and lovers who are a man and a woman, have a monthly chance to get the woman pregnant based on the average fertility of the two partners. A character has a base fertility of 50%, modified by additive modifiers such as traits and artifacts. There is also a multiplicative modifier from age. The age when it starts to decay is increased by 5 if it has the {{iconify|Fecund}} trait, and another 5 from completing the "Blood" Dynasty Legacy.
+{| class="mildtable"
+|+ Fertility multiplier by age
+! rowspan=2 | Gender
+! colspan=9 style="text-align: center; | Age
+|-
+! 16–25 !! 26–30 !! 31–35 !! 36–40 !! 41–45 !! 46–50 !! 51–60 !! 61–70 !! 70+
+|-
+| {{icon|male dominated}} Male || 1.0 || 1.0 || 1.0 || 0.9 || 0.8  || 0.8 || 0.7 || 0.6 || 0.5 
+|-
+| {{icon|female dominated}} Female || 1.0 || 0.9 || 0.7 || 0.5 || 0.33 || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}}
+|}
+
+[[Traits]], such as [[lustful]] or [[melancholic]], can affect fertility. Concubines and secondary spouses effectively have half fertility. In addition a mother loses 5% fertility for each childbirth. Fertility is reduced by 15% between non-ruler characters.
+
+Fertility only affects the monthly random chance. Laying with a not-infertile, opposite sex partner during an event will always result in pregnancy.
+
+Chance of impregnation monthly is equal to the average of fertility of parents times 4.75. <ref>{{cite file|common\defines\00_defines.txt}}: <code>FERTILITY_CHANCE_MULTIPLIER = 4.75</code></ref> 
+
+Note: Males can have a maximum number of children; 9 living children plus 2 per additional consort or wife (so 15 total with 4 wives). This does not stop event driven pregnancies and special cases such as multiple pregnancies setting off while having 14 children and/or the 15th pregnancy resulting in twins. Females can have a maximum number of 9 children (again barring an event-driven 10th pregnancy) unless the 9th pregnancy results in twins.
+
+=== Pregnancy and Complications ===
+Women will start showing signs of pregnancy on the 2nd month, during which they will have {{red|-2}} {{icon|prowess}} penalty, and will give birth in the 10th month.
+
+It is possible for the mother to suffer pregnancy complications, which may result in stillbirth and/or the death of the mother. Currently, there are only 2 modifiers that influence the chance of pregnancy complications, such as:
+
+* Dynasty Legacy "Kin" Level-3: {{green|-25%}}
+* Tenet "Sacred Childbirth": {{green|-50%}}
+
+=== Disease resistance (fertility) ===
+It is possible for fertility penalties to be negated by the {{icon|fertility}} Disease resistance (fertility) modifier. Currently, only the [[Iron Constitution]] perk in the Whole of Body tree provides some.
+
+== Stress ==
+Stress is a measure of a character's mental health and is gained whenever a character responds to an event or decision in a way that conflicts with their [[personality traits]], someone they're close to dies, the character is [[imprisoned]] in a dungeon or is tortured. Serving as a guardian for a ward can also cause stress if the guardian elects to change the child's [[Traits#Personality_traits|personality traits]].  Stress ranges from 0 to 400, with higher levels of stress imposing various penalties and making the character vulnerable to mental break events.
+{| class="wikitable"
+|-
+! Personality Trait !! Stressful Interaction
+|-
+| Ambitious
+| grant independence, grant titles (at/below domain limit), signing White Peace during offensive wars
+|-
+| Arrogant
+| grant independence, legitimize bastard, signing White Peace during offensive wars
+|-
+| Callous
+| release from prison (w/out demands)
+|-
+| Chaste
+| seduce
+|-
+| Compassionate
+| kick from court, disinherit, denounce, break up with lover, dismiss concubine, fabricate hook, blackmail, imprison, move to dungeon, execution, start murder, start abduct, torture and title revocation
+|-
+| Content
+| claim throne, force onto council
+|-
+| Craven
+| join war, torture
+|-
+| Cynical
+| temporal condemnation, host honored guest, literalist debate
+|-
+| Forgiving
+| disinherit, denounce, imprison (w/reason), move to dungeon, execution devour, execution (w/ reason)
+|-
+| Generous
+| revoke leased title, liege modify vassal contract (w/ tyranny), demand payment, retract vassal, revoke title
+|-
+| Greedy
+| grant independence, gift, grant titles (at/below domain limit), invite agent to scheme (w/ gift), grant vassal
+|-
+| Gregarious
+| kick from court, failure during Sway schemes
+|-
+| Honest
+| invite agent to scheme, elope, fabricate hook, start murder, start abduct
+|-
+| Impatient
+| delay murder scheme
+|-
+| Just
+| elope, liege modify vassal contract (w/ tyranny), claim throne, fabricate hook, buy claim, imprison (w/out reason), execution (w/out reason), start murder, start abduct, retract vassal (from dejure liege), join independence faction (against dejure liege)
+|-
+| Lustful
+| break up with lover
+|-
+| Paranoid
+| recruit guest, invite agent to scheme, send child to guardian
+|-
+| Sadistic
+| move to house arrest, release from prison (w/out demands)
+|-
+| Shy
+| negotiate alliance, perk alliance, join war, recruit guest, invite to court, host honored guest, befriend, court
+|-
+| Stubborn
+| restore inheritance, forgive
+|-
+| Vengeful
+| restore inheritance, forgive, move to house arrest
+|-
+| Zealous
+| revoke leased title
+|}
+
+=== Mental Breaks ===
+A character breaching the threshold of 100, 200, or 300 stress for the first time will immediately suffer a Mental Break. Mental breaks range in severity from level 1 to 3 and grant the option to either {{icon|Stress loss}} lose some stress with a choice of gaining one of two traits (a [[Traits#Coping_mechanisms|Coping Mechanism]] or worse, see table below) or {{icon|Stress gain}} gain additional stress. A level 3 mental break event can sometimes {{icon|Wounded}} injure or {{icon|death}} kill the character, cause them to kill another character in their court (including their own heir) gaining the {{iconify|Murderer}} trait, or force them to [[Abdication|abdicate]]. If a character reaches 400 Stress, it will trigger a level 3 mental break event and they will lose 100 Stress. 400 is the maximum stress value, even if more stress is accumulated it will not surpass that number.
+
+Mental breaks often times impart negative temporary modifiers to the character at level 2 and level 3. When the mental break causes a change in Personality Traits, one previous Personality Trait will be removed.
+
+Mental break events can only trigger once every 5 years (8 years with the "Mental Resilience" lifestyle perk from the "Whole of Body" lifestyle). If a character does not reduce their stress below 100 before this time is up, they will suffer another mental break. All coping mechanism traits bestow grant a stacking {{icon|Stress loss}} {{green|+20% Stress loss}} benefit and a related [[Decisions#Coping_actions|stress-reducing decision]] on a 3-year cooldown, making it easier to de-stress before the next mental break occurs.
+
+Some perks grant bonuses for stress levels, notably, the "Thriving in Chaos" (Intrigue lifestyle, +4 Martial, +4 Intrigue, and +6 Prowess per stress level) and "Golden Aplomb" (Stewardship Lifestyle, +10% Monthly Income per stress level).
+
+Your character's stress level is indicated by a reddish bar to the left of your character's portrait at the lower left corner of the map screen.
+
+{| class="mildtable" style="text-align: center;
+! Level
+! {{iconify|Stress}}
+! {{iconify|Fertility}}
+! {{iconify|Health penalty}}
+! {{icon|decision}} Attempt Suicide decision
+! {{icon|unknown}} Mental break traits
+|-
+| [[File:Stress level 0.png]]
+| 0–99
+| '''0'''
+| '''None'''
+| {{icon|no}}
+| style="text-align: left; | No mental breaks
+|-
+| [[File:Stress level 1.png]]
+| 100–199
+| {{red|−10%}}
+| '''None'''
+| {{icon|no}}
+| style="text-align: left; | [[Traits#Coping_mechanisms|Coping mechanism]]
+|-
+| [[File:Stress level 2.png]]
+| 200–299
+| {{red|−30%}}
+| {{red|Major (-1)}}
+| {{icon|no}}
+| style="text-align: left; | [[Traits#Coping_mechanisms|Coping mechanism]], [[File:Trait arbitrary.png|35px]] [[Arbitrary]], [[File:Trait eccentric.png|35px]] [[Eccentric]],[[File:Trait witch.png|35px]] [[Witch]]
+|-
+| [[File:Stress level 3.png]]
+| 300–399
+| {{red|−50%}}
+| {{red|Severe (-2)}}
+| {{icon|yes}}
+| style="text-align: left; | [[File:Trait wrathful.png|35px]] [[Wrathful]], [[File:Trait lunatic.png|35px]] [[Lunatic]], [[File:Trait depressed.png|35px]] [[Melancholic]], [[File:Trait murderer.png|35px]] [[Murderer]], {{icon|death}} [[Death]], or [[Abdication]]
+|}
+
+== Known languages ==
+Known languages are the languages that a character can speak fluently. Speaking the language of a different culture reduces the different culture {{iconify|opinion}} penalties with both characters and counties of that culture in half. Each character will always know the language of their culture and can learn a number of foreign languages via the Learn Language scheme.
+
+Each character has a foreign language limit of 1, which is increased by 1 for every 5 points of {{iconify|learning}}. If a character knows more foreign languages than its foreign language limit allows it has a yearly chance to be forced to choose between forgetting a language or gaining a {{iconify|stress}} level, or two if {{iconify|Lazy}}. The chance increases with every foreign language above the limit.
+
+Children learn new languages more easily than adults.
+
+== Legitimacy ==
+Legitimacy is a measure of a ruler character's right to rule. Legitimacy can be gained by creating titles (gaining titles through usurpation only decreases the former owner's Legitimacy), releasing higher-ranked prisoners with no demands, taking certain decisions, creating legends, holding court, attending activities, having a Senechal and assigning a Court Musician to the ''Bolster Legitimacy'' task (effectiveness depends on Aptitude), and winning wars, especially against rulers of higher title rank. These gains can be further modified, positively by having the [[File:Trait legend.png|24px]] Living Legend or {{iconify|Venerated Ancestor}} traits, or negatively if the character is a {{iconify|Bastard}} or a {{iconify|Legitimized Bastard}}.
+
+Legitimacy can be lost by losing titles, accepting faction demands, taking tyrannical actions, discovered hostile schemes, exposed secrets, excommunication, marrying Lowborn characters (only applies to primary spouse but making a Lowborn secondary spouse the primary one applies the penalty as well), plagues starting in the Domain, disinheriting dynasty members, and losing wars, especially civil wars - losses are also magnified for characters with a {{iconify|Disputed Heritage}}. When a ruler dies their heirs will inherit part of the Legitimacy depending on how close a relative they were to the previous ruler.
+
+Every ruler starts with a certain amount of Legitimacy. This primarily scales with Dynasty's Level of Splendor, as well as {{icon|grandeur}} Court Grandeur if the ruler has a Royal Court. It is also increased by a a high {{iconify|Diplomacy}} skill and having the {{iconify|Just}}, {{iconify|Diplomat}}, {{iconify|Born in the Purple}} and {{iconify|Sayyid}} traits or traits that are considered virtues and reduced by having the {{iconify|Inbred}} trait, traits that are considered sins, or by being a gender that doesn't match the faith's View on Gender doctrine.
+
+Legitimacy is calculated on a scale ranging from 0 to 2800 and goes through 8 levels. How much Legitimacy is required for each level, and how much can be accumulated before excess is wasted, depends on the primary title rank and culture [[era]]. Each era will further increase the required Legitimacy for each level by half of the Legitimacy required for level 1. Tribal era values are presented in the table. It should be noted that the title rank starts with {{iconify|Baron}} so for example a {{iconify|Count}} will need 60 for Aspiring.
+
+Characters with {{icon|governor efficiency}} Administrative, {{iconify|Celestial}}, {{iconify|Meritocratic}}, {{iconify|Meritocratic Khanate}} or {{iconify|Ritsuryō}} government will only have Legitimacy if they are independent.
+{| class ="wikitable plainlist"
+! {{diagonal split header|Legitimacy|Title rank}}
+! {{iconify|County}} !! {{iconify|Duchy}} !! {{iconify|Kingdom}} !! {{iconify|Empire}} !! {{iconify|Hegemony}}
+|-
+| '''Illegitimate'''
+| 
+* {{icon|opinion}} {{red|+25%}} Short Reign Duration
+* [[File:Default cb.png|24px]] {{red|+50%}} Claim Casus Belli Cost
+* {{icon|unknown}} {{red|-25}} Alliance Acceptance
+* {{icon|unknown}} {{red|-25}} Marriage Acceptance
+* {{icon|opinion}} {{red|-10}} Popular Opinion
+* {{icon|renown}} {{red|-0.1}} Monthly Renown
+* {{icon|factions}} {{red|Increased}} Claimant Factions
+| 
+* {{icon|opinion}} {{red|+50%}} Short Reign Duration
+* [[File:Default cb.png|24px]] {{red|+100%}} Claim Casus Belli Cost
+* {{icon|unknown}} {{red|-50}} Alliance Acceptance
+* {{icon|unknown}} {{red|-50}} Marriage Acceptance
+* {{icon|unknown}} {{red|-50}} Subjugation Acceptance
+* {{icon|opinion}} {{red|-10}} Popular Opinion
+* {{icon|renown}} {{red|-0.1}} Monthly Renown
+* {{icon|diarch}} {{red|+50%}} Swing Scales of Power Cost
+* {{icon|factions}} {{red|Increased}} Claimant Factions
+| 
+* {{icon|opinion}} {{red|+75%}} Short Reign Duration
+* [[File:Default cb.png|24px]] {{red|+100%}} Claim Casus Belli Cost
+* {{icon|unknown}} {{red|-50}} Alliance Acceptance
+* {{icon|unknown}} {{red|-50}} Marriage Acceptance
+* {{icon|unknown}} {{red|-50}} Subjugation Acceptance
+* {{icon|opinion}} {{red|-20}} Popular Opinion
+* {{icon|renown}} {{red|-0.2}} Monthly Renown
+* {{icon|diarch}} {{red|+50%}} Swing Scales of Power Cost
+* {{icon|factions}} {{red|Increased}} Claimant Factions
+| 
+* {{icon|opinion}} {{red|+100%}} Short Reign Duration
+* [[File:Default cb.png|24px]] {{red|+250%}} Claim Casus Belli Cost
+* {{icon|unknown}} {{red|-100}} Alliance Acceptance
+* {{icon|unknown}} {{red|-100}} Marriage Acceptance
+* {{icon|unknown}} {{red|-100}} Subjugation Acceptance
+* {{icon|opinion}} {{red|-30}} Popular Opinion
+* {{icon|renown}} {{red|-0.3}} Monthly Renown
+* {{icon|diarch}} {{red|+100%}} Swing Scales of Power Cost
+* {{icon|factions}} {{red|Increased}} Claimant Factions
+| 
+* {{icon|opinion}} {{red|+125%}} Short Reign Duration
+* [[File:Default cb.png|24px]] {{red|+250%}} Claim Casus Belli Cost
+* {{icon|unknown}} {{red|-100}} Alliance Acceptance
+* {{icon|unknown}} {{red|-100}} Marriage Acceptance
+* {{icon|unknown}} {{red|-100}} Subjugation Acceptance
+* {{icon|opinion}} {{red|-40}} Popular Opinion
+* {{icon|renown}} {{red|-0.4}} Monthly Renown
+* {{icon|diarch}} {{red|+100%}} Swing Scales of Power Cost
+* {{icon|factions}} {{red|Increased}} Claimant Factions
+|-
+| '''Aspiring'''<br>{{icon|legitimacy}} 30 per title rank
+| {{icon|opinion}} {{green|-10%}} Short Reign Duration
+| 
+* {{icon|opinion}} {{red|+10%}} Short Reign Duration
+* [[File:Default cb.png|24px]] {{red|+50%}} Claim Casus Belli Cost
+* {{icon|unknown}} {{red|-25}} Alliance Acceptance
+* {{icon|unknown}} {{red|-25}} Marriage Acceptance
+* {{icon|unknown}} {{red|-25}} Subjugation Acceptance
+* {{icon|opinion}} {{red|-5}} Popular Opinion
+* {{icon|diarch}} {{red|+25%}} Swing Scales of Power Cost
+* {{icon|factions}} {{red|Increased}} Claimant Factions
+| 
+* {{icon|opinion}} {{red|+50%}} Short Reign Duration
+* [[File:Default cb.png|24px]] {{red|+50%}} Claim Casus Belli Cost
+* {{icon|unknown}} {{red|-25}} Alliance Acceptance
+* {{icon|unknown}} {{red|-25}} Marriage Acceptance
+* {{icon|unknown}} {{red|-25}} Subjugation Acceptance
+* {{icon|opinion}} {{red|-10}} Popular Opinion
+* {{icon|diarch}} {{red|+25%}} Swing Scales of Power Cost
+* {{icon|factions}} {{red|Increased}} Claimant Factions
+| 
+* {{icon|opinion}} {{red|+65%}} Short Reign Duration
+* [[File:Default cb.png|24px]] {{red|+100%}} Claim Casus Belli Cost
+* {{icon|unknown}} {{red|-50}} Alliance Acceptance
+* {{icon|unknown}} {{red|-50}} Marriage Acceptance
+* {{icon|unknown}} {{red|-50}} Subjugation Acceptance
+* {{icon|opinion}} {{red|-20}} Popular Opinion
+* {{icon|renown}} {{red|-0.2}} Monthly Renown
+* {{icon|diarch}} {{red|+50%}} Swing Scales of Power Cost
+* {{icon|factions}} {{red|Increased}} Claimant Factions
+| 
+* {{icon|opinion}} {{red|+75%}} Short Reign Duration
+* [[File:Default cb.png|24px]] {{red|+100%}} Claim Casus Belli Cost
+* {{icon|unknown}} {{red|-50}} Alliance Acceptance
+* {{icon|unknown}} {{red|-50}} Marriage Acceptance
+* {{icon|unknown}} {{red|-50}} Subjugation Acceptance
+* {{icon|opinion}} {{red|-30}} Popular Opinion
+* {{icon|renown}} {{red|-0.3}} Monthly Renown
+* {{icon|diarch}} {{red|+50%}} Swing Scales of Power Cost
+* {{icon|factions}} {{red|Increased}} Claimant Factions
+|-
+| '''Recognized'''<br>{{icon|legitimacy}} 70 per title rank
+| 
+* {{icon|opinion}} {{green|-25%}} Short Reign Duration
+* [[File:Default cb.png|24px]] {{green|-50%}} Claim Casus Belli Cost
+* {{icon|unknown}} {{green|+25}} Alliance Acceptance
+* {{icon|unknown}} {{green|+25}} Marriage Acceptance
+| {{icon|opinion}} {{green|-10%}} Short Reign Duration
+| 
+* {{icon|opinion}} {{red|+25%}} Short Reign Duration
+* [[File:Default cb.png|24px]] {{red|+50%}} Claim Casus Belli Cost
+* {{icon|unknown}} {{red|-25}} Alliance Acceptance
+* {{icon|unknown}} {{red|-25}} Marriage Acceptance
+* {{icon|unknown}} {{red|-25}} Subjugation Acceptance
+| 
+* {{icon|opinion}} {{red|+35%}} Short Reign Duration
+* [[File:Default cb.png|24px]] {{red|+50%}} Claim Casus Belli Cost
+* {{icon|unknown}} {{red|-25}} Alliance Acceptance
+* {{icon|unknown}} {{red|-25}} Marriage Acceptance
+* {{icon|unknown}} {{red|-25}} Subjugation Acceptance
+* {{icon|opinion}} {{red|-10}} Popular Opinion
+* {{icon|renown}} {{red|-0.1}} Monthly Renown
+* {{icon|diarch}} {{red|+25%}} Swing Scales of Power Cost
+* {{icon|factions}} {{red|Increased}} Claimant Factions
+| 
+* {{icon|opinion}} {{red|+50%}} Short Reign Duration
+* [[File:Default cb.png|24px]] {{red|+50%}} Claim Casus Belli Cost
+* {{icon|unknown}} {{red|-25}} Alliance Acceptance
+* {{icon|unknown}} {{red|-25}} Marriage Acceptance
+* {{icon|unknown}} {{red|-25}} Subjugation Acceptance
+* {{icon|opinion}} {{red|-20}} Popular Opinion
+* {{icon|renown}} {{red|-0.2}} Monthly Renown
+* {{icon|diarch}} {{red|+25%}} Swing Scales of Power Cost
+* {{icon|factions}} {{red|Increased}} Claimant Factions
+|-
+| '''Rightful'''<br>{{icon|legitimacy}} 120 per title rank
+| 
+* {{icon|opinion}} {{green|-50%}} Short Reign Duration
+* [[File:Default cb.png|24px]] {{green|-75%}} Claim Casus Belli Cost
+* {{icon|unknown}} {{green|+25}} Alliance Acceptance
+* {{icon|unknown}} {{green|+25}} Marriage Acceptance
+* {{icon|opinion}} {{green|+10}} Popular Opinion
+* {{icon|diarch}} {{green|-15%}} Swing Scales of Power Cost
+* {{icon|county}} {{green|-15%}} Counties required to create a title
+* {{icon|factions}} {{green|Reduced}} Claimant Factions
+| 
+* {{icon|opinion}} {{green|-35%}} Short Reign Duration
+* [[File:Default cb.png|24px]] {{green|-50%}} Claim Casus Belli Cost
+* {{icon|unknown}} {{green|+25}} Alliance Acceptance
+* {{icon|unknown}} {{green|+25}} Marriage Acceptance
+* {{icon|unknown}} {{green|+25}} Subjugation Acceptance
+* {{icon|diarch}} {{green|-15%}} Swing Scales of Power Cost
+* {{icon|county}} {{green|-15%}} Counties required to create a title
+* {{icon|factions}} {{green|Reduced}} Claimant Factions
+| {{icon|opinion}} {{green|-10%}} Short Reign Duration
+| 
+* {{icon|opinion}} {{red|+15%}} Short Reign Duration
+* [[File:Default cb.png|24px]] {{red|+50%}} Claim Casus Belli Cost
+* {{icon|unknown}} {{red|-25}} Alliance Acceptance
+* {{icon|unknown}} {{red|-25}} Marriage Acceptance
+* {{icon|unknown}} {{red|-25}} Subjugation Acceptance
+| 
+* {{icon|opinion}} {{red|+20%}} Short Reign Duration
+* [[File:Default cb.png|24px]] {{red|+50%}} Claim Casus Belli Cost
+* {{icon|unknown}} {{red|-25}} Alliance Acceptance
+* {{icon|unknown}} {{red|-25}} Marriage Acceptance
+* {{icon|unknown}} {{red|-25}} Subjugation Acceptance
+|-
+| '''True'''<br>{{icon|legitimacy}} 200 per title rank
+| 
+* {{icon|opinion}} {{green|-75%}} Short Reign Duration
+* [[File:Default cb.png|24px]] {{green|-85%}} Claim Casus Belli Cost
+* {{icon|unknown}} {{green|+50}} Alliance Acceptance
+* {{icon|unknown}} {{green|+50}} Marriage Acceptance
+* {{icon|opinion}} {{green|+20}} Popular Opinion
+* {{icon|renown}} {{green|+0.25}} Monthly Renown
+* {{icon|diarch}} {{green|-25%}} Swing Scales of Power Cost
+* {{icon|county}} {{green|-20%}} Counties required to create a title
+* {{icon|factions}} {{green|Reduced}} Claimant Factions
+| 
+* {{icon|opinion}} {{green|-65%}} Short Reign Duration
+* [[File:Default cb.png|24px]] {{green|-75%}} Claim Casus Belli Cost
+* {{icon|unknown}} {{green|+50}} Alliance Acceptance
+* {{icon|unknown}} {{green|+50}} Marriage Acceptance
+* {{icon|unknown}} {{green|+50}} Subjugation Acceptance
+* {{icon|opinion}} {{green|+10}} Popular Opinion
+* {{icon|diarch}} {{green|-25%}} Swing Scales of Power Cost
+* {{icon|county}} {{green|-20%}} Counties required to create a title
+* {{icon|factions}} {{green|Reduced}} Claimant Factions
+| 
+* {{icon|opinion}} {{green|-25%}} Short Reign Duration
+* [[File:Default cb.png|24px]] {{green|-50%}} Claim Casus Belli Cost
+* {{icon|unknown}} {{green|+25}} Alliance Acceptance
+* {{icon|unknown}} {{green|+25}} Marriage Acceptance
+* {{icon|unknown}} {{green|+25}} Subjugation Acceptance
+* {{icon|diarch}} {{green|-15%}} Swing Scales of Power Cost
+* {{icon|county}} {{green|-15%}} Counties required to create a title
+* {{icon|factions}} {{green|Reduced}} Claimant Factions
+| {{icon|opinion}} {{green|-10%}} Short Reign Duration
+| 
+|-
+| '''Ordained'''<br>{{icon|legitimacy}} 300 per title rank
+| 
+* {{icon|opinion}} {{green|-100%}} Short Reign Duration
+* [[File:Default cb.png|24px]] {{green|-85%}} Claim Casus Belli Cost
+* {{icon|unknown}} {{green|+100}} Alliance Acceptance
+* {{icon|unknown}} {{green|+100}} Marriage Acceptance
+* {{icon|opinion}} {{green|+30}} Popular Opinion
+* {{icon|renown}} {{green|+0.5}} Monthly Renown
+* {{icon|diarch}} {{green|-50%}} Swing Scales of Power Cost
+* {{icon|county}} {{green|-25%}} Counties required to create a title
+* {{icon|factions}} {{green|Reduced}} Claimant Factions
+| 
+* {{icon|opinion}} {{green|-100%}} Short Reign Duration
+* [[File:Default cb.png|24px]] {{green|-85%}} Claim Casus Belli Cost
+* {{icon|unknown}} {{green|+75}} Alliance Acceptance
+* {{icon|unknown}} {{green|+75}} Marriage Acceptance
+* {{icon|unknown}} {{green|+75}} Subjugation Acceptance
+* {{icon|opinion}} {{green|+20}} Popular Opinion
+* {{icon|renown}} {{green|+0.25}} Monthly Renown
+* {{icon|diarch}} {{green|-50%}} Swing Scales of Power Cost
+* {{icon|county}} {{green|-25%}} Counties required to create a title
+* {{icon|factions}} {{green|Reduced}} Claimant Factions
+| 
+* {{icon|opinion}} {{green|-50%}} Short Reign Duration
+* [[File:Default cb.png|24px]] {{green|-75%}} Claim Casus Belli Cost
+* {{icon|unknown}} {{green|+50}} Alliance Acceptance
+* {{icon|unknown}} {{green|+50}} Marriage Acceptance
+* {{icon|unknown}} {{green|+50}} Subjugation Acceptance
+* {{icon|opinion}} {{green|+10}} Popular Opinion
+* {{icon|renown}} {{green|+0.25}} Monthly Renown
+* {{icon|diarch}} {{green|-25%}} Swing Scales of Power Cost
+* {{icon|county}} {{green|-20%}} Counties required to create a title
+* {{icon|factions}} {{green|Reduced}} Claimant Factions
+| 
+* {{icon|opinion}} {{green|-25%}} Short Reign Duration
+* [[File:Default cb.png|24px]] {{green|-50%}} Claim Casus Belli Cost
+* {{icon|unknown}} {{green|+25}} Alliance Acceptance
+* {{icon|unknown}} {{green|+25}} Marriage Acceptance
+* {{icon|unknown}} {{green|+25}} Subjugation Acceptance
+* {{icon|opinion}} {{green|+10}} Popular Opinion
+* {{icon|diarch}} {{green|-15%}} Swing Scales of Power Cost
+* {{icon|county}} {{green|-15%}} Counties required to create a title
+* {{icon|factions}} {{green|Reduced}} Claimant Factions
+| 
+* {{icon|opinion}} {{green|-25%}} Short Reign Duration
+* [[File:Default cb.png|24px]] {{green|-50%}} Claim Casus Belli Cost
+* {{icon|unknown}} {{green|+25}} Alliance Acceptance
+* {{icon|unknown}} {{green|+25}} Marriage Acceptance
+* {{icon|unknown}} {{green|+25}} Subjugation Acceptance
+* {{icon|opinion}} {{green|+10}} Popular Opinion
+* {{icon|diarch}} {{green|-15%}} Swing Scales of Power Cost
+* {{icon|county}} {{green|-15%}} Counties required to create a title
+* {{icon|factions}} {{green|Reduced}} Claimant Factions
+|-
+| '''Destined'''<br>{{icon|legitimacy}} 3600
+| colspan=4 rowspan=2 align=center | Only available to the ruler of China if the {{iconify|All Under Heaven}} DLC is installed
+| 
+* [[File:Default cb.png|24px]] {{green|-75%}} Claim Casus Belli Cost
+* {{icon|unknown}} {{green|+50}} Alliance Acceptance
+* {{icon|unknown}} {{green|+50}} Marriage Acceptance
+* {{icon|unknown}} {{green|+75}} Tributary Acceptance
+* {{icon|opinion}} {{green|+20}} Popular Opinion
+* {{icon|opinion}} {{green|+20}} Tributary Opinion
+* {{icon|renown}} {{green|+0.15}} Monthly Renown
+* {{icon|diarch}} {{green|-15%}} Swing Scales of Power Cost
+* {{icon|county}} {{green|-15%}} Counties required to create a title
+* {{icon|factions}} {{green|Reduced}} Claimant Factions
+|-
+| '''Celestial'''<br>{{icon|legitimacy}} 5200
+| 
+* [[File:Default cb.png|24px]] {{green|-75%}} Claim Casus Belli Cost
+* {{icon|unknown}} {{green|+50}} Alliance Acceptance
+* {{icon|unknown}} {{green|+50}} Marriage Acceptance
+* {{icon|unknown}} {{green|+75}} Tributary Acceptance
+* {{icon|opinion}} {{green|+25}} Popular Opinion
+* {{icon|opinion}} {{green|+30}} Tributary Opinion
+* {{icon|renown}} {{green|+0.25}} Monthly Renown
+* {{icon|diarch}} {{green|-15%}} Swing Scales of Power Cost
+* {{icon|county}} {{green|-15%}} Counties required to create a title
+* {{icon|factions}} {{green|Reduced}} Claimant Factions
+|}
+
+=== Nomadic legitimacy ===
+{{expansion|kos}}
+Rulers with {{iconify|Nomadic}} government are expected to have the Rightful legitimacy level and are affected the same way regardless of their title rank. Their legitimacy gains and loses from wars are also doubled and they also gain legitimacy by marrying the noble courtiers of a ruler with equal or higher Dominance law.
+{| class ="mildtable plainlist"
+! !! [[File:Nomadic legitimacy 0.png|24px]] Illegitimate !! [[File:Nomadic legitimacy 1.png|24px]] Aspiring !! [[File:Nomadic legitimacy 2.png|24px]] Recognized !! [[File:Nomadic legitimacy 3.png|24px]] Rightful !! {{icon|legitimacy nomad}} True !! {{icon|legitimacy nomad}} Ordained
+|-
+! Effects
+| 
+* {{icon|dread}} {{red|-30}} Natural Dread
+* {{icon|opinion}} {{red|+75%}} Short Reign Duration
+* {{icon|opinion}} {{red|-10}} Popular Opinion
+* {{icon|herd}} {{red|-5%}} Herd Gain
+| 
+* {{icon|dread}} {{red|-15}} Natural Dread
+* {{icon|opinion}} {{red|+50%}} Short Reign Duration
+* {{icon|opinion}} {{red|-5}} Popular Opinion
+| 
+* {{icon|dread}} {{red|-5}} Natural Dread
+* {{icon|opinion}} {{red|+25%}} Short Reign Duration
+| 
+* {{icon|herd}} {{green|+5%}} Herd Gain
+* {{icon|opinion}} {{green|+5}} Tributary Opinion
+| 
+* {{icon|herd}} {{green|+15%}} Herd Gain
+* {{icon|opinion}} {{green|+10}} Tributary Opinion
+* {{icon|diarch}} {{green|-15%}} Swing Scales of Power Cost
+* {{icon|factions}} Fewer Claimant Factions
+| 
+* {{icon|renown}} {{green|+0.25}} Monthly Renown
+* {{icon|herd}} {{green|+30%}} Herd Gain
+* {{icon|opinion}} {{green|+15}} Tributary Opinion
+* {{icon|opinion}} {{green|+10}} Popular Opinion
+* {{icon|diarch}} {{green|-25%}} Swing Scales of Power Cost
+* {{icon|factions}} Fewer Claimant Factions
+|-
+! Acceptance
+| 
+* {{red|-50}} Alliance
+* {{red|-50}} Marriage
+* {{red|-50}} Vassalization
+* {{red|-25}} Tributary
+* {{red|-20}} Confederation
+| 
+* {{red|-25}} Alliance
+* {{red|-25}} Marriage
+* {{red|-25}} Vassalization
+* {{red|-10}} Tributary
+* {{red|-10}} Confederation
+| 
+* {{red|-25}} Alliance
+* {{red|-25}} Marriage
+* {{red|-25}} Vassalization
+| 
+| 
+* {{green|+25}} Alliance
+* {{green|+25}} Marriage
+* {{green|+25}} Vassalization
+* {{green|+10}} Tributary
+* {{green|+5}} Confederation
+| 
+* {{green|+50}} Alliance
+* {{green|+50}} Marriage
+* {{green|+50}} Vassalization
+* {{green|+25}} Tributary
+* {{green|+20}} Confederation
+|}
+
+=== Mandala legitimacy ===
+{{expansion|auh}}
+Rulers with {{iconify|Mandala}} government are expected to have the Rightful legitimacy level and are affected the same way regardless of their title rank. They have 8 levels of legitimacy.
+{| class ="mildtable plainlist"
+! width=1% | !! [[File:Mandala legitimacy 0.png|24px]] Illegitimate !! [[File:Mandala legitimacy 1.png|24px]] Aspiring !! [[File:Mandala legitimacy 2.png|24px]] Recognized !! [[File:Mandala legitimacy 3.png|24px]] Rightful !! [[File:Mandala legitimacy 4.png|24px]] True !! [[File:Mandala legitimacy 5.png|24px]] Ordained !! [[File:Mandala legitimacy 6.png|24px]] Destined !! [[File:Mandala legitimacy 7.png|24px]] Cosmic !! [[File:Mandala legitimacy 8.png|24px]] Eternal
+|-
+! Effects
+| 
+* {{icon|piety}} {{red|-5%}} Monthly Piety
+* {{icon|opinion}} {{red|+75%}} Short Reign Duration
+* {{icon|opinion}} {{red|-10}} Popular Opinion
+* [[File:Default cb.png|24px]] {{red|+250%}} Claim CB Cost
+| 
+* {{icon|opinion}} {{red|+50%}} Short Reign Duration
+* {{icon|opinion}} {{red|-5}} Popular Opinion
+* [[File:Default cb.png|24px]] {{red|+100%}} Claim CB Cost
+| 
+* {{icon|opinion}} {{red|+25%}} Short Reign Duration
+* [[File:Default cb.png|24px]] {{red|+50%}} Claim CB Cost
+| 
+* {{icon|piety}} {{green|+5%}} Monthly Piety
+* {{icon|opinion}} {{green|+5}} Tributary Opinion
+| 
+* {{icon|piety}} {{green|+15%}} Monthly Piety
+* {{icon|opinion}} {{green|+10}} Tributary Opinion
+* [[File:Default cb.png|24px]] {{green|-50%}} Claim CB Cost
+* {{icon|diarch}} {{green|-15%}} Swing Scales of Power Cost
+| 
+* {{icon|piety}} {{green|+20%}} Monthly Piety
+* {{icon|opinion}} {{green|+15}} Tributary Opinion
+* {{icon|opinion}} {{green|+10}} Popular Opinion
+* [[File:Default cb.png|24px]] {{green|-50%}} Claim CB Cost
+* {{icon|renown}} {{green|+0.15}} Monthly Renown
+* {{icon|diarch}} {{green|-15%}} Swing Scales of Power Cost
+| 
+* {{icon|piety}} {{green|+30%}} Monthly Piety
+* {{icon|opinion}} {{green|+20}} Tributary Opinion
+* {{icon|opinion}} {{green|+20}} Popular Opinion
+* [[File:Default cb.png|24px]] {{green|-75%}} Claim CB Cost
+* {{icon|renown}} {{green|+0.15}} Monthly Renown
+* {{icon|diarch}} {{green|-25%}} Swing Scales of Power Cost
+| 
+* {{icon|piety}} {{green|+35%}} Monthly Piety
+* {{icon|opinion}} {{green|+30}} Tributary Opinion
+* {{icon|opinion}} {{green|+25}} Popular Opinion
+* [[File:Default cb.png|24px]] {{green|-75%}} Claim CB Cost
+* {{icon|renown}} {{green|+0.25}} Monthly Renown
+* {{icon|diarch}} {{green|-25%}} Swing Scales of Power Cost
+* {{icon|piety}} {{green|-15%}} Faith Conversion Cost
+| 
+* {{icon|piety}} {{green|+40%}} Monthly Piety
+* {{icon|opinion}} {{green|+35}} Tributary Opinion
+* {{icon|opinion}} {{green|+35}} Popular Opinion
+* [[File:Default cb.png|24px]] {{green|-85%}} Claim CB Cost
+* {{icon|renown}} {{green|+0.3}} Monthly Renown
+* {{icon|diarch}} {{green|-50%}} Swing Scales of Power Cost
+* {{icon|piety}} {{green|-30%}} Faith Conversion Cost
+|-
+! Acceptance
+| 
+* {{icon|unknown}} {{red|-100}} Alliance
+* {{icon|unknown}} {{red|-100}} Marriage
+* {{icon|unknown}} {{red|-100}} Vassalization
+* {{icon|unknown}} {{red|-15}} Tributary
+| 
+* {{icon|unknown}} {{red|-50}} Alliance
+* {{icon|unknown}} {{red|-50}} Marriage
+* {{icon|unknown}} {{red|-50}} Vassalization
+* {{icon|unknown}} {{red|-15}} Tributary
+| 
+* {{icon|unknown}} {{red|-25}} Alliance
+* {{icon|unknown}} {{red|-25}} Marriage
+* {{icon|unknown}} {{red|-25}} Vassalization
+| {{icon|unknown}} {{red|-25}} Vassalization
+| 
+* {{icon|unknown}} {{green|+25}} Alliance
+* {{icon|unknown}} {{green|+25}} Marriage
+* {{icon|unknown}} {{green|+25}} Tributary
+| 
+* {{icon|unknown}} {{green|+25}} Alliance
+* {{icon|unknown}} {{green|+25}} Marriage
+* {{icon|unknown}} {{green|+50}} Tributary
+| 
+* {{icon|unknown}} {{green|+50}} Alliance
+* {{icon|unknown}} {{green|+50}} Marriage
+* {{icon|unknown}} {{green|+75}} Tributary
+| 
+* {{icon|unknown}} {{green|+50}} Alliance
+* {{icon|unknown}} {{green|+50}} Marriage
+* {{icon|unknown}} {{green|+75}} Tributary
+* {{icon|unknown}} {{green|+25}} Vassalization
+| 
+* {{icon|unknown}} {{green|+75}} Alliance
+* {{icon|unknown}} {{green|+75}} Marriage
+* {{icon|unknown}} {{green|+75}} Tributary
+* {{icon|unknown}} {{green|+50}} Vassalization
+|-
+! Claimant factions
+| {{red|More}}
+| {{red|More}}
+| {{red|More}}
+| '''Normal'''
+| {{green|Fewer}}
+| {{green|Fewer}}
+| {{green|Fewer}}
+| {{green|Fewer}}
+| {{green|Fewer}}
+|}
+
+== Domain ==
+The Domain is the collection of all holdings a ruler owns personally. Each ruler has a Domain limit; this determines how many holdings from which they can efficiently collect {{icon|gold}} Taxes and {{iconify|Levies}}. Once the Domain limit is reached, newly controlled holdings will stop providing {{icon|gold}} taxes and {{iconify|levies}} after a year passes. Base domain limit is decided in the game rule with the same name. Domain limit can be increased by:
+* {{green|+1}} per 6 points of effective {{icon|stewardship}} [[stewardship skill|Stewardship Skill]] (which includes any [[trait]]s and [[assist ruler|spousal assistance]])
+* {{green|+2}} if primary title rank is {{iconify|Count}}
+* {{green|+2}} if primary title rank is {{iconify|Duke}}
+* {{green|+3}} if primary title rank is {{iconify|King}}
+* {{green|+4}} if primary title rank is {{iconify|Emperor}}
+* {{green|+5}} if primary title rank is {{icon|hegemony}} Hegemon
+* {{green|+1}} with [[File:Innovation administration 03.png|24px]] Gavelkind innovation
+* {{green|+1}} with [[File:Innovation nobility 02.png|24px]] Court Officials innovation
+* {{green|+2}} with Divided Attention lifestyle perk
+* {{green|+1}} with Personal Touch​ lifestyle perk
+* {{green|+1}} with level 5 [[File:Law legacy track.png|24px]] Law [[Dynasty#Dynasty_Legacies|dynasty legacy]]
+* {{green|+1}} with Pacifism or Dharmic Pacifism [[tenet]]
+* {{icon|rtp}}{{icon|auh}} {{green|+1}} with Influential Eunuch II/V [[modifier]]
+* {{icon|rtp}}{{icon|auh}} {{green|+1}} with Influential Eunuch III/V [[modifier]]
+* {{icon|rtp}}{{icon|auh}} {{green|+1}} with Influential Eunuch IV/V [[modifier]]
+* {{icon|rtp}}{{icon|auh}} {{green|+2}} with Influential Eunuch V/V [[modifier]]
+* {{icon|roc}} {{green|+1}} with Crown of Justinian [[artifact]]
+* {{icon|cor}} {{green|+1}} with Oath of Peace fulfilled
+* {{icon|auh}} {{green|+1}} with a level 2 or 3 Japanese estate
+* {{icon|auh}} {{green|+2}} with a level 4 or 5 Japanese estate
+* {{icon|auh}} {{green|+4}} with a level 6 Japanese estate
+* {{icon|auh}} {{green|+1}} per Ornate Temple building
+* {{icon|auh}} {{green|+1}} per Majestic Temple building
+* {{icon|auh}} {{green|+2}} per Temple Grounds building
+* {{icon|auh}} {{green|+3}} per Grand Temple Complex building
+* {{icon|auh}} {{green|+4}} per Divine Temple Palace building
+
+{{expansion|kos}}
+Rulers with {{iconify|Nomadic}} government have a minimum and maximum Domain Limit depending on their Dominance law.
+
+== Governor efficiency ==
+{{expansion|rtp|auh}}
+Governor efficiency only appears on characters in a realm with {{icon|governor efficiency}} Administrative, {{iconify|Celestial}}, {{iconify|Ritsuryō}}, {{iconify|Meritocratic}} or {{iconify|Meritocratic Khanate}} government. It ranges from {{red|-50%}} to {{green|+50%}} and affects the domain's taxes and levies as well as the effectiveness of title men-at-arms by the same amount. Governor efficiency starts are {{red|-100}} and is increased by the following:
+* {{green|+1.7}} per skill
+* {{green|+2}} from having a level 4 education trait
+* {{green|+4}} from having a level 5 education trait
+* {{green|+10}} from {{iconify|Eunuch}} trait
+* {{green|+12}} from {{iconify|Governor}} trait level 4
+* {{green|+9}} from {{iconify|Governor}} trait level 3
+* {{green|+6}} from {{iconify|Governor}} trait level 2
+* {{green|+3}} from {{iconify|Governor}} trait level 1
+* {{green|+10%}} from having a Private Study estate upgrade of at least level 2
+
+== Merit ==
+{{expansion|auh}}
+Merit replaces {{iconify|Legitimacy}} for vassals with certain governments. Every such vassal has a Career Path and a Merit Rank. If their liege has the same government the vassal can only be given titles if their Merit Rank is high enough and if a character dies their titles and any council position will automatically be given to the character who has the same Career Path and highest Merit Rank although the liege can revoke them at any point. A player can change their Career Path via a decision unless they are landed or a councilor.
+{| class="mildtable" style="text-align: center;"
+! Government
+! Merit rank
+! Required merit
+! Max title rank
+! {{icon|movement power}} Movement Power
+! {{icon|treasury}} Monthly salary base rate
+|-
+| rowspan=6 | {{iconify|Celestial}}<br>{{iconify|Meritocratic}}<br>{{iconify|Meritocratic Khanate}}
+| [[File:icon merit 00.png|50px]] No Rank || 0 || {{iconify|Barony}} || || 
+|-
+| [[File:icon merit 01.png|50px]] Rank 9 || 100 || {{iconify|County}} || {{green|+10}} || 
+|-
+| [[File:icon merit 01.png|50px]] Rank 8 || 250 || {{iconify|County}} || {{green|+20}} || {{green|+5%}}
+|-
+| [[File:icon merit 03.png|50px]] Rank 7 || 750 || {{iconify|Duchy}} || {{green|+30}} || {{green|+10%}}
+|-
+| [[File:icon merit 03.png|50px]] Rank 6 || 1500 || {{iconify|Duchy}} || {{green|+40}} || {{green|+15%}}
+|-
+| [[File:icon merit 05.png|50px]] Rank 5 || 2500 || {{iconify|Kingdom}} || {{green|+50}} || {{green|+20%}}
+|-
+| rowspan=4 | {{iconify|Celestial}}
+| [[File:icon merit 05.png|50px]] Rank 4 || 4000 || {{iconify|Kingdom}} || {{green|+60}} || {{green|+25%}}
+|-
+| [[File:icon merit.png|50px]] Rank 3 || 5500 || {{iconify|Empire}} || {{green|+70}} || {{green|+30%}}
+|-
+| [[File:icon merit.png|50px]] Rank 2 || 7500 || {{iconify|Empire}} || {{green|+80}} || {{green|+50%}}
+|-
+| [[File:icon merit 09.png|50px]] Rank 1 || 9500 || {{iconify|Empire}} || {{green|+90}} || {{green|+75%}}
+|}
+The maximum Merit Rank a character can reach is limited by their currently-passed exams. Passing an exam requires attending another character's examination activity with the [[File:Study hard intent.png|24px]] Take Examination intent and succeeding.
+* [[File:Activity local examination.png|24px]] Provincial Examination is passed via the Local Examination activity and increases the maximum Merit Rank by {{green|+2}}, up to Rank 5.
+* [[File:Activity imperial examination.png|24px]] Metropolitan Examination is passed via the Capital Examination activity and increases the maximum Merit Rank by {{green|+2}}, up to Rank 3.
+* [[File:Palace examination.png|24px]] Palace Examination is passed via the Capital Examination activity by being among the top 10 by score and increases the maximum Merit Rank by {{green|+3}}, all the way up to Rank 1.
+
+Vassals who have Merit may have Elder-Disciple relationships with each other, their courtiers or their liege. The Elder must be either the liege or a character with a higher Merit Rank than the liege and the relationship ends if none of these conditions are valid anymore. If both characters are involved in the Dynastic Cycle situation and they are not part of the same political movement the Disciple will have to join the Elder's political movement or pay 100 {{iconify|Influence}} and 20 {{iconify|Opinion}} with the Elder. Each character can have up to 5 Disciples but the limit can be increased. Elders and disciples can ask each other as well as other disciples of the same elder for {{iconify|Gold}}, [[File:Appointment score.png|24px]] Candidate Score, an artifact or a men-at-arms regiment. If the character asking is part of a Political Movement they may also ask for a knight, feast, or courtier with the {{iconify|Confucian Education}} trait. If the request is accepted the character will gain between 10 and 160 {{iconify|Merit}} depending on the primary title rank of the asked character
+
+== Education ==
+Characters up to the age of 6 can be given an Education Focus geared towards one of the skills. This will default to one of the two attributes in their Childhood trait, but a parent can choose it manually with the button at the lower left of their portrait. This can only be done once per child, and not be changed later on. When the character becomes an adult, they will gain an education trait for the matching attribute.
+
+Between the ages of 6 and 16 the child will build up a hidden education score. It has a chance to increase by +2 every birthday (10 chances), plus some additional chances, as detailed below. Once the character reaches the age of 16 they will acquire an education trait based on that score.
+{| class="wikitable" style="text-align: center;
+! Score
+! Education trait level
+|-
+| 0-7 || ★
+|-
+| 8-12 || ★★
+|-
+| 13-17 || ★★★
+|-
+| 18+ || ★★★★
+|}
+
+The chance of the child getting a higher tier education is increased by the guardian's relevant skill plus half of their learning skill, as well as the child or guardian having a positive intelligence trait ({{iconify|Quick}}/{{iconify|Shrewd}}, {{iconify|Intelligent}}, {{iconify|Genius}}). The guardian or child having a negative intelligence trait ({{iconify|Slow}}, {{iconify|Stupid}}, {{iconify|Imbecile}}) will negatively affect their education, as will pushing them to an Education Focus that does not match their Childhood trait. These modifications are further explained and calculated below.
+
+A child of a culture that discovered the [[Innovation#Knighthood|Knighthood innovation]], has a Martial education focus, and is of a gender that can be knighted will also be trained as a squire, receiving a Prowess education trait when they come of age ''in addition'' to a Martial one. For Prowess, the educator's abilities or any other effects that enhance education are irrelevant; only the child's traits matter. Traits that boost Prowess ({{iconify|Hale}}, {{iconify|Robust}}, {{iconify|Herculean}}, {{iconify|Strong}}, {{iconify|Giant}}) will increase the chance of a high-tier Prowess education, while negative Prowess and other sickly traits ({{iconify|Delicate}}, {{iconify|Frail}}, {{iconify|Feeble}}, {{iconify|Weak}}, {{iconify|Dwarf}}, {{iconify|Spindly}}, {{iconify|Wheezing}}, {{iconify|Hunchbacked}}, {{iconify|Inbred}}, {{iconify|Bleeder}}) will diminish it.
+
+If the child has a guardian of a different faith or culture, when given the guardian, it can be specified whether the child should be raised in the parent's or guardian's faith and/or culture. The child also has a higher chance to copy the guardian's personality traits (and also less likely to have the personality trait opposite to that of guardian's). If the guardian has the Witch trait or secret, they will have the option to try converting their wards to witchcraft.
+
+A guardian has {{icon|opinion}} {{green|+5}} towards the child and the ward has {{icon|opinion}} {{green|+15}} opinion towards the guardian.
+
+===Point modifiers===
+Several factors can provide extra education score modifiers above and beyond those earned via the normal yearly roll:
+* The guardian's council having a spouse that is focused on patronage, has a high learning education, high learning skill, or {{iconify|Scholar}} trait, can trigger adding {{green|+1}} free point. This can occur happen multiple times over the course of the child's education, and the points are accumulated.
+* Having a child educated by a guardian who has a University building in their realm (and paying gold for the privilege) provides a 60% chance of gaining {{green|+2}} points and a 40% chance of gaining {{green|+3}} points.<ref><code>common\scripted_effects\00_education_effects.txt</code>, <code>results_of_university_education_points_effect</code></ref> The roll will happen on the 16th birthday. The internal flag for attending a university is set on the child immediately and not removed if their guardianship changes, so even if the University holding is lost or the guardian dies, the bonus will still be awarded.
+* If your court has the [[Court#Court_Tutor|Court Tutor]] position populated when the child comes of age, an additional education roll occurs. The guaranteed minimum bonus of {{green|+2}} points is most likely if the Tutor has Terrible, Poor, or Average aptitude, while Good or Excellent aptitude make getting {{green|+3}} points more likely. With Excellent aptitude only, there is an approximately 10% chance of the bonus being an entire {{green|+4}} points.
+* If the child's dynasty has the second level of the "Kin" [[Dynasty#Dynasty_legacies|Dynasty Legacy]] unlocked, an additional education roll occurs when the child comes of age, with success (60%) equaling {{green|+3}} and failure (40%) equaling {{green|+2}} points. In essence, a guaranteed 2 bonus points with a chance of 1 additional.
+* Some cultural [[traditions]] provide small modifications to educational outcomes, for instance:
+** The "Charismatic" tradition has a 60% chance of adding {{green|+1}} point for diplomatic educations only.
+** The "Agrarian" tradition applies a penalty of {{red|-1}} point for martial educations.
+
+Note that, with the exception of the points earned sporadically via the guardian's spouse, none of these bonuses take into consideration how long the child "logically" would have been under their effect. As long as you have the Court Tutor, Dynasty Legacy, etc. on the day before the child turns 16, they will receive the full and complete benefit when they come of age. On the other side, this also means that if you have a working Court Tutor for the child's entire upbringing, only to fire them the day before the 16th birthday, there will be no bonus whatsoever.
+
+===Education roll calculations===
+
+The success chances for a +2 education score has a base value of 60%.
+
+<math> \text{Success Chance} = \left( \frac{ 60 + Success Factor }{ 100 + Success Factor + Failure Factor }\right) \times 100% </math>
+
+==== Success factors ====
+{| class="wikitable"
+|-
+! !!Child Trait Factor!!Guardian Trait Factor
+|-
+|{{iconify|Genius|30px}}||20 ||15
+|-
+|{{iconify|Intelligent|30px}}||15 ||10
+|-
+|{{iconify|Quick|30px}} / {{iconify|Shrewd|30px}}||10||5
+|-
+|Guardian's culture has [[File:Tradition runestone.png|50px]] Northern Stories, [[File:Tradition ceremony.png|50px]] Storytellers or Noble Adoption tradition|| ||10
+|-
+|Childhood trait Matching||20||
+|-
+|Childhood trait Not Matching|| {{red|-20}}||
+|-
+|Guardian's relevant Skill 
+|
+|0.4 * relevant Skill
+|-
+|Guardian's {{iconify|learning}} skill
+|
+|0.2 * {{iconify|learning}} skill
+|}
+
+==== Failure factors ====
+{| class="wikitable"
+|-
+! !!Child Trait Factor !!Guardian Trait Factor
+|-
+|{{iconify|Slow|30px}} / {{iconify|Dull|30px}} ||10||5
+|-
+|{{iconify|Stupid|30px}}||15||10
+|-
+|{{iconify|Imbecile|30px}} / {{iconify|Inbred|30px}} (child only)||20||15
+|-
+|No Guardian || ||20
+|}
+
+===Prowess trait===
+Children undergoing a Martial education can also receive a Prowess education trait when they come of age. To qualify, the child's culture or the educator's culture<ref>{{cite file|events\education_and_childhood\coming_of_age_events.txt}}, <code>lines 1024-1029</code></ref> must have the Knighthood innovation and the child must be of a gender that can become knights. The system that determines which Prowess trait the child gets is completely separate from the other education traits. The perks, spouse or universities don't influence the outcome.
+
+When the child finishes their education, the game creates a temporary score for them, which starts equal to the Martial education level they obtained. Then, the game changes this score depending on the child's physical traits (multiple traits stack):
+
+{| class="wikitable"
+|-
+!Trait!!Prowess Factor
+|-
+|{{iconify|Herculean}}||+3
+|-
+|{{iconify|Robust}}, {{iconify|Strong}}, {{iconify|Giant}}||+2
+|-
+|{{iconify|Hale}}||+1
+|-
+|{{iconify|Delicate}}, {{iconify|Spindly}}, {{iconify|Wheezing}}, {{iconify|Hunchbacked}}, {{iconify|Inbred}}, {{iconify|Bleeder}}|| -1
+|-
+|{{iconify|Frail}}, {{iconify|Weak}}, {{iconify|Dwarf}}||-2
+|-
+| {{iconify|Feeble}}||-3
+|}
+
+Lastly, there's a 25% chance the score increases +2, 25% chance it decreases by -2, and 50% chance it stays unchanged.
+
+The final score is then the child's Prowess education level.
+
+== Weight==
+
+Each character in the game has a hidden "weight" value which ranges from -100 to 100. If your weight is -50 or below, you gain the Malnourished modifier, and the "Gain Weight" decision becomes available to you. If your weight is 50 or above, you gain the Obese modifier, and the "Lose Weight" decision becomes available to you.<ref name="Askanien"> Reddit user u/Stefan_Askanien https://www.reddit.com/r/CrusaderKings/comments/iutm4z/how_weight_is_calculated_and_how_to_fight_obesity/</ref> Being obese or malnourished gives {{icon|health penalty}} {{red|−0.5}} Health.
+
+In addition to a character's current weight, each character also has a hidden "target weight" value, based mostly on [[traits]], which is the weight they are drifting toward. Every year, your real weight will drift closer to your target weight. When you [[feast]], your target weight<ref>{{cite file|common\activities\00_activity_feast.txt}}, <code>activity_feast</code></ref> increases by 7<ref>{{cite file|common\script_values\10_health_values.txt}}, <code>feast_weight_modifier_value</code></ref>, and when you [[hunt]], your target weight<ref>{{cite file|common\activities\00_activity_hunt.txt}}, <code>activity_hunt</code></ref> decreases by 4<ref>{{cite file|common\script_values\10_health_values.txt}}, <code>hunt_weight_modifier_value</code></ref>. Afterward, your weight will eventually drift back toward your target weight. The "Lose Weight" decision decreases your target weight, and the "Gain Weight" decision adds to your target weight. Ending those decisions brings your target weight back to what it was before.
+
+Switching to a [[Martial lifestyle]] will move your target weight closer to 0 (so that if you are underweight, your target weight will increase somewhat, and if you are overweight, your target weight will decrease somewhat). Being a Novice Hunter, [[Hunter]], or Master Hunter, will also move your target weight closer to 0 by successive amounts.
+
+The following traits and events also affect a character's target weight:<ref name="Askanien" />
+{| class="mildtable plainlist"
+!Effect on target weight
+!Traits / Events
+|-
+|Large increase
+|[[Gluttonous]], [[Lazy]], [[Comfort Eater]], "Gain weight" decision
+|-
+|Moderate increase
+|[[Drunkard]], [[Hashishiyah]], [[Gregarious]], [[Greedy]], [[Calm]], [[Trusting]], Legendary [[Reveler]]
+|-
+|Slight increase
+|[[Patient]], [[Arrogant]], [[Ambitious]], Eager [[Reveler]], Famous Reveler
+|-
+| Slight decrease
+|[[Shy]], [[Humble]], [[Zealous]], [[Craven]], [[Temperate]]
+|-
+|Moderate decrease
+|[[Imprisoned]], [[Diligent]], [[Wrathful]], [[Leper]], [[Impatient]], [[Content]], [[Fickle]], [[Vengeful]], [[Generous]]
+|- 
+|Large decrease
+|[[Consumption]], [[Cancer]], [[Great pox]], [[Paranoid]], [[Inappetetic]], [[Imprisoned|in dungeon]], "Lose weight" decision
+|}
+
+== References==
+<references />
+
+
+{{Mechanics navbox}}
+[[Category:Character]]

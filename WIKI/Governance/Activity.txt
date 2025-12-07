@@ -1,0 +1,1341 @@
+{{Version|1.18}}
+[[File:Activity travel.png|thumb|330px|Planning a pilgrimage travel]]
+Activities are special occasions hosted by a certain character. Most activities have multiple variants to choose from. Each activity goes through a number of phases and during each phase there is a chance every 7 days for an event to happen. A character can only take part in one activity as a time and characters with the {{iconify|Incapable}} trait cannot host or join activities.
+
+Most activities requires other characters to join. If not a single character joins the activity will be canceled and the character who started it will gain 20 {{iconify|Stress}}. AI characters will refuse to come if there is a plague in either their capital or the destination barony.
+
+The character starting an activity is the Host and chooses a barony for the activity, with the cost depending on the barony. The map will pin the best 5 baronies for the activity but any valid barony can be selected. All characters who attend an activity must [[travel]] to the designated barony unless it's their realm capital. Each character will travel with an Entourage made up of characters relevant to the activity.
+
+== Cost ==
+The base cost to host an activity depends on host's primary title. It is then modified by various cultural, religious and event modifiers, and culture era. Lastly, costs for activity options, travel options and caravan master are added.
+{| class="wikitable" style="text-align: center;
+! {{diagonal split header|Government|Rank}}
+! {{iconify|County}} !! {{iconify|Duchy}} !! {{iconify|Kingdom}} !! {{iconify|Empire}} !! {{iconify|Hegemony}}
+|-
+! {{iconify|Tribal}} or {{iconify|Wanua}}
+| {{icon|gold}} 15
+| {{icon|gold}} 30
+| {{icon|gold}} 95
+| {{icon|gold}} 110
+| {{icon|gold}} 125
+|-
+! All others
+| {{icon|gold}} 30
+| {{icon|gold}} 60
+| {{icon|gold}} 140
+| {{icon|gold}} 170
+| {{icon|gold}} 200
+|}
+Hunt costs {{iconify|Herd}} instead of {{iconify|Gold}} if the character has {{iconify|Nomadic}} government.
+
+== Regular activities ==
+{| class="mildtable plainlist"
+! Activity
+! Activity options
+! Rewards
+! Valid baronies
+! Variants
+! Additional rewards
+! Requirements
+! Cooldown
+|-
+| rowspan=4 | [[File:Activity hunt.png]] Hunt
+| rowspan=4 | 
+* Attendants
+* Party Size
+| rowspan=4 | 
+* {{iconify|Prestige}}
+* {{iconify|Legitimacy}}
+* {{iconify|Stress Loss}}
+* {{icon|opinion}} Glory Hound Vassal Opinion
+* {{icon|artifact}} Trophy artifacts
+* [[File:Trait hunter.png|24px]] Hunter trait
+* {{icon|accolade}} Accolade glory
+* {{iconify|Provisions}}
+| rowspan=4 | '''Realm'''
+* {{green|+++Animal Sighting}}
+* {{green|++Hunting Grounds Building}}
+* {{green|++Royal Reserves Building}}
+* {{green|++High Fertility}}
+* {{green|+No Holding}}
+* {{red|-Recently Held Hunt}}
+* {{red|--Recently Held Hunts}}
+* {{red|--High Development}}
+* {{red|--Forestry Building}}
+| [[File:Hunt type standard icon.png|50px]] Hunt
+| {{iconify|Prestige}}
+| 
+* {{icon|yes}} Adult
+* {{icon|no}} Vegetarians tradition
+* {{icon|no}} Disease trait
+* {{icon|no}}{{iconify|Blind}}
+* {{icon|no}}{{iconify|Infirm}}
+* {{icon|no}}{{iconify|Maimed}}
+* {{icon|no}}{{iconify|Severely Injured}}
+* {{icon|no}}{{iconify|Brutally Mauled}}
+| 2 years
+|-
+| [[File:Hunt type legendary icon.png|50px]] Legendary
+| 
+* {{iconify|Prestige}}
+* {{icon|lod}} Legend Seed
+| 
+* {{icon|yes}} Adult
+* {{icon|no}} Vegetarians tradition
+* {{icon|no}} Disease trait
+* {{icon|no}}{{iconify|Blind}}
+* {{icon|no}}{{iconify|Infirm}}
+* {{icon|no}}{{iconify|Maimed}}
+* {{icon|no}}{{iconify|Severely Injured}}
+* {{icon|no}}{{iconify|Brutally Mauled}}
+| 2 years
+|-
+| [[File:Hunt type falconry icon.png|50px]] Falconry
+| 
+| 
+* {{iconify|Tours and Tournaments}} DLC
+* {{icon|yes}} Adult
+* {{icon|no}} Vegetarians tradition
+* {{icon|no}} Disease trait
+* {{icon|no}}{{iconify|Blind}}
+* {{icon|no}}{{iconify|Infirm}}
+* {{icon|no}}{{iconify|Maimed}}
+* {{icon|no}}{{iconify|Severely Injured}}
+* {{icon|no}}{{iconify|Brutally Mauled}}
+| 2 years
+|-
+| [[File:Hunt type nerge icon.png|50px]] Nerge
+| 
+* {{iconify|Gold}}
+* {{iconify|Prestige}}
+* {{iconify|Dread}}
+* {{icon|legitimacy nomad}} Legitimacy
+* {{iconify|Martial}}
+| 
+* {{icon|kos}} Nomadic government
+* {{icon|yes}} Adult
+* {{icon|no}} Vegetarians tradition
+* {{icon|no}} Disease trait
+* {{icon|no}}{{iconify|Blind}}
+* {{icon|no}}{{iconify|Infirm}}
+* {{icon|no}}{{iconify|Maimed}}
+* {{icon|no}}{{iconify|Severely Injured}}
+* {{icon|no}}{{iconify|Brutally Mauled}}
+| 2 years
+|- id="Pilgrimage"
+| rowspan=3 | [[File:Activity pilgrimage.png]] Pilgrimage
+| rowspan=3 | 
+* Fidelity
+* Pomp
+| rowspan=3 | 
+* {{iconify|Piety}}
+* {{iconify|Legitimacy}}
+* {{iconify|Stress Loss}}
+* {{iconify|Pilgrim}} trait
+* {{iconify|Gallowsbait}} trait loss
+| rowspan=3 | '''Holy Site'''
+* {{green|+Unvisited Holy Site}}
+* {{green|+Unique Holy Site}}
+* {{green|+Short Distance}}
+* {{green|++Intermediate Distance}}
+* {{green|+++Long Distance}}
+| [[File:Pilgrimage type pious icon.png|50px]] Pious Pilgrimage
+| {{iconify|Piety}}
+| 
+* {{icon|yes}} Adult
+* {{iconify|Hajji}} trait if the faith has it
+| rowspan=3 | 5 years<br>per Holy Site
+|-
+| [[File:Pilgrimage type worldly icon.png|50px]] Worldly Pilgrimage
+| {{icon|unknown}} Culture modifier
+| 
+* {{icon|yes}} Adult
+* {{iconify|Hajji}} trait if the faith has it
+| 
+|-
+| [[File:Pilgrimage type hajj icon.png|50px]] Hajj
+| {{iconify|Hajji}} trait
+| 
+* {{icon|yes}} Adult
+* [[File:Doctrine pilgrimage mandatory hajj.png|24px]] Hajj doctrine
+| 
+|-
+| rowspan=4 | [[File:Activity feast.png]] Feast
+| rowspan=4 | 
+* Dish Complexity
+* Number of Courses
+| rowspan=4 |
+* {{iconify|Prestige}}
+* {{iconify|Legitimacy}}
+* {{iconify|Opinion}}
+* {{iconify|Stress Loss}}
+* [[File:Trait reveler.png|24px]] Eager Reveler trait
+| rowspan=4 | '''Domain'''
+* {{green|+Food Building}}
+| [[File:Feast type generic icon.png|50px]] Feast
+| 
+* {{iconify|Opinion}}
+* {{iconify|Stress Loss}}
+* {{icon|yes}} Chance to discover secrets
+| 
+* {{icon|yes}} Adult
+* {{icon|yes}} Landed
+| 5 years
+|-
+| [[File:Feast type legendary icon.png|50px]] Legendary Feast
+| 
+* {{iconify|Opinion}}
+* {{iconify|Stress Loss}}
+* {{icon|lod}} Chance to spread the legend
+| 
+* {{icon|yes}} Adult
+* {{icon|yes}} Landed
+* {{icon|lod}} Owning or promoting a legend
+| 15 years
+|-
+| [[File:Feast type murder icon.png|50px]] Murder Feast
+| {{icon|death}} Chance to kill a designated character
+| 
+* {{icon|yes}} Adult
+* {{icon|yes}} Landed
+* [[File:Node intrigue.png|24px]] Forever Infamous lifestyle perk
+* {{iconify|Tours and Tournaments}} DLC
+| 15 years
+|-
+| [[File:Feast type tsagaan sar icon.png|50px]] Tsagaan Sar
+| 
+* {{iconify|Opinion}}
+* {{iconify|Stress Loss}}
+* {{iconify|Gold}}
+* {{iconify|Piety}}
+* {{iconify|Herd}}
+* {{iconify|Artifact}}s
+| 
+* {{icon|yes}} Adult
+* {{icon|yes}} Landed
+* {{icon|time}} January, February or March
+* {{icon|heritage}} Mongolic or Turkic heritage
+* {{icon|kos}} Nomadic government
+| 5 years
+|-
+| [[File:Activity playdate.png]] Meet Peers
+| 
+| {{iconify|Opinion}}
+| '''Realm Capital'''
+| [[File:Activity playdate.png|50px]] Meet Peers
+| {{iconify|Opinion}}
+| {{icon|yes}} Age 4-13
+| 3 years
+|-
+| [[File:Activity witch ritual.png]] Grand Rite
+| 
+| 
+* {{iconify|Opinion}}
+* {{iconify|Stress Loss}}
+* [[File:Focus invalid.png|24px]] Lifestyle Experience
+| '''Realm Capital'''
+| [[File:Activity witch ritual.png|50px]] Grand Rite
+| 
+* {{iconify|Opinion}}
+* {{iconify|Stress Loss}}
+* [[File:Focus invalid.png|24px]] Lifestyle Experience
+| 
+* {{icon|yes}} Adult
+* {{iconify|Witch}} trait
+* [[File:Modifier outdoors positive.png|24px]] Witch Coven house modifier
+| 5 years
+|-
+|- id="Gruesome Festivals"
+| [[File:Activity gruesome festival.png]] Festival / Blót
+| 
+* Festival Size
+* Sacrifice Fodder
+| 
+* {{iconify|Piety}}
+* {{iconify|Opinion}}
+| '''Domain barony with the Gruesome Festivals tenet'''
+| [[File:Activity gruesome festival.png|50px]] Festival / Blót
+| 
+* {{iconify|Piety}}
+* {{iconify|Opinion}}
+| 
+* {{icon|yes}} Adult
+* {{icon|yes}} Landed
+* {{icon|northern lords}} Faith has the Gruesome Festivals tenet
+| 9 years
+|-
+| [[File:Activity adult education.png]] University Visit
+| Study Materials
+| 
+* [[File:Focus invalid.png|24px]] Lifestyle Experience
+* {{icon|artifact}} Book artifacts
+* {{icon|unknown}} Lifestyle trait
+* {{icon|unknown}} Upgrade education trait
+* {{icon|unknown}} Skill points
+* {{icon|unknown}} Recruit skilled character
+| '''University or holy building'''
+* {{green|+++University}}
+* {{green|+++Large Religious Center}}
+* {{green|+++The Pandidakterion}}
+* {{red|--The local faith is hostile to yours}}
+| [[File:Activity adult education.png|50px]] University Visit
+| 
+* [[File:Focus invalid.png|24px]] Lifestyle Experience
+* {{icon|artifact}} Book artifacts
+* {{icon|unknown}} Lifestyle trait
+* {{icon|unknown}} Upgrade education trait
+* {{icon|unknown}} Skill points
+* {{icon|unknown}} Recruit skilled character
+| 
+* {{iconify|Wards & Wardens}} DLC
+* {{icon|yes}} Adult
+* {{icon|no}} Tier 5 education trait
+| 20 years
+|-
+| [[File:Activity funeral.png]] Funeral
+| Ceremonials
+| 
+* {{iconify|Piety}}
+* {{iconify|Legitimacy}}
+* {{iconify|Opinion}}
+* {{iconify|Stress Loss}}
+| '''Realm Capital or Temple holding'''
+* {{green|++Major Religious Building}}
+* {{green|++Holy Site}}
+* {{green|++Temple}}
+* {{green|++Mountains}}
+| [[File:Activity funeral.png|50px]] Funeral
+| 
+* {{iconify|Piety}}
+* {{iconify|Legitimacy}}
+* {{iconify|Opinion}}
+* {{iconify|Stress Loss}}
+| 
+* {{iconify|Legends of the Dead}} DLC
+* {{icon|yes}} Adult
+* {{icon|yes}} Landed
+* {{icon|death}} Dead relative without funeral
+| 
+|-
+| [[File:Activity festival.png]] Festival
+| Festival Scale
+| 
+* {{iconify|Prestige}}
+* {{iconify|Piety}}
+* {{iconify|Stress Loss}}
+* {{icon|opinion}} Popular Opinion
+* {{iconify|Control}}
+* {{iconify|Development}}
+| '''Domain or Estate'''
+| [[File:Activity festival.png|50px]] Festival
+| 
+* {{iconify|Prestige}}
+* {{iconify|Piety}}
+* {{iconify|Stress Loss}}
+* {{icon|opinion}} Popular Opinion
+* {{iconify|Control}}
+* {{iconify|Development}}
+| 
+* {{icon|auh}} Ritsuryō or Sōryō government
+* {{icon|yes}} Adult
+| 5 years
+|-
+| rowspan=2 | [[File:Activity debate.png]] Debate
+| rowspan=2 | Study Materials
+| rowspan=2 | 
+* {{iconify|Influence}}
+* {{iconify|Merit}}
+* {{iconify|Movement Power}}
+* {{iconify|Confucian Education}} trait
+* {{icon|yes}} Elder
+| rowspan=2 | '''Capital of character, liege or top liege'''
+* {{green|+Own capital}}
+* {{green|+Kaifeng Imperial Palace Building}}
+| [[File:Debate type leadership icon.png|50px]] Debate Movement
+| {{icon|yes}} Can become movement leader
+| 
+* {{icon|auh}} Involved in Dynastic Cycle situation
+* {{icon|no}} Joined a political movement
+* {{icon|no}} Political movement leader
+| 5 years
+|-
+| [[File:Debate type favor icon.png|50px]] Imperial Debate
+| {{icon|yes}} Can make movement favored
+| 
+* {{icon|auh}} Involved in Dynastic Cycle situation
+* {{icon|no}} Joined a political movement
+* {{icon|no}} Favored political movement
+| 5 years
+|}
+
+=== Wandering activities ===
+{{expansion|wnb|auh}}
+Wandering activities are only available to adult {{iconify|Duke}}s or above who have certain [[File:Wandering lifestyle.png|24px]] Wandering lifestyle perks. Inspection is also unlocked for all rulers with {{icon|governor efficiency}} Administrative, {{iconify|Celestial}}, {{iconify|Ritsuryō}}, {{iconify|Meritocratic}} or {{iconify|Meritocratic Khanate}} government or whose faith has the Benevolent Governance tenet.
+{| class="mildtable plainlist"
+! Activity
+! Activity options
+! Rewards
+! Valid baronies
+! Required perk
+! Cooldown
+! Cost
+|-
+| {{iconbox|Inspection|Ensure your realm is run by competent bootlickers through a thorough inspection.|image=Activity survey.png|w=20em}}
+| [[File:Inspection option allocated funds.png|24px]] Inspection Finances
+| 
+* {{iconify|Pressed Claim}}
+* {{icon|gold}} Taxes
+* {{iconify|Levies}}
+* {{iconify|Control}}
+* {{iconify|Development}}
+* {{icon|vassal}} Offer Vassalization acceptance
+* {{iconify|Opinion}}
+* {{icon|opinion}} Popular Opinion
+| '''Realm'''
+* {{green|+++Very Low County Control}}
+* {{green|++Low County Control}}
+* {{green|++Border County}}
+* {{green|+Medium County Control}}
+* {{green|+Border Fellow Vassal County}}
+| Inspection
+| 2 years
+| 
+* {{iconify|Treasury}} if government uses it
+* {{iconify|Gold}} otherwise
+|-
+| {{iconbox|Hike|Set out on a journey, putting aside the burdens of rulership for a moment.|image=Activity roaming.png|w=20em}}
+| [[File:Roaming option travel length.png|24px]] Travel Length
+| 
+* {{icon|prestige}} Fame
+* {{iconify|Opinion}}
+* {{iconify|Stress Loss}}
+* {{iconify|Wise Man}}/Woman trait
+* {{icon|character}} Can choose a Traveling Companion to interact with
+| '''Realm'''
+* {{green|++Mountains}}
+* {{green|++Desert Mountains}}
+* {{green|+Hills}}
+* {{green|+Forest}}
+* {{green|+Taiga}}
+* {{green|+Jungle}}
+* {{green|+Oasis}}
+* {{green|+No Holding}}
+| Storyteller
+| 1.5 years
+| {{iconify|Gold}}
+|-
+| {{iconbox|Monument Expedition|Set out on an expedition to a Special Building, searching for knowledge and self-improvement.|image=Activity journey.png|w=20em}}
+| [[File:Journey option scribes.png|24px]] Scribes
+| 
+* {{icon|unknown}} Skill points
+* {{icon|unknown}} Skilled courtiers
+* {{iconify|Prestige}}
+| '''Special Building'''
+* {{green|+++Very Short Distance}}
+* {{green|++Short Distance}}
+* {{green|++Point of Interest}}
+* {{green|+Intermediate Distance}}
+* {{red|-Long Distance}}
+| Journey
+| 3 years
+| {{iconify|Gold}}
+|}
+
+=== Examinations ===
+{{expansion|auh}}
+Examinations are activities available to adult rulers who have {{iconify|Celestial}}, {{iconify|Meritocratic}} or {{iconify|Meritocratic Khanate}} government and can only be held in the realm capital. Activity guests can gain the {{iconify|Confucian Education}} trait or experience for it but the activity host cannot.
+{| class="mildtable plainlist"
+! Activity
+! Activity options
+! Rewards
+! Variants
+! Additional rewards
+! Requirements
+! Cooldown
+|-
+| [[File:Activity local examination.png]] Local Examination
+| 
+* [[File:Imperial examination breadth.png|24px]] Examination Breadth
+* [[File:Debate option books.png|24px]] Examination Passing Grade
+| 
+* {{iconify|Prestige}}
+* {{iconify|Legitimacy}}
+* {{iconify|Influence}}
+* {{iconify|Merit}}
+* {{icon|unknown}} Recruit skilled character
+| [[File:Activity local examination.png|50px]] Local Examination
+| 
+* {{iconify|Prestige}}
+* {{iconify|Legitimacy}}
+* {{iconify|Influence}}
+* {{iconify|Merit}}
+* {{icon|unknown}} Recruit skilled character
+| [[File:Activity local examination.png|24px]] Passed Local Examination
+| 3 years
+|-
+| rowspan=3 | [[File:Activity imperial examination.png]] Capital Examination
+| rowspan=3 | 
+* [[File:Imperial examination breadth.png|24px]] Examination Breadth
+* [[File:Debate option books.png|24px]] Examination Passing Grade
+| rowspan=3 | 
+* {{iconify|Prestige}}
+* [[File:Mandate legitimacy.png|24px]] Legitimacy
+* {{icon|unknown}} Recruit skilled character
+| [[File:Imperial examination focus learning icon.png|50px]] Insightful Scholars
+| {{iconify|Merit}} from Learning
+| {{icon|hegemony}} Hegemon
+| 5 years
+|-
+| [[File:Imperial examination focus stewardship icon.png|50px]] Efficient Governance
+| {{iconify|Merit}} from Stewardship
+| 
+* {{icon|hegemony}} Hegemon
+* [[File:Dynastic cycle phase advancement.png|24px]] Advancement dynastic cycle era
+| 5 years
+|-
+| [[File:Imperial examination focus martial icon.png|50px]] Military Strategists
+| {{iconify|Merit}} from Martial
+| 
+* {{icon|hegemony}} Hegemon
+* [[File:Dynastic cycle phase expansion.png|24px]] Expansion dynastic cycle era
+| 5 years
+|}
+
+=== Coronation ===
+{{expansion|cor}}
+Coronation is a highly interactive activity that can only be held once. To have a coronation a ruler must be at least 12 years old, must have a {{iconify|Kingdom}} or above title rank, and must not have {{iconify|Ritsuryō}} or {{iconify|Sōryō}} government. Only adult characters can attend. AI rulers will always have a Coronation as soon as they can. The activity has two variants available. Which variant is available to who depends on the faith's Coronation Tradition doctrine.
+* [[File:Coronation type normal icon.png|24px]] Coronation can be done in either the realm capital or a holy site within borders and is more successful if the barony meets both requirements. If the characters has {{icon|governor efficiency}} Administrative government they must also be independent. It will also give the host the [[File:Crowned king.png|24px]] Crowned Sovereign law unless the Coronation Laws game rule has been set to No Coronation Laws.
+* [[File:Coronation type anointment icon.png|24px]] Anointment can only be done in the location where the head of faith is present and gives higher rewards. The character's Level of Devotion must be at least Faithful, they must not have the {{iconify|Excommunicated}} trait, and the activity variant must be unlocked by requesting it from the head of faith, who must accept. It will also give the host the [[File:Crowned emperor.png|24px]] Anointed Sovereign law unless the Coronation Laws game rule has been set to No Coronation Laws. When the activity ends the faith will gain {{green|+4}} {{iconify|Fervor}}.
+
+The activity has two Activity Options. Increasing the level of the Activity Options requires the character to have a [[File:Artifact regalia.png|24px]] Regalia artifact if their religion is Hinduism, Buddhism, Jainism, Hausa, Finno-Ugric or Slavic and a [[File:Artifact crown.png|24px]] Crown artifact if their religion is any other. At level 2 each one will give {{green|+15}} Starting Magnificence and at level 3 each one will give {{green|+25}} Starting Magnificence
+* [[File:Coronation option ceremony feast type.png|24px]] Ceremony determines how likely guests are to join and at the lowest level only characters inside the realm can join
+* [[File:Coronation option ceremony size.png|24px]] Celebrations determines the likelihood of certain negative events
+* If both values are at least at level 2 the dynasty will gain {{green|+50}} {{iconify|Renown}} and if both values are at level 3 the dynasty will gain {{green|+100}} {{iconify|Renown}}.
+Each Coronation activity has a Magnificence value, which ranges from 0 to 100 and is divided into 5 levels. The level reached at the end of the activity determines part of its rewards.
+{| class="mildtable"
+! Level
+! Magnificence
+! Effects
+|-
+| '''Meager'''
+| 0-24
+| 
+* {{icon|stress gain}} Stress gain if Craven, Paranoid or Shy
+* [[File:Coronation option ceremony feast type.png|24px]] If Ceremony is at the lowest level gives the Crowned in Obscurity modifier for 10 years, giving the following effects:
+** {{icon|legitimacy}} {{red|-1}} Monthly Legitimacy
+** {{icon|roc}} {{red|-2}} Court Grandeur
+* [[File:Coronation option ceremony size.png|24px]] If Celebrations is at the lowest level gives the Spurred Nobility modifier for 10 years, giving the following effects:
+** {{icon|prestige}} {{red|-15%}} Monthly Prestige
+** {{icon|opinion}} {{red|-5}} Vassal Opinion
+** {{icon|opinion}} {{red|-10}} Courtly Vassal Opinion
+* {{icon|yes}} Before the activity ends will receive an option to pay scaled Gold or try a Diplomacy-Learning challenge to gain 40 Magnificence
+|-
+| '''Modest'''
+| 25-49
+| 
+* {{icon|stress loss}} Stress loss if Ambitious, Arrogant or Just
+* {{icon|opinion}} {{green|+5}} Vassal Guest Opinion
+* {{icon|prestige}} {{green|+25%}} Prestige Oath Reward
+* {{icon|legitimacy}} {{green|+25%}} Legitimacy Oath Reward
+* {{icon|control}} {{green|+10}} Control in activity location
+* [[File:Coronation type normal icon.png|24px]] If activity variant is Coronation activity location gains the Honored by Coronation modifier for 10 years, giving the following effects:
+** {{icon|garrison}} {{green|+10%}} Garrison Size
+** {{icon|opinion}} {{green|+10}} Popular Opinion
+** {{icon|development}} {{green|-5%}} Development Decline if not Nomadic
+** {{icon|county fertility}} {{green|-5%}} County Fertility Consumption if Nomadic
+* [[File:Coronation option ceremony feast type.png|24px]] If Ceremony is at the lowest level gives the Crowned in Obscurity modifier for 10 years, giving the following effects:
+** {{icon|legitimacy}} {{red|-1}} Monthly Legitimacy
+** {{icon|roc}} {{red|-2}} Court Grandeur
+* [[File:Coronation option ceremony size.png|24px]] If Celebrations is at the lowest level gives the Spurred Nobility modifier for 10 years, giving the following effects:
+** {{icon|prestige}} {{red|-15%}} Monthly Prestige
+** {{icon|opinion}} {{red|-5}} Vassal Opinion
+** {{icon|opinion}} {{red|-10}} Courtly Vassal Opinion
+|-
+| '''Respectable'''
+| 50-74
+| 
+* {{icon|stress loss}} Stress loss if Ambitious, Arrogant or Just
+* {{icon|opinion}} {{green|+10}} Vassal Guest Opinion
+* {{icon|prestige}} {{green|+50%}} Prestige Oath Reward
+* {{icon|legitimacy}} {{green|+50%}} Legitimacy Oath Reward
+* {{icon|prestige}} {{green|+50%}} Prestige Activity Reward
+* {{icon|legitimacy}} {{green|+50%}} Legitimacy Activity Reward
+* {{icon|control}} {{green|+20}} Control in activity location
+* [[File:Coronation type normal icon.png|24px]] If activity variant is Coronation activity location gains the Impressed by Stately Coronation modifier for 10 years, giving the following effects:
+** {{icon|fort level}} {{green|+1}} Fort Level
+** {{icon|garrison}} {{green|+25%}} Garrison Size
+** {{icon|opinion}} {{green|+20}} Popular Opinion
+** {{icon|development}} {{green|-10%}} Development Decline if not Nomadic
+** {{icon|county fertility}} {{green|-10%}} County Fertility Consumption if Nomadic
+|-
+| '''Grand'''
+| 75-99
+| 
+* {{icon|stress loss}} Stress loss if Ambitious, Arrogant or Just
+* {{icon|opinion}} {{green|+15}} Vassal Guest Opinion
+* {{icon|prestige}} {{green|+75%}} Prestige Oath Reward
+* {{icon|legitimacy}} {{green|+75%}} Legitimacy Oath Reward
+* {{icon|prestige}} {{green|+75%}} Prestige Activity Reward
+* {{icon|legitimacy}} {{green|+75%}} Legitimacy Activity Reward
+* {{icon|control}} {{green|+30}} Control in activity location
+* [[File:Coronation type normal icon.png|24px]] If activity variant is Coronation activity location gains the Awed by Wondrous Coronation modifier for 10 years, giving the following effects:
+** {{icon|fort level}} {{green|+2}} Fort Level
+** {{icon|garrison}} {{green|+50%}} Garrison Size
+** {{icon|opinion}} {{green|+40}} Popular Opinion
+** {{icon|development}} {{green|-20%}} Development Decline if not Nomadic
+** {{icon|county fertility}} {{green|-15%}} County Fertility Consumption if Nomadic
+|-
+| '''Resplendent'''
+| 100
+| 
+* {{icon|stress loss}} Stress loss if Ambitious, Arrogant or Just
+* {{icon|opinion}} {{green|+20}} Vassal Guest Opinion
+* {{icon|prestige}} {{green|+100%}} Prestige Oath Reward
+* {{icon|legitimacy}} {{green|+100%}} Legitimacy Oath Reward
+* {{icon|prestige}} {{green|+150%}} Prestige Activity Reward
+* {{icon|legitimacy}} {{green|+150%}} Legitimacy Activity Reward
+* {{icon|control}} {{green|+30}} Control in activity location
+* [[File:Coronation type normal icon.png|24px]] If activity variant is Coronation activity location gains the Awed by Wondrous Coronation modifier for 10 years, giving the following effects:
+** {{icon|fort level}} {{green|+2}} Fort Level
+** {{icon|garrison}} {{green|+50%}} Garrison Size
+** {{icon|opinion}} {{green|+40}} Popular Opinion
+** {{icon|development}} {{green|-20%}} Development Decline if not Nomadic
+** {{icon|county fertility}} {{green|-15%}} County Fertility Consumption if Nomadic
+|}
+After all guests arrive, each Coronation activity can have up to 3 Major Supporters and 3 Major Detractors. Major Supporters are the most powerful guests that have positive {{iconify|Opinion}} of the host and will increase Magnificence while Major Detractors are the most powerful guests that have negative {{iconify|Opinion}} of the host and will decrease Magnificence.
+
+While a Coronation activity is underway, factions cannot press demands but they can decrease Magnificence.
+
+After the second stage of the coronation begins the host will receive the following rewards:
+{| class="mildtable plainlist"
+! Reward
+! {{iconify|Piety}}
+! {{iconify|Prestige}}
+! {{iconify|Legitimacy}}
+! {{iconify|Opinion}} of same-faith vassals (Christianity/Judaism only)
+|-
+! Scales with
+| 
+* {{icon|yes}} Virtues and sins
+* {{icon|yes}} Level of devotion
+* {{iconify|Opinion}} of head of faith is faith has one
+* {{iconify|Opinion}} of the religious affairs councilor otherwise
+| 
+* {{iconify|Factions}}
+* {{icon|opinion}} Tyranny higher than Dread
+* {{icon|yes}} Traits
+* {{iconify|Legitimacy}}
+* {{iconify|Opinion}} of guests
+| 
+* {{iconify|Factions}}
+* {{icon|opinion}} Tyranny higher than Dread
+* {{iconify|Peasant Leader}} trait
+* {{iconify|Populist Leader}} trait
+* {{icon|opinion}} Popular opinion in capital
+* {{iconify|Control}} in capital
+* {{icon|warning}} Plague in capital
+* {{icon|yes}} Anointment
+* [[File:Extoll reign intent.png|24px]] Impress Attendees intent
+| {{iconify|Fervor}}
+|}
+When the activity ends the host will receive a [[File:Artifact crown.png|24px]] Crown or [[File:Artifact regalia.png|24px]] Regalia artifact. Its effects will be randomized but will always include a {{iconify|Legitimacy}} Gain bonus. They will also increase their coronation law level unless the Coronation Laws game rule has been set to No Coronation Laws.
+
+If 5 Coronation activities took place in the same barony, the barony will gain the [[File:Modifier legitimacy positive.png|24px]] Traditional Ascension Site modifier. If another 5 Coronation activities are held there the modifier will double and at 15 Coronations the modifier will triple.
+
+==== Oath ====
+When a Coronation activity ends the host will also have the option to swear an oath. Swearing an oath will add a decision that gives rewards if completed. The oath is canceled if the character loses its last {{iconify|Kingdom}} or higher title. 11 random oaths from the following list can be selected, provided the character meets the requirements.
+
+Failing to fulfill an oath will increase the ruler's {{iconify|Stress}} and reduce the their {{iconify|Legitimacy}} and {{iconify|Prestige}} and {{iconify|Opinion}} with every vassal, courtier and guest. It also has a 5% chance to give the ruler the ''the Oathbreaker'' nickname.
+
+Both the rewards for fulfilling an oath and the penalties for failing scale with the size of the character's realm and the culture's era.
+{| class="mildtable plainlist"
+! width=1% | Oath
+! Requirements to appear
+! Goal
+! Time limit
+! Rewards
+! Reward modifier
+|-
+| '''Expand the Realm'''
+| 
+| Increase realm size by 30%
+| 20 years
+| 
+* {{iconify|Legitimacy}}
+* {{iconify|Prestige}}
+| 
+* {{icon|martial}} {{green|+1}} Martial
+* {{icon|legitimacy}} {{green|+15%}} Legitimacy Gain
+* {{icon|opinion}} {{green|+10}} Belligerent Vassal Opinion
+* {{icon|opinion}} {{green|+10}} Glory Hound Vassal Opinion
+|-
+| '''Install Claimants'''
+| 
+| Win 3 wars with the Claims casus belli for another character
+| 20 years
+| 
+* {{iconify|Legitimacy}}
+* {{iconify|Prestige}}
+* {{icon|strong hook}} Perpetual Hook on every installed claimant
+* {{iconify|Weak Hook}} on every installed claimant's primary heir
+| {{icon|diplomacy}} {{green|+2}} Diplomacy
+|-
+| '''Shape the Realm'''
+| 
+* {{icon|no}}{{iconify|Tribal}}
+* {{icon|no}}{{iconify|Nomadic}}
+| Construct or upgrade 8 buildings
+| 20 years
+| 
+* {{iconify|Legitimacy}}
+* {{iconify|Prestige}}
+* {{iconify|Development}}
+| 
+* {{icon|stewardship}} {{green|+1}} Stewardship
+* {{icon|gold}} {{green|-25%}} Holding Construction Cost
+* {{icon|time}} {{green|-25%}} Holding Construction Time
+|-
+| '''Secure Alliances'''
+| 0-1 allies
+| Have 3 alliances with 50+ opinion
+| 20 years
+| 
+* {{iconify|Legitimacy}}
+* {{iconify|Prestige}}
+* {{iconify|Opinion}}
+* {{icon|opinion}} Cultural Acceptance
+| 
+* {{icon|diplomacy}} {{green|+1}} Diplomacy
+* {{icon|unknown}} {{green|+10}} Allied Marriage Acceptance
+|-
+| '''Strengthen the House'''
+| 0-2 children
+| Have 7 children without the Bastard trait
+| 30 years
+| 
+* {{iconify|Legitimacy}}
+* {{iconify|Prestige}}
+* {{iconify|Renown}}
+| 
+* {{icon|stress loss}} {{green|+3%}} Stress Loss
+* {{icon|opinion}} {{green|+3%}} Tyranny Loss
+* {{icon|opinion}} {{green|+2}} Child Opinion
+|-
+| '''Consolidate the Kingdom/Empire'''
+| Primary title's de jure not entirely controlled
+| Control all of the primary title's de jure territory
+| 20 years
+| 
+* {{iconify|Legitimacy}}
+* {{iconify|Prestige}}
+| 
+* {{icon|martial}} {{green|+1}} Martial
+* {{icon|legitimacy}} {{green|+15%}} Legitimacy Gain
+* {{icon|opinion}} {{green|+10}} Courtly Vassal Opinion
+|-
+| '''Ensure Peace'''
+| Less than 1 year of peace
+| Be at peace for 5 years
+| 50 years
+| 
+* {{iconify|Legitimacy}}
+* {{iconify|Prestige}}
+* {{iconify|Development}}
+| 
+* {{icon|domain}} {{green|+1}} Domain Limit
+* {{icon|control}} {{green|+0.1}} Monthly Control
+* {{icon|opinion}} {{green|+10}} Popular Opinion
+|-
+| '''Purge Pretenders'''
+|
+* {{icon|no}} Single heir succession law
+* {{icon|no}} Harmonious succession
+* {{icon|yes}} Primary Title has 6/8/10/12 claimants that aren't your children
+| No claimants to the primary title except own children
+| 20 years
+| 
+* {{iconify|Legitimacy}}
+* {{iconify|Prestige}}
+| 
+* {{icon|intrigue}} {{green|+1}} Intrigue
+* {{icon|legitimacy}} {{green|+10%}} Legitimacy Gain
+* {{icon|yes}} Unlock the Primogeniture succession law
+|-
+| '''Greatest Hunter'''
+| {{icon|no}} Vegetarianism tradition
+| Have a Bow artifact and finish 10 Hunts or a Legendary Hunt
+| 20 years
+| 
+* {{iconify|Legitimacy}}
+* {{iconify|Prestige}}
+* {{icon|artifact}} Bow Artifact gains 3 additional modifiers
+| 
+* {{icon|prowess}} {{green|+2}} Prowess
+* {{icon|prestige}} {{green|+10%}} Hunt Prestige Rewards
+* {{icon|health}} {{green|Tiny Health Boost}}
+|-
+| '''Support My Knights/Champions'''
+| {{icon|no}}[[File:Building oath warriors.png|24px]] Village Fiefdoms
+{{icon|yes}} at least 3 holding with a free building space
+| Construct 3 Village Fiefdoms (oath unlocks the buildings)
+| 20 years
+| 
+* {{iconify|Legitimacy}}
+* {{iconify|Prestige}}
+* [[File:Modifier martial positive.png|24px]] Temple Sanctuaries baronies gain A Warrior's Oath Fulfilled modifier
+| 
+* {{icon|martial}} {{green|+1}} Martial
+* {{icon|damage}} {{green|+10%}} Army Damage
+* {{icon|toughness}} {{green|+5%}} Army Toughness
+* {{icon|gold}} {{green|-5%}} Army Gold Maintenance
+|-
+| '''Provide for the Faithful'''
+| {{icon|no}}[[File:Building oath faithful.png|24px]] Temple Sanctuaries
+{{icon|yes}} at least 3 holding with a free building space
+| Construct 3 Temple Sanctuaries (oath unlocks the buildings)
+| 20 years
+| 
+* {{iconify|Legitimacy}}
+* {{iconify|Prestige}}
+* [[File:Modifier piety positive.png|24px]] Temple Sanctuaries baronies gain A Faithful's Oath Fulfilled modifier
+| 
+* {{icon|learning}} {{green|+1}} Learning
+* {{icon|piety}} {{green|+10%}} Monthly Piety
+|-
+| '''Provide for the Poor'''
+| {{icon|no}}[[File:Building oath poor.png|24px]] Benevolent Ministries
+{{icon|yes}} at least 3 holding with a free building space
+| Construct 3 Benevolent Ministries (oath unlocks the buildings)
+| 20 years
+| 
+* {{iconify|Legitimacy}}
+* {{iconify|Prestige}}
+* {{iconify|Peasant Leader}} trait
+* {{icon|yes}} Culture gains the Collective Lands tradition
+* [[File:Modifier stewardship positive.png|24px]] Benevolent Ministries baronies gain A Poor's Oath Fulfilled modifier
+| 
+* {{icon|stewardship}} {{green|+1}} Stewardship
+* {{icon|gold}} {{red|-5%}} Monthly Income
+|-
+| '''Prepare the Heir'''
+| 
+* Age over 50
+* Heir is your child
+| Heir has 3 positive congenital traits or skills with 10+ score
+| 40 years
+| 
+* {{iconify|Legitimacy}}
+* {{iconify|Prestige}}
+* [[File:Modifier family positive.png|24px]] A Heir Prepared modifier for heir
+| 
+* {{icon|diplomacy}} {{green|+1}} Diplomacy
+* {{icon|renown}} {{green|+10%}} Monthly Renown
+* {{icon|legitimacy}} {{green|+20%}} Legitimacy Gain
+* {{icon|legitimacy}} {{green|+20%}} Legitimacy Inheritance Value
+<!-- currently removed but will be added back later according to devs
+|-
+| '''Mend the Fracture'''
+|
+* Culture that is
+* >= 40% of your realm
+* <20 cultural acceptance
+* >= 6 counties in your realm
+* >= 60% of culture's counties in your realm
+| Have 70+ Cultural Acceptance with the realm's largest culture
+| 20 years
+| 
+* {{iconify|Legitimacy}}
+* {{iconify|Prestige}}
+* {{icon|yes}} Both cultures gain the Legacy of Oathsworn Consiliation tradition
+| 
+* {{icon|diplomacy}} {{green|+1}} Diplomacy
+* {{icon|stewardship}} {{green|+1}} Stewardship
+* {{icon|opinion}} {{green|+5}} Different Culture Opinion
+-->
+|-
+| '''Foster Enlightenment'''
+| {{icon|development}} County with 25+ development
+| Have a university with 30+ Development and a level 5 education trait
+| 50 years
+| 
+* {{iconify|Legitimacy}}
+* {{iconify|Prestige}}
+| 
+* {{icon|development}} {{green|+5%}} Development Growth
+* {{icon|development}} {{green|+0.02}} Monthly Development
+|-
+| '''Repent'''
+| Any sinful trait
+| Complete 4 pilgrimages and reach Devoted Servant devotion level
+| 10 years
+| 
+* {{iconify|Legitimacy}}
+* {{iconify|Prestige}}
+| {{icon|yes}} Sinful traits are replaced with Virtue traits
+|-
+| '''End the Struggle'''
+| {{icon|foi}}{{icon|lop}} Part of the Iberian or Persian Struggle
+| End any struggle involved in
+| 50 years
+| 
+* {{iconify|Legitimacy}}
+* {{iconify|Prestige}}
+| 
+* {{icon|diplomacy}} {{green|+1}} Diplomacy
+* {{icon|martial}} {{green|+1}} Martial
+* {{icon|opinion}} {{green|+10}} Same Culture Opinion
+* {{icon|opinion}} {{green|+10}} Same Faith Opinion
+* {{icon|opinion}} {{green|+5}} Different Culture Opinion
+* {{icon|opinion}} {{green|+5}} Different Faith Opinion
+|}
+
+=== Camp Revelry ===
+{{expansion|rtp}}
+Camp Revelry is an activity available only to adventurers which lasts 3 months. It has a base cost of 15 {{iconify|Gold}} and two activity options:
+* [[File:Feast option food.png|24px]] Food determines the starting Carousing. Increasing it to level 2 or 3 requires a Supply Tent domicile building and can trigger events to pay {{iconify|Provisions}} and gain a either {{iconify|Piety}} or a follower.
+* [[File:Tour option luxuries.png|24px]] Drinks give determine whether the guests will gain {{iconify|Opinion}} with the host how much experience the {{iconify|Eager Reveler}} trait will give. Level 2 requires a Supply Tent domicile building. Level 3 requires the [[File:Domicile building brewers.png|24px]] Mobile Brewers upgrade and gives the Master of Ceremonies modifier for 3 years at the end of the activity.
+The ruler of the barony where the camp is located can be invited as a guest of honor. The chance for them to accept decreases with their primary title rank.
+
+Camp revelries have a meter called Carousing, which ranges from 0 to 100 and decides which rewards the host will receive when the activity ends.
+{| class="mildtable" style="text-align: center;"
+! Level
+! Carousing
+! {{icon|stress loss}} Stress
+! {{iconify|Provisions}}
+! [[File:Focus invalid.png|24px]] Lifestyle Experience
+! Contracts
+! Upgrades camp building
+! Other rewards
+|-
+| '''Lively'''
+| 25
+| {{green|-50}}
+| '''0'''
+| '''0'''
+| '''0'''
+| {{icon|no}}
+| 
+|-
+| '''Cheery'''
+| 50
+| {{green|-75}}
+| {{green|+400}}
+| {{green|+50}}
+| '''0'''
+| {{icon|no}}
+| {{green|+1-3}} Skills from new recruits from visiting holdings for a year
+|-
+| '''Joyous'''
+| 75
+| {{green|-100}}
+| {{green|+600}}
+| {{green|+100}}
+| {{green|+1}}
+| {{icon|no}}
+| {{green|+1-3}} Skills from new recruits from visiting holdings for a year
+|-
+| '''Jubilant'''
+| 100
+| {{green|-150}}
+| {{green|+1200}}
+| {{green|+300}}
+| {{green|+2}}
+| {{icon|yes}}
+| {{green|+1-3}} Skills from new recruits from visiting holdings for a year
+|}
+Events that take place during the activity can reward artifacts, friends, {{iconify|Prestige}} or the {{iconify|Hunter}}, {{iconify|Hastiluder}} or {{iconify|Shrewd}} trait.
+[[File:Charioteers UI.png|thumb|130px|The race UI next to the activity view]]
+
+=== Chariot Race ===
+{{expansion|rtp}}
+Chariot Race is a highly interactive activity that can be held every 10 years in the realm capital. It is only available for adult {{iconify|Emperor}}s and above whose culture has the Roman Ceremonies tradition and is more succesful if the realm capital is Constantinople. The activity has one Activity Option: Spectacles. The option determines how much {{iconify|Legitimacy}} and {{icon|opinion}} Popular Opinion will be gained at the end of the activity, which also scales with the existing {{icon|opinion}} Popular Opinion in the realm capital. The activity can include one Honorary Guest, which will make them the target for some events to interact with them.
+
+When the activity begins it will give {{green|+30}} {{iconify|Development}} progress to the realm capital. If the character taking the decision has {{icon|governor efficiency}} Administrative government it will also receive {{green|+30}} {{iconify|Influence}}.
+
+In the activity will compete 4 teams: <span style="color:blue;">'''Venetoi'''</span>, {{green|Prasinoi}}, <span style="color:grey;">'''Leukoi'''</span> and {{red|Rhousioi}}. Each team will be made up of 2 or 3 characters, which will be displayed on the right. Before the race begins the characters will be sorted by the experience of their Charioteer trait.
+
+After all guests arrive the betting will open and every character will have the option to place bets on one of the teams or place no bet. Hovering over the option to place bets will display the team's chances to win and how many guests have bet on that particular team. Once a team is selected the bet can be placed on either one of the team members or the entire team. Then the bet can be made on first place, first two places, or first three places, with the payout increasing if chances are lower. Then the amount of {{iconify|Gold}} for the bet must be selected: 50, 100, 150 or 200.
+
+Once the race begins the window on the right will display the place in the race of every charioteer. It will also display which characters were bet on and the [[File:Charioteer court position.png|24px]] Champion Charioteer.
+
+If the [[File:Charioteer court position.png|24px]] Champion Charioteer court position is not already filled there will be an option to spend 60 {{iconify|Influence}} and appoint one of the charioteers.
+
+At the end of the race every contender will gain experience for the Charioteer trait in the order of their place in the race.
+
+== Grand activities ==
+{{expansion|tnt}}
+{| class="mildtable plainlist"
+! Activity
+! Activity options
+! Rewards
+! Valid baronies
+! Variants
+! Additional rewards
+! Requirements
+! Cooldown
+|-
+| rowspan=3 | [[File:Activity tour.png]] Grand Tour
+| rowspan=3 | 
+* [[File:Tour option entourage.png|24px]] Entourage
+* [[File:Tour option luxuries.png|24px]] Luxuries
+| rowspan=3 | 
+* {{iconify|Prestige}}
+* {{iconify|Legitimacy}}
+* {{icon|control}} County Control
+* {{icon|opinion}} Popular Opinion
+* {{iconify|Stress Loss}}
+| rowspan=3 | Vassal Realm Capital
+| [[File:Tour type majesty icon.png]] Majesty Tour
+| 
+* {{iconify|Prestige}}
+* {{iconify|Renown}}
+* {{icon|opinion}} Vassal Opinion
+| 
+* {{icon|yes}} Adult
+* {{icon|vassal}} 3 Vassals
+* {{icon|duchy}} Duke or higher title rank
+* {{icon|no}}{{icon|governor efficiency}} Administrative government
+| 10 years
+|-
+| [[File:Tour type intimidation icon.png]] Intimidation Tour
+| 
+* {{iconify|Dread}}
+* {{icon|yes}} May force Vassals out of Factions
+| 
+* {{icon|yes}} Adult
+* {{icon|vassal}} 3 Vassals
+* {{icon|duchy}} Duke or higher title rank
+* {{icon|no}}{{icon|governor efficiency}} Administrative government
+| 10 years
+|-
+| [[File:Tour type taxation icon.png]] Taxation Tour
+| {{iconify|Gold}}
+| 
+* {{icon|yes}} Adult
+* {{icon|vassal}} 3 Vassals
+* {{icon|duchy}} Duke or higher title rank
+* {{icon|no}}{{icon|governor efficiency}} Administrative government
+* {{icon|no}}{{iconify|Tribal}} government
+| 10 years
+|-
+| rowspan=2 | [[File:Activity wedding.png]] Grand Wedding
+| rowspan=2 | 
+* [[File:Wedding option entertainment.png|24px]] Entertainment
+* [[File:Wedding option food.png|24px]] Food and Drinks
+* [[File:Wedding option decoration.png|24px]] Wedding Venue
+| rowspan=2 |
+* {{iconify|Marriage}}
+* {{iconify|Legitimacy}}
+* {{iconify|Prestige}}
+* {{iconify|Opinion}}
+* {{iconify|Stress Loss}}
+* [[File:Trait reveler.png|24px]] Eager Reveler trait
+* {{icon|accolade}} Accolade glory
+* [[File:Modifier wedding positive.png|24px]] Gracious Host modifier for 5-20 years
+* [[File:Modifier wedding positive.png|24px]] Magnificent Host modifier for 10-20 years
+| rowspan=2 | Domain
+| [[File:Wedding type normal icon.png]] Grand Wedding
+| 
+* {{icon|yes}} Fulfills the Grand Wedding promise
+* {{icon|artifact}} May receive artifacts
+| 
+* {{icon|yes}} Both characters are adults
+* {{icon|marriage}} Grand Wedding marriage or betrothal promise
+| 
+|-
+| [[File:Feast type murder icon.png]] Bloody Wedding
+| {{icon|death}} Chance to kill the spouse's family
+| 
+* {{icon|yes}} Both characters are adults
+* {{icon|marriage}} Grand Wedding marriage or betrothal promise
+* [[File:Node diplomacy.png|24px]] Accomplished Forger lifestyle perk
+| 15 years
+|}
+
+=== Grand Tournament ===
+Grand Tournament is a highly interactive activity that can be held every 10 years in a Domain barony. It is only available for adult characters. The activity will be paid with {{iconify|Treasury}} if the host's government uses the resource and with {{iconify|Gold}} otherwise. The activity has two Activity Options:
+* [[File:Tournament option accommodations.png|24px]] Accommodations determine the likelihood of certain negative events. Can choose to pay 20, 60 or 180 {{iconify|Gold}} or {{iconify|Treasury}}.
+* [[File:Tournament option prizes.png|24px]] Prizes determines the quality of prize artifacts. Can choose to pay 20 (<span style="color:brown;">'''Common'''</span>), 60 (<span style="color:brown;">'''Common'''</span>-{{green|Masterwork}}), 180 ({{green|Masterwork}}-<span style="color:blue;">'''Famed'''</span>), 360 ({{green|Masterwork}}-<span style="color:purple;">'''Illustrious'''</span>) or 720 (<span style="color:blue;">'''Famed'''</span>-<span style="color:purple;">'''Illustrious'''</span>) {{iconify|Gold}} or {{iconify|Treasury}}.
+
+When organizing a tournament one may appoint a Champion. Any rewards the Champion receives will be shared with its liege. If the organizer is participating in a Melee contest the Champion will always be part of the organizer's team. Also notably, tournaments are one of the main ways for {{iconify|Accolade}}s to gain glory.
+
+A Grand Tournament is made up of between 1 and 5 Contests. Each character can choose whether to take part in a contest or merely observe. Taking part in a Contest has risks but will grant or improve the [[File:Trait tournament.png|24px]] Hastiluder trait, grant a positive modifier for 5 years, and winning grants an artifact. Each character has a chance to win a Contest depending on its attributes, health, and traits, particularly the [[File:Trait tournament.png|24px]] Hastiluder trait. A tournament can have the following contests:
+{| class="mildtable plainlist"
+! Contest
+! {{iconify|Hastiluder}} experience
+! {{icon|gold}} Cost
+! Defeat modifier
+! Victory modifier
+! Notes
+|-
+| [[File:Tournament phase archery.png|60px]] Archery
+| [[File:Trait track bow.png|24px]] Bow
+| 100
+| 
+* {{icon|unknown}} {{green|+1}} Injury Resistance
+* {{icon|damage}} {{green|+2}} Archer Damage
+* {{icon|hastiluder}} {{green|+5%}} Hastiluder Trait Experience Gain
+| 
+* {{icon|unknown}} {{green|+3}} Injury Resistance
+* {{icon|damage}} {{green|+3}} Archer Damage
+* {{icon|hastiluder}} {{green|+10%}} Hastiluder Trait Experience Gain
+| Tournament winner may receive a bow weapon
+|-
+| [[File:Tournament phase board game.png|60px]] Board Game
+| [[File:Trait track wit.png|24px]] Wit
+| 100
+| 
+* {{icon|learning}} {{green|+1}} Learning
+* {{icon|advantage}} {{green|+2}} Maximum Battle Roll
+* {{icon|hastiluder}} {{green|+10%}} Hastiluder Trait Experience Gain
+| 
+* {{icon|learning}} {{green|+3}} Learning
+* {{icon|advantage}} {{green|+3}} Maximum Battle Roll
+* {{icon|hastiluder}} {{green|+10%}} Hastiluder Trait Experience Gain
+| 
+|-
+| [[File:Tournament phase duel.png|60px]] Duel
+| [[File:Trait track foot.png|24px]] Foot
+| 100
+| 
+* {{icon|prowess}} {{green|+1}} Prowess
+* {{icon|prowess}} {{green|+1}} Prowess per Level of Fame
+* {{icon|hastiluder}} {{green|+5%}} Hastiluder Trait Experience Gain
+| 
+* {{icon|prowess}} {{green|+3}} Prowess
+* {{icon|prowess}} {{green|+2}} Prowess per Level of Fame
+* {{icon|hastiluder}} {{green|+10%}} Hastiluder Trait Experience Gain
+| Tournament winner may receive a melee weapon or armor
+|-
+| [[File:Tournament phase horse race.png|60px]] Horse Race
+| [[File:Trait track horse.png|24px]] Horse
+| 150
+| 
+* {{icon|supply}} {{green|+25%}} Supply Limit
+* {{icon|travel speed}} {{green|+10%}} Travel Speed
+* {{icon|hastiluder}} {{green|+5%}} Hastiluder Trait Experience Gain
+| 
+* {{icon|supply}} {{green|+50%}} Supply Limit
+* {{icon|travel speed}} {{green|+25%}} Travel Speed
+* {{icon|hastiluder}} {{green|+10%}} Hastiluder Trait Experience Gain
+| 
+|-
+| [[File:Tournament phase melee.png|60px]] Melee
+| 
+* [[File:Trait track foot.png|24px]] Foot
+* [[File:Trait track horse.png|24px]] Horse
+| 100
+| 
+* {{icon|martial}} {{green|+3}} Martial
+* {{icon|martial lifestyle}} {{green|+10%}} Monthly Martial Lifestyle Experience
+* {{icon|hastiluder}} {{green|+5%}} Hastiluder Trait Experience Gain
+| 
+* {{icon|martial}} {{green|+3}} Martial
+* {{icon|martial lifestyle}} {{green|+10%}} Monthly Martial Lifestyle Experience
+* {{icon|hastiluder}} {{green|+10%}} Hastiluder Trait Experience Gain
+| Tournament winner may receive a melee weapon or armor
+|-
+| [[File:Tournament phase recital.png|60px]] Recital
+| [[File:Trait track wit.png|24px]] Wit
+| 50
+| 
+* {{icon|diplomacy}} {{green|+1}} Diplomacy
+* {{icon|scheme success chance}} {{green|+20%}} Learn Language Scheme Power
+* {{icon|hastiluder}} {{green|+5%}} Hastiluder Trait Experience Gain
+| 
+* {{icon|diplomacy}} {{green|+3}} Diplomacy
+* {{icon|scheme success chance}} {{green|+30%}} Learn Language Scheme Power
+* {{icon|hastiluder}} {{green|+10%}} Hastiluder Trait Experience Gain
+| 
+|-
+| [[File:Tournament phase wrestling.png|60px]] Wrestling
+| [[File:Trait track foot.png|24px]] Foot
+| 100
+| 
+* {{icon|health}} {{green|+0.5}} Health
+* {{icon|scheme success chance}} {{green|+25%}} Hostile Scheme Resistance
+* {{icon|hastiluder}} {{green|+5%}} Hastiluder Trait Experience Gain
+| 
+* {{icon|health}} {{green|+1}} Health
+* {{icon|scheme success chance}} {{green|+50%}} Hostile Scheme Resistance
+* {{icon|hastiluder}} {{green|+10%}} Hastiluder Trait Experience Gain
+| 
+|-
+| [[File:Tournament phase joust.png|60px]] Joust
+| 
+* [[File:Trait track foot.png|24px]] Foot
+* [[File:Trait track horse.png|24px]] Horse
+| 200
+| 
+* {{icon|opinion}} {{green|+10}} Glory Hound Vassal Opinion
+* {{icon|damage}} {{green|+5}} Heavy Cavalry Damage
+* {{icon|hastiluder}} {{green|+5%}} Hastiluder Trait Experience Gain
+| 
+* {{icon|opinion}} {{green|+20}} Glory Hound Vassal Opinion
+* {{icon|damage}} {{green|+10}} Heavy Cavalry Damage
+* {{icon|hastiluder}} {{green|+10%}} Hastiluder Trait Experience Gain
+| 
+* Tournament winner may receive a melee weapon or armor
+* Requires the culture to have the {{iconify|Horseshoes}} and {{iconify|Arched Saddle}} innovations
+|}
+
+3 weeks after the tournament is hosted every participating character will be able to visit various areas to trigger events.
+{| class="mildtable"
+! Area
+! Description
+|-
+| [[File:Tournament locale artisans.png|50px]] Artisan Quarters || ''Merchants have installed themselves over here. Maintain your Artifacts, get new clothes, or improve your weaponry.''
+|-
+| [[File:Tournament locale tavern.png|50px]] Tavern || ''A place to rest. Sit down and get a chance to reduce your Stress.''
+|-
+| [[File:Tournament locale religious building.png|50px]] Temple || ''A calm place. Pray for victory or test your faith.''
+|-
+| [[File:Tournament locale visitor camp.png|50px]] Tent Camp || All the visitors have taken this field as theirs. Meet the other Contestants or sabotage them.''
+|-
+| [[File:Tournament locale tournament grounds.png|50px]] Tourney Grounds || ''The training area for the Tournament. Spending time here will increase your Progress to Victory.''
+|-
+| [[File:Tournament locale settlement.png|50px]] Village || ''The closest settlement. Here, you may get County Control, Popular Opinion and interactions with its inhabitants.''
+|}
+
+Characters will have a Progress to Victory bar showing how close they are to winning the current Contest. At least 20 progress is required to quality for a Contest.
+
+== Intents ==
+{{expansion|tnt}}
+When a character joins an activity it must select an Intent, which has an influence on what events will happen during the activity and can be changed at any point.
+{| class="mildtable sortable"
+! Intent
+! {{icon|feast}}
+! {{icon|hunt}}
+! {{icon|pilgrimage}}
+! [[File:Activity playdate.png|24px]]
+! [[File:Activity witch ritual.png|24px]]
+! [[File:Activity gruesome festival.png|24px]]
+! [[File:Activity tour.png|24px]]
+! [[File:Activity tournament.png|24px]]
+! [[File:Activity wedding.png|24px]]
+! [[File:Activity adult education.png|24px]]
+! [[File:Activity funeral.png|24px]]
+! [[File:Activity chariot race.png|24px]]
+! [[File:Activity roaming.png|24px]]
+! [[File:Activity survey.png|24px]]
+! [[File:Activity journey.png|24px]]
+! [[File:Activity coronation.png|24px]]
+! [[File:Activity festival.png|24px]]
+! [[File:Activity local examination.png|24px]]
+! [[File:Activity imperial examination.png|24px]]
+! [[File:Activity debate.png|24px]]
+! Requirements
+|-
+| [[File:Reduce stress intent.png|24px]] Recreation || {{icon|yes}} || {{icon|yes}} || {{icon|yes}} || {{icon|yes}} || {{icon|no}} || {{icon|yes}} || {{icon|yes}} || {{icon|yes}} || {{icon|yes}} || {{icon|no}} || {{icon|no}} || {{icon|yes}} || {{icon|yes}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|yes}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || 
+|-
+| [[File:Befriend intent.png|24px]] Befriend || {{icon|yes}} || {{icon|yes}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|yes}} || {{icon|yes}} || {{icon|no}} || {{icon|yes}} || {{icon|yes}} || {{icon|yes}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || 
+|-
+| [[File:Murder intent.png|24px]] Murder || {{icon|yes}} || {{icon|yes}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|yes}} || {{icon|yes}} || {{icon|no}} || {{icon|yes}} || {{icon|yes}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || 
+|-
+| [[File:Romance intent.png|24px]] Seduce || {{icon|yes}} || {{icon|yes}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|yes}} || {{icon|yes}} || {{icon|no}} || {{icon|yes}} || {{icon|yes}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || 
+|-
+| [[File:Worship devil intent.png|24px]] Worship || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|yes}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || 
+|-
+| [[File:Study hard intent.png|24px]] Study Hard || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|yes}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || 
+|-
+| [[File:Revelry intent.png|24px]] Goliardic Lifestyle || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|yes}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || 
+|-
+| [[File:Mourn intent.png|24px]] Mourn || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|yes}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || 
+|-
+| [[File:Altruism intent.png|24px]] Altruism || {{icon|no}} || {{icon|no}} || {{icon|yes}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|yes}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || 
+|-
+| [[File:Pious intent.png|24px]] Zealotry || {{icon|no}} || {{icon|no}} || {{icon|yes}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || 
+|-
+| [[File:Appease populace intent.png|24px]] Appease the Populace || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|yes}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || 
+|-
+| [[File:Storyteller intent.png|24px]] Storyteller || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|yes}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || 
+|-
+| [[File:Overseer intent.png|24px]] Overseer || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|yes}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || 
+|-
+| [[File:Capital intent.png|24px]] Survey || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|yes}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || 
+|-
+| [[File:Knowledge intent.png|24px]] Knowledge Hoarding || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|yes}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || 
+|-
+| [[File:Curiosity intent.png|24px]] Curiosity || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|yes}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || 
+|-
+| [[File:Justice intent.png|24px]] Justice || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|yes}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || 
+|-
+| [[File:Lechery intent.png|24px]] Lechery || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|yes}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || 
+|-
+| [[File:Recruit knights intent.png|24px]] Recruit || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|yes}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || 
+|-
+| [[File:Win contest intent.png|24px]] Triumph || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|yes}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || 
+|-
+| [[File:Diplomacy intent.png|24px]] Diplomacy || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|yes}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || 
+|-
+| [[File:Matchmaking intent.png|24px]] Matchmaking || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|yes}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || 
+|-
+| [[File:Crash wedding intent.png|24px]] Mischief || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|yes}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} Host
+|-
+| [[File:Sow discord intent.png|24px]] Sow Discord || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|yes}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} Host
+|-
+| [[File:Empower loyalists intent.png|24px]] Embrace Supporters || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|yes}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|yes}} Host
+|-
+| [[File:Support liege intent.png|24px]] Exalt the Crown || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|yes}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|yes}} Host
+|-
+| [[File:Extoll reign intent.png|24px]] Impress Attendees || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|yes}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|yes}} Host
+|-
+| [[File:Isolate opponents intent.png|24px]] Weaken Detractors || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|yes}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|yes}} Host
+|-
+| [[File:Advocate domain intent.png|24px]] Advocate Domain || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|yes}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} Host
+|-
+| [[File:Bear witness intent.png|24px]] Bear Witness || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|yes}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} Host
+|-
+| [[File:Disrupt loyalists intent.png|24px]] Disrupt Loyalists || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|yes}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} Host
+|-
+| [[File:Altruism intent.png|24px]] Offer Support || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|yes}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} Host
+|-
+| [[File:Profess rights intent.png|24px]] Profess Rights || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|yes}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} Host
+|-
+| [[File:Seize advantages intent.png|24px]] Seize Advantages || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|yes}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} Host
+|-
+| [[File:Acquire pelts intent.png|24px]] Slay Beast || {{icon|no}} || {{icon|yes}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} Falconry or Nerge
+|-
+| [[File:Acquire pelts intent.png|24px]] Succeed || {{icon|no}} || {{icon|yes}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|yes}} Nerge
+|-
+| [[File:Overseer intent.png|24px]] Dreadful || {{icon|no}} || {{icon|yes}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|yes}} Nerge
+|-
+| [[File:Mystic intent.png|24px]] Mystic || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|yes}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{iconify|Wise Man}}/Woman trait
+|-
+| [[File:Spread legend intent.png|24px]] Spread Legend || {{icon|yes}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|yes}} || {{icon|no}} || {{icon|yes}} || {{icon|no}} || {{icon|no}} || {{icon|yes}} || {{icon|no}} || {{icon|no}} || {{icon|yes}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|legend}} Owning or promoting a Legend
+|-
+| [[File:Legitimacy intent.png|24px]] Espouse Legitimacy || {{icon|yes}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|yes}} || {{icon|no}} || {{icon|yes}} || {{icon|no}} || {{icon|yes}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|yes}} || {{icon|no}} || [[File:Legitimacy legacy track.png|24px]] Third Legitimacy legacy
+|-
+| [[File:Influence intent.png|24px]] Increase Influence || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|yes}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|governor efficiency}} Administrative government
+|-
+| [[File:Impose obedience intent.png|24px]] Impose Obedience || {{icon|no}} || {{icon|yes}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{iconify|Nomadic}} government
+|-
+| [[File:Crash wedding intent.png|24px]] Fireside Chat || {{icon|yes}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || [[File:Domicile building campfire.png|24px]] Roaring Campfire building
+|-
+| [[File:Add to bloc intent.png|24px]] Coax to Bloc || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|yes}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || 
+|-
+| [[File:Raise cohesion intent.png|24px]] Encourage Cohesion || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|yes}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || 
+|-
+| [[File:Remove from bloc intent.png|24px]] Sideline from Bloc || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|yes}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || 
+|-
+| [[File:Storyteller intent.png|24px]] Assist Examination || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|yes}} || {{icon|yes}} || {{icon|no}} || {{icon|no}} Host
+|-
+| [[File:Influence intent.png|24px]] Support Entrants || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|yes}} || {{icon|yes}} || {{icon|no}} || {{icon|no}} Host
+|-
+| [[File:Study hard intent.png|24px]] Take Examination || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|yes}} || {{icon|yes}} || {{icon|no}} || {{icon|no}} Host<br>{{icon|no}} Landed<br>{{icon|no}} Passed Local Examination
+|-
+| [[File:Scout talent intent.png|24px]] Scout Talent || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|yes}} || {{icon|yes}} || {{icon|no}} || {{icon|yes}} Host
+|-
+| [[File:Favoritism intent.png|24px]] Favoritism || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|yes}} || {{icon|no}} || {{icon|no}} || {{icon|yes}} Host
+|-
+| [[File:Sow discord intent.png|24px]] Increase Movement Power || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|yes}} || 
+|-
+| [[File:Scout talent intent.png|24px]] Gain Disciples || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|yes}} || 
+|-
+| [[File:Scout talent intent.png|24px]] Gain Elder || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|no}} || {{icon|yes}} || 
+|}
+
+== References ==
+<references/>
+{{Mechanics navbox}}
+[[Category:Character]]

@@ -1,0 +1,2433 @@
+{{version|1.17}}
+Holy sites are baronies that are considered sacred by a [[Faith]]. If a faith controls a holy site, all characters belonging to that faith will gain a permanent bonus. In addition, holy sites are the targets of [[Pilgrimage]] activities and they are necessary to create a [[Head of Faith]] title or to reform a pagan faith. Several [[tenets]] also grant additional bonuses from holy sites.
+
+Each Holy Site has a special building slot for a [[Special buildings#Holy buildings|great temple]]. For some Holy Sites, this is a [[Special buildings#Unique holy buildings|unique building]] such as the Mahabodhi Temple in Bodh Gaya. The building slot can also be used for the special building [[Special buildings#Hall of Heroes|Hall of Heroes]], available only through the unique decision [[Defenders of High God (Ukko / Rod / Dievas)|Defenders of High God (Ukko / Rod / Dievas)]]. It is possible to replace unique buildings and the hall of heroes with a normal great temple, but the transition cannot necessarily be reversed.
+
+Most faiths have 5 holy sites per faith, but a few have 6 or 7. For most religions, all faiths have the same holy sites. When reforming or creating a new faith, the new faith will inherit the holy sites of the old faith.
+
+== List of holy sites ==
+{| class="mildtable plainlist sortable"
+|-
+! Name
+! Location
+! De Jure Kingdom
+! De Jure Empire
+! Effects
+! Faiths
+! Notes
+
+|- id="Jerusalem"
+| Jerusalem
+| [[List of counties#Jerusalem|Jerusalem]] (shared with [[#Mount Gerizim|Mount Gerizim]])
+| Jerusalem
+| Arabian Empire
+|
+* {{icon|convert faith}} {{green|+20%}} County Conversion Speed
+* {{icon|piety}} {{green|+20%}} Monthly Piety
+|
+* All Christian faiths except {{iconify|adoptionism}}: <div class="collapse-template mw-collapsible mw-collapsed">
+** {{iconify|Catholicism}}
+** {{iconify|Orthodoxy}}
+** {{iconify|Coptic}}
+** {{iconify|Apostolic}}
+** {{iconify|Insular Christianity}}
+** {{iconify|Krstjani}}
+** {{iconify|Conversos}}
+** {{iconify|Nestorianism}}
+** {{iconify|Bogomilism}}
+** {{iconify|Catharism}}
+** {{iconify|Iconoclasm}}
+** {{iconify|Lollardy}}
+** {{iconify|Paulicianism}}
+** {{iconify|Waldensianism}}
+** {{iconify|Messalianism}}
+** {{iconify|Adamitism}}
+** {{iconify|Mozarabism}}
+
+<section begin=AllMuslim />
+* All Muslim faiths: <div class="collapse-template mw-collapsible mw-collapsed">
+** {{iconify|Ash'arism}}
+** {{iconify|Muwalladism}}
+** {{iconify|Maturidism}}
+** {{iconify|Almohadism}}
+** {{iconify|Mu'tazilism}}
+** {{iconify|Isma'ilism}}
+** {{iconify|Zayidism}}
+** {{iconify|Nizarism}}
+** {{iconify|Imamism}}
+** {{iconify|Ibadism}}
+** {{iconify|Najdatism}}
+** {{iconify|Azraqism}}
+** {{iconify|Sufrism}}
+** {{iconify|Druze}}
+** {{iconify|Alawism}}
+** {{iconify|Alevism}}
+** {{iconify|Ikhtilafism}}
+** {{iconify|Qarmatianism}}
+** {{iconify|Quranism}}
+** {{iconify|Hafizi}}
+</div><section end=AllMuslim />
+* All Dualist faiths except {{iconify|Cainitism}} and {{iconify|Manicheanism}}: <div class="collapse-template mw-collapsible mw-collapsed">
+** {{iconify|Mandeaism}}
+** {{iconify|Priscillianism}}
+** {{iconify|Sabianism}}
+** {{iconify|Sethianism}}
+** {{iconify|Valentinianism}}
+
+* All Jewish faiths except {{iconify|Samaritanism}}: <div class="collapse-template mw-collapsible mw-collapsed">
+** {{iconify|Kabarism}}
+** {{iconify|Haymanot}}
+** {{iconify|Karaism}}
+** {{iconify|Rabbinism}}
+** {{iconify|Malabarism}}
+
+| The ancient capital of Israel and the site of the First and Second Temples. In Christianity, it is the location of Jesus's crucifixion, resurrection and ascension. In Islam, Muhammad travelled to Jerusalem from Mecca and there ascended to heaven.
+
+|- id="Rome"
+| Rome
+| Vaticano in [[List of counties#Roma|Roma]]
+| Romagna
+| Italia
+|
+* {{icon|stewardship}} {{green|+1}} Stewardship
+* {{icon|development}} {{green|+10%}} Development Growth
+|
+* All Christian faiths except {{iconify|Nestorianism}}, {{iconify|Coptic}}, {{iconify|Messalianism}} and {{iconify|Apostolic}}: <div class="collapse-template mw-collapsible mw-collapsed">
+** {{iconify|Catholicism}}
+** {{iconify|Orthodoxy}}
+** {{iconify|Insular Christianity}}
+** {{iconify|Krstjani}}
+** {{iconify|Conversos}}
+** {{iconify|Bogomilism}}
+** {{iconify|Catharism}}
+** {{iconify|Iconoclasm}}
+** {{iconify|Lollardy}}
+** {{iconify|Paulicianism}}
+** {{iconify|Waldensianism}}
+** {{iconify|Adamitism}}
+** {{iconify|Mozarabism}}
+** {{iconify|Adoptionism}}
+
+* {{iconify|Valentinianism}}
+* {{iconify|Sethianism}}
+* {{iconify|Hellenism}}
+| Seat of the Holy See and the Pope
+
+|- id="Cologne"
+| Cologne
+| [[List of counties#Cologne|Cologne]]
+| Lotharingia
+| Germania
+|
+* {{icon|control}} {{green|+5%}} Control Growth
+* {{icon|innovation}} {{green|+5%}} Cultural Fascination Progress
+|
+<section begin=CatholicismAndHeresies />
+* {{iconify|Catholicism}} and historical heresies: <div class="collapse-template mw-collapsible mw-collapsed">
+** {{iconify|Catharism}}
+** {{iconify|Waldensianism}}
+** {{iconify|Lollardy}}
+</div><section end=CatholicismAndHeresies />
+| Site of the Cologne cathedral which houses many relics including those of the three magi
+
+|- id="Santiago"
+| Santiago
+| [[List of counties#Santiago|Santiago]]
+| Galicia
+| Hispania
+|
+* <!-- Transclusion used by Holy Order page. -->{{icon|piety}} {{green|−10%}} Holy Order Hire Cost
+* {{icon|supply}} {{green|+20%}} Supply Duration
+|{{Iconify|Catholicism}}
+
+{{iconify|Waldensianism}}
+
+{{iconify|Lollardy}}
+
+{{iconify|Mozarabism}}
+
+{{iconify|Adoptionism}}
+| Location of the shrine, then church and finally cathedral of St. James the Great and final destination of the way of St. James, a pilgrimage route
+
+|- id="Canterbury"
+| Canterbury
+| Canterbury in [[List of counties#Kent|Kent]]
+| England
+| Britannia
+|
+* {{icon|opinion}} {{green|+5}} Religious Vassal Opinion
+* {{icon|Scheme Phase Length}} {{green|-10}} Days Sway Scheme Phase Length
+|
+{{#lst:Holy sites|CatholicismAndHeresies}}
+* {{iconify|Insular Christianity}}
+| Seat of the Archbishop of Canterbury, primate of the Anglican Church
+
+|- id="Constantinople"
+| Constantinople
+| [[List of counties#Byzantion|Byzantion]]
+| Thessalonika
+| Byzantine Empire
+|
+*{{icon|innovation}} {{green|+15%}} Cultural Fascination Progress
+|
+<section begin=OrthodoxAndHeresies />
+* {{iconify|Orthodoxy}} and historical heresies: <div class="collapse-template mw-collapsible mw-collapsed">
+** {{iconify|Iconoclasm}}
+** {{iconify|Bogomilism}}
+** {{iconify|Paulicianism}}
+** {{iconify|Messalianism}}
+
+<section end=OrthodoxAndHeresies />
+| Seat of the Ecumenical Patriarch and location of the Hagia Sophia cathedral
+
+|- id="Alexandria"
+| Alexandria
+| [[List of counties#Alexandria|Alexandria]]
+| Egypt
+| Arabian Empire
+|
+* {{icon|learning}} {{green|+1}} Learning per Level of Devotion
+|
+*{{iconify|Orthodoxy}} 
+* {{iconify|Iconoclasm}}
+* {{iconify|Bogomilism}}
+* {{iconify|Paulicianism}}
+* {{iconify|Coptic}}
+* {{iconify|Conversos}}
+* {{iconify|Adamitism}}
+* {{iconify|Sethianism}}
+* {{iconify|Valentinianism}}
+* {{iconify|Haymanot}}
+* {{iconify|Karaism}}
+* {{iconify|Rabbinism}}
+* {{iconify|Samaritanism}}
+* {{iconify|Hellenism}}
+* {{iconify|Achamanism}}
+| Seat of the Patriarch of Alexandria
+
+|- id="Antioch"
+| Antioch
+| [[List of counties#Antiocheia|Antiocheia]]
+| Syria
+| Arabian Empire 
+|
+* {{icon|martial}} {{green|+1}} Martial per Level of Devotion
+* {{icon|knight}} {{green|+10%}} Knight Effectiveness
+|
+{{#lst:Holy sites|OrthodoxAndHeresies}}
+* {{iconify|Coptic}}
+* {{iconify|Apostolic}}
+* {{iconify|Nestorianism}}
+| Seat of the Patriarch of Antioch
+
+|- id="Aksum"
+| Aksum
+| [[List of counties#Tigré|Tigré]]
+| Abyssinia
+| Abyssinia
+|
+* {{icon|diplomacy}} {{green|+1}} Diplomacy per Level of Devotion
+|
+* {{iconify|Coptic}}
+| Site of the Church of our Lady Mary of Zion, supposedly the former location of the ark of the covenant
+
+|- id="Napata"
+| Napata
+| [[List of counties#Meroë|Meroë]]
+| Nubia
+| Abyssinia
+|
+* {{icon|stewardship}} {{green|+1}} Stewardship
+|
+* {{iconify|Coptic}}
+| Site of a Nubian Coptic Church
+
+|- id="Dwin"
+| Dwin
+| [[List of counties#Suenik|Suenik]]
+| Armenia
+| Byzantine Empire
+|
+<!-- Transclusion used by Piety page. -->
+* {{icon|piety}} <section begin=DwinPietyGainPct />{{green|+5%}}<section end=DwinPietyGainPct /> Monthly Piety
+* {{icon|learning}} {{green|+1}} Learning
+|
+* {{iconify|Apostolic}}
+| Contains the Cathedral of St. Grigor
+
+|- id="Koloneia"
+| Koloneia
+| [[List of counties#Colonea|Colonea]]
+| Pontus
+| Byzantine Empire
+|
+* {{icon|opinion}} {{green|+5}} Direct Vassal Opinion
+|
+* {{iconify|Apostolic}}
+|
+
+|- id="Beirut"
+| Beirut
+| [[List of counties#Beirut|Beirut]]
+| Syria
+| Arabian Empire
+|
+* {{icon|opinion}} {{green|+5}} Councilor Opinion
+|
+* {{iconify|Apostolic}}
+* {{iconify|Druze}}
+| Druze are concentrated in the mountains around this city. It was briefly under Armenian rule during the time of King Tigranes the Great.
+
+|- id="Baghdad"
+| Baghdad
+| [[List of counties#Baghdad|Baghdad]]
+| Mesopotamia
+| Persian Empire
+|
+* {{icon|development}} {{green|+10%}} Development Growth
+* {{icon|gold}} {{green|−10%}} Temple Building Construction Cost
+|
+*{{iconify|Messalianism}}
+* {{iconify|Nestorianism}}
+* {{iconify|Mandeaism}}
+* {{iconify|Sabianism}}
+* {{iconify|Ash'ari}}
+* {{iconify|Maturidism}}
+* {{iconify|Mu'tazilism}}
+* {{iconify|Quranism}}
+* {{iconify|Imamism}}
+| Patriarchical seat of Nestorianism and seat of the Abbasid Caliph. Home to the Al-Kadhimiya Mosque, which contains the tombs of Imani Imams Musa al-Kadhim and Muhammad al-Jawad.
+
+|- id="Farz"
+| Farz
+| [[List of counties#Shiraz|Shiraz]]
+| Persia
+| Persian Empire
+|
+* {{icon|diplomacy}} {{green|+1}} Diplomacy per Level of Devotion
+|
+*{{iconify|Messalianism}}
+* {{iconify|Nestorianism}}
+* {{iconify|Mandeaism}}
+* {{iconify|Sabianism}}
+|
+
+|- id="Kerala"
+| Kerala
+| [[List of counties#Kanara|Kanara]]
+| Maharastra
+| Deccan Empire
+|
+* {{icon|convert faith}} {{green|+50%}} County Conversion Speed
+|
+* {{iconify|Nestorianism}}
+* {{iconify|Malabarism}}
+| Location of a Christian community established by St. Thomas the Apostle. Location of Synagogues of Kerala.
+
+|- id="Armagh"
+| Armagh
+| [[List of counties#Oriel|Oriel]]
+| Ireland
+| Britannia
+|
+<!-- Transclusion used by Piety page. -->
+* {{icon|piety}} <section begin=ArmaghPietyGainPct />{{green|+5%}}<section end=ArmaghPietyGainPct /> Monthly Piety
+* {{icon|learning}} {{green|+1}} Learning per Level of Devotion
+|
+* {{iconify|Insular Christianity}}
+| Ecclesiastical capital of Ireland
+
+|- id="Iona"
+| Iona
+| [[List of counties#Inner Hebrides|Inner Hebrides]]
+| Scotland
+| Britannia
+|
+* {{icon|convert faith}} {{green|+20%}} County Conversion Speed in the British Isles
+|
+* {{iconify|Insular Christianity}}
+| Monastery of Colmcille, who converted the Picts
+
+|- id="Visoki"
+| Visoki
+| [[List of counties#Rama|Rama]]
+| Croatia
+| Byzantine Empire
+|
+* {{icon|convert faith}} {{green|+50%}} County Conversion Resistance
+|
+* {{iconify|Krstjani}}
+| Town and fortress where many documents were written by nobles
+
+|- id="Ragusa"
+| Ragusa
+| [[List of counties#Ragusa|Ragusa]]
+| Croatia
+| Byzantine Empire
+|
+* {{icon|diplomacy}} {{green|+1}} Diplomacy
+|
+* {{iconify|Krstjani}}
+| Seat of the Archbishop of Ragusa and location of an Eastern Roman church 
+
+|- id="Esztergom"
+| Esztergom
+| [[List of counties#Esztergom|Esztergom]]
+| Hungary
+| Carpathia
+|
+* {{icon|popular opinion}} {{green|+10}} Popular Opinion
+|
+* {{iconify|Krstjani}}
+| Seat of the primate of the Catholic Church in Hungary
+|- id="Albi"
+| Albi
+| [[List of counties#Albi|Albi]]
+| Aquitaine
+| Francia
+|
+<!-- Transclusion used by Piety page. -->
+* {{icon|piety}} <section begin="ArmaghPietyGainPct" />{{green|+5%}}<section end="ArmaghPietyGainPct" /> Monthly Piety
+* {{icon|learning}} {{green|+1}} Learning per Level of Devotion
+|
+* {{iconify|Catharism}}
+|Cathers were also referred to as Albigensians, after the city Albi where the movement first took hold.
+
+|- id="Toledo (Mozarabic)"
+| Toledo
+| [[List of counties#Toledo|Toledo]]
+| Andalusia
+| Hispania
+|
+* {{icon|prowess}} {{green|+1}} Prowess per Level of Devotion
+* {{icon|knight}} {{green|+10%}} Knight Effectiveness
+|
+* {{iconify|Mozarabism}}
+* {{iconify|Adoptionism}}
+| Center of worship for the Mozarabic Church, and the seat of its most important councils
+
+|- id="Carthage (Adoptionist)"
+| Carthage
+| [[List of counties#Tunis|Tunis]]
+| Africa
+| Maghreb
+|
+* {{icon|opinion}} {{green|+10}} Same Faith Opinion
+|
+* {{iconify|Adoptionism}}
+| Center for the early Donatists sect
+
+|- id="Lyon"
+| Lyon
+| [[List of counties#Lyon|Lyon]]
+| Burgundy
+| Francia
+|
+* {{icon|learning}} {{green|+2}} Learning per Level of Devotion
+|
+* {{iconify|Adoptionism}}
+| 
+
+|- id="Mecca"
+| Mecca
+|[[List of counties#Mecca|Mecca]]
+| Arabia
+| Arabian Empire 
+|
+<!-- Transclusion used by Piety page. -->
+*{{icon|piety}} <section begin="MeccaPietyGainPct" />{{green|+2%}}<noinclude> Monthly piety</noinclude> per knight<section end="MeccaPietyGainPct" />
+*{{icon|knight}} {{green|+10%}} Knight Effectiveness
+|{{#lst:Holy sites|AllMuslim}}
+| Birthplace of Muhammed and destination of the Hajj
+
+|- id="Medina"
+| Medina
+| [[List of counties#Medina|Medina]]
+| Arabia
+| Arabian Empire 
+|
+* {{icon|diplomacy}} {{green|+1}} Diplomacy per Level of Devotion
+|
+{{#lst:Holy sites|AllMuslim}}
+| The city that Muhammed and his followers fled to from Mecca
+
+|- id="Cordoba"
+| Cordoba
+| [[List of counties#Cordoba|Cordoba]]
+| Andalusia
+| Hispania
+|
+* {{icon|convert faith}} {{green|+20%}} County Conversion Speed
+|
+* {{iconify|Conversos}}
+* {{iconify|Priscillianism}}
+* {{iconify|Muwalladism}}
+* {{iconify|Mozarabism}}
+| Seat of the Umayyad Caliphate of Córdoba
+
+|- id="Sinai"
+| Sinai
+| [[List of counties#Sinai|Sinai]]
+| Egypt
+| Arabian Empire
+|
+* {{icon|advantage}} {{green|+5}} Advantage in Desert Mountains terrain
+* {{icon|learning}} {{green|+1}} Learning
+|
+* {{iconify|Conversos}}
+* {{iconify|Valentinianism}}
+* {{iconify|Sethianism}}
+* {{iconify|Priscillianism}}
+* {{iconify|Ash'ari}}
+* {{iconify|Mu'tazilism}}
+* {{iconify|Quranism}}
+<section begin=AllJewish />
+* All Jewish faiths: <div class="collapse-template mw-collapsible mw-collapsed">
+** {{iconify|Kabarism}}
+** {{iconify|Haymanot}}
+** {{iconify|Karaism}}
+** {{iconify|Rabbinism}}
+** {{iconify|Samaritanism}}
+** {{iconify|Malabarism}}
+</div><section end=AllJewish />
+* {{iconify|Paganism}}
+| Site where Moses recieved the Ten Commandments
+
+|- id="Tinmallal"
+| Tinmallal
+| [[List of counties#Tinmallal|Tinmallal]]
+| Maghreb
+| Maghreb
+|
+* {{icon|prowess}} {{green|+1}} Prowess per Level of Devotion
+* {{icon|advantage}} {{green|+4}} Maximum Battle Roll
+|
+* {{iconify|Almohadism}}
+| Where the Almohads launch their military campagin against the Almoravids.
+
+|- id="Fes"
+| Fes
+| Subu in [[List of counties#Fes|Fes]]
+| Maghreb
+| Maghreb
+|
+* {{icon|culture}} {{green|+10%}} Cultural Fascination Speed
+|
+* {{iconify|Adamitism}}
+* {{iconify|Muwalladism}}
+* {{iconify|Almohadism}}
+| Renowned for its religious scholarship.
+
+|- id="Nadjaf"
+| Nadjaf
+| [[List of counties#Kufa|Kufa]] (shared with [[#Kufa|holy site of same name]])
+| Mesopotamia
+| Persian Empire
+|
+* {{icon|diplomacy}} {{green|+1}} Diplomacy per Level of Devotion
+|
+* All {{iconify|Shia}} Muslim faiths: <div class="collapse-template mw-collapsible mw-collapsed">
+** {{iconify|Isma'ilism}}
+** {{iconify|Zayidism}}
+** {{iconify|Nizarism}}
+** {{iconify|Imamism}}
+** {{iconify|Hafizi}}
+
+* {{iconify|Qarmatianism}}
+* {{iconify|Ikhtilafism}}
+* {{iconify|Alawism}}
+* {{iconify|Alevism}}
+| Contains Kufa, where Ali ibn Abu Taleb was assassinated, and Nadjaf, where he is buried
+
+|- id="Damascus"
+| Damascus
+| [[List of counties#Damascus|Damascus]]
+| Syria
+| Arabian Empire
+|
+* {{icon|levies}} {{green|+5%}} Levy Size
+* {{icon|control}} {{green|+10%}} County Control Growth
+|
+* All {{iconify|Shia}} Muslim faiths except {{iconify|Imamism}}: <div class="collapse-template mw-collapsible mw-collapsed">
+** {{iconify|Isma'ilism}}
+** {{iconify|Zayidism}}
+** {{iconify|Nizarism}}
+** {{iconify|Hafizi}}
+
+* {{iconify|Mandeaism}}
+* {{iconify|Sabianism}}
+* {{iconify|Qarmatianism}}
+* {{iconify|Ikhtilafism}}
+* {{iconify|Alawism}}
+* {{iconify|Alevism}}
+| Where surivors of the Battle Karbala were brought; home to two shrines to Hussein ibn Ali
+
+|- id="Siffa"
+| Siffa
+| [[List of counties#Palmyra|Palmyra]]
+| Syria
+| Arabian Empire
+|
+* {{icon|prowess}} {{green|+2}} Prowess
+* {{icon|knight}} {{green|+20%}} Knight Effectiveness
+|
+* {{iconify|Azraqism}}
+* {{iconify|Sufrism}}
+| Site of the Battle of Siffa, where the Muhakkimas began by rejecting Mu'awiya offer to arbitrate his dispute with Ali
+
+|- id="Kufa"
+| Kufa
+| [[List of counties#Kufa|Kufa]] (shared with [[#Nadjaf|Nadjaf]])
+| Mesopotamia
+| Persian Empire
+|
+* {{icon|intrigue}} {{green|+1}} Intrigue per Level of Devotion
+|
+* {{iconify|Azraqism}}
+|
+
+|- id="Basra"
+| Basra
+| [[List of counties#Basra|Basra]]
+| Mesopotamia
+| Persian Empire
+|
+* {{icon|learning}} {{green|+2}} Learning
+|
+* {{iconify|Mandeaism}}
+* {{iconify|Sabianism}}
+* {{iconify|Ibadism}}
+| Origin of Ibadi movement. The Mandaeans and one of the groups called Sabians are native to the southern marsh region of Mesopotamia in the vicinity of Basra. 
+
+|- id="Nizwa"
+| Nizwa
+| [[List of counties#Nizwa|Nizwa]]
+| Arabia
+| Arabian Empire
+|
+* {{icon|stewardship}} {{green|+1}} Stewardship per Level of Devotion
+|
+* {{iconify|Ibadism}}
+| Birthplace of Jabir ibn Zayd, the founder of Ibadism
+
+|- id="Sijilmasa"
+| Sijilmasa
+| [[List of counties#Sijilmasa|Sijilmasa]]
+| Maghreb
+| Maghreb
+|
+* {{icon|diplomacy}} {{green|+1}} Diplomacy
+* {{icon|stewardship}} {{green|+1}} Stewardship
+|
+* {{iconify|Valentinianism}}
+* {{iconify|Sethianism}}
+* {{iconify|Sufrism}}
+| Where Sufrite Berbers settled after their revolt against the Umayyads
+
+|- id="Bahrein"
+| Bahrein
+| [[List of counties#Qatif|Qatif]]
+| Arabia
+| Arabian Empire
+|
+* {{icon|stewardship}} {{green|+1}} Stewardship
+|
+* {{iconify|Najdatism}}
+|
+
+|- id="Yamama"
+| Yamama
+| [[List of counties#Yamama|Yamama]]
+| Arabia
+| Arabian Empire
+|
+* {{icon|advantage}} {{green|+5}} Advantage in Desert terrain
+|
+* {{iconify|Najdatism}}
+|
+
+|- id="Sinjar"
+| Sinjar
+| [[List of counties#Sinjar|Sinjar]]
+| Jazira
+| Persian Empire
+|
+* {{icon|diplomacy}} {{green|+1}} Diplomacy per level of devotion
+|
+* All Miletê faiths: <div class="collapse-template mw-collapsible mw-collapsed">
+** {{iconify|Kitêbacilweism}}
+** {{iconify|Meshefaresism}}
+** {{iconify|Yazidism}}
+</div>
+|
+
+|- id="Baalbek"
+| Baalbek
+| [[List of counties#Baalbek|Baalbek]]
+| Syria
+| Arabian Empire
+|
+* {{icon|opinion}} {{green|+10}} Clergy opinion
+* {{icon|prestige}} {{green|+20%}} Monthly prestige
+|
+<section begin=AllMilete />
+* All Miletê faiths: <div class="collapse-template mw-collapsible mw-collapsed">
+** {{iconify|Kitêbacilweism}}
+** {{iconify|Meshefaresism}}
+** {{iconify|Yazidism}}
+</div><section end=AllMilete />
+| Birthplace of Sheikh Adi
+
+|- id="Lalish"
+| Lalish
+| [[List of counties#Ninive|Ninive]]
+| Jazira
+| Persian Empire
+|
+* {{icon|learning}} {{green|+1}} Learning per level of devotion
+* {{icon|prestige}} <section begin=LalishPietyGainPct />{{green|+20%}}<section end=LalishPietyGainPct /> Monthly prestige
+|
+{{#lst:Holy sites|AllMilete}}
+| Tomb of Sheikh Adi
+
+|- id="Nishapur"
+| Nishapur
+| [[List of counties#Nishapur|Nishapur]]
+| Khorasan
+| Persian Empire
+|
+* {{icon|stewardship}} {{green|+1}} Stewardship per Level of Devotion
+|
+{{#lst:Holy sites|AllMilete}}
+* {{iconify|Zunism}}
+|
+
+|- id="Dashtestan"
+| Dashtestan
+| [[List of counties#Mandestan|Mandestan]]
+| Persia
+| Persian Empire
+|
+* {{icon|opinion}} {{green|+5}} Same Faith Opinion
+|
+{{#lst:Holy sites|AllMilete}}
+|
+
+|- id="Zozan"
+| Zozan
+| [[List of counties#Bakharz|Bakharz]]
+| Khorasan
+| Persian Empire
+|
+* {{icon|opinion}} {{green|+5}} Same Faith Opinion
+* {{icon|gold}} {{green|+10%}} Domain Taxes if same faith
+|
+* {{iconify|Druze}}
+| Birthplace of Hamza ibn-'Ali ibn-Ahmad, founder of Druze
+
+|- id="Semien"
+| Semien
+| [[List of counties#Semien|Semien]]
+| Abyssinia
+| Abyssinia
+|
+* {{icon|advantage}} {{green|+5}} Defender Advantage
+* {{icon|diplomacy}} {{green|+1}} Diplomacy
+|
+* {{iconify|Haymanot}}
+* {{iconify|Karaism}}
+* {{iconify|Rabbinism}}
+* {{iconify|Samaritanism}}
+| A legendary Jewish Ethiopian kingdom also known as Beta Israel
+
+|- id="Sufed"
+| Sufed
+| [[List of counties#Acre|Acre]]
+| Jerusalem
+| Arabian Empire
+|
+* {{icon|opinion}} {{green|+10}} Same Faith Opinion
+|
+* {{iconify|Haymanot}}
+* {{iconify|Karaism}}
+* {{iconify|Rabbinism}}
+* {{iconify|Samaritanism}}
+|
+
+|- id="Mount Gerizim"
+| Mount Gerizim
+| Nablus in [[List of counties#Jerusalem|Jerusalem]] (shared with [[#Jerusalem|holy site of same name]])
+| Jerusalem
+| Arabian Empire
+|
+* {{icon|learning}} {{green|+1}} Learning per Level of Devotion
+* {{icon|prestige}} {{green|+20%}} Monthly Prestige
+|
+* {{iconify|Samaritanism}}
+|
+
+|- id="Panticapeum"
+| Panticapaeum
+| [[List of counties#Kerch|Kerch]]
+| Zaporizhia
+| Khazaria
+|
+* {{icon|development}} {{green|+25%}} Development Growth in Steppe Region
+* {{icon|development}} {{green|+15%}} Development Growth in Steppe Terrain
+|
+* {{iconify|Kabarism}}
+| Major Radhanite settlements in and around Crimea
+
+
+|- id="Itil"
+| Itil
+| [[List of counties#Itil|Itil]]
+| Caspian Steppe
+| Khazaria
+|
+* {{icon|opinion}} {{green|+10}} Different Culture Opinion
+* {{green|+15%}} Cultural Acceptance Gain
+|
+* {{iconify|Kabarism}}
+| Capital of the Khazars
+
+
+|- id="Kochi"
+| Kochi
+| Kunjakari in[[List of counties#Kerala|Kerala]]
+| Tamilakam
+| Deccan Empire
+|
+* {{icon|diplomacy}} {{green|+1}} Diplomacy per Level of Devotion
+* {{green|+15%}} Cultural Acceptance Gain
+| 
+*{{Iconify|Malabarism}}
+| Place from which the Kochin Jews get their name
+
+
+|- id="Manipur"
+| Manipur
+| [[List of counties#Manipur|Manipur]]
+| Kamarupa
+| Bengal Empire
+|
+* {{icon|advantage}} {{green|+5}} Advantage in Mountains terrain
+* {{icon|development}} {{green|+20%}} Development Growth in Mountains terrain
+| 
+* {{Iconify|Malabarism}}
+| Home of the Bnei Manashae
+
+
+|- id="Ahvaz"
+| Ahvaz
+| [[List of counties#Ahvaz|Ahvaz]]
+| Persia
+| Persian Empire
+|
+* {{icon|opinion}} {{green|+5}} Clergy Opinion
+* {{green|+10%}} Personal Scheme Power
+|
+* {{iconify|Manicheanism}}
+|
+
+|- id="Samarkand"
+| Samarkand
+| [[List of counties#Samarkand|Samarkand]]
+| Transoxiana
+| Turan
+|
+* {{icon|stewardship}} {{green|+1}} Stewardship per Level of Devotion
+|
+* {{iconify|Manicheanism}}
+* {{iconify|Maturidism}}
+* {{iconify|Kabarism}}
+|
+
+|- id="Udabhanda"
+| Udabhanda
+| [[List of counties#Udabhanda|Udabhanda]]
+| Punjab
+| Rajastan
+|
+* {{icon|learning}} {{green|+1}} Learning per Level of Devotion
+|
+* {{iconify|Manicheanism}}
+<section begin=AllTaoist />
+* All Taoist faiths: <div class="collapse-template mw-collapsible mw-collapsed">
+** {{iconify|Quanzhen}}
+** {{iconify|Shangqing}}
+** {{iconify|Zhengyi}}
+</div><section end=AllTaoist />
+| Seems to be the place where the famous Taoist Qiu Chuji meet Genghis Khan
+
+|- id="Toledo"
+| Toledo
+| [[List of counties#Toledo|Toledo]]
+| Andalusia
+| Hispania
+|
+* {{icon|learning}} {{green|+1}} Learning
+|
+* {{iconify|Priscillianism}}
+|
+
+|- id="Memphis"
+| Memphis
+| Hulwan in [[List of counties#Cairo|Cairo]]
+| Egypt
+| Arabian Empire
+|
+* {{icon|stewardship}} {{green|+1}} Stewardship per Level of Devotion
+|
+* {{iconify|Priscillianism}}
+* {{iconify|Zunism}}
+|
+
+|- id="Bodh Gaya"
+| Bodh Gaya
+| [[List of counties#Gaya|Gaya]]
+| Bihar
+| Bengal Empire
+|
+* {{icon|stress loss}} {{green|+20%}} Stress Loss
+|
+<section begin=AllBuddhist />
+* All Buddhist faiths: <div class="collapse-template mw-collapsible mw-collapsed">
+** {{iconify|Nangchos}}
+** {{iconify|Vajrayana}}
+** {{iconify|Theravada}}
+** {{iconify|Mahayana}}
+** {{iconify|Ari}}
+</div><section end=AllBuddhist />
+{{#lst:Holy sites|AllTaoist}}
+| The place where Gautama Buddha reached enlightenment under a Bodhi Tree. Some Taoist stories say that Laozi was the Buddha's teacher or even the Buddha himself.
+
+|- id="Lumbini"
+| Lumbini
+| [[List of counties#Lumbini|Lumbini]]
+| Himalaya
+| Rajastan
+|
+* {{icon|fertility}} {{green|+10%}} Fertility
+* {{green|+15%}} Monthly Lifestyle Experience
+|
+{{#lst:Holy sites|AllBuddhist}}
+| Birthplace of Siddhartha Gautama, historical Buddha
+
+|- id="Sarnath"
+| Sarnath
+| [[List of counties#Varanasi|Varanasi]] (shared with [[#Varanasi|holy site of same name]])
+| Bihar
+| Bengal Empire
+|
+* {{icon|learning}} {{green|+2}} Learning
+|
+* All Buddhist faiths except {{iconify|Nangchos}}: <div class="collapse-template mw-collapsible mw-collapsed">
+** {{iconify|Vajrayana}}
+** {{iconify|Theravada}}
+** {{iconify|Mahayana}}
+** {{iconify|Ari}}
+| First place Buddha taught Dharma and subsequently origin of Buddhist Sangha
+
+|- id="Sanchi"
+| Sanchi
+| [[List of counties#Vidisa|Vidisa]]
+| Malwa
+| Rajastan
+|
+* {{icon|diplomacy}} {{green|+1}} Diplomacy per Level of Devotion
+|
+* {{iconify|Mahayana}}
+* {{iconify|Vajrayana}}
+| An ancient Buddhist complex commissioned by Ashshoka the Great.
+
+|- id="Ajanta"
+| Ajanta
+| [[List of counties#Vatsagulma|Vatsagulma]] (shared with [[#Ellora|Ellora]])
+| Maharastra
+| Deccan Empire
+|
+* {{icon|learning}} {{green|+1}} Learning per Level of Devotion
+* {{green|+2}} Disease Resistance (Learning)
+|
+* {{iconify|Vajrayana}}
+| Location of the Buddhist Caves in Ajanta
+
+|- id="Sa'gya"
+| Sa'gya
+| [[List of counties#Sa'gya|Sa'gya]]
+| Tsang
+| Tibet
+|
+* {{icon|diplomacy}} {{green|+1}} Diplomacy
+* {{icon|learning}} {{green|+1}} Learning
+|
+* {{iconify|Nangchos}}
+|
+
+|- id="Dagon"
+| Dagon
+| [[List of counties#Dagon|Dagon]]
+| Pagan
+| Bengal Empire
+|
+* {{icon|martial}} {{green|+1}} Martial per Level of Devotion
+|
+* {{iconify|Theravada}}
+* {{iconify|Ari}}
+| Home to the Shwedago Pagoda, which contains relics from four Buddhas.
+
+|- id="Pagan"
+| Pagan
+| [[List of counties#Pagan|Pagan]]
+| Pagan
+| Bengal Empire
+|
+* {{icon|stewardship}} {{green|+1}} Stewardship
+* {{icon|prestige}} {{green|+5%}} Monthly Prestige
+|
+* {{iconify|Ari}}
+| Capital of the Pagan Kingdom; the location was visited by the Buddha prior to the city's founding
+
+|- id="Atamasthana"
+| Atamasthana
+| [[List of counties#Pihiti|Pihiti]]
+| Lanka
+| Deccan Empire
+|
+* {{icon|gold}} {{green|+2%}} Domain Taxes
+|
+* {{iconify|Theravada}}
+| A series of eight locations visited by the Buddha durings his visits to Sri Lanka.
+
+|- id="Amaravati"
+| Amaravati
+| [[List of counties#Nallamala|Nallamala]]
+| Andhra
+| Deccan Empire
+|
+* {{icon|control}} {{green|+10%}} County Control Growth
+|
+* {{iconify|Mahayana}}
+| Site of a Buddhist monument. 
+
+|- id="Varanasi"
+| Varanasi
+| [[List of counties#Varanasi|Varanasi]] (shared with [[#Sarnath|Sarnath]])
+| Bihar
+| Bengal Empire
+|
+* {{icon|learning}} {{green|+2}} Learning
+* {{icon|opinion}} {{green|+5}} Clergy Opinion
+|
+<section begin=AllHindu />
+* All Hindu faiths: <div class="collapse-template mw-collapsible mw-collapsed">
+** {{iconify|Shaivism}}
+** {{iconify|Vaishnavism}}
+** {{iconify|Krishnaism}}
+** {{iconify|Smartism}}
+** {{iconify|Advaita Vedanta}}
+** {{iconify|Srikula Shaktism}}
+** {{iconify|Kalikula Shaktism}}
+</div><section end=AllHindu />
+<section begin=AllMundhum />
+<!-- Both Mundhum faiths -->
+* {{iconify|Kiratism}}
+* {{iconify|Yumaism}}<section end=AllMundhum />
+| One of the Saptapuri cities, founded by Shiva and where one of Brahma's heads was dropped to the ground where it sank into
+
+|- id="Ayodhya"
+| Ayodhya
+| [[List of counties#Ayodhya|Ayodhya]]
+| Kosala
+| Rajastan
+|
+<!-- Transclusion used by Piety page. -->
+* {{icon|piety}} <section begin=AyodhyaPietyGainPct />{{green|+1%}}<noinclude> Monthly piety</noinclude> per knight<section end=AyodhyaPietyGainPct />
+* {{icon|knight}} {{green|+10%}} Knight Effectiveness
+|
+{{#lst:Holy sites|AllHindu}}
+| One of the Saptapuri cities and the birthplace of Rama, seventh avatar of Vishnu
+
+|- id="Mathura"
+| Mathura
+| [[List of counties#Mathura|Mathura]]
+| Delhi
+| Rajastan
+|
+* {{icon|diplomacy}} {{green|+1}} Diplomacy
+* {{icon|opinion}} {{green|+5}} Powerful Vassal Opinion
+|
+{{#lst:Holy sites|AllHindu}}
+| One of the Saptapuri cities and birthplace of Krishna
+
+|- id="Haridwar"
+| Haridwar
+| [[List of counties#Sthanisvara|Sthanisvara]]
+| Delhi
+| Rajastan
+|
+* {{icon|health boost}} {{green|+0.1}} Health
+|
+{{#lst:Holy sites|AllHindu}}
+* {{iconify|Paganism}}
+| One of the Saptapuri cities and site where drops of Amrit, the elixir of immortality was spilt
+
+|- id="Kanchipuram"
+| Kanchipuram
+| [[List of counties#Kanchipuram|Kanchipuram]]
+| Tamilakam
+| Deccan Empire
+|
+* {{icon|fertility}} {{green|+15%}} Fertility
+|
+{{#lst:Holy sites|AllHindu}}
+| One of the Saptapuri cities and site of many temples
+
+|- id="Ujjayini"
+| Ujjayini
+| [[List of counties#Ujjayini|Ujjayini]]
+| Malwa
+| Rajastan
+|
+* {{icon|stewardship}} {{green|+1}} Stewardship
+* {{icon|opinion}} {{green|+5}} Court and Guest Opinion
+|
+{{#lst:Holy sites|AllHindu}}
+| One of the Saptapuri cities and location of the duodecennial Kumbh Mela festival
+
+|- id="Dwarka"
+| Dwarka
+| [[List of counties#Dvaraka|Dvaraka]]
+| Gujarat
+| Rajastan
+|
+* {{icon|martial}} {{green|+1}} Martial
+* {{icon|death}} {{green|−10%}} Friendly Fatal Casualties
+|
+{{#lst:Holy sites|AllHindu}}
+| One of the Saptapuri cities and the site of where Krishna settled after defeating Kansa
+
+|- id="Palitana"
+| Palitana
+| [[List of counties#Somnath|Somnath]]
+| Gujarat
+| Rajastan
+|
+<!-- Transclusion used by Piety page. -->
+* {{icon|piety}} <section begin=PalitanaPietyGainPct />{{green|+10%}}<section end=PalitanaPietyGainPct /> Monthly Piety
+|
+<section begin=AllJain />
+* All Jain faiths: <div class="collapse-template mw-collapsible mw-collapsed">
+** {{iconify|Digambara}}
+** {{iconify|Svetambara}}
+** {{iconify|Yapaniya}}
+</div><section end=AllJain />
+| Contains nearly 1,000 Jain temples
+
+|- id="Shikharj"
+| Shikharj
+| [[List of counties#Radha|Radha]]
+| Bengal
+| Bengal Empire
+|
+* {{icon|stress loss}} {{green|+20%}} Stress Loss
+* {{green|+1}} Year Life Expectancy
+|
+{{#lst:Holy sites|AllJain}}
+| Place where 22 out of the 24 Jain Tirthankaras atttained Moksha.
+
+|- id="Ranakpur"
+| Ranakpur
+| [[List of counties#Naddūla|Naddūla]]
+| Rajputana
+| Rajastan
+|
+* {{icon|stewardship}} {{green|+1}} Stewardship
+* {{green|+20%}} Sway Scheme Power
+|
+{{#lst:Holy sites|AllJain}}
+| One of the largest and most important Jain temples
+
+|- id="Ellora"
+| Ellora
+| [[List of counties#Vatsagulma|Vatsagulma]] (shared with [[#Ajanta|Ajanta]])
+| Maharastra
+| Deccan Empire
+|
+* {{icon|popular opinion}} {{green|+5}} Popular Opinion
+* {{icon|opinion}} {{green|+5}} Different Culture Opinion
+|
+{{#lst:Holy sites|AllJain}}
+| Site of the Ellora Caves, five of which are Jain.
+
+|- id="Sittannavasal"
+| Sittannavasal
+| [[List of counties#Kongu|Kongu]]
+| Tamilakam
+| Deccan Empire
+|
+* {{icon|opinion}} {{green|+5}} Direct Vassal Opinion
+|
+{{#lst:Holy sites|AllJain}}
+| A Jain cave complex
+
+|- id="Itanagar"
+| Itanagar
+| [[List of counties#Itanagar|Itanagar]]
+| Lhomon
+| Tibet
+|
+* {{icon|prestige}} {{green|+10%}} Monthly Prestige
+|
+<section begin=AllTani />
+<!-- Both Tani faiths -->
+* {{iconify|Donyi-Poloism}}
+* {{iconify|Sedism}}<section end=AllTani />
+|
+
+|- id="Pemako"
+| Pemako
+| [[List of counties#Pemako|Pemako]]
+| Lhomon
+| Tibet
+|
+* {{icon|learning}} {{green|+1}} Learning
+* {{icon|opinion}} {{green|−20%}} Tyranny Gain
+|
+{{#lst:Holy sites|AllTani}}
+|
+
+|- id="Rima"
+| Rima
+| [[List of counties#Rima|Rima]]
+| Lhomon
+| Tibet
+|
+* {{icon|diplomacy}} {{green|+1}} Diplomacy per Level of Fame
+|
+{{#lst:Holy sites|AllTani}}
+|
+
+|- id="Tezu"
+| Tezu
+| [[List of counties#Tezu|Tezu]]
+| Lhomon
+| Tibet
+|
+* {{icon|advantage}} {{green|+5}} Advantage in Hills terrain
+|
+{{#lst:Holy sites|AllTani}}
+|
+
+|- id="Kathmandu"
+| Kathmandu
+| [[List of counties#Kathmandu|Kathmandu]]
+| Himalaya
+| Rajastan
+|
+* {{icon|popular opinion}} {{green|+5}} Popular Opinion
+* {{icon|opinion}} {{green|+5}} Different Faith Opinion
+|
+{{#lst:Holy sites|AllMundhum}}
+|
+
+|- id="Ilam"
+| Ilam
+| [[List of counties#Ilam|Ilam]]
+| Himalaya
+| Rajastan
+|
+* {{icon|advantage}} {{green|+5}} Advantage in Mountains terrain
+|
+{{#lst:Holy sites|AllTani}}
+{{#lst:Holy sites|AllMundhum}}
+|
+
+|- id="Garwhal"
+| Garwhal
+| [[List of counties#Garwhal|Garwhal]]
+| Himalaya
+| Rajastan
+|
+* {{icon|diplomacy}} {{green|+1}} Diplomacy per Level of Devotion
+|
+{{#lst:Holy sites|AllMundhum}}
+|
+
+|- id="Jumla"
+| Jumla
+| [[List of counties#Jumla|Jumla]]
+| Himalaya
+| Rajastan
+|
+* {{icon|opinion}} {{green|+5}} House Opinion
+|
+{{#lst:Holy sites|AllMundhum}}
+|
+
+|- id="Maowün"
+| Maowün
+| [[List of counties#Maowün|Maowün]]
+| Gyalrong
+| Tibet
+|
+<!-- Transclusion used by Piety page. -->
+* {{icon|piety}} <section begin=MaowunPietyGainPct />{{green|+1%}}<noinclude> Monthly piety</noinclude> per knight<section end=MaowunPietyGainPct />
+|
+* {{iconify|Vvluphixje}}
+|
+
+|- id="Ngawa"
+| Ngawa
+| [[List of counties#Ngawa|Ngawa]]
+| Gyalrong
+| Tibet
+|
+* {{icon|learning}} {{green|+1}} Learning per Level of Devotion
+|
+<section begin=AllHsexje />
+<!-- Both Hsexje faiths -->
+* {{iconify|Vvluphixje}}
+* {{iconify|Melie}}<section end=AllHsexje />
+|
+
+|- id="Chakla"
+| Chakla
+| [[List of counties#Chakla|Chakla]]
+| Gyalrong
+| Tibet
+|
+* {{icon|time}} {{green|−15%}} Building Construction Time
+|
+* {{iconify|Vvluphixje}}
+|
+
+|- id="Gyaitang"
+| Gyaitang
+| [[List of counties#Gyaitang|Gyaitang]]
+| Kham
+| Tibet
+|
+* {{icon|opinion}} {{green|+5}} Same Culture Opinion
+|
+* {{iconify|Vvluphixje}}
+|
+
+|- id="Rebgong"
+| Rebgong
+| [[List of counties#Rebgong|Rebgong]]
+| Gyalrong
+| Tibet
+|
+<!-- Transclusion used by Piety page. -->
+* {{icon|piety}} <section begin=RebgongPietyGainPct />{{green|+2%}}<noinclude> Monthly piety</noinclude> per powerful vassal on the council<section end=RebgongPietyGainPct />
+|
+{{#lst:Holy sites|AllHsexje}}
+|
+
+|- id="Xingqing"
+| Xingqing
+| [[List of counties#Xingqing|Xingqing]]
+| [[List of kingdoms#Xia|Xia]]
+| Tibet
+|
+* {{icon|opinion}} {{green|+5}} Same Faith Opinion
+|
+* {{iconify|Melie}}
+|
+
+|- id="Yijinai"
+| Yijinai
+| [[List of counties#Yijinai|Yijinai]]
+| [[List of kingdoms#Xia|Xia]]
+| Tibet
+|
+* {{icon|gold}} {{green|−5%}} Building Construction Gold Cost
+|
+* {{iconify|Manicheanism}}
+* {{iconify|Melie}}
+|
+
+|- id="Alxa"
+| Alxa
+| [[List of counties#Alxa|Alxa]]
+| [[List of kingdoms#Xia|Xia]]
+| Tibet
+|
+* {{icon|stewardship}} {{green|+1}} Stewardship
+|
+* {{iconify|Melie}}
+|
+
+|- id="Yazd"
+| Yazd
+| [[List of counties#Yazd|Yazd]]
+| Persia
+| Persian Empire
+|
+* {{icon|opinion}} {{green|+5}} Same Faith Opinion
+|
+* {{iconify|Cainitism}}
+<section begin=AllZoroastrian />
+* All Zoroastrian faiths: <div class="collapse-template mw-collapsible mw-collapsed">
+** {{iconify|Mazdayasna}}
+** {{iconify|Zurvanism}}
+** {{iconify|Gayomarthianism}}
+** {{iconify|Khurmazdism}}
+** {{iconify|Khurramism}}
+** {{iconify|Arewordik}}
+** {{iconify|Mazdakism}}
+</div><section end=AllZoroastrian />
+| Home to many Zoroastrian refugees after the Arab conquest of Iran which stayed majority Zoroastrian for many centuries
+
+|- id="Nok Kundi"
+| Nok Kundi
+| [[List of counties#Riqan|Riqan]]
+| Makran
+| Persian Empire
+|
+* {{icon|gold}} {{green|−10%}} Building Construction Gold Cost
+* {{icon|stewardship}} {{green|+1}} Stewardship
+|
+* {{iconify|Cainitism}}
+{{#lst:Holy sites|AllZoroastrian}}
+| Formerly Zaranka, capital of the Zarangiana satrapy under the Achaemenids
+
+|- id="Takht-i-Sangin"
+| Takht-i-Sangin
+| [[List of counties#Balkh|Balkh]] (shared with [[#Balkh|holy site of same name]])
+| Khorasan
+| Persian Empire
+|
+* {{icon|diplomacy}} {{green|+1}} Diplomacy
+* {{icon|opinion}} {{green|+5}} Clergy Opinion
+|
+* {{iconify|Cainitism}}
+{{#lst:Holy sites|AllZoroastrian}}
+| An ancient Greco-Bactrian citadel containing the Oxus Temple, which may have been home to a collection of Zoroastrian relics
+
+|- id="Takht-e Soleyman"
+| Takht-e Soleyman
+| [[List of counties#Urmiya|Urmiya]]
+| Daylam
+| Persian Empire
+|
+<!-- Transclusion used by Piety page. -->
+* {{icon|piety}} <section begin=TakhtESoleymanPietyGainPct />{{green|+10%}}<section end=TakhtESoleymanPietyGainPct /> Monthly Piety
+|
+* {{iconify|Cainitism}}
+{{#lst:Holy sites|AllZoroastrian}}
+| Site to the Adur Gushnasp darb-e mehr built by the Sassanids
+
+|- id="Ushi-Darena"
+| Ushi-Darena
+| [[List of counties#Baduspan|Baduspan]]
+| Daylam
+| Persian Empire
+|
+* {{icon|learning}} {{green|+1}} Learning
+* {{icon|popular opinion}} {{green|+5}} Popular Opinion
+|
+* {{iconify|Cainitism}}
+{{#lst:Holy sites|AllZoroastrian}}
+| The mountain where Zarathustra attained illumination and received the word of Ahura-Mazda
+
+|- id="Uppsala"
+| Uppsala
+| [[List of counties#Upland|Upland]]
+| Sweden
+| Scandinavia
+|
+<!-- Transclusion used by Piety page. -->
+* {{icon|piety}} <section begin=UppsalaPietyGainPct />{{green|+1%}}<noinclude> Monthly piety</noinclude> per knight<section end=UppsalaPietyGainPct />
+* {{icon|damage}} {{green|+5%}} Heavy Infantry Damage
+|
+* {{iconify|Ásatrú}}
+| Site of Scandinavia's pre-eminent temple, both before & after Christianisation
+
+|- id="Jorvik"
+| Jorvik
+| [[List of counties#North Riding|North Riding]]
+| England
+| Britannia
+|
+* {{icon|knight}} {{green|+20%}} Knight Effectiveness
+* {{icon|prowess}} {{green|+1}} Prowess per Level of Devotion
+|
+* {{iconify|Ásatrú}}
+| Site of Ragnarr Loðbrok's death
+
+|- id="Paderborn"
+| Paderborn
+| [[List of counties#Paderborn|Paderborn]]
+| Germany
+| Germania
+|
+* {{icon|stewardship}} {{green|+1}} Stewardship per Level of Devotion
+* {{icon|fertility}} {{green|+10%}} Fertility
+|
+* {{iconify|Ásatrú}}
+* {{iconify|Paganism}}
+| Location of Saxon Irminsul destroyed by Charlemagne
+
+|- id="Kyiv"
+| Könugarðr
+| [[List of counties#Kyiv|Kyiv]]
+| Ruthenia
+| Russia
+|
+* {{icon|prowess}} {{green|+1}} Prowess per Level of Devotion
+|
+* {{iconify|Ásatrú}}
+| Center of Norse influence in Eastern Europe and capital of the Rus'
+
+|- id="Ranaheim"
+| Ranaheim
+| [[List of counties#Trændheim|Trændheim]]
+| Norway
+| Scandinavia
+|
+* {{green|+20%}} Naval Speed
+* {{icon|gold}} {{green|−5%}} Men-at-Arms Maintenance
+|
+* {{iconify|Ásatrú}}
+| Ranheim was site to a cultist Norse temple used from the 4th to 10th century
+
+|- id="Raivola"
+| Raivola
+| [[List of counties#Kakisalmi|Kakisalmi]]
+| Finland
+| Scandinavia
+|
+<!-- Transclusion used by Piety page. -->
+* {{icon|piety}} <section begin=RaivolaPietyGainPct />{{green|+2%}}<noinclude> Monthly piety</noinclude> per powerful vassal on the council<section end=RaivolaPietyGainPct />
+|
+* {{iconify|Ukonusko}}
+| Island home to ancient burial sites
+
+|- id="Hiiumaa"
+| Hiiumaa
+| [[List of counties#Osel|Osel]]
+| Estonia
+| Baltic Empire
+|
+* {{icon|stewardship}} {{green|+1}} Stewardship
+* {{icon|opinion}} {{green|+5}} Close Family Opinion
+|
+* {{iconify|Ukonusko}}
+* {{iconify|Vidilism}}
+* {{iconify|Paganism}}
+|
+
+|- id="Akkel"
+| Akkel
+| [[List of counties#Akkel|Akkel]]
+| Sapmi
+| Scandinavia
+|
+* {{icon|advantage}} {{green|+5}} Maximum Combat Roll in Taiga Terrain
+* {{icon|toughness}} {{green|+10%}} Archer Toughness
+|
+* {{iconify|Ukonusko}}
+|Possibly the site of Ukonkivi (English: 'Ukko's rock') an island holy site to Finnic pagans who believed the island had sacred natural formation
+
+|- id="Perm"
+| Perm
+| [[List of counties#Perm|Perm]]
+| Permia
+| Volga-Ural
+|
+* {{icon|supply}} {{green|+25%}} Supply Duration
+* {{icon|prowess}} {{green|+1}} Prowess
+|
+* {{iconify|Ukonusko}}
+* {{iconify|Turumism}}
+| Capital of Permia
+
+|- id="Kyiv"
+| Kyiv
+| [[List of counties#Kyiv|Kyiv]]
+| Ruthenia
+| Russia
+|
+<!-- Transclusion used by Piety page. -->
+* {{icon|piety}} <section begin=KievPietyGainPct />{{green|+10%}}<section end=KievPietyGainPct /> Monthly Piety
+* {{icon|knight}} {{green|+20%}} Knight Effectiveness
+|
+* {{iconify|Slovianska Pravda}}
+| Important city for ancient and medieval East Slavic culture and civilization
+
+|- id="Novgorod"
+| Novgorod
+| [[List of counties#Novgorod|Novgorod]]
+| Novgorod
+| Russia
+|
+* {{icon|stewardship}} {{green|+1}} Stewardship per Level of Devotion
+|
+* {{iconify|Slovianska Pravda}}
+| Capital of the principality of Novgorod
+
+|- id="Barlad"
+| Barlad
+| [[List of counties#Barlad|Barlad]]
+| Moldavia
+| Carpathia
+|
+* {{icon|prowess}} {{green|+1}} Prowess
+* {{icon|toughness}} {{green|+10%}} Heavy Infantry Toughness
+|
+* {{iconify|Slovianska Pravda}}
+|
+
+|- id="Plock"
+| Plock
+| [[List of counties#Plock|Plock]]
+| Poland
+| West-Slavia
+|
+* {{icon|opinion}} {{green|+5}} Same Faith Opinion
+|
+* {{iconify|Slovianska Pravda}}
+|
+
+|- id="Pokaini"
+| Pokaini
+| Dobele in [[List of counties#Zemigalians|Zemigalians]]
+| Lithuania
+| Baltic Empire
+|
+* {{icon|advantage}} {{green|+5}} Advantage in Controlled Territory
+* {{icon|stress loss}} {{green|+10%}} Stress Loss
+|
+* {{iconify|Vidilism}}
+|
+
+|- id="Toruń"
+| Toruń
+| [[List of counties#Chełmno|Chełmno]]
+| Lithuania
+| Baltic Empire
+|
+* {{icon|martial}} {{green|+1}} Martial per Level of Devotion
+* {{icon|knight}} {{green|+20%}} Knight Effectiveness
+|
+* {{iconify|Ukonusko}}
+* {{iconify|Vidilism}}
+|
+
+|- id="Braslau"
+| Braslau
+| [[List of counties#Braslau|Braslau]]
+| Lithuania
+| Baltic Empire
+|
+<!-- Used in Piety page -->
+* {{icon|piety}} <section begin=BraslauPietyGain />{{green|+0.1}}<noinclude> Monthly Piety</noinclude> per knight<section end=BraslauPietyGain />
+* {{icon|toughness}} {{green|+10%}} Skirmisher Toughness
+|
+* {{iconify|Vidilism}}
+|
+
+|- id="Rügen"
+| Rügen
+| [[List of counties#Rügen|Rügen]]
+| Pomerania
+| Baltic Empire
+|
+* {{icon|gold}} {{green|−25%}} Embarkation Cost
+* {{icon|screen}} {{green|−10%}} Retreat Losses
+|
+* {{iconify|Vidilism}}
+* {{iconify|Slovianska Pravda}}
+| A site of pagan cult all the way until mid-12th century
+
+|- id="Pest"
+| Pest
+| [[List of counties#Visegrad|Visegrad]]
+| Hungary
+| Carpathia
+|
+* {{icon|martial}} {{green|+1}} Martial
+* {{icon|prowess}} {{green|+1}} Prowess per Level of Fame
+|
+* {{iconify|Táltosism}}
+|
+
+|- id="Kerch"
+| Kerch
+| [[List of counties#Kerch|Kerch]]
+| Zaporizhia
+| Khazaria
+|
+* {{icon|gold}} {{green|−5%}} Army Maintenance Cost
+* {{icon|martial}} {{green|+1}} Martial per Level of Fame
+|
+* {{iconify|Táltosism}}
+* {{iconify|Tengriism}}
+| The target of many steppe empires, including the Göktürks, Khazars, and Mongols.
+
+|- id="Olvia"
+| Olvia
+| Olbia in [[List of counties#Odessa|Odessa]]
+| Zaporizhia
+| Khazaria
+|
+<!-- Transclusion used by Piety page. -->
+* {{icon|piety}} <section begin=OlviaPietyGainPct />{{green|+10%}}<section end=OlviaPietyGainPct /> Monthly Piety
+|
+* {{iconify|Táltosism}}
+|
+
+|- id="Poszony"
+| Poszony
+| [[List of counties#Poszony|Poszony]]
+| Hungary
+| Carpathia
+|
+* {{icon|levies}} {{green|+20%}} Levy Reinforcement Rate if same faith
+|
+* {{iconify|Táltosism}}
+|
+
+|- id="Sarysyn"
+| Sarysyn
+| [[List of counties#Sarysyn|Sarysyn]]
+| Zaporizhia
+| Khazaria
+|
+* {{icon|gold}} {{green|−10%}} Men-at-Arms Maintenance Cost
+|
+* {{iconify|Táltosism}}
+|
+
+|- id="Tyumen"
+| Tyumen
+| [[List of counties#Tyumen|Tyumen]]
+| Yugra
+| Siberia
+|
+* {{icon|martial}} {{green|+1}} Martial per Level of Devotion
+* {{icon|time}} {{green|+10%}} Raid Speed
+|
+* {{iconify|Turumism}}
+|
+
+|- id="Surgut"
+| Surgut
+| [[List of counties#Kazym|Kazym]]
+| Yugra
+| Siberia
+|
+* {{icon|health boost}} {{green|+0.1}} Health
+|
+* {{iconify|Turumism}}
+|
+
+|- id="Ob"
+| Ob
+| [[List of counties#Ob|Ob]]
+| Ob
+| Siberia
+|
+* {{icon|learning}} {{green|+1}} Learning
+* {{icon|Fertility}} {{green|+10%}} Fertility
+|
+* {{iconify|Turumism}}
+|
+
+|- id="Olkhon"
+| Olkhon
+| [[List of counties#Olkhon|Olkhon]]
+| Buryatia
+| Mongolia
+|
+* {{icon|piety}} {{green|+10%}} Monthly Piety Gain
+|
+* {{iconify|Turumism}}
+|
+
+|- id="Viscaya"
+| Viscaya
+| [[List of counties#Viscaya|Viscaya]]
+| Navarra
+| Hispania
+|
+* {{icon|advantage}} {{green|+8}} Coastal Advantage
+|
+* {{iconify|Era Zaharrak}}
+| One of the largest centers on Basque Country
+
+|- id="Aneto"
+| Aneto
+| [[List of counties#Alto Aragon|Alto Aragon]]
+| Aragon
+| Hispania
+|
+* {{icon|prestige}} {{green|+0.03}} Prestige per Knight
+|
+* {{iconify|Era Zaharrak}}
+| Highest mountain in the Pyrenees
+
+|- id="Bordeaux"
+| Bordeaux
+| [[List of counties#Bordeaux|Bordeaux]]
+| Aquitaine
+| Francia
+|
+* {{icon|control}} {{green|+0.5}} Monthly Control in Counties
+|
+* {{iconify|Era Zaharrak}}
+| 
+
+|- id="Karakorum"
+| Karakorum
+| [[List of counties#Karakorum|Karakorum]]
+| Mongolia
+| Mongolia
+|
+* {{icon|knight}} {{green|+20%}} Knight Effectiveness
+* {{icon|prowess}} {{green|+1}} Prowess per Level of Fame
+|
+* {{iconify|Tengriism}}
+| Capital of the Mongol Empire between 1235 and 1260. 
+
+|- id="Qayaliq"
+| Qayaliq
+| [[List of counties#Qayaliq|Qayaliq]]
+| Zhetysu
+| Tartaria
+|
+* {{icon|damage}} {{green|+10%}} Skirmisher Damage
+* {{icon|damage}} {{green|+10%}} Light Cavalry Damage
+|
+* {{iconify|Tengriism}}
+|
+
+|- id="Tavan Bogd"
+| Tavan Bogd
+| [[List of counties#Tavan Bogd|Tavan Bogd]]
+| Ob
+| Siberia
+|
+* {{icon|prowess}} {{green|+1}} Prowess per Level of Devotion
+* {{icon|opinion}} {{green|+5}} Clergy Opinion
+|
+* {{iconify|Tengriism}}
+|
+
+|- id="Preslav"
+| Preslav
+| [[List of counties#Silistra|Silistra]]
+| Bulgaria
+| Byzantine Empire
+|
+* {{icon|levies}} {{green|+10%}} Levy Size
+|
+* {{iconify|Tengriism}}
+| Capital of the First Bulgarian Empire.
+
+|- id="Athens"
+| Athens
+| [[List of counties#Attica|Attica]]
+| Hellas
+| Byzantine Empire
+|
+* {{icon|stewardship}} {{green|+1}} Stewardship
+* {{icon|diplomacy}} {{green|+1}} Diplomacy
+|
+* {{iconify|Hellenism}}
+| Major Hellenic city-state and patron city of Athena
+
+|- id="Olympus"
+| Mount Olympus
+| Servia in [[List of counties#Thessalia|Thessalia]]
+| Thessalonika
+| Byzantine Empire
+|
+* {{icon|learning}} {{green|+2}} Learning
+|
+* {{iconify|Hellenism}}
+| Sacred mountain associated with the Olympic pantheon
+
+|- id="Carthage"
+| Carthage
+| [[List of counties#Tunis|Tunis]]
+| Africa
+| Maghreb
+|
+* {{icon|dread}} {{green|+5}} Natural Dread
+|
+* {{iconify|Adamitism}}
+* {{iconify|Hellenism}}
+* {{iconify|Achamanism}}
+| Phoenician colony turning trading empire, later rebuilt as capital of Roman Tunis
+
+|- id="Kabul"
+| Kabul
+| [[List of counties#Kabul|Kabul]]
+| Kabulistan
+| Persian Empire
+|
+* {{icon|stewardship}} {{green|+1}} Stewardship
+<!-- Transclusion used by Piety page. -->
+* {{icon|piety}} <section begin=KabulPietyGainPct />{{green|+5%}}<section end=KabulPietyGainPct /> Monthly Piety
+|
+* {{iconify|Zunism}}
+|
+
+|- id="Multan"
+| Multan
+| [[List of counties#Multan|Multan]]
+| Punjab
+| Rajastan
+|
+* {{icon|martial}} {{green|+1}} Martial
+<!-- Transclusion used by Piety page. -->
+* {{icon|piety}} <section begin=MultanPietyGainPct />{{green|+5%}}<section end=MultanPietyGainPct /> Monthly Piety
+|
+* {{iconify|Zunism}}
+|
+
+|- id="Bost"
+| Bost
+| [[List of counties#Bost|Bost]]
+| Makran
+| Persian Empire
+|
+* {{icon|opinion}} {{green|+5}} Same Faith Opinion
+|
+* {{iconify|Zunism}}
+|
+
+|- id="Khotan"
+| Khotan
+| [[List of counties#Khotan|Khotan]]
+| Khotan
+| Turan
+|
+* {{icon|opinion}} {{green|+10}} Different Culture Opinion
+|
+* {{iconify|Manicheanism}}
+<section begin="AllTibetan" />
+<!-- Both Tibetan faiths -->
+* {{iconify|Gyur Bön}}
+* {{iconify|Khyarwé Bön}}
+<section end=AllTibetan />
+* {{iconify|Zhengyi}}
+* {{iconify|Paganism}}
+| Location of the Kunlun Goddess, the highest mountain of the Kunlun Range. Khotan is also the main source of the nephrite jade used in ancient China.
+
+|- id="Balkh"
+| Balkh
+| [[List of counties#Balkh|Balkh]] (shared with [[#Takht-i-Sangin|Takht-i-Sangin]])
+| Khorasan
+| Persian Empire
+|
+* {{icon|opinion}} {{green|+10}} Different Faith Opinion
+|
+{{#lst:Holy sites|AllTibetan}}
+| Site of the earliest known Fire Temple.
+
+|- id="Lhasa"
+| Lhasa
+| [[List of counties#Lhasa|Lhasa]]
+| Ü
+| Tibet
+|
+<!-- Transclusion used by Piety page. -->
+* {{icon|piety}} <section begin=LhasaPietyGainPct />{{green|+20%}}<section end=LhasaPietyGainPct /> Monthly Piety
+|
+{{#lst:Holy sites|AllTibetan}}
+{{#lst:Holy sites|AllTaoist}}
+* {{iconify|Nangchos}}
+| Capital of the Tibetian Empire, which introduced Buddhism to Tibet.
+
+|- id="Purang"
+| Purang
+| [[List of counties#Purang|Purang]]
+| Guge
+| Tibet
+|
+* {{icon|stewardship}} {{green|+1}} Stewardship per Level of Devotion
+|
+{{#lst:Holy sites|AllTibetan}}
+{{#lst:Holy sites|AllTaoist}}
+* {{iconify|Nangchos}}
+| Birthplace of Sudhara, one of the Buddha's past lives
+
+|- id="Awkar"
+| Awkar
+| [[List of counties#Awkar|Awkar]]
+| Ghana
+| Mali
+|
+* {{icon|knight}} {{green|+1}} Number of Knights
+* {{icon|toughness}} {{green|+10%}} Light Cavalry Toughness
+|
+<section begin=AllMande />
+<!-- Both Mandé faiths -->
+* {{iconify|Siguism}}
+* {{iconify|Bidaism}}<section end=AllMande />
+| Capital of the Wagadu Empire and seat of the Bida cult
+
+|- id="Jenne"
+| Jenne
+| [[List of counties#Jenne|Jenne]]
+| Jenne
+| Mali
+|
+* {{icon|diplomacy}} {{green|+1}} Diplomacy
+* {{icon|opinion}} {{green|+5}} Councillor Opinion
+|
+{{#lst:Holy sites|AllMande}}
+* {{iconify|Akom}}
+|
+
+|- id="Niani"
+| Niani
+| [[List of counties#Niani|Niani]]
+| Mali
+| Mali
+|
+* {{icon|opinion}} {{green|−0.1}} Monthly Tyranny
+* {{icon|opinion}} {{green|−20%}} Tyranny Gain
+|
+{{#lst:Holy sites|AllMande}}
+| Capital of the Mali Empire
+
+|- id="Kukiya"
+| Kukiya
+| [[List of counties#Kukiya|Kukiya]]
+| Songhay
+| Mali
+|
+<!-- Transclusion used by Piety page. -->
+* {{icon|piety}} <section begin=KukiyaPietyGainPct />{{green|+1%}}<noinclude> Monthly piety</noinclude> per knight<section end=KukiyaPietyGainPct />
+* {{icon|prestige}} {{green|+1%}} Monthly Prestige per Knight
+|
+{{#lst:Holy sites|AllMande}}
+* {{iconify|Orisa}}
+|
+
+|- id="Wadan"
+| Wadan
+| [[List of counties#Wadan|Wadan]]
+| Anbiya
+| Maghreb
+|
+* {{icon|martial}} {{green|+1}} Martial
+* {{icon|supply}} {{green|+25%}} Supply Duration
+|
+* {{iconify|Bidaism}}
+* {{iconify|Roog Sene}}
+|
+
+|- id="Daura"
+| Daura
+| [[List of counties#Daura|Daura]]
+| Hausaland
+| Kanem-Bornu
+|
+* {{icon|prestige}} {{green|+2%}} Monthly Prestige per Knight
+* {{icon|knight}} {{green|+10%}} Knight Effectiveness
+|
+* {{iconify|Bori}}
+| Ancient center of Hausa feasts
+
+|- id="Garumele"
+| Garumele
+| [[List of counties#Garumele|Garumele]]
+| Kanem
+| Kanem-Bornu
+|
+* {{icon|popular opinion}} {{green|+5}} Popular Opinion
+|
+* {{iconify|Bori}}
+|
+
+|- id="Igbo"
+| Igbo
+| [[List of counties#Igbo|Igbo]]
+| Igbo-Benue
+| Guinea
+|
+* {{icon|learning}} {{green|+1}} Learning per Level of Devotion
+|
+* {{iconify|Bori}}
+* {{iconify|Orisa}}
+| The Igbo were an ethnic and cultural group established just North of the Niger delta
+
+|- id="El-Fasher"
+| El-Fasher
+| [[List of counties#El-Fasher|El-Fasher]]
+| Darfur
+| Kanem-Bornu
+|
+* {{icon|stewardship}} {{green|+1}} Stewardship per Level of Devotion
+|
+* {{iconify|Kushitism}}
+* {{iconify|Bori}}
+|
+
+|- id="Wandala"
+| Wandala
+| [[List of counties#Wandala|Wandala]]
+| Sao
+| Kanem-Bornu
+|
+* {{icon|advantage}} {{green|+5}} Advantage in Drylands terrain
+|
+* {{iconify|Bori}}
+|
+
+|- id="Kisi"
+| Kisi
+| [[List of counties#Kisi|Kisi]]
+| Mali
+| Mali
+|
+* {{icon|prestige}} {{green|+2%}} Monthly Prestige per Knight
+* {{icon|prestige}} {{green|−20%}} Building Construction Prestige Cost
+|
+* {{iconify|Siguism}}
+* {{iconify|Roog Sene}}
+|
+
+|- id="Sherbro"
+| Sherbro
+| [[List of counties#Sherbro|Sherbro]]
+| Guinea
+| Guinea
+|
+* {{icon|opinion}} {{green|+10}} Same Faith Opinion
+|
+* {{iconify|Roog Sene}}
+|
+
+|- id="Kayor"
+| Kayor
+| [[List of counties#Kayor|Kayor]]
+| Takrūr
+| Mali
+|
+* {{icon|scheme success chance}} {{green|+5}} Personal Scheme Success Chance
+* {{icon|diplomacy}} {{green|+1}} Diplomacy
+|
+* {{iconify|Roog Sene}}
+|
+
+|- id="Kasa"
+| Kasa
+| [[List of counties#Kasa|Kasa]]
+| Kaabu
+| Mali
+|
+* {{icon|diplomacy}} {{green|+1}} Diplomacy per Level of Devotion
+|
+* {{iconify|Roog Sene}}
+|
+
+|- id="Bono"
+| Bono
+| [[List of counties#Bono|Bono]]
+| Akan
+| Guinea
+|
+* {{icon|gold}} {{green|−5%}} Men-at-Arms Maintenance
+* {{green|+5}} Personal Scheme Power
+|
+* {{iconify|Akom}}
+* {{iconify|Orisa}}
+|
+
+|- id="Kumasi"
+| Kumasi
+| [[List of counties#Kumasi|Kumasi]]
+| Akan
+| Guinea
+|
+* {{icon|learning}} {{green|+1}} Learning
+* {{icon|opinion}} {{green|−25%}} Short Reign Opinion
+|
+* {{iconify|Akom}}
+* {{iconify|Orisa}}
+| Center for the Ashanti people
+
+|- id="Ife"
+| Ife
+| [[List of counties#Ife|Ife]]
+| Yorubaland
+| Guinea
+|
+<!-- Transclusion used by Piety page. -->
+* {{icon|piety}} <section begin=IfePietyGainPct />{{green|+20%}}<section end=IfePietyGainPct /> Monthly Piety
+|
+* {{iconify|Akom}}
+* {{iconify|Orisa}}
+| A central city in Yoruba religion and culture, said to have been founded by the supreme god Olodumare and where the divine king Odudduwa established a legendary dynasty 
+
+|- id="Nikki"
+| Nikki
+| [[List of counties#Nikki|Nikki]]
+| Borgu
+| Guinea
+|
+* {{icon|learning}} {{green|+1}} Learning per Level of Devotion
+|
+* {{iconify|Akom}}
+|
+
+|- id="Aswan"
+| Aswan
+| [[List of counties#Aswan|Aswan]]
+| Egypt
+| Arabian Empire
+|
+* {{icon|stewardship}} {{green|+1}} Stewardship per Level of Devotion
+|
+* {{iconify|Kushitism}}
+| City home to many temples, monuments and relics of Ancient Egypt and the location of quarries that supplied building materials for constructions all over Egypt, inclding the Pyramids of Giza
+
+|- id="Wadi el-Milk"
+| Wadi el-Milk
+| [[List of counties#Wadi el-milk|Wadi el-milk]]
+| Nubia
+| Abyssinia
+|
+* {{icon|convert faith}} {{green|+50%}} County Conversion Resistance
+|
+* {{iconify|Kushitism}}
+| A dried up river and former tributary of the Nile
+
+|- id="Naqis"
+| Naqis
+| [[List of counties#Naqis|Naqis]]
+| Blemmyia
+| Abyssinia
+|
+* {{icon|martial}} {{green|+2}} Martial
+|
+* {{iconify|Kushitism}}
+|
+
+|- id="Sennar"
+| Sennar
+| [[List of counties#Sennar|Sennar]]
+| Nubia
+| Abyssinia
+|
+* {{icon|diplomacy}} {{green|+2}} Diplomacy
+|
+* {{iconify|Kushitism}}
+|
+
+|- id="Mount Teide"
+| Mount Teide
+| [[List of counties#Tenerife|Tenerife]]
+| Maghreb
+| Maghreb
+|
+* {{icon|development}} {{green|+25%}} Monthly Development in Hills terrain
+* {{icon|piety pagan}} {{green|+0.03}} Piety per {{icon|dread}} Dread
+|
+* {{iconify|Achamanism}}
+|
+
+|- id="Cartagena"
+| Cartagena
+| [[List of counties#Murcia|Murcia]] (barony of Cartagena)
+| Valencia
+| Hispania
+|
+*{{icon|gold}} {{green|−15%}} Title Creation Cost
+*{{icon|gold}} {{green|-0.002}} Men-at-Arms maintenance per {{icon|dread}} Dread
+|
+* {{iconify|Achamanism}}
+|
+
+|- id="Madeira"
+| Madeira
+| [[List of counties#Madeira|Madeira]]
+| Maghreb
+| Maghreb
+|
+*{{icon|pursuit}} {{green|+20%}} Naval Speed
+*{{icon|advantage}} {{green|+5}} Coastal Advantage
+|
+* {{iconify|Achamanism}}
+|
+
+|- id="Danakil"
+| Danakil
+| [[List of counties#Danakil|Danakil]]
+| Adal
+| Abyssinia
+|
+* {{icon|learning}} {{green|+1}} Learning
+* {{green|+5}} Personal Scheme Power
+|
+* {{iconify|Waaqism}}
+|
+
+|- id="Kaffa"
+| Kaffa
+| [[List of counties#Kaffa|Kaffa]]
+| Damot
+| Abyssinia
+|
+* {{icon|martial}} {{green|+1}} Martial per Level of Devotion
+* {{icon|time}} {{green|+10%}} Raid Speed
+|
+* {{iconify|Waaqism}}
+|
+
+|- id="Harar"
+| Harar
+| [[List of counties#Harar|Harar]]
+| Adal
+| Abyssinia
+|
+<!-- Transclusion used by Piety page. -->
+* {{icon|piety}} <section begin=HararPietyGainPct />{{green|+10%}}<section end=HararPietyGainPct /> Monthly Piety
+|
+* {{iconify|Waaqism}}
+|
+
+|- id="Makhir"
+| Makhir
+| [[List of counties#Makhir|Makhir]]
+| Adal
+| Abyssinia
+|
+* {{icon|diplomacy}} {{green|+2}} Diplomacy
+|
+* {{iconify|Waaqism}}
+|
+
+|- id="Mogadishu"
+| Mogadishu
+| [[List of counties#Mogadishu|Mogadishu]]
+| Ajuraan
+| Ajuraan
+|
+* {{icon|opinion}} {{green|+5}} Clergy Opinion
+|
+* {{iconify|Waaqism}}
+| Capital of the Ajuran Sultanate and an important city overall
+
+|- id="Gilgit"
+| Gilgit
+| [[List of counties#Gilgit|Gilgit]]
+| Kashmir
+| Rajastan
+|
+* {{icon|martial}} {{green|+1}} Martial
+* {{icon|stewardship}} {{green|+1}} Stewardship
+|
+{{#lst:Holy sites|AllTibetan}}
+|
+
+|- id="Suzhou"
+| Suzhou
+| [[List of counties#Suzhou|Suzhou]]
+| [[List of kingdoms#Xia|Xia]]
+| Tibet
+|
+* {{icon|diplomacy}} {{green|+1}} Diplomacy
+* {{icon|martial}} {{green|+1}} Martial
+|
+{{#lst:Holy sites|AllTaoist}}
+| Also known as Jiquan, it was an important city in medieval China due to its centrality in trade and its position on the Great Wall
+|}
+
+=== Unused holy sites ===
+There are currently two holy sites that exist in the game files but are unused:
+{| class="mildtable plainlist"
+|-
+! Name
+! Location
+! De Jure Kingdom
+! De Jure Empire
+! Effects
+! Faiths
+! Notes
+
+|- id="Grand Church Under Construction"
+| Grand Church Under Construction
+| [[List of counties#Barcelona|Barcelona]]
+| Aragon
+| Hispania
+|
+* {{icon|piety}} {{green|+10%}} Monthly piety
+|
+* {{iconify|Catholicism}}
+| Inactive at game start, and impossible to activate.
+
+|- id="Sparta"
+| Sparta
+| [[List of counties#Laconia|Laconia]]
+| Hellas
+| Byzantine Empire
+|
+* {{icon|martial}} {{green|+1}} Martial
+* {{icon|prowess}} {{green|+1}} Prowess
+|
+* {{iconify|Hellenism}}
+| Was formerly a Hellenic holy site until Patch 1.4 replaced it with Mount Olympus
+|}
+
+== Holy site ID ==
+Each holy site has an internal ID uses for referencing within the game files. As a general rule, to get a holy site's ID from its in-game name:
+* Remove all apostrophes (<code>'</code>)
+* Turn all upper case letters into lower case (<code>A...Z->a...z</code>)
+* Remove any diacritics from letters, including accents (<code>á->a</code>) and umlauts/diaereses (<code>ü->u</code>)
+
+Any holy site IDs that do not fit the pattern above are included in the table below:
+{| class="mildtable plainlist sortable"
+|-
+! Holy site
+! Internal ID
+|-
+| [[#Canterbury|Canterbury]]
+| kent
+|-
+| [[#Dwin|Dwin]]
+| suenik
+|-
+| [[#Koloneia|Koloneia]]
+| colonea
+|-
+| [[#Mount Gerizim|Mount Gerizim]]
+| gerizim
+|-
+| [[#Lumbini|Lumbini]]
+| kusinagara
+|-
+| [[#Nok Kundi|Nok Kundi]]
+| nok_kundi
+|-
+| [[#Takht-e Soleyman|Takht-e Soleyman]]
+| takht-e_soleyman
+|-
+| [[#|Karakorum]]
+| kara_khorum
+|-
+| [[#Tavan Bogd|Tavan Bogd]]
+| tavan_bogd
+|-
+| [[#El-Fasher|El-Fasher]]
+| el_fasher
+|-
+| [[#Wadi el-Milk|Wadi el-Milk]]
+| wadi_el_milk
+|-
+| [[#Grand Church Under Construction|Grand Church Under Construction]] (unused)
+| segrada_familia
+|}
+
+== See also ==
+* [[Holy site modding]]
+
+[[Category:Religion]]

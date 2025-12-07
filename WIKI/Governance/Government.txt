@@ -1,0 +1,799 @@
+{{Version|1.18}}
+{{Govnav}}
+A government is the system that rules [[Character|characters]] and their titles. It determines the [[laws]] available to a character as well as any obligations (taxes and levies) a [[Subjects|vassal]] may have to their liege. Governments can only be changed via decisions. Governments are divided into three types:
+* '''Landed governments''' require the character to own landed titles. If a player character loses all their landed titles, they must choose to play as another dynasty member or receive a game over but if the {{iconify|Roads to Power}} DLC is installed, they will have the option to choose between doing that or changing government to [[Adventurer]].
+* '''Domicile governments''' give their house heads or potentially all rulers a domicile, which allows a player to play as them even if they do not own landed titles. If a ruler changes their government to a landed one, their domicile is sold for {{iconify|Gold}}, all title men-at-arms are removed, and if their government used {{iconify|Treasury}} or {{iconify|Herd}} they are converted to {{iconify|Gold}} as well. 
+** {{iconify|Celestial}} Governments function based on the title Hegemony of China, and have access to Dynastic Cycle mechanics. See [[Celestial]] for more information.
+** {{iconify|Meritocratic}} Governments are similar to Celestial. See [[Meritocratic]].
+** {{iconify|Meritocratic Khanate}} Governments are similar to Meritocratic. See [[Meritocratic Khanate]].
+** {{iconify|Ritsuryō}} Governments are special administrative government type for Japanese rulers. See [[Ritsuryō]] .
+** {{iconify|Sōryō}} Governments are special feudal government type for Japanese rulers, but they have access to Domiciles. See [[Sōryō]].
+* '''Non-dynastic governments''' do not use dynastic succession and as a result are not playable. When a character with a non-dynastic government dies another random character will inherit all titles.
+
+== Landed governments ==
+=== Tribal ===
+Tribal governments have access to the Tribal Authority law, unlock Subjugate and Conquest casus belli, and can start a Co-Monarchy. All tribal rulers can raid unless their faith forbids it and gain 100 more {{iconify|Prestige}} when they win a battle. However, they cannot construct holdings or use innovations beyond the Tribal Era. Tribal rulers can only use the Confederate Partition succession law but unlock the Challenge the Ruler decision. Tribal rulers have access to an inferior [[Royal court|Royal Court]].
+
+[[Development]] only affects the Supply Limit and does not passively grow in counties ruled by a tribal ruler. Tribal baronies only provide half of their supply limit to armies belonging to other governments.
+
+Tribal governments have the following unique effects:
+*Tribal rulers pay for [[men-at-arms]] using {{iconify|Prestige}} instead of {{iconify|Gold}}.
+*Tribal rulers cannot [[Prisoner|imprison]] vassals or [[courtiers]] without passing level 2 Tribal Authority.
+*Tribal vassals provide taxes and levies based on the Liege's [[Resources#Fame|Level of Fame]].
+*{{green|−50%}} {{icon|Gold}} [[Titles|Title]] creation cost. 
+*{{green|+0.2}} monthly {{iconify|Prestige}}.
+*{{red|−20}} {{iconify|Opinion}} with vassals that do not have {{iconify|Tribal}}, {{iconify|Wanua}} or {{iconify|Nomadic}} government
+
+=== Feudal ===
+Feudal governments can create new holdings and cadet branches, have access to the Crown Authority law, can apply Title Succession laws and can start a Co-Monarchy.
+
+=== Clan ===
+Clan governments can create new holdings and cadet branches and have access to the Crown Authority law. All powerful vassals will want to be in an Alliance with their liege and will gain {{red|-30}} {{iconify|Opinion}} of their liege if they are not. When clan rulers are at peace, they can appoint a Vizier.
+
+If a clan ruler is a Dynasty Head, their realm will be named after their dynasty rather than the primary title.
+
+==== Tax Jurisdictions ====
+[[File:Tax Jurisdictions.png|thumb|350px|Tax Jurisdictions]]
+Clan governments collect taxes and levies from vassals with the same government type by creating Tax Jurisdictions and assigning vassals to them. Tax Jurisdictions are accessible via a sidebar tab only available to Clan governments, or from the bottom of the Realm sidebar, on the Vassals tab. Every jurisdiction can handle up to 12 taxpayers, and each jurisdiction requires a {{iconify|Tax Collector}}. Count and Duke rulers can appoint 1 {{iconify|Tax Collector}} while King and Emperor rulers can appoint 2. Cultures with the Enlightened Magnates or Legalistic tradition can each appoint an additional one, as can dynasties with the first [[File:Khvarenah legacy track.png|24px]] Brilliance legacy. A Vizier, depending on its Stewardship score, can grant from 1 additional {{iconify|Tax Collector}} to 5. Two Innovations, Magistrates and Court Officials, also each grant an additional one. First perk from Avaricious stewardship lifestyle tree - Golden obligation also grants one 1 {{iconify|Tax Collector}}. Only unlanded courtiers can be appointed as {{iconify|Tax Collector}}. How much taxes and levies a Tax Jurisdiction provides depends on the {{iconify|Tax Collector}}'s aptitude, which is the following: 
+*{{green|+1}} per {{iconify|Diplomacy}} (max 50)
+*{{green|+1}} per {{iconify|Martial}} (max 50)
+*{{green|+1}} per {{iconify|Stewardship}} (max 50)
+*{{green|+1}} per {{iconify|Intrigue}} (max 50)
+*{{green|+2}} per {{iconify|Learning}} (max 50)
+*{{green|+5}} per 20 {{iconify|Opinion}}
+*{{green|+10}} if {{iconify|Just}}
+*{{green|+10}} if {{iconify|Administrator}}
+*{{green|+10}} if {{iconify|Avaricious}}
+*{{green|+10}} if {{iconify|Diplomat}}
+*{{green|+15}} if culture has the Enlightened Magnates tradition
+*{{green|+20}} if culture has the Family Business tradition
+*{{red|-10}} if vassal
+{| class="wikitable" style="text-align: center;"
+|+
+!Aptitude
+!Gold Contribution
+!Levies Contribution
+|-
+|Terrible (0-19)
+|0%
+|0%
+|-
+|Poor (20-44)
+| 2%
+|4%
+|-
+|Average (45-74)
+|6%
+| 12%
+|-
+|Good (75-109)
+|12% 
+|24%
+|-
+|Excellent (110+)
+|20%
+|40%
+|}
+Each Tax Jurisdiction has a Tax Decree, which determines what all vassals assigned to the jurisdiction pay. Each Tax Decree can only be changed once every 5 years and the menu will show current taxes and levies and taxes and levies should the Tax Decree be changed. Existing vassals will be removed as taxpayers if the new Tax Decree does not allow them.
+{| class="mildtable plainlist"
+!Tax Decree
+!{{icon|gold}} Taxes
+!{{iconify|Levies}}
+! Liege effects per vassal
+!Vassal effects
+!Requirements
+|-
+|{{iconbox|Basic Taxes|A standard tax. Taxpayers pay no more, and no less, than what they are expected to.|image=Default tax collector.png|w=30em}}
+|{{green|+20%}}
+|{{green|+20%}}
+|
+|
+|
+|-
+|{{iconbox|Zakat|Zakat is a luxury tax, usually enforced upon the wealthy as a means to provide additional income for the state and to help those in need.|image=Strict taxation tax collector.png|w=30em}}
+|{{green|+40%}}
+|{{green|+20%}}
+|{{icon|gold}} {{green|+1%}} Domain Taxes
+|
+*{{icon|piety}} {{green|+10%}} Monthly Piety
+*{{icon|opinion}} {{red|-30}} Opinion of Liege
+|
+|-
+|{{iconbox|Iqta Grant|Iqta is a tax farming system where local magnates are given wide authority to collect taxes on behalf of the state. In return they must provide significant amounts of soldiers for their liege.|image=Iqta special rights tax collector.png|w=30em}}
+|'''Normal'''
+|{{green|+10%}}
+|{{icon|damage}} {{green|+1%}} Men-at-Arms Damage
+|
+*{{icon|gold}} {{green|-10%}} Men-at-Arms Recruitment Cost
+*{{icon|gold}} {{green|-10%}} Men-at-Arms Maintenance
+*{{icon|opinion}} {{green|+15}} Opinion of Liege
+|
+|-
+|{{iconbox|Ghazi Status|Warriors of the faith and the frontier, the Ghazi collect income from plunder and brigandage, and wage a never-ending war against the religious enemies of the state.|image=Ghazi special rights tax collector.png|w=30em}}
+|{{green|+10%}}
+|'''Normal'''
+| 
+*{{icon|piety}} {{green|+2%}} Monthly Piety
+*{{icon|opinion}} {{green|+1}} Zealot Vassal Opinion
+|
+*{{icon|raid}} Can raid
+*{{icon|gold}} {{green|+10%}} Monthly Income while at War
+*{{icon|piety}} {{green|+0.5}} Monthly Piety
+*{{icon|time}} {{green|+15%}} Raid Speed
+*{{icon|siege progress}} {{green|+15%}} Army Siege Weapon Effectiveness
+*{{icon|control}} {{green|+0.25}} Monthly Control Growth
+*{{icon|piety}} {{green|-50%}} Holy War casus belli cost
+*{{icon|prestige}} {{red|+25%}} Other casus belli cost
+|{{icon|warning}} Only vassals of same faith can be taxpayers
+|-
+|{{iconbox|Jizya Status|Jizya is a special tax assigned to dhimmis, religious minorities, in return for the privilege to practice their errant faith in peace.|image=Jizya special rights tax collector.png|w=30em}}
+|{{green|+100%}}
+|{{red|-75%}}
+|
+|
+*{{icon|yes}} Liege cannot Demand Conversion
+*{{icon|yes}} Liege cannot Revoke Title
+*{{icon|yes}} Liege cannot convert the faith in the vassal's realm
+*{{icon|yes}} Different faith is not a title revocation reason
+*{{icon|prestige}} {{red|-0.2}} Monthly Prestige
+|
+*{{icon|yes}} Tax Nonbelievers tenet or Jizya special doctrine
+*{{icon|warning}} Only vassals of different religion can be taxpayers
+|-
+|{{iconbox|Muqata Status|Muqata is a tax system where distant lands are given greater autonomy and taxed less, to promote stability and long-term development.|image=Muqata special rights tax collector.png|w=30em}}
+|'''Normal'''
+|'''Normal'''
+|{{icon|prestige}} {{green|+0.1}} Monthly Prestige
+|
+*{{icon|development}} {{green|+10%}} Development Growth
+*{{icon|plague resistance}} {{green|+10}} Plague Resistance
+*{{icon|opinion}} {{green|+15}} Popular Opinion
+*{{icon|opinion}} {{green|+30}} Opinion of Liege
+*{{icon|danger}} {{green|-5}} Danger
+|{{iconify|Legacy of Persia}} DLC
+|-
+|{{iconbox|Dehqan|Persian magnates within an ancient, decentralized tax collection system, the deqhans closely manage their lands to promote productivity - and their own prestige.|image=Deqhan special rights tax collector.png|w=30em}}
+|{{green|+35%}}
+|{{green|+35%}}
+|{{icon|legitimacy}} {{green|+1%}} Legitimacy Gain
+|{{icon|prestige}} {{green|+20%}} Monthly Prestige
+|{{icon|lop}} Enlightened Magnates tradition
+|-
+|{{iconbox|Maguh Status|An old Sassanian form of district administration, the maguh promote local development in exchange for reduced taxes to the state.|image=Maguh special rights tax collector.png|w=30em}}
+|'''Normal'''
+|'''Normal'''
+|{{icon|development}} {{green|+1%}} Development Growth
+|
+*{{icon|gold}} {{green|-10%}} Holding and Building Construction Cost
+*{{icon|development}} {{green|+0.1}} Monthly Development in Realm Capital
+*{{icon|opinion}} {{green|+30}} Opinion of Liege
+|[[File:Khvarenah legacy track.png|24px]] Brilliance dynasty legacy level 4 
+|}
+
+==== House unity ====
+[[File:Impassive house unity.png|thumb|350px|Impassive house unity]]
+If a House Head has Clan government, then its house will have an additional mechanic called House Unity, representing how well members of a house tend to get along with each other. It will be displayed for all house members but only those who have Clan government will be affected by its effects. House Unity is increased by taking Unifying Actions towards them and decreased by taking Divisive Actions towards them. House Heads also gain access to the ''Extol Virtuousness'' and ''Accuse of Decadence'' interactions with other house members as well as the ''Steer House Unity'' decision.
+{| class="mildtable"
+!<span style="color:blue;">'''Unifying actions'''</span>
+!{{red|Divisive actions}}
+|-
+|
+* Extol Virtuousness
+* Abandon hook
+* Ask to join holy order
+* Gift artifact
+* Negotiate alliance
+* Offer guardianship
+* Offer to join war
+* Pay ransom
+* Stop vassal war
+* Restore inheritance
+* Swear oath of true friendship
+* Sponsor inspiration
+|
+* Accuse of Decadence
+* Blackmail
+* Break betrothal
+* Claim liege title
+* Declare war
+* Expose a secret
+* Force to join faction
+* Imprison
+* Join independence faction
+* Move to dungeon
+* Revoke title
+* Denounce
+* Disinherit
+* Accuse of violating sumptuary law
+|}
+
+House Unity ranges from 0 to 200 and is divided into 5 levels. All house members who use multiple heirs succession are forced to use the succession law with the same name.
+{| class="mildtable"
+!Level
+!Unity
+!Border wars policy
+!Invasion CB
+!CB cost
+!Claimant faction acceptance
+!Lifestyle experience 
+!Dread decay
+!Other effects
+!House unity decisions 
+|-
+|[[File:House unity antagonistic.png|50px]] Antagonistic
+|0-39
+|Conditional Join
+|Unlimited
+|{{green|-30%}}
+|{{red|+40}}
+|
+|
+|
+* Adults unlock the Challenge House Head interaction
+* Casus Belli requires one Level of Fame less
+* {{green|+15}} House Vassal Opinion for 10 years from Enforce Demands
+* {{red|-10}} House Vassal Opinion for 10 years from White Peace
+* {{red|-20}} House Vassal Opinion for 10 years from Surrender
+|
+* Reinforce Army with Loyal Officers
+* Organize House Members for War
+* Establish Futuwaa Lodges
+* {{icon|lop}} Demand Shared Army Logistics
+|-
+|[[File:House unity competitive.png|50px]] Competitive
+|40-79
+|Guaranteed Protection
+|Every 10 years
+|{{green|-15%}}
+|{{red|+20}}
+|{{green|+5%}}
+|
+|
+* Adults unlock the Challenge House Head interaction
+* House members can use the Fabricate Hook scheme on each other
+|
+* Enforce Intrigue Network
+* Organize House Members for War
+* Establish Futuwaa Lodges
+*{{icon|lop}} Demand Shared Army Logistics
+|-
+|[[File:House unity impassive.png|50px]] Impassive
+|80-119
+|Guaranteed Protection
+|Once per lifetime
+|
+|
+|{{green|+10%}}
+|
+|
+* Adults unlock the Challenge House Head interaction
+|
+* Consult House Members
+* Improve Taxation
+|-
+|[[File:House unity friendly.png|50px]] Friendly
+|120-159
+|Guaranteed Protection
+|{{icon|no}}
+|{{red|+15%}}
+|{{green|-20}}
+|{{green|+5%}}
+|{{green|-20%}}
+|
+* Unlocks the Rescue House Members casus belli for House Head
+* Unlocks the Unify the House casus belli for House Head
+|
+* Send Bailiffs
+* Encourage House to Improve Economy
+* {{icon|lop}} Promote Development
+* {{icon|lop}} Educate Youth in Mosques
+|-
+|[[File:House unity harmonious.png|50px]] Harmonious
+|160-200
+|Guaranteed Protection
+|{{icon|no}}
+|{{red|+30%}}
+|{{green|-40}}
+|
+|{{green|-40%}}
+|
+* Unlocks the Rescue House Members casus belli for House Head
+* Unlocks the Unify the House casus belli for House Head
+|
+* Placate Vassals
+* Encourage House to Improve Economy
+* {{icon|lop}} Promote Development
+* {{icon|lop}} Educate Youth in Mosques
+|}
+
+Depending on House Unity, the House Head can use the following House Unity decisions. Each decision can only be used once every 20 years.
+{| class="mildtable"
+!Decision
+! Cost
+! Effects
+!House unity
+!Other requirements
+|-
+|'''Reinforce Army with Loyal Officers'''
+|{{icon|gold}} Scaled gold<br>{{icon|piety}} 200 piety + 20 per landed house member
+|[[File:Modifier martial positive.png|24px]] House gains the Loyal Army Officers modifier for 10 years
+|[[File:House unity antagonistic.png|24px]] Antagonistic
+|
+|-
+|'''Organize House Members for War'''
+|{{icon|piety}} 100 piety
+|[[File:Modifier martial positive.png|24px]] House gains the Organized for War modifier for 20 years 
+|[[File:House unity antagonistic.png|24px]] Antagonistic<br>[[File:House unity competitive.png|24px]] Competitive 
+|
+|-
+|'''Enforce Intrigue Network'''
+|{{icon|gold}} Scaled gold<br>{{icon|piety}} 200 piety + 20 per landed house member
+|[[File:Modifier intrigue positive.png|24px]] House gains the Intrigue Network modifier for 10 years
+|[[File:House unity competitive.png|24px]] Competitive
+|
+|-
+|'''Consult House Members'''
+|{{icon|piety}} 100 piety
+|{{icon|yes}} {{green|+10%}} Base progress and skill impact on councilor tasks for house member councilors
+|[[File:House unity impassive.png|24px]] Impassive
+|
+|-
+|'''Improve Taxation'''
+|{{icon|piety}} 200 piety + 20 per landed house member
+|[[File:Modifier stewardship positive.png|24px]] House gains the Improved Administration modifier for 10 years
+|[[File:House unity impassive.png|24px]] Impassive
+|
+|-
+|'''Send Bailiffs'''
+|{{icon|gold}} Scaled gold<br>{{icon|piety}} 200 piety + 20 per landed house member
+|[[File:Modifier county control positive.png|24px]] House gains the Enforced Bailiffs modifier for 10 years
+|[[File:House unity friendly.png|24px]] Friendly
+|
+|-
+|'''Encourage House to Improve Economy'''
+|{{icon|piety}} 100 piety
+|[[File:Modifier stewardship positive.png|24px]] House gains the Encouraged Economy modifier for 20 years
+|[[File:House unity friendly.png|24px]] Friendly<br>[[File:House unity harmonious.png|24px]] Harmonious
+|
+|-
+|'''Placate Vassals'''
+|{{icon|gold}} Scaled gold<br>{{icon|piety}} 200 piety + 20 per landed house member
+|[[File:Modifier diplomacy positive.png|24px]] House gains the Placated modifier for 10 years
+|[[File:House unity harmonious.png|24px]] Harmonious
+|
+|-
+|'''Establish Futuwaa Lodges'''
+|{{icon|piety}} 100 piety
+|[[File:Modifier martial positive.png|24px]] House gains the Established Futuwaa Lodges modifier for 20 years
+|[[File:House unity antagonistic.png|24px]] Antagonistic<br>[[File:House unity competitive.png|24px]] Competitive
+|{{icon|yes}} Culture has the Futuwaa tradition
+|-
+|'''Educate Youth in Mosques'''
+|{{icon|piety}} 100 piety
+|[[File:Modifier martial positive.png|24px]] House gains the Established Madrasas modifier for 20 years 
+|[[File:House unity friendly.png|24px]] Friendly<br>[[File:House unity harmonious.png|24px]] Harmonious
+|{{icon|yes}} Culture has the Beacon of Learning tradition<br>{{icon|no}} At war 
+|-
+|'''Demand Shared Army Logistics'''
+|{{icon|gold}} Scaled gold<br>{{icon|piety}} 200 piety + 20 per landed house member
+|[[File:Modifier goods positive.png|24px]] House gains the Shared Army Logistics modifier for 10 years
+|[[File:House unity antagonistic.png|24px]] Antagonistic<br>[[File:House unity competitive.png|24px]] Competitive
+|{{iconify|Legacy of Persia}} DLC<br>{{icon|heritage}} Iranian heritage
+|-
+|'''Promote Development'''
+|{{icon|gold}} Scaled gold<br>{{icon|piety}} 200 piety + 20 per landed house member
+|[[File:Modifier county development positive.png|24px]] House gains the Promoted Development modifier for 10 years
+|[[File:House unity friendly.png|24px]] Friendly<br>[[File:House unity harmonious.png|24px]] Harmonious
+|{{iconify|Legacy of Persia}} DLC<br>{{icon|heritage}} Iranian heritage
+|}
+
+Most houses start at 100 House Unity and thus [[File:House unity impassive.png|24px]] Impassive. The following houses are exceptions in 867:
+* House Abbasid starts at [[File:House unity antagonistic.png|24px]] Antagonistic
+* House Samanid starts at [[File:House unity competitive.png|24px]] Competitive
+* House Afrighid starts at [[File:House unity friendly.png|24px]] Friendly
+* House Tahirid starts at [[File:House unity harmonious.png|24px]] Harmonious
+* House Umayyad starts at [[File:House unity harmonious.png|24px]] Harmonious
+* Custom characters replacing any of these houses will inherit their House Unity
+
+=== Mandala ===
+{{expansion|auh}}
+Mandala governments can create new holdings and cadet branches and ask rulers to become tributaries willingly, and unlock the Capital Temple Complex and Capital Temple Complex Upgrade great projects. They also have access to the Decree law but the only succession available is Mandala Succession. They cannot build or upgrade [[File:Holding church.png|24px]] Temple holdings but can build and upgrade [[File:Holding temple citadel.png|24px]] Temple Citadel holdings instead. Dynasty Heads with Mandala government also unlock the [[File:Southeast asia legacy track.png|24px]] Divine Aspirations legacy track.
+
+Rulers with Mandala government have 8 levels of {{iconify|Legitimacy}} and are affected the same way regardless of their primary title rank. They also inherit the Level of Devotion of their predecessor and can reach the final three Levels of Devotion if their predecessor had the highest Level of Devotion they could reach and died of natural causes or religion and they also unlock the Raze Capital Temple Complex casus belli against each other. However their {{iconify|Domain}} is limited to 4.
+
+Every ruler with Mandala government has a Mandala Radiance value, which depends on their Level of Devotion, level of aspect, perks, whether they are independent or not, and number of Capital Temple Complex buildings and decreases with distance from the capital. Mandala Radiance affects the acceptance of other rulers to become tributaries. If the Capital Temple Complex building in the realm capital is ruined, Mandala Radiance will be set to 0.
+
+Creating titles with Mandala government requires a sufficient {{iconify|Piety}} and Level of Devotion: 500 and Faithful for {{iconify|Duchy}}, 2500 and Devoted Servant for {{iconify|Kingdom}}, 5000 and Religious Icon for {{iconify|Empire}}.
+
+Only rulers with a faith that has the {{iconify|Polytheist}} main doctrine can have Mandala government. If they convert to a faith with the {{iconify|Monotheist}} main doctrine, their government is changed to Feudal. They must also belong to a culture with one of the following cultural heritages:
+
+Austronesian, Tai, Mon Khmer, Viet, Indo Aryan or Burman.
+
+Every house head with Mandala government can choose a Mandala Aspect, which can be upgraded every 5 years up to 4 times once the aspect's upgrade requirements are met. The aspect can be changed at the cost of 500 {{iconify|Piety}} but this will reset it back to level 1. If the aspect is upgraded to its maximum level, upon succession the heir will receive the option to automatically pass the Mandala Succession trial challenge from the current aspect.
+* Level 2 aspects cost 250 {{iconify|Prestige}} and 1000 {{iconify|Piety}} and requires the {{iconify|Pilgrim}} trait to have at least 25 experience
+* Level 3 aspects cost 500 {{iconify|Prestige}} and 2500 {{iconify|Piety}} and requires the {{iconify|Pilgrim}} trait to have at least 50 experience
+* Level 4 aspects cost 1000 {{iconify|Prestige}} and 5000 {{iconify|Piety}} and requires the {{iconify|Pilgrim}} trait to have at least 75 experience
+* Level 5 aspects cost 2000 {{iconify|Prestige}} and 10000 {{iconify|Piety}} and requires the {{iconify|Pilgrim}} trait to have maximum experience
+{| class="mildtable plainlist"
+! Aspect
+! Unlocks
+! Level
+! Effects
+! Upgrade requirements
+|-
+| rowspan=5 | '''Creation'''<br>[[File:Aspect of creation small.png]]
+| rowspan=5 | 
+* [[File:Mandala decree expansion.png|24px]] Expansion Decree law
+* [[File:Mandala decree prosperity.png|24px]] Prosperity Decree law
+* {{icon|scheme}} Coerce Contribution scheme
+* [[File:Modifier mandala positive.png|24px]] Aspect of Creation modifier
+| Community
+| 
+* [[File:Modifier mandala positive.png|24px]] Aspect of Creation modifier lasts 10 years
+* {{icon|stewardship}} {{green|+1}} Stewardship per Level of Devotion
+* {{icon|stewardship lifestyle}} {{green|+2%}} Stewardship Lifestyle Experience
+* {{icon|stewardship lifestyle}} {{green|+1%}} House Stewardship Lifestyle Experience
+| 
+|-
+| Nascence
+| 
+* [[File:Modifier mandala positive.png|24px]] Aspect of Creation modifier lasts 10 years
+* {{icon|stewardship}} {{green|+1}} Stewardship per Level of Devotion
+* {{icon|stewardship lifestyle}} {{green|+5%}} Stewardship Lifestyle Experience
+* {{icon|stewardship lifestyle}} {{green|+2%}} House Stewardship Lifestyle Experience
+* {{icon|piety}} {{green|+250}} Piety per own child born in house
+| 
+* {{icon|yes}} Had 10 children
+* {{icon|yes}} Built 5 buildings
+* {{icon|gold}} 250 Gold
+|-
+| Cultivation
+| 
+* [[File:Modifier mandala positive.png|24px]] Aspect of Creation modifier lasts 20 years
+* {{icon|stewardship}} {{green|+2}} Stewardship per Level of Devotion
+* {{icon|stewardship lifestyle}} {{green|+7%}} Stewardship Lifestyle Experience
+* {{icon|stewardship lifestyle}} {{green|+3%}} House Stewardship Lifestyle Experience
+* {{icon|piety}} {{green|+250}} Piety per own child born in house
+| 
+* {{icon|yes}} Had 10 children
+* {{icon|yes}} Built 10 buildings
+* {{icon|gold}} 500 Gold
+* {{icon|yes}} 5 House members
+* {{icon|gold}} 1 Commissioned/sponsored artifact
+|-
+| Harvest
+| 
+* [[File:Modifier mandala positive.png|24px]] Aspect of Creation modifier lasts 20 years
+* {{icon|stewardship}} {{green|+2}} Stewardship per Level of Devotion
+* {{icon|stewardship lifestyle}} {{green|+10%}} Stewardship Lifestyle Experience
+* {{icon|stewardship lifestyle}} {{green|+4%}} House Stewardship Lifestyle Experience
+* {{icon|piety}} {{green|+250}} Piety per own child born in house
+| 
+* {{icon|yes}} Had 10 children
+* {{icon|yes}} Built 15 buildings
+* {{icon|gold}} 750 Gold
+* {{icon|yes}} 25 House members
+* {{icon|gold}} 3 Commissioned/sponsored artifacts
+|-
+| Opulence
+| 
+* [[File:Modifier mandala positive.png|24px]] Aspect of Creation modifier lasts 30 years
+* {{icon|stewardship}} {{green|+3}} Stewardship per Level of Devotion
+* {{icon|stewardship lifestyle}} {{green|+15%}} Stewardship Lifestyle Experience
+* {{icon|stewardship lifestyle}} {{green|+5%}} House Stewardship Lifestyle Experience
+* {{icon|piety}} {{green|+250}} Piety per own child born in house
+* {{icon|piety}} Constructing any building gives Piety
+| 
+* {{icon|yes}} Had 10 children
+* {{icon|yes}} Built 20 buildings
+* {{icon|gold}} 1000 Gold
+* {{icon|yes}} 40 House members
+* {{icon|gold}} 5 Commissioned/sponsored artifacts
+|-
+| rowspan=5 | '''Serenity'''<br>[[File:Aspect of serenity small.png]]
+| rowspan=5 | 
+* [[File:Mandala decree prosperity.png|24px]] Prosperity Decree law
+* [[File:Mandala decree reverence.png|24px]] Reverence Decree law
+* {{icon|scheme}} Befriend scheme
+* {{icon|yes}} Request great project contribution from allies
+* {{icon|yes}} Request great project contribution from vassals
+* [[File:Modifier mandala positive.png|24px]] Aspect of Serenity modifier
+| Peace
+| 
+* [[File:Modifier mandala positive.png|24px]] Aspect of Serenity modifier upgrades every 5 years
+* {{icon|diplomacy}} {{green|+1}} Diplomacy per Level of Devotion
+* {{icon|diplomacy lifestyle}} {{green|+2%}} Diplomacy Lifestyle Experience
+* {{icon|diplomacy lifestyle}} {{green|+1%}} House Diplomacy Lifestyle Experience
+* {{icon|scheme success chance}} {{green|+25%}} Sway and Befriend Scheme Success Chance
+| 
+|-
+| Order
+| 
+* [[File:Modifier mandala positive.png|24px]] Aspect of Serenity modifier upgrades every 5 years
+* {{icon|diplomacy}} {{green|+1}} Diplomacy per Level of Devotion
+* {{icon|diplomacy lifestyle}} {{green|+5%}} Diplomacy Lifestyle Experience
+* {{icon|diplomacy lifestyle}} {{green|+2%}} House Diplomacy Lifestyle Experience
+* {{icon|scheme success chance}} {{green|+25%}} Sway and Befriend Scheme Success Chance
+| 
+* {{icon|friend}} 5 Friends
+* {{icon|yes}} 2 Alliances with rulers of equal or higher title rank
+* {{icon|feast}} 3 Feasts with activity options at level 3
+* {{icon|no}} Offensive wars in the last 5 years
+|-
+| Balance
+| 
+* [[File:Modifier mandala positive.png|24px]] Aspect of Serenity modifier upgrades every 3 years
+* {{icon|diplomacy}} {{green|+2}} Diplomacy per Level of Devotion
+* {{icon|diplomacy lifestyle}} {{green|+7%}} Diplomacy Lifestyle Experience
+* {{icon|diplomacy lifestyle}} {{green|+3%}} House Diplomacy Lifestyle Experience
+* {{icon|scheme success chance}} {{green|+25%}} Sway and Befriend Scheme Success Chance
+* {{icon|yes}} Can force a great project contribution every 5 years
+| 
+* {{icon|friend}} 10 Friends
+* {{icon|yes}} 2 Alliances with rulers of equal or higher title rank
+* {{icon|feast}} 5 Feasts with activity options at level 3
+* {{icon|no}} Offensive wars in the last 10 years
+* [[File:Holding temple citadel.png|24px]] Walled Monastery capital holding level
+|-
+| Harmony
+| 
+* [[File:Modifier mandala positive.png|24px]] Aspect of Serenity modifier upgrades every 3 years
+* {{icon|diplomacy}} {{green|+2}} Diplomacy per Level of Devotion
+* {{icon|diplomacy lifestyle}} {{green|+10%}} Diplomacy Lifestyle Experience
+* {{icon|diplomacy lifestyle}} {{green|+4%}} House Diplomacy Lifestyle Experience
+* {{icon|scheme success chance}} {{green|+25%}} Sway and Befriend Scheme Success Chance
+* {{icon|yes}} Can force a great project contribution every 5 years
+| 
+* {{icon|friend}} 15 Friends
+* {{icon|yes}} 2 Alliances with rulers of equal or higher title rank
+* {{icon|feast}} 7 Feasts with activity options at level 3
+* {{icon|no}} Offensive wars in the last 15 years
+* [[File:Holding temple citadel.png|24px]] Temple Compound capital holding level
+|-
+| Bliss
+| 
+* [[File:Modifier mandala positive.png|24px]] Aspect of Serenity modifier upgrades every year
+* {{icon|diplomacy}} {{green|+3}} Diplomacy per Level of Devotion
+* {{icon|diplomacy lifestyle}} {{green|+15%}} Diplomacy Lifestyle Experience
+* {{icon|diplomacy lifestyle}} {{green|+5%}} House Diplomacy Lifestyle Experience
+* {{icon|scheme success chance}} {{green|+25%}} Sway and Befriend Scheme Success Chance
+* {{icon|yes}} Can force a great project contribution every 5 years
+| 
+* {{icon|friend}} 20 Friends
+* {{icon|yes}} 2 Alliances with rulers of equal or higher title rank
+* {{icon|feast}} 10 Feasts with activity options at level 3
+* {{icon|no}} Offensive wars in the last 25 years
+* [[File:Holding temple citadel.png|24px]] Fortress of Sanctuary capital holding level
+* [[File:Soulmate.png|24px]] Soulmate
+|-
+| rowspan=5 | '''Destruction'''<br>[[File:Aspect of destruction small.png]]
+| rowspan=5 | 
+* [[File:Mandala decree expansion.png|24px]] Expansion Decree law
+* [[File:Mandala decree reverence.png|24px]] Reverence Decree law
+* [[File:Retaliation cb.png|24px]] Plunder for Contribution casus belli
+* {{icon|death}} Death by combat unlocks next devotion level
+| Supremacy
+| 
+* {{icon|martial}} {{green|+1}} Martial per devotion level
+* {{icon|gold}} {{green|-5%}} Men-at-Arms Maintenance
+* {{icon|levies}} {{green|+5%}} Levy Reinforcement Rate
+* {{icon|levies}} {{green|+5%}} Levy Size
+* {{icon|levies}} {{green|+2%}} House Levy Size
+* {{icon|martial lifestyle}} {{green|+2%}} Martial Lifestyle Experience
+* {{icon|martial lifestyle}} {{green|+1%}} House Martial Lifestyle Experience
+| 
+|-
+| Ascendance
+| 
+* {{icon|martial}} {{green|+1}} Martial per devotion level
+* {{icon|gold}} {{green|-10%}} Men-at-Arms Maintenance
+* {{icon|levies}} {{green|+10%}} Levy Reinforcement Rate
+* {{icon|levies}} {{green|+10%}} Levy Size
+* {{icon|levies}} {{green|+7%}} House Levy Size
+* {{icon|martial lifestyle}} {{green|+5%}} Martial Lifestyle Experience
+* {{icon|martial lifestyle}} {{green|+2%}} House Martial Lifestyle Experience
+* {{icon|gold}} {{green|-0.5%}} House Men-at-Arms Maintenance
+* {{icon|levies}} {{green|+0.5%}} House Levy Reinforcement Rate
+| 
+* {{icon|martial}} 15+ Martial
+* {{icon|prowess}} 10+ Prowess
+* {{icon|prowess}} 3 Knights with 12+ Prowess
+* {{icon|yes}} Won more wars than lost
+* {{icon|yes}} Won 6 wars
+* {{icon|yes}} Won 10 battles
+|-
+| Bloodlust
+| 
+* {{icon|martial}} {{green|+2}} Martial per devotion level
+* {{icon|gold}} {{green|-15%}} Men-at-Arms Maintenance
+* {{icon|levies}} {{green|+15%}} Levy Reinforcement Rate
+* {{icon|levies}} {{green|+15%}} Levy Size
+* {{icon|levies}} {{green|+10%}} House Levy Size
+* {{icon|martial lifestyle}} {{green|+7%}} Martial Lifestyle Experience
+* {{icon|martial lifestyle}} {{green|+3%}} House Martial Lifestyle Experience
+* {{icon|gold}} {{green|-1.5%}} House Men-at-Arms Maintenance
+* {{icon|levies}} {{green|+1.5%}} House Levy Reinforcement Rate
+| 
+* {{icon|martial}} 20+ Martial
+* {{icon|prowess}} 15+ Prowess
+* {{icon|prowess}} 6 Knights with 12+ Prowess
+* {{icon|yes}} Won more wars than lost
+* {{icon|yes}} Won 9 wars
+* {{icon|yes}} Won 15 battles
+|-
+| Warmonger
+| 
+* {{icon|martial}} {{green|+2}} Martial per devotion level
+* {{icon|gold}} {{green|-20%}} Men-at-Arms Maintenance
+* {{icon|levies}} {{green|+20%}} Levy Reinforcement Rate
+* {{icon|levies}} {{green|+20%}} Levy Size
+* {{icon|levies}} {{green|+12%}} House Levy Size
+* {{icon|martial lifestyle}} {{green|+10%}} Martial Lifestyle Experience
+* {{icon|martial lifestyle}} {{green|+4%}} House Martial Lifestyle Experience
+* {{icon|gold}} {{green|-2%}} House Men-at-Arms Maintenance
+* {{icon|levies}} {{green|+2%}} House Levy Reinforcement Rate
+| 
+* {{icon|martial}} 25+ Martial
+* {{icon|prowess}} 20+ Prowess
+* {{icon|prowess}} 9 Knights with 12+ Prowess
+* {{icon|yes}} Won more wars than lost
+* {{icon|yes}} Won 12 wars
+* {{icon|yes}} Won 20 battles
+|-
+| Dominance
+| 
+* {{icon|martial}} {{green|+3}} Martial per devotion level
+* {{icon|gold}} {{green|-25%}} Men-at-Arms Maintenance
+* {{icon|levies}} {{green|+25%}} Levy Reinforcement Rate
+* {{icon|levies}} {{green|+25%}} Levy Size
+* {{icon|levies}} {{green|+15%}} House Levy Size
+* {{icon|martial lifestyle}} {{green|+15%}} Martial Lifestyle Experience
+* {{icon|martial lifestyle}} {{green|+5%}} House Martial Lifestyle Experience
+* {{icon|gold}} {{green|-2.5%}} House Men-at-Arms Maintenance
+* {{icon|levies}} {{green|+2.5%}} House Levy Reinforcement Rate
+* [[File:Default cb.png|24px]] Unlocks Conquest casus belli
+| 
+* {{icon|martial}} 30+ Martial
+* {{icon|prowess}} 25+ Prowess
+* {{icon|prowess}} 12 Knights with 12+ Prowess
+* {{icon|yes}} Won more wars than lost
+* {{icon|yes}} Won 15 wars
+* {{icon|yes}} Won 30 battles
+|-
+| rowspan=5 | '''Trickery'''<br>[[File:Aspect of trickery small.png]]
+| rowspan=5 | 
+* {{icon|yes}} All Decree laws
+* {{icon|scheme}} Leverage Contribution scheme
+* {{icon|yes}} Use Weak Hooks to Reassert Tributary
+* {{icon|death}} Death by murder unlocks next devotion level
+| Cunning
+| 
+* {{icon|intrigue}} {{green|+1}} Intrigue per Level of Devotion
+* {{icon|intrigue lifestyle}} {{green|+2%}} Intrigue Lifestyle Experience
+* {{icon|intrigue lifestyle}} {{green|+1%}} House Intrigue Lifestyle Experience
+| 
+|-
+| Deception
+| 
+* {{icon|intrigue}} {{green|+1}} Intrigue per Level of Devotion
+* {{icon|intrigue lifestyle}} {{green|+5%}} Intrigue Lifestyle Experience
+* {{icon|intrigue lifestyle}} {{green|+2%}} House Intrigue Lifestyle Experience
+* {{icon|yes}} Can use Piety to bribe agents to schemes
+* {{icon|scheme}} Unlocks the Coerce Tributary scheme
+| 
+* {{icon|scheme}} 10 Successful schemes
+* {{icon|strong hook}} 2 Strong Hooks
+* {{icon|gold}} 200 Ransomed Gold
+* {{icon|yes}} 6 Secrets known
+* {{icon|yes}} 4 House members are married to dukes or above
+|-
+| Mischief
+| 
+* {{icon|intrigue}} {{green|+2}} Intrigue per Level of Devotion
+* {{icon|intrigue lifestyle}} {{green|+7%}} Intrigue Lifestyle Experience
+* {{icon|intrigue lifestyle}} {{green|+3%}} House Intrigue Lifestyle Experience
+* {{icon|scheme}} Unlocks the Coerce Tributary scheme
+* {{icon|yes}} Can use Piety to bribe agents into schemes
+* {{icon|scheme}} Unlocks the Disbelieve Mandala scheme
+| 
+* {{icon|scheme}} 20 Successful schemes
+* {{icon|strong hook}} 5 Strong Hooks
+* {{icon|gold}} 600 Ransomed Gold
+* {{icon|yes}} 9 Secrets known
+* {{icon|yes}} 6 House members are married to dukes or above
+|-
+| Persuasion
+| 
+* {{icon|intrigue}} {{green|+2}} Intrigue per Level of Devotion
+* {{icon|intrigue lifestyle}} {{green|+10%}} Intrigue Lifestyle Experience
+* {{icon|intrigue lifestyle}} {{green|+4%}} House Intrigue Lifestyle Experience
+* {{icon|scheme}} Unlocks the Coerce Tributary scheme
+* {{icon|yes}} Can use Piety to bribe agents into schemes
+* {{icon|scheme}} Unlocks the Disbelieve Mandala scheme
+* {{icon|yes}} Can use Piety to force agents into schemes
+| 
+* {{icon|scheme}} 35 Successful schemes
+* {{icon|strong hook}} 10 Strong Hooks
+* {{icon|gold}} 1200 Ransomed Gold
+* {{icon|yes}} 12 Secrets known
+* {{icon|yes}} 8 House members are married to dukes or above
+* {{icon|yes}} 3 House members are married to independent dukes or above
+|-
+| Control
+| 
+* {{icon|intrigue}} {{green|+3}} Intrigue per Level of Devotion
+* {{icon|intrigue lifestyle}} {{green|+15%}} Intrigue Lifestyle Experience
+* {{icon|intrigue lifestyle}} {{green|+5%}} House Intrigue Lifestyle Experience
+* {{icon|scheme}} Unlocks the Coerce Tributary scheme
+* {{icon|yes}} Can use Piety to bribe agents into schemes
+* {{icon|scheme}} Unlocks the Disbelieve Mandala scheme
+* {{icon|yes}} Can use Piety to force agents into schemes
+* {{icon|scheme}} Coerce Tributary scheme can be used on higher rank rulers
+| 
+* {{icon|scheme}} 50 Successful schemes
+* {{icon|strong hook}} 15 Strong Hooks
+* {{icon|gold}} 2000 Ransomed Gold
+* {{icon|yes}} 15 Secrets known
+* {{icon|yes}} 10 House members are married to dukes or above
+* {{icon|yes}} 6 House members are married to independent dukes or above
+* {{icon|no}} Another ruler has max Radiance
+|}
+
+=== Wanua ===
+{{expansion|auh}}
+Wanua governments have access to the Tribal Authority law, unlock Subjugate and Conquest casus belli, and can start a Co-Monarchy. Wanua rulers can sail in major rivers, can raid unless their faith forbids it, and gain 100 more {{iconify|Prestige}} when they win a battle. However they cannot construct holdings or use innovations beyond the Tribal Era, can only use the Confederate Partition succession law, and have a starting maximum domain limit of 2. Wanua rulers have access to an inferior [[Royal court|Royal Court]]. Dynasty Heads with Wanua government also unlock the [[File:Southeast asia legacy track.png|24px]] Divine Aspirations legacy track.
+
+Wanua rulers gain access to the {{iconify|Barter Goods}} resource, which is used to pay for men-at-arms maintenance. They also unlock the ability to raise their armies as Barterers, which can travel to other rulers' countries to convert {{iconify|Barter Goods}} into {{iconify|Gold}} at a 2:1 ratio. Hovering over a county while a Barterer army is selected will display how much {{iconify|Gold}} will be obtained and its cost in {{iconify|Barter Goods}} and hovering over an army that is bartering will display how long will it take for the conversion to be finished. How much will be bartered depends on the size of the army. Barterer armies can be attacked by Raiding armies and if they are defeated the Raiding army will take their Loot. Bartering will give the county the [[File:Modifier goods positive.png|24px]] Recently Bartered modifier for 5 years, which prevents further bartering and gives the following bonuses:
+* {{icon|gold}} {{green|+10%}} Holding Taxes
+* {{icon|time}} {{green|-10%}} Building Construction Time
+* {{icon|development}} {{green|+0.3}} Monthly Development
+* {{icon|yes}} Cannot be raided
+
+[[Development]] only affects the Supply Limit and does not passively grow in counties ruled by a wanua ruler. Wanua baronies only provide half of their supply limit to armies belonging to other governments.
+
+Wanua governments have the following unique effects:
+*Wanua rulers cannot [[Prisoner|imprison]] vassals or [[courtiers]] without passing level 2 Tribal Authority.
+*Wanua vassals provide taxes and levies based on the Liege's [[Resources#Fame|Level of Fame]].
+*{{green|−50%}} {{icon|Gold}} [[Titles|Title]] creation cost. 
+*{{green|+0.2}} monthly {{iconify|Prestige}}.
+
+If the DLC is not installed, all Wanua rulers will use Tribal government.
+
+== Non-dynastic governments ==
+If a player selects a [[File:Herder government.png|24px]] Herder character to play, said character will automatically become {{iconify|Nomadic}} when the game starts.
+{| class="mildtable plainlist"
+!Government 
+!Requirements
+! Tithe as vassal
+|-
+|{{iconbox|Republic|Towns are ruled by the privileged citizens of the burgher class, among whom one is chosen as mayor. While the mayor has significant influence, they depend on popularity to be re-elected.|image=Republic government.png|w=35em}}
+|
+[[File:Holding city.png|24px]] City holding as realm capital
+|20% Taxes and 10% Levies
+|-
+|{{iconbox|Theocracy|In a theocratic government, all authority belongs to a religious institution. It is ruled by a priest or priestess who carries out the will of the divine on Earth.|image=Theocracy government.png|w=35em}}
+|
+*{{iconify|Theocratic}} Clerical Tradition doctrine
+*[[File:Holding church.png|24px]] Temple holding as realm capital
+|
+*10% Taxes and 10% Levies if different faith
+* Taxes and Levies based on the liege's [[Resources#Level of devotion|level of devotion]] if same faith
+|-
+|{{iconbox|Holy Order|The holy warriors of the orders have dedicated their life to fighting infidels and serving their faith. They may hold castles given to them by pious landholders. The order leader is chosen within the order ranks.|image=Holy order government.png|w=35em}}
+|Holy Order title
+|Can hire their armies for free
+|-
+|{{iconbox|Mercenary Company|Mercenary companies roam the lands in search of employment, and take up arms for the highest bidder. Loyalty is essential to a good reputation, but it only lasts until the end of their contract. The mercenary leader is chosen from within the company's ranks.|image=Mercenary government.png|w=35em}}
+|Mercenary title
+|{{icon|no}}
+|-
+|{{iconbox|Herder|Herders do not concern themselves with any aspects of rulership. They tend to their flock, and just their flock.|image=Herder government.png|w=35em}}
+| {{icon|kos}} Steppe herder
+|{{icon|no}}
+|}
+Realm Priests receive vassal income at a rate of 25% from Realm Priests belonging to their liege's direct vassals. They also provide up to 50% of their income from directly-controlled churches and their vassal priests to their feudal liege, scaled based on opinion.
+
+==References==
+<references />
+
+{{Mechanics navbox}}

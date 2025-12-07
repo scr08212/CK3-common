@@ -1,0 +1,13 @@
+{{Version|1.18}}
+{{Domicilenav}}
+Domiciles are available to characters whose government type goes not require them to own landed titles. The appearance of buildings in a domicile depends on the character's culture and the terrain depends on the terrain of the barony where the domicile is located. There are five types of domiciles:
+* {{icon|governor efficiency}} Administrative governments have an [[Administrative estate]]
+* [[File:Adventurer.png|24px]] Adventurer governments have a [[Camp]]
+* {{iconify|Nomadic}} governments have a [[Nomadic capital]]
+* {{iconify|Ritsuryō}} and {{iconify|Sōryō}} governments have a [[Manor]]
+* {{iconify|Celestial}}, {{iconify|Meritocratic}} and {{iconify|Meritocratic Khanate}} governments have a [[Celestial estate]]
+
+== References ==
+<references />
+{{Mechanics navbox}}
+[[Category:Realm]]

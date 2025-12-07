@@ -1,0 +1,759 @@
+{{Version|1.18}}
+{{#ev:youtube | id= 9xACCC4RCBQ
+| description= Introducing CK3 #07 - Money. ''Havoc'' teaches you how to get more money in CK3! 
+| alignment= right
+| container=frame
+}}
+There are four important resources which are necessary for most actions in the game: {{iconify|gold}}, {{iconify|prestige}}, {{iconify|piety}} and {{iconify|renown}}. Each resource can be spent on different things and all of them can be spent or gained through events.
+
+== Gold ==
+Gold is a measure of a character's liquid wealth reserves. Most rulers start the game with gold equal to 18 months of income. When a ruler dies or abdicates, all of their gold is passed onto their primary heir regardless of succession law.
+
+=== Treasury ===
+{{expansion|rtp|auh}}
+Rulers with {{icon|governor efficiency}} Administrative, {{iconify|Celestial}}, {{iconify|Meritocratic}} or {{iconify|Meritocratic Khanate}} government have a second storage for Gold called Treasury. 95% of income obtained from vassals will be added to the Treasury instead of Gold. Gold can be manually converted to Treasury. Every 10 Gold transferred gives {{red|+1}} Stress if the character has the {{iconify|Greedy}} trait and {{green|-1}} Stress if the character has the {{iconify|Generous}} trait. Treasury can be converted to Gold via the Siphon Treasury scheme and is also converted to Gold if the character changes government.
+
+The Treasury can be spent on barony constructions, provincial men-at-arms, a few activities, salaries, great project contributions, and royal court expenses. Gold still has to be spent for estate constructions, personal men-at-arms, most activities, and schemes.
+
+The top liege of a government that uses Treasury can use the Laws tab to allocate percentages of the Treasury income back to vassals as Gold. The amount of Gold each vassal receives depends on their primary title rank and {{iconify|Merit}} if their government uses it. Changing the allocated percentages costs 200 {{iconify|Prestige}} and 500 {{iconify|Influence}} and will give between {{red|-100}} and {{green|+30}} {{iconify|Opinion}} for 5 years depending on how much the spending has been changed. If the realm gains new vassals they will receive Gold too but existing vassals will not have it reduced, requiring a greater expenditure of Treasury until the percentages are reallocated again. For {{iconify|Celestial}} governments the councilor salary is also decided here.
+
+=== Debt ===
+Debt occurs when a character has negative gold or treasury. During debt, characters cannot declare war, their counties can always acquire corruption, their men-at-arms cannot reinforce, and they can experience various negative events. In addition, debt grants increasingly negative modifiers the longer it goes on. The penalty is reset when the ruler changes.
+{| class="mildtable" style="text-align: center;
+! {{icon|time}} Years in debt
+! {{icon|levies}} Levy size and reinforcement rate
+! {{iconify|Development|link=Development}} growth
+! {{icon|opinion}} Vassal and popular opinion
+! {{icon|opinion}} Courtier opinion
+! {{iconify|Advantage|link=Advantage}}
+! {{icon|yes}} Join faction acceptance
+! {{icon|kos}} Herd gain
+|-
+| '''0'''
+| {{red|−10%}}
+| {{red|−10%}}
+| {{red|−5}}
+| {{red|−10}}
+| {{red|−5}}
+| {{red|+10}}
+| {{red|−10%}}
+|-
+| '''1'''
+| {{red|−20%}}
+| {{red|−20%}}
+| {{red|−10}}
+| {{red|−15}}
+| {{red|−10}}
+| {{red|+20}}
+| {{red|−20%}}
+|-
+| '''2'''
+| {{red|−30%}}
+| {{red|−30%}}
+| {{red|−15}}
+| {{red|−20}}
+| {{red|−15}}
+| {{red|+30}}
+| {{red|−30%}}
+|-
+| '''3'''
+| {{red|−40%}}
+| {{red|−40%}}
+| {{red|−20}}
+| {{red|−25}}
+| {{red|−20}}
+| {{red|+40}}
+| {{red|−40%}}
+|-
+| '''4'''
+| {{red|−50%}}
+| {{red|−50%}}
+| {{red|−25}}
+| {{red|−30}}
+| {{red|−25}}
+| {{red|+50}}
+| {{red|−50%}}
+|-
+| '''5'''
+| {{red|−60%}}
+| {{red|−60%}}
+| {{red|−30}}
+| {{red|−40}}
+| {{red|−30}}
+| {{red|+60}}
+| {{red|−60%}}
+|-
+| '''6'''
+| {{red|−70%}}
+| {{red|−70%}}
+| {{red|−40}}
+| {{red|−50}}
+| {{red|−40}}
+| {{red|+70}}
+| {{red|−70%}}
+|-
+| '''7'''
+| {{red|−80%}}
+| {{red|−80%}}
+| {{red|−50}}
+| {{red|−75}}
+| {{red|−50}}
+| {{red|+80}}
+| {{red|−80%}}
+|-
+| '''8'''
+| {{red|−90%}}
+| {{red|−90%}}
+| {{red|−75}}
+| {{red|−100}}
+| {{red|−75}}
+| {{red|+90}}
+| {{red|−90%}}
+|-
+| '''9'''
+| {{red|−95%}}
+| {{red|−95%}}
+| {{red|−100}}
+| {{red|−120}}
+| {{red|−100}}
+| {{red|+95}}
+| {{red|−95%}}
+|}
+
+== Prestige ==
+{{iconify|Prestige}} represents the amount of political capital, social influence and goodwill a character is able make use of at any given time. Holding titles, especially of higher rank, as well as the {{iconify|diplomacy|link=Attributes#Skills}} skill are the main continuous sources of prestige, but many events can generate it on occasion as well. Prestige can be spent on most secular matters of realm of management, such as vassal interactions, decisions and declarations of non-holy war. For {{iconify|Tribal}} and {{iconify|Wanua}} rulers, Prestige is also used for [[men-at-arms]] payment and upkeep, as well as constructing tribe buildings.
+
+Each time a character gains prestige, they gain the same amount of fame; battles fought in secular wars, as well as winning certain wars as war leader, will also net fame, while losing certain wars as war leader will lose fame. As fame accrues, it will increase progress towards the character's next level of fame, which grants various benefits, such as enabling [[decisions]] or certain types of [[casus belli]]. Fame also affects the amount of taxes and levies received from {{iconify|Tribal}} and {{iconify|Wanua}} vassals. Since fame is meant to merely accumulate, not be spent, it rarely decreases, but particularly dishonorable acts can cost levels of fame. A character who lacks the prestige to declare a secular war can also opt to spend fame, at an inflated price. Fame is particularly important for adventurers, as it determines who will offer them contracts.
+
+Notably, "A Life of Glory" perk from the Diplomacy [[Lifestyle]], doubles the effects of Secular Opinion and Knights (including the penalties).
+{| class="mildtable" style="text-align: center;"
+! Level of fame
+! {{icon|opinion}} Secular opinion
+! {{nowrap|{{iconify|knight|text=[[Knight]]s}}}}
+! {{icon|gold}} Tribal vassal tax
+! {{icon|levies}} Tribal vassal levies
+! [[File:Conquest cb.png|24px]] Max conquest CB rank
+! {{iconify|decision|text=[[Ruler decisions|Adopt Feudal / Clan Ways]]}}
+! {{iconify|decision|text=[[Ruler_decisions#Found_a_new_title|Highest custom title]]}}
+! {{iconify|Fame}}
+! {{icon|rtp}} Max contractor rank
+! {{icon|kos}} Herd Capacity
+|-
+| style="text-align: left; " | [[File:Icon prestige 00.png]] Disgraced
+| {{red|−10}} from Feudal/Sōryō<br>{{red|−10}} from Tribal/Wanua
+| {{red|−1}}
+| 0%
+| 0%
+| {{icon|no}} None
+| {{icon|no}}
+| {{iconify|Duchy}}
+| 0
+| {{iconify|Count}}
+| {{red|−10%}}
+|-
+| style="text-align: left; " | [[File:Icon prestige 01.png]] Established
+| '''0'''
+| '''0'''
+| 8%
+| 15%
+| {{iconify|County}}
+| {{icon|no}}
+| {{iconify|Duchy}}
+| 1000
+| {{iconify|Count}}
+| {{green|+10%}}
+|-
+| style="text-align: left; " | [[File:Icon prestige 02.png]] Distinguished
+| {{green|+5}} from Feudal/Sōryō<br>{{green|+3}} from Tribal/Wanua
+| {{green|+1}}
+| 16%
+| 30%
+| {{iconify|County}}
+| {{icon|yes}}
+| {{iconify|Duchy}}
+| 2000
+| {{iconify|Count}}
+| {{green|+20%}}
+|-
+| style="text-align: left; " | [[File:Icon prestige 03.png]] Illustrious
+| {{green|+10}} from Feudal/Sōryō<br>{{green|+5}} from Tribal/Wanua
+| {{green|+2}}
+| 24%
+| 45%
+| {{iconify|Duchy}}
+| {{icon|yes}}
+| {{iconify|Kingdom}}
+| 5000
+| {{iconify|Duke}}
+| {{green|+30%}}
+|-
+| style="text-align: left; " | [[File:Icon prestige 04.png]] Exalted among Men
+| {{green|+20}} from Feudal/Sōryō<br>{{green|+10}} from Tribal/Wanua
+| {{green|+3}}
+| 32%
+| 60%
+| {{iconify|Kingdom}}
+| {{icon|yes}}
+| {{iconify|Empire}}
+| 10000
+| {{iconify|King}}
+| {{green|+40%}}
+|-
+| style="text-align: left; " | [[File:Icon prestige 05.png]] The Living Legend
+| {{green|+30}} from Feudal/Sōryō<br>{{green|+20}} from Tribal/Wanua
+| {{green|+4}}
+| 40%
+| 75%
+| {{iconify|Kingdom}}
+| {{icon|yes}}
+| {{iconify|Empire}}
+| 25000
+| {{iconify|Emperor}}
+| {{green|+50%}}
+|}
+
+== Piety ==
+{{iconify|Piety}} is a measure of how virtuous a character is in the eye of others of their religion. It is gained primarily from religious relations, the character's {{iconify|learning}} skill, and traits that its faith considers virtuous. Piety is spent when interacting with the church and declaring holy wars. The icon displayed for representing piety depends on the character's religion.
+
+Each time a character gains piety, they will also gain {{iconify|devotion}}, which gives progress towards their next level of devotion. Like the levels of fame above, each level of devotion grants various benefits. A character will lose a level of devotion if they are caught doing something their faith doctrines consider shunned. A character can pay a piety cost with devotion if they don't have enough piety. Generated characters and those at the game start begin with the {{iconify|Dutiful}} level.
+
+The last three levels of devotion are only available to rulers with {{iconify|Mandala}} government if their predecessor reached the previous level of devotion and died in an acceptable manner. Characters with the [[File:Family attribute humility small.png|24px]] Humility noble family attribute at the highest level can also reach the Divine level of devotion. Rulers with {{iconify|Mandala}} government also inherit the level of devotion held by their predecessor.
+{| class="mildtable plainlist" style="text-align: center;"
+! Icons
+! Level of devotion
+! Effects
+! {{icon|gold}} Theocracy vassal tax
+! {{icon|levies}} Theocracy vassal [[levies]]
+! [[File:Religious war cb.png|24px]] Max [[holy war]] objective rank
+! {{icon|decision}} Create [[holy order]]s
+! {{icon|decision}} [[Consecrate Bloodline]]
+! Devotion
+|-
+|[[File:Icon piety christian 00.png|36px]][[File:Icon piety islam 00.png|36px]][[File:Icon piety judaism 00.png|36px]][[File:Icon piety eastern 00.png|36px]][[File:Icon piety zoroastrian 00.png|36px]][[File:Icon piety confucianism 00.png|36px]][[File:Icon piety taoism 00.png|36px]][[File:Icon piety pagan 00.png|36px]]
+|Sinner
+|align=left | 
+* {{icon|opinion}} {{red|-10}} Same Faith Clergy Opinion (Theocratic)
+* {{icon|opinion}} {{red|-5}} Same Faith Opinion (Lay Clergy)
+|0%
+|0%
+|{{icon|no}} None
+|{{icon|no}}
+|{{icon|no}}
+|0
+|-
+|[[File:Icon piety christian 01.png|36px]][[File:Icon piety islam 01.png|36px]][[File:Icon piety judaism 01.png|36px]][[File:Icon piety eastern 01.png|36px]][[File:Icon piety zoroastrian 01.png|36px]][[File:Icon piety confucianism 01.png|36px]][[File:Icon piety taoism 01.png|36px]][[File:Icon piety pagan 01.png|36px]]
+|Dutiful
+|
+|15%
+|10%
+| {{iconify|County}}
+|{{icon|no}}
+| {{icon|no}}
+|1000
+|-
+|[[File:Icon piety christian 02.png|36px]][[File:Icon piety islam 02.png|36px]][[File:Icon piety judaism 02.png|36px]][[File:Icon piety eastern 02.png|36px]][[File:Icon piety zoroastrian 02.png|36px]][[File:Icon piety confucianism 02.png|36px]][[File:Icon piety taoism 02.png|36px]][[File:Icon piety pagan 02.png|36px]]
+|Faithful
+|align=left | 
+* {{icon|opinion}} {{green|+5}} Same Faith Clergy Opinion (Theocratic)
+* {{icon|opinion}} {{green|+3}} Same Faith Opinion (Lay Clergy)
+|25%
+|20%
+| {{iconify|Duchy}}
+|{{icon|no}}
+|{{icon|no}}
+|1500
+|-
+|[[File:Icon piety christian 03.png|36px]][[File:Icon piety islam 03.png|36px]][[File:Icon piety judaism 03.png|36px]][[File:Icon piety eastern 03.png|36px]][[File:Icon piety zoroastrian 03.png|36px]][[File:Icon piety confucianism 03.png|36px]][[File:Icon piety taoism 03.png|36px]][[File:Icon piety pagan 03.png|36px]]
+|Devoted Servant
+|align=left | 
+* {{icon|opinion}} {{green|+10}} Same Faith Clergy Opinion (Theocratic)
+* {{icon|opinion}} {{green|+5}} Same Faith Opinion (Lay Clergy)
+|35%
+|30%
+|{{iconify|Duchy}}
+|{{icon|yes}}
+| {{icon|no}}
+|2500
+|-
+|[[File:Icon piety christian 04.png|36px]][[File:Icon piety islam 04.png|36px]][[File:Icon piety judaism 04.png|36px]][[File:Icon piety eastern 04.png|36px]][[File:Icon piety zoroastrian 04.png|36px]][[File:Icon piety confucianism 04.png|36px]][[File:Icon piety taoism 04.png|36px]][[File:Icon piety pagan 04.png|36px]]
+|Paragon of Virtue
+|align=left | 
+* {{icon|opinion}} {{green|+20}} Same Faith Clergy Opinion (Theocratic)
+* {{icon|opinion}} {{green|+10}} Same Faith Opinion (Lay Clergy)
+|45%
+|40%
+|{{iconify|Kingdom}}
+|{{icon|yes}}
+|{{icon|no}}
+|4500
+|-
+|[[File:Icon piety christian 05.png|36px]][[File:Icon piety islam 05.png|36px]][[File:Icon piety judaism 05.png|36px]][[File:Icon piety eastern 05.png|36px]][[File:Icon piety zoroastrian 05.png|36px]][[File:Icon piety confucianism 05.png|36px]][[File:Icon piety taoism 05.png|36px]][[File:Icon piety pagan 05.png|36px]]
+|Religious Icon
+|align=left | 
+* {{icon|opinion}} {{green|+30}} Same Faith Clergy Opinion (Theocratic)
+* {{icon|opinion}} {{green|+15}} Same Faith Opinion (Lay Clergy)
+|55%
+|50%
+|{{iconify|Kingdom}}
+|{{icon|yes}}
+|{{icon|yes}}
+|8500
+|-
+|[[File:Icon piety christian 06.png|36px]][[File:Icon piety islam 06.png|36px]][[File:Icon piety judaism 06.png|36px]][[File:Icon piety eastern 06.png|36px]][[File:Icon piety zoroastrian 06.png|36px]][[File:Icon piety confucianism 06.png|36px]][[File:Icon piety taoism 06.png|36px]][[File:Icon piety pagan 06.png|36px]]
+|Divine
+|align=left | 
+* {{icon|opinion}} {{green|+40}} Same Faith Clergy Opinion (Theocratic)
+* {{icon|opinion}} {{green|+20}} Same Faith Opinion (Lay Clergy)
+* {{icon|renown}} {{green|+0.1}} Monthly Renown
+* {{icon|legitimacy}} {{green|+0.2}} Monthly Legitimacy
+* {{icon|vassal}} {{green|+15}} Maximum Vassal Limit
+|65%
+|60%
+|{{iconify|Kingdom}}
+|{{icon|yes}}
+|{{icon|yes}}
+|13000
+|-
+|[[File:Icon piety christian 07.png|36px]][[File:Icon piety islam 07.png|36px]][[File:Icon piety judaism 07.png|36px]][[File:Icon piety eastern 07.png|36px]][[File:Icon piety zoroastrian 07.png|36px]][[File:Icon piety confucianism 07.png|36px]][[File:Icon piety taoism 07.png|36px]][[File:Icon piety pagan 07.png|36px]]
+|Demigod
+|align=left | 
+* {{icon|opinion}} {{green|+55}} Same Faith Clergy Opinion (Theocratic)
+* {{icon|opinion}} {{green|+25}} Same Faith Opinion (Lay Clergy)
+* {{icon|renown}} {{green|+0.15}} Monthly Renown
+* {{icon|legitimacy}} {{green|+0.3}} Monthly Legitimacy
+* {{icon|vassal}} {{green|+25}} Maximum Vassal Limit
+|75%
+|70%
+|{{iconify|Kingdom}}
+|{{icon|yes}}
+|{{icon|yes}}
+|17000
+|-
+|[[File:Icon piety christian 08.png|36px]][[File:Icon piety islam 08.png|36px]][[File:Icon piety judaism 08.png|36px]][[File:Icon piety eastern 08.png|36px]][[File:Icon piety zoroastrian 08.png|36px]][[File:Icon piety confucianism 08.png|36px]][[File:Icon piety taoism 08.png|36px]][[File:Icon piety pagan 08.png|36px]]
+|Godlike
+|align=left | 
+* {{icon|opinion}} {{green|+75}} Same Faith Clergy Opinion (Theocratic)
+* {{icon|opinion}} {{green|+35}} Same Faith Opinion (Lay Clergy)
+* {{icon|renown}} {{green|+0.2}} Monthly Renown
+* {{icon|legitimacy}} {{green|+0.4}} Monthly Legitimacy
+* {{icon|vassal}} {{green|+35}} Maximum Vassal Limit
+|85%
+|80%
+|{{iconify|Kingdom}}
+|{{icon|yes}}
+|{{icon|yes}}
+|22500
+|}
+
+=== Monthly piety ===
+The table below shows available sources of monthly piety. Note that these are value gains; for percentage effects, [[#Factors affecting monthly piety|see the table on factors]].
+{| class="mildtable plainlist sortable mw-collapsible mw-collapsed"
+! Source
+! data-sort-type="number" | {{icon|piety}} Monthly piety
+|-
+|[[File:Learning_theology_focus.png|24px]] [[Theology]] Focus
+|{{green|+1.0}}
+|-
+|Is [[head of faith|Head of Faith]]
+|{{green|+1.0}}
+|-
+|Has a [[virtue|Virtuous Trait]]
+|{{green|+1.0}} (per Trait)
+|-
+|Burial Site Duchy Building
+|{{green|+1.0}} (per Building Level)
+|-
+|{{iconify|Humble|link=Humble}} Trait
+|{{green|+0.5}}
+|-
+| {{iconify|Learning|link=Attributes#Skills}} Skill
+|
+{{green|+0.1}} (per Level)
+|-
+|{{iconify|Religious Relations|link=Religious Relations}} Council Task
+|{{green|+0.05}} (per Learning Skill Level)
+|-
+|Has a [[sin|Sinful Trait]]
+|{{red|−1.0}} (per Trait)
+|-
+| {{iconify|Reincarnation|link=Reincarnation (trait)}} trait
+|
+{{#lst:Traits|ReincarnationPietyGain}}
+|-
+| {{iconify|Celibate|link=Celibate}} trait
+|
+{{#lst:Traits|CelibatePietyGain}}
+|-
+| {{iconify|Devoted|link=Devoted}} trait
+|
+{{#lst:Traits|DevotedPietyGain}}
+|-
+| {{iconify|Saint|link=Saint}} trait (unobtainable)
+|
+{{#lst:Traits|SaintPietyGain}}
+|-
+| {{icon|court chaplain}} Is [[court chaplain]]
+| Dependent on liege's rank:
+{| class="mildtable"
+| {{iconify|Count}} || +0.5
+|-
+| {{iconify|Duke}} || +1
+|-
+|{{iconify|King}}||{{#lst:Council|CourtChaplainKingPietyGain}}
+|-
+|{{iconify|Emperor}}||{{#lst:Council|CourtChaplainEmperorPietyGain}}
+|}
+|-
+|[[Grand Cathedral]]
+|
+{{#lst:Special buildings|GrandCathedralPietyGain}}
+|-
+| [[Grand Mosque]]
+|
+{{#lst:Special buildings|GrandMosquePietyGain}}
+|-
+|
+*[[Grand Temple (pagan)]]
+*[[Grand Temple (Indian)]]
+*[[Grand Temple (other faiths)]]
+|
+{{#lst:Special buildings|GrandTemplePietyGain}}
+|-
+|[[Mahabodhi Temple]]
+|
+{{#lst:Special buildings|MahabodhiTemplePietyGain}}
+|-
+|[[Imam Ali Mosque]]
+|
+{{#lst:Special buildings|ImamAliMosquePietyGain}}
+|-
+|[[Great Mosque of Mecca]]
+|
+{{#lst:Special buildings|GreatMosqueOfMeccaPietyGain}}
+|-
+|[[Great Mosque of Cordoba]]
+|
+{{#lst:Special buildings|GreatMosqueOfCordobaPietyGain}}
+|-
+|[[Great Mosque of Djenne]]
+|
+{{#lst:Special buildings|GreatMosqueOfDjennePietyGain}}
+|-
+|[[Great Mosque of Samarra]]
+|
+{{#lst:Special buildings|GreatMosqueOfSamarraPietyGain}}
+|-
+|[[Canterbury Cathedral]]
+|
+*{{#lst:Special buildings|CanterburyCathedralPietyGainBase}}
+*{{#lst:Special buildings|CanterburyCathedralPietyGainPerPowerfulVassal}}
+|-
+|[[Prophetic Mosque]]
+|
+{{#lst:Special buildings|PropheticMosquePietyGain}}
+|-
+|[[Notre Dame]]
+|
+{{#lst:Special buildings|NotreDamePietyGain}}
+|-
+|[[Brihadeeswarar Temple]]
+|
+{{#lst:Special buildings|BrihadeeswararTemplePietyGain}}
+|-
+|[[Shwedagon Pagoda]]
+|
+{{#lst:Special buildings|ShwedagonPagodaPietyGain}}
+|-
+|[[Hagia Sophia]]
+|
+{{#lst:Special buildings|HagiaSophiaPietyGain}}
+|-
+|[[Hall of Heroes]]
+|
+{{#lst:Special buildings|HallOfHeroesPietyGain}}
+|-
+|[[Monasteries]]
+|
+{{#lst:Barony|MonasteriesPietyGain}}
+|-
+|[[Ritual Hospitality]] tenet
+|
+{{#lst:Tenet|RitualHospitalityPietyGain}}
+|-
+|[[Holy sites#Braslau|Braslau]] holy site
+|
+{{#lst:Holy sites|BraslauPietyGain}}
+|-
+|{{icon|marriage type}} [[Polygamous]] marriage doctrine
+|
+{{#lst:Dynasty|MissingSpousePietyLoss}}
+|-
+|{{icon|magic positive}} ''[[Prophetic Visions]]'' modifier<br>({{iconify|Possessed|link=Possessed}} trait)
+|
+{{#lst:Modifiers|PropheticVisionsPietyGain}}
+|-
+|{{icon|learning positive}} ''[[Steward of the Sacred River]]'' modifier<br>({{icon|decision}} [[Take Stewardship of the Sacred River]] decision)
+|
+{{#lst:Modifiers|StewardOfTheSacredRiverPietyGain}}
+|-
+|[[Cologne Cathedral]]
+|
+{{#lst:Special buildings|CologneCathedralPietyGain}}
+|-
+|{{icon|letter positive}} ''[[Halq]]'' modifier ({{icon|hajj}} [[Undertake the Hajj]])
+| 
+{{#lst:Modifiers|HalqPietyGain}}
+|-
+|Various events
+| data-sort-value="0" |Varies
+|}
+
+==== Factors affecting monthly piety ====
+The following table shows factors affecting the gain of monthly piety as a percentage effect. For value additions to monthly piety, [[#Sources of monthly piety|see the table above]]
+{| class="mildtable plainlist sortable mw-collapsible mw-collapsed"
+!Source
+! data-sort-type="number" |{{icon|piety}} Monthly piety
+|-
+|{{iconify|Pilgrim|link=Pilgrim}}<nowiki> Trait (Level 2 | Level 1 | Level 0)</nowiki>
+|{{green|+25%}}<nowiki> | </nowiki>{{green|+15%}}<nowiki> | </nowiki>{{green|+5%}}
+|-
+|Court position "High Almoner"
+|{{green|+20%}}
+|-
+|{{iconify|Theologian|link=Theologian}} Trait 
+|{{green|+20%}}
+|-
+|Dynasty Legacy "Erudition" (Level 2)
+|{{green|+10%}}
+|-
+|Perk "Prophet" (Theologian)
+|{{green|+2%}} (per Knight)
+|-
+|{{iconify|Excommunicated|link=Excommunicated}} Trait
+|{{red|−50%}}
+|-
+|Cologne Cathedral
+|{{#lst:Special buildings|CologneCathedralPietyGainPct}}
+|-
+|Buddhas of Bamiyan
+|{{#lst:Special buildings|BuddhasOfBamiyanPietyGainPct}}
+|-
+|Ananda Temple
+|{{#lst:Special buildings|AnandaTemplePietyGainPct}}
+|-
+|Temple City
+|{{#lst:Special buildings|TempleCityPietyGainPct}}
+|-
+|The Third Temple / Dome of the Rock
+|{{#lst:Special buildings|ThirdTempleDomeOfTheRockPietyGainPct}}
+|-
+|Reconquista innovation
+|{{#lst:Innovation|ReconquistaPietyGainPct}}
+|-
+|Divine Right innovation
+|{{#lst:Innovation|DivineRightPietyGainPct}}
+|-
+|Ordained Rulership (second tier of {{icon|erudition legacy}} [[Erudition]] legacy)
+|{{#lst:Dynasty|Erudition2PietyGainPct}}
+|-
+|Prophet perk (Theologian tree)
+|{{#lst:Lifestyle|ProphetPietyGainPct}}
+|-
+|Defender of Faith perk (Theologian tree)
+|{{#lst:Lifestyle|DefenderOfFaithPietyGainPct}}
+|-
+|Sculptor's Workshop Investment modifier<br>(''A Word of Advice'' event)
+|
+|-
+|Great Sculptor's Workshop Investment modifier<br>(''A Word of Advice'' event)
+|
+|-
+|Earthly Focus modifier<br>(Scholarship lifestyle event)
+|
+|-
+|Clerical Guidance modifier<br>(Commision Epic decision)
+|
+|-
+|Related to Wisdom modifier<br>(Sell Minor Titles decision)
+|
+|-
+|Excommunication Recently Lifted
+|
+|-
+|Crusading House modifier<br>(house beneficiary won crusade)
+|
+|-
+|House of the Mujahid modifier<br>(house beneficiary won jihad)
+|
+|-
+|Holy Warriors modifier<br>(house beneficiary won great holy war)
+|
+|-
+|Saoshyant Resurgent modifier<br>(Become the Saoshyant decision)
+|
+|-
+|Devotee of Hayagriva modifier<br>(Determine Bhakti decision)
+|
+|-
+|Jerusalem holy site
+|{{#lst:Holy sites|JerusalemPietyGainPct}}
+|-
+|Dwin holy site
+|{{#lst:Holy sites|DwinPietyGainPct}}
+|-
+|Armagh holy site
+|{{#lst:Holy sites|ArmaghPietyGainPct}}
+|-
+|Mecca holy site
+|{{#lst:Holy sites|MeccaPietyGainPct}}
+|-
+|Lalish holy site
+|{{#lst:Holy sites|LalishPietyGainPct}}
+|-
+|Ayodhya holy site
+|{{#lst:Holy sites|AyodhyaPietyGainPct}}
+|-
+|Palitana holy site
+|{{#lst:Holy sites|PalitanaPietyGainPct}}
+|-
+|Maowün holy site
+|{{#lst:Holy sites|MaowunPietyGainPct}}
+|-
+|Rebgong holy site
+|{{#lst:Holy sites|RebgongPietyGainPct}}
+|-
+|Takht-e Soleyman holy site
+|{{#lst:Holy sites|TakhtESoleymanPietyGainPct}}
+|-
+|Uppsala holy site
+|{{#lst:Holy sites|UppsalaPietyGainPct}}
+|-
+|Raivola holy site
+|{{#lst:Holy sites|RaivolaPietyGainPct}}
+|-
+|Kyiv holy site
+|{{#lst:Holy sites|KievPietyGainPct}}
+|-
+|Olvia holy site
+|{{#lst:Holy sites|OlviaPietyGainPct}}
+|-
+|Kabul holy site
+|{{#lst:Holy sites|KabulPietyGainPct}}
+|-
+|Multan holy site
+|{{#lst:Holy sites|MultanPietyGainPct}}
+|-
+|Lhasa holy site
+|{{#lst:Holy sites|LhasaPietyGainPct}}
+|-
+|Kukiya holy site
+|{{#lst:Holy sites|KukiyaPietyGainPct}}
+|-
+|Ife holy site
+|{{#lst:Holy sites|IfePietyGainPct}}
+|-
+| Harar holy site
+|{{#lst:Holy sites|HararPietyGainPct}}
+|-
+|Cynical trait
+|{{#lst:Traits|CynicalPietyLossPct}}
+|-
+| Zealous trait
+|{{#lst:Traits|ZealousPietyGainPct}}
+|-
+|Stuffed Corpse modifier<br>(Mental break event)
+|
+|-
+| ''[[Church and State]]'' perk<br>(Theologian tree)
+|{{#lst:Lifestyle|ChurchAndStatePietyGainPct}}
+|-
+|{{icon|letter positive}} ''[[Divine Protection]]'' modifier<br>({{icon|pilgrimage}} [[Go on a Pilgrimage]])
+|{{#lst:Modifiers|DivineProtectionPietyGainPct}}
+|-
+|{{icon|learning positive}} ''[[Dedicated Pilgrim]]'' modifier<br>({{icon|pilgrimage}} [[Go on a Pilgrimage]])
+|{{#lst:Modifiers|DedicatedPilgrimPietyGainPct}}
+|-
+|{{icon|prowess positive}} ''[[Determined Pilgrim]]'' modifier<br>({{icon|pilgrimage}} [[Go on a Pilgrimage]])
+|{{#lst:Modifiers|DeterminedPilgrimPietyGainPct}}
+|}
+
+== Influence ==
+{{expansion|rtp|auh}}
+{{iconify|Influence}} is a resource available only to characters with {{icon|governor efficiency}} Administrative, {{iconify|Celestial}}, {{iconify|Meritocratic}}, {{iconify|Meritocratic Khanate}} or {{iconify|Ritsuryō}} government and represents their political reach and authority. It is gained primarily by being a governor, being part of the council, upgrading an estate or being allied to the house head of a noble family, particularly the top liege. Influence is used for interactions between rulers with governments that use the resource.
+
+Each time a character gains Influence they also progress towards their next level of influence, which determines their initial political scheme success chance.
+{| class="mildtable" style="text-align: center;
+|-
+! Level of influence !! {{icon|scheme success chance}} Initial Political Scheme Success Chance !! {{icon|movement power}} Personal Movement Power !! Can change succession law !!{{iconify|Influence}}
+|-
+| [[File:Icon influence 00.png|36px]] Impotent || || || {{icon|no}} || 0
+|-
+| [[File:Icon influence 01.png|36px]] Influential || || {{green|+5}} || {{icon|no}} || 1000
+|-
+| [[File:Icon influence 02.png|36px]] Persuasive || {{green|+5%}} || {{green|+10}} || {{icon|no}} || 2000
+|-
+| [[File:Icon influence 03.png|36px]] Controlling || {{green|+10%}} || {{green|+15}} || {{icon|no}} || 4000
+|-
+| [[File:Icon influence 04.png|36px]] Authoritative || {{green|+15%}} || {{green|+20}} || {{icon|yes}} || 8000
+|-
+| [[File:Icon influence 05.png|36px]] Imperious || {{green|+20%}} || {{green|+25}} || {{icon|yes}} || 16000
+|}
+
+== Provisions ==
+{{expansion|rtp}}
+{{iconify|Provisions}} is a resource available only to adventurers and is spent when moving the camp. How many are expended depends on the size of the men-at-arms, the terrain on the route, and what officers are hired, and they can also be lost as a result of travel danger events. They are primarily obtained as contract rewards, hunts, visiting holdings, or the Gather Provisions decision.
+
+Each adventurer can initially store up to 2500 provisions, but the capacity can be increased by certain camp buildings and upgrades. If an adventurer receives provisions above the limit they will instead receive 1 {{iconify|gold}} per 20 {{iconify|provisions}}.
+
+If provisions become too low while traveling the following events may take place. If provisions become 0 the adventurer will be offered the option to stop in the current barony and avoid the worst events.
+{| class="mildtable"
+|-
+! {{iconify|Provisions}} !! Possible events
+|-
+| 500-67
+| 
+* Lose -15 {{iconify|opinion}} with a follower or leveled {{iconify|gold}}
+|-
+| 66-34
+| 
+* Every regiment loses 15% of its soldiers and gain 20 {{iconify|stress}}
+* A follower who is not a close family member or officer leaves and gain 40 {{iconify|stress}}
+|-
+| 33-1
+| All events give 80 {{iconify|stress}} and -15 {{iconify|opinion}} with every follower
+* A follower who is a close family member or officer leaves
+* Every regiment loses 35% of its soldiers
+* Gain the {{iconify|Ill}} trait
+* A follower or pet dies and can choose to become a Cannibal
+* A {{iconify|Typhus}} epidemic appears in the camp's barony, every regiment will lose 15% of its soldiers and one of the characters in the camp will get infected
+|-
+| 0
+| All events give 100 {{iconify|stress}}, -25 {{iconify|opinion}} with every follower, -50% regiment soldiers, and the character gets one of the following:
+* [[File:Modifier health negative.png|24px]] Weak Stomach modifier if not already
+* [[File:Modifier health negative.png|24px]] Hunger Sickness modifier if not already
+* {{iconify|Blind}} trait if not already
+* {{iconify|Cannibal}} trait if not already
+* {{iconify|Infirm}} trait if not already
+* {{iconify|Lunatic}} trait if not already
+* {{icon|prowess}} -2 Prowess if any remains
+* {{icon|death}} Death
+|}
+
+== Herd ==
+{{expansion|kos}}
+{{iconify|Herd}} is a resource available only to characters with {{iconify|Nomadic}} government and represents their flock of animals. It is used as a currency between nomads, serves as a gate for increasing Dominance, and a percentage of it is converted into {{iconify|Horde Riders}}. The character with the highest Herd will become the culture head of its culture. Every 1000 Herd increases Gold income by 0.5 and if the character changes government it is converted to Gold.
+
+Every nomad character has a herd capacity, which is determined by their title rank, level of fame and Nomadic Capital buildings and upgrades. Going over the herd capacity reduces herd gain to only 5% of its normal value.
+
+Herd is obtained through the land by exploiting its Fertility and through nomad subjects via their contracts. Every county in the Steppe regions has a Fertility ranging from 0 to 100. While the county is held by a ruler with {{iconify|Nomadic}} government its fertility will decrease until it reaches an Equilibrium value. While the county is held by a ruler with {{iconify|Herder}} government its fertility will increase. The Equilibrium increases with the number of baronies in the ruler's domain.
+
+If a ruler is landless it will lose between 500 and a third of is Herd every 3 years.
+
+== Barter Goods ==
+{{expansion|auh}}
+{{iconify|Barter Goods}} is a resource available only to characters with {{iconify|Wanua}} government and represents island resources. It is used for army upkeep and armies can convert it to {{iconify|Gold}} at a 2:1 ratio by being raised as barterers and traveling to another ruler's counties.
+
+==References==
+<references />
+{{Mechanics navbox}}
+[[Category:Character]]

@@ -1,0 +1,453 @@
+{{Version|1.18}}
+{{expansion|roc|small=no}}
+[[File:Royal Court.jpg|thumb|350px|The Seljuk court]]
+The Royal Court represents a ruler's seat of majesty and is available to playable landed rulers of {{iconify|King}} higher rank. If the ruler has Administrative government they must also be independent. If a character's last title of {{iconify|King}} or higher rank is destroyed or taken by a character of equal rank, the court becomes dormant. If the last title is taken by a character of lower rank, the court will be transferred to the new title owner. A liege character's court can be visited at any time in order to petition them. The visual appearance of a royal court depends on the architecture aesthetics of the realm capital's culture.
+
+On the court screen, adult rulers who are not traveling or leading an army have the option to Hold Court every 5 years. Holding Court costs 100 {{iconify|Prestige}} for a {{iconify|King}} and 125 for an {{iconify|Emperor}}, triggers 3 random petition events and grants 6 {{icon|grandeur}} Court Grandeur and 50 {{iconify|Legitimacy}}. If the faith is unreformed and holy site is controlled holding court will always include an event to pay a large amount of {{iconify|Gold}} to remove the 3 holy sites restriction for reforming the faith.
+
+An optional event will take place inside a Royal Court every 24-32 months, indicated by an icon above the involved characters. When such an event takes place, the player will be notified that something is happening within the Royal Court.
+
+== Court type ==
+Each ruler will have the option to choose between two court types based on the Culture's [[Culture#Ethos|ethos]]. Court types determine some additional bonuses that the court will grant at certain levels of grandeur, as well as which courtier trait a courtier will gain after spending 5 years at a court with grandeur level 5. Changing the court type costs 500 {{iconify|Prestige}}. Court type also determines which court petition events will be more common. If a ruler's culture or government is changed, they can still keep their old court type.
+{| class="mildtable plainlist"
+! Type
+! Level 1 effects
+! Level 4 effects
+! Level 7 effects
+! Level 10 effects
+! Required ethos
+|-
+| '''Diplomatic'''
+| {{icon|unknown}} {{green|+0.5}} Offer Vassalage Acceptance per point of Grandeur
+| {{icon|opinion}} {{green|−20%}} Tyranny Gain
+| {{icon|opinion}} {{green|+10}} Councilor Opinion
+| {{icon|scheme}} {{green|+1}} Max Personal Schemes
+| 
+* Ceremonious
+* Egalitarian
+* Stoic
+|-
+| '''Warlike'''
+| {{icon|knight}} {{green|+10%}} Knight Effectiveness
+| {{icon|levies}} {{green|+10%}} Powerful Vassal Councilor Levy Base Contribution
+| [[File:Icon maa countered.png|24px]] {{green|+10%}} Men-at-Arms Counter Efficiency
+| {{icon|levies}} {{green|+1}} Size of Men-at-Arms Regiments
+| 
+* Bellicose
+* Bureaucratic
+* Stoic
+|-
+| '''Administrative'''
+|
+* {{icon|time}} {{green|−10%}} Building Construction Time
+* {{icon|gold}} {{green|−5%}} Building Construction Cost
+| [[File:Task accept culture.png|24px]] {{green|+30%}} Promote Cultural Acceptance Effectiveness
+| {{icon|development}} {{green|+0.20}} Development Growth in Realm Capital
+| {{icon|gold}} {{green|+10%}} Vassal Tax Contribution
+| 
+* Bureaucratic
+* Communal
+* Egalitarian
+* Spiritual
+|-
+| '''Intrigue'''
+| {{icon|scheme secrecy}} {{green|+5%}} Scheme Secrecy
+| [[File:Task support schemes.png|24px]] {{green|+20%}} Support Schemes Effectiveness
+| {{icon|unknown}} Increased Agent Acceptance for Hostile Schemes
+| {{icon|scheme}} {{green|+1}} Max Hostile Schemes
+| 
+* Bellicose
+* Communal
+|-
+| '''Scholarly'''
+| {{icon|inspiration}} {{green|+10%}} More likely to gain Inspired Characters
+| {{icon|opinion}} {{green|+15}} Courtier and Guest Opinion
+| [[File:Focus invalid.png|24px]] {{green|+10%}} Monthly Lifestyle Experience
+| 
+* {{icon|learning}} {{green|+1}} Learning per Level of Fame
+* {{icon|learning}} {{green|+1}} Courtier and Guest Learning
+| 
+* Ceremonious
+* Spiritual
+|}
+
+=== Tribal court ===
+Tribal and Wanua rulers only have access to the Tribal court type, which grants the following bonuses:
+* '''Level 1:''' {{icon|knight}} {{green|+5%}} Knight Effectiveness
+* '''Level 3:''' [[File:Icon loot.png|24px]] {{green|+20%}} Army Loot Capacity and {{icon|raid}} {{green|+20%}} Raid Speed
+* '''Level 5:''' {{icon|dread}} {{green|+25%}} Dread Gain
+* '''Level 7:''' {{icon|opinion}} {{green|+5}} Vassal Opinion
+* '''Level 10:''' {{icon|Gold}} {{green|−25%}} Men-at-Arms Maintenance
+In addition courtiers and guests will gain {{green|+1}} {{iconify|Prowess}} once one year has passed, up to 3 times. Courtiers will gain the courtier trait of Warlike courts.
+
+=== Nomadic court ===
+{{expansion|kos}}
+Nomadic rulers only have access to the Nomadic court type, which grants the following bonuses:
+* '''Level 1:''' {{icon|herd}} {{green|+15%}} Herd Capacity
+* '''Level 2:''' {{icon|loot}} {{green|+20%}} Army Loot Capacity and {{icon|raid}} {{green|+20%}} Raid Speed
+* '''Level 3:''' [[File:Trait track hunter.png|24px]] {{green|+25%}} Hunter Venator Trait Experience Gain
+* '''Level 4:''' {{icon|herd}} {{green|+5%}} Herd Gain
+* '''Level 6:''' {{icon|dread}} {{green|+10}} Natural Dread
+* '''Level 8:''' {{icon|opinion}} {{green|+5}} Direct Vassal Opinion
+* '''Level 10:''' {{icon|horde riders}} {{green|+2%}} Herd Conversion into Horde Riders
+In addition courtiers and guests will gain {{green|+1}} {{iconify|Prowess}} and {{green|+5%}} [[File:Trait track hunter.png|24px]] Hunter Venator Trait Experience Gain once one year has passed, up to 3 times. Courtiers will gain the courtier trait of Warlike courts.
+
+== Court language ==
+Court language is the language spoken by a court. If a ruler knows the same language as their court, the court will gain Court Grandeur based on each county in their realm that speaks the same language. This bonus is increased by {{green|+25%}} if the character's culture also uses the same language.
+
+If multiple royal courts use the same language, they will all gain additional Court Grandeur as well. For the court with the highest current grandeur, the ruler must know the language. For the rest, the ruler knowing the language is not required. This bonus is reduced by {{red|-50%}} if the rulers of the courts follow faiths from different religions and by {{red|-25%}} if they have a different government type.
+
+A court can change its language every 5 years at the cost of 750 {{iconify|Prestige}}. Said language must be either the ruler's culture language or the court language of another ruler within diplomatic range.
+
+== Court amenities ==
+Court Amenities are monthly expenditures that increase a court's grandeur and grant various benefits. The cost of each level of amenities scales with the size and income of a ruler's realm as well as their culture's era and government. The level of Court Amenities can only be raised or lowered once per year. The last 3 levels require Feudal or Clan government. Hidden effects, that are not listed in the game, appear in ''italics'' below.
+{| class="mildtable plainlist"
+! rowspan=2 width=1% | Type
+! colspan=2 | Level 2 ({{green|+4 Grandeur}})
+! colspan=2 | Level 3 ({{green|+8 Grandeur}})
+! colspan=2 | Level 4 ({{green|+12 Grandeur}})
+! colspan=2 | Level 5 ({{green|+16 Grandeur}})
+|-
+! Ruler effects
+! Courtier effects
+! Ruler effects
+! Courtier effects
+! Ruler effects
+! Courtier effects
+! Ruler effects
+! Courtier effects
+|-
+| style="text-align: center; | [[File:Icon_amenity_fashion.png|50px]] Fashion
+|
+* {{icon|prestige}} {{green|+1%}} Monthly Prestige
+* {{icon|yes}} Enables sumptuary debate
+| {{icon|prestige}} {{green|+0.20}} Monthly Prestige
+|
+* {{icon|prestige}} {{green|+2%}} Monthly Prestige
+| {{icon|prestige}} {{green|+0.40}} Monthly Prestige
+| {{icon|prestige}} {{green|+3%}} Monthly Prestige
+| {{icon|prestige}} {{green|+0.80}} Monthly Prestige
+| {{icon|prestige}} {{green|+4%}} Monthly Prestige
+| {{icon|prestige}} {{green|+1.60}} Monthly Prestige
+|-
+| style="text-align: center; | [[File:Icon_amenity_dining.png|50px]] Food
+| 
+* {{icon|stress loss}} Feasts reduce stress
+* {{icon|prestige}} {{red|-25%}} Feast Prestige Gain
+| {{icon|stress loss}} {{green|+10%}} Stress Loss
+|
+* {{icon|stress loss}} The Feast Activity reduces more Stress
+* {{icon|Gout Ridden}} {{red|+10%}} Gout Ridden risk
+| 
+* {{icon|stress loss}} {{green|+20%}} Stress Loss
+* {{icon|Gout Ridden}} {{red|+10%}} Gout Ridden risk
+|
+* {{icon|stress loss}} The Feast Activity reduces more Stress
+* {{icon|prestige}} {{green|+25%}} Feast Prestige Gain
+* {{icon|Gout Ridden}} {{red|+30%}} Gout Ridden risk
+| 
+* {{icon|stress loss}} {{green|+30%}} Stress Loss
+* {{icon|Gout Ridden}} {{red|+30%}} Gout Ridden risk
+|
+* {{icon|stress loss}} The Feast Activity reduces more Stress
+* {{icon|health boost}} {{green|+0.25}} Disease Resistance
+* {{icon|prestige}} {{green|+40%}} Feast Prestige Gain
+* {{icon|Gout Ridden}} {{red|+50%}} Gout Ridden risk
+|
+* {{icon|health boost}} {{green|+0.25}} Disease Resistance
+* {{icon|stress loss}} {{green|+40%}} Stress Loss
+* {{icon|Gout Ridden}} {{red|+50%}} Gout Ridden risk
+|-
+| style="text-align: center; | [[File:Icon_amenity_lodgings.png|50px]] Lodgings
+|
+* Guests can stay longer
+* {{green|+5}} Guest agent acceptance to join schemes in your court
+|
+* Completed Inspiration quality has a small chance of improvement
+* {{icon|stress gain}} {{green|-5%}} Stress Gain
+|
+* Guests are likely to stay longer
+* {{green|+10}} Guest agent acceptance to join schemes in your court
+* {{green|+20}} Court Invite Acceptance
+|
+* Completed Inspiration quality has a chance of improvement
+* {{icon|stress gain}} {{green|-10%}} Stress Gain
+|
+* Guests are more likely to stay longer
+* {{green|+15}} Guest agent acceptance to join schemes in your court
+* {{green|+30}} Court Invite Acceptance
+|
+* Completed Inspiration quality has a decent chance of improvement
+* {{icon|stress gain}} {{green|-15%}} Stress Gain
+|
+* Guests are most likely to stay longer
+* {{green|+20}} Guest agent acceptance to join schemes in your court
+* {{green|+50}} Court Invite Acceptance
+|
+* Completed Inspiration quality has a good chance of improvement
+* {{icon|stress gain}} {{green|-20%}} Stress Gain
+|-
+| style="text-align: center; | [[File:Icon_amenity_servants.png|50px]] Servants
+|
+* {{icon|gold}} {{green|-20%}} Guest recruitment cost
+* {{icon|scheme phase length}} {{green|-4}} Days Personal Scheme Phase Length
+* {{icon|scheme phase length}} {{green|+4}} Days Enemy Hostile Scheme Phase Length
+|
+* {{icon|scheme phase length}} {{green|-2}} Days Personal Scheme Phase Length
+* {{icon|scheme phase length}} {{green|+2}} Days Enemy Hostile Scheme Phase Length
+|
+* {{icon|gold}} {{green|-30%}} Guest recruitment cost
+* {{icon|scheme phase length}} {{green|-8}} Days Personal Scheme Phase Length
+* {{icon|scheme phase length}} {{green|+8}} Days Enemy Hostile Scheme Phase Length
+|
+* {{icon|scheme phase length}} {{green|-4}} Days Personal Scheme Phase Length
+* {{icon|scheme phase length}} {{green|+4}} Days Enemy Hostile Scheme Phase Length
+|
+* {{icon|gold}} {{green|-40%}} Guest recruitment cost
+* {{icon|scheme phase length}} {{green|-12}} Days Personal Scheme Phase Length
+* {{icon|scheme phase length}} {{green|+12}} Days Enemy Hostile Scheme Phase Length
+|
+* {{icon|scheme phase length}} {{green|-6}} Days Personal Scheme Phase Length
+* {{icon|scheme phase length}} {{green|+6}} Days Enemy Hostile Scheme Phase Length
+|
+* {{icon|gold}} {{green|-50%}} Guest recruitment cost
+* {{icon|scheme phase length}} {{green|-16}} Days Personal Scheme Phase Length
+* {{icon|scheme phase length}} {{green|+16}} Days Enemy Hostile Scheme Phase Length
+|
+* {{icon|scheme phase length}} {{green|-8}} Days Personal Scheme Phase Length
+* {{icon|scheme phase length}} {{green|+8}} Days Enemy Hostile Scheme Phase Length
+|}
+
+== Court grandeur ==
+[[File:Seljuk court grandeur.png|thumb|600px|Court grandeur]]
+Court Grandeur is a measure of how famed a royal court is. Each court will have a baseline Court Grandeur, which is determined by dynasty legacies, court amenities and court artifacts. Court Grandeur will be raised or lowered towards the baseline at a rate of 0.2 per month, which is doubled if the ruler's dynasty unlocked the second [[File:Glory legacy track.png|24px]] Glory dynasty legacy. Court Grandeur can also be raised or lowered by holding court and certain events can affect it. A small amount of Court Grandeur is also lost upon succession. Once enough Court Grandeur has been acquired the grandeur level will increase, granting various benefits. If Court Grandeur falls below a level's required amount the bonuses will be lost in 6 months unless Court Grandeur is raised back. As Court Grandeur increases the court will visually become more decorated.
+
+Newly create courts start with 25 Court Grandeur.
+{| class="mildtable plainlist"
+! Grandeur level
+! Effects
+! Required grandeur
+|-
+| 1
+|{{icon|unknown}}Level 1 effect from Court Type
+| 10
+|-
+| 2
+| [[File:Task_bestow_royal_favor.png|24px]] Unlocks the Bestow Royal Favor chancellor task
+| 15
+|-
+| 3
+| [[File:Task_manage_guards.png|24px]] Unlocks the Manage Royal Guards marshal task
+| 20
+|-
+| 4
+|{{icon|unknown}}Level 4 effect from Court Type
+| 30
+|-
+| 5
+| {{icon|unknown}} Courtiers can gain level 1 Court Traits
+| 40
+|-
+| 6
+| [[File:Task_convince_dejure.png|24px]] Unlocks the Convince De Jure Territory steward task
+| 50
+|-
+| 7
+| 
+* {{icon|unknown}} {{green|+20}} Offer Guardianship Acceptance for Vassals
+* {{icon|crime}} {{green|+10%}} Imprison Chance
+*{{icon|unknown}}Level 7 effect from Court Type
+| 60
+|-
+| 8
+| {{icon|unknown}} Courtiers can gain level 2 Court Traits
+| 70
+|-
+| 9
+| 
+* {{icon|unknown}} {{green|+20}} Offer Guardianship Acceptance for Vassals
+* {{icon|crime}} {{green|+10%}} Imprison Chance
+* {{icon|renown}} {{green|+5%}} Monthly Renown
+| 80
+|-
+| 10
+|{{icon|unknown}}Level 10 effect from Court Type
+| 90
+|}
+
+=== Expectations ===
+The court of Feudal and Clan rulers will be expected to reach a grandeur level that depends on their title rank and increases by 1 for every 40 counties they control. Exceeding the grandeur level will grant increasing bonuses while falling behind will give increasing penalties. (This table is incomplete. One can obtain bonuses of up to (and possibly more than) 40% lifestyle experience and 3.33 Monthly Renown)
+{| class="mildtable" style="text-align: center;"
+! Levels above/below
+! {{icon|prestige}} Monthly Prestige
+! {{icon|opinion}} Courtier and Guest Opinion
+! {{icon|opinion}} Vassal Opinion
+! {{icon|opinion}} Independent Ruler and Fellow Vassal Opinion
+! {{icon|renown}} Monthly Renown
+! [[File:Focus invalid.png|24px]] Monthly Lifestyle Experience
+|-
+| '''+10'''
+| {{green|+1.4}}
+| {{green|+12}}
+| {{green|+12}}
+| {{green|+14}}
+| {{green|+1.3}}
+| {{green|+20%}}
+|-
+| '''+9'''
+| {{green|+1.2}}
+| {{green|+12}}
+| {{green|+12}}
+| {{green|+14}}
+| {{green|+1.1}}
+| {{green|+15%}}
+|-
+| '''+8'''
+| {{green|+1}}
+| {{green|+12}}
+| {{green|+7}}
+| {{green|+14}}
+| {{green|+0.9}}
+| {{green|+10%}}
+|-
+| '''+7'''
+| {{green|+0.8}}
+| {{green|+12}}
+| {{green|+7}}
+| {{green|+10}}
+| {{green|+0.7}}
+| '''0'''
+|-
+| '''+6'''
+| {{green|+0.7}}
+| {{green|+8}}
+| {{green|+7}}
+| {{green|+10}}
+| {{green|+0.5}}
+| '''0'''
+|-
+| '''+5'''
+| {{green|+0.6}}
+| {{green|+8}}
+| {{green|+7}}
+| {{green|+5}}
+| {{green|+0.3}}
+| '''0'''
+|-
+| '''+4'''
+| {{green|+0.5}}
+| {{green|+8}}
+| {{green|+3}}
+| {{green|+5}}
+| {{green|+0.15}}
+| '''0'''
+|-
+| '''+3'''
+| {{green|+0.4}}
+| {{green|+4}}
+| {{green|+3}}
+| {{green|+5}}
+| '''0'''
+| '''0'''
+|-
+| '''+2'''
+| {{green|+0.3}}
+| {{green|+4}}
+| {{green|+3}}
+| '''0'''
+| '''0'''
+| '''0'''
+|-
+| '''+1'''
+| {{green|+0.2}}
+| {{green|+4}}
+| '''0'''
+| '''0'''
+| '''0'''
+| '''0'''
+|-
+| '''−1'''
+| {{red|−0.2}}
+| '''0'''
+| '''0'''
+| '''0'''
+| '''0'''
+| '''0'''
+|-
+| '''−2'''
+| {{red|−0.4}}
+| {{red|−5}}
+| '''0'''
+| '''0'''
+| '''0'''
+| '''0'''
+|-
+| '''−3'''
+| {{red|−0.6}}
+| {{red|−5}}
+| {{red|−5}}
+| '''0'''
+| '''0'''
+| '''0'''
+|-
+| '''−4'''
+| {{red|−0.8}}
+| {{red|−5}}
+| {{red|−5}}
+| {{red|−5}}
+| {{red|−0.2}}
+| '''0'''
+|-
+| '''−5'''
+| {{red|−1}}
+| {{red|−10}}
+| {{red|−5}}
+| {{red|−5}}
+| {{red|−0.4}}
+| '''0'''
+|-
+| '''−6'''
+| {{red|−1.2}}
+| {{red|−10}}
+| {{red|−10}}
+| {{red|−5}}
+| {{red|−0.6}}
+| '''0'''
+|-
+| '''−7'''
+| {{red|−1.4}}
+| {{red|−10}}
+| {{red|−10}}
+| {{red|−10}}
+| {{red|−0.8}}
+| '''0'''
+|-
+| '''−8'''
+| {{red|−1.6}}
+| {{red|−20}}
+| {{red|−10}}
+| {{red|−10}}
+| {{red|−1}}
+| {{red|−10%}}
+|-
+| '''−9'''
+| {{red|−1.8}}
+| {{red|−20}}
+| {{red|−20}}
+| {{red|−10}}
+| {{red|−1.2}}
+| {{red|−15%}}
+|-
+| '''−10'''
+| {{red|−2}}
+| {{red|−20}}
+| {{red|−20}}
+| {{red|−20}}
+| {{red|−1.4}}
+| {{red|−20%}}
+|}
+
+== References ==
+<references/>
+{{Mechanics navbox}}
+[[Category:Realm]]

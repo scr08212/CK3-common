@@ -1,0 +1,10 @@
+{{Version|timeless}}
+{{Decisionav}}
+'''Decisions''' are actions that can be taken under certain circumstances. Some decisions can only be taken once per character or once per game while others can be taken repeatedly. Most decisions are unavailable if the character has the {{iconify|Incapable}} trait. Decisions are not shown unless the character meets one of the more specific requirements.
+
+Decisions are divided into three groups:
+# [[Character decisions]] are available to every character in the game
+# [[Ruler decisions]] are available only to rulers - characters who own landed titles
+# [[Adventurer decisions]] are available only to [[adventurers]]
+
+{{Mechanics navbox}}

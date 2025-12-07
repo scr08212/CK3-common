@@ -1,0 +1,554 @@
+{{Version|1.18}}
+{{expansion|auh|small=no}}
+Great projects are massive undertakings of independent rulers that call on all the resources in the realm. A great project begins with a starting cost which the ruler must pay. At this point the project can be canceled and the starting cost will be refunded. Afterwards the either the ruler or its subjects must pay all mandatory contributions and once the first contribution has been paid the project can no longer be canceled. Once all mandatory contributions are paid the project will take a number of years to be completed. Until the great project is halfway completed additional optional contributions can still be paid. The ruler who pays for a contribution receives a reward. Before a great project is started the sum of all mandatory contribution costs will be displaced.
+
+Any vassal in the de jure hierarchy that holds a title covering the location where a great project is taking place can pay for the contribution, which will give them {{green|+35}} {{iconify|Prestige}} and {{green|+30}} {{iconify|Influence}}. If the vassal has the {{iconify|Governor}} trait it will receive experience for it, and if its government uses {{iconify|Merit}} it will gain some. Vassals that can afford to pay a contribution can also be asked to pay by the top liege, in which case the vassal will not receive anything and will have to accept. Vassals who benefit from the great project will always accept but those who do not must be convinced. Acceptance can be increased by offering the vassal {{iconify|Influence}} or a Hook. A {{iconify|Weak Hook}} on the vassal can also be used to increased their acceptance while a {{iconify|Strong Hook}} can be used to force them to accept.
+
+Great projects are canceled if the project location is conquered by a different ruler.
+
+== Develop Communities ==
+Develop Communities is a great project available to rulers with {{icon|governor efficiency}} Administrative, {{iconify|Celestial}}, {{iconify|Ritsuryō}}, {{iconify|Meritocratic}} or {{iconify|Meritocratic Khanate}} government. The Hegemon of China also requires to have filled the Minister of Works council position. The project must target a duchy and when completed every county inside will gain {{iconify|Development}} and every holding in them will gain or upgrade a random building. The project takes 10 years to complete. The cost of the great project scales with the ruler's {{iconify|Treasury}} income.
+Every subject can contribute to the great project, which has two mandatory contributions:
+* '''Send Construction Crew''' costs 100 {{iconify|Treasury}} and gives the ruler who paid it 60 {{iconify|Merit}} if their government uses it and 350 {{iconify|Prestige}} if it does not
+* '''Provide Engineers''' costs 100 {{iconify|Treasury}} and gives the ruler who paid it 60 {{iconify|Influence}}
+The great project has one optional contribution, which can only be paid by the governor of the selected duchy. The contribution costs 400-800 {{iconify|Treasury}} depending on the culture's era and increases the {{iconify|Development}} in the governor's capital by 1 and gives them experience for the {{iconify|Governor}} trait.
+
+== Capital Temple Complex ==
+Capital Temple Complex is a great project available to independent rulers with {{iconify|Mandala}} government. When the great project is completed the ruler will gain 350 {{iconify|Prestige}}, 100 {{iconify|Legitimacy}} and 150 {{iconify|Renown}} and the realm capital holding will either be changed to [[File:Holding temple citadel.png|24px]] Temple Citadel or its Capital Temple Complex building will be upgraded. Starting the great project costs 250 {{iconify|Piety}} for each level. The project can be taken multiple times for each realm capital but there is a limit of two Capital Temple Complex building for every de jure kingdom.
+
+Every subject can contribute to Capital Temple Complex great projects, but those who also have an upgraded Temple Complex will always refuse and have to be forced to contribute. Resource rewards from contributions are given to the ruler who paid for them but modifiers are always given to the top liege.
+{| class="mildtable plainlist"
+! Level
+! Contribution
+! Necessity
+! Contributor rewards
+! Cost
+! Requirements
+! Time
+|-
+| rowspan=9 | '''1'''
+| Rite of Worthiness
+| Mandatory
+| 
+* {{icon|legitimacy}} {{green|+50}} Legitimacy
+* {{icon|piety}} {{green|+75}} Devotion
+| Same requirements as level 2 for the currently-selected Mandala Aspect
+| rowspan=9 | 
+* Aspiring legitimacy level
+* Faithful level of devotion
+* At least one tributary
+| rowspan=9 | 5 years
+|-
+| Slabs of Sandstone
+| Mandatory
+| {{icon|prestige}} {{green|+350}} Prestige
+| {{icon|gold}} Scaled Gold
+|-
+| Laterite Blocks
+| Mandatory
+| 
+* {{icon|prestige}} {{green|+150}} Prestige
+* {{icon|piety}} {{green|+25}} Devotion
+| 
+* {{icon|gold}} Scaled Gold
+* {{icon|piety}} 250 Piety
+|-
+| Timber
+| Mandatory
+| {{icon|prestige}} {{green|+75}} Fame
+| 
+* {{icon|gold}} Scaled Gold
+* {{icon|piety}} 100 Piety
+|-
+| Workforce
+| Mandatory
+| 
+* {{icon|levies}} {{green|+20%}} Levy Reinforcement Rate for 15 years
+* {{icon|time}} {{green|-15%}} Building Construction Time for 15 years
+| {{icon|piety}} 375 Piety
+|-
+| Woodcarvings
+| Optional
+| {{icon|legitimacy}} {{green|+75}} Legitimacy
+| {{icon|piety}} 250 Piety
+|-
+| Sanctified Domes
+| Optional
+| [[File:Modifier mandala positive.png|24px]] Dynasty gains the Sanctified Domes permanent modifier
+| 
+* {{icon|gold}} Scaled Gold
+* {{icon|piety}} 250 Piety
+|-
+| Ornate Reliefs
+| Optional
+| [[File:Modifier economy positive.png|24px]] Capital gains the Ornate Reliefs permanent modifier
+| {{icon|gold}} Scaled Gold
+|-
+| Family Shrine
+| Optional
+| {{icon|renown}} {{green|+75}} Renown
+| 
+* {{icon|gold}} Scaled Gold
+* {{icon|piety}} 250 Piety
+* [[File:Southeast asia legacy track.png|24px]] Third Divine Aspirations dynasty legacy
+|-
+| rowspan=8 | '''2'''
+| Rite of Worthiness
+| Mandatory
+| 
+* {{icon|legitimacy}} {{green|+50}} Legitimacy
+* {{icon|piety}} {{green|+75}} Devotion
+| Same requirements as level 3 for the currently-selected Mandala Aspect
+| rowspan=8 | 
+* Recognized legitimacy level
+* Devoted Servant level of devotion
+* At least 6 subjects
+* Capital holding has previous level
+| rowspan=8 | 5 years
+|-
+| Brick
+| Mandatory
+| {{icon|prestige}} {{green|+350}} Prestige
+| {{icon|gold}} Scaled Gold
+|-
+| Tracks of Tiles
+| Mandatory
+| 
+* {{icon|prestige}} {{green|+225}} Prestige
+* {{icon|piety}} {{green|+75}} Devotion
+| 
+* {{icon|gold}} Scaled Gold
+* {{icon|piety}} 250 Piety
+|-
+| Shallow Pools
+| Mandatory
+| [[File:Modifier travel safety positive.png|24px]] Capital gains the Shallow Pools permanent modifier
+| 
+* {{icon|gold}} Scaled Gold
+* {{icon|piety}} 250 Piety
+|-
+| Workforce
+| Mandatory
+| 
+* {{icon|levies}} {{green|+20%}} Levy Reinforcement Rate for 15 years
+* {{icon|time}} {{green|-15%}} Building Construction Time for 15 years
+| {{icon|piety}} 375 Piety
+|-
+| Decorative Tiles
+| Optional
+| {{icon|legitimacy}} {{green|+75}} Legitimacy
+| {{icon|gold}} Scaled Gold
+|-
+| Decorated Domes
+| Optional
+| [[File:Modifier mandala positive.png|24px]] Dynasty gains the Decorated Domes permanent modifier
+| 
+* {{icon|gold}} Scaled Gold
+* {{icon|piety}} 375 Piety
+|-
+| Sacred Statue of Heir
+| Optional
+| {{icon|renown}} {{green|+150}} Renown
+| 
+* {{icon|gold}} Scaled Gold
+* {{icon|piety}} 375 Piety
+* [[File:Southeast asia legacy track.png|24px]] Third Divine Aspirations dynasty legacy
+|-
+| rowspan=11 | '''3'''
+| Rite of Worthiness
+| Mandatory
+| 
+* {{icon|legitimacy}} {{green|+100}} Legitimacy
+* {{icon|piety}} {{green|+150}} Devotion
+| Same requirements as level 4 for the currently-selected Mandala Aspect
+| rowspan=11 | 
+* True legitimacy level
+* Devoted Servant level of devotion
+* At least 10 subjects
+* Capital holding has previous level
+| rowspan=11 | 10 years
+|-
+| Volcanic Stone
+| Mandatory
+| {{icon|prestige}} {{green|+440}} Prestige
+| {{icon|gold}} Scaled Gold
+|-
+| Corbel Gateways
+| Mandatory
+| 
+* {{icon|prestige}} {{green|+265}} Prestige
+* {{icon|piety}} {{green|+135}} Devotion
+| 
+* {{icon|gold}} Scaled Gold
+* {{icon|piety}} 375 Piety
+|-
+| Divine Statues
+| Mandatory
+| [[File:Modifier rock positive.png|24px]] Capital gains the Divine Statues permanent modifier
+| 
+* {{icon|gold}} Scaled Gold
+* {{icon|piety}} 375 Piety
+|-
+| Workforce
+| Mandatory
+| 
+* {{icon|levies}} {{green|+20%}} Levy Reinforcement Rate for 15 years
+* {{icon|time}} {{green|-15%}} Building Construction Time for 15 years
+| {{icon|piety}} 500 Piety
+|-
+| Gilded Domes
+| Optional
+| [[File:Modifier mandala positive.png|24px]] Dynasty gains the Gilded Domes permanent modifier
+| {{icon|gold}} Scaled Gold
+|-
+| Statues of Creation
+| Optional
+| 
+* {{icon|stewardship}} {{green|+1}} Stewardship
+* [[File:Modifier stewardship positive.png|24px]] Capital gains the Statues of Creation permanent modifier
+| 
+* {{icon|gold}} Scaled Gold
+* {{icon|piety}} 500 Piety
+* {{icon|piety}} Religious Icon level of devotion
+* [[File:Aspect of creation small.png|24px]] Aspect of Creation
+|-
+| Statues of Destruction
+| Optional
+| 
+* {{icon|martial}} {{green|+1}} Martial
+* [[File:Modifier martial positive.png|24px]] Capital gains the Statues of Destruction permanent modifier
+| 
+* {{icon|gold}} Scaled Gold
+* {{icon|piety}} 500 Piety
+* {{icon|piety}} Religious Icon level of devotion
+* [[File:Aspect of destruction small.png|24px]] Aspect of Destruction
+|-
+| Statues of Serenity
+| Optional
+| 
+* {{icon|diplomacy}} {{green|+1}} Diplomacy
+* [[File:Modifier diplomacy positive.png|24px]] Capital gains the Statues of Serenity permanent modifier
+| 
+* {{icon|gold}} Scaled Gold
+* {{icon|piety}} 500 Piety
+* {{icon|piety}} Religious Icon level of devotion
+* [[File:Aspect of serenity small.png|24px]] Aspect of Serenity
+|-
+| Statues of Trickery
+| Optional
+| 
+* {{icon|intrigue}} {{green|+1}} Intrigue
+* [[File:Modifier intrigue positive.png|24px]] Capital gains the Statues of Trickery permanent modifier
+| 
+* {{icon|gold}} Scaled Gold
+* {{icon|piety}} 500 Piety
+* {{icon|piety}} Religious Icon level of devotion
+* [[File:Aspect of trickery small.png|24px]] Aspect of Trickery
+|-
+| Family Temple Compound
+| Optional
+| {{icon|renown}} {{green|+150}} Renown
+| 
+* {{icon|gold}} Scaled Gold
+* {{icon|piety}} 500 Piety
+* [[File:Southeast asia legacy track.png|24px]] Third Divine Aspirations dynasty legacy
+|-
+| rowspan=7 | '''4'''
+| Rite of Worthiness
+| Mandatory
+| 
+* {{icon|legitimacy}} {{green|+100}} Legitimacy
+* {{icon|piety}} {{green|+150}} Devotion
+| Same requirements as level 5 for the currently-selected Mandala Aspect
+| rowspan=7 | 
+* Ordained legitimacy level
+* Paragon of Virtue level of devotion
+* At least 15 subjects
+* Capital holding has previous level
+| rowspan=7 | 10 years
+|-
+| Slabs of Granite
+| Mandatory
+| {{icon|prestige}} {{green|+440}} Prestige
+| {{icon|gold}} Scaled Gold
+|-
+| Zaungdans
+| Mandatory
+| 
+* {{icon|prestige}} {{green|+265}} Prestige
+* {{icon|piety}} {{green|+135}} Devotion
+| 
+* {{icon|gold}} Scaled Gold
+* {{icon|piety}} 500 Piety
+|-
+| Gilded Shrines
+| Mandatory
+| [[File:Modifier signet ring positive.png|24px]] Capital gains the Gilded Shrines permanent modifier
+| 
+* {{icon|gold}} Scaled Gold
+* {{icon|piety}} 500 Piety
+|-
+| Workforce
+| Mandatory
+| 
+* {{icon|levies}} {{green|+20%}} Levy Reinforcement Rate for 15 years
+* {{icon|time}} {{green|-15%}} Building Construction Time for 15 years
+| {{icon|piety}} 500 Piety
+|-
+| Bejeweled Domes
+| Optional
+| [[File:Modifier mandala positive.png|24px]] Dynasty gains the Bejeweled Domes permanent modifier
+| 
+* {{icon|gold}} Scaled Gold
+* {{icon|piety}} 250 Piety
+|-
+| Family Temple Complex
+| Optional
+| {{icon|renown}} {{green|+1000}} Renown
+| 
+* {{icon|gold}} Scaled Gold
+* {{icon|piety}} 375 Piety
+* [[File:Southeast asia legacy track.png|24px]] Third Divine Aspirations dynasty legacy
+|-
+| rowspan=7 | '''5'''
+| Rite of Worthiness
+| Mandatory
+| 
+* {{icon|legitimacy}} {{green|+100}} Legitimacy
+* {{icon|piety}} {{green|+150}} Devotion
+| Same requirements as level 5 for the currently-selected Mandala Aspect
+| rowspan=7 | 
+* Cosmic legitimacy level
+* Paragon of Virtue level of devotion
+* At least 20 subjects
+* Capital holding has previous level
+| rowspan=7 | 15 years
+|-
+| Marble Foundation
+| Mandatory
+| 
+* {{icon|legitimacy}} {{green|+100}} Legitimacy
+* {{icon|prestige}} {{green|+525}} Prestige
+* {{icon|piety}} {{green|+115}} Devotion
+| {{icon|gold}} Scaled Gold
+|-
+| Divine Barays
+| Mandatory
+| [[File:Modifier travel safety positive.png|24px]] Capital gains the Divine Barays permanent modifier
+| 
+* {{icon|gold}} Scaled Gold
+* {{icon|piety}} 1000 Piety
+|-
+| Workforce
+| Mandatory
+| 
+* {{icon|levies}} {{green|+20%}} Levy Reinforcement Rate for 15 years
+* {{icon|time}} {{green|-15%}} Building Construction Time for 15 years
+| {{icon|piety}} 1000 Piety
+|-
+| Bejeweled Reliefs
+| Optional
+| {{icon|unknown}} Talisman artifact gains additional effects based on Mandala Aspect
+| 
+* {{icon|gold}} Scaled Gold
+* {{icon|piety}} 250 Piety
+|-
+| Forest of Bunga Mas
+| Optional
+| [[File:Modifier mandala legitimacy positive.png|24px]] Dynasty gains the Forest of Bunga Mas permanent modifier
+| 
+* {{icon|gold}} Scaled Gold
+* {{icon|piety}} 1000 Piety
+|-
+| Dynastic Temple Area
+| Optional
+| {{icon|renown}} {{green|+1000}} Renown
+| 
+* {{icon|gold}} Scaled Gold
+* {{icon|piety}} 1000 Piety
+* [[File:Southeast asia legacy track.png|24px]] Third Divine Aspirations dynasty legacy
+|}
+Canceling the great project costs 75 {{iconify|Prestige}}.
+
+== Hegemony of China great projects ==
+The following great projects are only available to the Hegemon of China. The cost to both start the great project and pay contribution scales with the hegemon's {{iconify|Treasury}} income.
+{| class="mildtable plainlist"
+! Great project
+! Completion effects
+! Starting cost
+! Contributions
+! Requirements
+! Time
+|-
+| {{iconbox|Construct Great Barracks|Our military might can be displayed through the construction of a great fortress that accommodates innumerable soldiers. Military commanders will be able to recruit more troops and large garrisons, which in turn will greatly benefit the area's defensive strength.|image=Great project china.png|w=30em}}
+| 
+* [[File:Structure celestial great barracks.png|24px]] Selected province gains a Great Barracks duchy building
+* Can only select de jure duchy capitals of a military governor
+| Moderate
+| '''Mandatory'''
+* Construction Materials
+** [[File:Mandate legitimacy.png|24px]] {{green|+20}} Legitimacy
+* Fortification Materials
+** [[File:Mandate legitimacy.png|24px]] {{green|+20}} Legitimacy
+* Workforce
+** [[File:Mandate legitimacy.png|24px]] {{green|+20}} Legitimacy
+* Soldiers
+** [[File:Mandate legitimacy.png|24px]] {{green|+20}} Legitimacy
+| {{iconify|Barracks}} innovation
+| 5 years
+|-
+| {{iconbox|Strengthen Capital|The capital is not merely the seat of my government. It is the very center of the realm, and should be a majestic symbol of my reign. By refurbishing the entire city, improving streets, funding a university, raising statues and other monuments, this beautiful city will become a reflection of my dynasty.|image=Great project china.png|w=30em}}
+| 
+* [[File:Mandate legitimacy.png|24px]] {{green|+100}} Legitimacy
+* {{icon|prestige}} {{green|+4}} Monthly Prestige for 20 years
+* {{icon|yes}} Stability dynastic cycle has no yearly drift for 20 years
+| High
+| '''Mandatory'''
+* Construction Materials
+** [[File:Mandate legitimacy.png|24px]] {{green|+20}} Legitimacy
+* Workforce
+** [[File:Mandate legitimacy.png|24px]] {{green|+20}} Legitimacy
+'''Optional'''
+* Forbidden City
+** [[File:Structure forbidden city.png|24px]] The Forbidden City special building
+* Skilled Architects
+** {{icon|development}} {{green|+0.2}} Monthly Development for 20 years
+** {{icon|development}} {{green|+20%}} Development Growth for 20 years
+* Talented Engineers
+** {{icon|time}} {{green|-20%}} Building Construction Time for 20 years
+* Marvelous Sculptors
+** {{icon|roc}} {{green|+10}} Court Grandeur for 20 years
+| {{icon|warning}} Can only be done every 20 years
+| 5 years
+|-
+| {{iconbox|Extend the Great Wall to Shanhai Pass|The Great Wall is already quite impressive, but it can become even more so and offer better protection. By extending the wall further east, to Shanhai Pass and the coast, we can block off all access from the north.|image=Great wall.png|w=30em}}
+| [[File:Structure the great wall.png|24px]] The Great Wall is extended to the Shanhai Pass region
+| Moderate
+| '''Mandatory'''
+* Construction Material
+* Construction Material
+* Construction Material
+* Construction Material
+* Construction Material
+* Construction Material
+* Construction Material
+* Construction Material
+| {{icon|yes}} Control the Shanhai Pass region
+| 10 years
+|-
+| {{iconbox|Extend the Great Wall to Liaodong|As we expand our borders, so too shall we expand the great wall to encompase the coastline. All parts of our realm, be it land or sea, must be protected.|image=Great wall.png|w=30em}}
+| [[File:Structure the great wall.png|24px]] The Great Wall is extended to the Liaodong region
+| Moderate
+| '''Mandatory'''
+* Construction Material
+* Construction Material
+* Construction Material
+* Logistics
+| {{icon|yes}} Control the Liaodong  region
+| 10 years
+|}
+
+=== Councilor great projects ===
+The following great projects require a certain council position to be filled and can be initiated by either the top liege, the diarch, or the councilor required for them. Their cost is halved if they are started by a diarch or councilor.
+{| class="mildtable plainlist"
+! Great project
+! Completion effects
+! Starting cost
+! Contributions
+! Councilor
+! Time
+|-
+| {{iconbox|Dynasty's Grand Campaign|We can launch a Grand Military Campaign, uniting all Duchies of a neighboring Kingdom under Heaven. It shall be spearheaded by The Commission, and followed by eager Vassals.|image=Grand guardian court position.png|w=25em}}
+| 
+* {{icon|yes}} Grand Marshal declares war on the owner of the targeted duchy
+* {{icon|no}} Cannot target duchies owned by a tributary
+| Moderate
+| '''Mandatory'''
+* Pledge to Conquer Selected Duchy
+'''Optional'''
+* Pledge to Conquer Adjacent Duchy
+** {{iconify|Duchy}} added to casus belli
+| Grand Marshal
+| Instant
+|-
+| {{iconbox|Establish Control|Integrating every province and every town, and to establish a high degree of control within them, is essential if our buraucracy is to be as efficient as possible.|image=Icon game concept house realm county control.png|w=25em}}
+| {{icon|control}} {{green|+10-20}} Control in the selected duchy
+| High
+| '''Mandatory'''
+* Administrators
+** {{icon|merit}} {{green|+60}} Merit
+** {{icon|stewardship lifestyle}} {{green|+300}} Stewardship Lifestyle Experience
+* Court Magistrates
+** {{iconify|Confucian Education}} trait
+** {{icon|merit}} {{green|+60}} Merit
+** {{icon|learning lifestyle}} {{green|+300}} Learning Lifestyle Experience
+* City Guards
+** {{icon|influence}} {{green|+60}} Influence
+** {{icon|merit}} {{green|+60}} Merit
+* Highway Patrols
+** {{icon|prestige}} {{green|+350}} Prestige
+** {{icon|martial lifestyle}} {{green|+300}} Martial Lifestyle Experience
+| Minister of Rites
+| 5 years
+|-
+| {{iconbox|Sinicize Area|How can we be truly unified unless we share common values? Differences can cause strife and unrest. We can solve these issues, at least partially, with a long term integration effort. One realm, one people.|image=Minister bureaucrat court position.png|w=25em}}
+| 
+* {{icon|culture}} Cultures with a different heritage convert culture
+* {{icon|opinion}} Cultures with the same heritage gain Acceptance
+* [[File:Holding castle.png|24px]] Tribe holdings are replaced by Castle holdings
+* {{icon|celestial}} Tribe vassals change government to Celestial
+| Low
+| '''Mandatory'''
+* Provide a Cultural Liaison
+** [[File:Mandate legitimacy.png|24px]] {{green|+50}} Legitimacy
+'''Optional'''
+* Send Inhabitants
+** {{icon|influence}} {{green|+60}} Influence
+** {{icon|time}} {{green|-1}} Year time if funded before project starts
+* Send Inhabitants
+** {{icon|influence}} {{green|+60}} Influence
+** {{icon|time}} {{green|-1}} Year time if funded before project starts
+* Send Inhabitants
+** {{icon|influence}} {{green|+60}} Influence
+** {{icon|time}} {{green|-1}} Year time if funded before project starts
+| Minister of Rites
+| 10 years
+|-
+| {{iconbox|Improve the Great Wall|The Great Wall stands as a testament to our predecessors' engineering skill and ingenuity in deterring potential invaders. Yet, as with everything else, time has taken its toll. The wall is in dire need of improvement.|image=Great wall.png|w=25em}}
+| [[File:Structure the great wall.png|24px]] The Great Wall buildings are upgraded
+| Low
+| '''Mandatory'''
+* Hire a Master Builder and Begin Construction
+* Improve the Walls
+** {{icon|yes}} Barony added to the upgrade list
+| Minister of Works
+| 5 years
+|-
+| {{iconbox|The Grand Canals|Prior custodians of this land have constructed vast canal networks, linking rivers and lakes through man-made waterways, connecting north and south. Expanding this system with modern techniques will make it even more efficient, while honoring the legacy and skill of the original engineers.|image=Grand canals.png|w=25em}}
+| 
+* [[File:Modifier compass positive.png|24px]] Counties in the selected duchy gain the Grand Canal modifier
+* [[File:Silk road.png|24px]] {{green|+30}} Silk Road Catalyst Progress
+| High
+| '''Mandatory'''
+* Construction Crew
+** {{icon|merit}} {{green|+60}} Merit
+** {{icon|diplomacy lifestyle}} {{green|+300}} Diplomacy Lifestyle Experience
+*Dig Crew
+** {{icon|merit}} {{green|+60}} Merit
+** {{icon|stewardship lifestyle}} {{green|+300}} Stewardship Lifestyle Experience
+* Dredging Boats
+** {{icon|merit}} {{green|+60}} Merit
+* Engineers
+** {{icon|merit}} {{green|+60}} Merit
+** {{icon|learning lifestyle}} {{green|+300}} Learning Lifestyle Experience
+* Logistics
+** {{icon|influence}} {{green|+60}} Influence
+** {{icon|merit}} {{green|+60}} Merit
+** {{icon|stewardship lifestyle}} {{green|+300}} Stewardship Lifestyle Experience
+* Materials
+** {{icon|influence}} {{green|+60}} Influence
+** {{icon|merit}} {{green|+60}} Merit
+| Minister of Works
+| 5 years
+|}
+[[Category:Realm]]

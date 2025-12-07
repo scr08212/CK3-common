@@ -1,0 +1,734 @@
+{{Version|1.17}}
+Hired forces are predefined [[army|armies]] which may be temporarily controlled by hiring them with {{iconify|Gold}}. Hired forces cannot be used to [[raid]]. There are two types of hired forces, each one with its own tab in the Military menu.
+
+== Mercenaries ==
+[[File:Mercenaries screen.png|500px|thumb|right|The mercenaries screen.]]
+Mercenaries are armies that can be hired by rulers for 3 years. The gold cost is paid upon hiring the Mercenaries and there is no additional cost associated with hiring them, but at the end of the 3 years, they will leave if their contract is not extended. Extending a contract for 3 years has the same cost as initially hiring the army. 
+
+Each [[culture]] generates between one and three mercenary companies depending on the number of [[county|counties]] of that culture, with each additional company being bigger and more expensive than the previous one. They will pick a county of their culture as their headquarters and will be available to be hired by anyone with [[capital]] within [[diplomatic range]] of that county. Range between  Mercenary armies come with one or more specific [[men-at-arms]] regiments and will also contain a number of [[knight]]s. Mercenary regiments reinforce 3 times faster than regular regiments. Character can hire mercenaries of their own culture from further away.
+
+Rulers are allowed to go into [[debt]] up to 2 years in order to hire mercenaries.
+
+The cost of hiring mercenaries can be reduced by the following:
+
+* 30% with the Soldiers of Lesser Fortune perk of the Overseer tree.
+* 15% with the Communal court type.
+* 15% with the "Swords for hire" Tradition, for same culture only.
+* < 30% from the "Scoundrel" accolade stat
+* 25% from the "Condottieri" regional innovation, for same culture only.
+* 50% from "Malleable" subjects Tradition, for same culture only
+* Many more...
+
+{| class="mildtable" style="text-align: center;
+! Mercenary company
+! Levies
+! Regiments
+! Knights
+! Cultural regiment chance
+|-
+| 1st || 400 || 1 || 2 || 50%
+|-
+| 2nd || 800 || 2 || 3 || 66%
+|-
+| 3rd || 1200 || 3 || 4 || 80%
+|}
+
+Mercenary armies select a name based on their culture, as shown in the table below.
+{| class="mildtable plainlist mw-collapsible mw-collapsed"
+! Culture/Culture group
+! Name(s)
+|-
+| Default
+| ''Culture adjective'' Band of ''location''
+|-
+| Akan group
+| Ashanti Band, Company of the Volta, Followers of Akwei
+|-
+| Arabic group
+| Mamluks
+|-
+| Bedouin
+| Wanderers, Company of ''location''
+|-
+| Mashriqi
+| Sarkans of ''location'', Company of the Oasis, Desert Brethren
+|-
+| Egyptian
+| Host of the Nile, Keepers of the Lighthouse
+|-
+| Maghrebi
+| Union of Swords, Army of the Senator
+|-
+| Andalusian
+| Almogavars of ''location'', Mawali Band, Treasurers of ''location''
+|-
+| Baltic group
+| Baltic Band, Riders of the Coast, Company of the Deeplands
+|-
+| Butr
+| Army of the Crossing, ''location'' Band, Riders of the Mountains
+|-
+| Baranis
+| Followers from ''location'', Company of ''location''
+|-
+| Burman group
+| Arakan Band, Company of the Valley
+|-
+| Burmese
+| Company of the Irrawaddy, Burmese Host
+|-
+| Mon
+| Sadhuim Company, Mon Host
+|-
+| Byzantine group
+| Manglabites, Ten Thousand
+|-
+| Greek
+| Varangian Guard, Herules, Hoplites of ''location''
+|-
+| Georgian
+| Veterans of Chaldia
+|-
+| Central African group
+| Sahelian Band, Company of the Chad, Company of the Gambra, Followers of Bayajida, Followers of Sundiata
+|-
+| Pictish
+| Woad Raiders
+|-
+| Welsh
+| Lawgoch's Followers, Band of the Horn
+|-
+| Breton
+| Company of Bretons
+|-
+| Cornish
+| Bodyguards of Gwendolen
+|-
+| Saxon
+| Teutonic Brotherhood, Saxon Steelbearers, Hansa Guard, Sons of Widukind
+|-
+| Franconian
+| Great Company, Franconian Company, Thuringian Blades, Rhenish Band, New Franks
+|-
+| Swabian
+| Swabian Band, Alsace Fighters, Alemannic Sellswords, Helvetic Guard
+|-
+| Bavarian
+| Bavarian Band, Austrian Company, Tyrol Warriors, Styrian Panthers
+|-
+| Dutch
+| Company of the Brabançon Wolf, Flemish Band, Company of the False-Earl
+|-
+| German
+| Great Company, Veterans of the Marches, Swiss Guard
+|-
+| Dravidian group
+| Velaikkarar of ''location'', Company of the Tiger, Tungabhadra Gang, Dreamers of the Jog, Company of the Ghats, Guards of Rama Setu, Terrors of Tamilakam, Company of the Koyil
+|-
+| Ethiopian
+| Ge'ezan Company, Tigrayit Band
+|-
+| Nubian
+| Noba Company, Kushite Band, Company of Meroe
+|-
+| Welayta
+| Company of the Leopard, Gondershe Band, Guardians of Almnara
+|-
+| Daju
+| Army of the Crossing, Beja Place Band, Riders of the Mountains
+|-
+| East Slavic
+| Kievan Band, Varangian Host, Raiders of Caspia, Company of Rus, Followers of Oleg
+|-
+| French
+| Tard-Venus de ''location'', Band of ''location'', Routiers of ''location'', ''location'' Band
+|-
+| Norman
+| Band of the Black Monk, Iron Arm's Company, Normans of Drengot
+|-
+| Occitan
+| Routiers of the Archpriest, Host of the Viscount, Marchers of Wasconia
+|-
+| Irish
+| Band of Kerns, Madhmann's Company, Company of Shield and Scian
+|-
+| Gaelic
+| Gallowglasses, Redshanks
+|-
+| Iberian group
+| Almogavars of ''location'', Almogavars of ''location''
+|-
+| Basque
+| Navarrese Company
+|-
+| Castilian
+| Slaughterers, Band of the Brigand Emperor
+|-
+| Catalan
+| Great Catalan Company
+|-
+| Portuguese
+| Count's Exiles
+|-
+| Galician
+| Slaughterers, Band of the Brigand Emperor
+|-
+| Asturleonese
+| Slaughterers, Band of the Brigand Emperor
+|-
+| Aragonese
+| Slaughterers, Band of the Brigand Emperor
+|-
+| Indo-Aryan group
+| Tigers of ''location'', Apabhranśa Band
+|-
+| Bengali
+| Company of the Delta, Bengal Host
+|-
+| Oriya
+| Oryia Band, Company of Odisha
+|-
+| Hindustani
+| Company of Many Colors, Hindustani Band, Company of the Ganges
+|-
+| Gujarati
+| Company of the Great Rann, Band of the Nilgai, Company of the Stone Anchor
+|-
+| Punjabi
+| Company of the Punjab, Host of Sangala
+|-
+| Rajput
+| Rajaputra Band, Company of the Exile, Followers of the Priest King
+|-
+| Sindhi
+| Company of the Dead Men, Harappan Band
+|-
+| Marathi
+| Company of Four Kings, Servants of the Vatandar, Badami Companions
+|-
+| Kashmiri
+| Company of Kashmir, Host of Kashmir
+|-
+| Sinhala
+| Company of the Staff, Rice Grain Band
+|-
+| Iranian
+| Ghilman, Warriors of Zaranj, ''location'' Cataphracts
+|-
+| Persian
+| Band of Medes, Immortals of ''location''
+|-
+| Sogdian
+| Company of Sogdiana, Sogdian Warriors
+|-
+| Tocharian
+| Band of Tókharoi
+|-
+| Kurdish
+| Band of Sermaj
+|-
+| Afghan
+| Khorasani Band, Company of Shahids
+|-
+| Baloch
+| Company of Makran, Westwards Band
+|-
+| Daylamite
+| Daylamite Company, Band of Sermaj
+|-
+| Khwarezmian
+| Company of Khwarezm, Khwarezmian Warriors
+|-
+| Tajik
+| Company of Bukhara, Dehqan Warriors
+|-
+| Latin group
+| Company of the Bull
+|-
+| Italian
+| Company of the Star, Black Band, Italian Condottiere Band
+|-
+| Cisalpine
+| Company of Saint George, Company of the Star, Company of the Hat, Company of the Rose, Cisalpine Condottiere Band
+|-
+| Sardinian
+| Sardinian Band
+|-
+| Sicilian
+| Sicilian Condottiere Band, Sicilian Band
+|-
+| Lombard
+| Longbeard Band
+|-
+| Magyar group
+| Band of the Fields, Band of the Arrow Rain, Company of the Saint
+|-
+| Mongolic group
+| ''Location'' Horde, Army Under the Sky, Riders of Mongol ''location'', True Khan's Faithful, Company of the Yurt, Steppe Dancer's Band, Chastisement of ''location'', Band of the Father, Company of the Goad
+|-
+| North Germanic group
+| Thinglith, Army of Kylfingar, Company of Jarl Landless, Huscarls of the Sea, Band of Firesmoke, Queen's Hird
+|-
+| Swedish
+| Göta Band
+|-
+| Norwegian
+| Birchers of ''location''
+|-
+| Danish
+| Border Reaver's Band
+|-
+| Sahelian group
+| Sahelian Band, Company of Awkar, Followers of Kayamagha
+|-
+| Senegambian group
+| Sahelian Band, Company of the Gambra, Followers of Sundiata
+|-
+| Somali
+| Company of the Leopard, Gondershe Band, Guardians of Almnara
+|-
+| Beja
+| Army of the Crossing, Beja Place Band, Riders of the Mountains
+|-
+| Afar
+| Company of the Leopard, Gondershe Band, Guardians of Almnara
+|-
+| South Slavic group
+| Stratioti of ''location'', Wayfarers of ''location'', Band of ''location'' Stratioti
+|-
+| Bosnian
+| Bitter-Winter Band, Knéževi of the Road, Forest Wolves
+|-
+| Serbian
+| Allemannic Guard
+|-
+| Vlach
+| Sheperds of the Romans
+|-
+| Bulgarian
+| Company of the Skull Cup, Brothers of Bayan
+|-
+| Turkic group
+| ''Location'' Horde, Army Under the Sky, Turkic Riders of ''location'', True Khan's Faithful, Company of the Yurt, Steppe Dancer's Band, Chastisement of ''location'', Band of the Father, Company of the Goad
+|-
+| West African
+| Sahelian Band, Company of the Gambra, Followers of Sundiata
+|-
+| English
+| White Company, Hawkwood's Band
+|-
+| Anglo-Saxon
+| Retinue of Hengist, Wake's Guard, Band of Horsa
+|-
+| Scots
+| Border Reivers, Warband of the Great Hall, Company of the King's Son
+|-
+| West Slavic group
+| Companions of the Woods
+|-
+| Pomeranian
+| Oder Free Company, Company of the Dog
+|-
+| Czech
+| Free Lances of Brandýs, Army of the Ore, Company of the Cruel Hand
+|-
+| Polish
+| Drużynan Host, Free Company of the Pospolite
+|-
+| Polabian
+| Band of the Fallen Knez, Company of the Stout Horse
+|-
+| Slovien
+| Freelances of Velehrad, Army of Morava Bend, Company of the Faithbearers
+|-
+| Yoruba group
+| Yoruba Band, Company of the Niger, Followers of Oduduwa
+|}
+
+== Holy orders ==
+Holy orders are independent military organizations that work to defend and expand the influence of their faith. Each holy order has a {{iconify|Duke}} rank title.
+
+Rulers can create a holy order via the [[Found Holy Order]] decision. The decision requires the ruler making the decision to choose an owned castle or city holding that aren't a county capital as the order's headquarters. The designated headquarters title is leased and may be revoked at any time by the title holder and revoking a grandmaster's last lease will destroy the holy order. When a holy order is created the ruler who created it will become its Patron and the order's grandmaster will belong to its faith and culture.
+
+Rulers of a holy order's faith may hire them if they are at war with a [[faith]] considered Hostile or Evil, regardless of casus belli. A ruler may only have one holy order hired at a time. Hiring holy orders costs {{iconify|Piety}} unless the ruler is the order's Patron, scaling on the maximum amount of levies and regiments the holy order has. Holy orders remain hired for as long as their employer is at war with someone of another faith.
+
+Holy orders have 500 {{iconify|Levies}}, 2 {{iconify|Knight}}s and 2 regiments. Each holding they own provides an additional regiment and 200 {{iconify|Levies}} and every two holdings they own provide an additional {{iconify|Knight}}. Their Men-at-Arms do not gain bonuses from the buildings in its holdings, but rather from their employer's buildings.
+
+In 867 and 1066 there are no holy orders but in 1178 there are two starting holy orders for the {{iconify|Catholic}} faith in Jerusalem: Knights Templar and Knights Hospitaller.
+
+Holy orders select a name based on its religion, with some names shared among orders all faiths of the religion, and some faiths having unique names for their orders, as follows:
+{| class="mildtable plainlist mw-collapsible mw-collapsed"
+! Religion
+! Faith
+! Name(s)
+|-
+|rowspan=19|Christianity
+|rowspan=7|Common
+|Knights of the Chalice
+|-
+|Order of the Holy Communion
+|-
+|Knights of the First Gospel
+|-
+|Guardians of the Shroud
+|-
+|Knights of the Reliquary
+|-
+|Warriors of the Cross
+|-
+|Knights of ''Location''
+|-
+|rowspan=6|{{icon|Catholic}} Catholicism
+|Knights Templar
+|-
+|Knights Hospitaller
+|-
+|Teutonic Order
+|-
+|Order of Calatrava
+|-
+|Order of Alcántara
+|-
+|Knights of Santiago
+|-
+|rowspan=3|{{icon|Orthodox}} Orthodoxy
+|Brotherhood of the Holy Sepulchre
+|-
+|Knights of the First Patriarchate
+|-
+|Order of the Holy Virgin
+|-
+|{{icon|Coptic}} Coptic
+|Order of Saint Anthony
+|-
+|{{icon|Nestorian}} Nestorianism
+|Order of Saint Addai
+|-
+|{{icon|Insular}} Insular Christianity
+|Order of Saint Patrick
+|-
+| rowspan="8" |Islam
+| rowspan="6" |Common
+|Mujahideen of ''Location''
+|-
+| Warriors of the Hadith
+|-
+|Ghazis of ''Location''
+|-
+| Warriors of the Wahy
+|-
+|Sahabi of ''Location''
+|-
+|Companions of Hira
+|-
+|{{icon|Alevi}} Alevism
+|Bektashi Order
+|-
+|{{icon|Ibadi}} Ibadism
+|Haruriyya
+|-
+| rowspan="4" |Judaism
+| rowspan="3" |Common
+|Zealots of ''Location''
+|-
+|Herem Warriors
+|-
+|Zealots of ''Location''
+|-
+|{{icon|Samaritan}} Samaritanism
+|Warriors of Simeon
+|-
+| rowspan="3" |Dualism
+| rowspan="3" |Common
+|Army of Light
+|-
+| Dreamers of ''Location''
+|-
+|Servants of the Patricians
+|-
+|Miletê Tawûsê Melek
+|Common
+|Servants of Melek Taus
+|-
+| rowspan="5" |Buddhism
+| rowspan="5" |Common
+|Chosen of Ashoka
+|-
+|Guardians of Bodh Gaya
+|-
+|Sangha of the Struggle
+|-
+|Warriors of the Illuminated Heart
+|-
+|Shakyan Faithful
+|-
+| rowspan="5" |Hinduism 
+| rowspan="5" |Common
+|Followers of Arjuna
+|-
+|''Faith'' Marharatas
+|-
+|Vyuha of ''War God''
+|-
+| Vyuha of the Temple of ''Location''
+|-
+|Maharatas of ''War God''
+|-
+| rowspan="4" |Jainism
+| rowspan="4" | Common
+|Bulls of Rishabha
+|-
+|Jivas of Madhya Loka
+|-
+|Guardians of the Lotus Ocean
+|-
+|Sacrifices of Devloka
+|-
+| rowspan="7" |Zoroastrianism
+| rowspan="4" | Common
+|Immortals
+|-
+|Champions of Ohrmazd
+|-
+|Fire Walkers
+|-
+|Order of Warahrām
+|-
+|{{icon|Khurmazdism}} Khurmazdism
+|Order of Waseghn
+|-
+| rowspan="2" |{{icon|Khurramism}} Khurramism
+|People's Chosen
+|-
+|Red-Wearing Ones 
+|-
+|Tibetan
+|Common
+|Guardians of the Five Khandro
+|-
+| rowspan="4" |Mandé
+| rowspan="4" |Common
+|Watchers
+|-
+|Guardians of ''Divine Realm''
+|-
+|Faithful of ''War God''
+|-
+|Warriors of the ''Religious Symbol''
+|-
+| rowspan="4" |Tanism
+| rowspan="4" |Common
+|Warriors of Mother Sun
+|-
+|Warriors of Father Moon
+|-
+|Warriors of ''High God''
+|-
+|Warriors of the Temple
+|-
+| rowspan="3" |Mundhumism 
+| rowspan="3" |Common 
+|Warriors of Mundhum
+|-
+|Warriors of ''High God''
+|-
+|Warriors of the Temple 
+|-
+| rowspan="5" |Hausa
+| rowspan="5" |Common
+|Spirit Guardians
+|-
+|Possessed
+|-
+|Guardians of ''Divine Realm''
+|-
+| Faithful of ''War God''
+|-
+|Warriors of the ''Religious Symbol''
+|-
+| rowspan="4" |Steppe
+| rowspan="4" |Common 
+|Lords of the Sky
+|-
+|Guardians of ''Divine Realm''
+|-
+| Faithful of ''War God''
+|-
+|Warriors of the ''Religious Symbol''
+|-
+| rowspan="4" |Finno-Ugric
+| rowspan="4" |Common
+|Sons of Kalevala
+|-
+|Guardians of ''Divine Realm''
+|-
+|Faithful of ''War God''
+|-
+|Warriors of the ''Religious Symbol''
+|-
+| rowspan="4" |Slavic
+| rowspan="4" |Common
+|Warriors of Perun
+|-
+|Guardians of ''Divine Realm''
+|-
+|Faithful of ''War God''
+|-
+|Warriors of the ''Religious Symbol''
+|-
+| rowspan="3" |Oromo-Somali
+| rowspan="3" |Common
+|Guardians of ''Divine Realm''
+|-
+|Faithful of ''War God''
+|-
+|Warriors of the ''Religious Symbol''
+|-
+| rowspan="3" |Yoruba
+| rowspan="3" |Common
+|Guardians of ''Divine Realm''
+|-
+|Faithful of ''War God''
+|-
+| Warriors of the ''Religious Symbol''
+|-
+| rowspan="3" |Akan 
+| rowspan="3" |Common
+|Guardians of ''Divine Realm''
+|-
+|Faithful of ''War God''
+|-
+|Warriors of the ''Religious Symbol''
+|-
+| rowspan="4" |Baltic
+| rowspan="4" | Common
+|Chosen of Perkunas
+|-
+|Guardians of ''Divine Realm''
+|-
+|Faithful of ''War God''
+|-
+|Warriors of the ''Religious Symbol''
+|-
+| rowspan="3" |Kordofan
+| rowspan="3" |Common
+|Guardians of ''Divine Realm''
+|-
+|Faithful of ''War God''
+|-
+|Warriors of the ''Religious Symbol''
+|-
+| rowspan="4" |Norse
+| rowspan="4" |Common
+|Jomsvikings
+|-
+|Faithful of Tyr 
+|-
+|Odin's Valkyries
+|-
+|Chosen of Freyja
+|-
+| rowspan="3" |Uralic
+| rowspan="3" |Common
+|Táltos of the Field
+|-
+| Faithful of ''War God''
+|-
+|Warriors of the ''Religious Symbol''
+|-
+| rowspan="2" |Greco-Roman
+| rowspan="2" |Common
+|Myrmidons
+|-
+| Priesthood of Ares
+|-
+| rowspan="3" |Zunbil
+| rowspan="3" |Common
+|Guardians of ''Divine Realm''
+|-
+|Faithful of ''War God''
+|-
+|Warriors of the ''Religious Symbol''
+|-
+| rowspan="4" |Siberian
+| rowspan="4" |Common
+|Legion of the Bear
+|-
+|Thousand Crows
+|-
+|Downstreamers
+|-
+|Sylvan Saviors
+|-
+| rowspan="3" |Euskal Erlijioa
+| rowspan="3" |Common
+|Company of the Caves 
+|-
+|Guardians of ''Divine Realm''
+|-
+|Faithful of ''War God''
+|-
+| rowspan="3" |Pagan 
+| rowspan="3" |Common
+|Guardians of ''Divine Realm''
+|-
+| Faithful of ''War God''
+|-
+|Warriors of the ''Religious Symbol''
+|-
+| rowspan="3" |North African
+| rowspan="3" |Common
+|Guardians of ''Divine Realm''
+|-
+|Faithful of ''War God''
+|-
+|Warriors of the ''Religious Symbol''
+|-
+| rowspan="4" |Senegambian 
+| rowspan="4" | Common
+|Servants of the Pangool
+|-
+|Guardians of ''Divine Realm'' 
+|-
+| Faithful of ''War God''
+|-
+|Warriors of the ''Religious Symbol''
+|}
+If an order is created, it will prioritize using a unique faith-based name, and once all unique names are used, it will start using a common name. Any orders created after all the above names are used, as well as orders for any faith not listed above, will be named “''Faith'' company of ''Location''”.
+
+=== Patronage===
+The first king or above upwards in the liege hierarchy of the holy order's headquarters is their patron. It is possible for a holy order to have no patron if no such ruler exists.
+
+Patrons of a holy order may hire them at no cost, as long as they belong to the same faith. They may also take any leased holdings from the order. A Ruler that is a Patron of a holy order may get events that allows them to grant holdings to the new holy order. If a Patron takes a loan from the order and does not repay it, the Order may choose a holding it wants (usually a city) and demand that it be leased to them.
+
+If a holy order is hired by another character, its Patron can repay their employer the {{iconify|Piety}} hiring cost to hire the holy order. This option is not available in multiplayer if the holy order is hired by another human player.
+
+As Patron and not a Liege, the Holdings that the holy orders have leased will give neither {{icon|gold}} [[tax]]es nor {{icon|levies}} [[levy|levies]] to their Patron.
+
+When you raise a holy order, they spawn at the oldest existing army assembly point in your realm.
+
+===Members===
+All members of a holy order, including its grandmaster, gain the {{iconify|Order Member}} trait. Rulers may also use the ''Ask to Join Holy Order'' interaction to send courtiers to a holy order, as long as the following conditions are met:
+*Has none of the following traits: 
+**{{iconify|Devoted}}
+**{{iconify|Order Member}}
+**{{iconify|Excommunicated}}
+**{{iconify|Incapable}}
+*Is not your Court Chaplain.
+*The faith has a holy order whose leader is not a rival of the ruler
+*Is adult
+*Is not imprisoned
+* The faith's View on Gender doctrine allows the prospective member's gender to serve as commanders or knights
+*Has a martial education
+
+If the courtier accepts, the ruler will lose 100 {{iconify|Piety}} while the courtier gains a level of devotion. If the faith has multiple holy orders the ruler will be asked which holy order to pick.
+
+If the courtier is a close family of the requestor the courtier moves to holy order's court, but since ''Invite to Court'' interaction is available on all holy order's courtiers, the absent courtier can still be moved back to requestor's court upon request.
+
+===Losing titles===
+If a holy order's headquarters is lost, the holy order will select a new owned holding to fulfil the role, with a preference for holdings within the current patron's realm. However, if the holy order loses its last holding, it will be disbanded.
+
+==References==
+<references />
+{{Mechanics navbox}}
+[[Category:War]]

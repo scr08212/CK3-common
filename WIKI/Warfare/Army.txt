@@ -1,0 +1,2258 @@
+{{Version|1.18}}
+[[File:Military tab.png|thumb|350px|The military tab with a regiment selected]]
+An army is a large group of soldiers that can be controlled to attack other armies or siege a holding during wars. Hovering over an allied army will display its current orders.
+
+After an army has completed half of a movement from one barony to another it becomes movement locked, meaning that it will not be able to stop or move to a different barony until it arrives at its destination.
+
+Armies ordered to cross a sea zone will embark onto a fleet. Embarking costs {{iconify|Gold}} proportional to the army size. While embarked army maintenance is raised by {{red|+25%}}, and the army will start to lose supplies after 30 days at sea.
+
+== Stats ==
+Every unit has five important stats:
+* {{iconify|Damage}}: Each point causes 0.03 damage during the battle phase.
+* {{iconify|Toughness}}: Reduces losses caused by damage (both routed and killed). Each point allows taking 1 damage before losing all strength.
+* {{iconify|Pursuit}}: Each point causes 0.17 damage during the retreat phase.
+* {{iconify|Screen}}: Each point blocks 0.33 damage during the retreat phase.
+* {{icon|levies}} Strength: Represents how many soldiers are in the unit and affects the total amount of stats. Heavy cavalry and asawira have 50 soldiers; elephant cavalry have 25 soldiers; siege weapons have 10 soldiers; all other men-at-arms have 100 soldiers. The number of soldiers for levies is their total amount. Men-at-arms can have their size increased for the same cost as recruiting them.
+
+=== Damage dealing ===
+The entire army's {{iconify|Damage}} is taken into account (which can be modified by Terrain, counters, etc), and then modified by a further {{green|+5%}} per {{iconify|Advantage}} for the side with more Advantage (this damage bonus per Advantage can be changed with a game rules setting). This is then modified by the [[Terrain]] width which is ((Enemy + Ally) Strength x (0.5 x Terrain width)). Therefore, a 1000 Levy army fighting a 500 Levy army on Plains will have the former Army fighting with the {{iconify|Damage}} of 750 Levies instead. This is further diminished if the Terrain is a mountain, applying a 0.5x Terrain Width modifier, making the total output equivalent of 625 Levies instead.
+
+The total damage is then distributed unto the enemy army based upon their strength composition (i.e., an army composed of 8000 Levies, 1500 Archers, and 500 Spearmen would have 80% damage dealt to Levies, 15% to Archers, and 5% to Spearmen).
+
+What this means is that Levies will usually take the most casualties since they generally make up the bulk of an army (more {{icon|levies}} Strength) and have low {{iconify|Toughness}}, and this damage will gradually move towards MAA as more and more Levies are defeated, finally moving unto Knights at last since they (usually) have the most {{iconify|Toughness}} and have the lowest {{icon|levies}} Strength. This is also why army qualities tend to 'upgrade' during battle as the composition of the (now-reduced) army has less low-ranking Levies filling it up.
+
+== Rallying and Disbanding Armies ==
+To raise an army, you must raise them at a "Rally Point". There is always one by default at the capital holding, but additional ones can be added at other holdings under your realm to a maximum of ten.
+
+You can't raise armies where enemy armies are present. You also cannot disband armies when enemy armies are nearby (this generally means 1 county or an adjacent seazone away).
+
+The army composition will be made up of:
+
+* Individual Knights
+* Regiments of MAA
+* Levies from each holding you control
+* Levies from each of your vassal that contributes
+
+They can be divided and regrouped in different ways as you see fit by manually selecting the army and clicking on "Split Off New Army". "Split in Half" also allows to cut armies in roughly half proportions for convenience. You can also "Split off Hired or Special Soldiers" if you have any Mercenaries or Special Soldiers and use them for other purposes.
+
+'Raider' armies cannot be divided if they are outside the realm you control.
+
+Rallying armies will take a certain amount of time, and will take -5 Advantage if they are attacked while they are rallying. The amount of time it takes to raise all armies depends on the size/width of the realm, meaning that smaller sized realms will usually take a few days, while for continental-spanning Empires it may take months. MAA and knights will come by how close the rallying point is to the capital, while levies depend on what holdings they originate from.
+
+It may be prudent to use "Raise Local Armies" if rallying all armies take too long and the local forces are enough to deal with the threat at hand; it could also be useful in the case of holding off an enemy until the main force fully arrives.
+
+Armies can only be disbanded in friendly territory during wars.
+
+If an army is disbanded while still at a distance from the capital or where they originate from, it will take them some time to get back and will incur a time penalty (usually months) before they could be rallied again. This can make sense to do to avoid paying maintenance costs while bringing them back, or the embarkation costs necessary to do so.
+
+== Reinforcing Armies ==
+Armies must be within friendly territory or disbanded to be reinforced; they will reinforce at the start of each month (although there appears to be a rather complex bug that forbids armies from reinforcing if they leave friendly territory and/or battle; disbanding armies should solve this issue).
+
+Men-At-Arms reinforce themselves at a rate of 10% of the maximum capacity of their regiment per day with increased (3x?) cost, applied to each regiment individually.
+
+Levies reinforce themselves based upon their Levy Reinforcement Rate; the base rate appears to be the same as the Garrison Reinforcement Rate, but it is modified by various factors such as the Martial skill of the ruler, whether the Martial is using "Organize Levies", and certain building upgrades. They are reinforced individually, based upon from which holding the levies originate.
+
+== Quality ==
+Based on its composition an army will be shown having a certain quality. This is a rough measure that allows player to see how skilled an army is, and will also determine the appearance of the army. For instance, an army composed entirely of levies would have the lowest quality, with the "army character" shown with peasant clothing. Conversely, an army composed of only Knights would be of the highest quality, with the "army character" shown in high-quality armor suits. A mixture of different units will create different levels of quality based on their proportion and type.
+
+The quality of an army is important to note, since as a result of skill stat differences and 'Terrain Width' limitations, an outnumbered but skilled army can deal significantly more damage than one with a similar quality as their enemy. For example, it will take around 3.3x as much {{icon|levies}} Levies to take down an Armored Footman regiment {{icon|Heavy Infantry}}(without being stationed) when fighting in Plains.
+
+== Commander ==
+Each army can have one Commander: a character who commands the army and uses their {{iconify|Martial}} skill to improve an army's {{iconify|Advantage}}. There are many different [[Traits#Commander_traits|Commander traits]] available, which have a direct effect on battles and/or give the Commander bonuses outside of battles. A commander can be any [[Vassals|Vassal]] (unless they are in a civil war) or [[Courtiers|Courtier]] who is allowed to be so by Martial Custom.
+
+Commanders, like Knights, are also prone to be injured, maimed, and killed during battle. The chance of being harmed depends on the {{iconify|Prowess}} skill of the commander, with higher prowess decreasing the chance. The chance is also reduced if the commander's army outnumbers the enemy or the game difficulty was reduced.
+
+Each month a commander has a very low chance to die if their {{iconify|Health}} is not high enough, and the commander doesn't have the commander trait for the current terrain. If an army loses a Battle, there is a 10% chance for its commander to be captured and imprisoned.
+
+== Knights ==
+{{main|Knight}}
+Knights are "elites" that fight in an army; unlike other fighters, they are [[Characters]] assigned to combat.
+
+== Basic soldiers ==
+Basic soldiers are conscripted peasants with limited training that make up the bulk of armies. They are not very impressive on their own, but they are cheap, requiring no cost to maintain or reinforce, and are used in great numbers to complement more important troops and outnumber defenders in a siege or raid. They become available in increasingly large numbers and reinforce significantly faster than men-at-arms.
+* {{iconify|Levies}} are used by all governments except Nomadic and Adventurer. Their numbers are determined by the holdings of the ruler's domain, as well as any that are given by their vassals and Realm Priest. A Levy has 10 {{iconify|Damage}} and 10 {{iconify|Toughness}} and a monthly cost of 3 {{iconify|Gold}} per 1,000 when raised. Levies don't tend to increase much in stats with Eras and are fairly static.
+* {{iconify|Horde Riders}} are used by Nomadic governments. The base rate of Horde Riders conversion is 15% of a Ruler's {{iconify|Herd}}, which consumes the equivalent amount of Herd, but this can be increased by various factors.  {{iconify|Herd}} can also be converted into men-at-arms regiments. If the government switches to something else, the Horde Riders will become special soldiers. A Horde Rider has 12 {{iconify|Damage}}, 12 {{iconify|Toughness}}, 10 {{iconify|Pursuit}}, 15 {{iconify|Screen}} and does not cost maintenance when raised.
+
+== Men-at-Arms ==
+Men-at-Arms are trained troops that come in several different Regiment types which excel in their given role, all with their own stats and uses. 
+
+Each type of Men-at-Arms will counter at least one other type, reducing their {{iconify|Damage}} proportional to the size difference of the countering Men-at-Arms (-45% in 1:1, a max of -90% in 2:1, in certain cases can have effectiveness modified as 2x or 0.5x, resulting in -90% and -22.5% at 1:1, respectively). During battle countered Men-at-Arms will glow red, countering Men-at-Arms will glow green and Men-at-Arms that are countering and being countered at the same time will glow yellow.
+
+Men-at-Arms regiments are reinforced at a rate of 10% of their maximum size per month. The reinforcement can be canceled manually by toggling off the "Monthly Reinforcement" at the bottom of "Military" tab in case the economy cannot support it.
+
+Although there are a few exceptions, the Men-At-Arms counter runs similar to a slightly expanded Rock-Paper-Scissors, resulting in a circle of counters. The counter is generally as following:
+
+{{iconify|Skirmishers}} > {{iconify|Heavy Infantry}} > {{iconify|Spearmen}} > {{icon|Light Cavalry}}{{icon|Heavy Cavalry}} Cavalry > {{iconify|Archers}} > {{iconify|Skirmishers}} 
+
+There are also a few unique cases of MAA such as {{icon|Horse Archers}} Archer Cavalry, {{iconify|Camel Cavalry}} and {{iconify|Elephant Cavalry}}. They will be explicitly countered if the unit type says so.
+
+Most of the Men-at-Arms types have a favorable and unfavorable terrain. These bonuses and penalties are specific and can be seen in game at the Men-at-Arms regiment management window by hovering over terrain icons. The modifiers are constant and not percentage based.
+
+Each Ruler has a limited number and size of Regiments for Men-at-Arms, but existing Regiments may be upgraded to increase their size. Regiments can also be downsized to lower the monthly maintenance or destroyed, but the cost is not refunded. Men-at-Arms Regiments are inherited by the primary heir regardless of succession law, but if the heir already has their own Regiments, they will not inherit more than what their limit allows.
+
+The base limit is 2 (Count) regiments with a maximum size of 3, but plenty of modifiers may increase the limit. The two most notable examples are the [[Innovation|Innovations]] of each Era, which increase the regiment amount by 1 each, and the size by a further 2/3/4/5 depending on the Era. As well as ascending to a [[Titles|Duke/King/Emperor]] which give 1/2/3 more regiments compared to a Count. Regiments cannot be recruited above the limit. If the limit is reduced existing regiments are not destroyed but each regiment above the limit will increase maintenance cost by 20%.
+
+Most governments pay for Men-at-Arms with {{iconify|Gold}}. Tribal and Wanua rulers pay twice more with {{iconify|Prestige}} to create a regiment but 30% less for maintenance. Nomadic rulers must also pay {{iconify|Herd}} equal to the regiment size if the MAA is upgradable from the horde, otherwise the cost is paid fully in gold. All Men-at-Arms except Elephants and House Guards triple their maintenance cost when raised, they also cost the same amount of money to reinforce. Men-at-Arms also increase the {{iconify|Provisions}} cost for an adventurer to move its Camp. Note that there are multiple modifiers that can reduce the cost of increasing, reinforcing, maintaining, or leading an army.
+
+Men-at-Arms Regiments can be stationed in a holding from the Domain. Depending on the buildings constructed in the holding, stationing Men-at-Arms may increase their stats.
+
+The default regiment size is 100. All Heavy Cavalry have a regiment size of 50. Ballistrai, Ayrudzi, Asawira, Kheshig and Heavy Horse Archers have a regiment size of 50. War Elephants have a regiment size of 25.
+
+=== Regular ===
+Regular Men-at-Arms are available to all cultures as long as the other requirements are met.
+{| class="mildtable plainlist sortable"
+! Regiment
+! Type
+! {{icon|gold}} Cost
+! {{icon|gold}} Raised maintenance
+! {{iconify|Provisions}} used
+! {{icon|Damage}}
+! {{icon|Toughness}}
+! {{icon|Pursuit}}
+! {{icon|Screen}}
+! [[File:Icon maa countered.png|24px]] Counters
+! Favorable terrain
+! Unfavorable terrain
+! Requirements
+|-
+| '''Light Footmen'''
+| data-sort-value="Skirmishers" | {{icon|Skirmishers}}
+| style="text-align: center;" | 45
+| style="text-align: center;" | 0.45
+| style="text-align: center;" | 3
+| style="text-align: center;" | 10
+| style="text-align: center;" | 16
+| style="text-align: center;" | 10
+| style="text-align: center;" | 16
+| {{icon|Heavy Infantry}}
+| {{icon|Forest}}{{icon|Jungle}}{{icon|Taiga}}
+| None
+| None
+|-
+| '''Bowmen'''
+| data-sort-value="Archers" | {{icon|Archers}}
+| style="text-align: center;" | 55
+| style="text-align: center;" | 0.6
+| style="text-align: center;" | 7
+| style="text-align: center;" | 25
+| style="text-align: center;" | 10
+| style="text-align: center;" | 0
+| style="text-align: center;" | 0
+| {{icon|Skirmishers}}
+| {{icon|Forest}}{{icon|Hills}}{{icon|Taiga}}
+| None
+| None
+|-
+| '''Light Horsemen'''
+| data-sort-value="Light Cavalry" | {{icon|Light Cavalry}}
+| style="text-align: center;" | 85
+| style="text-align: center;" | 1.05
+| style="text-align: center;" | 7
+| style="text-align: center;" | 22
+| style="text-align: center;" | 15
+| style="text-align: center;" | 30
+| style="text-align: center;" | 30
+| {{icon|Archers}}{{icon|Handgunner}}
+| {{icon|Drylands}}{{icon|Plains}}
+| {{icon|Desert Mountains}}{{icon|Hills}}{{icon|Mountains}}{{icon|Wetlands}}{{icon|Harsh Winter}}
+| None
+|-
+| '''Pikemen'''
+| data-sort-value="Spearmen" | {{icon|Spearmen}}
+| style="text-align: center;" | 75
+| style="text-align: center;" | 0.9
+| style="text-align: center;" | 12
+| style="text-align: center;" | 22
+| style="text-align: center;" | 24
+| style="text-align: center;" | 0
+| style="text-align: center;" | 0
+| {{icon|Light Cavalry}}{{icon|Heavy Cavalry}}{{icon|camel cavalry}}{{icon|Elephant Cavalry}}
+| {{icon|Desert Mountains}}{{icon|Hills}}{{icon|Mountains}}
+| None
+| None
+|-
+| '''Armored Footmen'''
+| data-sort-value="Heavy Infantry" | {{icon|Heavy Infantry}}
+| style="text-align: center;" | 90
+| style="text-align: center;" | 1.2
+| style="text-align: center;" | 7
+| style="text-align: center;" | 32
+| style="text-align: center;" | 22
+| style="text-align: center;" | 0
+| style="text-align: center;" | 0
+| {{icon|Spearmen}}
+| None
+| None
+| {{iconify|Quilted Armor}} innovation
+|-
+| '''Armored Horsemen'''
+| data-sort-value="Heavy Cavalry" | {{icon|Heavy Cavalry}}
+| style="text-align: center;" | 200
+| style="text-align: center;" | 2.1
+| style="text-align: center;" | 21
+| style="text-align: center;" | 100
+| style="text-align: center;" | 35
+| style="text-align: center;" | 20
+| style="text-align: center;" | 0
+| {{icon|Archers}}{{icon|Handgunner}}
+| {{icon|Drylands}}{{icon|Plains}}
+| {{icon|Desert Mountains}}{{icon|Hills}}{{icon|Mountains}}{{icon|Wetlands}}{{icon|Normal Winter}}{{icon|Harsh Winter}}
+| {{iconify|Arched Saddle}} innovation
+|-
+| '''Crossbowmen'''
+| data-sort-value="Archers" | {{icon|Crossbowmen}}
+| style="text-align: center;" | 88
+| style="text-align: center;" | 0.9
+| style="text-align: center;" | 7
+| style="text-align: center;" | 42
+| style="text-align: center;" | 18
+| style="text-align: center;" | 0
+| style="text-align: center;" | 0
+| {{icon|Heavy Cavalry}}{{icon|Heavy Infantry}}{{icon|Horse Archers}}
+| {{icon|Hills}}
+| {{icon|Desert}}{{icon|Drylands}}{{icon|Plains}}
+| {{iconify|Advanced Bowmaking}} innovation
+|-
+| '''Handgunners'''
+| data-sort-value="Archers" | {{icon|Handgunner}}
+| style="text-align: center;" | 76
+| style="text-align: center;" | 1.05
+| style="text-align: center;" | 7
+| style="text-align: center;" | 52
+| style="text-align: center;" | 12
+| style="text-align: center;" | 0
+| style="text-align: center;" | 5
+| {{icon|Heavy Infantry}}
+| None
+| {{icon|Floodplains}}{{icon|Wetlands}}
+| 
+* [[File:Innovation bombards.png|24px]] Gunpowder innovation
+* {{icon|handgunner}} 1 regiment per Gunpowder Manufacturer
+|-
+| '''Horse Archers'''
+| data-sort-value="Horse Archers" | {{icon|Horse Archers}}
+| style="text-align: center;" | 135
+| style="text-align: center;" | 1.35
+| style="text-align: center;" | 7
+| style="text-align: center;" | 36
+| style="text-align: center;" | 18
+| style="text-align: center;" | 40
+| style="text-align: center;" | 30
+| {{icon|Skirmishers}}{{icon|Heavy Infantry}}
+| {{icon|Drylands}}{{icon|Plains}}{{icon|Steppe}}
+| {{icon|Desert Mountains}}{{icon|Jungle}}{{icon|Mountains}}{{icon|Wetlands}}
+| {{iconify|Nomadic}} government or Horse Lords tradition
+|-
+| '''Handpicked Faithful'''
+| data-sort-value="Heavy Infantry" | {{icon|Heavy Infantry}}
+| style="text-align: center;" | 67
+| style="text-align: center;" | 0.9
+| style="text-align: center;" | 3
+| style="text-align: center;" | 38
+| style="text-align: center;" | 28
+| style="text-align: center;" | 5
+| style="text-align: center;" | 5
+| {{icon|Spearmen}}{{icon|Heavy Cavalry}}
+| {{icon|Forest}}{{icon|Hills}}{{icon|Jungle}}
+| None
+| [[File:Domicile building bodyguard drills.png|24px]] Bodyguard Drills camp upgrade
+|-
+| '''Varangian Guards'''
+| data-sort-value="Heavy Infantry" | {{icon|Varangian Veterans}}
+| style="text-align: center;" | 72
+| style="text-align: center;" | 0.96
+| style="text-align: center;" | 7
+| style="text-align: center;" | 45
+| style="text-align: center;" | 32
+| style="text-align: center;" | 10
+| style="text-align: center;" | 5
+| {{icon|Spearmen}}{{icon|Heavy Cavalry}}
+| {{icon|Farmlands}}{{icon|Hills}}{{icon|Plains}}{{icon|Normal Winter}}{{icon|Harsh Winter}}
+| None
+| {{icon|empire}} Imperial army for Byzantine Empire<br>{{icon|yes}} Varangian Guard founded
+|-
+| '''Fire Lancers'''
+| data-sort-value="Handgunner" | [[File:Unit fire lance.png|24px]]
+| style="text-align: center;" | 88
+| style="text-align: center;" | 0.9
+| style="text-align: center;" | 7
+| style="text-align: center;" | 40
+| style="text-align: center;" | 8
+| style="text-align: center;" | 0
+| style="text-align: center;" | 0
+| {{icon|Heavy Infantry}}
+| None
+| {{icon|Floodplains}}{{icon|Wetlands}}
+| 
+* [[File:Innovation gunpowder.png|24px]] Fire Medicine innovation
+* {{icon|handgunner}} 1 regiment per Gunpowder Manufacturer
+|-
+| '''Zhanmadao Infantry'''
+| data-sort-value="Heavy Infantry" | [[File:Unit zhanmadao infantry.png|24px]]
+| style="text-align: center;" | 108
+| style="text-align: center;" | 1.44
+| style="text-align: center;" | 12
+| style="text-align: center;" | 36
+| style="text-align: center;" | 28
+| style="text-align: center;" | 0
+| style="text-align: center;" | 0
+| {{icon|Spearmen}}{{icon|Light Cavalry}}{{icon|Heavy Cavalry}}{{icon|Camel Cavalry}}
+| {{icon|Farmlands}}{{icon|Plains}}{{icon|Terraced Hills}}
+| None
+| {{icon|yes}} Military or Protectorate administration type
+|-
+| '''Jomsviking Pirates'''
+| data-sort-value="Skirmishers" | {{icon|Jomsviking Pirates}}
+| style="text-align: center;" | 63
+| style="text-align: center;" | 0.63
+| style="text-align: center;" | 3
+| style="text-align: center;" | 30
+| style="text-align: center;" | 30
+| style="text-align: center;" | 40
+| style="text-align: center;" | 40
+| {{icon|Archers}}{{icon|Heavy Infantry}}
+| {{icon|Normal Winter}}{{icon|Harsh Winter}}
+| None
+| {{icon|decision}} Northern Lords DLC decision events
+|-
+| '''Order Knights'''
+| data-sort-value="Heavy Infantry" | {{icon|Heavy Infantry}}
+| style="text-align: center;" | 90
+| style="text-align: center;" | 1.2
+| style="text-align: center;" | 12
+| style="text-align: center;" | 36
+| style="text-align: center;" | 26
+| style="text-align: center;" | 0
+| style="text-align: center;" | 0
+| {{icon|Spearmen}}
+| None
+| None
+| {{icon|piety}} Christian holy order
+|}
+
+=== Traditional ===
+Traditional Men-at-Arms are available through traditions and reaching a certain era. Adventurers with the Take the Custom Where it Comes can also recruit them if the culture of the county where the camp is located can.
+{| class="mildtable plainlist sortable"
+! Regiment
+! Type
+! {{icon|gold}} Cost
+! {{icon|gold}} Raised maintenance
+! {{iconify|Provisions}} used
+! {{icon|Damage}}
+! {{icon|Toughness}}
+! {{icon|Pursuit}}
+! {{icon|Screen}}
+! [[File:Icon maa countered.png|24px]] Counters
+! Favorable terrain
+! Unfavorable terrain
+! Tradition
+! Era
+|-
+| '''Abudrar'''
+| data-sort-value="Skirmishers" | {{icon|Skirmishers}}
+| style="text-align: center;" | 81
+| style="text-align: center;" | 0.81
+| style="text-align: center;" | 3
+| style="text-align: center;" | 20
+| style="text-align: center;" | 16
+| style="text-align: center;" | 20
+| style="text-align: center;" | 10
+| {{icon|Light Cavalry}}{{icon|Heavy Infantry}}
+| {{icon|Desert Mountains}}{{icon|Mountains}}{{icon|Hills}}
+| {{icon|Desert}}
+| Mountain Herding
+| Tribal
+|-
+| '''Ayyar'''
+| data-sort-value="Heavy Infantry" | {{icon|Ayyar}}
+| style="text-align: center;" | 75
+| style="text-align: center;" | 1.08
+| style="text-align: center;" | 12
+| style="text-align: center;" | 35
+| style="text-align: center;" | 22
+| style="text-align: center;" | 12
+| style="text-align: center;" | 0
+| {{icon|Spearmen}}
+| None
+| None
+| Futuwaa
+| Tribal
+|-
+| '''Bush Hunters'''
+| data-sort-value="Archers" | {{icon|Archers}}
+| style="text-align: center;" | 55
+| style="text-align: center;" | 0.66
+| style="text-align: center;" | 3
+| style="text-align: center;" | 30
+| style="text-align: center;" | 12
+| style="text-align: center;" | 5
+| style="text-align: center;" | 0
+| {{icon|Skirmishers}}
+| {{icon|Jungle}}{{icon|Forest}}{{icon|Hills}}
+| None
+| Bush Hunting
+| Tribal
+|-
+| '''Druzhina'''
+| data-sort-value="Heavy Infantry" | {{icon|Heavy Infantry}}
+| style="text-align: center;" | 117
+| style="text-align: center;" | 1.56
+| style="text-align: center;" | 7
+| style="text-align: center;" | 40
+| style="text-align: center;" | 30
+| style="text-align: center;" | 0
+| style="text-align: center;" | 30
+| {{icon|Spearmen}}
+| None
+| None
+| Druzhina
+| Tribal
+|-
+| '''Gendarmes'''
+| data-sort-value="Heavy Cavalry" | {{icon|Heavy Cavalry}}
+| style="text-align: center;" | 240
+| style="text-align: center;" | 2.52
+| style="text-align: center;" | 21
+| style="text-align: center;" | 125
+| style="text-align: center;" | 40
+| style="text-align: center;" | 20
+| style="text-align: center;" | 10
+| {{icon|Archers}}{{icon|Handgunner}}
+| {{icon|Drylands}}{{icon|Plains}}
+| {{icon|Desert Mountains}}{{icon|Hills}}{{icon|Jungle}}{{icon|Mountains}}{{icon|Wetlands}}{{icon|Normal Winter}}{{icon|Harsh Winter}}
+| Chanson de Geste
+| Late Medieval
+|-
+| '''Goedendag Militia'''
+| data-sort-value="Skirmishers" | {{icon|Skirmishers}}
+| style="text-align: center;" | 45
+| style="text-align: center;" | 0.45
+| style="text-align: center;" | 3
+| style="text-align: center;" | 13
+| style="text-align: center;" | 18
+| style="text-align: center;" | 0
+| style="text-align: center;" | 16
+| {{icon|Heavy Infantry}}{{icon|Heavy Cavalry}}
+| None
+| None
+| Polders
+| Late Medieval
+|-
+| '''Guinean Uplanders'''
+| data-sort-value="Skirmishers" | {{icon|Skirmishers}}
+| style="text-align: center;" | 54
+| style="text-align: center;" | 0.54
+| style="text-align: center;" | 3
+| style="text-align: center;" | 18
+| style="text-align: center;" | 14
+| style="text-align: center;" | 0
+| style="text-align: center;" | 20
+| {{icon|Heavy Infantry}}
+| {{icon|Forest}}{{icon|Hills}}{{icon|Drylands}}
+| None
+| Upland Skirmishing
+| Tribal
+|-
+| '''Horn Warriors'''
+| data-sort-value="Skirmishers" | {{icon|Skirmishers}}
+| style="text-align: center;" | 45
+| style="text-align: center;" | 0.45
+| style="text-align: center;" | 7
+| style="text-align: center;" | 12
+| style="text-align: center;" | 16
+| style="text-align: center;" | 0
+| style="text-align: center;" | 20
+| {{icon|Heavy Infantry}}
+| {{icon|Desert Mountains}}{{icon|Hills}}{{icon|Mountains}}
+| None
+| Mountain Skirmishing
+| Tribal
+|-
+| '''Huscarls'''
+| data-sort-value="Heavy Infantry" | {{icon|Heavy Infantry}}
+| style="text-align: center;" | 115
+| style="text-align: center;" | 1.53
+| style="text-align: center;" | 3
+| style="text-align: center;" | 40
+| style="text-align: center;" | 26
+| style="text-align: center;" | 0
+| style="text-align: center;" | 24
+| {{icon|Spearmen}}{{icon|Archers}}
+| {{icon|Forest}}{{icon|Taiga}}{{icon|Normal Winter}}{{icon|Harsh Winter}}
+| None
+| Hirds / Coastal Warriors
+| Tribal
+|-
+| '''Kataphraktoi'''
+| data-sort-value="Heavy Cavalry" | {{icon|Cataphracts}}
+| style="text-align: center;" | 260
+| style="text-align: center;" | 2.73
+| style="text-align: center;" | 30
+| style="text-align: center;" | 120
+| style="text-align: center;" | 35
+| style="text-align: center;" | 25
+| style="text-align: center;" | 10
+| {{icon|Archers}}{{icon|Handgunner}}
+| {{icon|Drylands}}{{icon|Plains}}
+| {{icon|Desert Mountains}}{{icon|Hills}}{{icon|Mountains}}{{icon|Wetlands}}{{icon|Normal Winter}}{{icon|Harsh Winter}}
+| Imperial Tagmata
+| Tribal
+|-
+| '''Khandayat'''
+| data-sort-value="Heavy Infantry" | {{icon|Heavy Infantry}}
+| style="text-align: center;" | 108
+| style="text-align: center;" | 1.44
+| style="text-align: center;" | 15
+| style="text-align: center;" | 42
+| style="text-align: center;" | 22
+| style="text-align: center;" | 0
+| style="text-align: center;" | 0
+| {{icon|Light Cavalry}}{{icon|Spearmen}}
+| {{icon|Jungle}}
+| None
+| Khadga Puja
+| Tribal
+|-
+| '''Konni'''
+| data-sort-value="Light Cavalry" | {{icon|Konni}}
+| style="text-align: center;" | 111
+| style="text-align: center;" | 1.36
+| style="text-align: center;" | 7
+| style="text-align: center;" | 25
+| style="text-align: center;" | 15
+| style="text-align: center;" | 60
+| style="text-align: center;" | 20
+| {{icon|Archers}}{{icon|Handgunner}}
+| {{icon|Drylands}}{{icon|Plains}}
+| {{icon|Desert Mountains}}{{icon|Hills}}{{icon|Mountains}}{{icon|Wetlands}}{{icon|Harsh Winter}}
+| Konni Raids
+| Tribal
+|-
+| '''Lenkas'''
+| data-sort-value="Heavy Infantry" | {{icon|Heavy Infantry}}
+| style="text-align: center;" | 115
+| style="text-align: center;" | 1.54
+| style="text-align: center;" | 12
+| style="text-align: center;" | 42
+| style="text-align: center;" | 22
+| style="text-align: center;" | 24
+| style="text-align: center;" | 0
+| {{icon|Spearmen}}{{icon|Archers}}
+| {{icon|Jungle}}{{icon|Forest}}
+| None
+| Garuda Warriors
+| Tribal
+|-
+| '''Longbowmen'''
+| data-sort-value="Archers" | {{icon|Archers}}
+| style="text-align: center;" | 66
+| style="text-align: center;" | 0.72
+| style="text-align: center;" | 7
+| style="text-align: center;" | 20(50)
+| style="text-align: center;" | 8(14)
+| style="text-align: center;" | 0
+| style="text-align: center;" | 0
+| {{icon|Skirmishers}}{{icon|Heavy Cavalry}}
+| {{icon|Hills}}
+| None
+| Longbow Competitions
+| Tribal
+|-
+| '''Metsänvartija'''
+| data-sort-value="Archers" | {{icon|Archers}}
+| style="text-align: center;" | 61
+| style="text-align: center;" | 0.66
+| style="text-align: center;" | 3
+| style="text-align: center;" | 30
+| style="text-align: center;" | 14
+| style="text-align: center;" | 10
+| style="text-align: center;" | 10
+| {{icon|Skirmishers}}
+| {{icon|Forest}}{{icon|Taiga}}{{icon|Normal Winter}}{{icon|Harsh Winter}}
+| None
+| Forest Wardens
+| Tribal
+|-
+| '''Monaspa'''
+| data-sort-value="Heavy Cavalry" | {{icon|Monaspa}}
+| style="text-align: center;" | 250
+| style="text-align: center;" | 2.62
+| style="text-align: center;" | 15
+| style="text-align: center;" | 110
+| style="text-align: center;" | 30
+| style="text-align: center;" | 25
+| style="text-align: center;" | 10
+| {{icon|Archers}}{{icon|Handgunner}}
+| {{icon|Hills}}{{icon|Mountains}}
+| {{icon|Desert Mountains}}{{icon|Wetlands}}{{icon|Normal Winter}}{{icon|Harsh Winter}}
+| Caucasian Wolves
+| Tribal
+|-
+| '''Mountaineers'''
+| data-sort-value="Heavy Infantry" | {{icon|Heavy Infantry}}
+| style="text-align: center;" | 108
+| style="text-align: center;" | 1.44
+| style="text-align: center;" | 7
+| style="text-align: center;" | 40
+| style="text-align: center;" | 26
+| style="text-align: center;" | 0
+| style="text-align: center;" | 0
+| {{icon|Spearmen}}
+| {{icon|Desert Mountains}}{{icon|Mountains}}{{icon|Normal Winter}}{{icon|Harsh Winter}}
+| None
+| Himalayan Settlers
+| Tribal
+|-
+| '''Mubarizun'''
+| data-sort-value="Heavy Infantry" | {{icon|Mubarizuns}}
+| style="text-align: center;" | 108
+| style="text-align: center;" | 1.44
+| style="text-align: center;" | 7
+| style="text-align: center;" | 45
+| style="text-align: center;" | 25
+| style="text-align: center;" | 0
+| style="text-align: center;" | 0
+| {{icon|Spearmen}}{{icon|Heavy Infantry}}
+| None
+| None
+| Mubarizun
+| Tribal
+|-
+| '''Mulathanūm'''
+| data-sort-value="Light Cavalry" | {{icon|Light Cavalry}}
+| style="text-align: center;" | 85
+| style="text-align: center;" | 1.15
+| style="text-align: center;" | 7
+| style="text-align: center;" | 22
+| style="text-align: center;" | 15
+| style="text-align: center;" | 30
+| style="text-align: center;" | 40
+| {{icon|Archers}}{{icon|Handgunner}}
+| {{icon|Desert}}{{icon|Drylands}}{{icon|Oasis}}{{icon|Plains}}
+| {{icon|Desert Mountains}}{{icon|Mountains}}{{icon|Wetlands}}{{icon|Harsh Winter}}
+| Desert Ribats
+| Tribal
+|-
+| '''Nile Archers'''
+| data-sort-value="Archers" | {{icon|Archers}}
+| style="text-align: center;" | 61
+| style="text-align: center;" | 0.66
+| style="text-align: center;" | 7
+| style="text-align: center;" | 30
+| style="text-align: center;" | 14
+| style="text-align: center;" | 10
+| style="text-align: center;" | 10
+| {{icon|Skirmishers}}
+| {{icon|Drylands}}{{icon|Floodplains}}{{icon|Oasis}}
+| {{icon|Desert}}
+| Land of the Bow
+| Tribal
+|-
+| '''Palace Guards'''
+| data-sort-value="Heavy Infantry" | {{icon|Heavy Infantry}}
+| style="text-align: center;" | 108
+| style="text-align: center;" | 1.44
+| style="text-align: center;" | 15
+| style="text-align: center;" | 38
+| style="text-align: center;" | 24
+| style="text-align: center;" | 0
+| style="text-align: center;" | 20
+| {{icon|Spearmen}}x2
+| {{icon|Jungle}}{{icon|Hills}}
+| None
+| Royal Army
+| Tribal
+|-
+| '''Picchieri'''
+| data-sort-value="Spearmen" | {{icon|Spearmen}}
+| style="text-align: center;" | 98
+| style="text-align: center;" | 1.17
+| style="text-align: center;" | 3
+| style="text-align: center;" | 40
+| style="text-align: center;" | 24
+| style="text-align: center;" | 0
+| style="text-align: center;" | 0
+| {{icon|Light Cavalry}}{{icon|Heavy Cavalry}}{{icon|Camel Cavalry}}{{icon|Elephant Cavalry}}
+| {{icon|Desert Mountains}}{{icon|Hills}}{{icon|Mountains}}
+| None
+| Republican Legacy
+| High Medieval
+|-
+| '''Sarawit'''
+| data-sort-value="Heavy Infantry" | {{icon|Heavy Infantry}}
+| style="text-align: center;" | 108
+| style="text-align: center;" | 1.44
+| style="text-align: center;" | 7
+| style="text-align: center;" | 32
+| style="text-align: center;" | 26
+| style="text-align: center;" | 0
+| style="text-align: center;" | 10
+| {{icon|Light Cavalry}}
+| {{icon|Desert Mountains}}{{icon|Hills}}{{icon|Mountains}}
+| {{icon|Drylands}}{{icon|Desert}}
+| Amharic Highlanders
+| High Medieval
+|-
+| '''Schiltron'''
+| data-sort-value="Spearmen" | {{icon|Spearmen}}
+| style="text-align: center;" | 113
+| style="text-align: center;" | 1.35
+| style="text-align: center;" | 7
+| style="text-align: center;" | 36
+| style="text-align: center;" | 28
+| style="text-align: center;" | 0
+| style="text-align: center;" | 0
+| {{icon|Light Cavalry}}{{icon|Heavy Cavalry}}
+| {{icon|Desert Mountains}}{{icon|Hills}}{{icon|Mountains}}{{icon|Plains}}
+| None
+| Strong Kinship
+| Late Medieval
+|-
+| '''Shomer'''
+| data-sort-value="Skirmishers" | {{icon|Skirmishers}}
+| style="text-align: center;" | 45
+| style="text-align: center;" | 0.45
+| style="text-align: center;" | 7
+| style="text-align: center;" | 10
+| style="text-align: center;" | 24
+| style="text-align: center;" | 0
+| style="text-align: center;" | 40
+| {{icon|Heavy Infantry}}
+| None
+| None
+| Defensive Tactics
+| Tribal
+|-
+| '''Zbrojnosh'''
+| data-sort-value="Heavy Infantry" | {{icon|Heavy Infantry}}
+| style="text-align: center;" | 99
+| style="text-align: center;" | 1.32
+| style="text-align: center;" | 15
+| style="text-align: center;" | 34
+| style="text-align: center;" | 20
+| style="text-align: center;" | 0
+| style="text-align: center;" | 10
+| {{icon|Spearmen}}{{icon|Archers}}
+| {{icon|Hills}}{{icon|Mountains}}{{icon|Forest}}
+| {{icon|Wetlands}}
+| Mountaineer Ruralism
+| Tribal
+|-
+| '''Bondi'''
+| data-sort-value="Spearmen" | {{icon|Bondi}}
+| style="text-align: center;" | 50
+| style="text-align: center;" | 0.6
+| style="text-align: center;" | 3
+| style="text-align: center;" | 14
+| style="text-align: center;" | 18
+| style="text-align: center;" | 12
+| style="text-align: center;" | 0
+| {{icon|Light Cavalry}}{{icon|Archers}}
+| {{icon|Farmlands}}{{icon|Plains}}{{icon|Normal Winter}}{{icon|Harsh Winter}}
+| {{icon|Desert Mountains}}{{icon|Hills}}{{icon|Mountains}}
+| {{icon|nrl}} Coastal Warriors
+| Tribal
+|-
+| '''Varangian Veterans'''
+| data-sort-value="Heavy Infantry" | {{icon|Varangian Veterans}}
+| style="text-align: center;" | 150
+| style="text-align: center;" | 2.0
+| style="text-align: center;" | 3
+| style="text-align: center;" | 45
+| style="text-align: center;" | 30
+| style="text-align: center;" | 10
+| style="text-align: center;" | 5
+| {{icon|Spearmen}}{{icon|Heavy Cavalry}}
+| {{icon|Farmlands}}{{icon|Hills}}{{icon|Plains}}{{icon|Normal Winter}}{{icon|Harsh Winter}}
+| None
+| {{icon|nrl}} Coastal Warriors
+| Tribal
+|-
+| '''Vigmen'''
+| data-sort-value="Archers" | {{icon|Vigmen}}
+| style="text-align: center;" | 61
+| style="text-align: center;" | 0.66
+| style="text-align: center;" | 3
+| style="text-align: center;" | 18
+| style="text-align: center;" | 20
+| style="text-align: center;" | 0
+| style="text-align: center;" | 22
+| {{icon|Skirmishers}}
+| {{icon|Farmlands}}{{icon|Plains}}{{icon|Taiga}}{{icon|Normal Winter}}{{icon|Harsh Winter}}
+| None
+| {{icon|nrl}} Coastal Warriors
+| Tribal
+|-
+| '''Tarkhans'''
+| data-sort-value="Heavy Cavalry" | {{icon|Tarkhans}}
+| style="text-align: center;" | 260
+| style="text-align: center;" | 2.73
+| style="text-align: center;" | 21
+| style="text-align: center;" | 110
+| style="text-align: center;" | 30
+| style="text-align: center;" | 30
+| style="text-align: center;" | 10
+| {{icon|Heavy Infantry}}{{icon|Heavy Cavalry}}{{icon|Handgunner}}
+| {{icon|Oasis}}{{icon|Drylands}}{{icon|Desert}}
+| {{icon|Mountains}}{{icon|Wetlands}}{{icon|Normal Winter}}{{icon|Harsh Winter}}
+| {{icon|lop}} Frontier Warriors
+| Tribal
+|-
+| '''Tawashi'''
+| data-sort-value="Light Cavalry" | {{icon|Tawashi}}
+| style="text-align: center;" | 94
+| style="text-align: center;" | 1.15
+| style="text-align: center;" | 15
+| style="text-align: center;" | 25
+| style="text-align: center;" | 15
+| style="text-align: center;" | 30
+| style="text-align: center;" | 30
+| {{icon|Archers}}{{icon|Handgunner}}{{icon|Heavy Infantry}}
+| {{icon|Desert Mountains}}{{icon|Drylands}}{{icon|Hills}}{{icon|Mountains}}{{icon|Plains}}
+| {{icon|Wetlands}}{{icon|Harsh Winter}}
+| {{icon|lop}} Fierce Independence
+| Tribal
+|-
+| '''Zupin Spearmen'''
+| data-sort-value="Spearmen" | {{icon|Zupin Spearmen}}
+| style="text-align: center;" | 50
+| style="text-align: center;" | 0.6
+| style="text-align: center;" | 7
+| style="text-align: center;" | 16
+| style="text-align: center;" | 16
+| style="text-align: center;" | 0
+| style="text-align: center;" | 10
+| {{icon|Heavy Cavalry}}{{icon|Heavy Infantry}}{{icon|Light Cavalry}}
+| {{icon|Desert Mountains}}{{icon|Forest}}{{icon|Hills}}{{icon|Mountains}}
+| None
+| {{icon|lop}} Pragmatic Creed
+| Tribal
+|-
+| '''Ayrudzi'''
+| data-sort-value="Light Cavalry" | {{icon|Ayrudzi}}
+| style="text-align: center;" | 85
+| style="text-align: center;" | 1.05
+| style="text-align: center;" | 7
+| style="text-align: center;" | 50
+| style="text-align: center;" | 30
+| style="text-align: center;" | 20
+| style="text-align: center;" | 30
+| {{icon|Archers}}{{icon|Handgunner}}{{icon|Horse Archers}}
+| {{icon|Hills}}{{icon|Mountains}}{{icon|Drylands}}{{icon|Plains}}
+| {{icon|Wetlands}}{{icon|Jungle}}{{icon|Harsh Winter}}
+| {{icon|rtp}} Indomitable Azatani
+| Tribal
+|-
+| '''Conrois'''
+| data-sort-value="Heavy Cavalry" | {{icon|Conrois}}
+| style="text-align: center;" | 170
+| style="text-align: center;" | 1.78
+| style="text-align: center;" | 7
+| style="text-align: center;" | 100
+| style="text-align: center;" | 25
+| style="text-align: center;" | 10
+| style="text-align: center;" | 0
+| {{icon|Archers}}{{icon|Handgunner}}{{icon|Light Cavalry}}
+| {{icon|Drylands}}{{icon|Farmlands}}{{icon|Plains}}
+| {{icon|Desert Mountains}}{{icon|Hills}}{{icon|Jungle}}{{icon|Mountains}}{{icon|Wetlands}}{{icon|Normal Winter}}{{icon|Harsh Winter}}
+| {{icon|rtp}} Audacious Cadets
+| Tribal
+|-
+| '''Akritai'''
+| data-sort-value="Skirmishers" | {{icon|Akritai}}
+| style="text-align: center;" | 41
+| style="text-align: center;" | 0.41
+| style="text-align: center;" | 3
+| style="text-align: center;" | 10
+| style="text-align: center;" | 14
+| style="text-align: center;" | 12
+| style="text-align: center;" | 18
+| {{icon|Heavy Infantry}}
+| {{icon|Desert Mountains}}{{icon|Forest}}{{icon|Hills}}{{icon|Mountains}}{{icon|Wetlands}}
+| None
+| {{icon|rtp}} Imperial Tagmata
+| Tribal
+|-
+| '''Ballistrai'''
+| data-sort-value="Archers" | {{icon|Ballistrai}}
+| style="text-align: center;" | 63
+| style="text-align: center;" | 0.45
+| style="text-align: center;" | 12
+| style="text-align: center;" | 35
+| style="text-align: center;" | 11
+| style="text-align: center;" | 0
+| style="text-align: center;" | 0
+| {{icon|Spearmen}}{{icon|Heavy Infantry}}
+| {{icon|Farmlands}}{{icon|Hills}}{{icon|Plains}}
+| None
+| {{icon|rtp}} Imperial Tagmata
+| Tribal
+|-
+| '''Skoutatoi'''
+| data-sort-value="Spearmen" | {{icon|Skoutatoi}}
+| style="text-align: center;" | 83
+| style="text-align: center;" | 0.99
+| style="text-align: center;" | 7
+| style="text-align: center;" | 22
+| style="text-align: center;" | 26
+| style="text-align: center;" | 0
+| style="text-align: center;" | 20
+| {{icon|Light Cavalry}}{{icon|Heavy Cavalry}}{{icon|Camel Cavalry}}{{icon|Elephant Cavalry}}
+| {{icon|Desert Mountains}}{{icon|Hills}}{{icon|Mountains}}{{icon|Plains}}
+| None
+| {{icon|rtp}} Imperial Tagmata
+| Tribal
+|-
+| '''Cataphract Archers'''
+| data-sort-value="Heavy Cavalry" | {{icon|Cataphract Archers}}
+| style="text-align: center;" | 206
+| style="text-align: center;" | 2.73
+| style="text-align: center;" | 21
+| style="text-align: center;" | 90
+| style="text-align: center;" | 52
+| style="text-align: center;" | 20
+| style="text-align: center;" | 10
+| {{icon|Archers}}{{icon|Handgunner}}{{icon|Horse Archers}}
+| {{icon|Drylands}}{{icon|Plains}}{{icon|Steppe}}
+| {{icon|Desert Mountains}}{{icon|Hills}}{{icon|Mountains}}{{icon|Wetlands}}{{icon|Normal Winter}}{{icon|Harsh Winter}}
+| {{icon|kos}} Iron Cavalry
+| Tribal
+|-
+| '''Mangudai'''
+| data-sort-value="Horse Archers" | {{icon|Mangudai}}
+| style="text-align: center;" | 99
+| style="text-align: center;" | 0.99
+| style="text-align: center;" | 7
+| style="text-align: center;" | 50
+| style="text-align: center;" | 6
+| style="text-align: center;" | 60
+| style="text-align: center;" | 10
+| {{icon|Spearmen}}{{icon|Heavy Infantry}}
+| {{icon|Hills}}{{icon|Plains}}{{icon|Steppe}}
+| {{icon|Desert Mountains}}{{icon|Jungle}}{{icon|Mountains}}{{icon|Wetlands}}
+| {{icon|kos}} Wolves of the Deep Steppe
+| Tribal
+|-
+| '''Maturkan Warriors'''
+| data-sort-value="Archers" | {{icon|Maturkan Warriors}}
+| style="text-align: center;" | 58
+| style="text-align: center;" | 0.63
+| style="text-align: center;" | 7
+| style="text-align: center;" | 16
+| style="text-align: center;" | 15
+| style="text-align: center;" | 0
+| style="text-align: center;" | 16
+| {{icon|Skirmishers}}
+| {{icon|Taiga}}{{icon|Forest}}{{icon|Hills}}{{icon|Mountains}}{{icon|Normal Winter}}{{icon|Harsh Winter}}
+| None
+| {{icon|kos}} Tribes of the North
+| Tribal
+|-
+| '''Emishi Riders'''
+| data-sort-value="Horse Archers" | [[File:Unit emishi horse archers.png|24px]]
+| style="text-align: center;" | 85
+| style="text-align: center;" | 1.05
+| style="text-align: center;" | 7
+| style="text-align: center;" | 28
+| style="text-align: center;" | 12
+| style="text-align: center;" | 35
+| style="text-align: center;" | 30
+| {{icon|Heavy Infantry}}
+| {{icon|Forest}}{{icon|Hills}}{{icon|Mountains}}{{icon|Plains}}{{icon|Terraced Hills}}
+| None
+| {{icon|auh}} Defiant Ambushers
+| Tribal
+|-
+| '''Gakgung Archers'''
+| data-sort-value="Archers" | [[File:Unit gakgung archers.png|24px]]
+| style="text-align: center;" | 66
+| style="text-align: center;" | 0.66
+| style="text-align: center;" | 7
+| style="text-align: center;" | 25
+| style="text-align: center;" | 8
+| style="text-align: center;" | 0
+| style="text-align: center;" | 0
+| {{icon|Handgunner}}{{icon|Heavy Cavalry}}{{icon|Skirmishers}}
+| {{icon|Forest}}{{icon|Hills}}{{icon|Mountains}}{{icon|Terraced Hills}}
+| {{icon|Wetlands}}
+| {{icon|auh}} Stratified Society
+| Tribal
+|-
+| '''Pesilat Warriors'''
+| data-sort-value="Skirmishers" | [[File:Unit pesilat warrior.png|24px]]
+| style="text-align: center;" | 41
+| style="text-align: center;" | 0.41
+| style="text-align: center;" | 3
+| style="text-align: center;" | 24
+| style="text-align: center;" | 10
+| style="text-align: center;" | 12
+| style="text-align: center;" | 5
+| {{icon|Heavy Infantry}}
+| {{icon|Jungle}}{{icon|Terraced Hills}}{{icon|Wetlands}}
+| None
+| {{icon|auh}} Maritime Way of Life
+| Tribal
+|-
+| '''Burenjia Infantry'''
+| data-sort-value="Heavy Infantry" | [[File:Unit burenjia infantry.png|24px]]
+| style="text-align: center;" | 120
+| style="text-align: center;" | 1.6
+| style="text-align: center;" | 12
+| style="text-align: center;" | 32
+| style="text-align: center;" | 32
+| style="text-align: center;" | 0
+| style="text-align: center;" | 0
+| {{icon|Archers}}{{icon|Spearmen}}
+| {{icon|Farmlands}}{{icon|Hills}}{{icon|Plains}}{{icon|Terraced Hills}}
+| None
+| {{icon|auh}} Art of War
+| Tribal
+|-
+| '''Shenbigong'''
+| data-sort-value="Archers" | {{icon|Crossbowmen}}
+| style="text-align: center;" | 96.25
+| style="text-align: center;" | 1.05
+| style="text-align: center;" | 12
+| style="text-align: center;" | 44
+| style="text-align: center;" | 18
+| style="text-align: center;" | 0
+| style="text-align: center;" | 0
+| {{icon|Heavy Cavalry}}{{icon|Heavy Infantry}}{{icon|Spearmen}}
+| {{icon|Hills}}{{icon|Mountains}}
+| {{icon|Desert}}{{icon|Drylands}}{{icon|Plains}}{{icon|Steppe}}
+| {{icon|auh}} Art of War
+| Tribal
+|-
+| '''Tiefutu Cavalry'''
+| data-sort-value="Heavy Cavalry" | [[File:Unit tiefutu cavalry.png|24px]]
+| style="text-align: center;" | 260
+| style="text-align: center;" | 2.7
+| style="text-align: center;" | 30
+| style="text-align: center;" | 100
+| style="text-align: center;" | 40
+| style="text-align: center;" | 15
+| style="text-align: center;" | 10
+| {{icon|Archers}}{{icon|Handgunner}}{{icon|Spearmen}}
+| {{icon|Drylands}}{{icon|Plains}}
+| {{icon|Desert Mountains}}{{icon|Hills}}{{icon|Jungle}}{{icon|Mountains}}{{icon|Terraced Hills}}{{icon|Wetlands}}{{icon|Normal Winter}}{{icon|Harsh Winter}}
+| {{icon|auh}} Art of War
+| Tribal
+|-
+| '''Warrior Monks'''
+| data-sort-value="Spearmen" | [[File:Unit warrior monks.png|24px]]
+| style="text-align: center;" | 200
+| style="text-align: center;" | 0.57
+| style="text-align: center;" | 7
+| style="text-align: center;" | 22
+| style="text-align: center;" | 26
+| style="text-align: center;" | 0
+| style="text-align: center;" | 20
+| {{icon|Light Cavalry}}{{icon|Heavy Cavalry}}{{icon|Camel Cavalry}}{{icon|Elephant Cavalry}}
+| {{icon|Desert Mountains}}{{icon|Hills}}{{icon|Mountains}}{{icon|Plains}}{{icon|Terraced Hills}}
+| None
+| {{icon|auh}} Warrior Monks
+| Tribal
+|-
+| '''Samurai'''
+| data-sort-value="Heavy Infantry" | [[File:Unit samurai.png|24px]]
+| style="text-align: center;" | 150
+| style="text-align: center;" | 2
+| style="text-align: center;" | 12
+| style="text-align: center;" | 45
+| style="text-align: center;" | 25
+| style="text-align: center;" | 12
+| style="text-align: center;" | 0
+| {{icon|Spearmen}}{{icon|Heavy Cavalry}}
+| {{icon|Farmlands}}{{icon|Hills}}{{icon|Mountains}}{{icon|Terraced Hills}}
+| None
+| {{icon|auh}} Bushidō
+| Tribal
+|-
+| '''Mounted Samurai'''
+| data-sort-value="Horse Archers" | [[File:Unit japanese horse archers.png|24px]]
+| style="text-align: center;" | 135
+| style="text-align: center;" | 1.35
+| style="text-align: center;" | 15
+| style="text-align: center;" | 96
+| style="text-align: center;" | 34
+| style="text-align: center;" | 40
+| style="text-align: center;" | 20
+| {{icon|Skirmishers}}{{icon|Heavy Infantry}}
+| {{icon|Drylands}}{{icon|Plains}}{{icon|Steppe}}
+| {{icon|Desert Mountains}}{{icon|Jungle}}{{icon|Wetlands}}{{icon|Harsh Winter}}
+| {{icon|auh}} Bushidō<br>{{icon|auh}} Fragile Peace
+| Tribal
+|}
+
+=== Regional ===
+Regional Men-at-Arms are made available through regional innovations.
+{| class="mildtable plainlist"
+! Regiment
+! {{icon|gold}} Cost
+! {{icon|gold}} Raised maintenance
+! {{iconify|Provisions}} used
+! {{icon|damage}}
+! {{icon|toughness}}
+! {{icon|pursuit}}
+! {{icon|screen}}
+! {{icon|siege progress}}
+! [[File:Icon maa countered.png|24px]] Counters
+! Favorable terrain
+! Unfavorable terrain
+! Innovation
+! Region
+|-
+| align=left | {{iconbox|Caballeros|Unlike most cavalry, Iberian Caballeros are at home both on flat plains and in rough hilly terrain.|image=Unit light cavalry.png|w=20em}}
+| style="text-align: center;" | 85
+| style="text-align: center;" | 1.15
+| style="text-align: center;" | 7
+| style="text-align: center;" | 22
+| style="text-align: center;" | 16
+| style="text-align: center;" | 30
+| style="text-align: center;" | 50
+| style="text-align: center;" | 0
+| {{icon|Archers}}{{icon|Handgunner}}
+| {{icon|Drylands}}{{icon|Hills}}{{icon|Plains}}
+| {{icon|Desert Mountains}}{{icon|Mountains}}{{icon|Wetlands}}{{icon|Harsh Winter}}
+| {{iconify|Caballeros}}
+| Iberia
+|-
+| align=left | {{iconbox|Camel Riders|Better suited to desert warfare than traditional cavalry, these riders dominate the sands.|image=Unit camel riders.png|w=20em}}
+| style="text-align: center;" | 85
+| style="text-align: center;" | 0.84
+| style="text-align: center;" | 21
+| style="text-align: center;" | 22
+| style="text-align: center;" | 15
+| style="text-align: center;" | 20
+| style="text-align: center;" | 20
+| style="text-align: center;" | 0
+| {{icon|Light Cavalry}}
+| {{icon|Desert}}{{icon|Drylands}}{{icon|Floodplains}}{{icon|Plains}}
+| {{icon|Desert Mountains}}{{icon|Hills}}{{icon|Mountains}}{{icon|Normal Winter}}{{icon|Harsh Winter}}
+| {{iconify|War Camels}}
+|
+* Middle East
+* North Africa
+* Persia
+|-
+| align=left | {{iconbox|Hobelars|Fast and agile, Celtic Hobelars can easily raid the forests and hills other cavalry avoid.|image=Unit light cavalry.png|w=20em}}
+| style="text-align: center;" | 94
+| style="text-align: center;" | 1.15
+| style="text-align: center;" | 7
+| style="text-align: center;" | 22
+| style="text-align: center;" | 15
+| style="text-align: center;" | 50
+| style="text-align: center;" | 30
+| style="text-align: center;" | 0
+| {{icon|Archers}}{{icon|Handgunner}}
+| {{icon|Hills}}{{icon|Forest}}
+| {{icon|Desert Mountains}}{{icon|Mountains}}{{icon|Wetlands}}{{icon|Harsh Winter}}
+| {{iconify|Hobbies}}
+| British Isles
+|-
+| align=left | {{iconbox|Paiks|Footmen have been the mainstay of Indian armies for centuries, and no weapon is as common as the simple bamboo bow which many Indian commoners practice through hunting from young age.|image=Unit bowmen.png|w=20em}}
+| style="text-align: center;" | 61
+| style="text-align: center;" | 0.66
+| style="text-align: center;" | 7
+| style="text-align: center;" | 28
+| style="text-align: center;" | 16
+| style="text-align: center;" | 10
+| style="text-align: center;" | 10
+| style="text-align: center;" | 0
+| {{icon|Elephant Cavalry}}
+| {{icon|Forest}}{{icon|Hills}}{{icon|Jungle}}
+| None
+| [[File:Innovation special maa 02.png|28px]] Bamboo Bow
+| India
+|-
+| align=left | {{iconbox|Sahel Horsemen|Sahel Riders are mounted warriors who use light quilted armor and javelins to devastate their enemies.|image=Unit light cavalry.png|w=20em}}
+| style="text-align: center;" | 90
+| style="text-align: center;" | 1.15
+| style="text-align: center;" | 7
+| style="text-align: center;" | 22
+| style="text-align: center;" | 15
+| style="text-align: center;" | 30
+| style="text-align: center;" | 30
+| style="text-align: center;" | 0
+| {{icon|Archers}}{{icon|Handgunner}}{{icon|Heavy Infantry}}
+| {{icon|Desert}}{{icon|Drylands}}{{icon|Floodplains}}{{icon|Oasis}}
+| {{icon|Desert Mountains}}{{icon|Hills}}{{icon|Mountains}}{{icon|Wetlands}}{{icon|Harsh Winter}}
+| {{iconify|Sahel Horsemen}}
+| Sahel
+|-
+| align=left | {{iconbox|War Elephants|A charging elephant is almost impossible to stop, making them excellent shock troops.|image=Unit war elephants.png|w=20em}}
+| style="text-align: center;" | 400
+| style="text-align: center;" | 2.94
+| style="text-align: center;" | 30
+| style="text-align: center;" | 250
+| style="text-align: center;" | 50
+| style="text-align: center;" | 0
+| style="text-align: center;" | 0
+| style="text-align: center;" | 0.1
+| {{icon|Skirmishers}}x2{{icon|Heavy Infantry}}x2
+| {{icon|Jungle}}{{icon|Terraced Hills}}
+| {{icon|Desert Mountains}}{{icon|Mountains}}{{icon|Wetlands}}{{icon|Normal Winter}}{{icon|Harsh Winter}}
+| {{iconify|Elephantry}}
+|
+* India
+* South East Asia
+|-
+| align=left | {{iconbox|Ballista Elephants|A charging elephant is alarming enough, but a charging elephant equipped with a powerful ballista on its back is sure to unnerve even the most battle-hardened foes.|image=Unit ballista elephant.png|w=20em}}
+| style="text-align: center;" | 480
+| style="text-align: center;" | 3.36
+| style="text-align: center;" | 30
+| style="text-align: center;" | 180
+| style="text-align: center;" | 75
+| style="text-align: center;" | 30
+| style="text-align: center;" | 20
+| style="text-align: center;" | 0.1
+| {{icon|Skirmishers}}x2{{icon|Heavy Infantry}}x2
+| {{icon|Jungle}}
+| {{icon|Desert Mountains}}{{icon|Mountains}}{{icon|Wetlands}}{{icon|Normal Winter}}{{icon|Harsh Winter}}
+| 
+* {{iconify|Elephantry}}
+* {{iconify|Advanced Bowmaking}}
+|
+* India
+* South East Asia
+|}
+
+=== Cultural ===
+Cultural Men-at-Arms require innovations only available to certain cultures. Adventurers with the Take the Custom Where it Comes can also recruit them if the culture of the county where the camp is located can.
+{| class="mildtable plainlist" style="text-align: center;"
+! Regiment
+! {{icon|gold}} Cost
+! {{icon|gold}} Raised maintenance
+! {{iconify|Provisions}} used
+! {{iconify|Damage}}
+! {{iconify|Toughness}}
+! {{iconify|Pursuit}}
+! {{iconify|Screen}}
+! [[File:Icon maa countered.png|24px]] Counters
+! Favorable terrain
+! Innovation
+! {{iconify|Culture}}
+|-
+| align=left | {{iconbox|Chasseurs|Outremer knights have mastered both European horsemenship and Levantine desert tactics.|image=Unit light cavalry.png|w=25em}}
+| 111
+| 1.36
+| 15
+| 40
+| 15
+| 40
+| 15
+| {{icon|Archers}}{{icon|Handgunner}}
+| {{icon|Desert}}{{icon|Drylands}}{{icon|Plains}}
+| {{iconify|Desert Tactics}}
+| align=left | Outremer
+|-
+| align=left | {{iconbox|Landsknechts|German Landsknechts can use their massive zweihanders to tear through the massed ranks of enemy spearmen.|image=Unit pikemen.png|w=25em}}
+| 90
+| 1.08
+| 3
+| 30
+| 24
+| 0
+| 0
+| {{icon|Spearmen}}{{icon|Light Cavalry}}{{icon|Heavy Cavalry}}
+| {{icon|Desert Mountains}}{{icon|Hills}}{{icon|Mountains}}
+| {{iconify|Zweihanders}}
+| align=left | Any Central Germanic
+|-
+| align=left | {{iconbox|Palatini|The best of the best, Palatini are elite Roman soldiers who serve the Emperor directly.|image=Unit heavy infantry.png|w=25em}}
+| 180
+| 2.4
+| 15
+| 60
+| 30
+| 0
+| 20
+| {{icon|Spearmen}}
+| None
+| {{iconify|Legionnaires}}
+| align=left | Roman
+|-
+| align=left | {{iconbox|Vaulter Infantry|Armed with long vaulting poles, these nimble warriors are able to navigate craggy and mountainous terrain with ease and can even vault over some fortifications.|image=Unit skirmishers.png|w=25em}}
+| 54
+| 0.54
+| 7
+| 10
+| 12
+| 15
+| 20
+| {{icon|Heavy Infantry}}
+| {{icon|Desert Mountains}}{{icon|Hills}}{{icon|Mountains}}{{icon|Wetlands}}
+| [[File:Innovation weapons and armor 01.png|28px]] Pole Vault
+| align=left | Guanche
+|-
+| align=left | {{iconbox|Rocket Carts|A handful of men can hit the enemy with the force of a hundred archers with a single spark of flame, although it might be worth keeping an eye on the kind of men who would willing work with this sort of device.|image=Unit hwacha.png|w=25em}}
+| 69
+| 0.75
+| 12
+| 45
+| 12
+| 0
+| 0
+| {{icon|Spearmen}}{{icon|Heavy Infantry}}
+| {{icon|Farmlands}}{{icon|Hills}}{{icon|Plains}}{{icon|Terraced Hills}}
+| [[File:Innovation rocket cart.png|28px]] Rocket Cart
+| align=left | 
+* {{icon|auh}} All Buyeo
+* {{icon|auh}} All Chinese
+* {{icon|auh}} All Samhanic
+|}
+
+=== Dynastic ===
+Dynastic Men-at-Arms are only available to rulers whose dynasty has certain legacies.
+{| class="mildtable plainlist" style="text-align: center;"
+! Regiment
+! {{icon|gold}} Cost
+! {{icon|gold}} Raised maintenance
+! {{iconify|Provisions}} used
+! {{icon|Damage}}
+! {{icon|Toughness}}
+! {{icon|Pursuit}}
+! {{icon|Screen}}
+! [[File:Icon maa countered.png|24px]] Counters
+! Favorable terrain
+! Unfavorable terrain
+! Requirements
+|-
+| align=left | {{iconbox|House Guard|This elite regiment is in the service of a specific Dynasty. The warriors are hand-picked from the most loyal subjects.|image=Unit default.png|w=25em}}
+| 50
+| 1
+| 12
+| 40
+| 32
+| 0
+| 24
+| {{icon|Archers}}{{icon|Spearmen}}
+| None
+| None
+| align=left | 
+* [[File:Warfare legacy track.png|24px]] Finished the Warfare dynasty legacy
+* {{icon|warning}} Only one regiment can be maintained
+|-
+| align=left | {{iconbox|Asawira|The ranks of the Asawira are composed of Iranian nobles skilled with both lance and bow. Now restored as a military force, they stand ready to assail the enemies of Persia.|image=Unit asawira.png|w=25em}}
+| 300
+| 3
+| 12
+| 90
+| 35
+| 35
+| 10
+| {{icon|Heavy Infantry}}{{icon|Skirmishers}}
+| {{icon|Desert Mountains}}{{icon|Drylands}}{{icon|Plains}}
+| {{icon|Hills}}{{icon|Mountains}}{{icon|Wetlands}}{{icon|Normal Winter}}{{icon|Harsh Winter}}
+| align=left | [[File:Khvarenah legacy track.png|24px]] Brilliance dynasty legacy 4
+|-
+| align=left | {{iconbox|Kheshig|The elite guard of a nomadic ruler, the Kheshig guarantee the safety of their liege, day and night. The khorchin, their battle division, extends this guard onto the field of battle.|image=Unit kheshig.png|w=25em}}
+| 225
+| 2.25
+| 7
+| 94
+| 60
+| 24
+| 36
+| {{icon|Light Cavalry}}{{icon|Heavy Cavalry}}{{icon|Elephant Cavalry}}
+| {{icon|Drylands}}{{icon|Plains}}{{icon|Steppe}}
+| {{icon|Desert Mountains}}{{icon|Jungle}}{{icon|Mountains}}{{icon|Wetlands}}
+| align=left | 
+* [[File:Nomad legacy track.png|24px]] Nomadic dynasty legacy 4
+* {{icon|warning}} Only one regiment can be maintained
+|}
+
+=== Siege weapons ===
+Siege weapons are regiments that cannot fight in battle, but will greatly increase Siege Progress when attacking holdings. Note that the Daily Siege Progress refers to the total effect of one regiment size and will be increased if the regiment increases in size and decreased if the regiment is damaged. There are two sets of siege weapons depending on the culture's heritage but the stats are identical.
+{| class="mildtable" style="text-align: center;"
+! Western regiment
+! Chinese/Korean/Japonic regiment
+! {{icon|siege progress}} Daily Siege Progress
+! {{icon|fort level}} Max Fort Level
+! {{icon|gold}} Cost
+! {{iconify|Provisions}} used
+! Requirements
+|-
+| align=left | {{iconbox|Onagers|These small torsion catapults can tear down enemy fortifications by hurling stone projectiles over a distance.|image=Unit onager.png|w=25em}}
+| align=left | {{iconbox|Siege Crossbows|Large crossbows mounted on a wheeled platform that can launch steel-tipped bolts to impressive distances.|image=Unit ballista.png|w=25em}}
+| +0.2
+| 5
+| 60
+| 6
+| {{iconify|Onager}} innovation<br>{{icon|no}}{{iconify|Nomadic}} government
+|-
+| align=left | {{iconbox|Mangonels|The traction-powered mangonel is easier to operate than the onager while also boasting a faster rate-of-fire.|image=Unit mangonel.png|w=25em}}
+| align=left | {{iconbox|Cloud Ladders|A hinged folding ladder with a simple pulling mechanism to unfold once within reach of the enemy walls.|image=Unit cloud ladder.png|w=25em}}
+| +0.3
+| 10
+| 66
+| 12
+| {{iconify|Mangonels innovation}}<br>{{icon|no}}{{iconify|Nomadic}} government
+|-
+| align=left | {{iconbox|Trebuchets|The counterweight trebuchet can hurl large projectiles with much greater force than mangonels or onagers.|image=Unit trebuchet.png|w=25em}}
+| align=left | {{iconbox|Siege Towers|A large wooden tower on wheels that can be pushed up to enemy walls, offering more protection and stability than siege ladders.|image=Unit siege tower.png|w=25em}}
+| +0.4
+| 15
+| 78
+| 18
+| {{iconify|Trebuchet innovation}}<br>{{icon|no}}{{iconify|Nomadic}} government
+|-
+| align=left | {{iconbox|Bombards|No longer constrained by the limits of levers and pulleys, these cannons can blast through fortifications with ease.|image=Unit bombard.png|w=25em}}
+| align=left | {{iconbox|Fire Dragon Engines|These relatively small but deadly guns were propped up at the muzzle end and pinned to the ground to deaden the recoil.|image=Unit cannon.png|w=25em}}
+| +0.6
+| 30
+| 96
+| 24
+| {{icon|bombards innovation}} Gunpowder innovation<br>{{icon|no}}{{iconify|Nomadic}} government
+|-
+| align=left | {{iconbox|Torch-Bearers|On the boundless steppe, there's no need for siege towers or catapults — just a blazing torch and a swift horse, enough to set every yurt aflame.|image=Unit torch bearers.png|w=25em}}
+| align=left | {{iconbox|Torch-Bearers|On the boundless steppe, there's no need for siege towers or catapults — just a blazing torch and a swift horse, enough to set every yurt aflame.|image=Unit torch bearers.png|w=25em}}
+| +0.1
+| 5
+| 30
+| {{icon|no}}
+| {{iconify|Nomadic}} government
+|}
+
+=== Retinue ===
+{{expansion|tnt}}
+Retinue Men-at-Arms are only available to rulers who have a certain Accolade at rank 3-6. They are twice as effective at countering other Men-at-Arms and their stats scale with the era of their ruler's culture. Their regiments size is limited to a value of 4-6.
+{| class="mildtable plainlist"
+! rowspan=2 | Regiment
+! rowspan=2 | {{icon|gold}} Cost
+! rowspan=2 | {{icon|gold}} Raised maintenance
+! colspan=4 | Tribal era
+! colspan=4 | Early medieval era
+! colspan=4 | High medieval era
+! colspan=4 | Late medieval era
+! rowspan=2 | [[File:Icon maa countered.png|24px]] Counters
+! rowspan=2 | Favorable terrain
+! rowspan=2 | Unfavorable terrain
+! rowspan=2 | Accolade
+|-
+! {{icon|damage}}
+! {{icon|toughness}}
+! {{icon|pursuit}}
+! {{icon|screen}}
+! {{icon|damage}}
+! {{icon|toughness}}
+! {{icon|pursuit}}
+! {{icon|screen}}
+! {{icon|damage}}
+! {{icon|toughness}}
+! {{icon|pursuit}}
+! {{icon|screen}}
+! {{icon|damage}}
+! {{icon|toughness}}
+! {{icon|pursuit}}
+! {{icon|screen}}
+|-
+| {{iconbox|Retinue Archers|These elite archers are no rabble of poachers: they are relentlessly drilled to rain arrows accurately and at great speed.|image=Unit bowmen.png|w=20em}}
+| style="text-align: center;" | 110
+| style="text-align: center;" | 0.6
+| 30
+| 15
+| 0
+| 0
+| 36
+| 15
+| 0
+| 0
+| 40
+| 19
+| 0
+| 0
+| 50
+| 29
+| 0
+| 0
+| {{icon|Skirmishers}}
+| {{icon|Forest}}{{icon|Hills}}{{icon|Taiga}}
+| None
+| Archer
+|-
+| {{iconbox|Retinue Camel Riders|Feared across the Middle East and North Africa, the world boasts scarce-few such skilled camelry.|image=Unit camel riders.png|w=20em}}
+| style="text-align: center;" | 170
+| style="text-align: center;" | 0.84
+| 30
+| 20
+| 30
+| 30
+| 30
+| 20
+| 36
+| 30
+| 34
+| 24
+| 40
+| 34
+| 50
+| 30
+| 60
+| 40
+| {{icon|Light Cavalry}}
+| {{icon|Desert}}{{icon|Drylands}}{{icon|Floodplains}}{{icon|Plains}}
+| {{icon|Desert Mountains}}{{icon|Hills}}{{icon|Mountains}}{{icon|Normal Winter}}{{icon|Harsh Winter}}
+| Camelier
+|-
+| {{iconbox|Retinue Crossbowmen|Knight or knave: any can be pierced through by the carefully-placed iron bolts of these highly-trained crossbow-wielders.|image=Unit crossbowmen.png|w=20em}}
+| style="text-align: center;" | 176
+| style="text-align: center;" | 0.9
+| 60
+| 30
+| 0
+| 0
+| 60
+| 30
+| 0
+| 0
+| 60
+| 30
+| 0
+| 0
+| 70
+| 40
+| 0
+| 0
+| {{icon|Heavy Cavalry}}{{icon|Heavy Infantry}}{{icon|Horse Archers}}
+| {{icon|Hills}}
+| {{icon|Desert}}{{icon|Drylands}}{{icon|Plains}}
+| Crossbow Captain
+|-
+| {{iconbox|Retinue Handgunners|Steadily advancing through the gunpowder smoke, these highly drilled handgunners can shatter the enemy ranks with their master-crafted guns.|image=Unit handgonne.png|w=20em}}
+| style="text-align: center;" | 76
+| style="text-align: center;" | 1.05
+| 56
+| 20
+| 0
+| 5
+| 56
+| 20
+| 0
+| 5
+| 56
+| 20
+| 0
+| 5
+| 56
+| 20
+| 0
+| 5
+| {{icon|Heavy Infantry}}
+| None
+| None
+| Gunner
+|-
+| {{iconbox|Retinue Horse Archers|Common steppe riders possess a lifetime of skill: these veteran horsemen, yet more. To stand against them is pain; to chase after them is death.|image=Unit horse archers.png|w=20em}}
+| style="text-align: center;" | 270
+| style="text-align: center;" | 1.35
+| 45
+| 20
+| 40
+| 30
+| 45
+| 20
+| 40
+| 30
+| 45
+| 20
+| 40
+| 30
+| 45
+| 20
+| 40
+| 30
+| {{icon|Skirmishers}}{{icon|Heavy Infantry}}
+| {{icon|Drylands}}{{icon|Plains}}{{icon|Steppe}}
+| {{icon|Desert Mountains}}{{icon|Jungle}}{{icon|Mountains}}{{icon|Wetlands}}
+| Horse Archer
+|-
+| {{iconbox|Retinue Lancers|Coursing into the fray with thunderous clamor and true nobility, the serried ranks of these horsemen inspire a terrible awe on any battlefield.|image=Unit heavy cavalry.png|w=20em}}
+| style="text-align: center;" | 400
+| style="text-align: center;" | 2.1
+| 200
+| 70
+| 40
+| 0
+| 200
+| 70
+| 40
+| 0
+| 200
+| 70
+| 50
+| 0
+| 200
+| 70
+| 50
+| 20
+| {{icon|Archers}}{{icon|Handgunner}}
+| {{icon|Drylands}}{{icon|Plains}}
+| {{icon|Desert Mountains}}{{icon|Hills}}{{icon|Mountains}}{{icon|Wetlands}}{{icon|Normal Winter}}{{icon|Harsh Winter}}
+| Lancer
+|-
+| {{iconbox|Retinue Outriders|Atop swift steeds, these elite horsemen can outrun any foe and strike always where least expected and least welcome.|image=Unit light cavalry.png|w=20em}}
+| style="text-align: center;" | 170
+| style="text-align: center;" | 1.05
+| 30
+| 20
+| 40
+| 40
+| 30
+| 20
+| 46
+| 40
+| 34
+| 24
+| 50
+| 44
+| 50
+| 40
+| 70
+| 50
+| {{icon|Archers}}{{icon|Handgunner}}
+| {{icon|Drylands}}{{icon|Plains}}
+| {{icon|Desert Mountains}}{{icon|Hills}}{{icon|Mountains}}{{icon|Wetlands}}{{icon|Harsh Winter}}
+| Outrider
+|-
+| {{iconbox|Retinue Pikemen|Bedecked in fine armor and bearing long pikes, these infantrymen form the unbreakable core of their liege's army.|image=Unit pikemen.png|w=20em}}
+| style="text-align: center;" | 150
+| style="text-align: center;" | 0.9
+| 30
+| 30
+| 0
+| 0
+| 36
+| 30
+| 0
+| 0
+| 40
+| 34
+| 0
+| 0
+| 50
+| 40
+| 0
+| 0
+| {{icon|Light Cavalry}}{{icon|Heavy Cavalry}}{{icon|camel cavalry}}{{icon|Elephant Cavalry}}
+| {{icon|Desert Mountains}}{{icon|Hills}}{{icon|Mountains}}
+| None
+| Pike Captain
+|-
+| {{iconbox|Retinue Skirmishers|A mix of lightly-equipped elite warriors and seasoned mercenary raiders, feared for their skill at ambushes and unconventional warfare.|image=Unit skirmishers.png|w=20em}}
+| style="text-align: center;" | 90
+| style="text-align: center;" | 0.45
+| 20
+| 20
+| 16
+| 20
+| 26
+| 20
+| 16
+| 20
+| 40
+| 24
+| 20
+| 24
+| 46
+| 30
+| 24
+| 28
+| {{icon|Heavy Infantry}}
+| {{icon|Forest}}{{icon|Jungle}}{{icon|Taiga}}
+| None
+| Skirmisher
+|-
+| {{iconbox|Retinue Vanguard|Afforded pride of place in the thick of the fight, these disciplined and resplendent heavy infantry are a force few foes can withstand.|image=Unit heavy infantry.png|w=20em}}
+| style="text-align: center;" | 180
+| style="text-align: center;" | 1.2
+| 45
+| 35
+| 0
+| 0
+| 45
+| 35
+| 0
+| 0
+| 55
+| 45
+| 0
+| 0
+| 65
+| 55
+| 0
+| 0
+| {{icon|Spearmen}}
+| None
+| None
+| Vanguard
+|-
+| {{iconbox|Retinue War Elephants|From towering howdahs, these beasts' skilled mahouts prove the only thing harder to stop than a charging elephant is another, larger elephant.|image=Unit war elephants.png|w=20em}}
+| style="text-align: center;" | 1600
+| style="text-align: center;" | 2.94
+| 400
+| 100
+| 0
+| 0
+| 400
+| 100
+| 0
+| 0
+| 400
+| 100
+| 0
+| 0
+| 400
+| 100
+| 0
+| 0
+| {{icon|Skirmishers}}{{icon|Heavy Infantry}}
+| {{icon|Jungle}}{{icon|Terraced Hills}}
+| {{icon|Desert Mountains}}{{icon|Mountains}}{{icon|Wetlands}}{{icon|Normal Winter}}{{icon|Harsh Winter}}
+| Elephant Rider
+|}
+
+=== Outcasts ===
+{{expansion|rtp}}
+Outcasts Men-at-Arms are spawned for adventurers who take the Levy the Outcasts decision or complete a criminal contract after taking the decision. They are lost upon succession.
+{| class="mildtable plainlist" style="text-align: center;"
+! Regiment
+! {{iconify|Damage}}
+! {{iconify|Toughness}}
+! {{iconify|Pursuit}}
+! {{iconify|Screen}}
+! [[File:Icon maa countered.png|24px]] Counters
+! Favorable terrain
+|-
+| align=left | {{iconbox|Bandits|Scum of the earth, these men have forsaken lawfulness for a life of crime.|image=Unit skirmishers.png}}
+| 15
+| 20
+| 20
+| 25
+| {{icon|Archers}}{{icon|Heavy Infantry}}
+| {{icon|Forest}}{{icon|Hills}}{{icon|Jungle}}
+|-
+| align=left | {{iconbox|Looters|Scum of the earth, these men have forsaken lawfulness for a life of crime.|image=Unit pikemen.png}}
+| 30
+| 20
+| 10
+| 10
+| {{icon|Light Cavalry}}{{icon|Heavy Cavalry}}{{icon|Camel Cavalry}}{{icon|Elephant Cavalry}}
+| {{icon|Desert Mountains}}{{icon|Hills}}{{icon|Mountains}}
+|-
+| align=left | {{iconbox|Marauders|Scum of the earth, these men have forsaken lawfulness for a life of crime.|image=Unit light cavalry.png}}
+| 30
+| 15
+| 40
+| 30
+| {{icon|Archers}}{{icon|Handgunner}}
+| {{icon|Drylands}}{{icon|Farmlands}}{{icon|Plains}}
+|-
+| align=left | {{iconbox|Poachers|Scum of the earth, these men have forsaken lawfulness for a life of crime.|image=Unit bowmen.png}}
+| 30
+| 15
+| 10
+| 10
+| {{icon|Skirmishers}}
+| {{icon|Forest}}{{icon|Hills}}{{icon|Jungle}}
+|}
+
+=== Nomadic ===
+{{expansion|kos}}
+Nomadic Men-at-Arms are available to characters with {{iconify|Nomadic}} government. Characters who have the {{iconify|Way of the Nomad}} trait and have a different government can also recruit them, even if they don't meet the other requirements.
+{| class="mildtable plainlist"
+! Regiment
+! {{icon|gold}} Cost
+! {{icon|gold}} Raised maintenance
+! {{iconify|Provisions}} used
+! {{icon|Damage}}
+! {{icon|Toughness}}
+! {{icon|Pursuit}}
+! {{icon|Screen}}
+! [[File:Icon maa countered.png|24px]] Counters
+! Favorable terrain
+! Unfavorable terrain
+! Requirements
+|-
+| {{iconbox|Steppe Raiders|Though outfitted as scouts, these outriders rarely hesitate to charge isolated enemies and wreak swift violence on the unwary.|image=Unit steppe raiders.png|w=25em}}
+| style="text-align: center;" | 76
+| style="text-align: center;" | 0.94
+| style="text-align: center;" | 7
+| style="text-align: center;" | 22
+| style="text-align: center;" | 15
+| style="text-align: center;" | 30
+| style="text-align: center;" | 30
+| {{icon|Archers}}{{icon|Handgunner}}
+| {{icon|Desert}}{{icon|Drylands}}{{icon|Forest}}{{icon|Plains}}{{icon|Steppe}}{{icon|Taiga}}
+| {{icon|Desert Mountains}}{{icon|Mountains}}{{icon|Wetlands}}{{icon|Harsh Winter}}
+| 
+|-
+| {{iconbox|Heavy Horse Archers|Armored riders carrying strong bows. As each leads a string of fine horses, these nomads can fight tirelessly on the open field.|image=Unit heavy horse archers.png|w=25em}}
+| style="text-align: center;" | 157
+| style="text-align: center;" | 1.57
+| style="text-align: center;" | 21
+| style="text-align: center;" | 92
+| style="text-align: center;" | 42
+| style="text-align: center;" | 24
+| style="text-align: center;" | 24
+| {{icon|Light Cavalry}}{{icon|Elephant Cavalry}}
+| {{icon|Plains}}{{icon|Steppe}}
+| {{icon|Desert Mountains}}{{icon|Forest}}{{icon|Jungle}}{{icon|Mountains}}{{icon|Taiga}}{{icon|Wetlands}}{{icon|Normal Winter}}{{icon|Harsh Winter}}
+| [[File:Domicile mass warfare yurt.png|24px]] Square of the Tumen
+|-
+| {{iconbox|Nomad Lancers|Hook-bearing lances and horsehair banners rise above this gleaming battle-line of elite, ferocious nomadic cavalry.|image=Unit nomad lancers.png|w=25em}}
+| style="text-align: center;" | 190
+| style="text-align: center;" | 2
+| style="text-align: center;" | 21
+| style="text-align: center;" | 120
+| style="text-align: center;" | 30
+| style="text-align: center;" | 20
+| style="text-align: center;" | 0
+| {{icon|Archers}}{{icon|Handgunner}}
+| {{icon|Drylands}}{{icon|Plains}}{{icon|Steppe}}
+| {{icon|Desert Mountains}}{{icon|Hills}}{{icon|Mountains}}{{icon|Wetlands}}{{icon|Normal Winter}}{{icon|Harsh Winter}}
+| [[File:Nomad authority 2.png|24px]] Limited dominance law
+|}
+
+== Supply ==
+Supply reflects whether armies are properly provided with food and other necessities. Armies carry supplies with them as they move around the map. All armies can carry at least 100 units of Supply, although armies commanded by a commander with the Living Off the Land perk can carry up to 300 supply. When they are raised, they start with 100 Supply. Supply is consumed once per month whenever armies are in a Barony with a lower Supply Limit than the army size and gained whenever armies are in owned, occupied or allied territory up to the current Barony's Supply Limit. Low Supply will apply penalties to [[Warfare#The_advantage_modifier|Advantage]] in battles. If an army runs out of Supply entirely, it will receive a bigger Advantage penalty and also take Attrition damage every month.
+
+=== Supply limit ===
+The base supply limit of a barony is 2000. The minimum supply limit of a barony is 1000. {{#lst:County|DevelopmentSupplyLimit}} Coastal baronies have their supply limit increased by {{green|+25%}}. A barony's supply limit can also be affected by its terrain.
+
+== Attrition==
+Attrition is a loss of Levies and Men-at-Arms that is caused by various factors:
+* Besieging and Raiding armies suffer {{red|1%}} attrition per month.
+* Armies that have completely run out of supplies suffer {{red|5%}} attrition per month.
+* Moving from one hostile (unoccupied) County into another hostile County instantly causes the army to lose {{red|5%}} of their troops (minimum of 100) as long as the destination County is not adjacent to any allied County. Raiding armies next to major rivers as well as nomad armies within the steppe regions are exempt. The {{icon|Reaver}} Reaver trait reduces this by {{green|75%}} (minimum of 25).
+
+==Special soldiers ==
+Special soldiers are maintenance free armies that are created by decisions or certain historical rulers and do not reinforce.
+{| class="mildtable plainlist" style="float: left; margin-right: 20px;"
+!Army
+!Inherited
+!Ruler
+!Year
+|-
+|
+* {{icon|levies}} 500 Levies
+* [[File:Unit ayyar.png|24px]] 200 Ayyar
+|{{icon|no}}
+|{{icon|county}} Abd-al-Rahim of Herat
+|867
+|-
+|
+* {{icon|levies}} 400 Levies
+* [[File:Unit mubarizun.png|24px]] 100 Mubarizun
+|{{icon|yes}}
+|{{icon|county}} Esmā'īl ibn Musa of Bam
+|867
+|-
+|
+* {{icon|levies}} 400 Levies
+* [[File:Unit mubarizun.png|24px]] 100 Mubarizun
+|{{icon|yes}}
+|{{icon|county}} Esmā'īl ibn Musa of Bam
+|867
+|-
+|
+* {{icon|levies}} 400 Levies
+* [[File:Unit mubarizun.png|24px]] 100 Mubarizun
+|{{icon|yes}}
+|{{icon|county}} Esmā'īl ibn Musa of Bam
+|867
+|-
+|
+* {{icon|levies}} 400 Levies
+* [[File:Unit mubarizun.png|24px]] 100 Mubarizun
+|{{icon|yes}}
+|{{icon|county}} Esmā'īl ibn Musa of Bam
+|867
+|-
+|
+* {{icon|levies}} 1200 Levies
+* [[File:Unit danish huskarls.png|24px]] 300 Huscarls if Northern Lords is not installed
+* [[File:Unit danish huskarls.png|24px]] 200 Huscarls if Northern Lords is installed
+* [[File:Unit varangian veterans.png|24px]] 100 Varangian Veterans if Northern Lords is installed
+|{{icon|no}}
+|{{icon|county}} Hæsteinn of Montaigu
+|867
+|-
+|
+* {{icon|levies}} 1200 Levies
+* [[File:Unit danish huskarls.png|24px]] 300 Huscarls if Northern Lords is not installed
+* [[File:Unit danish huskarls.png|24px]] 200 Huscarls if Northern Lords is installed
+* [[File:Unit varangian veterans.png|24px]] 100 Varangian Veterans if Northern Lords is installed
+|{{icon|no}}
+|{{icon|county}} Hæsteinn of Montaigu
+|867
+|-
+|{{icon|levies}} 600 Levies
+|{{icon|yes}}
+|{{icon|county}} Lubb of Najera
+|867
+|-
+|
+* {{icon|levies}} 500 Levies
+* [[File:Unit tawashi.png|24px]] 100 Tawashi
+* [[File:Unit mubarizun.png|24px]] 100 Mubarizun
+* {{icon|onagers}} 10 Onagers
+|{{icon|yes}}
+|{{icon|county}} Musawir Kurê Abdul-Hamid of Hadithat-Ana
+|867
+|-
+|
+* {{icon|levies}} 500 Levies
+* [[File:Unit tawashi.png|24px]] 100 Tawashi
+* [[File:Unit mubarizun.png|24px]] 100 Mubarizun
+* {{icon|onagers}} 10 Onagers
+|{{icon|yes}}
+|{{icon|county}} Musawir Kurê Abdul-Hamid of Hadithat-Ana
+|867
+|-
+|
+* {{icon|levies}} 500 Levies
+* [[File:Unit tawashi.png|24px]] 100 Tawashi
+* [[File:Unit mubarizun.png|24px]] 100 Mubarizun
+* {{icon|onagers}} 10 Onagers
+|{{icon|yes}}
+|{{icon|county}} Musawir Kurê Abdul-Hamid of Hadithat-Ana
+|867
+|-
+|
+* {{icon|levies}} 500 Levies
+* [[File:Unit tawashi.png|24px]] 100 Tawashi
+* [[File:Unit mubarizun.png|24px]] 100 Mubarizun
+* {{icon|onagers}} 10 Onagers
+|{{icon|yes}}
+|{{icon|county}} Musawir Kurê Abdul-Hamid of Hadithat-Ana
+|867
+|-
+|
+* {{icon|levies}} 600 Levies
+* [[File:Unit danish huskarls.png|24px]] 400 Huscarls if Northern Lords is not installed
+* [[File:Unit danish huskarls.png|24px]] 200 Huscarls if Northern Lords is installed
+* [[File:Unit varangian veterans.png|24px]] 100 Varangian Veterans if Northern Lords is installed
+|{{icon|no}}
+|{{icon|duke}} Dyre of Köungarðr
+|867
+|-
+|{{icon|levies}} 1250 Levies
+| {{icon|yes}}
+|{{icon|duchy}} Halfdan of the Jórvík
+|867
+|-
+|{{icon|levies}} 1250 Levies
+|{{icon|yes}}
+|{{icon|duchy}} Halfdan of the Jórvík
+|867
+|-
+|{{icon|levies}} 1250 Levies
+|{{icon|yes}}
+|{{icon|duchy}} Halfdan of the Jórvík
+|867
+|-
+|{{icon|levies}} 1250 Levies
+|{{icon|yes}}
+|{{icon|duchy}} Halfdan of the Jórvík
+|867
+|-
+|{{icon|levies}} 1250 Levies
+|{{icon|yes}}
+|{{icon|duchy}} Ivar of the Suðreyjar
+|867
+|-
+|{{icon|levies}} 1250 Levies
+|{{icon|yes}}
+|{{icon|duchy}} Ivar of the Suðreyjar
+|867
+|-
+|{{icon|levies}} 1250 Levies
+|{{icon|yes}}
+|{{icon|duchy}} Ivar of the Suðreyjar
+|867
+|-
+|{{icon|levies}} 1250 Levies
+|{{icon|yes}}
+|{{icon|duchy}} Ivar of the Suðreyjar
+|867
+|-
+|
+* {{icon|levies}} 400 Levies
+* [[File:Unit danish huskarls.png|24px]] 200 Huscarls
+|{{icon|no}}
+|{{icon|duchy}} Olafr of Léon
+|867
+|-
+|
+* {{icon|levies}} 600 Levies
+* [[File:Unit danish huskarls.png|24px]] 400 Huscarls if Northern Lords is not installed
+* [[File:Unit danish huskarls.png|24px]] 200 Huscarls if Northern Lords is installed
+* [[File:Unit varangian veterans.png|24px]] 200 Varangian Veterans if Northern Lords is installed
+|{{icon|no}}
+|{{icon|duchy}} Rurik of Holmgarðr
+| 867
+|-
+|[[File:Unit ayyar.png|24px]] 300 Ayyar
+|{{icon|no}}
+|{{icon|kingdom}} Ya'qub Laythzade of Saffarid
+|867
+|-
+|
+* {{icon|levies}} 200 Levies
+* [[File:Unit mubarizun.png|24px]] 100 Mubarizun
+* [[File:Unit ayyar.png|24px]] 100 Ayyar
+* {{icon|Camel Cavalry}} 100 Camel Riders
+|{{icon|yes}}
+|{{icon|empire}} al-Mu'tazz ibn al-Mutawakkil
+| 867
+|}
+{| class="mildtable plainlist" style="float: left; margin-right: 20px;"
+!Army
+!Inherited
+!Ruler
+!Year
+|-
+|{{icon|levies}} 1200 Levies
+|{{icon|yes}}
+|{{icon|county}} Hummay of Bilma
+|1066
+|-
+|{{icon|levies}} 1200 Levies
+|{{icon|yes}}
+|{{icon|county}} Hummay of Bilma
+|1066
+|-
+|{{icon|levies}} 1200 Levies
+| {{icon|yes}}
+|{{icon|county}} Hummay of Bilma
+|1066
+|-
+|{{icon|levies}} 1075 Levies
+|{{icon|yes}}
+|{{icon|county}} Vijayabahu of Vijayabahu
+|1066
+|-
+|{{icon|levies}} 1075 Levies
+|{{icon|yes}}
+|{{icon|county}} Vijayabahu of Vijayabahu
+|1066
+|-
+|{{icon|levies}} 1075 Levies
+|{{icon|yes}}
+|{{icon|county}} Vijayabahu of Vijayabahu
+|1066
+|-
+|{{icon|levies}} 1075 Levies
+|{{icon|yes}}
+| {{icon|county}} Vijayabahu of Vijayabahu
+|1066
+|-
+|{{icon|levies}} 800 Levies
+|{{icon|no}}
+|{{icon|duchy}} William II of Normandy
+|1066
+|-
+|
+* {{icon|levies}} 800 Levies
+* {{icon|skirmishers}} 400 Light Footmen
+* {{icon|spearmen}} 400 Pikemen
+|{{icon|no}}
+|{{icon|duchy}} William II of Normandy
+|1066
+|-
+|
+* {{icon|levies}} 800 Levies
+* {{icon|heavy infantry}} 400 Armored Footmen
+* {{icon|onagers}} 20 Onagers
+|{{icon|no}}
+|{{icon|duchy}} William II of Normandy
+|1066
+|-
+|
+* {{icon|levies}} 800 Levies
+* {{icon|heavy infantry}} 400 Armored Footmen
+* {{icon|onagers}} 20 Onagers
+|{{icon|no}}
+|{{icon|duchy}} William II of Normandy
+|1066
+|-
+|
+* {{icon|levies}} 800 Levies
+* {{icon|archers}} 400 Bowmen
+* {{icon|onagers}} 20 Onagers
+|{{icon|no}}
+|{{icon|duchy}} William II of Normandy
+|1066
+|-
+|{{icon|levies}} 1000 Levies
+|{{icon|yes}}
+|{{icon|duchy}} William II of Normandy
+|1066
+|-
+|
+* {{icon|levies}} 600 Levies
+* {{icon|onagers}} 20 Onagers
+|{{icon|no}}
+|{{icon|kingdom}} Harald IV of Norway
+|1066
+|-
+|
+* {{icon|levies}} 600 Levies
+* {{icon|heavy infantry}} 200 Armored Footmen
+* {{icon|onagers}} 10 Onagers
+|{{icon|no}}
+|{{icon|kingdom}} Harald IV of Norway
+|1066
+|-
+|
+* {{icon|levies}} 600 Levies
+* {{icon|skirmishers}} 200 Light Footmen
+|{{icon|no}}
+|{{icon|kingdom}} Harald IV of Norway
+|1066
+|-
+|{{icon|levies}} 1200 Levies
+|{{icon|yes}}
+|{{icon|kingdom}} Tatus of Pechenegs
+|1066
+|-
+|
+* {{icon|levies}} 200 Levies
+* {{icon|horse archers}} 200 Horse Archers
+* {{icon|light cavalry}} 200 Light Horsemen
+|{{icon|yes}}
+|{{icon|kingdom}} Ibrahim of Ghazhavid
+|1066
+|-
+|
+* {{icon|levies}} 200 Levies
+* {{icon|horse archers}} 200 Horse Archers
+* {{icon|light cavalry}} 200 Light Horsemen
+|{{icon|yes}}
+|{{icon|kingdom}} Ibrahim of Ghazhavid
+|1066
+|-
+|
+* {{icon|horde riders}} 1200 Horde Riders if Khans of the Steppe is installed
+* {{icon|levies}} 1200 Levies if Khans of the Steppe is not installed
+|{{icon|yes}}
+|{{icon|kingdom}} Tatus of Pechanegs
+|1066
+|-
+|
+* {{icon|steppe raiders}} 500 Steppe Raiders
+* {{icon|mangonels}} 20 Mangonels
+|{{icon|yes}}
+|{{icon|empire}} Alp Arslan Chagri-Begoglu of Seljuk
+|1066
+|-
+|
+* {{icon|steppe raiders}} 500 Steppe Raiders
+* {{icon|mangonels}} 20 Mangonels
+|{{icon|yes}}
+|{{icon|empire}} Alp Arslan Chagri-Begoglu of Seljuk
+|1066
+|-
+|
+* {{icon|steppe raiders}} 500 Steppe Raiders
+* {{icon|horse archers}} 300 Horse Archers
+* {{icon|mangonels}} 20 Mangonels
+|{{icon|yes}}
+|{{icon|empire}} Alp Arslan Chagri-Begoglu of Seljuk
+|1066
+|-
+|
+* {{icon|steppe raiders}} 500 Steppe Raiders
+* {{icon|horse archers}} 300 Horse Archers
+* {{icon|mangonels}} 20 Mangonels
+|{{icon|yes}}
+|{{icon|empire}} Alp Arslan Chagri-Begoglu of Seljuk
+|1066
+|-
+|
+* {{icon|steppe raiders}} 600 Steppe Raiders
+* {{icon|horse archers}} 300 Horse Archers
+* {{icon|cataphract archers}} 300 Cataphract Archers
+* [[File:Unit ballista.png|24px]] Siege Crossbows
+|{{icon|yes}}
+|{{icon|empire}} Yelü Yúnjī of Great Liao
+|1066
+|-
+|
+* {{icon|steppe raiders}} 600 Steppe Raiders
+* {{icon|horse archers}} 300 Horse Archers
+* {{icon|cataphract archers}} 300 Cataphract Archers
+* [[File:Unit ballista.png|24px]] Siege Crossbows
+|{{icon|yes}}
+|{{icon|empire}} Yelü Yúnjī of Great Liao
+|1066
+|-
+|
+* {{icon|steppe raiders}} 600 Steppe Raiders
+* {{icon|horse archers}} 300 Horse Archers
+* {{icon|cataphract archers}} 300 Cataphract Archers
+* [[File:Unit ballista.png|24px]] Siege Crossbows
+|{{icon|yes}}
+|{{icon|empire}} Yelü Yúnjī of Great Liao
+|1066
+|-
+|
+* {{icon|steppe raiders}} 600 Steppe Raiders
+* {{icon|horse archers}} 300 Horse Archers
+* {{icon|cataphract archers}} 300 Cataphract Archers
+* [[File:Unit ballista.png|24px]] Siege Crossbows
+|{{icon|yes}}
+|{{icon|empire}} Yelü Yúnjī of Great Liao
+|1066
+|-
+|
+* {{icon|steppe raiders}} 600 Steppe Raiders
+* {{icon|horse archers}} 300 Horse Archers
+* {{icon|cataphract archers}} 300 Cataphract Archers
+* [[File:Unit ballista.png|24px]] Siege Crossbows
+|{{icon|yes}}
+|{{icon|empire}} Yelü Yúnjī of Great Liao
+|1066
+|-
+|{{icon|light cavalry}} 200 Caballeros
+|{{icon|yes}}
+|{{icon|duchy}} Rodrigo Díaz
+|1066
+|-
+|
+* {{icon|levies}} 2500 Levies
+* {{icon|heavy infantry}} 400 Handpicked Faithful
+|{{icon|yes}}
+|{{icon|duchy}} Todor
+|1178
+|-
+|
+* {{icon|levies}} 2500 Levies
+* {{icon|heavy infantry}} 400 Handpicked Faithful
+|{{icon|yes}}
+|{{icon|duchy}} Todor
+|1178
+|-
+|
+* {{icon|levies}} 2500 Levies
+* {{icon|heavy infantry}} 400 Handpicked Faithful
+|{{icon|yes}}
+|{{icon|duchy}} Todor
+|1178
+|-
+|
+* {{icon|light cavalry}} 1000 Light Horsemen
+* {{icon|crossbowmen}} 800 Crossbowmen
+* {{icon|trebuchets}} 80 Trebuchets
+|{{icon|yes}}
+|{{icon|duchy}} Todor
+|1178
+|}
+{{clear}}
+
+==References==
+<references />
+{{Mechanics navbox}}
+
+[[Category:War]]

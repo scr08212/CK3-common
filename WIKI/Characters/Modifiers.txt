@@ -1,0 +1,1699 @@
+{{Version|1.18}}
+{{about|obtainable in-game modifiers|the modding page|Modifier (modding)}}
+A modifier is an effect that adds various bonuses or penalties to a dynasty, house, character or county. Modifiers can be temporary or permanent. Characters can have an unlimited number of modifiers but only the first 10 will be displayed.
+
+== Permanent dynasty modifiers ==
+The following permanent modifiers affect all members of a Dynasty:
+{| class="mildtable plainlist"
+! Modifier
+! Effects
+! Requirements
+|-
+| [[File:Modifier prestige positive.png]] Dynasty of Many Crowns
+|
+* {{icon|stewardship}} {{green|+2}} Stewardship
+* {{icon|prestige}} {{green|+20%}} Monthly Prestige
+* {{icon|opinion}} {{green|+5}} Direct Vassal Opinion
+* {{icon|levies}} {{green|+10%}} Levy Size
+| {{icon|decision}} Dynasty of Many Crowns decision
+|-
+| [[File:Modifier health positive.png]] Strong Blood
+|
+* {{icon|health boost}} {{green|+0.25 Health Boost}}
+* {{icon|unknown}} {{green|+40%}} Chance of inheriting good Congenital Traits
+* {{icon|unknown}} {{green|+400%}} Chance of new good Congenital Traits
+| {{icon|decision}} Strengthen Bloodline decision
+|-
+| [[File:Modifier legitimacy positive.png]] Guiding Stars of Java
+| 
+* {{icon|legitimacy}} {{green|+5%}} Legitimacy Gain
+* {{icon|prestige}} {{green|+5%}} Monthly Prestige
+* {{icon|piety}} {{green|+5%}} Monthly Piety
+| {{icon|decision}} Found the Majapahit Empire decision
+|-
+| [[File:Modifier byzantine eagle positive.png]] Reinstated the Theodosian Borders
+| {{icon|influence}} {{green|+30%}} Monthly Influence
+| {{icon|decision}} Re-Establish the Theodosian Borders decision
+|-
+| [[File:Modifier martial positive.png]] Dynasty of Many Khans
+|
+* {{icon|martial}} {{green|+2}} Martial
+* {{icon|horde riders}} {{green|+10%}} Herd Conversion into Horde Riders
+* {{icon|herd}} {{green|+20%}} Herd Capacity
+| 
+* {{icon|decision}} Dynasty of Many Crowns decision
+* [[File:Domicile renown gain yurt.png|24px]] Yurt of Many Khans upgrade level 6
+|-
+| [[File:Modifier flame positive.png]] Flame of Persia
+| 
+* {{icon|advantage}} {{green|+5}} Advantage in same Cultural Heritage Provinces
+* {{icon|development}} {{green|+20%}} Development Growth in the Persia region
+* {{icon|innovation}} {{green|+20%}} Cultural Fascination Progress
+* {{icon|opinion}} {{green|+10}} Same Culture Parochial Vassal Opinion
+* {{icon|opinion}} {{green|+10}} Same Culture Glory Hound Vassal Opinion
+* {{icon|opinion}} {{green|+5}} Same Culture Courtly Vassal Opinion
+| {{icon|lop}} Iranian Resurgence Iranian intermezzo ending
+|-
+| [[File:Modifier mandala legitimacy positive.png]] Forest of Bumga Mas
+| 
+* {{icon|legitimacy}} {{green|-10%}} Legitimacy Loss
+* {{icon|opinion}} {{green|+10}} Tributary Opinion
+* {{icon|lod}} {{green|+10%}} Legend Spread Chance
+| {{icon|auh}} Forest of Bumga Mas great project contribution
+|}
+
+=== Domes ===
+{{expansion|auh}}
+Domes are dynasty modifiers that rulers can obtain by paying for the Capital Temple Complex great project contribution with the same name. Gaining a more powerful modifier will remove the weaker one but a weaker modifier is not needed to gain a more powerful one.
+{| class="mildtable plainlist" style="text-align: center;"
+! Modifier
+! {{iconify|Piety}} per Legitimacy Level
+|-
+| [[File:Modifier mandala positive.png]] Sanctified Domes
+| {{green|+1%}}
+|-
+| [[File:Modifier mandala positive.png]] Decorated Domes
+| {{green|+2%}}
+|-
+| [[File:Modifier mandala positive.png]] Gilded Domes
+| {{green|+3%}}
+|-
+| [[File:Modifier mandala positive.png]] Bejeweled Domes
+| {{green|+4%}}
+|}
+
+== Permanent house modifiers ==
+The following permanent modifiers affect all members of a House:
+{| class="mildtable plainlist"
+! Modifier
+! Effects
+! Requirements
+|-
+| [[File:Modifier blood positive.png]] Rival House Eradicated
+| 
+* {{icon|dread}} {{green|+10}} Natural Dread
+* {{icon|dread}} {{green|+50%}} Dread Decay
+* {{icon|scheme phase length}} {{green|+10}} Days Enemy Hostile Scheme Phase Length
+* {{icon|opinion}} {{red|-5}} Fellow Vassal Opinion
+* {{icon|opinion}} {{red|-15}} Liege Opinion
+| 
+* {{icon|yes}} Won a war with the Eradicate Rival House casus belli
+* {{icon|no}} Loser was a human player
+|-
+| [[File:Modifier blood positive.png]] House Eradicated
+| {{icon|scheme phase length}} {{green|+10}} Days Enemy Hostile Scheme Phase Length
+| 
+* {{icon|yes}} Lost a war with the Eradicate Rival House casus belli
+* {{icon|yes}} Escaped being killed
+|-
+| [[File:Modifier outdoors positive.png]] Witch Coven
+| 
+* [[File:Activity witch ritual.png|24px]] Unlocks the Grand Rite activity
+* {{icon|fertility}} {{green|+10%}} Fertility
+* {{icon|scheme success chance}} {{green|+10}} Hostile Scheme Power
+* {{icon|scheme success chance}} {{green|+10}} Hostile Scheme Resistance
+* {{icon|health boost}} {{green|+0.25 Disease Resistance Health Boost}}
+| {{icon|decision}} Found Witch Coven decision
+|-
+| [[File:Modifier bird positive.png]] Swansong
+| 
+* {{icon|prestige}} {{green|+1%}} Monthly Prestige per Knight
+* {{icon|accolade}} {{green|+10%}} Accolade Glory Gain
+* {{icon|hastiluder}} {{green|+20%}} Hastiluder Trait Experience Gain
+| {{icon|decision}} The Knight of the Swan decision
+|-
+| [[File:Modifier byzantine eagle positive.png]] Silk Production Rights
+| [[File:Domicile magnanery.png|24px]] Unlocks the Mulberry Copse estate building
+| {{icon|decision}} Establish Silk Production decision
+|-
+| [[File:Modifier travel safety positive.png]] Adventurer Bloodline
+| 
+* {{icon|prestige}} {{green|+15%}} Contract Prestige Rewards
+* {{icon|travel speed}} {{green|+25%}} Move Domicile Travel Speed
+* {{icon|scheme success chance}} {{green|+10%}} Initial Contract Scheme Success Chance
+* {{icon|provisions}} {{green|-15%}} Provisions Use
+* {{icon|time}} {{green|-10%}} Domicile Building Construction Time
+* {{icon|opinion}} {{green|+10}} Adventurer Opinion
+| {{icon|decision}} Legacy of Adventurer decision
+|-
+| [[File:Modifier county opinion positive.png]] Cultural Hostility
+| 
+* [[File:Struggle cb.png|24px]] Enables the Struggle Clash casus belli
+* {{icon|opinion}} {{green|+15}} Same Culture Opinion
+* {{icon|opinion}} {{red|-30}} Different Culture Opinion
+| {{icon|foi}} Dominance Iberian Struggle ending
+|-
+| [[File:Modifier piety positive.png]] Faith Hostility
+| 
+* [[File:Struggle cb.png|24px]] Enables the Struggle Clash casus belli
+* {{icon|opinion}} {{green|+15}} Same Faith Opinion
+* {{icon|opinion}} {{red|-30}} Different Faith Opinion
+| {{icon|foi}} Dominance Iberian Struggle ending
+|-
+| [[File:Modifier county development positive.png]] Compromise
+| 
+* {{icon|yes}} Enables the Enforce Truce character interaction
+* {{icon|advantage}} {{green|+5}} Advantage in Baronies with the same Heritage
+* {{icon|opinion}} {{green|+15}} Independent Ruler Opinion
+| {{icon|foi}} Status Quo Iberian Struggle ending
+|-
+| [[File:Modifier social positive.png]] Conciliation
+| 
+* {{icon|scheme success chance}} {{green|+33%}} Learn Language Scheme Power
+* {{icon|opinion}} {{green|+15}} Different Culture and Faith Opinion
+| {{icon|foi}} Détente Iberian Struggle ending
+|}
+
+== Permanent county modifiers ==
+The following permanent modifiers affect all Baronies in a County:
+{| class="mildtable plainlist"
+! Modifier
+! Effects
+! Requirements
+|-
+| [[File:Modifier food negative.png]] Saharan Province
+| 
+* {{icon|supply}} {{red|-50%}} Supply Limit
+* {{icon|provisions}} {{red|+300%}} Provisions Used
+| {{icon|yes}} All counties in Sahara with Desert and Desert Mountains terrain
+|-
+| [[File:Modifier fertility positive.png]] Al-Yamnat
+| 
+* [[File:Building cereal fields.png|24px]] Can construct Farms & Fields buildings
+* {{icon|gold}} {{green|+10%}} Holding Taxes
+* {{icon|supply}} {{green|+50%}} Supply Limit
+* {{icon|development}} {{green|+40%}} Development Growth
+* {{icon|county fertility}} {{green|+30%}} County Fertility Growth
+| 
+* {{icon|county}} Dathina
+* {{icon|county}} Mandab
+* {{icon|county}} San'a'
+* {{icon|county}} Ta'izz
+* {{icon|county}} Zabid
+|-
+| [[File:Modifier county development positive.png]] Dodekapolis
+| 
+* {{icon|gold}} {{green|+10%}} Holding Taxes
+* {{icon|development}} {{green|+30%}} Development Growth
+* [[File:Building cereal fields.png|24px]] Can construct Farms & Fields buildings
+| 
+* {{icon|county}} Aeolis
+* {{icon|county}} Chios
+* {{icon|county}} Ionia
+* {{icon|county}} Lesbos
+|-
+| [[File:Modifier county development positive.png]] Memorial Fortifications
+| {{icon|fort level}} {{green|+2}} Fort Level
+| {{icon|yes}} Memorial Fortifications natural disaster situation contribution
+|-
+| [[File:Modifier martial positive.png]] Fortress of Badd
+| 
+* {{icon|garrison}} {{green|+50%}} Garrison Size
+* {{icon|levies}} {{green|+25%}} Levy Reinforcement Rate
+* {{icon|advantage}} {{green|+5}} Defender Advantage
+| {{icon|decision}} Establish Faith Stronghold decision
+|-
+| [[File:Modifier county development positive.png]] United Clans
+| {{icon|building}} {{green|+1}} Additional Building Slots
+| {{icon|decision}} Form a Ryukyuan Empire decision
+|-
+| [[File:Modifier county development positive.png]] Royal Tolls
+| 
+* {{icon|time}} {{green|-10%}} Building Construction Time
+* {{icon|gold}} {{green|-10%}} Building Construction Gold Cost
+* {{icon|development}} {{green|+0.5}} Monthly Development
+| {{icon|decision}} Establish Bactrian Supremacy decision
+* {{icon|county}} Balkh
+|-
+| [[File:Modifier rock positive.png]] Regional Stronghold
+| 
+* {{icon|fort level}} {{green|+2}} Fort Level
+* {{icon|levies}} {{green|+25%}} Garrison Size
+* {{icon|development}} {{green|+10%}} Development Growth
+| {{icon|foi}} Status Quo Iberian Struggle ending
+|-
+| [[File:Modifier martial positive.png]] Toledo Steel
+| {{icon|development}} {{green|+20%}} Development Growth
+| {{icon|foi}} Iberian Struggle event
+|-
+| [[File:Modifier byzantine eagle positive.png]] Pandidakterion
+| 
+* {{icon|yes}} Counts as an University
+* {{icon|development}} {{green|+15%}} Development Growth
+* [[File:Task fabricate claim.png|24px]] {{green|+30%}} Fabricate Claim on County Task Speed
+* [[File:Task_find_secrets.png|24px]] {{green|+30%}} Find Secrets Task Speed
+* [[File:Task_promote_culture.png|24px]] {{green|+25%}} Promote Culture Task Speed
+| 
+* {{icon|county}} Byzantion
+* {{icon|rtp}} Refound the Pandidakterion decision or start date is 1066 or 1178
+|-
+| [[File:Modifier compass positive.png]] Grand Canal
+| 
+* {{icon|development}} {{green|+0.25}} Monthly Development
+* {{icon|supply}} {{green|+20%}} Supply Limit
+* {{icon|plague resistance}} {{green|+2}} Plague Resistance
+* {{icon|danger}} {{green|-10}} Danger
+| {{icon|auh}} The Grand Canals great project
+|-
+| [[File:Modifier social positive.png]] Runestone
+| {{icon|opinion}} {{green|+20}} Popular Opinion
+| 
+* {{icon|no}}{{iconify|Northern Lords}} DLC
+* {{icon|decision}} Raise a Runestone decision
+|}
+
+== Permanent character modifiers ==
+The following permanent modifiers affect a certain character:
+{| class="mildtable plainlist"
+! Modifier
+! Effects
+! Requirements
+|-
+| [[File:Modifier wit positive.png]] Vassal of the First King
+| 
+* {{icon|advantage}} {{green|+5}} Defender Advantage
+* {{icon|opinion}} {{green|+10}} Popular Opinion
+* {{icon|opinion}} {{green|+25}} Fellow Vassal Opinion
+| {{icon|unknown}} Vassal in a newly-unified confederation
+|-
+| [[File:Modifier piety positive.png]] Disaster Relief Savior
+| {{icon|piety}} {{green|+10%}} Monthly Piety
+| {{icon|yes}} Aid for Victims natural disaster situation contribution
+|-
+| [[File:Modifier social positive.png]] Keeper of Order
+| {{icon|opinion}} {{green|+10}} Direct Vassal Opinion
+| {{icon|yes}} Debris Removal or Land Drainage natural disaster situation contribution
+|-
+| [[File:Modifier county development positive.png]] Memorial Builder
+| {{icon|renown}} {{green|+5%}} Monthly Renown
+| {{icon|yes}} Memorial Fortifications natural disaster situation contribution
+|-
+| [[File:Modifier social positive.png]] Display of Submission
+| {{icon|opinion}} {{green|+10}} Same Faith Opinion
+| 
+* {{icon|yes}} Struggle and Submission faith tenet
+* [[File:Activity pilgrimage.png|24px]] Pilgrimage activity completion
+|-
+| [[File:Modifier economy positive.png]] Generosity to Mercenaries
+| {{icon|gold}} {{green|-10%}} Mercenary Hire Cost
+| {{icon|unknown}} Martial lifestyle event choice
+|-
+| [[File:Modifier prowess positive.png]] Holy Order Training
+| 
+* {{icon|martial}} {{green|+1}} Martial
+* {{icon|prowess}} {{green|+1}} Prowess
+| {{icon|unknown}} Child returning from a Holy Order
+|-
+| [[File:Modifier social positive.png]] Mothered Many Children
+| {{icon|opinion}} {{green|+5}} General Opinion
+| {{icon|unknown}} 10% chance with each birth after giving birth at least 4 times
+|-
+| [[File:Modifier health positive.png]] Aging Gracefully
+| {{icon|health}} {{green|+1}} Health
+| {{icon|unknown}} Harm events positive outcome
+|-
+| [[File:Modifier magic positive.png]] Prophetic Visions
+| 
+* {{icon|piety}} {{green|+1}} Monthly Piety
+* {{icon|opinion}} {{green|+10}} Clergy Opinion
+| {{icon|unknown}} Possessed trait event choice
+|-
+| [[File:Modifier economy positive.png]] Respected by Mercenaries
+| {{icon|gold}} {{green|-20%}} Mercenary Hire Cost
+| {{icon|unknown}} Martial lifestyle event choice
+|-
+| [[File:Modifier prowess positive.png]] Respected Expert
+| {{icon|prowess}} {{green|+2}} Prowess
+| {{icon|unknown}} Martial lifestyle event choice
+|-
+| [[File:Modifier bird positive.png]] Hunting Raptor
+| 
+* {{icon|prestige}} {{green|+1}} Monthly Prestige
+* {{icon|opinion}} {{green|+5}} Vassal Opinion
+* {{icon|grandeur}} {{green|+1}} Court Grandeur
+* {{icon|hunt}} Increased Hunt Success Chance
+| {{icon|yes}} Travel and activity events
+|-
+| [[File:Modifier learning positive.png]] Refreshed and Relaxed
+| 
+* {{icon|learning}} {{green|+1}} Learning
+* {{icon|stress gain}} {{green|-20%}} Stress Gain
+* {{icon|decision}} Enables the Meditate in Seclusion decision
+| {{icon|poet}} Violet Poet trait event choice
+|-
+| [[File:Modifier prestige negative.png]] No Raiment
+| 
+* {{icon|opinion}} {{green|+20}} Attraction Opinion
+* {{icon|prestige}} {{red|-1}} Monthly Prestige
+* Character does not wear clothes
+| {{iconify|Lunatic}} trait event choice
+|-
+| [[File:Modifier health negative.png]] Broken
+| 
+* {{icon|diplomacy}} {{red|-2}} Diplomacy
+* {{icon|martial}} {{red|-2}} Martial
+* {{icon|stewardship}} {{red|-2}} Stewardship
+* {{icon|intrigue}} {{red|-2}} Intrigue
+* {{icon|learning}} {{red|-2}} Learning
+* {{icon|prowess}} {{red|-3}} Prowess
+* {{icon|fertility}} {{red|-25%}} Fertility
+* {{icon|health}} {{red|-0.5}} Health Penalty
+| {{icon|unknown}} Torture event
+|-
+| [[File:Modifier fertility negative.png]] Rejected From Marriage Bed
+| {{icon|warning}} Cannot produce offspring
+| {{icon|unknown}} STD trait event
+|-
+| [[File:Modifier intrigue negative.png]] Killed the Joy of Life
+| {{icon|opinion}} {{red|-20}} General Opinion
+| {{icon|unknown}} Party Baron event
+|-
+| [[File:Modifier health negative.png]] Hunger Sickness
+| 
+* {{icon|diplomacy}} {{red|-2}} Diplomacy
+* {{icon|prowess}} {{red|-2}} Prowess
+* {{icon|health}} {{red|-0.5}} Health Penalty
+| {{icon|provisions}} Zero provisions event
+|-
+| [[File:Modifier health negative.png]] Weak Stomach
+| 
+* {{icon|stress gain}} {{red|+20%}} Stress Gain
+* {{icon|health}} {{red|-0.5}} Health Penalty
+| {{icon|provisions}} Zero provisions event
+|-
+| [[File:Modifier flame positive.png]] Scourge of the Gods
+| 
+* [[File:Invasion cb.png|24px]] Can always use the Invasion casus belli
+* {{icon|health}} {{green|Godlike Health Boost}}
+* {{icon|time}} {{green|-50%}} Siege Phase Time
+* {{icon|army speed}} {{green|+25%}} Army Movement Speed
+* {{icon|scheme phase length}} {{green|+75}} Days Enemy Hostile Scheme Phase Length
+* {{icon|scheme success chance}} {{green|-10%}} Enemy Hostile Scheme Growth
+* {{icon|scheme success chance}} {{green|-60%}} Enemy Hostile Scheme Potential
+* {{icon|control}} {{green|+5}} Monthly Control
+* {{icon|advantage}} {{green|+25}} Advantage
+* {{icon|siege progress}} {{green|+100%}} Siege Weapon Effectiveness
+* {{icon|siege progress}} {{green|+1}} Men-At-Arms Siege Progress
+* {{icon|plague resistance}} {{green|+50}} Plague Resistance
+| 
+* [[File:Trait conqueror.png|24px]] Conqueror trait
+* [[File:Rules.png|24px]] Conquerors: Bonuses game rule set to Random or Extreme
+|-
+| [[File:Modifier flame positive.png]] Rekindled Persian Spirit
+| 
+* {{icon|advantage}} {{green|+5}} Advantage in same Cultural Heritage Provinces
+* {{icon|development}} {{green|+20%}} Development Growth in the Persia region
+* {{icon|opinion}} {{green|+5}} Same Culture Parochial Vassal Opinion
+* {{icon|opinion}} {{green|+5}} Same Culture Glory Hound Vassal Opinion
+| 
+* {{icon|lop}} Iranian Resurgence Iranian intermezzo ending
+* {{icon|heritage}} Iranian heritage
+|-
+| [[File:Modifier family positive.png]] A Heir Prepared
+| 
+* {{icon|renown}} {{green|+5%}} Monthly Renown
+* {{icon|prestige}} {{green|+10%}} Monthly Prestige
+| 
+* {{icon|cor}} Fulfilled the Prepare the Heir oath
+* {{icon|yes}} Heir
+|-
+| [[File:Modifier dragon seal positive.png]] Son of Heaven
+| 
+* {{icon|renown}} {{green|+25%}} Monthly Renown
+* {{icon|influence}} {{green|+25%}} Monthly Influence
+* {{icon|legitimacy}} {{green|+25%}} Monthly Legitimacy
+* {{icon|opinion}} {{green|+10}} Vassal Opinion
+* {{icon|opinion}} {{green|+20}} Celestial Ruler Opinion
+| {{icon|auh}} Claimed the Mandate of Heaven
+|}
+
+=== Historical character modifiers ===
+The following permanent character modifiers are only present on certain historical characters.
+{| class="mildtable plainlist"
+! Modifier
+! Effects
+! Character
+! Start date
+|-
+| [[File:Modifier prowess positive.png]] Captain of Baghdad
+| {{icon|scheme}} {{green|+1}} Max Hostile Schemes
+| {{icon|duke}} Emir Muhammad of Fars
+| 867
+|-
+| [[File:Modifier intrigue positive.png]] Extremely Suspicious
+| {{icon|scheme phase length}} {{green|+10}} Days Enemy Hostile Scheme Phase Length
+| {{icon|empire}} Caliph al-Mu'tazz of Arabian Empire
+| 867
+|-
+| [[File:Modifier prestige positive.png]] Vow of Tangled Hair
+| 
+* {{icon|diplomacy}} {{green|+1}} Diplomacy
+* {{icon|yes}} Becoming the first King of Norway gives an additional reward
+| {{icon|count}} Chieftain Haraldr 'Tanglehair' of Vestfold
+| 867
+|-
+| [[File:Modifier flame positive.png]] Guiscard
+| 
+* {{icon|gold}} {{green|-25%}} Army Gold Maintenance
+* {{icon|scheme success chance}} {{green|-25%}} Initial Enemy Hostile Scheme Success Chance
+| {{icon|duchy}} Duke Robert 'the fox' of Apulia
+| 1066
+|-
+| [[File:Modifier piety positive.png]] Imperial Vicar
+| 
+* {{icon|opinion}} {{green|+25}} Head of Faith Opinion
+* {{icon|gold}} {{green|-10%}} Temple Holding and Building Construction Cost
+* {{icon|time}} {{green|-10%}} Temple Holding and Building Construction Time
+| {{icon|duchy}} Duchess Matilda of Tuscany
+| 1066
+|-
+| [[File:Modifier prestige positive.png]] Local Icon
+| {{icon|prestige}} {{green|+0.5}} Monthly Prestige
+| {{icon|duchy}} Master Todor of The Men from the Mountains (adventurer)
+| 1178
+|}
+
+=== Decision modifiers ===
+The following permanent character modifiers can only be obtained from decisions.
+{| class="mildtable plainlist"
+! Modifier
+! Effects
+! Decision
+|-
+| [[File:Modifier piety positive.png]] Avenger of the Martyrs
+| {{icon|opinion}} {{green|+10}} Same Faith Opinion
+| Avenge the Battle of Tours
+|-
+| [[File:Modifier martial positive.png]] Conqueror of the Black Sea
+| 
+* {{icon|advantage}} {{green|+5}} Coastal Advantage
+* {{icon|gold}} {{green|-50%}} Embarkation Cost
+| Restore the Bosporan Kingdom
+|-
+| [[File:Modifier piety positive.png]] Defender of the Faith
+| 
+* {{icon|prowess}} {{green|+1}} Prowess
+* {{icon|opinion}} {{green|+10}} Same Faith Opinion
+| Defenders of Dievas or Defenders of Rod or Defenders of Ukko
+|-
+| [[File:Modifier asatru raven positive.png]] Embraced Local Traditions
+| 
+* {{icon|opinion}} {{green|+15}} Popular Opinion
+* {{icon|opinion}} {{green|+15}} Norse Opinion
+* {{icon|decision}} Can use the Raise a Runestone decision regardless of Faith
+| Have the Realm Embrace Local Tradition
+|-
+| [[File:Modifier martial positive.png]] High-King of the Seas
+| 
+* {{icon|time}} {{green|+10}} Years Life Expectancy
+* {{icon|opinion}} {{green|+30}} Vassal Opinion
+* {{icon|gold}} {{green|-50%}} Embarkation Cost
+* {{icon|army speed}} {{green|+25%}} Naval Speed
+* {{icon|levies}} {{green|+50%}} Vassal Levy Contribution
+| Secure the High Kingdom of the North Sea
+|-
+| [[File:Modifier prowess positive.png]] Muhakkima Ascendancy
+| 
+* {{icon|martial}} {{green|+1}} Martial per Level of Devotion
+* {{icon|opinion}} {{green|+10}} Same Faith Opinion
+| Destroy the Apostates
+|-
+| [[File:Modifier learning positive.png]] Steward of the Sacred River
+| 
+* {{icon|diplomacy}} {{green|+1}} Diplomacy
+* {{icon|learning}} {{green|+1}} Learning
+* [[File:Icon piety eastern 01.png|24px]] {{green|+5}} Monthly Piety
+* {{icon|opinion}} {{green|+10}} Theocratic Ruler of Same Faith Opinion
+| Take Stewardship of the Sacred River
+|-
+| [[File:Modifier learning positive.png]] Champion of the Old Ways
+| 
+* {{icon|piety pagan}} {{green|+20%}} Monthly Piety
+* {{icon|opinion}} {{green|+20}} Same Faith Opinion
+* {{icon|opinion}} {{green|+20}} Realm Priest Opinion
+* {{icon|warning}} Lost if character converts
+| Champion of the Faith of the Country of Basques (did not change Era Zaharrak tenets)
+|-
+| [[File:Modifier learning positive.png]] Friend of the Old Ways
+| 
+* {{icon|piety pagan}} {{green|+5%}} Monthly Piety
+* {{icon|opinion}} {{green|+5}} Same Faith Opinion
+* {{icon|opinion}} {{green|+10}} Realm Priest Opinion
+* {{icon|warning}} Lost if character converts
+| Champion of the Faith of the Country of Basques (changed Era Zaharrak tenets)
+|-
+| [[File:Modifier byzantine eagle positive.png]] Lawgiver
+| 
+* {{icon|influence}} {{green|+15%}} Monthly Influence
+* {{icon|time}} {{green|-15%}} Domicile Building Construction Time
+* {{icon|opinion}} {{green|+10}} General Opinion
+| {{icon|rtp}}{{icon|auh}} Adopt a Centralized Bureaucracy (independent)
+|-
+| [[File:Modifier learning positive.png]] Great Translator
+| 
+* {{icon|learning}} {{green|+1}} Learning per Level of Devotion
+* {{icon|scheme}} {{green|+1}} Max Learn Language Schemes
+* {{icon|scheme success chance}} {{green|+12}} Learn Language Scheme Power
+| {{icon|lop}} Promote Persian Scriptures
+|-
+| [[File:Modifier outdoors positive.png]] Royal Fire
+| 
+* {{icon|health}} {{green|+0.5}} Health Bonus
+* {{icon|renown}} {{green|+0.2}} Monthly Renown
+| {{icon|lop}} Kindle Royal Fire
+|-
+| [[File:Modifier intrigue positive.png]] Bandits' Benefactor
+| 
+* {{icon|levies}} {{green|+1-5}} Regiments per completed Criminal contract
+* {{icon|martial}} {{green|+2}} Martial
+* {{icon|intrigue}} {{green|+2}} Intrigue
+* {{icon|opinion}} {{green|+40}} Adventurer Opinion
+* {{icon|opinion}} {{red|-20}} Feudal, Clan and Administrative Ruler Opinion
+| {{icon|rtp}} Levy the Outcasts
+|-
+| [[File:Modifier letter positive.png]] Founded Salon
+| 
+* {{icon|gold}} {{green|+2%}} Monthly Income
+* {{icon|prestige}} {{green|+1}} Monthly Prestige
+* [[File:Focus invalid.png|24px]] {{green|+25%}} Monthly Lifestyle Experience
+* {{icon|scheme}} {{green|+1}} Max Hostile Schemes
+| {{icon|rtp}} Found Salon
+|-
+| [[File:Modifier fertility positive.png]] Courteous Knight
+| 
+* {{icon|scheme phase length}} {{green|-40}} Days Romance Phase Length
+* {{icon|opinion}} {{green|+20}} Attraction Opinion
+| {{icon|rtp}} The Knight of the Swan
+|-
+| [[File:Modifier county opinion positive.png]] Valiant Knight
+| 
+* {{icon|gold}} {{green|+5%}} Parochial Vassal Tax Contribution
+* {{icon|gold}} {{green|+10%}} Minor Landholder Vassal Tax Contribution
+* {{icon|opinion}} {{green|+5}} Parochial Vassal Opinion
+* {{icon|opinion}} {{green|+20}} Minor Landholder Vassal Opinion
+| {{icon|rtp}} The Knight of the Swan
+|-
+| [[File:Modifier martial positive.png]] Foreign Armor
+| 
+* {{icon|toughness}} {{green|+10%}} Man-at-Arms Toughness
+* {{icon|toughness}} {{green|+10%}} Archer Cavalry Toughness
+* {{icon|toughness}} {{green|+10%}} Horde Riders Toughness
+| {{icon|kos}} Summon Wealthy Visitors: Local Offers (paid for armor)
+|-
+| [[File:Modifier diplomacy positive.png]] Peace of the Great Khan
+| 
+* {{icon|diplomacy}} {{green|+1}} Diplomacy per Level of Fame
+* {{icon|stewardship}} {{green|+1}} Stewardship per Level of Fame
+* {{icon|knight}} {{green|+1}} Knight Effectiveness per Diplomacy
+| {{icon|kos}} Peace of the Great Khan
+|-
+| [[File:Modifier piety positive.png]] Maitreya Incarnate
+| 
+* {{icon|gold}} {{green|+15%}} Same Faith Domain Taxes
+* {{icon|levies}} {{green|+50%}} Same Faith Levy Reinforcement Rate
+* {{icon|opinion}} {{green|-50%}} Different Faith Popular Opinion
+* {{icon|opinion}} {{green|+100}} Same Faith Opinion
+* {{icon|opinion}} {{red|-100}} Different Faith Opinion
+| {{icon|kos}} Claim the Mantle of Maitreya
+|}
+
+==== Personal Deity ====
+Personal Deity are modifiers obtained via the Determine Bhakti or Determine Personal Deity decisions. Each character can choose from 4 modifiers depending on their faith and can replace them at any point by taking the decision again. The modifiers are lost if a character converts to a different faith.
+{| class="mildtable plainlist"
+! Faith
+! Patron god
+! Effects
+|-
+| rowspan=4 | {{icon|vaishnavite|50px}} Vaishnavism
+| Ganga
+| 
+* {{icon|stress gain}} {{green|-33%}} Stress Gain
+* {{icon|health}} {{green|+0.5}} Health
+|-
+| Hayagriva
+| 
+* {{icon|learning}} {{green|+2}} Learning
+* {{icon|piety eastern}} {{green|+20%}} Monthly Piety
+|-
+| Jagganath
+| 
+* {{icon|martial}} {{green|+2}} Martial
+* {{icon|advantage}} {{green|+3}} Controlled Territory Defender Advantage
+|-
+| Lakishmi
+| 
+* {{icon|gold}} {{green|+10%}} Domain Taxes from same faith
+* {{icon|stewardship lifestyle}} {{green|+20%}} Monthly Stewardship Lifestyle Experience
+|-
+| rowspan=4 | {{icon|smarta|50px}} Smartism
+| Ganesha
+| 
+* {{icon|diplomacy}} {{green|+2}} Diplomacy
+* {{icon|learning}} {{green|+2}} Learning
+|-
+| Kubera
+| 
+* {{icon|stewardship}} {{green|+2}} Stewardship
+* {{icon|gold}} {{green|+5%}} Domain Taxes
+* {{icon|opinion}} {{red|-10}} Attraction Opinion
+|-
+| Shiva
+| 
+* {{icon|advantage}} {{green|+2}} Faith Hostility Advantage
+* {{icon|opinion}} {{green|+10}} Dynasty Opinion
+|-
+| Vishnu
+| 
+* {{icon|health}} {{green|+0.25}} Health
+* {{icon|opinion}} {{green|+10}} Vassal Opinion
+|-
+| rowspan=5 | {{icon|asatru|50px}} Ásatrú
+| Freyr
+| 
+* {{icon|fertility}} {{green|+25%}} Fertility
+* {{icon|control}} {{green|+0.1}} Control Growth
+|-
+| Odin
+| 
+* {{icon|intrigue}} {{green|+2}} Intrigue
+* {{icon|piety pagan}} {{green|+0.03}} Monthly Piety from Dread
+|-
+| Thor
+| 
+* {{icon|stewardship}} {{green|+2}} Stewardship
+* {{icon|prowess}} {{green|+3}} Prowess
+|-
+| Tyr
+| 
+* {{icon|diplomacy}} {{green|+2}} Diplomacy
+* {{icon|martial}} {{green|+2}} Martial
+* {{icon|warning}} Only available if culture is Danish or realm capital is in the de jure territory of Kingdom of Denmark
+|-
+| Ullr
+| 
+* {{icon|martial}} {{green|+2}} Martial
+* {{icon|army speed}} {{green|+50%}} Movement Speed in Baronies affected by Winter
+* {{icon|advantage}} {{green|+2}} Advantage in in Baronies affected by Winter
+* {{icon|warning}} Only available if culture is not Danish and realm capital is not in the de jure territory of Kingdom of Denmark
+|-
+| rowspan=4 | {{icon|unknown|50px}} Custom Hindu faith
+| Ganga
+| 
+* {{icon|stress gain}} {{green|-33%}} Stress Gain
+* {{icon|health}} {{green|+0.5}} Health
+|-
+| Saraswati
+| 
+* {{icon|learning}} {{green|+2}} Learning
+* {{icon|prestige}} {{green|+20%}} Monthly Prestige
+|-
+| Kali
+| 
+* {{icon|prowess}} {{green|+4}} Prowess
+* {{icon|advantage}} {{green|+4}} Faith Hostility Advantage
+|-
+| Kubera
+| 
+* {{icon|stewardship}} {{green|+2}} Stewardship
+* {{icon|gold}} {{green|+5%}} Domain Taxes
+* {{icon|opinion}} {{red|-10}} Attraction Opinion
+|}
+
+==== Designated Terrain ====
+{{expansion|rtp}}
+Designated Derrain are modifiers obtained via the decision with the same name. Each character can choose from 4 terrain sets and will receive the following bonuses when present in one of those terrains:
+* {{icon|advantage}} {{green|+5}} Advantage
+* {{icon|advantage}} {{green|+2}} Minimum Battle Roll
+* {{icon|advantage}} {{green|+2}} Maximum Battle Roll
+* {{icon|danger}} {{green|-20}} Danger
+* {{icon|provisions}} {{green|-25%}} Provisions Use
+{| class="mildtable plainlist"
+! Modifier
+! Terrain
+|-
+| Woodlands
+| 
+* {{iconify|Forest}}
+* {{iconify|Jungle}}
+* {{iconify|Taiga}}
+* {{iconify|Wetlands}}
+|-
+| Highlands
+| 
+* {{iconify|Desert Mountains}}
+* {{iconify|Hills}}
+* {{iconify|Mountains}}
+|-
+| Lowlands
+| 
+* {{iconify|Farmlands}}
+* {{iconify|Floodplains}}
+* {{iconify|Plains}}
+* {{iconify|Steppe}}
+|-
+| Drylands
+| 
+* {{iconify|Desert}}
+* {{iconify|Drylands}}
+* {{iconify|Oasis}}
+|}
+
+Characters who unlock the Master Terrain decision can use it to obtain an even more powerful modifier in one of the terrains of the Personal Terrain modifier. The modifier stacks with Personal Terrain and grants the following:
+* {{icon|advantage}} {{green|+5}} Advantage
+* {{icon|advantage}} {{green|+1}} Minimum Battle Roll
+* {{icon|advantage}} {{green|+1}} Maximum Battle Roll
+* {{icon|danger}} {{green|-20}} Danger
+* {{icon|provisions}} {{green|-25%}} Provisions Use
+* {{icon|unknown}} {{green|-25%}} Refill Men-at-Arms Cost
+* {{icon|prestige}} {{green|+50%}} Prestige from Battles
+* {{icon|death}} {{green|-50%}} Attrition Taken
+* {{icon|supply}} No Supply Limit Penalty
+
+=== Honorary titles ===
+{{expansion|lop}}
+Honorary titles are permanent character modifiers that can be demanded from the Sunni caliph by the house that achieved the ''Abbasid Humiliation - Dominate the Caliph'' ending the Iranian Intermezzo.
+{| class="mildtable plainlist"
+! Modifier
+! Effects
+|-
+| [[File:Modifier diplomacy  positive.png]] Friend of the State
+| {{icon|scheme}} {{green|+1}} Max Personal Schemes
+|-
+| [[File:Modifier stewardship positive.png]] Fortifier of the State
+| 
+* {{icon|gold}} {{green|-10%}} Building Construction Cost
+* {{icon|time}} {{green|-10%}} Building Construction Time
+|-
+| [[File:Modifier intrigue positive.png]] Helper of the State
+| {{icon|scheme}} {{green|+1}} Max Hostile Schemes
+|-
+| [[File:Modifier piety positive.png]] Pillar of the State
+| {{icon|prestige}} {{green|+1}} Monthly Prestige
+|-
+| [[File:Modifier learning positive.png]] Supporter of the State
+| 
+* {{icon|learning}} {{green|+2}} Learning
+* {{icon|scheme}} {{green|+1}} Max Learn Language Schemes
+|-
+| [[File:Modifier martial positive.png]] Sword of the State
+| {{icon|gold}} {{green|-15%}} Army Gold Maintenance
+|-
+| [[File:Modifier piety positive.png]] Crown of the Community
+| {{icon|piety islam}} {{green|+1}} Monthly Piety
+|}
+
+=== Warhorse ===
+The warhorse is a unique modifier that can gradually increase in effects. It can be obtained as a result of travel, {{iconify|Martial Lifestyle}} or [[File:Wandering lifestyle.png|24px]] Wandering Lifestyle events. If the Royal Court DLC is installed it can also be obtained from royal court events. The modifier will initially grant the following bonuses:
+* {{green|+1}} {{iconify|Prowess}}
+* {{green|+0.25}} Monthly {{iconify|Prestige}}
+
+The day after the modifier is obtained an event will trigger to give the warhorse a name.
+
+The modifier can be improved in two ways, both costing a small amount of {{iconify|Gold}} and offering a choice of what horse talent to improve. The modifier can only be improved twice.
+* Every 275-400 days there is a 15% chance to gain the option to train the warhorse. If the Master of the Horse court position is being used its holder can be asked to do it instead, which removes the {{iconify|Gold}} cost and grants a temporary {{green|+15}} {{iconify|Opinion}} with the Master of the Horse but chooses the training at random. The event can only take place once.
+* 25-30 years after obtaining the modifier the warhorse will start to die of old age and offer the option to breed it. Not breeding it will result in the loss of the modifier in 30-60 days.
+{| class="mildtable plainlist"
+! Training/Breeding
+! 1st bonus
+! 2nd bonus
+|-
+| Strength
+| {{icon|levies}} {{green|+10%}} Levy Size
+| 
+* {{icon|prowess}} {{green|+1}} Prowess
+* {{icon|levies}} {{green|+15%}} Levy Size
+|-
+| Agility
+| {{icon|prowess}} {{green|+1}} Prowess
+| {{icon|prowess}} {{green|+2}} Prowess
+|-
+| Endurance
+| {{icon|stress loss}} {{green|+25%}} Stress Loss
+| {{icon|stress loss}} {{green|+50%}} Stress Loss
+|-
+| Fierceness
+| {{icon|advantage}} {{green|+2}} Advantage
+| {{icon|advantage}} {{green|+6}} Advantage
+|}
+
+=== Miraculous Tonic ===
+Miraculous Tonic is a permanent modifier that can be obtained as part of random adventure events. If agreed to drink one of the flasks the Miraculous Tonic, which has an equal chance to given one of the following effects:
+{| class="mildtable plainlist"
+! {{red|Red flask possible effects}}
+! {{green|Green flask possible effects}}
+|-
+| 
+* {{icon|prowess}} {{green|+1}} Prowess
+* {{icon|fertility}} {{green|+20%}} Fertility
+* {{icon|health}} {{green|+0.2}} Health
+* {{icon|prowess}} {{red|-1}} Prowess
+* {{icon|fertility}} {{red|-20%}} Fertility
+| 
+* {{icon|stress gain}} {{green|-15%}} Stress Gain
+* {{icon|stress loss}} {{green|+25%}} Stress Loss
+* {{icon|opinion}} {{green|+10}} Attraction Opinion
+* {{icon|health}} {{red|-0.1}} Health
+* {{icon|stress gain}} {{red|+15%}} Stress Gain
+|}
+
+=== Wise woman modifiers ===
+{{expansion|tnt}}
+The following permanent modifiers can be obtained from the wise woman event chain.
+{| class="mildtable plainlist"
+! rowspan=2 | Required ailment
+! colspan=2 | Positive outcome (65% chance, 40% if {{iconify|Cynical}})
+! colspan=2 | Negative outcome (35% chance, 60% if {{iconify|Cynical}})
+|-
+! Modifier
+! Effects
+! Modifier
+! Effects
+|-
+| 
+* {{icon|ill}} Any Illness
+* {{iconify|Pregnant}}
+| [[File:Modifier treat positive.png]] Mystic Healing
+| {{icon|health}} {{green|+2}} Disease Resistance Health Boost
+| rowspan=2 | [[File:Modifier health negative.png]] Unholy Treatment
+| rowspan=2 | {{icon|health}} {{red|-0.5}} Health Penalty
+|-
+| 
+* {{iconify|Lunatic}}
+* {{iconify|Melancholic}}
+* {{iconify|Possessed}}
+| [[File:Modifier treat positive.png]] Humors Balanced
+| {{icon|stress gain}} {{green|-30%}} Stress Gain
+|-
+| 
+* {{iconify|Homely}}
+* {{iconify|Ugly}}
+* {{iconify|Hideous}}
+| [[File:Modifier treat positive.png]] Herbal Cosmetics
+| 
+* {{icon|diplomacy}} {{green|+1}} Diplomacy
+* {{icon|fertility}} {{green|+30%}} Fertility
+| [[File:Modifier treat negative.png]] Hideous Cosmetics
+| 
+* {{icon|diplomacy}} {{red|-1}} Diplomacy
+* {{icon|fertility}} {{red|-10%}} Fertility
+|}
+
+=== Eunuch modifiers ===
+{{expansion|rtp|auh}}
+Eunuch modifiers are obtained during the Eminent Eunuch event chain. The event chain will start with the {{yellow|Influential Eunuch I/V}}, and based on whether the liege supports or refuses the eunuch the modifier will increase or weaken in strength.
+{| class="mildtable plainlist"
+! 
+! Liege effects
+! Eunuch effects
+|-
+! {{red|Spurned Eunuch III/III}}
+| 
+* {{icon|stewardship}} {{red|-3}} Stewardship
+* {{icon|gold}} {{red|-15%}} Holding Taxes
+* {{icon|scheme success chance}} {{red|+15%}} Initial Enemy Hostile Scheme Success Chance
+| 
+* {{icon|opinion}} {{red|-35}} Opinion of Liege
+* {{icon|unknown}} {{red|Increased Hostile Scheme Acceptance against the liege}}
+|-
+! {{red|Spurned Eunuch II/III}}
+| 
+* {{icon|stewardship}} {{red|-2}} Stewardship
+* {{icon|gold}} {{red|-10%}} Holding Taxes
+* {{icon|scheme success chance}} {{red|+10%}} Initial Enemy Hostile Scheme Success Chance
+| 
+* {{icon|opinion}} {{red|-30}} Opinion of Liege
+* {{icon|unknown}} {{red|Increased Hostile Scheme Acceptance against the liege}}
+|-
+! {{red|Spurned Eunuch I/III}}
+| 
+* {{icon|stewardship}} {{red|-1}} Stewardship
+* {{icon|gold}} {{red|-5%}} Holding Taxes
+* {{icon|scheme success chance}} {{red|+5%}} Initial Enemy Hostile Scheme Success Chance
+| 
+* {{icon|opinion}} {{red|-15}} Opinion of Liege
+* {{icon|unknown}} {{red|Increased Hostile Scheme Acceptance against the liege}}
+|-
+! {{yellow|Influential Eunuch I/V}}
+| 
+* {{icon|stewardship}} {{green|+2}} Stewardship
+* {{icon|stress loss}} {{green|-10%}} Stress Gain
+* {{icon|intrigue}} {{red|-1}} Intrigue
+| 
+* {{icon|intrigue}} {{green|+2}} Intrigue
+* {{icon|gold}} {{green|+0.25}} Monthly Gold
+* {{icon|influence}} {{green|+0.1}} Monthly Influence
+* {{icon|stress gain}} {{red|+10%}} Stress Gain
+|-
+! {{yellow|Influential Eunuch II/V}}
+| 
+* {{icon|stewardship}} {{green|+3}} Stewardship
+* {{icon|stress loss}} {{green|-20%}} Stress Gain
+* {{icon|domain}} {{green|+1}} Domain Limit
+* {{icon|intrigue}} {{red|-2}} Intrigue
+* {{icon|opinion}} {{red|-10}} Vassal Opinion
+| 
+* {{icon|intrigue}} {{green|+3}} Intrigue
+* {{icon|gold}} {{green|+0.5}} Monthly Gold
+* {{icon|influence}} {{green|+0.2}} Monthly Influence
+* {{icon|scheme}} {{green|+1}} Max Hostile Schemes
+* {{icon|scheme success chance}} {{green|+5%}} Initial Hostile Scheme Success Chance
+* {{icon|stress gain}} {{red|+20%}} Stress Gain
+* {{icon|opinion}} {{red|-10}} General Opinion
+|-
+! {{yellow|Influential Eunuch III/V}}
+| 
+* {{icon|stewardship}} {{green|+4}} Stewardship
+* {{icon|stress loss}} {{green|-30%}} Stress Gain
+* {{icon|domain}} {{green|+1}} Domain Limit
+* {{icon|intrigue}} {{red|-3}} Intrigue
+* {{icon|opinion}} {{red|-15}} Vassal Opinion
+| 
+* {{icon|intrigue}} {{green|+4}} Intrigue
+* {{icon|gold}} {{green|+0.75}} Monthly Gold
+* {{icon|influence}} {{green|+0.3}} Monthly Influence
+* {{icon|scheme}} {{green|+1}} Max Hostile Schemes
+* {{icon|scheme success chance}} {{green|+10%}} Initial Hostile Scheme Success Chance
+* {{icon|stress gain}} {{red|+30%}} Stress Gain
+* {{icon|opinion}} {{red|-15}} General Opinion
+|-
+! {{yellow|Influential Eunuch IV/V}}
+| 
+* {{icon|stewardship}} {{green|+5}} Stewardship
+* {{icon|domain}} {{green|+1}} Domain Limit
+* {{icon|stress loss}} {{green|-40%}} Stress Gain
+* {{icon|intrigue}} {{red|-4}} Intrigue
+* {{icon|opinion}} {{red|-20}} Vassal Opinion
+| 
+* {{icon|intrigue}} {{green|+5}} Intrigue
+* {{icon|gold}} {{green|+1}} Monthly Gold
+* {{icon|influence}} {{green|+0.4}} Monthly Influence
+* {{icon|scheme}} {{green|+1}} Max Hostile Schemes
+* {{icon|scheme success chance}} {{green|+15%}} Initial Hostile Scheme Success Chance
+* {{icon|stress gain}} {{red|+40%}} Stress Gain
+* {{icon|opinion}} {{red|-20}} General Opinion
+|-
+! {{yellow|Influential Eunuch V/V}}
+| 
+* {{icon|stewardship}} {{green|+6}} Stewardship
+* {{icon|stress loss}} {{green|-50%}} Stress Gain
+* {{icon|domain}} {{green|+2}} Domain Limit
+* {{icon|intrigue}} {{red|-5}} Intrigue
+* {{icon|opinion}} {{red|-25}} Vassal Opinion
+| 
+* {{icon|intrigue}} {{green|+6}} Intrigue
+* {{icon|gold}} {{green|+1.5}} Monthly Gold
+* {{icon|influence}} {{green|+0.5}} Monthly Influence
+* {{icon|scheme}} {{green|+2}} Max Hostile Schemes
+* {{icon|scheme success chance}} {{green|+25%}} Initial Hostile Scheme Success Chance
+* {{icon|stress gain}} {{red|+50%}} Stress Gain
+* {{icon|opinion}} {{red|-25}} General Opinion
+|}
+
+== Temporary dynasty modifiers ==
+The following temporary modifiers affect all members of a Dynasty:
+{| class="mildtable plainlist"
+! Modifier
+! Effects
+! Duration
+! Requirements
+|-
+| [[File:Modifier prestige positive.png]] Ardent Dynasty
+| 
+* {{icon|prestige}} {{green|+10%}} Monthly Prestige
+* {{icon|levies}} {{green|+15%}} Same Faith Levy Reinforcement rate
+* {{icon|opinion}} {{green|+25}} Same Faith Opinion
+| 30 years
+| 
+* {{icon|yes}} Undirected Great Holy War victory
+* {{icon|yes}} Occupied a County in the war target area
+|-
+| [[File:Modifier piety positive.png]] Saoshyant Resurgent
+| 
+* {{icon|prestige}} {{green|+15%}} Monthly Prestige
+* {{icon|piety zoroastrian}} {{green|+15%}} Monthly Piety
+* {{icon|opinion}} {{green|+25}} Same Faith Opinion
+| 25 years
+| {{icon|decision}} Become the Saoshyant decision
+|-
+| [[File:Modifier asatru raven positive.png]] Settled Dynasty
+| {{icon|no}} Cannot be targeted with the Varangian Adventure casus belli
+| 80 years
+| {{icon|decision}} [[Ruler decisions#Have the Realm Embrace Local Tradition|Have the Realm Embrace Local Tradition]] decision
+|-
+|- id="Legacy of Piracy"
+| [[File:Modifier horse dead positive.png]] Legacy of Piracy
+| 
+* {{icon|gold}} {{green|-50%}} Embarkation Cost
+* {{icon|time}} {{green|+50%}} Raid Speed
+* {{icon|yes}} Can raid
+* {{icon|yes}} Can sail in Major Rivers
+| 100 years
+| {{icon|decision}} [[Ruler decisions#Elevate the Kingdom of Mann & the Isles|Elevate the Kingdom of Mann & the Isles]] decision
+|-
+| [[File:Modifier hunt positive.png]] Nomad Recruits
+| 
+* {{icon|gold}} {{green|-40%}} Light Cavalry Cost and Maintenance
+* {{icon|gold}} {{green|-40%}} Archer Cavalry Cost and Maintenance
+| 150 years
+| {{icon|unknown}} Random event
+|-
+| [[File:Modifier magic positive.png]] Light of the Walayah
+|
+* {{icon|diplomacy}} {{green|+1}} Diplomacy per Level of Devotion
+* {{icon|opinion}} {{green|+5}} Same Faith Opinion
+|100 years
+|
+* {{icon|lop}} Abbasid Humiliation Iranian intermezzo ending
+* {{icon|lop}} Found a New Caliphate foundation
+|-
+| [[File:Modifier social_positive.png]] Familial Support
+| 
+* {{icon|renown}} {{green|+5%}} Monthly Renown
+* {{icon|opinion positive}} {{green|+10}} Dynasty Opinion
+* {{icon|scheme personal}} {{green|+1}} Max Personal Schemes
+| 10 years
+| 
+* {{icon|cor}} Coronations DLC
+* {{icon|coronation}} Held Coronation Activity
+* {{icon|patriarch}} Patriarch/Matriarch Trait
+|-
+|}
+
+== Temporary house modifiers ==
+The following temporary modifiers affect all members of a House:
+{| class="mildtable plainlist"
+! Modifier
+! Effects
+! Duration
+! Requirements
+|-
+| [[File:Modifier piety positive.png]] Crusading House
+| 
+* {{icon|piety}} {{green|+10%}} Monthly Piety
+* {{icon|opinion}} {{green|+5}} Head of Faith Opinion
+| 30 years
+| 
+* {{icon|yes}} Undirected Great Holy War victory
+* {{icon|yes}} Occupied a County in the war target area
+* {{icon|piety}} Christian religion
+|-
+| [[File:Modifier piety positive.png]] House of the Mujahid
+| 
+* {{icon|piety islam}} {{green|+10%}} Monthly Piety
+* {{icon|opinion}} {{green|+5}} Head of Faith Opinion
+| 30 years
+| 
+* {{icon|yes}} Undirected Great Holy War victory
+* {{icon|yes}} Occupied a County in the war target area
+* {{icon|piety islam}} Muslim religion
+|-
+| [[File:Modifier piety positive.png]] Holy Warriors
+| 
+* {{icon|piety}} {{green|+10%}} Monthly Piety
+* {{icon|opinion}} {{green|+5}} Head of Faith Opinion
+| 30 years
+| 
+* {{icon|yes}} Undirected Great Holy War victory
+* {{icon|yes}} Occupied a County in the war target area
+* {{icon|no}}{{icon|piety}} Christian religion
+* {{icon|no}}{{icon|piety islam}} Muslim religion
+|-
+| [[File:Modifier compass positive.png]] Controlling the Mediterranean
+| 
+* {{icon|prestige}} {{green|+5%}} Monthly Prestige
+* {{icon|development}} {{green|+15%}} Development Growth
+* {{icon|army speed}} {{green|+10%}} Naval Speed
+* {{icon|advantage}} {{green|+5}} Coastal Advantage
+* [[File:Scandinavian adventure concquest cb.png|24px]] Unlocks the Mediterranean Conquest for County casus belli while controlling the Kingdom of Baleo-Tyrrhenia
+| 100 years
+| {{icon|decision}} Secure the Mediterranean decision
+|-
+| [[File:Modifier piety positive.png]] Destroyed the Caliphate
+| 
+* {{icon|piety}} {{green|+1}} Monthly Piety
+* {{icon|opinion}} {{red|-25}} Sunni Opinion
+| 100 years
+| {{icon|decision}} Destroy the Caliphate decision
+|-
+|[[File:Modifier compass positive.png]] Founders of Aragón
+|
+* {{icon|development}} {{green|+10%}} Development Growth in Mountains
+* {{icon|development}} {{green|+5%}} Development Growth in Hills
+* {{icon|advantage}} {{green|+10%}} Enemy Fatal Casualties
+| 200 years
+| {{icon|decision}} Found the Kingdom of Aragon decision
+|-
+| [[File:Modifier prestige positive.png]] Laudabiliter
+| [[File:County conquest cb.png|24px]] Enables the Laudably Conquer County casus belli
+| 100 years
+| {{icon|decision}} Request Claim on Ireland decision
+|-
+| [[File:Modifier stewardship positive.png]] Rulers of the Black Sea
+| 
+* {{icon|gold}} {{green|+0.03}} Monthly Gold per held county in the Black Sea region
+* {{icon|development}} {{green|+0.025}} Monthly Development in Black Sea region per held county in the Black Sea region
+* [[File:County expansion cb.png|24px]] Enables the County Expansion casus belli
+* [[File:Naval county expansion cb.png|24px]] Enables the Naval County Expansion casus belli
+| 100 years
+| {{icon|decision}} Restore the Bosporan Kingdom decision
+|-
+| [[File:Modifier martial positive.png]] Discipline and Order
+| 
+* {{icon|martial}} {{green|+1}} Martial per Level of Devotion
+* {{icon|martial lifestyle}} {{green|+35%}} Monthly Martial Lifestyle Experience
+| 100 years
+| 
+* {{icon|decision}} Home of the Rivers decision
+* {{icon|yes}} Event choice
+|-
+| [[File:Modifier learning positive.png]] Knowledge is Power
+| 
+* {{icon|learning}} {{green|+1}} Learning per Level of Devotion
+* {{icon|learning lifestyle}} {{green|+35%}} Monthly Learning Lifestyle Experience
+| 100 years
+| 
+* {{icon|decision}} Home of the Rivers decision
+* {{icon|yes}} Event choice
+|-
+| [[File:Modifier county opinion positive.png]] Domination Hostility
+| 
+* {{icon|advantage}} {{green|+5}} Faith Hostility Advantage
+* {{icon|advantage}} {{green|+5}} Advantage in baronies with the same Heritage
+* {{icon|opinion}} {{red|-30}} Different Culture Opinion
+* {{icon|opinion}} {{red|-30}} Different Faith Opinion
+| 200 years
+| {{icon|foi}} Dominance Iberian Struggle ending
+|-
+| [[File:Modifier martial positive.png]] Frontier Ambitions
+| 
+* {{icon|gold}} {{green|-20%}} Men-at-Arms Recruitment Cost
+* {{icon|gold}} {{green|-10%}} Men-at-Arms Maintenance
+* {{icon|levies}} {{green|+20%}} Levy Size
+* {{icon|opinion}} {{green|+20}} Glory Hound Vassal Opinion
+| 100 years
+| 
+* {{icon|lop}} Concession Iranian Intermezzo ending
+* {{icon|detractor of the caliphate}} House Head has the Detractor of the Caliphate trait
+|-
+| [[File:Modifier stewardship positive.png]] Rebuilding Efforts
+| 
+* {{icon|time}} {{green|-10%}} Building Construction Time
+* {{icon|gold}} {{green|-10%}} Building Construction Cost
+* {{icon|gold}} {{green|+10%}} Holding Taxes
+* {{icon|opinion}} {{green|+20}} Parochial Vassal Opinion
+| 100 years
+| 
+* {{icon|lop}} Concession Iranian Intermezzo ending
+* {{icon|supporter of caliphal authority}} House Head has the Supporter of Caliphal Authority trait
+|-
+| [[File:Modifier dog positive.png]] Dog Lovers
+| 
+* {{icon|opinion}} {{green|+5}} General Opinion
+* {{icon|health boost}} {{green|+0.1 Health Boost}}
+| 30 years
+| {{icon|roc}} Royal Court event
+|-
+| [[File:Modifier social positive.png]] House Unity
+| 
+* {{icon|health}} {{green|+1}} Injury Resistance (Prowess)
+* {{icon|death}} {{green|+10%}} Enemy Fatal Casualties
+| 15 years
+| {{icon|tnt}} Grand Tournament event
+|-
+| [[File:Modifier learning positive.png]] Angelic Foundation
+| 
+* {{icon|learning}} {{green|+1}} Learning
+* {{icon|piety}} {{green|+25%}} Monthly Piety
+| 15 years
+| {{icon|lod}} Legend writing event
+|-
+| [[File:Modifier influence positive.png]] Clerical Political Agents
+| {{icon|influence}} {{green|+20%}} Monthly Influence
+| 10 years
+| {{icon|rtp}} Ask for Clerical Influence house head interaction
+|-
+| [[File:Modifier administrative positive.png]] Prosperous Investments
+| {{icon|gold}} {{green|+0.2}} Monthly Tax
+| 50 years
+| {{icon|rtp}} Administrative government event
+|-
+| [[File:Modifier stewardship positive.png]] Copious Smallholds
+| 
+* {{icon|gold}} {{green|+0.8}} Monthly Tax
+* {{icon|influence}} {{green|+0.4}} Monthly Influence
+| 50 years
+| {{icon|rtp}} Administrative government event
+|-
+| [[File:Modifier stewardship positive.png]] Numerous Smallholds
+| 
+* {{icon|gold}} {{green|+0.3}} Monthly Tax
+* {{icon|influence}} {{green|+0.2}} Monthly Influence
+| 50 years
+| {{icon|rtp}} Administrative government event
+|-
+| [[File:Modifier stewardship positive.png]] Smattering of Smallholds
+| 
+* {{icon|gold}} {{green|+0.1}} Monthly Tax
+* {{icon|influence}} {{green|+0.1}} Monthly Influence
+| 50 years
+| {{icon|rtp}} Administrative government event
+|}
+
+=== House unity modifiers ===
+House unity modifiers are added by house unity decisions and scale in bonuses with the number of landed house members. The bonuses cap at 10 landed house members.
+{| class="mildtable plainlist"
+! Modifier
+! Effects
+! Duration
+! House unity decision
+|-
+| [[File:Modifier stewardship positive.png]] Encouraged Economy
+| 
+* {{icon|stewardship}} {{green|+1}} Stewardship
+* [[File:Builder.png|24px]] House members adopt the Builder economic archetype
+| 20 years
+| Encourage House to Improve Economy
+|-
+| [[File:Modifier martial positive.png]] Organized for War
+| 
+* {{icon|martial}} {{green|+1}} Martial
+* {{icon|prowess}} {{green|+1}} Prowess
+* [[File:Warlike.png|24px]] House members adopt the Warlike economic archetype
+| 20 years
+| Organize House Members for War
+|-
+| [[File:Modifier martial positive.png]] Establish Futuwaa Lodges
+| 
+* {{icon|martial}} {{green|+1}} Martial per Level of Fame
+* {{icon|gold}} {{green|-15%}} Levy Maintenance
+* {{icon|levies}} {{green|+10%}} Same Faith Levy Reinforcement Rate
+| 20 years
+| Establish Futuwaa Lodges
+|-
+| [[File:Modifier county control positive.png]] Enforced Bailiffs
+| 
+* {{icon|control}} {{green|+0.2}} Monthly Control Growth per landed house member
+* {{icon|opinion}} {{green|+1}} Popular Opinion per landed house member
+| 10 years
+| Send Bailiffs
+|-
+| [[File:Modifier stewardship positive.png]] Improved Administration
+| {{icon|gold}} {{green|+1%}} Clan Vassal Tax Contribution per landed house member
+| 10 years
+| Improve Taxation
+|-
+| [[File:Modifier intrigue positive.png]] Intrigue Network
+| 
+* {{icon|scheme secrecy}} {{green|+1%}} Scheme Secrecy per landed house member
+* {{icon|scheme success chance}} {{green|+1%}} Hostile Scheme Success Chance per landed house member
+* {{icon|scheme success chance}} {{green|-1%}} Enemy Hostile Scheme Success Chance per landed house member
+| 10 years
+| Enforce Intrigue Network
+|-
+| [[File:Modifier martial positive.png]] Loyal Army Officers
+| 
+* {{icon|damage}} {{green|+2%}} Men-at-Arms Damage per landed house member
+* {{icon|toughness}} {{green|+1%}} Men-at-Arms Toughness per landed house member
+| 10 years
+| Reinforce Army with Loyal Officers
+|-
+| [[File:Modifier diplomacy positive.png]] Placated
+| 
+* {{icon|opinion}} {{green|+1}} Vassal Opinion per landed house member
+* {{icon|gold}} {{green|+1%}} Powerful Vassal Councilor Tax Contribution per landed house member
+* {{icon|scheme success chance}} {{green|+2%}} Personal Scheme Success Chance per landed house member
+| 10 years
+| Placate Vassals
+|-
+| [[File:Modifier county development positive.png]] Promoted Development
+|
+* {{icon|gold}} {{green|-1%}} Building Construction Cost per landed house member
+* {{icon|development}} {{green|+2%}} Development Growth per landed house member
+| 10 years
+| {{icon|lop}} Promote Development
+|-
+| [[File:Modifier goods positive.png]] Shared Army Logistics
+| 
+* {{icon|gold}} {{green|+1%}} Monthly Income while at War per landed house member
+* {{icon|supply}} {{green|+4%}} Supply Capacity per landed house member
+* {{icon|levies}} {{green|+2%}} Levy Reinforcement Rate per landed house member
+| 10 years
+| {{icon|lop}} Demand Shared Army Logistics
+|-
+| [[File:Modifier learning positive.png]] Established Madrasas
+| 
+* [[File:Focus invalid.png|24px]] {{green|+10%}} Monthly Lifestyle Experience
+* {{icon|opinion}} {{green|+10}} Same Faith Zealot Vassal Opinion
+| 20 years
+| {{icon|lop}} Educate Youth in Mosques
+|}
+
+== Pets ==
+Pets are character modifiers that last between 11 and 16 years. They can be inherited if a character dies before the pet but can also be lost through events. Both pets unlock a {{iconify|Decision}} to pet them, have a hidden {{green|33%}} chance to save the character when a Murder Scheme is executed against them, and have a very small chance to expose schemes targeting the character. There are three pet modifiers:
+* {{icon|cat}} Pet Cat grants {{green|+1}} to {{iconify|Intrigue}} and {{iconify|Learning}}
+* {{icon|dog}} Pet Dog grants {{green|+1}} to {{iconify|Diplomacy}} and {{iconify|Prowess}} and can receive additional events during {{iconify|Hunt}} activities
+* [[File:Modifier bird positive.png|24px]] Hunting Eagle grants {{green|+1}} to {{iconify|Martial}} and {{iconify|Stewardship}} and can receive additional events during {{iconify|Hunt}} activities
+
+Pets can be obtained in multiple ways. One day after getting the pet the character will be given the option to input a name for the pet.
+* At any point the character may be given a pet from a consort, friend, lover or vassal and gain the option to keep it or sell it for a minor random amount of {{iconify|Gold}}.
+* During childhood the character might encounter a pet and have the option to keep it and gain the modifier. Alternatively if the character has the [[File:Trait sadistic.png|24px]] Sadistic trait it can kill the pet to gain {{green|+1}} {{iconify|Learning}}.
+* A Pet Dog can be obtained via the Adopt Puppy and Adopt a Kennel Dog decisions.
+* If the {{iconify|Royal Court}} DLC is installed a pet can be offered in certain court events.
+* If the {{iconify|Wandering Nobles}} DLC is installed a pet can be offered as part of travel events.
+
+A day after obtaining a pet an event will trigger to give the pet a name. While the character has a pet the following events can take place:
+* A vassal plays with the pet and gains {{green|+20}} {{iconify|Opinion}}
+* The pet brings 2 {{iconify|Gold}}
+* The pet gives a temporary {{iconify|Health Boost}}
+* The pet ruins a vassal's possessions, bringing the following options:
+** Pay the vassal and lose a moderate random amount of {{iconify|Gold}}
+** Lose {{red|-20}} {{iconify|Opinion}} with the vassal
+* If the character has two pets it might gain an event that grants {{green|-20}} {{icon|stress loss}} Stress
+* If the character has two pets they might fight. Within two weeks one on the following will happen:
+** 75% chance a pet dies
+** 15% chance both pets die
+** 10% chance they get along and the character gains {{green|-10}} {{icon|stress loss}} Stress
+
+If both {{iconify|Tours and Tournaments}} and {{iconify|Roads to Power}} DLCs are installed, there are two variants of the [[File:Modifier dog positive.png|24px]] Pet Dog modifier that can be obtained for 25 {{iconify|Gold}} as part of adventurer random events. Both of them increase {{iconify|Hunt}} success chance:
+* Beasthound gives {{green|+1}} {{iconify|Martial}} and {{iconify|Prowess}} and {{green|+0.1}} Monthly Prestige
+* Scenthound gives {{green|+1}} {{iconify|Diplomacy}} and {{iconify|Learning}} and {{green|+0.1}} Monthly Prestige
+
+{{expansion|roc}}
+When a pet dies of old age, if the character has a Royal Court it will have the option to pay 10-20 {{iconify|Gold}} to gain a Small Wall Ornament artifact.
+
+== Court poet modifiers ==
+Court poet modifiers can be obtained by giving a [[File:Court poet court position.png|24px]] Court Poet the [[File:Court poet court position task create poetry.png|24px]] Write Poetry task. Each year one modifier will be obtained, which will last 3 years. The strength of the modifier depends on the aptitude of the poet.
+{| class="mildtable plainlist"
+! Modifier
+! Terrible aptitude effects
+! Poor aptitude effects
+! Average aptitude effects
+! Good aptitude effects
+! Excellent aptitude effects
+|-
+| [[File:Modifier legitimacy positive.png]] Poetry about Legacy
+| {{icon|legitimacy}} {{green|+1%}} Legitimacy Gain
+| {{icon|legitimacy}} {{green|+2%}} Legitimacy Gain
+| 
+* {{icon|legitimacy}} {{green|+3%}} Legitimacy Gain
+* {{icon|legitimacy}} {{green|-3%}} Legitimacy Loss
+| 
+* {{icon|legitimacy}} {{green|+5%}} Legitimacy Gain
+* {{icon|legitimacy}} {{green|-5%}} Legitimacy Loss
+| 
+* {{icon|legitimacy}} {{green|+10%}} Legitimacy Gain
+* {{icon|legitimacy}} {{green|-10%}} Legitimacy Loss
+|-
+| [[File:Modifier outdoors positive.png]] Poetry about Mourning
+| {{icon|piety}} {{green|+1%}} Monthly Piety
+| {{icon|piety}} {{green|+2%}} Monthly Piety
+| 
+* {{icon|piety}} {{green|+3%}} Monthly Piety
+* {{icon|opinion}} {{green|+3}} Clergy Opinion
+| 
+* {{icon|piety}} {{green|+4%}} Monthly Piety
+* {{icon|opinion}} {{green|+6}} Clergy Opinion
+| 
+* {{icon|piety}} {{green|+5%}} Monthly Piety
+* {{icon|opinion}} {{green|+10}} Clergy Opinion
+|-
+| [[File:Modifier fertility positive.png]] Poetry about Romance
+| {{icon|opinion}} {{green|+1}} Attraction Opinion
+| 
+* {{icon|opinion}} {{green|+2}} Attraction Opinion
+* {{icon|opinion}} {{green|+2}} Spouse Opinion
+| 
+* {{icon|opinion}} {{green|+3}} Attraction Opinion
+* {{icon|opinion}} {{green|+3}} Spouse Opinion
+* {{icon|scheme phase length}} {{green|-10}} Days Romance Phase Length
+* {{icon|scheme phase length}} {{green|-10}} Days Seduce Phase Length
+| 
+* {{icon|opinion}} {{green|+5}} Attraction Opinion
+* {{icon|opinion}} {{green|+5}} Spouse Opinion
+* {{icon|scheme phase length}} {{green|-20}} Days Romance Phase Length
+* {{icon|scheme phase length}} {{green|-20}} Days Seduce Phase Length
+| 
+* {{icon|opinion}} {{green|+10}} Attraction Opinion
+* {{icon|opinion}} {{green|+10}} Spouse Opinion
+* {{icon|scheme phase length}} {{green|-30}} Days Romance Phase Length
+* {{icon|scheme phase length}} {{green|-30}} Days Seduce Phase Length
+|-
+| [[File:Modifier tournament positive.png]] Poetry about Strife
+| 
+* {{icon|advantage}} {{green|+1}} Minimum Battle Roll
+* {{icon|death}} {{green|-1%}} Friendly Fatal Casualties
+| 
+* {{icon|advantage}} {{green|+2}} Minimum Battle Roll
+* {{icon|death}} {{green|-2%}} Friendly Fatal Casualties
+| 
+* {{icon|advantage}} {{green|+2}} Minimum Battle Roll
+* {{icon|death}} {{green|-4%}} Friendly Fatal Casualties
+| 
+* {{icon|advantage}} {{green|+3}} Minimum Battle Roll
+* {{icon|death}} {{green|-6%}} Friendly Fatal Casualties
+| 
+* {{icon|advantage}} {{green|+4}} Minimum Battle Roll
+* {{icon|death}} {{green|-10%}} Friendly Fatal Casualties
+|}
+
+== Experimental Brew ==
+Experimental Brew is a modifier that can be obtained by employing a [[File:Court brewmaster court position.png|24px]] Court Brewmaster. Their Aptitude does not influence the effects of the modifier. The modifier changes its effects every 6 months to one of the following:
+* {{icon|diplomacy}} {{green|+1}} Diplomacy
+* {{icon|martial}} {{green|+1}} Martial
+* {{icon|stewardship}} {{green|+1}} Stewardship
+* {{icon|intrigue}} {{green|+1}} Intrigue
+* {{icon|learning}} {{green|+1}} Learning
+* {{icon|prowess}} {{green|+1}} Prowess
+* {{icon|gold}} {{green|+1}} Monthly Tax
+* {{icon|prestige}} {{green|+5%}} Monthly Prestige
+* {{icon|piety}} {{green|+5%}} Monthly Piety
+* {{icon|renown}} {{green|+0.2}} Monthly Renown
+* {{icon|innovation}} {{green|+1%}} Cultural Fascination Progress
+* {{icon|health boost}} Small Health Boost
+* {{icon|fertility}} {{green|+10%}} Fertility
+* {{icon|stress loss}} {{green|+25%}} Stress Loss
+* {{icon|opinion}} {{green|+10}} Attraction Opinion
+* {{icon|opinion}} {{green|+10}} General Opinion
+* {{icon|opinion}} {{green|+10}} Child Opinion
+* {{icon|opinion}} {{green|+10}} Courtier and Guest Opinion
+* {{icon|opinion}} {{green|+10}} Courtly Vassal Opinion
+* {{icon|prestige}} {{red|-5%}} Monthly Prestige
+* {{icon|piety}} {{red|-5%}} Monthly Piety
+* {{icon|health penalty}} Tiny Health Penalty
+* {{icon|opinion}} {{red|-5}} Courtier and Guest Opinion
+
+== Blood Brother modifiers ==
+{{expansion|kos}}
+When a character gains a Blood Brother they will have the option to choose one of the following modifiers. The modifier is removed if the character no longer has a Blood Brother.
+{| class="mildtable plainlist"
+! Modifier
+! Effects ({{iconify|Nomadic}})
+! Effects (not {{iconify|Nomadic}})
+! Blood Brother requirements (any)
+|-
+| [[File:Modifier legitimacy positive.png]] August Blood Brother
+|
+* {{icon|prestige}} {{green|-10%}} Title Creation Cost
+* {{icon|legitimacy nomad}} {{green|+0.3}} Legitimacy
+* {{icon|gold}} {{green|-20%}} Upgrade Nomadic Horde Regiment Cost
+|
+* {{icon|prestige}} {{green|-10%}} Title Creation Cost
+* {{icon|legitimacy}} {{green|+0.3}} Legitimacy
+* {{icon|gold}} {{green|-20%}} Men-at-Arms Recruitment Cost
+| 
+* {{iconify|King}}
+* {{iconify|Emperor}}
+* {{iconify|Exalted Among Men}}
+* {{icon|the living legend}} Legendary Figure
+* [[File:Nomad authority 4.png|24px]] Absolute dominance
+* [[File:Nomad authority 5.png|24px]] Unrestricted dominance
+|-
+| [[File:Modifier stress positive.png]] Caring Blood Brother
+|
+* {{icon|stress loss}} {{green|+3%}} Stress Loss per Level of Devotion
+* {{icon|stress gain}} {{green|-10%}} Stress Gain
+* {{icon|scheme success chance}} {{green|-5%}} Enemy Scheme Secrecy
+* {{icon|gold}} {{green|+5%}} Initial Personal Scheme Success Chance
+|
+* {{icon|stress loss}} {{green|+3%}} Stress Loss per Level of Devotion
+* {{icon|stress gain}} {{green|-10%}} Stress Gain
+* {{icon|scheme success chance}} {{green|-5%}} Enemy Scheme Secrecy
+* {{icon|gold}} {{green|+5%}} Initial Personal Scheme Success Chance
+| 
+* {{iconify|Compassionate}}
+* {{iconify|Forgiving}}
+* {{iconify|Generous}}
+* {{iconify|Gregarious}}
+* {{iconify|Loyal}}
+* {{iconify|Trusting}}
+* {{iconify|Patriarch}}/Matriarch
+|-
+| [[File:Modifier prestige positive.png]] Clever Blood Brother
+|
+* {{icon|scheme secrecy}} {{green|-5%}} Enemy Scheme Secrecy
+* {{icon|herd}} {{green|+10%}} Powerful Vassal Councilor Herd Contribution
+* {{icon|prestige}} {{green|+10%}} Monthly Prestige
+|
+* {{icon|scheme secrecy}} {{green|-5%}} Enemy Scheme Secrecy
+* {{icon|gold}} {{green|+10%}} Powerful Vassal Councilor Tax Contribution
+* {{icon|grandeur}} {{green|+0.2}} Monthly Court Grandeur
+| 
+* {{iconify|Genius}}
+* {{iconify|Shrewd}}
+* {{icon|diplomacy}} 25+ Diplomacy
+* {{icon|stewardship}} 25+ Stewardship
+* {{icon|intrigue}} 25+ Intrigue
+* {{icon|learning}} 25+ Learning
+|-
+| [[File:Modifier dread positive.png]] Warlike Blood Brother
+|
+* {{icon|prowess}} {{green|+2}} Prowess
+* {{icon|dread}} {{green|+10}} Natural Dread
+* {{icon|advantage}} {{green|+2}} Advantage when commanding armies
+|
+* {{icon|prowess}} {{green|+2}} Prowess
+* {{icon|dread}} {{green|+10}} Natural Dread
+* {{icon|advantage}} {{green|+2}} Advantage when commanding armies
+| 
+* {{icon|prowess}} 25+ Prowess
+* {{icon|martial}} 20+ Martial
+* {{icon|dread}} 60+ Dread and either 18+ Prowess or a Martial education trait
+* {{icon|prowess}} 20+ Prowess and one of the following traits: Aggressive Attacker, Berserker, Brave, Raider, Sadistic, Vengeful, Wrathful
+|}
+
+== Coronation modifiers ==
+{{expansion|cor}}
+Coronation modifiers can only be added by [[File:Activity coronation.png|24px]] Coronation activities and affect only a single barony.
+
+If the game is started in 1066 or 1178 the following baronies will start with [[File:Modifier legitimacy positive.png|24px]] Traditional Ascension Site modifier: Aachen, Al-Madina, Bukhara, Cairo, Damascus, Ghazna, Gniezno, Gowrie, Kutaisi, Lahur, London, Mahdiya, Milano, Rayy, Reims, Rome, Samarkand, St Johnston, Székesfehérvár, Baghdad and Constantinople. If the game is started in 1178 Karakorum and Marrakesh will also have it. Baghdad and Constantinople will start with the modifier doubled.
+{| class="mildtable plainlist"
+! Modifier
+! Effects
+! Requirements
+|-
+| [[File:Modifier legitimacy positive.png]] Traditional Ascension Site
+| 
+* {{icon|opinion}} {{green|+5}} Popular Opinion
+* [[File:Activity coronation.png|24px]] {{green|+5}} Increased Coronation Magnificence
+* {{icon|yes}} Effects double if at least 10 Coronations have been held in the barony
+* {{icon|yes}} Effects triple if at least 15 Coronations have been held in the barony
+| [[File:Activity coronation.png|24px]] 5 Coronations were held in the barony
+|-
+| [[File:Modifier piety positive.png]] A Faithful's Oath Fulfilled
+| 
+* [[File:Building oath faithful.png|24px]] Can upgrade the Religious Monuments building to its final level
+* {{icon|gold}} {{green|+5%}} Holding Taxes
+| {{icon|decision}} Fulfilled the Provide for the Faithful oath
+|-
+| [[File:Modifier stewardship positive.png]] A Poor's Oath Fulfilled
+| 
+* [[File:Building oath poor.png|24px]] Can upgrade the Official Almshouses building to its final level
+* {{icon|development}} {{green|+5%}} Development Growth
+* {{icon|gold}} {{red|-5%}} Holding Taxes
+| {{icon|decision}} Fulfilled the Provide for the Poor oath
+|-
+| [[File:Modifier martial positive.png]] A Warrior's Oath Fulfilled
+| 
+* [[File:Building oath warriors.png|24px]] Can upgrade the Martial Grants building to its final level
+* {{icon|damage}} {{green|+10%}} Stationed Men-at-Arms Damage
+* {{icon|toughness}} {{green|+5%}} Stationed Men-at-Arms Toughness
+| {{icon|decision}} Fulfilled the Support My Knights/Champions oath
+|}
+
+== Capital Temple Complex modifiers ==
+{{expansion|auh}}
+Capital Temple Complex modifiers can only be added by paying for certain the contributions with the same name in Capital Temple Complex great projects and affect only a single barony.
+{| class="mildtable plainlist"
+! Modifier
+! Effects
+|-
+| [[File:Modifier economy positive.png]] Ornate Reliefs
+| {{icon|gold}} {{green|+5%}} Holding Taxes
+|-
+| [[File:Modifier economy positive.png]] Shallow Pools
+| 
+* {{icon|advantage}} {{green|+10}} Defender Advantage
+* {{icon|toughness}} {{green|+2%}} Stationed Men-at-Arms Toughness per Level of Devotion
+|-
+| [[File:Modifier rock positive.png]] Divine Statues
+| 
+* {{icon|gold}} {{green|+5%}} Holding Taxes
+* {{icon|gold}} {{green|+0.1}} Monthly Tax per Level of Devotion
+|-
+| [[File:Modifier signet ring positive.png]] Gilded Shrines
+| {{icon|gold}} {{green|+0.15}} Monthly Tax per Level of Devotion
+|-
+| [[File:Modifier travel safety positive.png]] Divine Barays
+| 
+* {{icon|advantage}} {{green|+10}} Defender Advantage
+* {{icon|toughness}} {{green|+2%}} Stationed Men-at-Arms Toughness per Level of Devotion
+* {{icon|plague resistance}} {{green|+10}} Plague Resistance
+|-
+| [[File:Modifier stewardship positive.png]] Statues of Creation
+| 
+* {{icon|gold}} {{green|-10%}} Building Construction Cost
+* {{icon|time}} {{green|-10%}} Building Construction Time
+|-
+| [[File:Modifier stewardship positive.png]] Statues of Creation
+| 
+* {{icon|gold}} {{green|-10%}} Building Construction Cost
+* {{icon|time}} {{green|-10%}} Building Construction Time
+|-
+| [[File:Modifier martial positive.png]] Statues of Destruction
+| 
+* {{icon|levies}} {{green|+5%}} Levy Size
+* {{icon|levies}} {{green|+10%}} Levy Reinforcement Rate
+* {{icon|garrison}} {{green|+10%}} Garrison Size
+|-
+| [[File:Modifier diplomacy positive.png]] Statues of Serenity
+| 
+* {{icon|gold}} {{green|+10%}} Holding Taxes
+* {{icon|development}} {{green|+10%}} Development Growth
+* {{icon|opinion}} {{green|+10}} Popular Opinion
+|-
+| [[File:Modifier intrigue positive.png]] Statues of Trickery
+| 
+* {{icon|raid}} {{green|+10%}} Hostile Raid Time
+* {{icon|control}} {{green|+0.1}} Monthly Control
+* {{icon|control}} {{green|-10%}} Control Decline when at War
+|}
+
+== Aspect modifiers ==
+{{expansion|auh}}
+Rulers who have certain Mandala aspects can gain aspect modifiers.
+{| class="mildtable plainlist"
+! Modifier
+! Effects
+! Notes
+|-
+| '''Aspect of Creation'''
+| 
+* {{icon|gold}} {{green|-1%}} Holding Construction Cost
+* {{icon|gold}} {{green|-2%}} Building Construction Cost
+* {{icon|time}} {{green|-2%}} Building Construction Time
+| 
+* Obtained by constructing or upgrading a building while having the aspect with the same name
+* Can be upgraded up to 10 times the same way
+* Lasts for 10 years at aspect levels 1 and 2
+* Lasts for 20 years at aspect levels 3 and 4
+* Lasts for 30 years at aspect level 5
+* Duration resets when a new building is constructed or upgraded
+|-
+| '''Aspect of Serenity'''
+| 
+* {{icon|legitimacy}} {{green|+0.1}} Monthly Legitimacy
+* {{icon|opinion}} {{green|+5}} General Opinion
+* {{icon|time}} {{green|-5%}} Great Project Construction Time
+* {{icon|stress loss}} {{green|+5%}} Stress Loss per Level of Devotion
+| 
+* Obtained by having the aspect with the same name
+* Upgraded by not declaring offensive wars for 5 years at aspect levels 1 and 2
+* Upgraded by not declaring offensive wars for 3 years at aspect levels 3 and 4
+* Upgraded by not declaring offensive wars for 1 years at aspect level 5
+|}
+
+== References ==
+<references />
+
+{{Mechanics navbox}}
+[[Category:Character]]

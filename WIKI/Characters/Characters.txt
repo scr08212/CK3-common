@@ -1,0 +1,1137 @@
+{{Version|1.18}}
+A character refers to any person, historical or generated, that is represented personally in Crusader Kings III. Every single character is an individual, living entity that will act individually and has the potential to change history. Characters can be either noble or lowborn, and landed or unlanded.
+* Noble characters are members of a [[dynasty]].
+* Lowborn characters are not members of a dynasty. If they are landed with a playable [[government]] title they will become noble and found a dynasty.
+* Landed characters own at least one holding.
+* Unlanded characters do not own any holdings; a character who ''Leases'' holdings (e.g. a Realm Priest) is considered an unlanded character.
+All Characters are part of a certain [[Religion]] and [[Culture]], and may have a [[Attributes|variety of Attributes]], [[Traits]], [[Modifiers]] and [[Resources]] that further shape each individual. Some may even attempt to interact with others through [[Schemes]].
+
+If they are landed, they will also have [[Titles]], [[Council]] (if they are at least a [[County|Count]]), a specific [[Government]], a [[Lifestyle]] and a [[Court]].
+
+== Appearance ==
+Characters are depicted using a 3D portrait system. Every character's physical appearance is internally determined by a DNA system, which defines how they look: facial features, skin pigmentation, height, and hair color are all stored as DNA. This DNA is dynamically generated for courtiers, and can be directly edited with the [[Ruler Designer]]. DNA is stored as dominant and recessive genes and [[Breeding|passed on to a character's children]], affecting their appearance. 
+
+As Crusader Kings III covers a large portion of Eurasia and North Africa in its setting, characters can be from a diverse number of ethnicities: West/Central European, Northern European, Slavic, Arctic, Mediterranean, West African, East African, Arabic, Asian, North Indian, or South Indian.
+
+Their appearance is further determined by age, weight, and certain congenital traits. Characters will age as years pass by, eventually growing old and withering away. Their appearance can also be adversely affected by illness or injury; battle wounds may scar their face, while disease can leave a ghastly impact on their visage.
+
+=== Barbershop ===
+Players can adjust the appearance of their ruler or ruler's family members via the Barbershop window. This allows hair and clothing to be changed, overriding the character's default appearance.
+
+== Sexual Orientation ==
+{| class="mildtable" style="text-align: center; float: left; margin-right: 30px;"
+! Male icon
+! Female icon
+! Preference
+! Can form lover relations and have attraction opinion with
+|-
+| [[File:Heterosexual.png]]
+| [[File:Heterosexual.png]]
+| '''Heterosexual'''
+| style="text-align: left; | Characters of the opposite sex
+|-
+| [[File:Homosexual male.png]]
+| [[File:Homosexual female.png]]
+| '''Homosexual'''
+| style="text-align: left; | Characters of the same sex
+|-
+| [[File:Bisexual male.png]]
+| [[File:Bisexual female.png]]
+| '''Bisexual'''
+| style="text-align: left; | Everyone
+|-
+| [[File:Asexual.png]]
+| [[File:Asexual.png]]
+| '''Asexual'''
+| style="text-align: left; | No one
+|}
+A character's sexual orientation determines with which gender they will gain [[attraction]] opinion and can form [[lover]] relations. It is decided when the character is around 10 years old and cannot be changed. AI characters will never try to form a [[relation]] with characters that do not match their sexual orientation. Both the initial distribution of sexual orientation and the chance for [[child|children]] to gain a certain sexual orientation is determined by the sexuality distribution [[game rule]].
+
+If the child is played by a player, there is a 20% chance that the player will get to pick the gender preference.
+{{clear}}
+
+
+== Opinion ==
+Each character has an {{icon|opinion}} opinion of every other character. The {{iconify|opinion}} the player character holds influences the success rate of certain actions that target another character while the {{iconify|opinion}} of AI characters also determines their behavior towards other characters.
+
+When a character [[death|dies]], their [[primary heir]] will temporarily inherit part of the {{iconify|opinion}} of vassals towards the late [[liege]], shown as ''Opinion of Predecessor''.
+* {{green|Positive}} opinion towards predecessor: 25% of {{iconify|opinion}} is inherited.
+* {{red|Negative}} opinion towards predecessor: 50% of {{iconify|opinion}} is inherited.
+
+== Opinion ==
+
+=== General ===
+General is an {{iconify|opinion}} modifier that affects '''every character''', this means only Popular Opinion of Counties are independent of this modifier. See also [[Attributes]].
+
+These are modifiers that influence General {{iconify|opinion}}:
+
+* {{green|+10}} Dynasty Legacy "Glory" (tier 5)
+* {{red|-8}} ~ {{green|+92}} Personal Diplomacy Skill
+* {{red|-2}} ~ {{red|-126}} Trait "Gallows bait"
+* {{red|-1}} ~ {{red|-1000}} Tyranny
+* {{red|-10}} Trait "Peasant Leader"
+* {{red|-10}} Trait "Sadistic"
+* {{red|-15}} Trait "Murderer"
+* {{red|-25}} Modifier "Attacked An Ally"
+* {{red|-50}} Modifier "Broken Truce"
+
+=== Attraction ===
+Attraction is an {{iconify|opinion}} modifier that can only be held towards characters one's sexual preference allows. Male characters aged above 65 years and female character above 50 years are not affected by attraction. Only adults (16 year old and above) can generate attraction and have attraction towards another.
+
+These are modifiers that influence Attraction{{iconify|opinion}}:
+
+* {{green|+10}} Trait "Brave"
+* {{green|+5}}/{{green|+10}} Trait "Hunter" (Falconer way) (Level 1/Level 2)
+* {{green|+5}}/{{green|+10}}/{{green|+15}} Trait "Amazonian"/("Herculean")/"Robust"/"Hale"
+* {{green|+5}} Trait "Gregarious"
+* {{red|-30}}/{{red|-20}}/{{red|-10}}/{{green|+10}}/{{green|+20}}/{{green|+30}} Trait "Hideous"/"Ugly"/"Homely"/"Comely"/"Handsome"("Pretty")/"Beautiful"
+
+=== Same Dynasty ===
+Dynasty is an {{iconify|opinion}} modifier that affects everyone of the same dynasty.
+
+These are modifiers that influence Same Dynasty {{iconify|opinion}}:
+
+* "Mystical Ancestors" [[Traditions|Tradition]]: {{green|+10}}
+* Same Dynasty: {{green|+5}}
+* Tier-3 "Legitimacy" Legacy: {{green|+5}}
+* Tier-4 "Kin" Legacy: {{green|+5}}
+* "Dynastic Kinslayer" Trait: {{red|-5}}
+* "Familial Kinslayer" Trait: {{red|-5}}
+* "Kinslayer" Trait: {{red|-5}}
+* "Dininherited" Trait: {{red|-5}}
+* "Gallivanter" Trait: {{red|-10}}
+* "Legitimized Bastard" Trait: {{red|-10}}
+* "Bastard" Trait: {{red|-15}}
+
+==== Virtue & Sins ====
+Some traits are considered virtuous or sinful in certain faiths, the opinion modifier will be dependant on the character whose faith sees certain traits as virtuous or sinful. (e,g, a Muslim who has the "Forgiving" trait would have no modifiers from other Muslims, have {{green|+10}} (virtue) modifier from Christians and {{red|-10}} (sin) modifier with Asatruans).
+
+==== Faith Hostility ====
+Faith Hostility is determined by the Religious Families to be Righteous/Astray/Hostile/Evil, and are then given 0/{{red|-10}}/{{red|-20}}/{{red|-30}} opinion maluses, respectively.
+
+* "Pluralist" Doctrine: {{green|-50%}} faith hostility opinion malus
+* "Fundamentalist" Doctrine {{red|+100%}} faith hostility opinion malus
+The opinion malus from other characters is dependant by how hostile the other faith sees that faith that you belong to as, not how hostile your faith sees their faith as. 
+
+The "Pluralist" and "Fundamentalist" Doctrines affect how much maluses to opinion '''they have for''' '''you''', not vice-versa.
+
+=== Relations ===
+When certain requirements are met, two characters can have one of three types of relations, with each type having three levels. Relations have a great impact on how two characters act towards each other.
+* Childhood relations can only be held between two child characters and might evolve into their corresponding [[adult]]hood relations when the characters reach adulthood
+* Adulthood relations can be gained and lost as a result of [[event]]s
+* Lifelong relations can only be obtained towards characters with an existing adulthood relation and each character can have only one of each lifelong relation
+{| class="mildtable plainlist"
+! Relation
+! Childhood
+! Adulthood
+! Lifelong
+! Can be ended manually
+|-
+| [[File:Friend.png]] Friendship
+| '''Friend'''
+* {{icon|opinion}} {{green|+60}} opinion
+| '''Friend'''
+* {{icon|opinion}} {{green|+60}} opinion
+* [[File:Council.png|24px]] {{green|+20%}} Efficiency as councilor
+* {{icon|stress gain}} {{red|+10}} [[stress]] when character dies
+| '''Best Friend'''
+* {{icon|opinion}} {{green|+120}} opinion
+* [[File:Council.png|24px]] {{green|+30%}} Efficiency as councilor
+* {{icon|stress gain}} {{red|+10}} stress when character dies
+| {{icon|no}}
+|-
+| [[File:Lover.png]] Love
+| '''Crush'''
+* {{icon|opinion}} {{green|+60}} opinion
+| '''Lover'''
+* {{icon|opinion}} {{green|+60}} opinion
+* {{icon|fertility}} {{green|+25%}} [[fertility]]
+* {{icon|stress gain}} {{red|+10}} stress when character dies
+| '''Soulmate'''
+* {{icon|opinion}} {{green|+120}} opinion
+* {{icon|fertility}} {{green|+25%}} fertility
+* {{icon|stress gain}} {{red|+10}} stress when character dies
+| {{icon|yes}}
+|-
+| [[File:Rival.png]] Conflict
+| '''Bully-Victim'''
+* {{icon|opinion}} {{red|-20}} opinion
+| '''Rival'''
+* {{icon|opinion}} {{red|-60}} opinion
+* [[File:Council.png|24px]] {{red|-20%}} Efficiency as councilor
+* {{icon|stress loss}} {{green|-35}} stress when character dies
+| '''Nemesis'''
+* {{icon|opinion}} {{red|-120}} opinion
+* [[File:Council.png|24px]] {{red|-30%}} Efficiency as councilor
+* {{icon|stress loss}} {{green|-35}} stress when character dies
+| {{icon|no}}
+|}
+{{expansion|kos}}
+Two characters who have {{iconify|Nomadic}} government or the {{iconify|Way of the Nomad}} trait can swear a Blood Brotherhood with each other as long as they're not family members. Being Blood Brothers has the same benefits as being Friends but also gives the characters a {{iconify|Strong Hook}} on each other, forms an alliance and allows choosing a [[Modifiers#Blood_Brother_modifiers|Blood Brother]] modifier if any is available. Each character can only have one Blood Brother. The relation will end if a call to war from a Blood Brother is refused.
+
+=== Tyranny ===
+Tyranny is {{icon|opinion}} {{red|negative}} opinion gained by rulers who take unjust actions. It is felt by vassals and [[courtier]]s towards a liege. The maximum tyranny a character can have is {{red|1000}}. Tyranny is not gained if the liege has a valid reason.
+{| class="mildtable plainlist"
+! Action
+! Tyranny
+|-
+| Successfully [[imprison]]ing a character
+| {{red|+20}} tyranny
+|-
+| Increasing [[feudal obligation]]s
+| {{red|+20}} tyranny per obligation without concession or [[hook]]s
+|-
+| Revoking title without title revocation reason
+| {{red|+20}} tyranny
+|-
+| Retracting a vassal
+| {{red|+5}} tyranny
+|-
+| [[banishment|Banish]]ing a vassal
+| {{red|+5}} tyranny
+|-
+| [[File:Executioner court position.png|24px]][[execution|Executing]] a vassal
+| {{red|+10}} tyranny
+|-
+| Events
+| Varies
+|}
+
+Tyranny can be lost through certain events and most importantly through
+
+'''Monthly Decay:'''
+* {{green|-0.25}} Monthly delay by Default
+* {{green|-0.15}} Monthly delay by Perk 'Soon Forgiven' [[File:Stewardship duty focus.png|24px]] Duty lifestyle tree
+* {{green|-0.05}} Monthly delay by Perk 'Venial' {{icon|guile legacy}} Guile Dynasty
+
+All tyrannical actions, events and the monthly decay can be affected by the following modifiers:
+{| class="mildtable plainlist"
+! Source
+! Tyranny Gain
+|-
+| [[File:Core tenet nudism.png|48px]] Natural Primitivism (Tenet)
+| {{red|+100%}}
+|-
+| [[File:Tradition knight.png|48px]] Chivalry Tradition
+| {{red|+50%}}
+|-
+| [[File:Tradition quill.png|48px]] Legalistic Tradition
+| {{red|+25%}}
+|-
+| Generic Artifact Modifier
+| {{red|+10%}} to {{red|+40%}}
+|-
+| General Modifiers
+| Varies
+|-
+|[[File:Structure shwedagon pagoda.png|48x48px]]Shwedagon Pagoda ([[File:Icon piety eastern 03.png|20x20px]]Holy Building)
+|{{green|-10%}}
+|-
+| Shamshir-e Zomorrodnegar (Historical Artifact)
+| {{green|-15%}}
+|-
+| [[File:Structure palace of achen.png|48x48px]]Palace of Aachen (Special Building)
+| {{green|-20%}}
+|-
+| Jewelled Danda (Historical Artifact)
+| {{green|-20%}}
+|-
+| {{iconify|Callous}} (Trait)
+| {{green|-20%}}
+|-
+| Diplomatic Court Grandeur Level 4 Perk
+| {{green|-20%}}
+|-
+|Faith is Tanism ([[File:Religion donyipoloism.png|20x20px]]Donyi-Poloism ''or'' [[File:Religion sedism.png|20x20px]]Sedism)
+''and''
+
+Faith holds [[Holy site|Holy Site]] Pemako
+|{{green|-20%}}
+|-
+|Faith is Mandé ([[File:Religion west african.png|20x20px]]Bidaism ''or'' [[File:Religion mande.png|20x20px]]Siguism)
+''and''
+
+Faith holds [[Holy sites|Holy Site]] Niani
+|{{green|-20%}}
+|-
+| Defender of the Faith (Theology Lifestyle Perk)
+''and''
+Faith has the [[File:Doctrine pluralism righteous.png|20x20px]]Righteous doctrine
+| {{green|-25%}}
+|-
+| Easy Difficulty
+| {{green|-25%}}
+|-
+| [[File:Core tenet pursuit of power.png|48px]] Pursuit of Power (Tenet)
+| {{green|-50%}}
+|-
+| Very Easy Difficulty
+| {{green|-75%}}
+|-
+| General Modifiers and Artifacts
+| Varies
+|}
+
+
+{| class="mildtable plainlist"
+! Source
+! Tyranny Loss
+|-
+| Domestic Affairs (Chancellor Task)
+| ~{{green|+1%}} to ~{{green|+50%}}
+|-
+| Generic Artifact Modifier
+| {{green|+2%}} to {{green|+16%}}
+|-
+| General Modifiers
+| Varies
+|-
+| [[File:Tradition king.png|48px]] Hereditary Hierarchy (Cultural Tradition)
+| {{red|-50%}}
+|}
+
+With the [[Torturer]] lifestyle perk ''Malice Implicit'', characters gain {{icon|dread}} {{green|+0.5}} [[dread]] per tyranny.
+
+== Diplomatic range ==
+The diplomatic range is the distance within which two characters can [[interactions|interact]] with each other. Neighboring [[realm]]s are always within diplomatic range of each other, as well as realms separated by no more than three sea zones.
+
+* The first [[Dynasty|Dynasty Legacy]] from the Adventure Legacy Tree from Northern Lords DLC increases Diplomatic Range by 30%.
+* The [[Building#Historical buildings|Rock of Gibraltar]] increases Diplomatic Range by 20%.
+
+Diplomatic range map mode is only available in debug mode.
+
+== Nicknames ==
+[[Nickname]]s are epithets granted to characters and are displayed either before or after a character's name. They are mainly gained through {{icon|decision}} [[decision]]s and events.
+
+== AI Personality ==
+AI characters will act based on the following attributes:
+* '''Boldness:''' Characters with high Boldness are less affected by {{iconify|Dread}} and more likely to declare war on rulers of similar or higher strength, accept and propose Duels and take risks. Characters with low Boldness are more affected by {{iconify|Dread}} and more likely to declare war on weaker rulers, accept faction ultimatums and more reluctant to try to imprison Strong Vassals and take risks.
+* '''Compassion:''' Characters with high Compassion are more likely to release prisoners (especially children), use the [[File:Task accept culture.png|24px]] Promote Cultural Acceptance steward task, let people marry for love and make friends and more reluctant to harm others, use the Murder scheme, execute prisoners or torture prisoners. Characters with low Compassion are more likely to harm others, use Hostile schemes, execute prisoners or torture prisoners.
+* '''Greed:''' Characters with high Greed will more often choose short-term gains, go on Raids, use the [[File:Task collect taxes.png|24px]] Collect Taxes steward task, betray other characters for {{icon|Gold}} and {{iconify|Title}}s and pay less on contracts and are more reluctant to pay ransom, send gifts, accept title revocations and end wars in [[File:War outcome white peace.png|24px]] White Peace. Characters with low Greed will more often spend {{iconify|Gold}}, pay ransom, send gifts, accept title revocations and host activities and pay more on contracts and are more reluctant to betray other characters for {{icon|Gold}} and {{iconify|Title}}s.
+* '''Honor:''' Characters with high Honor are more likely to follow Laws and honor Alliances and more reluctant to blackmail characters with Secrets. Characters with low Honor are more likely to start hostile Schemes, blackmail characters with Secrets, use the [[File:Task find secrets.png|24px]] Find Secrets spymaster task and betray their friends and spouses.
+* '''Rationality:''' Characters with high Rationality are more likely to use the [[File:Task disrupt schemes.png|24px]] Disrupt Schemes spymaster task, peace out of wars when they last more than 6 months and start Murder schemes against a liege with Tyranny and try to fix debts and are more reluctant to gain Tyranny. Characters with low Rationality are more likely to gain Tyranny, get into inopportune wars and continue wars for more than 6 months.
+* '''Sociability:''' determines how often the character will consider a character interaction.
+* '''Vengefulness:''' Characters will high Vengefulness will more often seek to harm Rivals and cheating Spouses and request Excommunication to punish criminals and will less often forgive slights and transgressions. Characters with low Vengefulness will more often forgive slights and transgressions, refuse to punish prisoners and pardon criminals and do not start hostile schemes targeting Rivals and cheating Spouses any more than other characters.
+* '''Zeal:''' Characters with high Zeal are more likely to join defensively against Holy Wars, pledge or donate to Great Holy Wars, convert counties or vassals, go on pilgrimages and take actions that grant {{iconify|Piety}} and more reluctant to convert to other faiths. Characters with low Zeal are more likely to ignore Faith in politics and use it as a tool and more reluctant to take actions that grant {{iconify|Piety}} or accept requests from rulers with Theocracy government.
+
+Each AI character will have its personality described with an adjective and a noun based on the highest amount of the value of two attributes. Children who do not have any traits yet will instead be described as Balanced, as are those who have little to no personality tendencies.
+
+Every character will have a pose that is determined by the highest or lowest value that the character in question has, with the pose being slightly different between male and female characters (i.e High boldness characters will stand confidently, low boldness characters will cower meekly).
+{| class="mildtable" style="text-align: center;
+! rowspan=2 | Attribute
+! colspan=2 | Very Negative ({{red|-76}} to {{red|-100}})
+! colspan=2 | Negative ({{red|-1}} to {{red|-75}})
+! colspan=2 | Positive ({{green|+1}} to {{green|+75}})
+! colspan=2 | Very Positive ({{green|+76}} to {{green|+100}})
+|-
+! Adjective
+! Noun
+! Adjective
+! Noun
+! Adjective
+! Noun
+! Adjective
+! Noun
+|-
+| '''Boldness''' || Spineless || Craven || Cowardly || Coward || Bold || Gambler || Fearless || Adventurer
+|-
+| '''Compassion''' || Evil || Villain || Callous || Brute || Compassionate || Altruist || Gracious || Empath
+|-
+| '''Greed''' || Content || Lackey || Content || Follower || Covetous || Grasper || Rapacious || Ravener
+|-
+| '''Honor''' || Treacherous || Blackguard || Dishonorable || Knave || Honorable || Gentleman / Gentlewoman || Righteous || Paragon
+|-
+| '''Rationality''' || Insane || Maniac || Irrational || Fool || Rational || Thinker || Analytic || Planner
+|-
+| '''Vengefulness''' || Magnanimous || Absolver || Forgiving || Conciliator || Resentful || Quarreler || Vindictive || Antagonist
+|-
+| '''Zeal''' || Godless || Atheist || Cynical || Unbeliever || Religious || Believer || Zealous || Zealot
+|}
+
+=== Economical Archetype ===
+An AI ruler would spend their {{Iconify|Gold}} according to the following archetypes based on their traits and attributes:
+
+* '''Warlike:''' A Warlike ruler would save {{Iconify|Gold}} for war before invisting it to develop their realm. If they are at peace for an extended period of time, they will use their gold to build Buildings. They are more likely to create and promote heroic legends. 
+** Relevant Traits: {{Iconify|wrathful}}, {{Iconify|impatient}}, {{Iconify|sadistic}}, {{Iconify|ambitious}}, {{Iconify|vengeful}}, {{Iconify|irritable}}, and {{Iconify|zealous}}.
+** AI with high Boldness and Greed also tends to be Warlike.
+* '''Cautious:''' A Cautious ruler would prepare for war to be declared upon them. They are more averse to declaring offensive wars, more inclined to save {{Iconify|Gold}} for defense, and invest gold for Fortifaction Buildings and Men-at-arms regiments. They are less likely to create and promote legends.
+** Relevant traits: {{Iconify|patient}}, {{Iconify|calm}}, {{Iconify|craven}}, {{Iconify|paranoid}}, and {{Iconify|content}}.
+** {{Iconify|fickle}} rulers would never be Cautious.
+* '''Builder:''' A Builder would fund Buildings and Men-at-arms regiments as soon as they have surplus {{Iconify|Gold}}. They construct more Economic Buildings and Holdings. They only save up gold if threatened directly, such as by a strong Faction. They are more likely to create and promote legends then Cautious rulers, but less likely than Warlike ones.
+** Rulers with high Boldness, inclination for building and low inclination for war tend to be Builders.
+** Relevant traits: {{Iconify|calm}}, {{Iconify|patient}}, {{Iconify|diligent}}, {{Iconify|generous}}, {{Iconify|stubborn}}, {{Iconify|profligate}}, and {{Iconify|improvident}}.
+** Rulers with Domain Focus also tend to be Builders.
+* '''Unpredictable:''' Unpredictable rulers have no traits for any specifc archetype, and may temporarily follow any economic strategy.
+* '''Conqueror:''' a ruler with the  {{Iconify|Conqueror}} trait wants to expand their realm through war at any cost. They would invest all their {{Iconify|Gold}} into the war chest or to buy Men-at-arms. They hardly ever host or go to Activities, or sponor Inspirations They only use Activities to gain {{Iconify|Prestige}} and {{Iconify|Piety}} to go to war. 
+** Any non-Cautious Ruler has the potential to become a {{Iconify|Conqueror}}.
+
+== Legends ==
+[[File:Creating a legend.png|thumb|350px|A legend being created]]
+{{expansion|lod}}
+Legends represent important deeds that a character achieved in life. The story of the legend will be written in various events as the legend is being completed. Creating a legend costs 200 {{iconify|Gold}} if {{iconify|Count}} or {{iconify|Duke}}, 300 if {{iconify|King}} and 400 if {{iconify|Emperor}}, and it also has a monthly maintenance cost until it is completed. {{icon|legitimizing legend}} Legitimizing legends also cost 75 {{iconify|Prestige}}. A legend needs at least 5 years before it can be completed or abandoned. Each legend can only be created once.
+
+Legends are created from Legend Seeds. The primary way of obtaining Legend Seeds is by employing a [[File:Court chronicler court position.png|24px]] Court Chronicler with high Aptitude. They can also be obtained by doing certain deeds or being part of a certain dynasty.
+
+When created, a legend can be about either the ruler creating it or to one of its close or extended family members, living or dead, as long as they are at least 16 years old. If the protagonist is another character the ruler will gain {{green|+20}} {{iconify|Legitimacy}} if the protagonist does not have a trait considered a virtue, and {{green|+50}} if it does. Creating a legend also unlocks the Commission Legend Artifact decision.
+
+Each legend while being created will have an [[File:Legend owner.png|24px]] Owner and may have [[File:Legend promoter.png|24px]] Promoters as well. Both will gain bonuses depending on the legend type and unlock the [[File:Spread legend intent.png|24px]] Spread Legend intent for certain activities. Additional bonuses can be obtained as the legend is created.
+* [[File:Legend owner.png|24px]] Owner is the ruler who starts the legend and gains the most bonuses. If the character dies any member of the same dynasty can take ownership of the legend from the Chronicle screen.
+* [[File:Legend promoter.png|24px]] Promoters are rulers that promote the legend, gaining fewer bonuses but only paying half of the maintenance cost of owning it. Promoting a legend requires one of the following:
+** Know the language of the legend's creator
+** Neighbor with the legend's creator
+** Lover or Soulmate with the legend's creator
+** Friend or Best Friend with the legend's creator
+
+Legends come in three types and three levels of quality, which together determine what benefits they give. When a legend is created it will start at Famed quality. Once it has spread to 100 Baronies it can be upgraded to Illustrious quality and will not spread further until upgraded. Once it has spread to 300 Baronies it can be upgraded to Mythical quality and will not spread further until upgraded.
+{| class="mildtable plainlist"
+! Quality
+! Benefits
+! {{icon|heroic legend}} Heroic
+! {{icon|holy legend}} Holy
+! {{icon|legitimizing legend}} Legitimizing
+|-
+! rowspan=3 | {{icon|legend}}<br>Famed
+! [[File:Legend owner.png|24px]] Owner
+| 
+* {{icon|prestige}} {{green|+10%}} Prestige
+* {{icon|legitimacy}} {{green|+100}} Legitimacy
+* {{icon|decision}} 50% chance unlocks the Clear Grounds for a Legendary Building decision
+| 
+* {{icon|piety}} {{green|+10%}} Piety
+* {{icon|legitimacy}} {{green|+100}} Legitimacy
+* {{icon|decision}} 50% chance unlocks the Clear Grounds for a Legendary Building decision
+|
+* {{icon|renown}} {{green|+0.10}} Monthly Renown
+* {{icon|renown}} {{green|+5%}} Renown
+* {{icon|legitimacy}} {{green|+200}} Legitimacy
+* {{icon|unpressed claim}} Get an Unpressed Claim on every title de jure of the primary title
+* {{icon|decision}} 50% chance unlocks the Clear Grounds for a Legendary Building decision
+|-
+! [[File:Legend promoter.png|24px]] Promoter
+|
+* {{icon|martial}} {{green|+1}} Martial
+* {{icon|prestige}} {{green|+2%}} Prestige
+|
+* {{icon|learning}} {{green|+1}} Learning
+* {{icon|piety}} {{green|+2%}} Piety
+|
+* {{icon|stewardship}} {{green|+1}} Stewardship
+* {{icon|renown}} {{green|+0.01}} Monthly Renown
+|-
+! [[File:Legend province modifier.png|24px]] County
+|
+* {{icon|damage}} {{green|+5%}} Stationed Men-at-Arms Damage
+* {{icon|opinion}} {{green|+5}} Popular Opinion
+|
+* {{icon|control}} {{green|+0.10}} Monthly Control
+* {{icon|opinion}} {{green|+5}} Popular Opinion
+|
+* {{icon|development}} {{green|+1%}} Development Growth
+* {{icon|opinion}} {{green|+5}} Popular Opinion
+|-
+! rowspan=3 | {{icon|legend}}{{icon|legend}}<br>Illustrious
+! [[File:Legend owner.png|24px]] Owner
+| 
+* {{icon|prestige}} {{green|+15%}} Prestige
+* {{icon|diplomacy}} {{green|+1}} Diplomacy per Level of Fame
+* {{icon|legitimacy}} {{green|+200}} Legitimacy
+* {{icon|decision}} 50% chance unlocks the Clear Grounds for a Legendary Building decision
+* {{icon|decision}} Unlocks the Launch a Legendary Adventure decision
+| 
+* {{icon|piety}} {{green|+15%}} Piety
+* {{icon|diplomacy}} {{green|+1}} Diplomacy per Level of Devotion
+* {{icon|legitimacy}} {{green|+200}} Legitimacy
+* {{icon|decision}} 50% chance unlocks the Clear Grounds for a Legendary Building decision
+* {{icon|decision}} Unlocks the Evangelize to the Realm decision
+| 
+* {{icon|renown}} {{green|+0.25}} Monthly Renown
+* {{icon|renown}} {{green|+10%}} Renown
+* {{icon|legitimacy}} {{green|+400}} Legitimacy
+* {{icon|unpressed claim}} Get an Unpressed Claim on every title de jure of the primary title's kingdom
+* {{icon|decision}} 50% chance unlocks the Clear Grounds for a Legendary Building decision
+* {{icon|decision}} Unlocks the Expand the Kingdom decision
+|-
+! [[File:Legend promoter.png|24px]] Promoter
+|
+* {{icon|martial}} {{green|+2}} Martial
+* {{icon|prestige}} {{green|+6%}} Prestige
+|
+* {{icon|learning}} {{green|+2}} Learning
+* {{icon|piety}} {{green|+4%}} Piety
+|
+* {{icon|stewardship}} {{green|+2}} Stewardship
+* {{icon|renown}} {{green|+0.04}} Monthly Renown
+|-
+! [[File:Legend province modifier.png|24px]] County
+|
+* {{icon|damage}} {{green|+10%}} Stationed Men-at-Arms Damage
+* {{icon|opinion}} {{green|+10}} Popular Opinion
+|
+* {{icon|control}} {{green|+0.15}} Monthly Control
+* {{icon|opinion}} {{green|+10}} Popular Opinion
+|
+* {{icon|development}} {{green|+2%}} Development Growth
+* {{icon|opinion}} {{green|+10}} Popular Opinion
+|-
+! rowspan=3 | {{icon|legend}}{{icon|legend}}{{icon|legend}}<br>Mythical
+! [[File:Legend owner.png|24px]] Owner
+| 
+* {{icon|prestige}} {{green|+25%}} Prestige
+* {{icon|diplomacy}} {{green|+2}} Diplomacy per Level of Fame
+* {{icon|legitimacy}} {{green|+300}} Legitimacy
+* {{icon|decision}} Unlocks the Clear Grounds for a Legendary Building decision
+* {{icon|decision}} Unlocks the Launch a Legendary Adventure decision
+* {{icon|decision}} Unlocks the Demand Local Submission decision
+| 
+* {{icon|piety}} {{green|+25%}} Piety
+* {{icon|diplomacy}} {{green|+2}} Diplomacy per Level of Devotion
+* {{icon|legitimacy}} {{green|+300}} Legitimacy
+* {{icon|decision}} Unlocks the Clear Grounds for a Legendary Building decision
+* {{icon|decision}} Unlocks the Evangelize to the Realm decision
+* {{icon|decision}} Unlocks the Reassert Holy Mission or Evangelize Pacifism decision
+|
+* {{icon|renown}} {{green|+0.50}} Monthly Renown
+* {{icon|renown}} {{green|+20%}} Renown
+* {{icon|legitimacy}} {{green|+600}} Legitimacy
+* {{icon|unpressed claim}} Get an Unpressed Claim on every title de jure of the primary title's empire
+* {{icon|decision}} Unlocks the Clear Grounds for a Legendary Building decision
+* {{icon|decision}} Unlocks the Consolidate the Kingdom decision
+|-
+! [[File:Legend promoter.png|24px]] Promoter
+|
+* {{icon|martial}} {{green|+4}} Martial
+* {{icon|prestige}} {{green|+10%}} Prestige
+|
+* {{icon|learning}} {{green|+4}} Learning
+* {{icon|piety}} {{green|+10%}} Piety
+|
+* {{icon|stewardship}} {{green|+4}} Stewardship
+* {{icon|renown}} {{green|+0.10}} Monthly Renown
+|-
+! [[File:Legend province modifier.png|24px]] County
+|
+* {{icon|damage}} {{green|+20%}} Stationed Men-at-Arms Damage
+* {{icon|opinion}} {{green|+20}} Popular Opinion
+|
+* {{icon|control}} {{green|+0.25}} Monthly Control
+* {{icon|opinion}} {{green|+20}} Popular Opinion
+|
+* {{icon|development}} {{green|+6%}} Development Growth
+* {{icon|opinion}} {{green|+20}} Popular Opinion
+|-
+! colspan=2 | Sources
+| 
+* Having a skilled [[File:Chancellor job.png|24px]] Chancellor
+* Having the {{iconify|Crusader}} trait
+* Having the {{iconify|Mujahid}} trait
+* Having the {{iconify|Warrior of the Faith}} trait
+* Defeating a commander with the {{iconify|Greatest of Khans}} trait
+* Killing the animal of a [[File:Hunt type legendary icon.png|24px]] Legendary Hunt
+* Having an Accolade and a [[File:Activity feast.png|24px]] Feast
+* Forming a new empire
+* Winning a great holy war
+* Winning a defense battle against a higher title rank ruler
+* Raiding a barony that has a special building
+* Winning a duel against an Emperor or Head of Faith
+* Winning 3 [[File:Activity tournament.png|24px]] Grand Tournaments
+| 
+* Having a skilled [[File:Chancellor job.png|24px]] Chancellor
+* Having the {{iconify|Crusader}} trait
+* Having the {{iconify|Mujahid}} trait
+* Having the {{iconify|Warrior of the Faith}} trait
+* Having the {{iconify|Theologian}} trait
+* Having the {{iconify|Sayyid}} trait
+* Completing a [[File:Activity pilgrimage.png|24px]] Pilgrimage while the {{iconify|Pilgrim}} trait has enough experience
+* Holding a holy site title
+* Reforming or creating a faith
+* Reaching the Religious Icon level of devotion
+* Constructing a temple holding
+| 
+* Having a skilled [[File:Chancellor job.png|24px]] Chancellor
+* [[File:Heroic bloodline legacy track.png|24px]] Heroic Bloodline dynasty legacy
+* Royal Court events
+* Grand Wedding events
+|}
+Completing a legend ends the [[File:Legend owner.png|24px]] Owner and [[File:Legend promoter.png|24px]] Promoter bonuses but allows a new legend to be started. A county can receive bonuses from multiple legends.
+
+=== Historical legend seeds ===
+Historical legend seeds can only be used once per game, regardless of character. They are restricted to certain dynasties, cultures or faiths.
+
+Some historical seeds have an associated ancient culture. If the {{iconify|Royal Court}} DLC is also enabled, completing these legends will give the option to create a divergent culture with the ancient culture's cultural pillars
+{| class="mildtable sortable plainlist"
+! Legend seed
+! Type
+! Dynasty
+! Culture
+! Religion
+! Title
+! Level of fame/devotion
+! Other requirements
+! Ancient culture
+|-
+| '''New Troy'''
+| {{icon|heroic legend}} Heroic
+|
+| {{icon|yes}} Any
+| {{icon|yes}} Any
+| {{iconify|County}} of Middle Seaxe
+| {{iconify|Illustrious}}
+|
+| '''Trojan'''
+* {{icon|heritage}} Hellenic heritage
+* {{icon|language}} Hellenic language
+|-
+| '''Heirs of Vercingetorix'''
+| {{icon|heroic legend}} Heroic
+|
+| {{icon|heritage}} Brythonic heritage
+| {{icon|yes}} Any
+|
+* {{icon|no}}{{icon|empire}} Byzantine Empire
+* {{icon|no}}{{icon|empire}} Holy Roman Empire
+* {{icon|no}}{{icon|empire}} Roman Empire
+| {{iconify|Illustrious}}
+| {{icon|yes}} Realm capital is in the Francia region
+|
+|-
+| '''The Ballad of Corineus'''
+| {{icon|heroic legend}} Heroic
+|
+|
+* {{icon|culture}} Cornish
+* {{icon|culture}} Cornish descent
+| {{icon|yes}} Any
+| {{iconify|Duchy}} of Cornwall
+| {{iconify|Exalted Among Men}}
+|
+| '''Trojan'''
+* {{icon|heritage}} Hellenic heritage
+* {{icon|language}} Hellenic language
+|-
+| '''The Cellar of Plenty'''
+| {{icon|heroic legend}} Heroic
+| Piast
+| {{icon|yes}} Any
+| {{icon|yes}} Any
+| {{icon|yes}} Any
+| {{iconify|Illustrious}}
+|
+|
+|-
+| '''Heirs of the Dragon Goddess'''
+| {{icon|heroic legend}} Heroic
+| Pagan
+| {{icon|yes}} Any
+| {{icon|yes}} Any
+| {{iconify|Kingdom}} of Pagan
+| {{iconify|Illustrious}}
+|
+|
+|-
+| '''Descendant of Bahram Chobin'''
+| {{icon|heroic legend}} Heroic
+| Mihran
+| {{icon|heritage}} Iranian heritage
+| {{icon|piety zoroastrian}} Zoroastrianism
+| {{icon|yes}} Any
+| {{iconify|Exalted Among Men}}
+|
+|
+|-
+| '''Sons of Loðbrók'''
+| {{icon|heroic legend}} Heroic
+| Sigurdr
+| {{icon|unknown}} Any that can raise runestones
+| {{icon|piety pagan}} Any Pagan
+|
+* {{icon|kingdom}} Any kingdom
+* {{icon|empire}} Any empire
+| {{iconify|Illustrious}}
+|
+|
+|-
+| '''The Song of El Cid'''
+| {{icon|heroic legend}} Heroic
+| Osorio
+| {{icon|yes}} Any
+| {{icon|yes}} Any
+|
+* {{icon|kingdom}} Any kingdom
+* {{icon|empire}} Any empire
+| {{icon|yes}} Any
+| [[File:Icon group of characters.png|24px]] Rodrigo de Vivar
+|
+|-
+| '''Blood of the Naga'''
+| {{icon|holy legend}} Holy
+|
+|
+* {{icon|culture}} Kashmiri
+* {{icon|culture}} Kashmiri descent
+| {{icon|yes}} Any
+| {{iconify|Kingdom}} of Kashmir
+| {{iconify|Devoted Servant}}
+|
+|
+|-
+| '''Shibi Chakravarti'''
+| {{icon|holy legend}} Holy
+| Chola
+| {{icon|yes}} Any
+| {{icon|yes}} Any
+| {{icon|yes}} Any
+| {{iconify|Paragon of Virtue}}
+|
+|
+|-
+| '''The Holy King'''
+| {{icon|holy legend}} Holy
+| Cerdicing
+| {{icon|yes}} Any
+| {{icon|yes}} Any
+| {{icon|yes}} Any
+| {{iconify|Devoted Servant}}
+| {{icon|no}} Pagan independent rulers in the Britannia region
+|
+|-
+| '''Sceafa, Grandson of Noah'''
+| {{icon|holy legend}} Holy
+| Cerdicing
+| {{icon|yes}} Any
+| {{icon|piety}}{{icon|piety islam}}{{icon|piety judaism}} Any Abrahamic
+|
+* {{icon|kingdom}} Any kingdom
+* {{icon|empire}} Any empire
+| {{iconify|Devoted Servant}}
+|
+|
+|-
+| '''Edward the Martyr'''
+| {{icon|holy legend}} Holy
+| Cerdicing
+| {{icon|yes}} Any
+| {{icon|piety}} Christianity
+|
+* {{icon|duchy}} Any duchy
+* {{icon|kingdom}} Any kingdom
+* {{icon|empire}} Any empire
+| {{iconify|Devoted Servant}}
+|
+|
+|-
+| '''La Prise d'Orange'''
+| {{icon|holy legend}} Holy
+| Toulouse
+| {{icon|yes}} Any
+| {{icon|piety}} Christianity
+| {{iconify|Duchy}} of Toulouse
+| {{iconify|Devoted Servant}}
+|
+|
+|-
+| '''Kings of Semien'''
+| {{icon|holy legend}} Holy
+| Gideon
+| {{icon|yes}} Any
+| {{icon|piety judaism}} Judaism
+| {{iconify|Duchy}} of Gondar
+| [[File:Icon piety judaism 04.png|24px]] Paragon of Virtue
+|
+| '''Hebrew'''
+* {{icon|heritage}} Israelite heritage
+* {{icon|language}} Hebrew language
+|-
+| '''Sons of David'''
+| {{icon|holy legend}} Holy
+| Solomonid
+| {{icon|yes}} Any
+| {{icon|piety}}{{icon|piety islam}}{{icon|piety judaism}} Any Abrahamic
+|
+* {{icon|kingdom}} Any kingdom
+* {{icon|empire}} Any empire
+| {{iconify|Paragon of Virtue}}
+|
+| '''Hebrew'''
+* {{icon|heritage}} Israelite heritage
+* {{icon|language}} Hebrew language
+|}
+
+==== Legitimizing historical seeds ====
+Legitimizing historical seeds, in addition to their usual bonuses, will also give the character completing the legend claims on a certain major title.
+{| class="mildtable sortable plainlist"
+! Legend seed
+! Dynasty
+! Culture
+! Religion
+! Title
+! Level of fame/devotion
+! Other requirements
+! Claim
+! Ancient culture
+|-
+| '''Roman Heritage'''
+| 
+| {{icon|yes}} Any
+| {{icon|yes}} Any
+| 
+* {{icon|kingdom}} Kingdom of Rum
+* {{icon|empire}} Byzantine Empire
+* {{icon|empire}} Holy Roman Empire
+* {{icon|empire}} Roman Empire
+| {{iconify|Illustrious}}
+| 
+| {{icon|empire}} Roman Empire
+| '''Roman'''
+* {{icon|heritage}} Latin heritage
+* {{icon|language}} Latin language
+|-
+| '''Gothic Kings'''
+| 
+| 
+* {{icon|heritage}} Byzantine heritage
+* {{icon|heritage}} North Germanic heritage
+* {{icon|unknown}} Visigothic Codes tradition
+| {{icon|yes}} Any
+| 
+* {{icon|kingdom}} Any kingdom
+* {{icon|empire}} Any empire
+| {{iconify|Illustrious}}
+| 
+| {{iconify|Empire}} of Hispania
+| '''Gothic'''
+* {{icon|heritage}} Gothic heritage
+* {{icon|language}} Central Germanic language
+|-
+| '''Hunnic Heritage'''
+| 
+| 
+* {{icon|heritage}} Magyar heritage
+* {{icon|heritage}} Mongolic heritage
+* {{icon|heritage}} Turkic heritage
+* {{icon|heritage}} Hunnic heritage
+| {{icon|yes}} Any
+| 
+* {{icon|kingdom}} Any kingdom
+* {{icon|empire}} Any empire
+| {{iconify|Illustrious}}
+| 
+| {{iconify|Empire}} of Khazaria
+| '''Hunnic'''
+* {{icon|heritage}} Hunnic heritage
+* {{icon|language}} Hunnic language
+|-
+| '''Sons of Scota'''
+| 
+| 
+* {{icon|heritage}} Goidelic heritage
+* {{icon|heritage}} West Germanic heritage
+| {{icon|yes}} Any
+| {{iconify|Kingdom}} of Scotland
+| {{iconify|Illustrious}}
+| 
+| {{iconify|Kingdom}} of Scotland
+| '''Ancient Egyptian'''
+* {{icon|heritage}} Egyptian heritage
+* {{icon|language}} Egyptian language
+|-
+| '''The Blood of Cadell'''
+| 
+| {{icon|heritage}} Brythonic heritage
+| {{icon|yes}} Any
+| {{iconify|Duchy}} of Powys
+| {{iconify|Illustrious}}
+| 
+| {{iconify|Duchy}} of Powys
+|
+|-
+| '''The Legacy of Arthur Pendragon'''
+| 
+| 
+* {{icon|heritage}} Brythonic heritage
+* {{icon|heritage}} West Germanic heritage
+| {{icon|yes}} Any
+| {{icon|yes}} Any
+| {{iconify|Illustrious}}
+| 
+| {{iconify|Kingdom}} of England
+|
+|-
+| '''The Red Hand of Ulster'''
+| 
+| 
+* {{icon|culture}} Irish
+* {{icon|culture}} Irish descent
+| {{icon|yes}} Any
+| {{iconify|Duchy}} of Ulster
+| {{iconify|Illustrious}}
+| 
+| {{iconify|Kingdom}} of Ireland
+|
+|-
+| '''Gur Lineage'''
+| 
+| {{icon|heritage}} Iranian heritage
+| {{icon|piety zoroastrian}} Zoroastrianism
+| {{iconify|Duchy}} of Shirvan
+| {{iconify|Exalted Among Men}}
+| 
+| {{icon|empire}} Persian Empire
+|
+|-
+| '''The Heirs of Charlemagne'''
+| 
+* Capet
+* Karling
+| 
+* {{icon|heritage}} Central Germanic heritage
+* {{icon|heritage}} Frankish heritage
+| {{icon|yes}} Any
+| 
+* {{iconify|Kingdom}} of France
+* {{iconify|Empire}} of Francia
+* {{icon|empire}} Holy Roman Empire
+| {{iconify|Illustrious}}
+| 
+| {{iconify|Empire}} of Francia
+|
+|-
+| '''From Peasant to Basileus'''
+| Makedon
+| {{icon|yes}} Any
+| {{icon|yes}} Any
+| {{icon|empire}} Byzantine Empire
+| {{iconify|Distinguished}}
+| [[File:Icon group of characters.png|24px]] Basileus Basileios
+| {{icon|empire}} Byzantine Empire
+|
+|-
+| '''Přemysl the Ploughman'''
+| Přemyslid
+| {{icon|yes}} Any
+| {{icon|yes}} Any
+| 
+* {{icon|duchy}} Any duchy
+* {{icon|kingdom}} Any kingdom
+* {{icon|empire}} Any empire
+| {{iconify|Illustrious}}
+| 
+| {{iconify|Kingdom}} of Bohemia
+|
+|-
+| '''Sons of Rurik'''
+| Rurikid
+| {{icon|yes}} Any
+| {{icon|yes}} Any
+| 
+* {{icon|kingdom}} Any kingdom
+* {{icon|empire}} Any empire
+| {{iconify|Distinguished}}
+| {{icon|no}} Rurik Rurikid is alive
+| {{iconify|Empire}} of Russia
+|
+|-
+| '''The Glittering Visitor'''
+| Borjigin
+| {{icon|yes}} Any
+| {{icon|yes}} Any
+| 
+* {{icon|duchy}} Any duchy
+* {{icon|kingdom}} Any kingdom
+* {{icon|empire}} Any empire
+| {{iconify|Illustrious}}
+| 
+| {{iconify|Empire}} of Mongolia
+|
+|-
+| '''Blood of Brahman'''
+| Pallava
+| {{icon|yes}} Any
+| {{icon|piety eastern}} Hinduism
+| {{icon|yes}} Any
+| [[File:Icon piety eastern 04.png|24px]] Paragon of Virtue
+| 
+| {{icon|empire}} Deccan Empire
+|
+|-
+| '''The King of Turan: Afrasiyab'''
+| Karakhanid
+| {{icon|heritage}} Turkic heritage
+| {{icon|yes}} Any
+| 
+* {{icon|kingdom}} Any kingdom
+* {{icon|empire}} Any empire
+| {{iconify|Illustrious}}
+| 
+| {{icon|empire}} Persian Empire
+|
+|-
+| '''Heirs of David'''
+| Bagratuni
+| 
+* {{icon|culture}} Georgian
+* {{icon|culture}} Georgian descent
+| {{icon|piety}}{{icon|piety islam}}{{icon|piety judaism}} Any Abrahamic
+| {{iconify|Kingdom}} of Georgia
+| {{iconify|Distinguished}}
+| 
+| {{iconify|Kingdom}} of Georgia
+| '''Hebrew'''
+* {{icon|heritage}} Israelite heritage
+* {{icon|language}} Hebrew language
+|-
+| '''Blood of Yazdegerd III'''
+| Ghaznavid
+| {{icon|heritage}} Iranian heritage
+| {{icon|piety zoroastrian}} Zoroastrianism
+| 
+* {{icon|kingdom}} Any kingdom
+* {{icon|empire}} Any empire
+| {{iconify|Illustrious}}
+| 
+| {{icon|empire}} Seljuk Empire
+|
+|-
+| '''Hieros Gamos'''
+| Yngling
+| {{icon|culture}} Norse
+| {{icon|asatru}} Norse
+| {{icon|yes}} Any
+| {{iconify|Illustrious}}
+| 
+| {{iconify|Kingdom}} of Norway
+|
+|}
+
+=== Decision legend seeds ===
+The following legend seeds can only be obtained by decisions and only if they weren't disabled by game rules.
+{| class="mildtable plainlist"
+! Legend seed
+! Type
+! Decision
+! width=60% | Description
+|-
+| '''The Sovereignty'''
+| {{icon|legitimizing legend}} Legitimizing
+| 
+* Dynasty of Many Crowns
+* Strengthen Bloodline
+| ''Either through fate or by design, power falls into [dynasty name] hands. Our lands are many and our deeds great, and our dominion over the thrones of the world is preordained.''
+|-
+| '''A New Caesar'''
+| {{icon|legitimizing legend}} Legitimizing
+| Restore the Roman Empire
+| ''Rome, once diminished to a distant memory, now rises again with a new Caesar, ready to bring civilization once again to a new age.''
+|-
+| '''The Empire of the Slavs'''
+| {{icon|legitimizing legend}} Legitimizing
+| Unite the Slavs
+| ''The Slavic peoples spread far and wide across Europe, but now [protagonist name] stands as the first Tsar of all Slavs!''
+|-
+| '''The Holy Blood'''
+| {{icon|legitimizing legend}} Legitimizing
+| Consecrate Bloodline
+| ''[protagonist name]'s blood flows through all members of the [dynasty name] family. Our devotion to [high god name] is absolute and our deeds done only in His/Her name.''
+|-
+| '''The Prophecy Fulfilled'''
+| {{icon|holy legend}} Holy
+| Restore the Faith High Priesthood
+| ''The diaspora was thought to be eternal, but under [protagonist name], a new High Priesthood has emerged to lead the Jewish people into a new and brighter age.''
+|-
+| '''Reigniting the Flames'''
+| {{icon|holy legend}} Holy
+| Restore the Magi
+| ''The Zoroastrian faith was lead by the great Magi of the past, but the order was dismantled. By the grace of Ahuramazda, Anahita, and Mithra, [protagonist name] restored the Magi.''
+|-
+| '''A New Chakravartin'''
+| {{icon|heroic legend}} Heroic
+| Become Chakravarti
+| ''A New Chakravartin rises from the ashes to bring prosperity under his/her benevolent rule.''
+|-
+| '''A New Sultan al-Salațin'''
+| {{icon|heroic legend}} Heroic
+| Found the Empire of Hindustan
+| ''A New Sultan al-Salațin rises from the ashes to bring prosperity under his/her benevolent rule.''
+|-
+| '''African True Hero'''
+| {{icon|heroic legend}} Heroic
+| Unite Africa
+| ''There is nay a soul in Africa that does not know the name of [protagonist name] and his/her accomplishments.''
+|-
+| '''Britannian True Hero'''
+| {{icon|heroic legend}} Heroic
+| Reclaim Britannia
+| ''There is nay a soul in Britannia that does not know the name of [protagonist name] and his/her accomplishments.''
+|-
+| '''Dominion of the Sea'''
+| {{icon|heroic legend}} Heroic
+| Secure the High Kingdom of the North Sea
+| ''The North Sea has been the dominion of the Danes, and now under the rulership of [protagonist name], an empire rises above the waves.''
+|-
+| '''Ganges Plain True Hero'''
+| {{icon|heroic legend}} Heroic
+| Take Stewardship of the Sacred River
+| ''There is nay a soul in Ganges Plain that does not know the name of [protagonist name] and his/her accomplishments.''
+|-
+| '''Great Deed for Empire of Francia'''
+| {{icon|heroic legend}} Heroic
+| Restore Carolingian Borders
+| ''Throughout all history, among all rulers of Empire of Francia, none has achieved so much, none shall be spoken about before the great [protagonist name].''
+|-
+| '''Great Deed for Kingdom of Burgundy'''
+| {{icon|heroic legend}} Heroic
+| Unify the Burgundies
+| ''Throughout all history, among all rulers of Kingdom of Burgundy, none has achieved so much, none shall be spoken about before the great [protagonist name].''
+|-
+| '''Great Deed for West-Slavia'''
+| {{icon|heroic legend}} Heroic
+| Unite the West Slavs
+| ''Throughout all history, among all rulers of West-Slavia, none has achieved so much, none shall be spoken about before the great [protagonist name].''
+|-
+| '''Italian True Hero'''
+| {{icon|heroic legend}} Heroic
+| Unify Italy
+| ''There is nay a soul in Italia that does not know the name of [protagonist name] and his/her accomplishments.''
+|-
+| '''The Greatest of Khans'''
+| {{icon|heroic legend}} Heroic
+| Become Greatest of Khans
+| ''All that is under the sky belongs to the greatest of all Khans. With the Mongol people united behind one Khagan, wolves howl and eagles cry as Genghis Khan burns his/her name across the world.''
+|-
+| '''The New Kaiser/Kaiserin'''
+| {{icon|heroic legend}} Heroic
+| Restore the Holy Roman Empire
+| ''A new Kaiser/Kaiserin rises from the ashes to bring prosperity under his/her benevolent rule.''
+|-
+| '''The New King/Queen of Israel'''
+| {{icon|heroic legend}} Heroic
+| Restore Israel
+| ''Israel, a Kingdom for God's chosen people, subjugated by Assyrians, Babylonians, and Romans. Our exodus from the Promised Land has sent our people on a journey across the world, but now a new Kingdom of Israel rises and God's people inhabit its lands once again!''
+|-
+| '''The Pirate King/Queen'''
+| {{icon|heroic legend}} Heroic
+| Elevate the Kingdom of Mann & the Isles
+| ''Across the waves of Britannia, sailors tell stories of a great and dreadful pirate King/Queen, the terrifying [protagonist name]. Even the mightiest of warriors turns pale when they see those boats appearing on their shores. Surrender would be the only option, if only the King/Queen would accept such a thing.''
+|-
+| '''The Knight of the Swan'''
+| {{icon|heroic legend}} Heroic
+| {{icon|rtp}} The Knight of the Swan
+| ''And then they saw a snow-white animal come drawing down the tide a little boat of pearly sheen, and a stately knight that say therein, and seen'd its course to guide.''
+|-
+| '''The Greatest Conqueror'''
+| {{icon|heroic legend}} Heroic
+| {{icon|rtp}} Become a Great Conqueror
+| ''A wanderer no more. A Conqueror was born from an indominable soul.''
+|-
+| '''The Fate of Hispania'''
+| {{icon|heroic legend}} Heroic
+| {{icon|foi}} Iberian Foothold<br>{{icon|foi}} Ended the Iberian Struggle
+| ''The squabbling of the Iberian nobility is over, and [protagonist first name] emerges as its savior. The [primary title tier] victorious.''
+|-
+| '''The Fate of The Persian Empire'''
+| {{icon|heroic legend}} Heroic
+| {{icon|foi}} Ended the Iranian Intermezzo
+| ''The Iranian Intermezzo is at last at an end, and [protagonist name] emerges as the hero to usher in a new age for the region.''
+|}
+
+{{Mechanics navbox}}
+[[Category:Character]]

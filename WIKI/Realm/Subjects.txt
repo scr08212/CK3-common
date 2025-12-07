@@ -1,0 +1,909 @@
+{{Version|1.18}}
+A subject is a ruler who submits to a more powerful ruler, providing them with resources in exchange for not being attacked and, in some cases, military protection from other threats. There are three kinds of subjects: vassals, tributaries, and lessees. Tributaries may have their own subjects, but vassals can only have their own vassals and lessees, and if a ruler is vassalized all of their tributaries become independent. Vassals can be turned into tributaries at any point, but turning a tributary into a vassal requires the tributary to agree.
+
+Subject tithes will be reduced if a ruler does not own the titles that the vassal's primary title is de jure part of. Dukes whose liege holds the de jure empire title are exempt from the penalty.
+* There is no reduction if the ruler owns the title 1 rank above the subject (i.e. the {{iconify|Kingdom}} title a {{iconify|Duchy}} vassal is de jure part of)
+* There is a {{red|25%}} reduction if the ruler only owns a title 2 ranks above the subject (i.e. the {{iconify|Kingdom}} title a {{iconify|Count}} vassal is de jure part of)
+* There is a {{red|50%}} reduction if the ruler does not own any title that the vassal's primary title is de jure part of
+
+If the liege or suzerain's government uses {{iconify|Treasury}} the subject's tax income will be added as {{iconify|Treasury}} instead of {{iconify|Gold}}.
+
+== Vassals ==
+A vassal is a subject who surrenders its sovereignty to a ruler with a higher title rank, called their liege. A vassal will join all its liege's wars (unless they're fighting against them in a civil war), but is not obligated to actively participate in the wars and will generally not do so. A liege will join a vassal's defensive wars, unless they're being attacked by a fellow vassal (though this can be prohibited by the Crown Authority law). A vassal will provide their liege with {{icon|Gold}} taxes and {{iconify|Levies}}. The amount of {{icon|Gold}} taxes and {{iconify|Levies}} granted by a vassal to their liege depends largely on their government:
+* {{icon|governor efficiency}} Administrative, {{iconify|Celestial}}, {{iconify|Meritocratic}}, {{iconify|Meritocratic Khanate}} and {{iconify|Ritsuryō}} vassals provide taxes and levies based on their governor efficiency.
+* {{iconify|Feudal}} and {{iconify|Sōryō}} vassals provide taxes and levies based on their vassal contracts.
+* {{iconify|Tribal}} and {{iconify|Wanua}} vassals provide taxes and levies based on the liege's level of fame, with minimum amounts determined by tribal authority.
+* {{iconify|Clan}} vassals provide taxes and levies based on their opinion towards their liege, with minimum amounts determined by crown authority. If the liege has the same government the vassal will have to be assigned to a Tax Jurisdiction to provide taxes and levies.
+* {{iconify|Nomadic}} vassals provide taxes and herd based on their vassal contracts.
+* [[File:Theocracy government.png|24px]] Theocracy vassals provide taxes and levies based on the liege's level of devotion.
+* [[File:Republic government.png|24px]] Republic vassals always provide {{green|20%}} taxes and {{green|10%}} levies to their liege.
+
+If a character is granted a title all lower-ranked vassals whose realms are located entirely within the de jure realm of the granted title will be transferred.
+
+Vassal borders do not appear on the map unless any of the vassals is selected.
+
+=== Vassal directives ===
+Vassals can be given a directive either by interacting with them or from the Vassals tab. Directives can be used to influence what kind of buildings a vassal will construct in its sub-realm or make them convert the sub-realm's faith or culture. Vassals can only be given a directive if one of the following requirements are met and will stop following the directive if none of the requirements are met.
+* {{icon|node martial}} Absolute Control or {{icon|node stewardship}} Honored to Serve perk
+* {{iconify|Strong Hook}} on the vassal
+* [[File:Crown authority 3.png|24px]] Absolute Crown Authority law
+* {{icon|legitimacy}} Ordained legitimacy level
+* Vassal has {{icon|governor efficiency}} Administrative or {{iconify|Celestial}} government
+* Vassal has at least 50 {{iconify|Opinion}}
+* Vassal has the {{iconify|Trusting}} or {{iconify|Loyal}} trait
+* Vassal is a [[File:Friend.png|24px]] Friend or [[File:Best friend.png|24px]] Best Friend
+* Vassal is a [[File:Lover.png|24px]] Lover or [[File:Soulmate.png|24px]] Soulmate
+
+=== Powerful vassals ===
+In each realm, vassals with the income of {{iconify|Gold}} and {{iconify|Levies}} are designated as powerful vassals, who expect to be part of the liege's [[council]] and will have {{red|-40}} {{iconify|opinion}} of their liege if they're not. The number of powerful vassals a liege will have depends on the rank of their primary title:
+* {{iconify|Count}}s will have 3
+* {{iconify|Duke}}s will have 4
+* {{iconify|King}}s and {{iconify|Emperor}}s will have 5
+In [[elective succession]] types, powerful vassals have more votes than regular vassals. They're also much harder to use the [[sway scheme]] on. In order for the [[succession law]] of a realm to be changed, all powerful vassals must either have {{green|positive}} {{iconify|opinion}} of the liege, be [[File:Terrified.png|24px]] [[terrified]] or be [[imprisoned]].
+
+=== Vassal stances ===
+Each vassal has a Vassal Stance, which is primarily determined by their AI personality. The Vassal Stance determines which of their liege's actions they will like and/or dislike, as well as which of their liege's heirs they prefer, according to the gender succession law of the realm. If the heir preferred by the vassal is the Primary Heir of their liege, they will gain a temporary {{green|+30}} {{iconify|Opinion}} upon succession. If the vassal does not prefer the Primary Heir, they will instead gain a temporary {{red|-20}} {{iconify|Opinion}} upon succession. There are 6 Vassal Stances:
+{| class="mildtable"
+! Vassal stance
+! Likes
+! Dislikes
+! Heir preference
+! Favored by vassals with
+|-
+| [[File:Vassal stance belligerent.png]] Belligerent
+| 
+* Using high authority laws
+* Winning duels
+* Organizing Hunt activities
+* Organizing and winning Grand Tournament activities
+| 
+* Using low authority laws
+* Losing duels
+* Using multiple heirs succession laws
+| {{icon|prowess}} Highest Prowess
+| 
+* High Honor
+* High Vengefulness
+* Low Compassion
+|-
+| [[File:Vassal stance courtly.png]] Courtly
+| 
+* Giving them court positions
+* Creating titles
+* Inviting them to Feast activities
+| 
+* Giving titles to Lowborn characters
+* Marrying Lowborn characters
+* Disinheriting non-disputed heirs
+| {{icon|diplomacy}} Highest Diplomacy
+| 
+* High Compassion
+* High Sociability
+* Low Greed
+|-
+| [[File:Vassal stance glory hound.png]] Glory Hound
+| 
+* Partition succession laws
+* Victory in offensive wars
+* Inviting them to Feast activities
+| 
+* High crown authority
+* Defeats and White Peaces
+* Lowborns as primary spouses
+| {{icon|martial}} Highest Martial
+| 
+* Low Compassion
+* Low Honor
+|-
+| [[File:Vassal stance parochial.png]] Parochial
+| 
+* Constructing or upgrading holdings
+* Making them Guardian of close family members
+* Using the Domestic Affairs councilor task
+| 
+* High crown authority
+* Declaring non-trivial wars
+| {{icon|stewardship}} Highest Stewardship
+| 
+* High Rationality
+* Low Boldness
+* Low Sociability
+|-
+| [[File:Vassal stance zealot.png]] Zealot
+| 
+* Virtue traits
+* Constructing or upgrading Temple holdings
+* Succeeding with the Learn Language scheme
+* Going on Pilgrimage activities
+| 
+* Sin traits
+* Asking the Head of Faith for Gold
+| {{icon|learning}} Highest Learning
+| 
+* High Vengefulness
+* High Zeal
+|-
+| [[File:Vassal stance barons and minor landholders.png]] Minor Landholder
+|
+* Low crown authority
+|
+* High crown authority
+* Revoking barony titles
+| {{icon|yes}} Faith of the liege or considered Righteous or Astray<br>{{icon|yes}} Culture of the liege or with at least 30% Culture Acceptance
+|
+* Always used by barons
+|-
+| [[File:Vassal stance minority.png]] Minority
+|
+* Using the Promote Cultural Acceptance councilor task
+|
+* High crown authority
+* Converting the Faith or Culture of a county
+| {{icon|yes}} Different culture or faith from the liege
+|
+* Liege's faith is considered Hostile or Evil
+* Below 30% Cultural Acceptance with the liege's culture
+* (overrides other factors)
+|}
+
+=== Vassal contracts ===
+All {{iconify|Feudal}}, {{iconify|Clan}}, {{iconify|Nomadic}} and {{iconify|Sōryō}} vassals have a vassal contract with their liege, which can only be changed once per character and determines their obligations as well as whether they have special rights.
+
+==== Rights ====
+Rights grant a {{icon|vassal}} [[vassal]] permissions that vassals do not have by default. A right can be added or a {{icon|weak hook}} weak [[Hooks|hook]] can be used when increasing an obligation in order to avoid [[tyranny]]. Revoking a right will incur tyranny unless another right is added. Up to 3 changes can be proposed at once.
+{| class="mildtable plainlist"
+! Right
+! Liege effects
+! Vassal effects
+! Requirements
+|-
+| '''Council Rights: Guaranteed'''
+|
+* {{icon|opinion}} {{green|+5}} Opinion with vassal
+* {{icon|opinion}} {{red|−2}} Opinion with all powerful vassals
+| {{icon|yes}} Can use the Demand Council Position character interaction without a hook
+| 
+|-
+| '''War Declaration: Sanctioned'''
+| {{icon|opinion}} {{green|+5}} Opinion with vassal
+|
+* {{icon|yes}} Can declare war regardless of the liege's crown authority law
+* {{icon|yes}} Pays {{green|−50%}} [[casus belli]] cost when going to war against fellow vassals
+| 
+|-
+| '''Title Revocation: Protected'''
+| {{icon|opinion}} {{green|+5}} Opinion with vassal
+| {{icon|no}} Titles cannot be revoked
+| {{icon|no}}{{iconify|Nomadic}} vassal
+|-
+| '''Religious Rights: Protected'''
+| 
+* {{icon|no}} Cannot use the Demand Conversion character interaction with the vassal 
+* {{icon|no}} Cannot convert faith within the vassal's domain
+* {{icon|opinion}} {{green|+5}} Opinion with vassal
+| {{icon|opinion}} {{green|+5}} Popular opinion
+| 
+* {{icon|no}} Same faith
+* {{icon|no}} Faith has the Tax Nonbelievers tenet
+|-
+|-
+| '''Jizya Status: Granted'''
+| 
+* {{icon|opinion}} {{green|+20}} Opinion with vassal
+* {{icon|gold}} {{green|+40%}} Tax from vassal
+* {{icon|levies}} {{red|−40%}} Levies from vassal
+* {{icon|no}} Cannot use the Revoke Title character interaction with the vassal
+* {{icon|no}} Cannot use the Demand Conversion character interaction with the vassal
+* {{icon|no}} Cannot convert faith within the vassal's domain
+| {{icon|prestige}} {{red|−0.25}} Monthly Prestige
+| 
+* {{iconify|Feudal}} vassal
+* {{icon|no}} Same faith
+* {{icon|yes}} Faith has the Tax Nonbelievers tenet
+|-
+| '''Succession Rights: Forced Partition'''
+| {{icon|opinion}} {{red|−5}} Opinion with vassal
+| 
+* {{icon|yes}} Forced to use a multiple heir succession law
+* {{icon|prestige}} {{red|+25%}} prestige cost to change laws
+| {{iconify|Feudal}} vassal
+|- 
+| '''Coinage Rights: Granted'''
+| {{icon|development}} {{red|−2%}} Monthly development growth
+| {{icon|development}} {{green|+0.3}} Monthly [[County#Development|development growth]] in realm capital
+| 
+* {{iconify|Feudal}} vassal
+* {{iconify|Coinage}} innovation
+|-
+| '''Fortification Rights: Granted'''
+|
+* {{icon|gold}} {{red|+5%}} Castle buildings construction cost
+* {{icon|gold}} {{red|−10%}} Tax from vassal
+| 
+* {{icon|fort level}} {{green|+1}} Fort level
+* {{icon|gold}} {{green|−15%}} Castle buildings construction cost
+* {{icon|gold}} {{green|−50%}} Castle holdings construction cost
+| 
+* {{iconify|Feudal}} vassal
+* {{iconify|Battlements}} innovation
+|-
+| '''Iqta Grant: Granted'''
+| 
+* {{icon|gold}} {{green|−2%}} Men-at-Arms Recruitment Cost
+* {{icon|gold}} {{green|−2%}} Men-at-Arms Maintenance
+* {{icon|opinion}} {{green|+5}} Opinion with vassal
+* {{icon|gold}} {{red|−50%}} Tax from vassal
+* {{icon|levies}} {{red|−50%}} Levies from vassal
+| 
+* {{icon|gold}} {{green|−10%}} Men-at-Arms Recruitment Cost
+* {{icon|gold}} {{green|−10%}} Men-at-Arms Maintenance
+| {{iconify|Clan}} vassal
+|-
+| '''Marriage Favor: Granted'''
+| 
+* {{icon|gold}} {{green|+10%}} Tax from vassal
+* {{icon|levies}} {{green|+10%}} Levies from vassal
+* {{icon|opinion}} {{green|+20}} Opinion with vassal
+| {{icon|prestige}} {{green|+150}} Prestige if marrying a liege's close family member
+| {{iconify|Clan}} vassal
+|-
+| '''Ghazi Status: Granted'''
+| 
+* {{icon|piety islam}} {{green|+10%}} Monthly Piety
+* {{icon|opinion}} {{green|+10}} Opinion with vassal
+* {{icon|levies}} {{red|−25%}} Levies from vassal
+| 
+* {{icon|piety islam}} {{green|+10%}} Monthly Piety
+* {{icon|piety islam}} {{green|−50%}} Holy War Casus Belli Cost
+* {{icon|prestige}} {{red|+25%}} Other Casus Belli Cost
+| 
+* {{iconify|Clan}} vassal
+* {{icon|yes}} Same faith
+|-
+| '''Liege War Support: Forced'''
+| {{icon|opinion}} {{green|+15}} Opinion with vassal
+| {{icon|yes}} Can call the liege to war
+| {{iconify|Nomadic}} vassal
+|-
+| '''Raiding Privileges: Granted'''
+| {{icon|opinion}} {{green|+5}} Opinion with vassal
+| {{icon|raid}} Can raid fellow vassals
+| {{iconify|Nomadic}} vassal
+|}
+
+==== Special contract ====
+Special contracts require a certain innovation and grant additional bonuses to the vassal. March is only available if the vassal borders another realm.
+{| class="mildtable plainlist"
+! Special contract
+! Liege effects
+! Vassal effects
+! Title rank
+! Required innovation
+! Vassal government
+|-
+| '''Castellan'''
+| {{icon|levies}} {{red|−50%}} Levies from vassal
+| 
+* {{icon|gold}} {{green|−20%}} Army maintenance
+* {{icon|levies}} {{green|+20%}} Levy size
+* {{icon|garrison}} {{green|+20%}} Garrison
+* {{icon|levies}} {{green|+20%}} Levy reinforcement rate
+* {{icon|advantage}} {{green|+5}} Controlled territory defender advantage
+| {{iconify|Count}}
+| {{iconify|Bannus}}
+| 
+* {{iconify|Feudal}}
+* {{iconify|Clan}}
+|-
+| '''March'''
+| {{icon|gold}} {{red|−50%}} Tax from vassal
+| 
+* {{icon|gold}} {{green|−20%}} Army maintenance
+* {{icon|levies}} {{green|+20%}} Levy size
+* {{icon|garrison}} {{green|+20%}} Garrison
+* {{icon|levies}} {{green|+20%}} Levy reinforcement rate
+* {{icon|advantage}} {{green|+5}} Controlled territory defender advantage
+| 
+* {{iconify|Duke}}
+* {{iconify|King}}
+| {{iconify|Bannus}}
+| 
+* {{iconify|Feudal}}
+* {{iconify|Clan}}
+|-
+| '''Palatinate'''
+| 
+* {{icon|prestige}} {{green|+5%}} Monthly prestige
+* {{icon|gold}} {{red|−20%}} Tax from vassal
+* {{icon|levies}} {{red|−20%}} Levies from vassal
+| 
+* {{icon|prestige}} {{green|+20%}} Monthly prestige
+* {{icon|opinion}} {{green|+15}} Fellow vassal opinion
+* {{icon|scheme success chance}} {{green|+10%}} Initial hostile scheme success chance
+* {{icon|scheme success chance}} {{green|+10%}} Initial personal scheme success chance
+| 
+* {{iconify|Count}}
+* {{iconify|Duke}}
+* {{iconify|King}}
+| {{iconify|Divine Right}}
+| {{iconify|Feudal}}
+|-
+| '''Scutage'''
+| 
+* {{icon|gold}} {{green|+50%}} Tax from vassal
+* {{icon|levies}} {{red|−75%}} Levies from vassal
+| {{icon|gold}} {{green|−20%}} Men-at-arms maintenance
+| 
+* {{iconify|Duke}}
+* {{iconify|King}}
+| {{iconify|Scutage}}
+| {{iconify|Feudal}}
+|}
+
+
+==== Obligations ====
+All {{iconify|Feudal}}, {{iconify|Nomadic}} and {{iconify|Sōryō}} vassals have Obligations included into their vassal contract, which can only be changed one step at a time. Obligations can be lowered at any time, but raising them will add {{red|+20}} tyranny opinion unless the liege lowers the other obligation or provides the vassal a right. The liege can also use a hook on the vassal to avoid tyranny.
+{| class="mildtable plainlist"
+!Obligation type
+!Exempt effects
+!Low effects
+!Normal effects
+!High effects
+!Massive effects
+|-
+|{{icon|gold}} Taxes
+|
+*Tax: 0%
+* Vassal opinion: {{green|+15}}
+|
+*Tax: 2.5%
+*Vassal opinion: {{green|+10}}
+|
+*Tax: 10%
+*Vassal opinion: {{green|+5}}
+|
+*Tax: 15%
+*Vassal opinion: {{red|−10}}
+|
+*Tax: 25%
+*Vassal opinion: {{red|−20}}
+|-
+|{{iconify|Levies}}<br>{{iconify|Herd}}
+|
+*Levies/Herd: 0%
+*Vassal opinion: {{green|+15}}
+|
+*Levies/Herd: 10%
+*Vassal opinion: {{green|+10}}
+| 
+*Levies/Herd: 25%
+*Vassal opinion: {{green|+5}}
+|
+*Levies/Herd: 35%
+*Vassal opinion: {{red|−10}}
+|
+*Levies/Herd: 50%
+*Vassal opinion: {{red|−20}}
+|}
+
+=== Base obligations ===
+{| class="mildtable plainlist"
+! Government Type
+! Levies
+! Taxes
+|-
+| {{icon|government administrative}} '''Administrative'''
+| {{icon|levies}} 30%
+| {{icon|gold}} 75%
+|-
+| {{icon|celestial}} '''Celestial'''
+| {{icon|levies}} 30%
+| {{icon|gold}} 75%
+|-
+| {{icon|clan}} '''Clan'''
+| {{icon|levies}} 0%*
+*Requires Tax Collector
+| {{icon|gold}} 0%*
+*Requires Tax Collector
+|-
+| {{icon|feudal}} '''Feudal'''
+| {{icon|levies}} 10%
+| {{icon|gold}} 25%
+|-
+| {{icon|herder}} '''Herder'''
+| {{icon|levies}} 0%
+| {{icon|gold}} 0%
+|-
+| {{icon|Ritsuryō}} '''Ritsuryō'''
+| {{icon|levies}} 10%
+| {{icon|gold}} 10%
+|-
+| {{icon|Sōryō}} '''Sōryō'''
+| {{icon|levies}} 10%
+| {{icon|gold}} 25%
+|-
+| {{icon|mandala}} '''Mandala'''
+| {{icon|levies}} 25%
+| {{icon|gold}} 25%
+|-
+| {{icon|meritocratic}} '''Meritocratic'''
+| {{icon|levies}} 30%
+| {{icon|gold}} 75%
+|-
+| {{icon|nomadic}} '''Nomad'''
+| {{icon|herd}} 10%
+| {{icon|gold}} 25%
+|-
+| {{icon|government republic}} '''Republic'''
+| {{icon|levies}} 10%
+| {{icon|gold}} 20%
+|-
+| {{icon|government theocracy}} '''Theocratic'''
+| {{icon|levies}} 10%
+| {{icon|gold}} 10%
+|-
+| {{icon|tribal}} '''Tribal'''
+| {{icon|levies}} 0%
+| {{icon|gold}} 0%
+|-
+| {{icon|wanua}} '''Wanua'''
+| {{icon|levies}} 0%
+| {{icon|gold}} 0%
+|}
+
+=== Factions ===
+Factions are organized groups that are united against their liege for a common purpose. As long as their issue isn't resolved, they will keep growing until they will be large enough to deliver an ultimatum to the liege.
+
+All factions have two important values: military power and discontent.
+* '''Military Power''' is the ratio between the combined military strength of all faction members and the military strength of the liege. When the ratio is above 80% the Faction will gain discontent and when the ratio is below 80%, the faction will lose discontent.
+* '''Discontent''' is a measure of how close the faction is to sending their ultimatum. How fast Discontent increases or falls depends on how far above or below the Military Power threshold the faction is.
+
+A faction will deliver its ultimatum shortly after discontent reaches 100%. It can also send the ultimatum early if the liege [[tyranny|unjustly]] imprisons someone. Player-led factions can send the ultimatum at any time. If the ultimatum is accepted, the liege will lose {{red|-20}} {{iconify|Dread}} and {{iconify|Legitimacy}}. If it is refused, it will start a civil war.
+
+There are 6 types of factions.
+{| class="mildtable"
+! Type
+! Ultimatum
+! Military power
+! Members
+! Requires military power for discontent
+! AI Cannot form during the first
+|-
+| [[File:Independence faction.png|50px]] Independence
+| 
+* All faction members become independent
+* Liege loses 150 {{iconify|Prestige}}
+| Members' [[army|armies]]
+| {{iconify|Vassal}}s
+| style="text-align: center; | {{icon|yes}}
+| rowspan=4 | 10 years if {{iconify|Emperor}}<br>5 years if {{iconify|King}}<br>1 year otherwise
+|-
+| [[File:Nation fracturing faction.png|50px]] Dissolution
+| 
+* Liege's primary title is destroyed
+* Liege loses 150 {{iconify|Prestige}}
+* If liege is an {{iconify|Emperor}} it also destroys all held {{iconify|Kingdom}}s
+| Members' armies
+| {{iconify|Vassal}}s
+| style="text-align: center; | {{icon|yes}}
+|-
+| [[File:Claimant faction.png|50px]] Claimant
+| 
+* Claimant gains the claimed title
+* Every faction member gains a {{icon|Weak Hook}} [[weak hook]] on the claimant
+| Members' armies
+| {{iconify|Vassal}}s
+| style="text-align: center; | {{icon|yes}}
+|-
+| [[File:Liberty faction.png|50px]] Liberty
+| 
+* Liege lowers crown authority
+* Liege loses 200 {{iconify|Prestige}}
+| Members' armies
+| {{iconify|Vassal}}s
+| style="text-align: center; | {{icon|yes}}
+|-
+| [[File:Populist faction.png|50px]] Populists
+| 
+* All faction members form an independent realm
+* Liege loses a level of fame
+| 25% to 50% of each county's {{iconify|Levies}}
+| {{icon|county}} Counties
+| style="text-align: center; | {{icon|yes}}
+| 5 years
+|-
+| [[File:Peasant faction.png|50px]] Peasant Rabble
+| 
+* All faction members get {{red|-75}} {{iconify|Control}}
+* All faction members get {{red|-50%}} {{iconify|Control}} growth and {{green|+30}} {{icon|opinion}} [[popular opinion]] for 10 years
+| 50% to 100% of each county's {{iconify|Levies}}
+| {{icon|county}} Non-nomadic counties
+| style="text-align: center; | {{icon|no}}
+| Can always form
+|-
+| [[File:Nomadic faction.png|50px]] Nomads
+| 
+* All faction members form an independent realm
+* Liege loses a level of fame
+| 50% to 100% of each county's {{iconify|Levies}}
+| {{icon|county}} Nomadic counties
+| style="text-align: center; | {{icon|no}}
+| Can always form
+|}
+
+Vassals cannot join a faction against a liege if they are landless, underage, the liege's friend, lover or ally, the liege has a {{iconify|Strong Hook}} or truce with them or they have at least {{green|80}} {{iconify|Opinion}} of the liege. They also cannot join a faction if they are terrified unless discontent is rising. If one of these requirements is met after a character joins a faction, the character will leave the faction. They can however be forced into a faction by the use of a hook. Vassals with {{icon|governor efficiency}} Administrative government can only create factions if their title rank is {{iconify|King}}.
+
+The [[File:Independence faction.png|24px]] Independence faction cannot form within the Mongol Empire or Roman Empire.
+
+==== Civil wars ====
+If a faction's ultimatum is refused, it will start a Civil War. During a Civil War, faction members stop providing taxes and levies to the liege and their liege loses access to certain powers such as imprisonment. All faction members will turn hostile to both the liege and all vassals that did not join the faction, though they will focus on fighting the liege.
+* If the war ends in [[white peace]], the liege will gain an imprisonment reason against all faction members.
+* If the war is won by the faction, they will enforce the faction's ultimatum.
+* If the war is won by the liege, all faction members are imprisoned and the liege gains {{green|+20}} {{iconify|Dread}}. If the faction was caused by {{icon|opinion}} popular opinion, each rebelling county will gain {{green|+20}} {{icon|opinion}} popular opinion for 10 years. The liege will also have cause to [[Titles#Revocation|revoke]] a title from each faction member (allowing the liege to revoke a title without gaining tyranny).
+
+==== Empire of Japan factions ====
+{{expansion|auh}}
+Vassals of Empire of Japan unlock the following additional factions. Vassals with {{iconify|Ritsuryō}} or {{iconify|Sōryō}} government can only create factions if they are house head and their house is leading a bloc with sufficient Cohesion.
+{| class="mildtable"
+! Type
+! Ultimatum
+! Required Cohesion if part of a bloc
+|-
+| [[File:Imperial policy faction.png|50px]] Imperial Policy
+| 
+* Faction leader chooses a new Imperial Policy law for the liege
+* Liege loses 200 {{iconify|Prestige}}
+| 50
+|-
+| [[File:Japanese replace regent faction.png|50px]] Install Ruling Regent
+| 
+* Faction leader replaces the liege
+* Former liege loses 500 {{iconify|Prestige}}
+| 75
+|-
+| [[File:Ceremonial claimant faction.png|50px]] Ceremonial Claimant
+| 
+* Faction leader replaces the liege
+* Claimant gains the Chrysanthemum Throne title
+* Former liege loses 500 {{iconify|Prestige}}
+| 75
+|-
+| [[File:Restore ceremonial liege faction.png|50px]] Restore Ceremonial Monarch
+| 
+* Holder of the Chrysanthemum Throne title replaces the liege
+* Former liege loses 500 {{iconify|Prestige}}
+| 75
+|}
+AI rulers cannot create these factions during the first 10 years of the game.
+
+== Tributaries ==
+A tributary is the most independent subject type, paying tribute in exchange for a truce with a ruler with higher or equal title rank, called their suzerain. Rulers with {{iconify|Nomadic}}, {{iconify|Celestial}} and {{iconify|Mandala}} government can have tributaries regardless of authority law and can ask their neighbors to become tributaries. Other governments can only have tributaries after increasing their authority law to level 2 and can only gain them through war. Independent rulers can always offer to become tributaries to rulers that can have them. Tributary borders are visible on the map.
+
+Independent rulers can only become tributaries of a {{iconify|Hegemony}} by paying tribute once first, and they will be expected to further pay tribute on a regular basis.
+
+Every tributary except Herder has a contract with their suzerain, which can only be changed once per character and determines their obligations as well as whether they have special rights. What tribute options are available in the contract depends on the tributary type. Herder tributaries do not have a contract and give 20% of their {{iconify|Herd}} to their suzerain instead.
+{| class="mildtable plainlist"
+! Tributary type
+! Tribute options
+! None effect
+! Low effects
+! Medium effects
+! High effects
+! Extortionate effects
+! Suzerain government
+|-
+| rowspan=2 | [[File:Tributary subjugated.png]] Subjugated
+| Taxes
+| 
+* {{icon|gold}} 0% Tax
+* {{icon|opinion}} {{green|+20}} Opinion
+| 
+* {{icon|gold}} 15% Tax
+* {{icon|opinion}} {{green|+10}} Opinion
+| 
+* {{icon|gold}} 30% Tax
+* {{icon|opinion}} {{red|-10}} Opinion
+| 
+| 
+| rowspan=2 | 
+* {{iconify|Tribal}}
+* {{iconify|Feudal}}
+* {{iconify|Clan}}
+* {{icon|governor efficiency}} Administrative
+|-
+| Prestige
+| 
+* {{icon|prestige}} 0% Prestige
+* {{icon|opinion}} '''0''' Opinion
+| 
+* {{icon|prestige}} 10% Prestige
+* {{icon|opinion}} {{red|-10}} Opinion
+| 
+* {{icon|prestige}} 25% Prestige
+* {{icon|opinion}} {{red|-25}} Opinion
+| 
+| 
+|-
+| rowspan=3 | [[File:Tributary settled.png]] Settled
+| Taxes
+| 
+* {{icon|gold}} 0% Tax
+* {{icon|opinion}} '''0''' Opinion
+| 
+* {{icon|gold}} 25% Tax
+* {{icon|opinion}} {{red|-10}} Opinion
+| 
+* {{icon|gold}} 50% Tax
+* {{icon|opinion}} {{red|-30}} Opinion
+| 
+| 
+| rowspan=3 | {{iconify|Nomadic}}
+|-
+| Prestige
+| 
+* {{icon|prestige}} 0% Prestige
+* {{icon|opinion}} '''0''' Opinion
+| 
+* {{icon|prestige}} 10% Prestige
+* {{icon|opinion}} {{red|-10}} Opinion
+| 
+* {{icon|prestige}} 25% Prestige
+* {{icon|opinion}} {{red|-25}} Opinion
+| 
+| 
+|-
+| Levies
+| 
+* {{icon|levies}} 0% Levies
+* {{icon|opinion}} '''0''' Opinion
+| 
+* {{icon|levies}} 25% Levies
+* {{icon|opinion}} {{red|-10}} Opinion
+| 
+* {{icon|levies}} 50% Levies
+* {{icon|opinion}} {{red|-30}} Opinion
+| 
+| 
+|-
+| rowspan=2 | [[File:Tributary nomadic.png]] Nomadic
+| Herd
+| 
+* {{icon|herd}} 0% Herd
+* {{icon|opinion}} '''0''' Opinion
+| 
+* {{icon|herd}} 5% Herd
+* {{icon|opinion}} {{red|-5}} Opinion
+| 
+* {{icon|herd}} 10% Herd
+* {{icon|opinion}} {{red|-10}} Opinion
+| 
+* {{icon|herd}} 25% Herd
+* {{icon|opinion}} {{red|-25}} Opinion
+| 
+* {{icon|herd}} 40% Herd
+* {{icon|opinion}} {{red|-35}} Opinion
+| rowspan=2 | {{iconify|Nomadic}}
+|-
+| Prestige
+| 
+* {{icon|prestige}} 0% Prestige
+* {{icon|opinion}} '''0''' Opinion
+| 
+* {{icon|prestige}} 15% Prestige
+* {{icon|opinion}} {{red|-10}} Opinion
+| 
+* {{icon|prestige}} 30% Prestige
+* {{icon|opinion}} {{red|-25}} Opinion
+| 
+| 
+|-
+| rowspan=3 | [[File:Tributary mandala.png]] Mandala
+| Taxes
+| 
+* {{icon|gold}} 0% Tax
+* {{icon|opinion}} {{green|+5}} Opinion
+| 
+* {{icon|gold}} 2.5% Tax
+* {{icon|opinion}} '''0''' Opinion
+| 
+* {{icon|gold}} 10% Tax
+* {{icon|opinion}} {{red|-5}} Opinion
+| 
+* {{icon|gold}} 15% Tax
+* {{icon|opinion}} {{red|-20}} Opinion
+| 
+* {{icon|gold}} 25% Tax
+* {{icon|opinion}} {{red|-30}} Opinion
+| rowspan=3 | {{iconify|Mandala}}
+|-
+| Levies
+| 
+* {{icon|levies}} 0% Levies
+* {{icon|opinion}} '''0''' Opinion
+| 
+* {{icon|levies}} 15% Levies
+* {{icon|opinion}} {{red|-5}} Opinion
+| 
+* {{icon|levies}} 30% Levies
+* {{icon|opinion}} {{red|-10}} Opinion
+| 
+* {{icon|levies}} 45% Levies
+* {{icon|opinion}} {{red|-25}} Opinion
+| 
+* {{icon|levies}} 60% Levies
+* {{icon|opinion}} {{red|-35}} Opinion
+|-
+| Piety
+| 
+* {{icon|piety}} 5% Piety
+* {{icon|opinion}} {{green|+5}} Opinion
+| 
+* {{icon|piety}} 10% Piety
+* {{icon|opinion}} {{red|-5}} Opinion
+| 
+* {{icon|piety}} 15% Piety
+* {{icon|opinion}} {{red|-20}} Opinion
+| 
+| 
+|-
+| rowspan=2 | [[File:Tributary celestial.png]] Hegemonic
+| Taxes
+| 
+* {{icon|gold}} 0% Tax
+* {{icon|opinion}} '''0''' Opinion
+* {{icon|legitimacy}} {{green|+0.1}} Tributary Monthly Legitimacy
+| 
+* {{icon|gold}} 5% Tax
+* {{icon|opinion}} {{red|-10}} Opinion
+* {{icon|legitimacy}} {{green|+0.2}} Tributary Monthly Legitimacy
+| 
+* {{icon|gold}} 10% Tax
+* {{icon|opinion}} {{red|-15}} Opinion
+* {{icon|legitimacy}} {{green|+0.3}} Tributary Monthly Legitimacy
+| 
+* {{icon|gold}} 25% Tax
+* {{icon|opinion}} {{red|-30}} Opinion
+* {{icon|legitimacy}} {{green|+0.5}} Tributary Monthly Legitimacy
+| 
+| rowspan=2 | {{iconify|Celestial}}
+|-
+| Prestige
+| 
+* {{icon|prestige}} 0% Prestige
+* {{icon|opinion}} '''0''' Opinion
+* {{icon|legitimacy}} {{green|+0.1}} Tributary Monthly Legitimacy
+| 
+* {{icon|prestige}} 5% Prestige
+* {{icon|opinion}} {{red|-10}} Opinion
+* {{icon|legitimacy}} {{green|+0.2}} Tributary Monthly Legitimacy
+| 
+* {{icon|prestige}} 10% Prestige
+* {{icon|opinion}} {{red|-15}} Opinion
+* {{icon|legitimacy}} {{green|+0.3}} Tributary Monthly Legitimacy
+| 
+* {{icon|prestige}} 25% Prestige
+* {{icon|opinion}} {{red|-30}} Opinion
+* {{icon|legitimacy}} {{green|+0.5}} Tributary Monthly Legitimacy
+| 
+|-
+| rowspan=3 | [[File:Tributary mandala tribal.png]] Wanua
+| Taxes
+| 
+* {{icon|gold}} 0% Tax
+* {{icon|opinion}} '''0''' Opinion
+| 
+* {{icon|gold}} 25% Tax
+* {{icon|opinion}} {{red|-15}} Opinion
+| 
+* {{icon|gold}} 50% Tax
+* {{icon|opinion}} {{red|-35}} Opinion
+| 
+| 
+| rowspan=3 | {{iconify|Wanua}}
+|-
+| Prestige
+| 
+* {{icon|prestige}} 0% Prestige
+* {{icon|opinion}} '''0''' Opinion
+| 
+* {{icon|prestige}} 10% Prestige
+* {{icon|opinion}} {{red|-15}} Opinion
+| 
+* {{icon|prestige}} 25% Prestige
+* {{icon|opinion}} {{red|-30}} Opinion
+| 
+| 
+|-
+| Barter Goods
+| 
+* {{icon|barter goods}} 0% Barter Goods
+* {{icon|opinion}} '''0''' Opinion
+| 
+* {{icon|barter goods}} 10% Barter Goods
+* {{icon|opinion}} {{red|-15}} Opinion
+| 
+* {{icon|barter goods}} 15% Barter Goods
+* {{icon|opinion}} {{red|-30}} Opinion
+| 
+| 
+|-
+| rowspan=2 | [[File:Tributary steppe.png]] Steppe
+| Taxes
+| 
+* {{icon|gold}} 0% Tax
+* {{icon|opinion}} '''0''' Opinion
+| 
+* {{icon|gold}} 25% Tax
+* {{icon|opinion}} {{red|-10}} Opinion
+| 
+* {{icon|gold}} 50% Tax
+* {{icon|opinion}} {{red|-30}} Opinion
+| 
+| 
+| rowspan=2 | {{iconify|Meritocratic Khanate}}
+|-
+| Prestige
+| 
+* {{icon|prestige}} 0% Prestige
+* {{icon|opinion}} '''0''' Opinion
+| 
+* {{icon|prestige}} 15% Prestige
+* {{icon|opinion}} {{red|-10}} Opinion
+| 
+* {{icon|prestige}} 30% Prestige
+* {{icon|opinion}} {{red|-25}} Opinion
+| 
+| 
+|}
+For all tributaries except those of China there are also two possible options that may be added to their contract:
+* '''Suzerain Guarantee: Guaranteed''' allows the tributary to call the suzerain into their defensive wars and increase the tributary's {{iconify|Opinion}} by {{green|+25}}.
+* '''Tributary War Support: Forced''' brings the tributary into the suzerain's wars and reduces their {{iconify|Opinion}} by {{red|-25}} and is only available if the tributary is Obedient or a Blood Brother.
+
+Tributaries have a yearly chance to stop paying tribute depending on their military strength relative to that of their suzerain. Should that happen, the suzerain will have the option to either let them become independent or go to war.
+
+=== Pay tribute ===
+{{expansion|auh}}
+Tributaries can travel to their suzerain directly to pay tribute via the Pay Tribute decision. The amount of tribute paid depends on culture era and whether the suzerain is a {{iconify|Rival}} or [[File:Nemesis.png|24px]] Nemesis. The following tribute options are available:
+* {{iconify|Gold}} is available to every tributary that does not have Treasury.
+* {{iconify|Treasury}} is available to every tributary uses the resource.
+* {{iconify|Herd}} is available to Nomadic tributaries.
+* {{iconify|Artifact}} is available to tributaries that have an unequipped artifact.
+* {{iconify|Concubine}} is available if the suzerain has the Concubines tenet or tradition and can take additional concubines. Unlike other forms of tribute this one requires the suzerain to accept the concubine.
+* {{iconify|Eunuch}} is available if the suzerain's culture has the Court Eunuchs, Byzantine Traditions, Palace Politics or Court Machinations tradition and requires the tributary to have a courtier with the trait.
+Once the tribute is selected the character will start traveling to the suzerain's capital. Once there the tributary will receive one of the following rewards:
+* 100 {{iconify|Legitimacy}}.
+* An artifact of random quality. Quality cannot be Illustrious unless the tributary and the suzerain are best friends.
+* A county modifier in the realm capital that lasts for 10 years and gives {{green|+10%}} {{icon|gold}} Tax and {{green|+20%}} {{iconify|Development}}.
+* An innovation. This is only available if the characters have different cultures and the suzerain's culture has an innovation the tributary's culture doesn't.
+* A courtier of the suzerain's faith with the {{iconify|Monk}} trait. This is only available if the suzerain's government is {{iconify|Mandala}}, the tributary has an unreformed faith and the characters do not follow the same faith.
+* {{iconify|Treasury}} that scales with amount of tribute paid and the suzerain's opinion. This is only available if the suzerain is Hegemon of China and will be converted into {{iconify|Gold}} if the tributary does not use {{iconify|Treasury}}.
+The tributary can try a random skill challenge to choose the gift but if the challenge is failed it will gain 5 {{iconify|Stress}}.
+
+Hegemons can ask tributaries to pay tribute and can ask what kind. The tributary must accept and if is refuses it will lose 50 {{iconify|Legitimacy}}.
+
+=== Tributaries of hegemonies ===
+Independent rulers unlock the Pay Tribute decision on {{icon|hegemony}} Hegemons too and using it is necessary to become a tributary. Tributaries of hegemonies track a value called Subject Standing, or Imperial Grace if the suzerain is China, which ranges from 0 to 100 and is visible when reviewing the contract. Unlike other subject contracts, their contracts can be changed every 5 years. Tributaries can only request a change in their contract if they have at least 20 Subject Standing and decreasing an obligation without increasing the other costs 10 Subject Standing for each level. New tributaries, as well as the tributaries present at start of the game, will have 25 Subject Standing. Every time the tributary pays tribute they will receive between 5 and 15 Subject Standing if they did not attempt or failed the skill challenge and between 20 and 30 Subject Standing if they succeeded the skill challenge. AI hegemons are more likely to demand that tributaries pay their tribute if their Subject Standing is low. Subject Standing decreases by 1 each year and if the suzerain is China this decrease is doubled if the Dynastic Cycle era is [[File:Dynastic cycle phase expansion.png|24px]] Expansion and tripled if it is [[File:Dynastic cycle phase instability.png|24px]] Tension or [[File:Dynastic cycle phase conquest.png|24px]] Conquest.
+
+==== Tributaries of China ====
+{{expansion|auh}}
+Tributaries of China can be offered Seals of Investiture artifacts if their Imperial Grace is sufficient when they pay tribute. They need 70 if {{iconify|Count}}, 50 if {{iconify|Duke}} and 30 if {{iconify|King}} and above. Accepting the artifact costs 500 {{iconify|Treasury}} or {{iconify|Gold}} and gives {{green|+50}} {{iconify|Legitimacy}}. Refusing the artifact costs 50 {{iconify|Legitimacy}} and 50 {{iconify|Opinion}} with the Hegemon of China. Having a Seal of Investiture unlocks the following contract privileges:
+* '''Family Access''' increases the tributary's Marriage Acceptance with members of the suzerain's dynasty and removes the Marriage Acceptance penalties from having different cultures
+* '''Market Access''' gives the tributary up to {{green|+50%}} {{iconify|Development}} Growth in its realm capital
+* '''Palace Access''' makes the tributary an active participant in the Dynastic Cycle situation and gives them {{iconify|Movement Power}}
+
+== Lessees ==
+Lessees are clergy subjects who own baronies. Their baronies are still considered part of its holder's realm, but provides levies and taxes to its lessee instead, and does not count towards the domain limit of either of them. The game considers a character with only leased titles to be unlanded. A lessee can also be a vassal if they have a County or higher title.
+
+When founding a holy order, a castle or city must be leased to the order. Leases to holy orders can be revoked, although this costs 500 {{iconify|Piety}}, 40 {{iconify|Opinion}} with the holy order's grandmaster's, 20 opinion {{iconify|Opinion}} with the head of faith of the holder, and will destroy the holy order entirely if its last lease is revoked.
+
+=== Realm priests ===
+When a ruler's religion has the {{iconify|Theocratic}} clerical tradition, temple holdings are leased to the [[File:Bishop job.png|24px]] Realm Priest councilor. The realm priest provides their liege with taxes and levies based on their opinion. The minimum is at {{red|0}} opinion, where no taxes or levies are provided, and the maximum is at {{green|50}} opinion, where 50% of the taxes and 100% of the levies are provided. Unlike leases to holy orders, there is no option to revoke leased temple holdings.
+
+For vassals of the same religion, a vassal's income from their realm priest's church holdings are not directly taxed by their liege. The vassal's realm priest provides their liege's realm priest with 25% of their temples' taxes, and 15% of their temples' levies. This vassal realm priest contribution is provided by the liege realm priest to the liege at the same rate as directly leased holdings. Vassals of different religions are skipped in the hierarchy of lease payments. In addition, if the [[Faith]] also has a Spiritual [[Head of faith|Head of Faith]], then the Realm Priest of the independent landed characters (i.e. the top lieges) pay that 15% taxes and the 25% levies to the said Head of Faith.
+
+If you have multiple domain counties that have temple holdings, your Realm Priest would have multiple holdings under his/her management. In such case, it may be beneficial to have a Realm Priest that has high stewardship/martial to enjoy the benefit of extra taxes/levies.  At 50+ opinion, each point of your Realm Priest's stewardship would give you 1% more taxes and each point of martial would give you 2% more levies, from all such temple holdings.
+
+== References ==
+<references/>
+{{Mechanics navbox}}
+[[Category:Realm]]
